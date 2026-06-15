@@ -1,0 +1,601 @@
+/* ===================================================================
+   T42 — VIAGGIOPERDUE · ARCHIVIO DEI CONTENUTI
+   ===================================================================
+
+   QUESTO È L'UNICO FILE CHE DEVI MODIFICARE PER AGGIORNARE IL SITO.
+   Non toccare gli altri file (index.html, categoria.html, stile.css...).
+
+   COME AGGIUNGERE UNA NUOVA SCHEDA
+   --------------------------------
+   1. Trova qui sotto la categoria giusta (locande, trattorie, luoghi,
+      artigiani, vignaioli).
+   2. Copia un blocco esistente — tutto ciò che sta tra una graffa
+      aperta {  e la graffa chiusa con la virgola  },
+   3. Incollalo subito sotto, dentro le parentesi quadre [ ... ].
+   4. Cambia i testi tra virgolette. Lascia stare i nomi prima dei due punti
+      (titolo, luogo, testo...): quelli servono al sito per riconoscere i dati.
+   5. Salva e ricarica il file su Aruba. Fatto.
+
+   ATTENZIONE ALLE VIRGOLETTE
+   --------------------------
+   Il testo va sempre tra "virgolette doppie".
+   Se nel testo ti serve una virgoletta, usa quelle ‘singole’ o «caporali».
+   Ogni blocco { } va chiuso con una virgola, tranne eventualmente l'ultimo.
+
+   IL CAMPO "telefono"
+   -------------------
+   Scrivi il numero senza spazi, con prefisso internazionale, es: "+390532000000".
+   Sul sito diventerà un pulsante che avvia la chiamata dal cellulare.
+   Se non c'è numero, lascia le virgolette vuote: ""
+
+   IL CAMPO "mappa"
+   ----------------
+   Incolla l'indirizzo o il nome del luogo, es: "Stadera, Ferrara".
+   Diventerà un pulsante che apre le indicazioni stradali.
+
+   IL CAMPO "immagine"
+   -------------------
+   Scrivi il nome del file foto che hai caricato nella cartella "assets",
+   es: "assets/stadera.jpg". Se non hai foto, lascia "".
+=================================================================== */
+
+const T42 = {
+
+  /* ---- Testi della pagina iniziale (home) ---- */
+  sito: {
+    nome: "Viaggioperdue",
+    sigla: "T42",
+    logo: "assets/logo-t42.png",          /* logo a colori, per fondo chiaro */
+    logoBianco: "assets/logo-t42-bianco.png", /* logo bianco, per il piè di pagina scuro */
+    payoff: "Esistono luoghi dove il tempo sembra essersi fermato. Esistono persone che sanno fermarsi in questi luoghi.",
+    introduzione: "Siamo un gruppo di amici legati dalla passione per i viaggi, la buona tavola e i vini che esprimono l’essenza di un territorio. Amiamo l’arte, la storia e i borghi che hanno molto da raccontare. Cerchiamo destinazioni oltre i luoghi comuni. Una risorsa tascabile, senza fronzoli, da consultare ogni volta che desiderate un suggerimento su dove andare.",
+    instagram: "https://www.instagram.com/",   /* ← metti qui l'indirizzo del tuo profilo */
+
+    /* ---- Stile immersivo della home (ispirato a Domitur) ---- */
+    hero: "assets/hero.jpg",                   /* grande foto a tutto schermo */
+    heroTitolo: "Viaggioperdue",
+    heroSotto: "Esistono luoghi dove il tempo sembra essersi fermato.",
+
+    /* le tre sezioni a parola singola che si incontrano scorrendo */
+    sezioni: [
+      { parola: "Scopri",   testo: "Borghi, scogliere, città d’acqua: destinazioni oltre i luoghi comuni.", immagine: "assets/borgo-mare.jpg" },
+      { parola: "Vivi",     testo: "Locande e dimore dove il tempo rallenta e l’ospitalità è un’arte.", immagine: "assets/locanda-mare.jpg" },
+      { parola: "Assapora", testo: "Ristoranti, vignaioli e artigiani che custodiscono i sapori di un territorio.", immagine: "assets/campanini.jpg" }
+    ]
+  },
+
+  /* ---- Il racconto che illustra lo spirito del progetto ----
+     Ogni stringa tra virgolette è un paragrafo. Per aggiungerne uno,
+     mettilo tra virgolette e chiudilo con una virgola. ---- */
+  racconto: {
+    titolo: "Appunti di viaggio in Italia",
+    occhiello: "Il racconto",
+    paragrafi: [
+      "C’è un filo che lega questi luoghi, e non è soltanto la strada: è la luce, quella che cambia colore a ogni latitudine, dalle Alpi che toccano il cielo fino al mare che si fa specchio.",
+      "Comincia in montagna, quando l’inverno è ancora padrone. Le baite di larice annerito affondano nella neve, i tetti di pietra sostengono coltri bianche, e gli steccati storti tracciano vecchi confini che nessuno ricorda più. Il sole batte forte ma non scalda; il ghiaccio luccica come zucchero. Dentro una di quelle case, sotto travi annerite da anni di fuochi, l’aria profuma di legno e di resina. Un mazzo di protee bianche in un vaso pieno di pigne, le poltrone consumate, i piatti di ceramica appesi al muro: «il freddo scaccia, la fiamma suscita» (Alceo).",
+      "E poi una cucina, la concentrazione di chi impiatta. Una mano posa con cura qualcosa di scuro e lucido nel piatto bianco, il brodo dorato, la carta bruciata accanto. La montagna sa nutrire chi la rispetta.",
+      "Più in basso, l’Italia si apre come un ventaglio. Urbino in alto, i suoi torrioni di mattoni che bucano il cielo di maggio, i tetti di coppi che digradano verso le colline verdi. Le Marche profumano di fieno e di pietra calda. Le terrazze al crepuscolo, dove una lampada rossa accende il blu cobalto della sera e due bicchieri verdi aspettano. Una bottiglia d’olio, due coperti, il silenzio delle colline che sprofondano nel buio. Cenare così, sospesi tra il giorno e la notte.",
+      "A Firenze l’Arno diventa oro liquido. Il ponte si specchia, le finestre si accendono una a una, e in fondo la ruota panoramica gira piano contro l’ultimo rosa del tramonto.",
+      "Il giardino esplode di colori che sembrano impossibili: amaranti viola fitti come velluto, una petunia rossa che si intrufola dove non dovrebbe. Più in là un giardino all’italiana con la sua peschiera, i papiri, le ninfee, le siepi scolpite e i putti di pietra che vegliano. E poi i banchi del fioraio in città, le ortensie verdi e bordeaux, le rose rosse, il disordine generoso di chi vende bellezza per mestiere.",
+      "Infine il Mediterraneo, con il mare che diventa protagonista assoluto. Portofino con le sue case color pastello strette sull’acqua, le barche all’ancora, la collina di pini che si tuffa nella baia. E il Salento estremo, tra Santa Maria di Leuca e Castro Marina, dove la roccia bianca si spacca e lascia entrare un’acqua color smeraldo, profonda e fredda. I fichi d’India aggrappati alle scogliere, il filo del bucato teso sul nulla, l’orizzonte che si confonde con il cielo.",
+      "Una colazione sotto il pergolato, la tovaglia a rose, la gabbia per uccelli arrugginita, i cipressi come sentinelle: la Toscana che non finisce mai di somigliare a un quadro. E una tavola apparecchiata su un balcone, alta sopra il mare di Peschici, dove l’acqua si stende piatta fino a perdersi e l’unica cosa da fare è sedersi e guardare.",
+      "Questo è il viaggio: dalla neve al sale, dal legno scuro delle baite alla luce bianca del Mediterraneo. Un paese intero che si lascia attraversare stagione dopo stagione, sempre uguale e sempre diverso, come la luce che lo accende."
+    ]
+  },
+
+  /* ---- Le storie lunghe dei luoghi (pagina storia.html?s=...) ----
+     Ogni storia ha una chiave (es. "campanini") richiamata dal campo
+     "storia" di una scheda. titolo, occhiello, sottotitolo e i paragrafi. ---- */
+  storie: {
+    campanini: {
+      occhiello: "Trattoria Campanini · Busseto",
+      titolo: "Una storia di campagna, di tavola e di famiglia",
+      sottotitolo: "Madonna dei Prati — Busseto, nel cuore della Bassa parmense",
+      copertina: "assets/campanini.jpg",
+      paragrafi: [
+        "Imboccata la strada per Madonna dei Prati, cambia il mondo: campi curati, case coloniche, lunghi filari di alberi, silenzio. Ci si avvicina al santuario, quello dove — racconta la memoria del paese — un giovane Giuseppe Verdi suonava l’organo. E proprio di fronte al tempio, da oltre un secolo, sta la trattoria della famiglia Campanini: un luogo che è molto più di un ristorante, perché è diventato un pezzo di memoria corale di tutta la Bassa.",
+        "§ Le origini: dai pellegrini all’osteria",
+        "La storia comincia nel 1911, quando in un locale annesso al santuario, gestito da un parente della famiglia, nacque un punto di ristoro per i pellegrini. Divenne presto un’osteria — in evidente contrasto con la sacralità del luogo — e fu rapidamente chiusa. Lo zio Oppici si trasferì allora nella casa di fronte per continuare l’attività: si facevano salumi, si friggeva la torta fritta. Era il primo nucleo della futura trattoria.",
+        "La famiglia era da sempre legata a questa terra. I Campanini furono mezzadri di Giovannino Guareschi, e fu proprio in quegli anni che si intrecciarono le radici tra il lavoro dei campi e quella vocazione all’ospitalità che sarebbe diventata il marchio del locale. Quando lo zio, che possedeva lo stabile, propose alla famiglia di prendere in mano la trattoria, cominciò davvero la storia che dura ancora oggi.",
+        "§ Nonna Turivia, mamma Maria e i figli",
+        "La gestione vera e propria del locale prese avvio nel giugno del 1968, e subito vi fu introdotto uno dei piatti più tradizionali del territorio: la torta fritta. In cucina lavoravano nonna Turivia e mamma Maria, custodi dei gesti e dei modi di una volta — le paste ripiene, le tagliatelle «come voleva la nonna». La sala, invece, aveva la sua anima in Franca.",
+        "Si ammazzava il maiale per fare i salumi, si facevano i lumi, si cucinava un pranzo completo, di tradizione. Negli anni la trattoria di Madonna dei Prati divenne celebre, frequentatissima: un tempio di delizie culinarie nato di fronte al tempio vero, il santuario.",
+        "§ «La Franca», regina della tavola",
+        "Per oltre quarant’anni, ogni giorno, una donna percorse i più di trenta chilometri che separavano la sua casa di Piacenza dalla trattoria di famiglia. Era Maria Campanini, che tutti però conoscevano come «la Franca» — un nome nato per un errore dell’ufficio anagrafe, dato che portava lo stesso nome della madre.",
+        "Sempre sorridente, lo sguardo curioso e cordiale, dotata di una capacità organizzativa rapida e ferrea ma esercitata con dolcezza, la Franca era diventata la regina della tavola e la maestra dell’accoglienza. Da ragazza sognava di diventare cantante professionista, aveva una bellissima voce; ma rinunciò a quel sogno, e agli studi, per dedicarsi alla trattoria, accanto alla madre e al fratello Stefano. Serviva i clienti con eccezionale generosità, e per lei «quando vedo il santuario di Madonna dei Prati, mi sento a casa mia» non era una frase di circostanza, ma una verità quotidiana.",
+        "La Franca era anche moglie e madre felice: orgogliosissima del marito Pierangelo, dei figli Alice e Fabio e dei nipoti Tommaso e Beatrice, «la nostra gioia». Si è spenta nel luglio del 2019, a 62 anni, dopo aver affrontato con forza eccezionale una malattia incurabile, senza mai perdere il sorriso. La sua scomparsa ha lasciato un vuoto incolmabile nella sala e nel cuore di chi l’ha conosciuta.",
+        "§ La terza generazione: Maria e Stefano",
+        "Oggi la trattoria è condotta dalla signora Maria, molti anni portati con fiera spavalderia, insieme al figlio Stefano: è la terza generazione, e la famiglia continua a muoversi sempre sullo stesso sentiero. Stefano — che si definisce «un ragioniere smesso» ora ai fornelli — ha raccolto l’eredità della sorella e della tradizione di casa.",
+        "Alcune cose sono cambiate, per andare incontro alle esigenze moderne: cotture a bassa temperatura o a vapore, meno grassi, per migliorare il prodotto finale. Ma il principio resta lo stesso: governare le tecniche e i tempi senza rendere tutto standardizzato, custodendo i sapori di una volta.",
+        "§ Il marchio del locale: torta fritta e culatello",
+        "Se c’è un’immagine che riassume la Trattoria Campanini, è quella della torta fritta col culatello. I salumi sono il vero cuore della produzione, il «marchio di fabbrica» della casa. Il segreto, spiega Stefano, comincia con la scelta delle carni — Large white — e con la pazienza: per un buon culatello servono almeno tre anni, e i risultati di un’attesa così lunga sono eccellenti.",
+        "Si propongono stagionature alte, fino a 32 e 42 mesi, e in tavola arrivano sempre due stagionature diverse, perché il cliente possa cogliere l’evoluzione del prodotto — non per «fare del cinema», ma per capire come cambiano e si approfondiscono i sapori. I culatelli, grandi e marezzati, vengono portati in cantina verso giugno o luglio: è in quel momento che il grasso si scioglie un poco, si formano i profumi, si sviluppano i sapori. È un lavoro di grande impegno, che richiede cura quotidiana, ed è anche per questo che la trattoria oggi resta aperta soprattutto nel fine settimana, mentre il lunedì sera continua la tradizione della torta fritta.",
+        "§ Un profumo che resta",
+        "Le chiacchiere, alla fine, lasciano il posto alla tavola: arriva la signora Maria con la fortana, la micca di pane, un grande piatto e un profumo di una volta. È in quel gesto semplice che vive tutta la storia della Trattoria Campanini: una storia di campagna e di famiglia, nata cent’anni fa, che continua a raccontarsi — piatto dopo piatto — nel cuore della Bassa.",
+        "— Testo a cura di una rielaborazione degli articoli della Gazzetta di Parma: «Che bella la Bassa» (23 settembre 2021) e «Se n’è andata la Franca» (4 luglio 2019)."
+      ]
+    },
+    poliform: {
+      occhiello: "Poliform Cafè · Milano",
+      titolo: "La cucina diretta di Mario Iannone",
+      sottotitolo: "Piazza della Scala — nel cuore di Milano",
+      copertina: "assets/poliform-copertina.jpg",
+      paragrafi: [
+        "Un tavolo per due è una pausa dal mondo. Una luce limpida, una sala affacciata sulla piazza, il giusto silenzio per ritrovarsi. Al Poliform Cafè la cucina si fa comprensibile e leggera, pensata soprattutto per il pranzo: nessun piatto difficile, nessuna pesantezza, ma sapori diretti che si lasciano riconoscere.",
+        "§ Lo chef — Mario Iannone",
+        "Ventotto anni, napoletano, Mario Iannone ha sempre fatto un solo mestiere: il cuoco. Cresciuto con quell’idea fin da ragazzo, asseconda­to da una famiglia che a casa cucinava, sceglie l’alberghiero a Napoli — quando ancora lo si frequentava di rado per vocazione — perché voleva davvero imparare.",
+        "Da lì un percorso che attraversa la grande cucina italiana: l’Accademia di Niko Romito, l’esperienza da Spazio, e soprattutto otto anni a Rovello accanto a Michele, in una trattoria dove l’ingrediente è protagonista assoluto. È lì che Mario affina la sua idea di cucina: grandi prodotti trattati con pochissimi fronzoli, una direzione netta e golosa, facile da capire. Poi le aperture più leggere, il Giappone e lo street food, e due ristoranti a Parigi. Tornato in Italia, ritrova Michele e il progetto del Poliform Cafè: un luogo dove costruire qualcosa di duraturo.",
+        "Per lui la ristorazione si divide in due strade: l’esperienza che passa per la cucina, e il mangiare per stare bene — e a volte la seconda, più naturale e diretta, vale più di tante esperienze blasonate. La sua è di pancia, ma misurata.",
+        "§ Il cucchiaio, la frutta, l’animale intero",
+        "Mario parte spesso dalla posata, non dal piatto: ama il cucchiaio, perché raccoglie salsa, zuppa, pasta e secondo in un solo gesto e ricostruisce il piatto in un boccone. Per questo certi piatti li serve con lo gnocchetto invece della linguina — lo spaghetto alle vongole, per dire, col cucchiaio amplifica la cremina e il sapore di mare.",
+        "Non è un grande appassionato di dolci, ma ama la frutta: lavorata in ogni sua sfaccettatura, come ha imparato da Romito, un solo elemento declinato in molti modi fino a scoprire sapori e spigolosità inattese. Ama il pesce e il crudo, le cotture sulla brace, e l’idea — tutta italiana — di non buttare via nulla dell’animale: prendere una bestia intera e usarne ogni parte. Più del piatto in sé, gli interessa il processo: la manualità, il gesto ripetuto mille volte, la costanza che dà sempre lo stesso gusto. «La passione si sente, quando vai a mangiare»: è questo, per lui, ciò che rende un piatto buono.",
+        "§ Il menù",
+        "In abbinamento, un Trebbiano d’Abruzzo DOC Valle Reale, vendemmia 2025. Tra i piatti: insalata di pomodori, robiola e basilico; crudo di pesce pescato con acqua di pomodoro, fragole e nasturzio; pesca alla piemontese con crema chantilly; ricotta di pecora, caffè e polline.",
+        "§ Le mani nella pasta — il racconto di Piera Gandolfo",
+        "Non avrei mai immaginato che la mia strada finisse tra farina e zucchero. Il liceo scientifico, poi una laurea in Lettere Moderne: sulla carta, sembrava tutto deciso. Eppure dentro di me cresceva un bisogno che le parole non riuscivano a soddisfare. Volevo lavorare con le mani, toccare gli ingredienti, sentire la creatività prendere forma sotto le dita. Così ho seguito la mia vera passione, la pasticceria, con accanto, fin da subito, il fascino silenzioso della panificazione.",
+        "Mi sono formata all’ALMA, la scuola fondata da Gualtiero Marchesi, frequentando i corsi base e avanzato. È stato amore a prima vista: quando ho terminato il percorso, sapevo che non avrei più lasciato questo mondo. La mia carriera è cominciata con uno stage alla pasticceria Viscontea, vicino a Sant’Ambrogio a Milano, il mio primo vero laboratorio. Poi è arrivata la Pasticceria Martesana, un’esperienza che mi ha formata in profondità.",
+        "Da lì ho allargato lo sguardo. Per un anno ho lavorato al ristorante gastronomico 142 di Milano, dove lo chef mi ha lasciato esplorare la cucina, affidandomi le preparazioni di laboratorio. Mi sono poi dedicata anima e corpo alla panificazione, passando tre anni accanto ad Aurora Zancanaro de Le Polveri. Il legame con le mie origini mi ha riportata a Imperia, la mia città natale: insieme a un docente dell’ALMA ho curato il rilancio di un locale storico, rinnovando la pasticceria, la linea produttiva e le attrezzature.",
+        "Sono diventata responsabile della Bakery Nowhere, ho collaborato con Toc, una piccola realtà artigianale torinese, e ho lavorato con Pasta Madre nella preparazione dei dolci. Oggi sono al Poliform Cafè di Milano, ed è la mia prima vera esperienza come Pastry Chef in un ristorante: ne sono profondamente soddisfatta.",
+        "Lungo la strada ho fatto una grande riscoperta: i dolci della tradizione, il pilastro da cui nasce tutta la pasticceria. Ho imparato a rivalutarli e a studiarli, perché in loro ogni ingrediente deve farsi sentire, per qualità e per lavorazione. Il processo è tutto. Il mio dolce del cuore resta il tiramisù, e tra le creme scelgo senza esitazione lo zabaione, quella che amo più di ogni altra.",
+        "C’è una cosa, però, che mi rammarica del mondo gastronomico di oggi: il croissant va di moda a discapito della brioche italiana. Eppure la brioche andrebbe servita su un piatto d’argento. È talmente buona, con i suoi aromi di limone, arancia e vaniglia, profumi che nel croissant francese semplicemente non esistono. Se un giorno avrò un laboratorio tutto mio, lo dedicherò ai prodotti da colazione italiani: brioche, veneziana, i dolci che amo di più e che meriterebbero molta più attenzione."
+      ]
+    },
+    castelli: {
+      occhiello: "Maria Pia Castelli · Marche",
+      titolo: "Il vino delle mani sapienti",
+      sottotitolo: "Contrada Sant’Isidoro, Monte Urano — i colli del Piceno verso il mare",
+      copertina: "assets/castelli-copertina.jpg",
+      paragrafi: [
+        "I vignaioli sono una pausa dal mondo. Un filare lavorato a mano, un vitigno che qualcuno ha scelto di non dimenticare, il giusto silenzio per ritrovarsi.",
+        "C’era una terra, là dove le colline del Piceno si piegano dolci verso il mare, in cui il sole e il vento sembravano essersi messi d’accordo per maturare l’uva fino all’ultimo grappolo. Era qui che, nel 1999, un uomo di nome Erasmo Castelli decise di trasformare un sogno in radici.",
+        "Erasmo aveva mani esperte e callose, mani che conoscevano la terra come si conosce un vecchio amico. Aveva guardato per anni quei filari, ascoltato il loro silenzio invernale e il loro fremito primaverile, e un giorno si disse: qui nascerà qualcosa che durerà oltre di me. Non voleva un vino qualunque. Voleva un vino che raccontasse la verità di quel suolo, vendemmia dopo vendemmia, un vino di alta qualità che nessuna scorciatoia avrebbe potuto imitare.",
+        "Così piantò, potò, attese. La pazienza era il suo ingrediente segreto. E quando il primo vino prese corpo nelle botti, Erasmo capì che aveva fatto la cosa giusta: aveva piantato non solo viti, ma un’eredità. Quell’eredità portava un nome — quello di sua figlia, Maria Pia.",
+        "Crescendo tra i tini e il profumo dolceamaro del mosto, Maria Pia respirò la passione del padre fino a farla propria. Quando venne il suo tempo, prese in mano l’azienda insieme al marito, Enrico Bartoletti, e fece una promessa silenziosa: avrebbe custodito ciò che Erasmo aveva costruito, ma lo avrebbe anche fatto crescere. Tradizione e innovazione, le due metà di uno stesso cuore.",
+        "E così avvenne. Maria Pia ed Enrico selezionarono le uve migliori a una a una, affidandosi agli strumenti più moderni senza mai tradire il gesto antico del vignaiolo. In pochi anni, quel piccolo sogno nato tra le colline picene raggiunse vette di qualità che lo portarono ben oltre i confini italiani, fino alle tavole del mondo, riconosciuto come una delle voci più sincere e interessanti del panorama vinicolo del Piceno.",
+        "Oggi, quando si stappa una bottiglia firmata Maria Pia Castelli, non si versa soltanto del vino nel bicchiere. Si versa la passione di un padre, la dedizione di una figlia, e il respiro di una terra che continua, anno dopo anno, a mantenere la promessa fatta tanto tempo fa. Perché certe storie, come certi vini, migliorano soltanto con il tempo.",
+        "§ Stella Flora",
+        "C’è un momento, nel cuore dell’estate picena, in cui la luce smette di essere semplice luce e diventa qualcosa di liquido, dorato, antico. È in quel momento che nasce l’idea di Stella Flora — un vino che non somiglia a nessun altro, perché osa ciò che pochi hanno il coraggio di tentare.",
+        "Tutto comincia tra i filari esposti a nord-est, là dove le viti, vent’anni di radici affondate in un terreno argilloso venato di minerali ferrosi, danno solo trenta quintali per ettaro. Poco, pochissimo. Ma è una scelta, non una rinuncia: meno uva, più anima. Quattro vitigni si danno appuntamento in questo vino — il Pecorino, generoso protagonista a metà del blend; la Passerina, che porta freschezza e luce; e poi il Trebbiano e la Malvasia di Candia, a completare l’armonia con le loro voci più sottili.",
+        "A settembre, mani esperte raccolgono ogni grappolo, uno per uno, senza l’aiuto di alcuna macchina. È un gesto lento, quasi sacro, che Erasmo aveva insegnato e che Maria Pia non ha mai voluto abbandonare.",
+        "Poi accade la magia, o meglio, l’audacia. Perché Stella Flora non segue la strada comoda dei bianchi. Il mosto resta a contatto con le sue bucce per quindici, venti giorni, in vasche di legno, mentre la fermentazione lavora paziente. È da questo abbraccio prolungato che il vino ruba quel colore inconfondibile: sfumature d’oro antico, una tonalità che già all’occhio promette qualcosa di fuori dall’ordinario. E tutto questo con un uso minimo di anidride solforosa, come a dire: lasciamo che il vino sia se stesso, nudo e sincero.",
+        "La fermentazione malolattica si compie in barrique, e lì il vino riposa diciotto lunghi mesi, affinandosi nel silenzio del legno. Poi, ancora, attende in bottiglia — perché Stella Flora non ha fretta. Sa di essere un vino da aspettare.",
+        "Quando finalmente lo si versa nel bicchiere, si capisce perché tanta pazienza. Il naso si apre su profumi di mandarino e arancia amara, attraversati da una traccia sottile di erbe aromatiche, come un soffio di macchia mediterranea. In bocca è secco, sapido, di struttura generosa, con una ricchezza aromatica che riempie e una persistenza che resta, lunga, dopo l’ultimo sorso.",
+        "È un vino libero, Stella Flora. Sta bene con un pollame arrosto, con i lessi di carne, con il pesce e i formaggi — eppure non disdegna di presentarsi da solo, come aperitivo inconsueto, sfidando ogni convenzione. Lo puoi servire fresco o a temperatura ambiente: si adatta, perché ha carattere.",
+        "Dal 2002, anno della sua prima vendemmia, Stella Flora nasce in appena tremilacinquecento bottiglie l’anno. Poche. Preziose. Come le cose fatte non per il mercato, ma per amore.",
+        "Una stella e un fiore nel nome. E nel bicchiere, la prova che a volte, per fare qualcosa di straordinario, basta avere il coraggio di fare diversamente."
+      ]
+    },
+    ragni: {
+      occhiello: "Il Monte dei Ragni · Valpolicella",
+      titolo: "La collina magra che dà il meglio di sé",
+      sottotitolo: "Marega di Fumane, sul crinale da Bure a Mazzurega",
+      copertina: "assets/ragni-copertina.jpg",
+      paragrafi: [
+        "I vignaioli sono una pausa dal mondo. Un filare lavorato a mano, una terra che qualcuno ha scelto di non dimenticare, il giusto silenzio per ritrovarsi.",
+        "C’era una contrada di nome Marega, datata 1450, raggiungibile solo da una vecchia stradina stretta fra due muri di sasso. Era nata come guarnigione, a guardia della vicina Villa della Torre, ma le sentinelle se ne erano andate da secoli, e al loro posto era rimasta la terra: povera, sassosa, pettinata di muretti a secco che la gente del posto chiamava marogne.",
+        "Fu là, sul crinale che sale da Bure fino a Mazzurega, che Santo Ragno si fermò un mattino d’inizio Novecento a guardare il sole battere sulle pergole. Gli altri pensavano al grano, alle bestie, a tirare avanti. Santo invece prese in mano un grappolo e capì qualcosa che nessuno gli aveva insegnato: che quella collina magra, proprio perché magra, era fatta per la vite. La terra che non regala nulla, pensò, costringe la pianta a cercare in profondità — e ciò che trova in fondo, lo restituisce nel bicchiere.",
+        "Lo presero per sognatore. Ma Santo comprò i terreni più a nord, verso Mazzurega, e piantò viti dove altri vedevano solo pietre. Tra un filare e l’altro mise olivi e ciliegi, perché — diceva — una collina deve dare gioia anche prima della vendemmia. E infatti ogni fine marzo, quando i ciliegi fiorivano tutti insieme, il crinale diventava una nuvola bianca sospesa sopra la valle, e perfino i più scettici salivano a guardarla.",
+        "I suoi vini scesero in città. Nei primi decenni del secolo, due osterie rinomate di Verona li versavano direttamente ai loro avventori — il vino del Monte dei Ragni, lo chiamavano, dal nome che gli austriaci avevano scritto sul vecchio catasto, chissà perché, forse per i ragni che tessevano le loro tele d’argento fra le marogne all’alba.",
+        "Passarono le generazioni — cinque, una dopo l’altra — e ognuna aggiunse qualcosa senza tradire l’intuizione di Santo. Oggi sul fondo lavora Zeno Zignoli, e quei sei o sette ettari sono curati come un giardino: oltre cinquemila ceppi per ettaro, vitigni autoctoni, le gemme contate a una a una in fase di potatura, i grappoli esposti all’aria perché il vento li asciughi e li tenga sani.",
+        "In cantina succede la stessa cosa, al contrario: meno è meglio. Pigiature soffici, pressature morbide, quasi nessuna pompa meccanica — il mosto si muove quasi per gravità, con la pazienza di chi non ha fretta. Da quelle uve nascono l’Amarone, il Recioto, il Valpolicella Superiore, e perfino un bianco affinato in anfora, come si faceva mille anni fa. Dalle olive, ancora, l’olio pregiato di sempre.",
+        "Se oggi salite quella stradina fra i due muri di sasso, troverete più o meno ciò che vide Santo Ragno: le pergole aperte al sole, le marogne, i ciliegi che a primavera tolgono il fiato. E in un bicchiere — se avrete la fortuna di fermarvi — sentirete il sapore di una collina magra che, proprio perché non regala niente, ha imparato a dare il meglio di sé."
+      ]
+    },
+    burlotto: {
+      occhiello: "Comm. G. B. Burlotto · Langhe",
+      titolo: "Le mani di Verduno",
+      sottotitolo: "Cinque generazioni nel cuore del Barolo",
+      copertina: "assets/burlotto-copertina.jpg",
+      paragrafi: [
+        "A Verduno, comune storico del Barolo, una famiglia coltiva da centosettant’anni la stessa idea di vino: sobrio, fedele alla terra e ai vitigni che lo generano. È la storia di cinque generazioni — e di una cocciutaggine che ha salvato un’uva.",
+        "Esiste una data, il 1850, ma in casa Burlotto nessuno l’ha mai considerata un inizio. È piuttosto il giorno in cui Giovan Battista Burlotto smise di chiamarsi contadino per chiamarsi vignaiolo — una parola che allora pochi pronunciavano, e ancor meno con convinzione. Le terre c’erano già: il Monvigliero che guarda il paese, i Cannubi più in là, verso Barolo. A cambiare fu lo sguardo.",
+        "“GiBi” decise che da quelle uve non sarebbe uscito soltanto vino, ma un’idea precisa di che cosa il vino dovesse essere: fine, longevo, fedele al luogo che l’aveva fatto. Vennero le medaglie, trentadue, che ancora oggi stanno sulla facciata come una contabilità dell’ostinazione; vennero il riconoscimento come fornitore della Casa Savoia e i premi nelle fiere di qua e di là dall’Oceano.",
+        "Ma Giovan Battista non lasciò in eredità soltanto il successo: lasciò un modo di stare alla terra che il figlio Francesco raccolse senza clamore e che, alla morte prematura di lui, passò al nipote Ignazio.",
+        "A Ignazio toccò la parte più dura. La guerra, l’azienda da reggere da solo e un’uva piccola e testarda che nessun altro vinificava ancora in purezza: il Pelaverga. La coltivava in proprio e ne acquistava poche ceste dai contadini del vicinato, quel tanto che bastava a non lasciarla morire.",
+        "Non era un calcolo commerciale — non c’era mercato per un vino che esisteva quasi solo a Verduno. Era qualcosa di più cocciuto: la convinzione che certe cose, una volta perse, non tornano. Se oggi il Verduno Pelaverga esiste ancora, luminoso e leggero, lo si deve in modo determinante a lui.",
+        "Ignazio morì nel 1968. L’azienda passò alla figlia Marina, allora diciassettenne, con davanti un secolo di nomi e di medaglie. Non si lasciò spaventare. Con il marito Giuseppe Alessandria, e poi con i figli Fabio e Cristina, ha continuato a produrre i vini classici della Langa albese nello stesso solco — non per devozione a un modo arcaico di lavorare, ma perché quella tradizione è una catena di scelte coraggiose, e con essa una responsabilità da assumersi.",
+        "Cinque generazioni dopo quella data che non era un inizio, le mani sono cambiate. Lo sguardo, no."
+      ]
+    },
+    dettori: {
+      occhiello: "Tenute Dettori · Sardegna",
+      titolo: "Ciò che sono, non ciò che vuoi che siano",
+      sottotitolo: "Sennori, in Romangia — artigiani del vino e della terra",
+      copertina: "assets/dettori-copertina.jpg",
+      paragrafi: [
+        "I vignaioli sono una pausa dal mondo. Un filare lavorato a mano, una terra che qualcuno ha scelto di non tradire, il giusto silenzio per ritrovarsi.",
+        "C’è un angolo di Sardegna, a Sennori, nella regione storica della Romangia, dove fare vino è rimasto un gesto antico. Qui i Dettori non si presentano come produttori, ma come vignaioli e artigiani del vino e della terra — e la differenza, per loro, è tutto.",
+        "Il metodo è una forma di rispetto. I vini fermentano nelle tradizionali vasche di cemento, senza piede di partenza; dall’uva delle vigne fino alla bottiglia non si aggiunge nessuna delle sostanze pure ammesse in enologia. Ingredienti, coadiuvanti, additivi: uva, e nient’altro. Non vengono filtrati né chiarificati, si stabilizzano da soli per decantazione naturale e affinano nel solo cemento, dai dieci ai sessanta mesi. Si bevono freschi.",
+        "Da un lavoro così poco forzato nasce una conseguenza bellissima: ogni bottiglia è diversa dall’altra. Per questo ognuna porta un numero, come un’opera che non si ripete.",
+        "Non è una posa recente. Nel 2003, mentre in Italia il vino naturale moveva i primi passi, i Dettori erano già lì — unica cantina sarda a Critical Wine, a Verona, su invito personale di Luigi Veronelli, e al Leoncavallo di Milano. La loro biodinamica è certificata da quello stesso anno.",
+        "Non seguono il mercato: fanno vini che piacciono a loro, fedeli alla cultura della propria terra. Tutta la loro filosofia sta in una riga, che è quasi una dichiarazione d’indipendenza: sono ciò che sono, e non ciò che vuoi che siano.",
+        "E poiché certe cose vanno fino in fondo, lo scrivono perfino sull’etichetta — integralmente prodotto e imbottigliato all’origine, nella zona di produzione. Il cerchio si chiude dove si era aperto: nella terra di Romangia."
+      ]
+    },
+    zidarich: {
+      occhiello: "Azienda Agricola Zidarich · Carso",
+      titolo: "Pietra e radici",
+      sottotitolo: "Prepotto, nel cuore del Carso triestino",
+      copertina: "assets/zidarich-copertina.jpg",
+      paragrafi: [
+        "I vignaioli sono una pausa dal mondo. Una pietra scaldata dal sole, una radice che scende dove sembra non ci sia spazio, il giusto silenzio per ritrovarsi.",
+        "Benjamin lo sapeva da sempre: il Carso non si coltiva, si convince. Lo aveva imparato da bambino, guardando le mani di suo padre infilarsi tra le pieghe della roccia calcarea per cercare quella poca terra rossa che il vento aveva portato chissà da dove, semi e polvere migrati da oriente a occidente, fermati in quella strettoia tra il mare e i monti.",
+        "A Prepotto, nel cuore del Carso triestino, l’azienda era nata nel 1988 con poco più di un’idea ostinata: che da quella pietra inospitale si potesse ancora tirare fuori il verde. Vita e lavoro, diceva Benjamin, sono la stessa cosa qui. La sua terra era anche il suo modo di pensare — fatto di pazienza, di radici che scendono dove sembra non ci sia spazio.",
+        "Per otto anni aveva scavato. Non in senso figurato: la cantina nuova, inaugurata il 3 luglio 2009, era un’opera scolpita nella roccia stessa, venti metri di profondità su cinque piani, milleduecento metri quadrati che respiravano sottoterra. Aveva voluto un soffitto a volte in pietra nella zona d’invecchiamento, come una piccola cattedrale dove il vino potesse dormire al fresco. E in cima, dietro grandi vetrate, la sala di degustazione da cui le vigne sfumavano fino al mare all’orizzonte. Tutto costruito con risorse locali, perché l’uomo del Carso ha sempre usato quello che trovava.",
+        "Nelle botti maturavano i vini delle usanze di una volta. La Vitovska soprattutto, il bianco autoctono nascosto tra secoli di cultura contadina, su cui aveva puntato tutto. La Malvasia arrivata un tempo dall’Istria. Il Prulke, assemblaggio che portava il nome di un toponimo antico. E il Terrano, rosso che solo quella terra rossa, quel microclima, quell’altitudine sapevano rendere unico — paziente, messo in commercio solo due anni dopo la vendemmia.",
+        "Poi c’erano i vini fatti per amore più che per mestiere. Il Ruje, nato dalla sua passione. La Lehte, la Malvasia raccolta nei vigneti che erano stati dei suoi genitori, “ricca di ricordi”, come diceva lui. Ogni bottiglia un pezzo di memoria fermentata.",
+        "A volte, salendo all’ultimo piano della cantina al tramonto, Benjamin si fermava davanti al vetro. Sotto di lui la pietra plasmata dal tempo, le vigne strappate alla roccia, e oltre il mare che si accendeva. Il Carso brullo era tornato verde. Protetto, amato, goduto. E lui, vignaiolo cocciuto tra il mare e il Carso, sapeva che era abbastanza."
+      ]
+    },
+    debartoli: {
+      occhiello: "Marco De Bartoli · Sicilia",
+      titolo: "Il vino come verità",
+      sottotitolo: "Contrada Samperi, Marsala — e l’isola di Pantelleria",
+      copertina: "assets/debartoli-copertina.jpg",
+      paragrafi: [
+        "I vignaioli sono una pausa dal mondo. Una terra calcarea battuta dal sole, un vitigno che qualcuno ha scelto di non tradire, il giusto silenzio per ritrovarsi.",
+        "C’è un nome, in Sicilia, che si pronuncia con rispetto quando si parla di vino: Marco De Bartoli. Perché a lui si deve qualcosa che somiglia a un atto di giustizia — aver riportato il Marsala alle sue radici, restituendogli dignità in un’epoca in cui quel nome glorioso era ormai svalutato.",
+        "Il cuore aziendale batte nel baglio di famiglia in contrada Samperi, a pochi chilometri da Marsala e a breve distanza dal Mediterraneo, su una terra calcarea arida e ricca di minerali che nutre i vigneti. È lì che nasce, nel 1980, il Vecchio Samperi: il primo vino dell’azienda e il suo manifesto. Non un Marsala fortificato, ma un vino che torna al “vino di Marsala” pre-britannico, ottenuto col metodo perpetuo — il soleras: travasi di piccole quantità di vino giovane in botti che già contengono vini più maturi, così da fondere armoniosamente annate diverse in un profilo unico e irripetibile. Proprio perché non rispondeva al disciplinare, poté affermarsi come oggetto senza termini di paragone.",
+        "Il protagonista è il Grillo, in Sicilia dalla metà dell’Ottocento e base storica del Marsala. Da lui nascono anche la Vigna la Miccia, Marsala Superiore Oro più gentile e immediato, la Riserva di dieci anni resa amabile dalla mistella di antica ricetta, e i Grappoli del Grillo, primo bianco fermo dell’azienda da un’uva fino ad allora destinata solo al Marsala, qui valorizzata per struttura e longevità.",
+        "Poi c’è la seconda anima, di là dal mare: Pantelleria. Nel cru Bukkuram — termine arabo che significa “padre della vigna” — dall’uva Zibibbo coltivata sui terreni vulcanici nasce il passito omonimo, espressione luminosa dell’isola e del suo vento.",
+        "Marco era un vignaiolo tenace e meridionalista convinto, persuaso fino all’ostinazione che certe radici meritino di essere difese. Oggi quel lavoro prosegue grazie ai tre figli — Renato, Sebastiano e Giuseppina — che ne custodiscono l’intransigenza e la cura, con una crescente attenzione ai vini d’annata, ai monovarietali e alla sostenibilità.",
+        "Bere un suo vino significa allora bere un pezzo di Sicilia autentica: quella che non si è arresa, che ha riscoperto la propria ragione d’essere e l’ha messa in bottiglia, un sorso alla volta."
+      ]
+    },
+    damijan: {
+      occhiello: "Damijan Podversič · Collio",
+      titolo: "La natura, il seme, il tempo",
+      sottotitolo: "Gorizia, sul confine, dove il vino è lo specchio della vigna",
+      copertina: "assets/damijan-copertina.jpg",
+      paragrafi: [
+        "I vignaioli sono una pausa dal mondo. Una terra ascoltata nei suoi colori e nei suoi cicli, un seme atteso fino al punto giusto, il giusto silenzio per ritrovarsi.",
+        "A Gorizia, sul confine orientale, Damijan Podversič ha fatto dell’ascolto della natura il principio di tutto. «La natura non fa nulla di inutile», amava dire Aristotele: e oggi, sostiene Damijan, non siamo più abituati ad ascoltarla — ma se si presta attenzione ai suoi colori, ai profumi, ai cicli, tutto diventa più chiaro. Per fare un grande vino servono tre cose: una grande terra, una grande varietà, un seme maturo.",
+        "La terra, qui, è la ponca: marna e arenaria, capace di trattenere l’acqua nei mesi estivi e di restituirla al vino come mineralità. Le varietà sono quelle che nel Collio fanno da padrone — la Ribolla Gialla, la Malvasia, il Friulano. È da questo incontro fra suolo e vitigno che nasce tutto il resto.",
+        "§ Il seme",
+        "C’è un momento in cui si decide la vendemmia, e non lo si stabilisce dal calendario, ma camminando tra i filari: osservando i colori del vigneto, dei grappoli, dei vinaccioli, e infine assaggiandoli. Nel seme è racchiusa l’annata intera. Perché — è questa la convinzione di Damijan — il vino è lo specchio della vigna: nessuna correzione in cantina può aggiungere ciò che non è nato nel campo.",
+        "§ Il tempo",
+        "In cantina comanda il tempo, quel grande autore che, diceva Chaplin, trova sempre il finale perfetto. Nei primi mesi il vino viene “firmato” attraverso la macerazione sulle bucce, che ne estrae la croccantezza del frutto, la mineralità del territorio, il ritmo dell’annata. Poi vengono tre anni nel grembo di legno delle botti e un anno in bottiglia. Non si forza nulla: si custodisce ciò che la vigna ha già dato, per ritrovarlo intatto a ogni sorso.",
+        "I suoi vini portano i nomi di questa terra di confine — Kaplja, Malvasia, Nekaj, Pinot Grigio, Prelit, Ribolla Gialla — e dietro ognuno c’è una famiglia e un gruppo di persone legate dall’amicizia e da una stessa idea di bellezza. «Oggi mi sento una persona fortunata», dice Damijan, «perché ho raggiunto i sogni di quando ero bambino». Il vino, in fondo, è la poesia della terra."
+      ]
+    },
+    tecce: {
+      occhiello: "Luigi Tecce · Irpinia",
+      titolo: "Il poeta del vino",
+      sottotitolo: "Paternopoli, contrada Trinità, nel cuore del Taurasi",
+      copertina: "assets/tecce-copertina.jpg",
+      paragrafi: [
+        "I vignaioli sono una pausa dal mondo. Una vigna antica allevata a raggiera, un vitigno che racconta la sua terra, il giusto silenzio per ritrovarsi.",
+        "A Paternopoli, in contrada Trinità, nel cuore della DOCG Taurasi, lavora un uomo che molti, in Irpinia e oltre, chiamano un poeta del vino. Luigi Tecce è la quarta generazione di una famiglia di viticoltori: prende le redini dell’azienda nel 1997, coltivando poco più di un ettaro, e da subito fa una scelta netta — cambiare le tecniche senza tradire l’anima.",
+        "Con lui il cambio generazionale diventa una piccola rivoluzione gentile: è il primo della famiglia a imbottigliare in proprio, rinuncia alla chimica e alle macchine, ma conserva intatta la sensibilità dei nonni. Non è nostalgia: è la convinzione che certe cose si possano fare solo con le mani e con il tempo.",
+        "Oggi le vigne si estendono per circa cinque ettari, frazionate in piccoli appezzamenti esposti a sud, tra i cinquecento e i seicento metri d’altitudine. Il nucleo storico è fatto di piante secolari, allevate per lo più nella forma tradizionale della raggiera avellinese. Diserbanti e insetticidi sono banditi; i trattamenti, quando servono davvero, si fanno solo con rame e zolfo. L’idea è semplice e severa: assecondare la natura, cercando l’equilibrio fra le piante, il suolo e il clima.",
+        "Controcorrente per natura, Luigi trasmette il proprio carattere anche nei vini, e perfino nei loro nomi, che sanno di letteratura. Il T’Aglianico “Satyricon”, il Taurasi “Poliphemo”, il “Puro Sangue”: vini di grande energia, che spiccano nel panorama irpino e ne racchiudono l’anima — quella di un Aglianico fiero, figlio di una terra alta e di una pazienza che non ammette scorciatoie.",
+        "Sono poche bottiglie, ognuna con dentro un pezzo di Irpinia e un verso non scritto. Perché certi vini, come certe poesie, non si spiegano: si ascoltano."
+      ]
+    },
+    pietrelevate: {
+      occhiello: "Pietre Levate · Cilento",
+      titolo: "Per pochi, per scelta",
+      sottotitolo: "Ottati, nella Valle del Fasanella, ai piedi degli Alburni",
+      copertina: "assets/pietrelevate-copertina.jpg",
+      paragrafi: [
+        "I vignaioli sono una pausa dal mondo. Una vigna strappata alla pietra, un vitigno che racconta la sua terra, il giusto silenzio per ritrovarsi.",
+        "Può un vino nascere come omaggio e ringraziamento alla generazione che ci ha preceduto? Può farsi simbolo di resistenza, contro lo svuotamento e l’impoverimento della terra d’origine? Se nasce dall’amore e per l’amore, la risposta è sì. È la domanda da cui prende vita il Pietre Levate.",
+        "Siamo a Ottati, nella Valle del Fasanella, alle pendici meridionali dei Monti Alburni — l’imponente complesso calcareo e carsico che apre il Parco Nazionale del Cilento, Vallo di Diano e Alburni. Un luogo tra i più incontaminati del pianeta, di bellezza antica e selvaggia, a tratti lussureggiante e a tratti lunare: da oltre vent’anni Patrimonio Mondiale dell’Unesco, e unico parco della Campania nella rete dei Global Geoparks. Non è un caso che proprio qui, fra natura pura, qualità della vita e dieta mediterranea, viva una delle più alte concentrazioni di centenari al mondo.",
+        "Da questo sguardo amorevole nasce il vino. I numeri sono più che piccoli: circa mille piante di Aglianico su duemiladuecento metri quadrati, per una produzione che si ferma, per scelta, a sole 528 bottiglie l’anno.",
+        "Il nome racconta la fatica della terra. Sbancando un terreno accanto alla vecchia vigna, le pietre da “levare” sembravano non finire mai — di qui anche la difficoltà di lavorare con i mezzi meccanici. Argilla e limo, certo, per la ricchezza del suolo, ma anche tanto scheletro carsico: ed è proprio questo a dare al vino una finezza diversa dalle versioni ricche e opulente della costa.",
+        "Impiantata nel 2010, con la prima vendemmia produttiva nel 2013, la cantina ha avuto da subito le idee chiare: prima di tutto il legame con la terra. Per questo si è scelta la terracotta — un’anfora a forma di uovo da 450 litri, inerte ma porosa, che lascia respirare il vino con una delicata microossigenazione, senza cedergli nulla, e ne asseconda l’evoluzione naturale. Dal 2021 l’azienda è certificata biologica, per coerenza con la propria filosofia e con l’ambiente che la circonda.",
+        "All’assaggio è un Aglianico di rubino profondo e riflessi granata, leggibile e mai inchiostrato: segno di un’estrazione misurata. Il naso, cesellato più che esplosivo, alterna frutta nera matura a tocchi balsamici di alloro e ginepro, resine e spezie. La bocca è piena ma agile, con una trama acido-tannica graffiante che ha ancora anni davanti per distendersi. Un vino pronto, che può solo migliorare.",
+        "Ogni bottiglia — borgognotta, incartata a una a una e riposta in cassette di legno da sei — è numerata ed esclusiva. Qualunque sia la generosità dell’annata, saranno sempre 528: l’eventuale eccedenza si consuma tra parenti e amici. Un vino che, nella sua cifra, non cerca i numeri. Per pochi, per scelta."
+      ]
+    }
+  },
+
+  /* ===============================================================
+     LE CINQUE CATEGORIE
+     L'ordine in cui le scrivi qui è l'ordine in cui appaiono.
+     =============================================================== */
+  categorie: [
+    {
+      id: "locande", titolo: "Locande", sottotitolo: "Dove fermarsi per la notte",
+      tessera: "assets/locanda-mare.jpg",
+      intro: "Una camera con vista è una pausa dal mondo. Una luce nuova al mattino, le persiane che si aprono su un panorama da scoprire, il giusto silenzio per ritrovarsi. Abbiamo selezionato le dimore dove l’accoglienza incontra la bellezza: alberghi, rifugi e affacci sospesi, pensati per chi viaggia in due."
+    },
+    {
+      id: "trattorie", titolo: "Ristoranti", sottotitolo: "Dove sedersi a tavola",
+      tessera: "assets/campanini-sala.jpg",
+      intro: "Un tavolo per due è una pausa dal mondo. Una luce calda, una tovaglia di lino, il giusto silenzio per ritrovarsi. Abbiamo selezionato i luoghi dove l’intimità incontra il gusto: ristoranti, terrazze e angoli sospesi, pensati per chi viaggia in due."
+    },
+    {
+      id: "luoghi", titolo: "Luoghi", sottotitolo: "Dove lasciarsi sorprendere",
+      tessera: "assets/scogliere-sud.jpg",
+      intro: "I luoghi sono una pausa dal mondo. Una pietra scaldata dal sole, un’aria che sa di lontano, il giusto silenzio per ritrovarsi. Esistono luoghi dove il tempo sembra essersi fermato — ed esistono persone che sanno fermarsi in questi luoghi. Sono loro la vera ragione di ogni viaggio: non la meta, ma il modo di abitarla. Abbiamo scelto gli angoli dove la bellezza incontra la quiete: borghi, paesaggi e rifugi dell’anima, da leggere e scoprire con calma, una scheda alla volta."
+    },
+    {
+      id: "artigiani", titolo: "Artigiani", sottotitolo: "Dove le mani sanno fare",
+      tessera: "assets/fioraio.jpg",
+      intro: "L’arte del fare è una pausa dal mondo. Un gesto tramandato, una materia che prende forma, il giusto silenzio per ritrovarsi. C’è un saper fare che resiste al tempo — e che, quando è autentico, sa farsi grande senza perdersi. Abbiamo scelto gli artigiani dove la tradizione incontra il talento: botteghe, laboratori e manifatture, da scoprire con calma."
+    },
+    {
+      id: "vignaioli", titolo: "Vignaioli", sottotitolo: "Dove nasce il vino",
+      tessera: "assets/campanini-closerie.jpg",
+      intro: "I vignaioli sono una pausa dal mondo. Un filare lavorato a mano, un vitigno antico che qualcuno ha scelto di non dimenticare, il giusto silenzio per ritrovarsi. C’è chi ha deciso di andare controcorrente — di privilegiare la fatica, la pazienza e l’amore per la terra là dove tutto spinge verso la fretta. Abbiamo scelto chi custodisce vini che non assomigliano a nessun altro, perché portano nel bicchiere l’identità di un luogo e di chi lo abita: cantine, vigne e dimore tra i filari, da scoprire con calma.",
+      manifesto: {
+        titolo: "Chi sono i vignaioli",
+        sottotitolo: "Un sorso alla volta, la memoria di un territorio",
+        paragrafi: [
+          "Esistono persone che hanno scelto di non arrendersi alla logica del mercato. Mentre l’industria del vino premia le rese abbondanti e i vitigni più facili da gestire, loro hanno deciso di percorrere la strada opposta: quella della fatica, della pazienza e dell’amore per la terra. Sono i vignaioli.",
+          "Lavorano i loro filari come un tempo, con le mani prima ancora che con le macchine, perché sanno che certi gesti non si possono delegare. Conoscono ogni angolo del proprio vigneto, ogni pendenza, ogni cambiamento del cielo. E soprattutto custodiscono vitigni antichi, varietà che il mondo stava dimenticando proprio perché producono poco, perché non rendono, perché non convengono. Dove altri vedono uno svantaggio economico, loro vedono un patrimonio da salvare.",
+          "Quei grappoli scarsi e preziosi raccontano una storia che nessun’altra uva potrebbe raccontare: quella di una collina precisa, di un suolo unico, di un clima che non si ripete altrove. Per questo i loro vini non assomigliano a nessun altro. Non inseguono un gusto standard pensato per piacere a tutti, ma portano nel bicchiere l’identità autentica di un luogo e di chi lo abita.",
+          "Bere il vino di un vignaiolo significa allora qualcosa di più che assaggiare un prodotto. Significa incontrare una persona, condividere una scelta di vita, riconoscere il valore di chi ha deciso che certe radici, letterali e culturali, meritano di sopravvivere. È un atto di gratitudine verso chi salva, un sorso alla volta, la biodiversità e la memoria di un territorio."
+        ]
+      }
+    }
+  ],
+
+  /* ===============================================================
+     LE SCHEDE, DIVISE PER CATEGORIA
+     =============================================================== */
+  schede: {
+
+    /* ---------------- LOCANDE ---------------- */
+    locande: [
+      {
+        titolo: "Locanda sul Mare",
+        luogo: "Costiera Sorrentina",
+        sommario: "Una terrazza sospesa sul golfo, dove la sera il blu si fa profondo.",
+        testo: "Due sedie, un tavolo e l’orizzonte. Qui la giornata si misura sul passaggio delle barche e sul colore che il mare assume di ora in ora. Le stanze sono semplici, affacciate sull’acqua, e il silenzio è parte dell’ospitalità.",
+        immagine: "assets/locanda-mare.jpg",
+        telefono: "",
+        mappa: "Sorrento",
+        lat: 40.6263, lng: 14.3757   /* coordinate approssimative — correggi con precisione */
+      },
+      {
+        titolo: "Rifugio di Montagna",
+        luogo: "Alta Valle Alpina",
+        sommario: "Travi di larice, stufe di pietra e la neve fuori dalla finestra.",
+        testo: "Un antico fienile diventato dimora, dove il legno racconta secoli di inverni. Il salotto sotto le travi invita a leggere accanto al fuoco; le finestre incorniciano i pascoli innevati e le baite del borgo.",
+        immagine: "assets/rifugio-montagna.jpg",
+        telefono: "",
+        mappa: "",
+        lat: 45.82, lng: 7.65   /* coordinate approssimative — correggi con precisione */
+      }
+    ],
+
+    /* ---------------- TRATTORIE ---------------- */
+    trattorie: [
+      {
+        titolo: "Poliform Cafè",
+        luogo: "Piazza della Scala 5 · Milano",
+        sommario: "Nel cuore di Milano, una cucina diretta e luminosa: l’ingrediente protagonista, il pranzo come arte della leggerezza.",
+        testo: "In Piazza della Scala, il Poliform Cafè porta in tavola la cucina di Mario Iannone — formazione napoletana, l’Accademia di Niko Romito e otto anni accanto a Michele a Rovello — e la pasticceria di Piera Gandolfo. Una cucina comprensibile e leggera, dove l’ingrediente è il vero protagonista e ogni gesto custodisce la stessa cura.",
+        immagine: "assets/poliform-copertina.jpg",
+        telefono: "+39 331 1958361",
+        email: "",
+        web: "",
+        mappa: "Poliform Cafè, Piazza della Scala 5, Milano",
+        lat: 45.4670, lng: 9.1895,   /* coordinate approssimative — correggi con precisione */
+        storia: "poliform",
+        galleria: []
+      },
+      {
+        titolo: "Trattoria Campanini",
+        luogo: "Madonna dei Prati · Busseto (PR)",
+        sommario: "Da oltre un secolo, di fronte al santuario, la memoria corale della Bassa: torta fritta e culatello.",
+        testo: "Imboccata la strada per Madonna dei Prati cambia il mondo: campi curati, case coloniche, lunghi filari, silenzio. Di fronte al santuario dove un giovane Verdi suonava l’organo, da oltre cent’anni sta la trattoria della famiglia Campanini. I salumi sono il cuore della casa — culatelli grandi e marezzati, stagionati fino a 32 e 42 mesi — e il lunedì sera resta la tradizione della torta fritta.",
+        immagine: "assets/campanini-sala.jpg",
+        telefono: "+390524925 69",
+        email: "campanini@culatelloandwine.com",
+        web: "https://campanini.culatelloandwine.it",
+        mappa: "Trattoria Campanini, Via Roncole Verdi 136, Madonna dei Prati, Busseto",
+        lat: 44.9710, lng: 10.1340,   /* coordinate approssimative — correggi con precisione */
+        storia: "campanini",          /* ← collega la pagina storia.html?s=campanini */
+        galleria: [
+          "assets/campanini-culatello.jpg",
+          "assets/campanini-bilancia.jpg",
+          "assets/campanini-closerie.jpg",
+          "assets/campanini-vouette.jpg"
+        ]
+      },
+      {
+        titolo: "Stadera — Gastronomia Contemporanea",
+        luogo: "Ferrara",
+        sommario: "Sembra una gastronomia di quartiere. È, invece, grande cucina.",
+        testo: "Un’occhiata distratta potrebbe ingannare. Ma se cedete alla curiosità di soffermarvi, scoprirete un locale dove si servono piatti di grande cucina. Aldo Ritrovato e Laura hanno realizzato il sogno che a lungo custodivano in un cassetto.",
+        immagine: "assets/stadera.jpg",
+        telefono: "",
+        mappa: "Ferrara",
+        lat: 44.8381, lng: 11.6198   /* coordinate approssimative — correggi con precisione */
+      },
+      {
+        titolo: "Tavola sulle Colline",
+        luogo: "Entroterra Marchigiano",
+        sommario: "Una cena all’ora blu, con le colline che sfumano nel buio.",
+        testo: "Sul muretto di pietra di un borgo antico, due coperti e una lampada accesa mentre il cielo vira all’indaco. Cucina del territorio, vini schietti e quella lentezza che a tavola è un lusso raro.",
+        immagine: "assets/tavola-colline.jpg",
+        telefono: "",
+        mappa: "",
+        lat: 43.58, lng: 13.1   /* coordinate approssimative — correggi con precisione */
+      }
+    ],
+
+    /* ---------------- LUOGHI ---------------- */
+    luoghi: [
+      {
+        titolo: "Il Delta del Po",
+        luogo: "Delta del Po",
+        sommario: "Dove il grande fiume incontra il mare e ridisegna la terra.",
+        testo: "I grandi fiumi portano da sempre elementi organici che arricchiscono i terreni che attraversano. Quello del Po è un caso singolare: dopo aver provocato per anni devastazioni con le inondazioni, da tempo restituisce all’agricoltura una fertilità rara e un paesaggio d’acqua e silenzio.",
+        immagine: "assets/delta-po.jpg",
+        telefono: "",
+        mappa: "Delta del Po",
+        lat: 44.95, lng: 12.3   /* coordinate approssimative — correggi con precisione */
+      },
+      {
+        titolo: "Borgo sul Mare",
+        luogo: "Liguria",
+        sommario: "Case color pastello affacciate su un’insenatura di acqua turchese.",
+        testo: "Un porticciolo dove le barche dondolano sotto le facciate dipinte. I monti scendono fino al mare e il tempo, qui, ha il ritmo della risacca.",
+        immagine: "assets/borgo-mare.jpg",
+        telefono: "",
+        mappa: "Portofino",
+        lat: 44.3036, lng: 9.2099   /* coordinate approssimative — correggi con precisione */
+      },
+      {
+        titolo: "Le Scogliere del Sud",
+        luogo: "Salento",
+        sommario: "Roccia bianca, fichi d’india e un mare che cambia colore.",
+        testo: "Lungo la costa più estrema, le scogliere si aprono su insenature di acqua cristallina. I fichi d’india colonizzano la pietra calcarea e l’orizzonte resta sgombro, fino al filo dell’acqua.",
+        immagine: "assets/scogliere-sud.jpg",
+        telefono: "",
+        mappa: "",
+        lat: 39.8, lng: 18.35   /* coordinate approssimative — correggi con precisione */
+      }
+    ],
+
+    /* ---------------- ARTIGIANI ---------------- */
+    artigiani: [
+      {
+        titolo: "Il Fioraio di Quartiere",
+        luogo: "Milano",
+        sommario: "Un banco di fiori all’angolo, piccolo teatro di colori ogni mattina.",
+        testo: "Ortensie verdi, rose rosse, rami di bacche: la composizione cambia con le stagioni e con l’estro di chi la cura. Un mestiere antico che resiste tra il traffico e le vetrine, fedele al ritmo della natura.",
+        immagine: "assets/fioraio.jpg",
+        telefono: "",
+        mappa: "",
+        lat: 45.4669, lng: 9.19   /* coordinate approssimative — correggi con precisione */
+      }
+    ],
+
+    /* ---------------- VIGNAIOLI ---------------- */
+    vignaioli: [
+      {
+        titolo: "Maria Pia Castelli",
+        luogo: "Monte Urano (FM) · Marche",
+        sommario: "Il vino delle mani sapienti: una famiglia, una terra fra le colline picene e il mare, e vini che raccontano la verità del suolo.",
+        testo: "Dove le colline del Piceno si piegano dolci verso il mare, Erasmo Castelli piantò nel 1999 non solo viti, ma un’eredità — quella che porta il nome di sua figlia, Maria Pia. Oggi Maria Pia ed Enrico custodiscono quel sogno fra tradizione e innovazione, e firmano vini riconosciuti come una delle voci più sincere del Piceno. Tra questi, Stella Flora: poche, preziose bottiglie nate per amore.",
+        immagine: "assets/castelli-copertina.jpg",
+        telefono: "+39 0734 841774",
+        email: "info@mariapiacastelli.it",
+        web: "https://www.mariapiacastelli.it",
+        mappa: "Azienda Agricola Maria Pia Castelli, Contrada Sant'Isidoro 22, Monte Urano FM",
+        lat: 43.1820, lng: 13.6790,   /* Monte Urano (FM) — approssimative, da affinare */
+        storia: "castelli",
+        galleria: []
+      },
+      {
+        titolo: "Il Monte dei Ragni",
+        luogo: "Marega di Fumane (VR) · Valpolicella",
+        sommario: "Una collina magra in Valpolicella, cinque generazioni e l’intuizione di Santo Ragno: la terra che non regala nulla restituisce il meglio nel bicchiere.",
+        testo: "Sul crinale che sale da Bure fino a Mazzurega, all’inizio del Novecento Santo Ragno capì che quella collina povera e sassosa, proprio perché magra, era fatta per la vite. Tra i filari piantò olivi e ciliegi, perché una collina deve dare gioia anche prima della vendemmia. Oggi, cinque generazioni dopo, Zeno Zignoli cura quei pochi ettari come un giardino: ne nascono Amarone, Recioto, Valpolicella Superiore, un bianco affinato in anfora e un olio pregiato.",
+        immagine: "assets/ragni-copertina.jpg",
+        telefono: "+39 045 6801600",
+        cellulare: "+39 339 3428360",
+        email: "info@montedeiragni.com",
+        web: "https://www.montedeiragni.com",
+        mappa: "Azienda Agricola Monte dei Ragni, Località Marega 3, Fumane VR",
+        lat: 45.5360, lng: 10.8840,   /* Fumane (VR) — approssimativa, da affinare */
+        storia: "ragni",
+        galleria: []
+      },
+      {
+        titolo: "Comm. G. B. Burlotto",
+        luogo: "Verduno (CN) · Langhe",
+        sommario: "Le mani di Verduno: cinque generazioni nel cuore del Barolo, e una cocciutaggine che ha salvato un’uva, il Pelaverga.",
+        testo: "A Verduno, comune storico del Barolo, la famiglia Burlotto coltiva da centosettant’anni la stessa idea di vino: sobrio, fedele alla terra e ai vitigni che lo generano. Dal 1850 di Giovan Battista fino a Marina, Giuseppe e ai figli Fabio e Cristina, è la storia di cinque generazioni — e di chi, con ostinazione, ha salvato dall’oblio il Verduno Pelaverga, luminoso e leggero. Le mani sono cambiate. Lo sguardo, no.",
+        immagine: "assets/burlotto-copertina.jpg",
+        telefono: "+39 0172 470122",
+        email: "burlotto@burlotto.com",
+        web: "https://www.burlotto.com",
+        mappa: "Azienda Vitivinicola Comm. G. B. Burlotto, Via Vittorio Emanuele II 28, Verduno CN",
+        lat: 44.6480, lng: 7.9760,   /* Verduno (CN) — approssimativa, da affinare */
+        storia: "burlotto",
+        galleria: []
+      },
+      {
+        titolo: "Tenute Dettori",
+        luogo: "Sennori (SS) · Romangia, Sardegna",
+        sommario: "Vignaioli e artigiani del vino e della terra. Solo uva, fermentata nel cemento e lasciata decantare: ogni bottiglia è diversa, ogni bottiglia è numerata.",
+        testo: "A Sennori, in Romangia, i Dettori fanno il vino come un atto di fedeltà alla loro terra. Nelle vasche di cemento, senza piede di partenza, l’uva diventa vino senza che vi si aggiunga nient’altro — non filtrato, non chiarificato, stabilizzato per sola decantazione, affinato dai dieci ai sessanta mesi. Biodinamica certificata dal 2003, quando erano l’unica cantina sarda a Critical Wine, su invito di Luigi Veronelli. La loro idea sta in una frase: «sono ciò che sono, e non ciò che vuoi che siano».",
+        immagine: "assets/dettori-copertina.jpg",
+        telefono: "+39 079 515511",
+        email: "",
+        web: "",
+        mappa: "Tenute Dettori, Strada Provinciale 29 km 10, Sennori SS",
+        lat: 40.7890, lng: 8.5900,   /* Sennori (SS) — approssimativa, da affinare */
+        storia: "dettori",
+        galleria: []
+      },
+      {
+        titolo: "Azienda Agricola Zidarich",
+        luogo: "Prepotto (TS) · Carso triestino",
+        sommario: "Pietra e radici: sul Carso, dove la terra è poca e rossa, una cantina scavata nella roccia e i vini autoctoni di una volta — Vitovska, Terrano, Malvasia.",
+        testo: "A Prepotto, nel cuore del Carso triestino, Benjamin Zidarich coltiva dal 1988 un’idea ostinata: che da quella pietra inospitale si possa ancora tirare fuori il verde. La cantina, inaugurata nel 2009, è scolpita nella roccia — venti metri di profondità, una piccola cattedrale dove il vino dorme al fresco. Nelle botti maturano i vini di una volta: la Vitovska soprattutto, e poi Malvasia, Prulke, Terrano. «Vita e lavoro, qui, sono la stessa cosa».",
+        immagine: "assets/zidarich-copertina.jpg",
+        telefono: "+39 040 201223",
+        email: "info@zidarich.it",
+        web: "https://www.zidarich.it",
+        mappa: "Azienda Agricola Zidarich, Località Prepotto 23, Duino Aurisina TS",
+        lat: 45.7570, lng: 13.6160,   /* Prepotto / Carso (TS) — approssimativa, da affinare */
+        storia: "zidarich",
+        galleria: []
+      },
+      {
+        titolo: "Marco De Bartoli",
+        luogo: "Contrada Samperi · Marsala (TP), Sicilia",
+        sommario: "Il custode del Marsala vero e del passito di Pantelleria: due isole, il Grillo e lo Zibibbo, una sola idea di vino come verità del territorio.",
+        testo: "Nel baglio di famiglia in contrada Samperi, a Marsala, Marco De Bartoli ha ridato dignità a un vino che il mercato aveva svilito, riportandolo alle sue radici: il Vecchio Samperi, non fortificato, affinato col metodo perpetuo dal Grillo di Sicilia. Di là dal mare, a Pantelleria, la seconda anima — il Bukkuram, passito di Zibibbo del cru pantesco. Oggi la sua opera continua con i figli Renato, Sebastiano e Giuseppina, fedeli alla stessa intransigenza.",
+        immagine: "assets/debartoli-copertina.jpg",
+        telefono: "+39 0923 962093",
+        email: "info@marcodebartoli.com",
+        web: "https://www.marcodebartoli.com",
+        mappa: "Marco De Bartoli, Contrada Samperi, Marsala TP",
+        lat: 37.7670, lng: 12.4690,   /* Marsala (TP) — approssimativa, da affinare */
+        storia: "debartoli",
+        galleria: []
+      },
+      {
+        titolo: "Damijan Podversič",
+        luogo: "Gorizia (GO) · Collio",
+        sommario: "Sul confine, la ponca e il tempo: macerazioni lunghe e attese pazienti per vini che sono lo specchio della vigna.",
+        testo: "A Gorizia, sul confine, Damijan Podversič fa vino ascoltando la natura — i suoi colori, i profumi, i cicli. Tutto comincia dalla ponca, la terra di marna e arenaria che dona mineralità, e dai vitigni del territorio: Ribolla Gialla, Malvasia, Friulano. In cantina comanda il tempo: la macerazione che firma il vino, poi tre anni nel legno e uno in bottiglia. «Mi sento fortunato: ho raggiunto i sogni di quando ero bambino».",
+        immagine: "assets/damijan-copertina.jpg",
+        telefono: "+39 0481 78217",
+        email: "",
+        web: "https://www.damijanpodversic.com",
+        mappa: "Damijan Podversič, Via degli Eroi 33, Gorizia GO",
+        lat: 45.9490, lng: 13.6210,   /* Gorizia (GO) — approssimativa, da affinare */
+        storia: "damijan",
+        galleria: []
+      },
+      {
+        titolo: "Luigi Tecce",
+        luogo: "Paternopoli (AV) · Irpinia",
+        sommario: "Un poeta del vino in Irpinia: piante secolari a raggiera, niente chimica, e Taurasi di grande energia dai nomi letterari.",
+        testo: "A Paternopoli, nel cuore della DOCG Taurasi, Luigi Tecce — quarta generazione di viticoltori — ha preso le redini nel 1997, scegliendo la via più difficile: niente chimica né macchine, ma la sensibilità dei nonni. Cinque ettari esposti a sud, fra i 500 e i 600 metri, con un nucleo di piante secolari allevate a raggiera avellinese. Controcorrente per natura, mette la sua anima letteraria nei vini: il T’Aglianico Satyricon, i Taurasi Poliphemo e Puro Sangue.",
+        immagine: "assets/tecce-copertina.jpg",
+        telefono: "+39 0827 71375",
+        email: "",
+        web: "",
+        mappa: "Azienda Agricola Luigi Tecce, Via Trinità 6, Paternopoli AV",
+        lat: 40.9760, lng: 15.0330,   /* Paternopoli (AV) — approssimativa, da affinare */
+        storia: "tecce",
+        galleria: []
+      },
+      {
+        titolo: "Pietre Levate",
+        luogo: "Ottati (SA) · Cilento, Monti Alburni",
+        sommario: "Nel cuore del Cilento, un vino nato per amore: 528 bottiglie di Aglianico, vinificate in anfora di terracotta. Per pochi, per scelta.",
+        testo: "Ad Ottati, nella Valle del Fasanella alle pendici dei Monti Alburni — cuore del Parco Nazionale del Cilento, patrimonio Unesco — nasce il Pietre Levate: un omaggio alla generazione che ha preceduto e una testimonianza di resistenza allo spopolamento della terra. Circa mille piante di Aglianico, vinificate in anfora di terracotta, per sole 528 bottiglie numerate ogni anno. Certificazione biologica dal 2021. Un vino che, per scelta, non cerca i numeri.",
+        immagine: "assets/pietrelevate-copertina.jpg",
+        telefono: "+39 380 2835759",
+        email: "info@pietrelevate.it",
+        web: "",
+        mappa: "Azienda Agricola Pietre Levate, Località Bocito, Ottati SA",
+        lat: 40.3760, lng: 15.2480,   /* Ottati (SA) — approssimativa, da affinare */
+        storia: "pietrelevate",
+        galleria: []
+      }
+    ]
+
+  }
+};
