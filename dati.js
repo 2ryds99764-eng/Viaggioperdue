@@ -45,22 +45,24 @@ const T42 = {
   sito: {
     nome: "Viaggioperdue",
     sigla: "T42",
-    logo: "assets/logo-t42.png",          /* logo a colori, per fondo chiaro */
-    logoBianco: "assets/logo-t42-bianco.png", /* logo bianco, per il piè di pagina scuro */
-    payoff: "Esistono luoghi dove il tempo sembra essersi fermato. Esistono persone che sanno fermarsi in questi luoghi.",
-    introduzione: "Siamo un gruppo di amici legati dalla passione per i viaggi, la buona tavola e i vini che esprimono l’essenza di un territorio. Amiamo l’arte, la storia e i borghi che hanno molto da raccontare. Cerchiamo destinazioni oltre i luoghi comuni. Una risorsa tascabile, senza fronzoli, da consultare ogni volta che desiderate un suggerimento su dove andare.",
+    logo: "https://res.cloudinary.com/dspgc41gt/image/upload/assets/Ligo_PNG_b79r4j",          /* logo a colori, per fondo chiaro */
+    logoBianco: "https://res.cloudinary.com/dspgc41gt/image/upload/assets/Logo_t42-bianco_yazhow", /* logo bianco, per il piè di pagina scuro */
+    payoff: "Destinazioni oltre i luoghi comuni.",
+    introduzione: "Esistono luoghi dove il tempo sembra essersi fermato.\nEsistono persone che sanno fermarsi in questi luoghi.",
     instagram: "https://www.instagram.com/",   /* ← metti qui l'indirizzo del tuo profilo */
 
     /* ---- Stile immersivo della home (ispirato a Domitur) ---- */
-    hero: "assets/hero.jpg",                   /* grande foto a tutto schermo */
+    hero: "https://res.cloudinary.com/dspgc41gt/image/upload/assets/IMG_3760_mphh07",                   /* grande foto a tutto schermo */
     heroTitolo: "Viaggioperdue",
     heroSotto: "Esistono luoghi dove il tempo sembra essersi fermato.",
 
     /* le tre sezioni a parola singola che si incontrano scorrendo */
     sezioni: [
-      { parola: "Scopri",   testo: "Borghi, scogliere, città d’acqua: destinazioni oltre i luoghi comuni.", immagine: "assets/borgo-mare.jpg" },
-      { parola: "Vivi",     testo: "Locande e dimore dove il tempo rallenta e l’ospitalità è un’arte.", immagine: "assets/locanda-mare.jpg" },
-      { parola: "Assapora", testo: "Ristoranti, vignaioli e artigiani che custodiscono i sapori di un territorio.", immagine: "assets/campanini.jpg" }
+      { parola: "Camera con vista",    testo: "Dimore dove l’ospitalità è autentica e il paesaggio entra dentro le stanze.", immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/assets/IMG_5181_pp5vga" },
+      { parola: "Un tavolo per due",   testo: "Cucine che raccontano un luogo, una stagione, le mani di chi ha scelto di fare le cose a modo suo.", immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/assets/IMG_6904_n0zj2j" },
+      { parola: "Racconti di viaggio", testo: "Luoghi che non si visitano: si attraversano, e ci lasciano qualcosa.", immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/assets/IMG_5236_h4rgus" },
+      { parola: "Mestieri d’autore",  testo: "Artigiani, agricoltori, pescatori: persone da incontrare, non solo prodotti da acquistare.", immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/assets/IMG_9780_bcsj2u" },
+      { parola: "Vignaioli",           testo: "Chi fa vino con intenzione, controcorrente, perché certe radici meritano di sopravvivere.", immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/assets/IMG_7370_c878u6" }
     ]
   },
 
@@ -91,7 +93,7 @@ const T42 = {
       occhiello: "Trattoria Campanini · Busseto",
       titolo: "Una storia di campagna, di tavola e di famiglia",
       sottotitolo: "Madonna dei Prati — Busseto, nel cuore della Bassa parmense",
-      copertina: "assets/campanini.jpg",
+      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/assets/IMG_4381_u74xvg",
       paragrafi: [
         "Imboccata la strada per Madonna dei Prati, cambia il mondo: campi curati, case coloniche, lunghi filari di alberi, silenzio. Ci si avvicina al santuario, quello dove — racconta la memoria del paese — un giovane Giuseppe Verdi suonava l’organo. E proprio di fronte al tempio, da oltre un secolo, sta la trattoria della famiglia Campanini: un luogo che è molto più di un ristorante, perché è diventato un pezzo di memoria corale di tutta la Bassa.",
         "§ Le origini: dai pellegrini all’osteria",
@@ -119,7 +121,7 @@ const T42 = {
       occhiello: "Poliform Cafè · Milano",
       titolo: "La cucina diretta di Mario Iannone",
       sottotitolo: "Piazza della Scala — nel cuore di Milano",
-      copertina: "assets/poliform-copertina.jpg",
+      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/assets/IMG_1620_amjout",
       paragrafi: [
         "Un tavolo per due è una pausa dal mondo. Una luce limpida, una sala affacciata sulla piazza, il giusto silenzio per ritrovarsi. Al Poliform Cafè la cucina si fa comprensibile e leggera, pensata soprattutto per il pranzo: nessun piatto difficile, nessuna pesantezza, ma sapori diretti che si lasciano riconoscere.",
         "§ Lo chef — Mario Iannone",
@@ -296,37 +298,77 @@ const T42 = {
      =============================================================== */
   categorie: [
     {
-      id: "locande", titolo: "Locande", sottotitolo: "Dove fermarsi per la notte",
-      tessera: "assets/locanda-mare.jpg",
-      intro: "Una camera con vista è una pausa dal mondo. Una luce nuova al mattino, le persiane che si aprono su un panorama da scoprire, il giusto silenzio per ritrovarsi. Abbiamo selezionato le dimore dove l’accoglienza incontra la bellezza: alberghi, rifugi e affacci sospesi, pensati per chi viaggia in due."
-    },
-    {
-      id: "trattorie", titolo: "Ristoranti", sottotitolo: "Dove sedersi a tavola",
-      tessera: "assets/campanini-sala.jpg",
-      intro: "Un tavolo per due è una pausa dal mondo. Una luce calda, una tovaglia di lino, il giusto silenzio per ritrovarsi. Abbiamo selezionato i luoghi dove l’intimità incontra il gusto: ristoranti, terrazze e angoli sospesi, pensati per chi viaggia in due."
-    },
-    {
-      id: "luoghi", titolo: "Luoghi", sottotitolo: "Dove lasciarsi sorprendere",
-      tessera: "assets/scogliere-sud.jpg",
-      intro: "I luoghi sono una pausa dal mondo. Una pietra scaldata dal sole, un’aria che sa di lontano, il giusto silenzio per ritrovarsi. Esistono luoghi dove il tempo sembra essersi fermato — ed esistono persone che sanno fermarsi in questi luoghi. Sono loro la vera ragione di ogni viaggio: non la meta, ma il modo di abitarla. Abbiamo scelto gli angoli dove la bellezza incontra la quiete: borghi, paesaggi e rifugi dell’anima, da leggere e scoprire con calma, una scheda alla volta."
-    },
-    {
-      id: "artigiani", titolo: "Artigiani", sottotitolo: "Dove le mani sanno fare",
-      tessera: "assets/fioraio.jpg",
-      intro: "L’arte del fare è una pausa dal mondo. Un gesto tramandato, una materia che prende forma, il giusto silenzio per ritrovarsi. C’è un saper fare che resiste al tempo — e che, quando è autentico, sa farsi grande senza perdersi. Abbiamo scelto gli artigiani dove la tradizione incontra il talento: botteghe, laboratori e manifatture, da scoprire con calma."
-    },
-    {
-      id: "vignaioli", titolo: "Vignaioli", sottotitolo: "Dove nasce il vino",
-      tessera: "assets/campanini-closerie.jpg",
-      intro: "I vignaioli sono una pausa dal mondo. Un filare lavorato a mano, un vitigno antico che qualcuno ha scelto di non dimenticare, il giusto silenzio per ritrovarsi. C’è chi ha deciso di andare controcorrente — di privilegiare la fatica, la pazienza e l’amore per la terra là dove tutto spinge verso la fretta. Abbiamo scelto chi custodisce vini che non assomigliano a nessun altro, perché portano nel bicchiere l’identità di un luogo e di chi lo abita: cantine, vigne e dimore tra i filari, da scoprire con calma.",
+      id: "locande", titolo: "Camera con vista", sottotitolo: "Dove fermarsi per la notte",
+      tessera: "https://res.cloudinary.com/dspgc41gt/image/upload/assets/IMG_5181_pp5vga",
+      intro: "Aprire le persiane su un panorama inaspettato è uno dei piccoli miracoli del viaggio. Abbiamo scelto le dimore dove l’accoglienza incontra la bellezza: alberghi, rifugi e affacci sospesi, pensati per chi vuole fermarsi davvero — non solo per la notte.",
       manifesto: {
-        titolo: "Chi sono i vignaioli",
-        sottotitolo: "Un sorso alla volta, la memoria di un territorio",
+        titolo: "Quali sono le dimore che scegliamo",
+        sottotitolo: "L’ospitalità come paesaggio",
         paragrafi: [
-          "Esistono persone che hanno scelto di non arrendersi alla logica del mercato. Mentre l’industria del vino premia le rese abbondanti e i vitigni più facili da gestire, loro hanno deciso di percorrere la strada opposta: quella della fatica, della pazienza e dell’amore per la terra. Sono i vignaioli.",
-          "Lavorano i loro filari come un tempo, con le mani prima ancora che con le macchine, perché sanno che certi gesti non si possono delegare. Conoscono ogni angolo del proprio vigneto, ogni pendenza, ogni cambiamento del cielo. E soprattutto custodiscono vitigni antichi, varietà che il mondo stava dimenticando proprio perché producono poco, perché non rendono, perché non convengono. Dove altri vedono uno svantaggio economico, loro vedono un patrimonio da salvare.",
-          "Quei grappoli scarsi e preziosi raccontano una storia che nessun’altra uva potrebbe raccontare: quella di una collina precisa, di un suolo unico, di un clima che non si ripete altrove. Per questo i loro vini non assomigliano a nessun altro. Non inseguono un gusto standard pensato per piacere a tutti, ma portano nel bicchiere l’identità autentica di un luogo e di chi lo abita.",
-          "Bere il vino di un vignaiolo significa allora qualcosa di più che assaggiare un prodotto. Significa incontrare una persona, condividere una scelta di vita, riconoscere il valore di chi ha deciso che certe radici, letterali e culturali, meritano di sopravvivere. È un atto di gratitudine verso chi salva, un sorso alla volta, la biodiversità e la memoria di un territorio."
+          "C’è una differenza sottile, ma determinante, tra un luogo dove dormire e un luogo dove fermarsi. Il primo ti accoglie per la notte; il secondo ti cambia la giornata — e a volte qualcosa di più.",
+          "Le dimore che scegliamo non si misurano in stelle. Si misurano in quello che si vede aprendo le persiane al mattino: un giardino silenzioso, un golfo che cambia colore con la luce, un tetto di tegole che racconta secoli di storia. Si misurano nell’attenzione che qualcuno ripone in ogni dettaglio — non per stupire, ma per farvi stare bene.",
+          "Abbiamo scelto alberghi dove l’ospitalità è autentica, non formale. Rifugi dove il paesaggio entra dentro le stanze. Dimore storiche dove il tempo si è fermato nel modo giusto — non per nostalgia, ma perché certe cose non hanno bisogno di essere cambiate.",
+          "Sono posti che si raggiungono con intenzione, spesso fuori dai percorsi più battuti. E che si lasciano, di solito, con qualche rimpianto."
+        ]
+      }
+    },
+    {
+      id: "trattorie", titolo: "Un tavolo per due", sottotitolo: "La cucina come destinazione",
+      tessera: "https://res.cloudinary.com/dspgc41gt/image/upload/assets/IMG_6904_n0zj2j",
+      intro: "C'è una cucina che vale un viaggio. Non perché si trovi in una guida, ma perché racconta un luogo, una persona, un modo di stare al mondo che altrimenti non avresti incontrato. Abbiamo scelto i tavoli dove la cucina è una destinazione: trattorie, ristoranti e osterie da raggiungere con intenzione, non per caso.",
+      manifesto: {
+        titolo: "Quali sono i locali che scegliamo",
+        sottotitolo: "La cucina come destinazione",
+        paragrafi: [
+          "C’è un locale che merita un viaggio. Non perché sia famoso, non perché stia su una guida, ma perché racconta qualcosa che non avresti trovato altrove: un territorio, una stagione, le mani di chi ha deciso di fare le cose a modo suo.",
+          "I locali che scegliamo non si misurano in coperti. Si misurano in quello che arriva nel piatto: un ingrediente che viene da vicino, una ricetta che qualcuno ha custodito per generazioni, un sapore che rimane dopo che il pranzo è finito. Si misurano nell’attenzione che il cuoco ripone in ogni gesto, non per impressionare, ma per restituire qualcosa di autentico.",
+          "Abbiamo scelto trattorie dove la cucina è ancora un atto di amore. Ristoranti dove lo chef conosce il nome di chi alleva, di chi coltiva, di chi pesca. Osterie dove sedersi a tavola significa conoscere un luogo, non solo consumare un pasto.",
+          "Sono tavoli che si raggiungono con intenzione, spesso fuori dai luoghi comuni. E dai quali, di solito, si riparte con qualcosa in più."
+        ]
+      }
+    },
+    {
+      id: "luoghi", titolo: "Racconti di viaggio", sottotitolo: "Luoghi da scoprire, non solo da vedere",
+      tessera: "https://res.cloudinary.com/dspgc41gt/image/upload/assets/IMG_5236_h4rgus",
+      intro: "Certi posti non si visitano: si attraversano, e ci lasciano qualcosa. Un borgo che non è sul GPS, una strada che porta dove non si aspettava, un panorama che toglie le parole. Abbiamo scelto i luoghi che hanno una storia da raccontare — e che cambiano, almeno un po', chi li percorre.",
+      manifesto: {
+        titolo: "Quali sono i luoghi che scegliamo",
+        sottotitolo: "Luoghi da scoprire, non soltanto da vedere",
+        paragrafi: [
+          "Esiste un luogo che merita un viaggio. Non perché stia su una mappa, non perché lo abbia consigliato qualcuno, ma perché custodisce qualcosa di difficile da spiegare: un’atmosfera, una luce, un silenzio che ha il peso delle cose vere.",
+          "I luoghi che scegliamo non si misurano in attrazioni. Si misurano in quello che riescono a restituire: un borgo che racconta secoli in silenzio, una strada che porta dove non ci si aspetta, un paesaggio che elimina le parole e le rende inutili. Si misurano nel tempo che invita a prendersi, non per consumare un’esperienza, ma per lasciarsi permeare da un luogo.",
+          "Abbiamo scelto luoghi dove la bellezza non è esibita. Angoli d’Italia e del mondo che esistono al di là del turismo organizzato, dove ci si sente ospiti di qualcosa di autentico, non spettatori di una scenografia.",
+          "Sono posti che si raggiungono con intenzione, spesso fuori dai luoghi comuni. E che si lasciano, di solito, con la sensazione di averne capito solo una parte."
+        ]
+      }
+    },
+    {
+      id: "artigiani", titolo: "Mestieri d'autore", sottotitolo: "La sapienza del fare",
+      tessera: "https://res.cloudinary.com/dspgc41gt/image/upload/assets/IMG_9780_bcsj2u",
+      intro: "L’importanza del dettaglio. C’è un sapere che non si trova sui motori di ricerca. Si trova in una bottega, al mercato del pesce al mattino presto, in un campo coltivato con la saggezza di un tempo. Nelle mani di chi ha imparato guardando e poi ha fatto proprio. Abbiamo scelto i mestieri dove l’identità di chi fa è inseparabile da ciò che produce — persone da incontrare, non solo prodotti da acquistare.",
+      manifesto: {
+        titolo: "Quali sono i mestieri che raccontiamo",
+        sottotitolo: "La sapienza del fare",
+        paragrafi: [
+          "Esistono attività che meritano di essere conosciute. Non perché producano soltanto qualcosa di famoso, non perché i loro prodotti siano esposti nei negozi alla moda, ma perché dietro ogni oggetto, ogni taglio, ogni raccolto c’è una persona che ha scelto di fare le cose con le proprie mani, e di farle per bene.",
+          "I mestieri che raccontiamo non si misurano soltanto in fatturato. Si misurano in quello che restituiscono: un capo sartoriale che migliora con il tempo, un formaggio che racconta il pascolo dove è nato, un pesce che arriva dalla barca di chi lo ha pescato all’alba. Si misurano nell’attenzione che qualcuno ripone in ogni gesto, non per stupire, ma perché non sa farlo in altro modo.",
+          "Abbiamo scelto artigiani, agricoltori, pescatori, macellai, casari, e chiunque altro faccia qualcosa con la stessa intenzione. Persone dove l’identità di chi fa è inseparabile da ciò che realizza. Dove la qualità non è un obiettivo di marketing, ma una conseguenza naturale del modo in cui si lavora.",
+          "Sono mestieri che si scoprono con intenzione, spesso fuori dai luoghi comuni. E che ricordano, ogni volta, che dietro ogni cosa fatta bene c’è sempre una persona."
+        ]
+      }
+    },
+    {
+      id: "vignaioli", titolo: "Vignaioli", sottotitolo: "Il vino come memoria di un territorio",
+      tessera: "https://res.cloudinary.com/dspgc41gt/image/upload/assets/IMG_7370_c878u6",
+      intro: "Il vino racconta ciò che la terra ricorda. Un vitigno antico, un suolo che nessun altro ha, un clima che non si ripete: ogni bottiglia è la memoria di un luogo preciso e di chi ha scelto di custodirlo. Abbiamo scelto i vignaioli che fanno vino con intenzione — controcorrente, spesso in solitudine — perché certe radici, letterali e culturali, meritano di sopravvivere.",
+      manifesto: {
+        titolo: "Chi sono i vignaioli che scegliamo",
+        sottotitolo: "Il vino come memoria di un territorio",
+        paragrafi: [
+          "Esistono vini che meritano di essere assaggiati. Non perché abbiano ricevuto un punteggio elevato su una guida, non perché siano sulle carte dei ristoranti famosi, ma perché raccontano qualcosa di particolare: un territorio, condizioni climatiche uniche, le mani di chi ha deciso di non cedere alla logica del mercato.",
+          "I vignaioli che scegliamo non si misurano in bottiglie prodotte. Si misurano in quello che restituiscono: un vitigno antico che qualcuno ha scelto di salvare dall’estinzione, un suolo che nessun altro ha, un’annata che porta dentro di sé tutto quello che quell’anno ha dato e tolto. Si misurano nell’ostinazione di chi lavora i filari a mano, perché sa che certi gesti non si possono delegare.",
+          "Abbiamo scelto chi fa vino con determinazione, controcorrente, spesso in solitudine, quasi sempre lontano dai riflettori. Persone convinte che certe radici, letterali e culturali, meritino di sopravvivere. Che ogni bottiglia sia la memoria di un luogo e di chi lo abita.",
+          "Sono vignaioli che si scoprono con intenzione, e che ricordano, ogni volta, che dietro ogni vino fatto bene c’è sempre una persona."
         ]
       }
     }
@@ -368,7 +410,7 @@ const T42 = {
         luogo: "Piazza della Scala 5 · Milano",
         sommario: "Nel cuore di Milano, una cucina diretta e luminosa: l’ingrediente protagonista, il pranzo come arte della leggerezza.",
         testo: "In Piazza della Scala, il Poliform Cafè porta in tavola la cucina di Mario Iannone — formazione napoletana, l’Accademia di Niko Romito e otto anni accanto a Michele a Rovello — e la pasticceria di Piera Gandolfo. Una cucina comprensibile e leggera, dove l’ingrediente è il vero protagonista e ogni gesto custodisce la stessa cura.",
-        immagine: "assets/poliform-copertina.jpg",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/assets/IMG_1620_amjout",
         telefono: "+39 331 1958361",
         email: "",
         web: "",
@@ -382,7 +424,7 @@ const T42 = {
         luogo: "Madonna dei Prati · Busseto (PR)",
         sommario: "Da oltre un secolo, di fronte al santuario, la memoria corale della Bassa: torta fritta e culatello.",
         testo: "Imboccata la strada per Madonna dei Prati cambia il mondo: campi curati, case coloniche, lunghi filari, silenzio. Di fronte al santuario dove un giovane Verdi suonava l’organo, da oltre cent’anni sta la trattoria della famiglia Campanini. I salumi sono il cuore della casa — culatelli grandi e marezzati, stagionati fino a 32 e 42 mesi — e il lunedì sera resta la tradizione della torta fritta.",
-        immagine: "assets/campanini-sala.jpg",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/assets/IMG_4381_u74xvg",
         telefono: "+390524925 69",
         email: "campanini@culatelloandwine.com",
         web: "https://campanini.culatelloandwine.it",
