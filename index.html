@@ -6,14 +6,16 @@
   <title>Viaggioperdue · Coming Soon</title>
   <meta name="description" content="Viaggioperdue — presto online.">
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;1,300;1,400&family=Archivo:wght@400;500&display=swap');
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
+      --blu: #14233f;
       --sans: 'Archivo', Arial, sans-serif;
       --serif: 'Spectral', Georgia, serif;
     }
-    @import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;1,300;1,400&family=Archivo:wght@400;500&display=swap');
     html, body {
       height: 100%;
+      background: var(--blu);
       font-family: var(--serif);
     }
     .page {
@@ -27,29 +29,13 @@
       position: relative;
       overflow: hidden;
     }
-    /* foto di sfondo */
     .page::before {
       content: "";
       position: absolute;
       inset: 0;
-      background-image: url('https://raw.githubusercontent.com/2ryds99764-eng/Viaggioperdue/main/assets/hero.jpg');
-      background-size: cover;
-      background-position: center;
-      filter: brightness(.45) saturate(.8);
-      z-index: 0;
-    }
-    /* velo scuro sfumato per leggibilità */
-    .page::after {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(
-        to bottom,
-        rgba(14,22,42,.3) 0%,
-        rgba(14,22,42,.55) 50%,
-        rgba(14,22,42,.7) 100%
-      );
-      z-index: 0;
+      background-image: radial-gradient(rgba(174,203,230,.12) 1px, transparent 1px);
+      background-size: 28px 28px;
+      pointer-events: none;
     }
     .inner {
       position: relative;
