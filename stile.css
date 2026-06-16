@@ -103,6 +103,20 @@ body::before {
 .logo-pie {
   width: 124px; height: auto; display: block; margin: 0 auto 6px;
 }
+.pie-link { margin-top: 14px; }
+.pie-link a { font-family: var(--sans); font-size: 0.78rem; letter-spacing: 0.14em;
+  text-transform: uppercase; color: var(--azzurro-tenue); text-decoration: none; opacity: 0.7; }
+.pie-link a:hover { opacity: 1; }
+.pie-legal { margin-top: 12px; }
+.pie-legal a { font-family: var(--sans); font-size: 0.72rem; letter-spacing: 0.1em;
+  color: var(--azzurro-tenue); text-decoration: none; opacity: 0.55; }
+.pie-legal a:hover { opacity: 0.9; }
+.pie-sep { color: var(--azzurro-tenue); opacity: 0.4; margin: 0 6px; font-size: 0.72rem; }
+.chisiamo-link { display: inline-block; margin-top: 18px; font-family: var(--sans);
+  font-size: 0.78rem; letter-spacing: 0.18em; text-transform: uppercase;
+  color: var(--blu); text-decoration: none; border-bottom: 1px solid var(--azzurro-tenue);
+  padding-bottom: 3px; }
+.chisiamo-link:hover { border-color: var(--blu); }
 
 /* invito al racconto (home) */
 .racconto-invito {

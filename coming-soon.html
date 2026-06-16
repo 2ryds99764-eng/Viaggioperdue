@@ -6,14 +6,16 @@
   <title>Viaggioperdue · Coming Soon</title>
   <meta name="description" content="Viaggioperdue — presto online.">
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;1,300;1,400&family=Archivo:wght@400;500&display=swap');
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
+      --blu: #14233f;
       --sans: 'Archivo', Arial, sans-serif;
       --serif: 'Spectral', Georgia, serif;
     }
-    @import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;0,400;1,300;1,400&family=Archivo:wght@400;500&display=swap');
     html, body {
       height: 100%;
+      background: var(--blu);
       font-family: var(--serif);
     }
     .page {
@@ -27,29 +29,13 @@
       position: relative;
       overflow: hidden;
     }
-    /* foto di sfondo */
     .page::before {
       content: "";
       position: absolute;
       inset: 0;
-      background-image: url('https://res.cloudinary.com/dspgc41gt/image/upload/assets/IMG_3760_mphh07');
-      background-size: cover;
-      background-position: center;
-      filter: brightness(.45) saturate(.8);
-      z-index: 0;
-    }
-    /* velo scuro sfumato per leggibilità */
-    .page::after {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(
-        to bottom,
-        rgba(14,22,42,.3) 0%,
-        rgba(14,22,42,.55) 50%,
-        rgba(14,22,42,.7) 100%
-      );
-      z-index: 0;
+      background-image: radial-gradient(rgba(174,203,230,.12) 1px, transparent 1px);
+      background-size: 28px 28px;
+      pointer-events: none;
     }
     .inner {
       position: relative;
@@ -94,6 +80,16 @@
       letter-spacing: .06em;
     }
   </style>
+  <!-- Iubenda Cookie Solution -->
+  <script type="text/javascript">
+  var _iub = _iub || [];
+  _iub.csConfiguration = {"askConsentAtCookiePolicyUpdate":true,"countryDetection":true,"enableFadp":true,"enableLgpd":true,"enableUspr":true,"floatingPreferencesButtonDisplay":"bottom-right","lgpdAppliesGlobally":false,"perPurposeConsent":true,"whitelabel":false,"cookiePolicyId":84964742,"siteId":3265875,"banner":{"acceptButtonDisplay":true,"closeButtonDisplay":false,"customizeButtonDisplay":true,"explicitWithdrawal":true,"listPurposes":true,"position":"float-top-center","rejectButtonDisplay":true}};
+  _iub.csLangConfiguration = {"it":{"cookiePolicyId":84964742}};
+  </script>
+  <script type="text/javascript" src="https://cs.iubenda.com/autoblocking/3265875.js"></script>
+  <script type="text/javascript" src="//cdn.iubenda.com/cs/gpp/stub.js"></script>
+  <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+  <!-- Fine Iubenda -->
 </head>
 <body>
   <div class="page">
@@ -105,5 +101,12 @@
       <p class="sub">Presto online.</p>
     </div>
   </div>
+
+    <div class="pie-legal">
+      <a href="https://www.iubenda.com/privacy-policy/54746075" class="iubenda-white no-brand iubenda-noiframe iubenda-embed" title="Privacy Policy">Privacy Policy</a>
+      <span class="pie-sep">·</span>
+      <a href="https://www.iubenda.com/privacy-policy/54746075/cookie-policy" class="iubenda-white no-brand iubenda-noiframe iubenda-embed" title="Cookie Policy">Cookie Policy</a>
+      <script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    </div>
 </body>
 </html>
