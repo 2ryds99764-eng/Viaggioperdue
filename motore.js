@@ -10,6 +10,11 @@ function esc(t) {
     .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
 
+/* come esc, ma rende "per" in corsivo in "Viaggioperdue" */
+function escV(t) {
+  return esc(t).replace(/Viaggioperdue/g, 'Viaggio<em>per</em>due');
+}
+
 /* numero romano leggero per le categorie in home (I, II, III...) */
 function romano(n) {
   return ["I","II","III","IV","V","VI","VII","VIII","IX","X"][n] || (n + 1);
@@ -40,7 +45,7 @@ function costruisciHome() {
       '<div class="hero-img"' + sfondo + '></div>' +
       '<div class="hero-velo"></div>' +
       '<div class="hero-dentro">' +
-        '<div class="hero-sigla anima d1">' + esc(s.sigla) + ' · Travel for Two</div>' +
+        '<div class="hero-sigla anima d1">Viaggio<em>per</em>due</div>' +
         marchio +
         (s.heroSotto ? '<p class="hero-sotto anima d3">' + esc(s.heroSotto) + '</p>' : '') +
       '</div>' +
@@ -51,8 +56,8 @@ function costruisciHome() {
   const man = document.getElementById("manifesto");
   if (man) {
     man.innerHTML =
-      '<p class="payoff anima d1">' + esc(s.payoff) + '</p>' +
-      '<p class="intro anima d2">' + esc(s.introduzione).replace(/\n/g, '<br>') + '</p>' +
+      '<p class="payoff anima d1">' + escV(s.payoff) + '</p>' +
+      '<p class="intro anima d2">' + escV(s.introduzione).replace(/\n/g, '<br>') + '</p>' +
       '<a class="chisiamo-link anima d3" href="chisiamo.html">Chi siamo →</a>';
   }
 
@@ -66,7 +71,7 @@ function costruisciHome() {
         '<div class="sezione-foto"' + sfondo + '></div>' +
         '<div class="sezione-testo">' +
           '<div class="sezione-parola">' + esc(b.parola) + '</div>' +
-          (b.testo ? '<p>' + esc(b.testo) + '</p>' : '') +
+          (b.testo ? '<p>' + escV(b.testo) + '</p>' : '') +
         '</div>' +
       '</div>';
     }).join("");
@@ -146,7 +151,7 @@ function costruisciCategoria() {
       '<div class="occhiello anima d1">' + esc(T42.sito.sigla) + ' · Viaggioperdue</div>' +
       '<h1 class="anima d2">' + esc(cat.titolo) + '</h1>' +
       '<p class="anima d3">' + esc(cat.sottotitolo) + '</p>' +
-      (cat.intro ? '<p class="cat-intro anima d3">' + esc(cat.intro) + '</p>' : '') +
+      (cat.intro ? '<p class="cat-intro anima d3">' + escV(cat.intro) + '</p>' : '') +
       (cat.manifesto ? '<a class="cat-manifesto-link anima d3" href="manifesto.html?c=' + encodeURIComponent(cat.id) + '">' + esc(cat.manifesto.titolo) + ' →</a>' : '');
   }
 
@@ -210,7 +215,7 @@ function scheda(v, i, catId) {
       (v.luogo ? '<div class="luogo">' + esc(v.luogo) + '</div>' : '') +
       '<h2>' + esc(v.titolo) + '</h2>' +
       (v.sommario ? '<p class="sommario">' + esc(v.sommario) + '</p>' : '') +
-      (v.testo ? '<p class="corpo">' + esc(v.testo) + '</p>' : '') +
+      (v.testo ? '<p class="corpo">' + escV(v.testo) + '</p>' : '') +
       azioni +
     '</div>';
 
@@ -230,7 +235,7 @@ function costruisciPie(s) {
     : '<div class="marchio">' + esc(s.nome) + '</div>';
   pie.innerHTML =
     marchio +
-    '<div class="righe">' + ig + esc(s.sigla) + ' — Travel For Two<br>' +
+    '<div class="righe">' + ig + 'Viaggio<em>per</em>due<br>' +
     'Destinazioni oltre i luoghi comuni.</div>' +
     '<div class="pie-link"><a href="chisiamo.html">Chi siamo</a></div>';
 }
@@ -252,7 +257,7 @@ function costruisciRacconto() {
   if (corpo) {
     corpo.innerHTML = (r.paragrafi || []).map(function (p, i) {
       const cls = (i === 0) ? "rp rp-prima" : "rp";
-      return '<p class="' + cls + '">' + esc(p) + '</p>';
+      return '<p class="' + cls + '">' + escV(p) + '</p>';
     }).join("") +
     '<div class="rp-firma">— Viaggioperdue · T42</div>';
   }
@@ -276,14 +281,14 @@ function costruisciManifesto() {
       '<a class="ritorno" href="categoria.html?c=' + encodeURIComponent(cat.id) + '">Torna a ' + esc(cat.titolo) + '</a>' +
       '<div class="occhiello anima d1">' + esc(T42.sito.sigla) + ' · Viaggioperdue</div>' +
       '<h1 class="anima d2">' + esc(m ? m.titolo : cat.titolo) + '</h1>' +
-      (m && m.sottotitolo ? '<p class="racconto-sub anima d3">' + esc(m.sottotitolo) + '</p>' : '');
+      (m && m.sottotitolo ? '<p class="racconto-sub anima d3">' + escV(m.sottotitolo) + '</p>' : '');
   }
 
   const corpo = document.getElementById("manifesto-corpo");
   if (corpo && m) {
     corpo.innerHTML = (m.paragrafi || []).map(function (p, i) {
       const cls = (i === 0) ? "rp rp-prima" : "rp";
-      return '<p class="' + cls + '">' + esc(p) + '</p>';
+      return '<p class="' + cls + '">' + escV(p) + '</p>';
     }).join("") +
     '<div class="rp-firma">— Viaggioperdue · T42</div>';
   }
@@ -420,7 +425,7 @@ function costruisciStoria() {
       }
       const primo = !primaFatta;
       primaFatta = true;
-      return '<p class="rp' + (primo ? ' rp-prima' : '') + '">' + esc(p) + '</p>';
+      return '<p class="rp' + (primo ? ' rp-prima' : '') + '">' + escV(p) + '</p>';
     }).join("");
   }
 
@@ -547,7 +552,7 @@ function costruisciGuida() {
     const provs = reg && regprov[reg] ? regprov[reg] : [];
     if (provs.length) {
       selProv.innerHTML = '<option value="">Tutte le province</option>' +
-        provs.map(function (p) { return '<option value="' + esc(p) + '">' + esc(p) + '</option>'; }).join("");
+        provs.map(function (p) { return '<option value="' + escV(p) + '">' + escV(p) + '</option>'; }).join("");
       selProv.disabled = false;
     } else {
       selProv.innerHTML = '<option value="">Tutte le province</option>';
