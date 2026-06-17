@@ -89,6 +89,20 @@ const T42 = {
      Ogni storia ha una chiave (es. "campanini") richiamata dal campo
      "storia" di una scheda. titolo, occhiello, sottotitolo e i paragrafi. ---- */
   storie: {
+    costiera: {
+      occhiello: "Racconti di viaggio · Campania",
+      titolo: "Dove la luce ha un peso",
+      sottotitolo: "Costiera Amalfitana",
+      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5236_h4rgus",
+      paragrafi: [
+        "Arrivare in Costiera è soprattutto una questione di luce. Cambia ora dopo ora, e con lei cambia il mare: bianca e tagliente a mezzogiorno, quando le case sembrano sospese sul vuoto; dorata nel tardo pomeriggio, quando si posa sui muri e li accende di un colore che non ha nome. È una luce che ha un peso, che si appoggia sulle cose e le rende più vere.",
+        "Poi ci sono i limoni, aggrappati ai terrazzamenti che generazioni di mani hanno strappato alla roccia. Dietro a ogni muretto a secco c’è una fatica che oggi si fatica perfino a immaginare: salire e scendere ogni giorno scale infinite, portando sulle spalle ceste, attrezzi, raccolti. Quelle scale che per noi sono pittoresche, per chi è nato qui sono state per secoli una condanna e una disciplina. E proprio per questo il paesaggio che regalano — dall’alto, all’improvviso, dopo l’ennesima rampa — ha una potenza a cui è difficile resistere: è uno sguardo conquistato, non ricevuto.",
+        "I luoghi più belli, come spesso accade, sono quelli meno noti. Praiano, sospesa e silenziosa. Conca dei Marini, con la sua piccola insenatura. Nerano, dove la Costiera comincia e il mare si fa più intimo. Lontano dalla folla di Positano e Amalfi, è qui che si trova il respiro vero di questa terra.",
+        "E ci sono due modi di guardarla, la Costiera. Da terra, per lasciarsi sorprendere dal paesaggio che si apre a ogni curva. E dal mare, per scoprire anfratti nascosti e misurare dal basso l’imponenza delle montagne che precipitano nell’acqua. Sono due racconti diversi dello stesso luogo, e nessuno dei due basta da solo.",
+        "C’è perfino una parola che è nata qui. I pescatori chiamavano tramontana il vento fresco che scendeva dai monti — perché arrivava da Tramonti, suggestivo borgo dell’entroterra. Da quel nome locale è nato il termine che oggi usa tutta Italia: un piccolo dono di questa terra alla lingua di tutti.",
+        "Non si torna dalla Costiera con delle fotografie. Si torna con una certa idea di lentezza, con la memoria di una fatica antica, e con la nostalgia di una luce che altrove non si trova."
+      ]
+    },
     campanini: {
       occhiello: "Trattoria Campanini · Busseto",
       titolo: "Una storia di campagna, di tavola e di famiglia",
@@ -281,13 +295,10 @@ const T42 = {
       copertina: "assets/pietrelevate-copertina.jpg",
       paragrafi: [
         "I vignaioli sono una pausa dal mondo. Una vigna strappata alla pietra, un vitigno che racconta la sua terra, il giusto silenzio per ritrovarsi.",
-        "Può un vino nascere come omaggio e ringraziamento alla generazione che ci ha preceduto? Può farsi simbolo di resistenza, contro lo svuotamento e l’impoverimento della terra d’origine? Se nasce dall’amore e per l’amore, la risposta è sì. È la domanda da cui prende vita il Pietre Levate.",
-        "Siamo a Ottati, nella Valle del Fasanella, alle pendici meridionali dei Monti Alburni — l’imponente complesso calcareo e carsico che apre il Parco Nazionale del Cilento, Vallo di Diano e Alburni. Un luogo tra i più incontaminati del pianeta, di bellezza antica e selvaggia, a tratti lussureggiante e a tratti lunare: da oltre vent’anni Patrimonio Mondiale dell’Unesco, e unico parco della Campania nella rete dei Global Geoparks. Non è un caso che proprio qui, fra natura pura, qualità della vita e dieta mediterranea, viva una delle più alte concentrazioni di centenari al mondo.",
-        "Da questo sguardo amorevole nasce il vino. I numeri sono più che piccoli: circa mille piante di Aglianico su duemiladuecento metri quadrati, per una produzione che si ferma, per scelta, a sole 528 bottiglie l’anno.",
-        "Il nome racconta la fatica della terra. Sbancando un terreno accanto alla vecchia vigna, le pietre da “levare” sembravano non finire mai — di qui anche la difficoltà di lavorare con i mezzi meccanici. Argilla e limo, certo, per la ricchezza del suolo, ma anche tanto scheletro carsico: ed è proprio questo a dare al vino una finezza diversa dalle versioni ricche e opulente della costa.",
-        "Impiantata nel 2010, con la prima vendemmia produttiva nel 2013, la cantina ha avuto da subito le idee chiare: prima di tutto il legame con la terra. Per questo si è scelta la terracotta — un’anfora a forma di uovo da 450 litri, inerte ma porosa, che lascia respirare il vino con una delicata microossigenazione, senza cedergli nulla, e ne asseconda l’evoluzione naturale. Dal 2021 l’azienda è certificata biologica, per coerenza con la propria filosofia e con l’ambiente che la circonda.",
-        "All’assaggio è un Aglianico di rubino profondo e riflessi granata, leggibile e mai inchiostrato: segno di un’estrazione misurata. Il naso, cesellato più che esplosivo, alterna frutta nera matura a tocchi balsamici di alloro e ginepro, resine e spezie. La bocca è piena ma agile, con una trama acido-tannica graffiante che ha ancora anni davanti per distendersi. Un vino pronto, che può solo migliorare.",
-        "Ogni bottiglia — borgognotta, incartata a una a una e riposta in cassette di legno da sei — è numerata ed esclusiva. Qualunque sia la generosità dell’annata, saranno sempre 528: l’eventuale eccedenza si consuma tra parenti e amici. Un vino che, nella sua cifra, non cerca i numeri. Per pochi, per scelta."
+        "C’è una domanda all’origine di questo vino: può una bottiglia essere un atto d’amore verso chi è venuto prima, e insieme un gesto di resilienza contro lo spopolamento di una terra? A Ottati, in un angolo del Cilento dove la pietra calcarea affiora ovunque e i centenari sono più numerosi che altrove, qualcuno ha deciso che la risposta fosse sì.",
+        "Il nome viene dalla fatica. Per fare spazio alle viti è stato necessario levare pietre senza sosta — talmente tante che i mezzi meccanici non riuscivano a passare. Sotto, argilla e limo, ma soprattutto scheletro carsico: ed è da lì che nasce la finezza di questo Aglianico, lontano dall’opulenza dei vini di costa.",
+        "Le scelte sono nette, quasi ostinate. Mille piante su poco più di duemila metri quadrati. Fermentazione in anfora di terracotta, che lascia respirare il vino senza imporgli nulla. Certificazione biologica dal 2021, per coerenza con il luogo. E un numero che non cambia: ogni anno, qualunque sia l’annata, escono esattamente cinquecentoventotto bottiglie. Numerate, incartate a una a una. Tutto il resto si beve tra parenti e amici.",
+        "È un vino che non insegue i numeri, e proprio per questo li sceglie con cura. Per pochi, per scelta."
       ]
     }
   },
@@ -463,34 +474,13 @@ const T42 = {
     /* ---------------- LUOGHI ---------------- */
     luoghi: [
       {
-        titolo: "Il Delta del Po",
-        luogo: "Delta del Po",
-        sommario: "Dove il grande fiume incontra il mare e ridisegna la terra.",
-        testo: "I grandi fiumi portano da sempre elementi organici che arricchiscono i terreni che attraversano. Quello del Po è un caso singolare: dopo aver provocato per anni devastazioni con le inondazioni, da tempo restituisce all’agricoltura una fertilità rara e un paesaggio d’acqua e silenzio.",
-        immagine: "assets/delta-po.jpg",
-        telefono: "",
-        mappa: "Delta del Po",
-        lat: 44.95, lng: 12.3   /* coordinate approssimative — correggi con precisione */
-      },
-      {
-        titolo: "Borgo sul Mare",
-        luogo: "Liguria",
-        sommario: "Case color pastello affacciate su un’insenatura di acqua turchese.",
-        testo: "Un porticciolo dove le barche dondolano sotto le facciate dipinte. I monti scendono fino al mare e il tempo, qui, ha il ritmo della risacca.",
-        immagine: "assets/borgo-mare.jpg",
-        telefono: "",
-        mappa: "Portofino",
-        lat: 44.3036, lng: 9.2099   /* coordinate approssimative — correggi con precisione */
-      },
-      {
-        titolo: "Le Scogliere del Sud",
-        luogo: "Salento",
-        sommario: "Roccia bianca, fichi d’india e un mare che cambia colore.",
-        testo: "Lungo la costa più estrema, le scogliere si aprono su insenature di acqua cristallina. I fichi d’india colonizzano la pietra calcarea e l’orizzonte resta sgombro, fino al filo dell’acqua.",
-        immagine: "assets/scogliere-sud.jpg",
-        telefono: "",
-        mappa: "",
-        lat: 39.8, lng: 18.35   /* coordinate approssimative — correggi con precisione */
+        titolo: "Costiera Amalfitana",
+        luogo: "Campania",
+        sommario: "Dove la luce ha un peso, e il tempo scorre diverso.",
+        storia: "costiera",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5236_h4rgus",
+        mappa: "Costiera Amalfitana",
+        lat: 40.634, lng: 14.602
       }
     ],
 
