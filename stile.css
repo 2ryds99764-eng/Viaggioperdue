@@ -622,21 +622,26 @@ body::before {
 
 /* ---------------- PIÈ DI PAGINA ---------------- */
 .pie {
-  background: var(--blu-notte);
-  color: var(--carta);
+  background: var(--carta);
+  color: var(--blu-notte);
   padding: 48px 0 56px;
   text-align: center;
   margin-top: 20px;
+  border-top: 1px solid var(--filo);
 }
 .pie .marchio {
-  font-family: var(--serif); font-size: 1.4rem; font-weight: 500; color: var(--carta);
+  font-family: var(--serif); font-size: 1.4rem; font-weight: 500; color: var(--blu-notte);
 }
 .pie .righe {
   font-family: var(--sans); font-size: 0.74rem; letter-spacing: 0.08em;
-  color: var(--azzurro-tenue); margin-top: 12px; line-height: 1.8;
+  color: var(--blu); margin-top: 12px; line-height: 1.8;
 }
-.pie a { color: var(--bianco); text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.4); }
-.pie a:hover { border-color: var(--bianco); }
+.pie a { color: var(--blu); text-decoration: none; border-bottom: 1px solid var(--azzurro-tenue); }
+.pie a:hover { border-color: var(--blu); }
+.pie-link a { color: var(--blu) !important; opacity: 0.6; }
+.pie-link a:hover { opacity: 1; }
+.pie-legal a { color: var(--blu) !important; opacity: 0.5; }
+.pie-sep { color: var(--blu); opacity: 0.3; }
 
 /* ---------------- ANIMA INGRESSO ---------------- */
 @keyframes sali { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }

@@ -52,7 +52,8 @@ function costruisciHome() {
   if (man) {
     man.innerHTML =
       '<p class="payoff anima d1">' + esc(s.payoff) + '</p>' +
-      '<p class="intro anima d2">' + esc(s.introduzione) + '</p>';
+      '<p class="intro anima d2">' + esc(s.introduzione).replace(/\n/g, '<br>') + '</p>' +
+      '<a class="chisiamo-link anima d3" href="chisiamo.html">Chi siamo →</a>';
   }
 
   /* ---- sezioni a parola singola (Scopri · Vivi · Assapora) ---- */
@@ -224,13 +225,14 @@ function costruisciPie(s) {
   if (s.instagram && s.instagram.trim() !== "") {
     ig = '<a href="' + esc(s.instagram) + '" target="_blank" rel="noopener">Instagram</a> · ';
   }
-  const marchio = (s.logoBianco && s.logoBianco.trim() !== "")
-    ? '<img class="logo-pie" src="' + esc(s.logoBianco) + '" alt="' + esc(s.nome) + '">'
+  const marchio = (s.logo && s.logo.trim() !== "")
+    ? '<img class="logo-pie" src="' + esc(s.logo) + '" alt="' + esc(s.nome) + '">'
     : '<div class="marchio">' + esc(s.nome) + '</div>';
   pie.innerHTML =
     marchio +
     '<div class="righe">' + ig + esc(s.sigla) + ' — Travel For Two<br>' +
-    'Destinazioni oltre i luoghi comuni.</div>';
+    'Destinazioni oltre i luoghi comuni.</div>' +
+    '<div class="pie-link"><a href="chisiamo.html">Chi siamo</a></div>';
 }
 
 /* ----------- COSTRUZIONE DELLA PAGINA RACCONTO ----------- */
