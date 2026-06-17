@@ -21,11 +21,20 @@ function romano(n) {
 }
 
 /* link mappa universale (Google Maps): funziona su iPhone, Android e PC.
-   Usa le coordinate se presenti, altrimenti la query testuale. */
+   Usa le coordinate se presenti, altrimenti la query testuale.
+   Su iPhone/iPad/Mac apre Apple Mappe; altrove Google Maps. */
 function urlMappa(q, lat, lng) {
-  if (typeof lat === "number" && typeof lng === "number") {
-    return "https://www.google.com/maps/search/?api=1&query=" + lat + "," + lng;
+  const ua = navigator.userAgent || navigator.vendor || "";
+  const isApple = /iPhone|iPad|iPod|Macintosh/.test(ua) && !window.MSStream;
+  const haCoord = (typeof lat === "number" && typeof lng === "number");
+
+  if (isApple) {
+    /* Apple Mappe */
+    if (haCoord) return "https://maps.apple.com/?ll=" + lat + "," + lng + "&q=" + encodeURIComponent(q || (lat + "," + lng));
+    return "https://maps.apple.com/?q=" + encodeURIComponent(q || "");
   }
+  /* Google Maps */
+  if (haCoord) return "https://www.google.com/maps/search/?api=1&query=" + lat + "," + lng;
   return "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(q || "");
 }
 
