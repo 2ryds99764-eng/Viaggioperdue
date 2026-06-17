@@ -638,6 +638,9 @@ body::before {
 }
 .pie a { color: var(--blu); text-decoration: none; border-bottom: 1px solid var(--azzurro-tenue); }
 .pie a:hover { border-color: var(--blu); }
+.ig-link { border-bottom: none !important; vertical-align: middle; opacity: 0.7; }
+.ig-link:hover { opacity: 1; }
+.ig-link svg { display: inline-block; vertical-align: middle; color: var(--blu); }
 .pie-link a { color: var(--blu) !important; opacity: 0.6; }
 .pie-link a:hover { opacity: 1; }
 .pie-legal a { color: var(--blu) !important; opacity: 0.5; }
