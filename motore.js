@@ -179,7 +179,17 @@ function etichettaTelefono(catId) {
 function scheda(v, i, catId) {
   /* foto */
   let foto;
-  if (v.immagine && v.immagine.trim() !== "") {
+  if (v.prestoOnline) {
+    /* foto generica della categoria per i vignaioli in attesa */
+    const cat = T42.categorie.find(function(c) { return c.id === catId; });
+    const fotoGenerica = "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_6641_u04w0c";
+    if (fotoGenerica) {
+      foto = '<div class="scheda-foto"><img src="' + esc(fotoGenerica) +
+             '" alt="' + esc(v.titolo) + '" loading="lazy" style="filter:brightness(.7) saturate(.6)"></div>';
+    } else {
+      foto = '<div class="scheda-foto vuota"></div>';
+    }
+  } else if (v.immagine && v.immagine.trim() !== "") {
     foto = '<div class="scheda-foto"><img src="' + esc(v.immagine) +
            '" alt="' + esc(v.titolo) + '" loading="lazy"></div>';
   } else {
@@ -188,25 +198,29 @@ function scheda(v, i, catId) {
 
   /* pulsanti */
   let azioni = "";
-  if (v.telefono && v.telefono.trim() !== "") {
-    azioni += '<a class="btn btn--pieno" href="tel:' + esc(v.telefono.replace(/\s/g, "")) + '">' + etichettaTelefono(catId) + '</a>';
+  if (v.prestoOnline) {
+    azioni = '<div class="azioni"><span class="presto-online">Presto online.</span></div>';
+  } else {
+    if (v.telefono && v.telefono.trim() !== "") {
+      azioni += '<a class="btn btn--pieno" href="tel:' + esc(v.telefono.replace(/\s/g, "")) + '">' + etichettaTelefono(catId) + '</a>';
+    }
+    if (v.cellulare && v.cellulare.trim() !== "") {
+      azioni += '<a class="btn" href="tel:' + esc(v.cellulare.replace(/\s/g, "")) + '">Cellulare</a>';
+    }
+    if (v.mappa && v.mappa.trim() !== "") {
+      azioni += '<a class="btn" href="' + urlMappa(v.mappa, v.lat, v.lng) + '" target="_blank" rel="noopener">Apri la mappa</a>';
+    }
+    if (v.web && v.web.trim() !== "") {
+      azioni += '<a class="btn" href="' + esc(v.web) + '" target="_blank" rel="noopener">Sito web</a>';
+    }
+    if (v.email && v.email.trim() !== "") {
+      azioni += '<a class="btn" href="mailto:' + esc(v.email) + '">Scrivi</a>';
+    }
+    if (v.storia && v.storia.trim() !== "") {
+      azioni += '<a class="btn btn--storia" href="storia.html?s=' + encodeURIComponent(v.storia) + '">Leggi la storia →</a>';
+    }
+    if (azioni) azioni = '<div class="azioni">' + azioni + '</div>';
   }
-  if (v.cellulare && v.cellulare.trim() !== "") {
-    azioni += '<a class="btn" href="tel:' + esc(v.cellulare.replace(/\s/g, "")) + '">Cellulare</a>';
-  }
-  if (v.mappa && v.mappa.trim() !== "") {
-    azioni += '<a class="btn" href="' + urlMappa(v.mappa, v.lat, v.lng) + '" target="_blank" rel="noopener">Apri la mappa</a>';
-  }
-  if (v.web && v.web.trim() !== "") {
-    azioni += '<a class="btn" href="' + esc(v.web) + '" target="_blank" rel="noopener">Sito web</a>';
-  }
-  if (v.email && v.email.trim() !== "") {
-    azioni += '<a class="btn" href="mailto:' + esc(v.email) + '">Scrivi</a>';
-  }
-  if (v.storia && v.storia.trim() !== "") {
-    azioni += '<a class="btn btn--storia" href="storia.html?s=' + encodeURIComponent(v.storia) + '">Leggi la storia →</a>';
-  }
-  if (azioni) azioni = '<div class="azioni">' + azioni + '</div>';
 
   const ritardo = "d" + Math.min(i + 1, 6);
 
@@ -214,9 +228,12 @@ function scheda(v, i, catId) {
     '<div class="scheda-testo">' +
       (v.luogo ? '<div class="luogo">' + esc(v.luogo) + '</div>' : '') +
       '<h2>' + esc(v.titolo) + '</h2>' +
-      (v.sommario ? '<p class="sommario">' + esc(v.sommario) + '</p>' : '') +
-      (v.testo ? '<p class="corpo">' + escV(v.testo) + '</p>' : '') +
-      azioni +
+      (v.prestoOnline
+        ? '<p class="presto-online">Presto online.</p>'
+        : (v.sommario ? '<p class="sommario">' + esc(v.sommario) + '</p>' : '') +
+          (v.testo ? '<p class="corpo">' + escV(v.testo) + '</p>' : '') +
+          azioni
+      ) +
     '</div>';
 
   return '<article class="scheda anima ' + ritardo + '">' + foto + testo + '</article>';
@@ -389,6 +406,19 @@ function costruisciStoria() {
   if (!s) {
     const corpo = document.getElementById("storia-corpo");
     if (corpo) corpo.innerHTML = '<div class="vuoto">Storia non trovata.</div>';
+    costruisciPie(T42.sito);
+    return;
+  }
+
+  /* se prestoOnline, mostra solo il messaggio */
+  if (scheda && scheda.prestoOnline) {
+    document.title = scheda.titolo + " · " + T42.sito.nome;
+    const corpo = document.getElementById("storia-corpo");
+    if (corpo) corpo.innerHTML =
+      '<div class="presto-online-pagina">' +
+        '<p class="presto-online-nome">' + esc(scheda.titolo) + '</p>' +
+        '<p class="presto-online-msg">Presto online.</p>' +
+      '</div>';
     costruisciPie(T42.sito);
     return;
   }

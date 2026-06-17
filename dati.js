@@ -522,6 +522,7 @@ const T42 = {
         mappa: "Azienda Agricola Maria Pia Castelli, Contrada Sant'Isidoro 22, Monte Urano FM",
         lat: 43.1820, lng: 13.6790,   /* Monte Urano (FM) — approssimative, da affinare */
         storia: "castelli",
+      prestoOnline: true,
         galleria: []
       },
       {
@@ -537,6 +538,7 @@ const T42 = {
         mappa: "Azienda Agricola Monte dei Ragni, Località Marega 3, Fumane VR",
         lat: 45.5360, lng: 10.8840,   /* Fumane (VR) — approssimativa, da affinare */
         storia: "ragni",
+      prestoOnline: true,
         galleria: []
       },
       {
@@ -551,6 +553,7 @@ const T42 = {
         mappa: "Azienda Vitivinicola Comm. G. B. Burlotto, Via Vittorio Emanuele II 28, Verduno CN",
         lat: 44.6480, lng: 7.9760,   /* Verduno (CN) — approssimativa, da affinare */
         storia: "burlotto",
+      prestoOnline: true,
         galleria: []
       },
       {
@@ -565,6 +568,7 @@ const T42 = {
         mappa: "Tenute Dettori, Strada Provinciale 29 km 10, Sennori SS",
         lat: 40.7890, lng: 8.5900,   /* Sennori (SS) — approssimativa, da affinare */
         storia: "dettori",
+      prestoOnline: true,
         galleria: []
       },
       {
@@ -579,6 +583,7 @@ const T42 = {
         mappa: "Azienda Agricola Zidarich, Località Prepotto 23, Duino Aurisina TS",
         lat: 45.7570, lng: 13.6160,   /* Prepotto / Carso (TS) — approssimativa, da affinare */
         storia: "zidarich",
+      prestoOnline: true,
         galleria: []
       },
       {
@@ -593,6 +598,7 @@ const T42 = {
         mappa: "Marco De Bartoli, Contrada Samperi, Marsala TP",
         lat: 37.7670, lng: 12.4690,   /* Marsala (TP) — approssimativa, da affinare */
         storia: "debartoli",
+      prestoOnline: true,
         galleria: []
       },
       {
@@ -607,6 +613,7 @@ const T42 = {
         mappa: "Damijan Podversič, Via degli Eroi 33, Gorizia GO",
         lat: 45.9490, lng: 13.6210,   /* Gorizia (GO) — approssimativa, da affinare */
         storia: "damijan",
+      prestoOnline: true,
         galleria: []
       },
       {
@@ -621,6 +628,7 @@ const T42 = {
         mappa: "Azienda Agricola Luigi Tecce, Via Trinità 6, Paternopoli AV",
         lat: 40.9760, lng: 15.0330,   /* Paternopoli (AV) — approssimativa, da affinare */
         storia: "tecce",
+      prestoOnline: true,
         galleria: []
       },
       {
@@ -635,6 +643,7 @@ const T42 = {
         mappa: "Azienda Agricola Pietre Levate, Località Bocito, Ottati SA",
         lat: 40.3760, lng: 15.2480,   /* Ottati (SA) — approssimativa, da affinare */
         storia: "pietrelevate",
+      prestoOnline: true,
         galleria: []
       }
     ]
