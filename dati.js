@@ -52,17 +52,17 @@ const T42 = {
     instagram: "https://www.instagram.com/",   /* ← metti qui l'indirizzo del tuo profilo */
 
     /* ---- Stile immersivo della home (ispirato a Domitur) ---- */
-    hero: "https://res.cloudinary.com/dspgc41gt/image/upload/assets/IMG_3760_mphh07",                   /* grande foto a tutto schermo */
+    hero: "https://res.cloudinary.com/dspgc41gt/image/upload/Hero.jpg_ffkmdy",                   /* grande foto a tutto schermo */
     heroTitolo: "Viaggioperdue",
     heroSotto: "Esistono luoghi dove il tempo sembra essersi fermato.",
 
     /* le tre sezioni a parola singola che si incontrano scorrendo */
     sezioni: [
-      { parola: "Camera con vista",    testo: "Dimore dove l’ospitalità è autentica e il paesaggio entra dentro le stanze.", immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/assets/IMG_5181_pp5vga" },
-      { parola: "Un tavolo per due",   testo: "Cucine che raccontano un luogo, una stagione, le mani di chi ha scelto di fare le cose a modo suo.", immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/assets/IMG_6904_n0zj2j" },
-      { parola: "Racconti di viaggio", testo: "Luoghi che non si visitano: si attraversano, e ci lasciano qualcosa.", immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/assets/IMG_5236_h4rgus" },
-      { parola: "Mestieri d’autore",  testo: "Artigiani, agricoltori, pescatori: persone da incontrare, non solo prodotti da acquistare.", immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/assets/IMG_9780_bcsj2u" },
-      { parola: "Vignaioli",           testo: "Chi fa vino con intenzione, controcorrente, perché certe radici meritano di sopravvivere.", immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/assets/IMG_7370_c878u6" }
+      { parola: "Camera con vista",    testo: "Dimore dove l’ospitalità è autentica e il paesaggio entra dentro le stanze.", immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5181_pp5vga" },
+      { parola: "Un tavolo per due",   testo: "Cucine che raccontano un luogo, una stagione, le mani di chi ha scelto di fare le cose a modo suo.", immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_6904_n0zj2j" },
+      { parola: "Racconti di viaggio", testo: "Luoghi che non si visitano: si attraversano, e ci lasciano qualcosa.", immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5236_h4rgus" },
+      { parola: "Mestieri d’autore",  testo: "Artigiani, agricoltori, pescatori: persone da incontrare, non solo prodotti da acquistare.", immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_9780_bcsj2u" },
+      { parola: "Vignaioli",           testo: "Chi fa vino con intenzione, controcorrente, perché certe radici meritano di sopravvivere.", immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_7370_c878u6" }
     ]
   },
 
@@ -93,7 +93,7 @@ const T42 = {
       occhiello: "Trattoria Campanini · Busseto",
       titolo: "Una storia di campagna, di tavola e di famiglia",
       sottotitolo: "Madonna dei Prati — Busseto, nel cuore della Bassa parmense",
-      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/assets/IMG_4381_u74xvg",
+      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_4381_u74xvg",
       paragrafi: [
         "Imboccata la strada per Madonna dei Prati, cambia il mondo: campi curati, case coloniche, lunghi filari di alberi, silenzio. Ci si avvicina al santuario, quello dove — racconta la memoria del paese — un giovane Giuseppe Verdi suonava l’organo. E proprio di fronte al tempio, da oltre un secolo, sta la trattoria della famiglia Campanini: un luogo che è molto più di un ristorante, perché è diventato un pezzo di memoria corale di tutta la Bassa.",
         "§ Le origini: dai pellegrini all’osteria",
@@ -121,7 +121,7 @@ const T42 = {
       occhiello: "Poliform Cafè · Milano",
       titolo: "La cucina diretta di Mario Iannone",
       sottotitolo: "Piazza della Scala — nel cuore di Milano",
-      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/assets/IMG_1620_amjout",
+      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_1620_amjout",
       paragrafi: [
         "Un tavolo per due è una pausa dal mondo. Una luce limpida, una sala affacciata sulla piazza, il giusto silenzio per ritrovarsi. Al Poliform Cafè la cucina si fa comprensibile e leggera, pensata soprattutto per il pranzo: nessun piatto difficile, nessuna pesantezza, ma sapori diretti che si lasciano riconoscere.",
         "§ Lo chef — Mario Iannone",
@@ -299,7 +299,7 @@ const T42 = {
   categorie: [
     {
       id: "locande", titolo: "Camera con vista", sottotitolo: "Dove fermarsi per la notte",
-      tessera: "https://res.cloudinary.com/dspgc41gt/image/upload/assets/IMG_5181_pp5vga",
+      tessera: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5181_pp5vga",
       intro: "Aprire le persiane su un panorama inaspettato è uno dei piccoli miracoli del viaggio. Abbiamo scelto le dimore dove l’accoglienza incontra la bellezza: alberghi, rifugi e affacci sospesi, pensati per chi vuole fermarsi davvero — non solo per la notte.",
       manifesto: {
         titolo: "Quali sono le dimore che scegliamo",
@@ -314,7 +314,7 @@ const T42 = {
     },
     {
       id: "trattorie", titolo: "Un tavolo per due", sottotitolo: "La cucina come destinazione",
-      tessera: "https://res.cloudinary.com/dspgc41gt/image/upload/assets/IMG_6904_n0zj2j",
+      tessera: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_6904_n0zj2j",
       intro: "C'è una cucina che vale un viaggio. Non perché si trovi in una guida, ma perché racconta un luogo, una persona, un modo di stare al mondo che altrimenti non avresti incontrato. Abbiamo scelto i tavoli dove la cucina è una destinazione: trattorie, ristoranti e osterie da raggiungere con intenzione, non per caso.",
       manifesto: {
         titolo: "Quali sono i locali che scegliamo",
@@ -329,7 +329,7 @@ const T42 = {
     },
     {
       id: "luoghi", titolo: "Racconti di viaggio", sottotitolo: "Luoghi da scoprire, non solo da vedere",
-      tessera: "https://res.cloudinary.com/dspgc41gt/image/upload/assets/IMG_5236_h4rgus",
+      tessera: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5236_h4rgus",
       intro: "Certi posti non si visitano: si attraversano, e ci lasciano qualcosa. Un borgo che non è sul GPS, una strada che porta dove non si aspettava, un panorama che toglie le parole. Abbiamo scelto i luoghi che hanno una storia da raccontare — e che cambiano, almeno un po', chi li percorre.",
       manifesto: {
         titolo: "Quali sono i luoghi che scegliamo",
@@ -344,7 +344,7 @@ const T42 = {
     },
     {
       id: "artigiani", titolo: "Mestieri d'autore", sottotitolo: "La sapienza del fare",
-      tessera: "https://res.cloudinary.com/dspgc41gt/image/upload/assets/IMG_9780_bcsj2u",
+      tessera: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_9780_bcsj2u",
       intro: "L’importanza del dettaglio. C’è un sapere che non si trova sui motori di ricerca. Si trova in una bottega, al mercato del pesce al mattino presto, in un campo coltivato con la saggezza di un tempo. Nelle mani di chi ha imparato guardando e poi ha fatto proprio. Abbiamo scelto i mestieri dove l’identità di chi fa è inseparabile da ciò che produce — persone da incontrare, non solo prodotti da acquistare.",
       manifesto: {
         titolo: "Quali sono i mestieri che raccontiamo",
@@ -359,7 +359,7 @@ const T42 = {
     },
     {
       id: "vignaioli", titolo: "Vignaioli", sottotitolo: "Il vino come memoria di un territorio",
-      tessera: "https://res.cloudinary.com/dspgc41gt/image/upload/assets/IMG_7370_c878u6",
+      tessera: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_7370_c878u6",
       intro: "Il vino racconta ciò che la terra ricorda. Un vitigno antico, un suolo che nessun altro ha, un clima che non si ripete: ogni bottiglia è la memoria di un luogo preciso e di chi ha scelto di custodirlo. Abbiamo scelto i vignaioli che fanno vino con intenzione — controcorrente, spesso in solitudine — perché certe radici, letterali e culturali, meritano di sopravvivere.",
       manifesto: {
         titolo: "Chi sono i vignaioli che scegliamo",
@@ -410,7 +410,7 @@ const T42 = {
         luogo: "Piazza della Scala 5 · Milano",
         sommario: "Nel cuore di Milano, una cucina diretta e luminosa: l’ingrediente protagonista, il pranzo come arte della leggerezza.",
         testo: "In Piazza della Scala, il Poliform Cafè porta in tavola la cucina di Mario Iannone — formazione napoletana, l’Accademia di Niko Romito e otto anni accanto a Michele a Rovello — e la pasticceria di Piera Gandolfo. Una cucina comprensibile e leggera, dove l’ingrediente è il vero protagonista e ogni gesto custodisce la stessa cura.",
-        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/assets/IMG_1620_amjout",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_1620_amjout",
         telefono: "+39 331 1958361",
         email: "",
         web: "",
@@ -424,7 +424,7 @@ const T42 = {
         luogo: "Madonna dei Prati · Busseto (PR)",
         sommario: "Da oltre un secolo, di fronte al santuario, la memoria corale della Bassa: torta fritta e culatello.",
         testo: "Imboccata la strada per Madonna dei Prati cambia il mondo: campi curati, case coloniche, lunghi filari, silenzio. Di fronte al santuario dove un giovane Verdi suonava l’organo, da oltre cent’anni sta la trattoria della famiglia Campanini. I salumi sono il cuore della casa — culatelli grandi e marezzati, stagionati fino a 32 e 42 mesi — e il lunedì sera resta la tradizione della torta fritta.",
-        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/assets/IMG_4381_u74xvg",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_4381_u74xvg",
         telefono: "+390524925 69",
         email: "campanini@culatelloandwine.com",
         web: "https://campanini.culatelloandwine.it",
