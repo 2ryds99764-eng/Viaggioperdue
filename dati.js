@@ -349,7 +349,8 @@ const T42 = {
           "Abbiamo scelto trattorie dove la cucina è ancora un atto di amore. Ristoranti dove lo chef conosce il nome di chi alleva, di chi coltiva, di chi pesca. Osterie dove sedersi a tavola significa conoscere un luogo, non solo consumare un pasto.",
           "Sono tavoli che si raggiungono con intenzione, spesso fuori dai luoghi comuni. E dai quali, di solito, si riparte con qualcosa in più."
         ]
-      }
+      },
+      guidaLink: true
     },
     {
       id: "luoghi", titolo: "Racconti di viaggio", sottotitolo: "Luoghi da scoprire, non solo da vedere",
