@@ -2,7 +2,7 @@
    T42 · VIAGGIOPERDUE — GUIDA AI RISTORANTI
    Generato automaticamente dall'Excel — non modificare a mano.
 =================================================================== */
-const GUIDA = [
+window.GUIDA = [
   {
     "nome": "Accademia",
     "luogo": "Casale Monferrato · AL",
@@ -3290,7 +3290,7 @@ const GUIDA = [
   }
 ];
 
-const GUIDA_REGPROV = {
+window.GUIDA_REGPROV = {
   "Piemonte": [
     "AL",
     "CN",
