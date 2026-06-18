@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chi siamo · Viaggioperdue</title>
-  <meta name="description" content="Viaggioperdue nasce da una semplice convinzione: che il viaggio valga davvero quando diventa un'opportunità per scoprire qualcosa.">
+  <meta name="description" content="Viaggio<em>per</em>due nasce da una semplice convinzione: che il viaggio valga davvero quando diventa un'opportunità per scoprire qualcosa.">
   <link rel="stylesheet" href="stile.css">
   <!-- Iubenda Cookie Solution -->
   <script type="text/javascript">
@@ -32,6 +32,7 @@
     </div>
 </footer>
 
+  <script src="loghi.js"></script>
   <script src="dati.js"></script>
   <script src="motore.js"></script>
   <script>
@@ -40,22 +41,22 @@
     const intest = document.getElementById("manifesto-intestazione");
     if (intest) {
       intest.innerHTML =
-        '<a class="ritorno" href="index.html">← Viaggioperdue</a>' +
-        '<div class="occhiello anima d1">T42 · Viaggioperdue</div>' +
+        '<a class="ritorno" href="index.html">← Viaggio<em>per</em>due</a>' +
+        '<div class="occhiello anima d1">T42 · Viaggio<em>per</em>due</div>' +
         '<h1 class="anima d2">Chi siamo</h1>' +
         '<p class="racconto-sub anima d3">Destinazioni oltre i luoghi comuni</p>';
     }
     const corpo = document.getElementById("manifesto-corpo");
     if (corpo) {
       const paragrafi = [
-        "Viaggioperdue nasce da una semplice convinzione: che il viaggio valga davvero quando diventa un\u2019opportunit\u00e0 per scoprire qualcosa.",
+        "Viaggio<em>per</em>due nasce da una semplice convinzione: che il viaggio valga davvero quando diventa un\u2019opportunit\u00e0 per scoprire qualcosa.",
         "Non un posto. Una persona. Chi cucina con le proprie mani ci\u00f2 che ha coltivato o scelto con cura. Chi apre la porta di una dimora come fosse la sua casa e sappia raccontare una storia. Chi fa un vino che racconta la terra dove \u00e8 nato. Chi esercita un mestiere con la stessa dedizione con cui altri scrivono o dipingono.",
         "Queste persone esistono. Lavorano spesso in silenzio, lontano dai riflettori, fuori dai circuiti pi\u00f9 battuti. E quello che fanno \u2014 con impegno, con passione, con la sapienza delle proprie mani \u2014 ha sempre uno scopo preciso: restituire qualcosa di autentico a chi viaggia. Non si sposta.",
-        "Viaggioperdue \u00e8 la guida che le cerca, le incontra e le racconta. Non una lista di posti dove andare, ma un invito a scoprire le persone che li abitano. Perch\u00e9 il viaggio pi\u00f9 bello non finisce quando si torna a casa, finisce quando si comprende che si vuole tornare."
+        "Viaggio<em>per</em>due \u00e8 la guida che le cerca, le incontra e le racconta. Non una lista di posti dove andare, ma un invito a scoprire le persone che li abitano. Perch\u00e9 il viaggio pi\u00f9 bello non finisce quando si torna a casa, finisce quando si comprende che si vuole tornare."
       ];
       corpo.innerHTML = paragrafi.map(function(p, i) {
         return '<p class="' + (i === 0 ? "rp rp-prima" : "rp") + '">' + p + '</p>';
-      }).join("") + '<div class="rp-firma">\u2014 Viaggioperdue \u00b7 T42</div>';
+      }).join("") + '<div class="rp-firma">\u2014 Viaggio<em>per</em>due \u00b7 T42</div>';
     }
   </script>
 </body>
