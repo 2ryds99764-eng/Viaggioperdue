@@ -264,7 +264,7 @@ function costruisciPie(s) {
     marchio +
     '<div class="righe">' + ig + 'Viaggio<em>per</em>due<br>' +
     'Destinazioni oltre i luoghi comuni.</div>' +
-    '<div class="pie-link"><a href="chisiamo.html">Chi siamo</a></div>';
+    '<div class="pie-link"><a href="chisiamo.html">Chi siamo</a> <span class="pie-sep">·</span> <a href="mailto:viaggioperdue@icloud.com">Scrivici</a></div>';
 }
 
 /* ----------- COSTRUZIONE DELLA PAGINA RACCONTO ----------- */
