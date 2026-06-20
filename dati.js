@@ -502,11 +502,12 @@ const T42 = {
     artigiani: [
       {
         titolo: "Giorgio Paponi",
-        luogo: "Montegranaro (FM) · Marche",
+        luogo: "Via Fermana Sud 401/B · Montegranaro (FM)",
         sommario: "L\'eleganza che si costruisce a mano, un punto alla volta.",
         immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5771_bsqkns",
         storia: "paponi",
-        mappa: "Montegranaro, Fermo",
+        telefono: "+390734889468",
+        mappa: "Via Fermana Sud 401/B, Montegranaro, Fermo",
         lat: 43.2347, lng: 13.6278
       }
     ],
