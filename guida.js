@@ -94,7 +94,7 @@ window.GUIDA = [
     "note": ""
   },
   {
-    "nome": "Aldo Ritrovato",
+    "nome": "Stadera",
     "luogo": "Milano · MI",
     "regione": "Lombardia",
     "prov": "MI",
@@ -2954,6 +2954,16 @@ window.GUIDA = [
     "note": ""
   },
   {
+    "nome": "Manifattura Alimentare",
+    "luogo": "Ferrara · FE",
+    "regione": "Emilia-Romagna",
+    "prov": "FE",
+    "tel": "+39 0532 1716071",
+    "web": "http://www.manifatturaalimentare.it",
+    "mappa": "Via Palestro 73, Ferrara",
+    "note": "Gastronomia"
+  },
+  {
     "nome": "Saimir Xhaxhaj",
     "luogo": "Verona · VR",
     "regione": "Veneto",
@@ -3152,16 +3162,6 @@ window.GUIDA = [
     "web": "https://www.anticaosteriaalcastello.com",
     "mappa": "Via Castello 23, Sorio di Gambellara",
     "note": "1 Km dall'uscita di Montebello Vicentino, direzione Gambellara Locali"
-  },
-  {
-    "nome": "Sud Ristorante",
-    "luogo": "Quarto",
-    "regione": "Campania",
-    "prov": "",
-    "tel": "+39 081 0202708",
-    "web": "",
-    "mappa": "Via S.S. Pietro e Paolo 5, Quarto",
-    "note": ""
   },
   {
     "nome": "Susanna Tezzon",
@@ -3708,6 +3708,7 @@ window.GUIDA_REGPROV = {
   "Emilia-Romagna": [
     "BO",
     "FC",
+    "FE",
     "MO",
     "PC",
     "PR",
