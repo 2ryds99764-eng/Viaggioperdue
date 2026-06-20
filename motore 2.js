@@ -21,11 +21,20 @@ function romano(n) {
 }
 
 /* link mappa universale (Google Maps): funziona su iPhone, Android e PC.
-   Usa le coordinate se presenti, altrimenti la query testuale. */
+   Usa le coordinate se presenti, altrimenti la query testuale.
+   Su iPhone/iPad/Mac apre Apple Mappe; altrove Google Maps. */
 function urlMappa(q, lat, lng) {
-  if (typeof lat === "number" && typeof lng === "number") {
-    return "https://www.google.com/maps/search/?api=1&query=" + lat + "," + lng;
+  const ua = navigator.userAgent || navigator.vendor || "";
+  const isApple = /iPhone|iPad|iPod|Macintosh/.test(ua) && !window.MSStream;
+  const haCoord = (typeof lat === "number" && typeof lng === "number");
+
+  if (isApple) {
+    /* Apple Mappe */
+    if (haCoord) return "https://maps.apple.com/?ll=" + lat + "," + lng + "&q=" + encodeURIComponent(q || (lat + "," + lng));
+    return "https://maps.apple.com/?q=" + encodeURIComponent(q || "");
   }
+  /* Google Maps */
+  if (haCoord) return "https://www.google.com/maps/search/?api=1&query=" + lat + "," + lng;
   return "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(q || "");
 }
 
@@ -147,12 +156,13 @@ function costruisciCategoria() {
   const intest = document.getElementById("cat-intestazione");
   if (intest) {
     intest.innerHTML =
-      '<a class="ritorno" href="index.html">Tutte le categorie</a>' +
+      '<a class="ritorno" href="index.html">Riprendi il viaggio</a>' +
       '<div class="occhiello anima d1">' + esc(T42.sito.sigla) + ' · Viaggioperdue</div>' +
       '<h1 class="anima d2">' + esc(cat.titolo) + '</h1>' +
       '<p class="anima d3">' + esc(cat.sottotitolo) + '</p>' +
       (cat.intro ? '<p class="cat-intro anima d3">' + escV(cat.intro) + '</p>' : '') +
-      (cat.manifesto ? '<a class="cat-manifesto-link anima d3" href="manifesto.html?c=' + encodeURIComponent(cat.id) + '">' + esc(cat.manifesto.titolo) + ' →</a>' : '');
+      (cat.manifesto ? '<a class="cat-manifesto-link anima d3" href="manifesto.html?c=' + encodeURIComponent(cat.id) + '">' + esc(cat.manifesto.titolo) + ' →</a>' : '') +
+      (cat.guidaLink ? '<a class="cat-manifesto-link anima d3" href="guida.html">Cerca nella nostra guida ai ristoranti →</a>' : '');
   }
 
   const elenco = document.getElementById("elenco");
@@ -254,7 +264,7 @@ function costruisciPie(s) {
     marchio +
     '<div class="righe">' + ig + 'Viaggio<em>per</em>due<br>' +
     'Destinazioni oltre i luoghi comuni.</div>' +
-    '<div class="pie-link"><a href="chisiamo.html">Chi siamo</a></div>';
+    '<div class="pie-link"><a href="chisiamo.html">Chi siamo</a> <span class="pie-sep">·</span> <a href="mailto:viaggioperdue@icloud.com">Scrivici</a></div>';
 }
 
 /* ----------- COSTRUZIONE DELLA PAGINA RACCONTO ----------- */
@@ -448,8 +458,16 @@ function costruisciStoria() {
   /* corpo: i paragrafi che iniziano con § diventano sottotitoli */
   const corpo = document.getElementById("storia-corpo");
   if (corpo) {
+    let html = "";
+    /* epigrafe opzionale in apertura */
+    if (s.epigrafe && s.epigrafe.testo) {
+      html += '<blockquote class="epigrafe">' +
+        '<p class="epigrafe-testo">' + esc(s.epigrafe.testo) + '</p>' +
+        (s.epigrafe.fonte ? '<p class="epigrafe-fonte">' + esc(s.epigrafe.fonte) + '</p>' : '') +
+        '</blockquote>';
+    }
     let primaFatta = false;
-    corpo.innerHTML = (s.paragrafi || []).map(function (p) {
+    html += (s.paragrafi || []).map(function (p) {
       if (p.indexOf("§") === 0) {
         return '<h2 class="storia-h2">' + esc(p.replace(/^§\s*/, "")) + '</h2>';
       }
@@ -457,6 +475,7 @@ function costruisciStoria() {
       primaFatta = true;
       return '<p class="rp' + (primo ? ' rp-prima' : '') + '">' + escV(p) + '</p>';
     }).join("");
+    corpo.innerHTML = html;
   }
 
   /* galleria dalla scheda collegata */
