@@ -174,16 +174,6 @@ window.GUIDA = [
     "note": "Chiuso il lunedì e la domenica a pranzo"
   },
   {
-    "nome": "Amaltea",
-    "luogo": "Milano · MI",
-    "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 02 606340",
-    "web": "https://www.ristoranteamaltea.it",
-    "mappa": "Via Guglielmo Pepe 38, Milano",
-    "note": ""
-  },
-  {
     "nome": "Amerigo 1934",
     "luogo": "Savigno · BO",
     "regione": "Emilia-Romagna",
