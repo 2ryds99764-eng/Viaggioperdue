@@ -465,13 +465,23 @@ const T42 = {
       },
       {
         titolo: "Stadera — Gastronomia Contemporanea",
-        luogo: "Ferrara",
+        luogo: "Largo della Crocetta 1 · Milano",
         sommario: "Sembra una gastronomia di quartiere. È, invece, grande cucina.",
         testo: "Un’occhiata distratta potrebbe ingannare. Ma se cedete alla curiosità di soffermarvi, scoprirete un locale dove si servono piatti di grande cucina. Aldo Ritrovato e Laura hanno realizzato il sogno che a lungo custodivano in un cassetto.",
-        immagine: "assets/stadera.jpg",
+        immagine: "",
         telefono: "",
+        mappa: "Largo della Crocetta 1, Milano",
+        lat: 45.4566, lng: 9.1878
+      },
+      {
+        titolo: "Manifattura Alimentare",
+        luogo: "Ferrara",
+        sommario: "Cucina del territorio, nel cuore di Ferrara.",
+        immagine: "",
+        telefono: "",
+        web: "http://www.manifatturaalimentare.it",
         mappa: "Ferrara",
-        lat: 44.8381, lng: 11.6198   /* coordinate approssimative — correggi con precisione */
+        lat: 44.8381, lng: 11.6198
       },
       {
         titolo: "Tavola sulle Colline",
