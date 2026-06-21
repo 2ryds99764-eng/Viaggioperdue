@@ -174,16 +174,6 @@ window.GUIDA = [
     "note": "Chiuso il lunedì e la domenica a pranzo"
   },
   {
-    "nome": "Amaltea",
-    "luogo": "Milano · MI",
-    "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 02 606340",
-    "web": "https://www.ristoranteamaltea.it",
-    "mappa": "Via Guglielmo Pepe 38, Milano",
-    "note": ""
-  },
-  {
     "nome": "Amerigo 1934",
     "luogo": "Savigno · BO",
     "regione": "Emilia-Romagna",
@@ -994,7 +984,7 @@ window.GUIDA = [
     "note": ""
   },
   {
-    "nome": "Diego Panizza",
+    "nome": "Horto",
     "luogo": "Milano · MI",
     "regione": "Lombardia",
     "prov": "MI",
@@ -1164,7 +1154,7 @@ window.GUIDA = [
     "note": "Con camere · ♥️"
   },
   {
-    "nome": "Federico Sisti",
+    "nome": "Frangente",
     "luogo": "Milano · MI",
     "regione": "Lombardia",
     "prov": "MI",
@@ -2024,7 +2014,7 @@ window.GUIDA = [
     "note": ""
   },
   {
-    "nome": "Luca Pardini",
+    "nome": "Ceresio 7",
     "luogo": "Milano · MI",
     "regione": "Lombardia",
     "prov": "MI",
@@ -2164,7 +2154,7 @@ window.GUIDA = [
     "note": "Chiuso domenica e lunedì Mani"
   },
   {
-    "nome": "Mariasole Cuomo",
+    "nome": "Spore",
     "luogo": "Milano · MI",
     "regione": "Lombardia",
     "prov": "MI",
@@ -2894,7 +2884,7 @@ window.GUIDA = [
     "note": ""
   },
   {
-    "nome": "Roberto Di Pinto",
+    "nome": "Sine",
     "luogo": "Milano · MI",
     "regione": "Lombardia",
     "prov": "MI",
@@ -2914,7 +2904,7 @@ window.GUIDA = [
     "note": ""
   },
   {
-    "nome": "Rocco",
+    "nome": "Charmant",
     "luogo": "Milano · MI",
     "regione": "Lombardia",
     "prov": "MI",
