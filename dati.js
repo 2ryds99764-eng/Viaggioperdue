@@ -89,6 +89,19 @@ const T42 = {
      Ogni storia ha una chiave (es. "campanini") richiamata dal campo
      "storia" di una scheda. titolo, occhiello, sottotitolo e i paragrafi. ---- */
   storie: {
+    ghianda: {
+      occhiello: "Mestieri d'autore · Brianza",
+      titolo: "Nel segno del legno",
+      sottotitolo: "Bottega Ghianda — Giussano, Brianza",
+      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_1788_mftxg6",
+      paragrafi: [
+        "Ci sono botteghe che sopravvivono ai loro fondatori. Bottega Ghianda è nata più di due secoli fa in Brianza, dove il legno non è mai stato solo materia prima ma linguaggio — un modo di pensare la forma, il tempo, la cura.",
+        "Luigi Ghianda ha portato quell'arte ai vertici. Ebanista tra i più grandi del Novecento italiano, ha lavorato con architetti e designer di eccezione, trasformando visioni progettuali in oggetti unici. Ogni pezzo che usciva dalla sua bottega era irripetibile: incastri complessi quanto discreti, essenze lavorate con mano sicura e amorevole — il segno distintivo di un'ebanisteria che non ammette scorciatoie.",
+        "Lo incontrammo molti anni fa, dopo aver letto su Abitare un servizio che parlava dei mobili realizzati da Pierluigi Ghianda per un'abitazione di prestigio sui disegni di Frank Lloyd Wright. Nacque una lunga conversazione — lui che donava il suo tempo con generosità rara, raccontando il legno, i progetti, gli anni. Poco prima di salutarci ci regalò un tagliacarte in legno di pero. Lo stesso tagliacarte che la bottega realizza ancora oggi, invariato.",
+        "Oggi Bottega Ghianda continua sotto la guida di Romeo Sozzi, che ne ha rilevato l'attività portandola nel mondo del design internazionale — da Álvaro Siza a Maria Sole Ferragamo. La sapienza artigianale brianzola dialoga con visioni nuove, ma resta fedele a una vocazione antica: quella di durare.",
+        "Il legno, qui, non invecchia mai."
+      ]
+    },
     paponi: {
       occhiello: "Mestieri d'autore · Montegranaro",
       titolo: "L'eleganza che si costruisce a mano",
@@ -519,6 +532,16 @@ const T42 = {
         telefono: "+390734889468",
         mappa: "Via Fermana Sud 401/B, Montegranaro, Fermo",
         lat: 43.2347, lng: 13.6278
+      },
+      {
+        titolo: "Bottega Ghianda",
+        luogo: "Giussano · Brianza",
+        sommario: "Due secoli di sapienza ebanistica, nel cuore della Brianza.",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_1788_mftxg6",
+        storia: "ghianda",
+        web: "https://bottegaghianda.com/it",
+        mappa: "Giussano, Monza e Brianza",
+        lat: 45.6964, lng: 9.2205
       }
     ],
 
