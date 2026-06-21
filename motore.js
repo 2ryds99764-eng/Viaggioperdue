@@ -21,20 +21,11 @@ function romano(n) {
 }
 
 /* link mappa universale (Google Maps): funziona su iPhone, Android e PC.
-   Usa le coordinate se presenti, altrimenti la query testuale.
-   Su iPhone/iPad/Mac apre Apple Mappe; altrove Google Maps. */
+   Usa le coordinate se presenti, altrimenti la query testuale. */
 function urlMappa(q, lat, lng) {
-  const ua = navigator.userAgent || navigator.vendor || "";
-  const isApple = /iPhone|iPad|iPod|Macintosh/.test(ua) && !window.MSStream;
-  const haCoord = (typeof lat === "number" && typeof lng === "number");
-
-  if (isApple) {
-    /* Apple Mappe */
-    if (haCoord) return "https://maps.apple.com/?ll=" + lat + "," + lng + "&q=" + encodeURIComponent(q || (lat + "," + lng));
-    return "https://maps.apple.com/?q=" + encodeURIComponent(q || "");
+  if (typeof lat === "number" && typeof lng === "number") {
+    return "https://www.google.com/maps/search/?api=1&query=" + lat + "," + lng;
   }
-  /* Google Maps */
-  if (haCoord) return "https://www.google.com/maps/search/?api=1&query=" + lat + "," + lng;
   return "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(q || "");
 }
 
@@ -156,13 +147,12 @@ function costruisciCategoria() {
   const intest = document.getElementById("cat-intestazione");
   if (intest) {
     intest.innerHTML =
-      '<a class="ritorno" href="index.html">Riprendi il viaggio</a>' +
+      '<a class="ritorno" href="index.html">Tutte le categorie</a>' +
       '<div class="occhiello anima d1">' + esc(T42.sito.sigla) + ' · Viaggioperdue</div>' +
       '<h1 class="anima d2">' + esc(cat.titolo) + '</h1>' +
       '<p class="anima d3">' + esc(cat.sottotitolo) + '</p>' +
       (cat.intro ? '<p class="cat-intro anima d3">' + escV(cat.intro) + '</p>' : '') +
-      (cat.manifesto ? '<a class="cat-manifesto-link anima d3" href="manifesto.html?c=' + encodeURIComponent(cat.id) + '">' + esc(cat.manifesto.titolo) + ' →</a>' : '') +
-      (cat.guidaLink ? '<a class="cat-manifesto-link anima d3" href="guida.html">Cerca nella nostra guida ai ristoranti →</a>' : '');
+      (cat.manifesto ? '<a class="cat-manifesto-link anima d3" href="manifesto.html?c=' + encodeURIComponent(cat.id) + '">' + esc(cat.manifesto.titolo) + ' →</a>' : '');
   }
 
   const elenco = document.getElementById("elenco");
@@ -189,17 +179,7 @@ function etichettaTelefono(catId) {
 function scheda(v, i, catId) {
   /* foto */
   let foto;
-  if (v.prestoOnline) {
-    /* foto generica della categoria per i vignaioli in attesa */
-    const cat = T42.categorie.find(function(c) { return c.id === catId; });
-    const fotoGenerica = "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_6641_u04w0c";
-    if (fotoGenerica) {
-      foto = '<div class="scheda-foto"><img src="' + esc(fotoGenerica) +
-             '" alt="' + esc(v.titolo) + '" loading="lazy" style="filter:brightness(.7) saturate(.6)"></div>';
-    } else {
-      foto = '<div class="scheda-foto vuota"></div>';
-    }
-  } else if (v.immagine && v.immagine.trim() !== "") {
+  if (v.immagine && v.immagine.trim() !== "") {
     foto = '<div class="scheda-foto"><img src="' + esc(v.immagine) +
            '" alt="' + esc(v.titolo) + '" loading="lazy"></div>';
   } else {
@@ -208,29 +188,25 @@ function scheda(v, i, catId) {
 
   /* pulsanti */
   let azioni = "";
-  if (v.prestoOnline) {
-    azioni = '<div class="azioni"><span class="presto-online">Presto online.</span></div>';
-  } else {
-    if (v.telefono && v.telefono.trim() !== "") {
-      azioni += '<a class="btn btn--pieno" href="tel:' + esc(v.telefono.replace(/\s/g, "")) + '">' + etichettaTelefono(catId) + '</a>';
-    }
-    if (v.cellulare && v.cellulare.trim() !== "") {
-      azioni += '<a class="btn" href="tel:' + esc(v.cellulare.replace(/\s/g, "")) + '">Cellulare</a>';
-    }
-    if (v.mappa && v.mappa.trim() !== "") {
-      azioni += '<a class="btn" href="' + urlMappa(v.mappa, v.lat, v.lng) + '" target="_blank" rel="noopener">Apri la mappa</a>';
-    }
-    if (v.web && v.web.trim() !== "") {
-      azioni += '<a class="btn" href="' + esc(v.web) + '" target="_blank" rel="noopener">Sito web</a>';
-    }
-    if (v.email && v.email.trim() !== "") {
-      azioni += '<a class="btn" href="mailto:' + esc(v.email) + '">Scrivi</a>';
-    }
-    if (v.storia && v.storia.trim() !== "") {
-      azioni += '<a class="btn btn--storia" href="storia.html?s=' + encodeURIComponent(v.storia) + '">Leggi la storia →</a>';
-    }
-    if (azioni) azioni = '<div class="azioni">' + azioni + '</div>';
+  if (v.telefono && v.telefono.trim() !== "") {
+    azioni += '<a class="btn btn--pieno" href="tel:' + esc(v.telefono.replace(/\s/g, "")) + '">' + etichettaTelefono(catId) + '</a>';
   }
+  if (v.cellulare && v.cellulare.trim() !== "") {
+    azioni += '<a class="btn" href="tel:' + esc(v.cellulare.replace(/\s/g, "")) + '">Cellulare</a>';
+  }
+  if (v.mappa && v.mappa.trim() !== "") {
+    azioni += '<a class="btn" href="' + urlMappa(v.mappa, v.lat, v.lng) + '" target="_blank" rel="noopener">Apri la mappa</a>';
+  }
+  if (v.web && v.web.trim() !== "") {
+    azioni += '<a class="btn" href="' + esc(v.web) + '" target="_blank" rel="noopener">Sito web</a>';
+  }
+  if (v.email && v.email.trim() !== "") {
+    azioni += '<a class="btn" href="mailto:' + esc(v.email) + '">Scrivi</a>';
+  }
+  if (v.storia && v.storia.trim() !== "") {
+    azioni += '<a class="btn btn--storia" href="storia.html?s=' + encodeURIComponent(v.storia) + '">Leggi la storia →</a>';
+  }
+  if (azioni) azioni = '<div class="azioni">' + azioni + '</div>';
 
   const ritardo = "d" + Math.min(i + 1, 6);
 
@@ -238,12 +214,9 @@ function scheda(v, i, catId) {
     '<div class="scheda-testo">' +
       (v.luogo ? '<div class="luogo">' + esc(v.luogo) + '</div>' : '') +
       '<h2>' + esc(v.titolo) + '</h2>' +
-      (v.prestoOnline
-        ? '<p class="presto-online">Presto online.</p>'
-        : (v.sommario ? '<p class="sommario">' + esc(v.sommario) + '</p>' : '') +
-          (v.testo ? '<p class="corpo">' + escV(v.testo) + '</p>' : '') +
-          azioni
-      ) +
+      (v.sommario ? '<p class="sommario">' + esc(v.sommario) + '</p>' : '') +
+      (v.testo ? '<p class="corpo">' + escV(v.testo) + '</p>' : '') +
+      azioni +
     '</div>';
 
   return '<article class="scheda anima ' + ritardo + '">' + foto + testo + '</article>';
@@ -264,7 +237,7 @@ function costruisciPie(s) {
     marchio +
     '<div class="righe">' + ig + 'Viaggio<em>per</em>due<br>' +
     'Destinazioni oltre i luoghi comuni.</div>' +
-    '<div class="pie-link"><a href="chisiamo.html">Chi siamo</a> <span class="pie-sep">·</span> <a href="mailto:viaggioperdue@icloud.com">Scrivici</a></div>';
+    '<div class="pie-link"><a href="chisiamo.html">Chi siamo</a></div>';
 }
 
 /* ----------- COSTRUZIONE DELLA PAGINA RACCONTO ----------- */
@@ -333,7 +306,7 @@ function costruisciMappa() {
       '<a class="ritorno" href="index.html">Torna all’inizio</a>' +
       '<div class="occhiello anima d1">' + esc(T42.sito.sigla) + ' · Viaggioperdue</div>' +
       '<h1 class="anima d2">La mappa</h1>' +
-      '<p class="anima d3">I luoghi raccontati da Viaggioperdue, su una sola mappa.</p>';
+      '<p class="anima d3">Tutte le località del sito, in un colpo d’occhio.</p>';
   }
 
   /* colore per categoria */
@@ -420,19 +393,6 @@ function costruisciStoria() {
     return;
   }
 
-  /* se prestoOnline, mostra solo il messaggio */
-  if (scheda && scheda.prestoOnline) {
-    document.title = scheda.titolo + " · " + T42.sito.nome;
-    const corpo = document.getElementById("storia-corpo");
-    if (corpo) corpo.innerHTML =
-      '<div class="presto-online-pagina">' +
-        '<p class="presto-online-nome">' + esc(scheda.titolo) + '</p>' +
-        '<p class="presto-online-msg">Presto online.</p>' +
-      '</div>';
-    costruisciPie(T42.sito);
-    return;
-  }
-
   document.title = s.titolo + " · " + T42.sito.nome;
 
   const intest = document.getElementById("storia-intestazione");
@@ -455,32 +415,11 @@ function costruisciStoria() {
     } else { cop.style.display = "none"; }
   }
 
-  /* video YouTube opzionale dopo la copertina */
-  const vid = document.getElementById("storia-video");
-  if (vid) {
-    if (s.video) {
-      vid.innerHTML = '<div class="storia-video-wrap">' +
-        '<iframe src="https://www.youtube.com/embed/' + esc(s.video) +
-        '?rel=0&modestbranding=1&showinfo=0" ' +
-        'frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ' +
-        'allowfullscreen loading="lazy"></iframe>' +
-        '</div>';
-    } else { vid.style.display = "none"; }
-  }
-
   /* corpo: i paragrafi che iniziano con § diventano sottotitoli */
   const corpo = document.getElementById("storia-corpo");
   if (corpo) {
-    let html = "";
-    /* epigrafe opzionale in apertura */
-    if (s.epigrafe && s.epigrafe.testo) {
-      html += '<blockquote class="epigrafe">' +
-        '<p class="epigrafe-testo">' + esc(s.epigrafe.testo) + '</p>' +
-        (s.epigrafe.fonte ? '<p class="epigrafe-fonte">' + esc(s.epigrafe.fonte) + '</p>' : '') +
-        '</blockquote>';
-    }
     let primaFatta = false;
-    html += (s.paragrafi || []).map(function (p) {
+    corpo.innerHTML = (s.paragrafi || []).map(function (p) {
       if (p.indexOf("§") === 0) {
         return '<h2 class="storia-h2">' + esc(p.replace(/^§\s*/, "")) + '</h2>';
       }
@@ -488,7 +427,6 @@ function costruisciStoria() {
       primaFatta = true;
       return '<p class="rp' + (primo ? ' rp-prima' : '') + '">' + escV(p) + '</p>';
     }).join("");
-    corpo.innerHTML = html;
   }
 
   /* galleria dalla scheda collegata */
@@ -639,7 +577,6 @@ function costruisciGuida() {
   const selReg = document.getElementById("cerca-regione");
   const selProv = document.getElementById("cerca-provincia");
   if (inputNome) inputNome.addEventListener("input", filtra);
-  if (inputNome) inputNome.addEventListener("keyup", filtra);
   if (selReg) selReg.addEventListener("change", function () { aggiornaProvince(); filtra(); });
   if (selProv) selProv.addEventListener("change", filtra);
 
