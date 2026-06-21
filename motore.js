@@ -455,6 +455,19 @@ function costruisciStoria() {
     } else { cop.style.display = "none"; }
   }
 
+  /* video YouTube opzionale dopo la copertina */
+  const vid = document.getElementById("storia-video");
+  if (vid) {
+    if (s.video) {
+      vid.innerHTML = '<div class="storia-video-wrap">' +
+        '<iframe src="https://www.youtube.com/embed/' + esc(s.video) +
+        '?rel=0&modestbranding=1&showinfo=0" ' +
+        'frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ' +
+        'allowfullscreen loading="lazy"></iframe>' +
+        '</div>';
+    } else { vid.style.display = "none"; }
+  }
+
   /* corpo: i paragrafi che iniziano con § diventano sottotitoli */
   const corpo = document.getElementById("storia-corpo");
   if (corpo) {

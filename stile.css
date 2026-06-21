@@ -159,6 +159,22 @@ body::before {
   text-align: justify;
   hyphens: auto;
 }
+.epigrafe {
+  border: none; margin: 0 0 2.6em 0; padding: 0 0 0 1.4em;
+  border-left: 2px solid var(--azzurro-tenue);
+}
+.epigrafe-testo {
+  font-family: var(--serif); font-style: italic; font-size: 1.25rem;
+  line-height: 1.7; color: var(--blu); margin: 0;
+}
+.epigrafe-fonte {
+  font-family: var(--sans); font-size: 0.72rem; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--azzurro); margin: 0.8em 0 0 0;
+}
+/* video YouTube */
+.storia-video { margin: 0 0 2.4em 0; }
+.storia-video-wrap { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; }
+.storia-video-wrap iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 .rp-prima::first-letter {
   font-size: 3.4em; line-height: 0.78; float: left;
   padding: 6px 14px 0 0; color: var(--blu); font-weight: 500;
@@ -644,6 +660,11 @@ body::before {
 .ig-link { border-bottom: none !important; vertical-align: middle; opacity: 0.7; }
 .ig-link:hover { opacity: 1; }
 .ig-link svg { display: inline-block; vertical-align: middle; color: var(--blu); }
+/* presto online */
+.presto-online { font-family: var(--serif); font-style: italic; font-size: 0.9rem; color: var(--azzurro-tenue); }
+.presto-online-pagina { text-align: center; padding: 80px 24px; }
+.presto-online-nome { font-family: var(--serif); font-size: 1.6rem; font-weight: 500; color: var(--blu-notte); margin-bottom: 16px; }
+.presto-online-msg { font-family: var(--serif); font-style: italic; font-size: 1.1rem; color: var(--azzurro-tenue); }
 .pie-link a { color: var(--blu) !important; opacity: 0.6; }
 .pie-link a:hover { opacity: 1; }
 .pie-legal a { color: var(--blu) !important; opacity: 0.5; }

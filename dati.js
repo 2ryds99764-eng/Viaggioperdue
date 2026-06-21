@@ -115,6 +115,23 @@ const T42 = {
         "È, in fondo, ciò che l'azienda dichiara di sé fin dal principio: fatte con il cuore, in Italia. Un mestiere d'autore, dove la firma non è un logo ma il gesto della mano."
       ]
     },
+    soglio: {
+      occhiello: "Racconti di viaggio · Val Bregaglia",
+      titolo: "Dove il tempo si è fermato",
+      sottotitolo: "Soglio, Val Bregaglia",
+      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5354_aylm7n",
+      video: "1cwtk9T2wj4",
+      galleria: [
+        "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5342_pw0v41",
+        "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5340_cvv7yi"
+      ],
+      paragrafi: [
+        "Ci sono luoghi che sembrano esistere fuori dal tempo. Soglio è uno di questi — un borgo aggrappato a un terrazzamento della Val Bregaglia, a oltre mille metri, affacciato su un panorama che si apre verso il fondovalle come se il mondo iniziasse lì.",
+        "Le case in pietra, i vicoli stretti, i palazzi delle antiche famiglie grigionesi — tutto racconta una quiete che non è abbandono, ma scelta. Giovanni Segantini lo capì nell'estate del 1886, quando soggiornò qui e dipinse Alla messa, una delle sue opere più intense. Quel borgo lo colpì a tal punto che anni dopo, quando si stabilì a Maloja, commissionò alla ditta Torriani di Soglio la costruzione di una rotonda in legno — il suo studio e biblioteca all'aperto, perché Segantini amava dipingere sotto il cielo. Soglio era entrata nella sua vita non solo come soggetto pittorico, ma come luogo di artigiani fidati.",
+        "Il borgo sorge su una balconata naturale che domina la valle e il massiccio del Masino. In basso, invisibile, scorre la Mera. Intorno, i castagni secolari che in autunno tingono il paesaggio di colori caldi e profondi. In inverno, la neve isola Soglio dal resto del mondo in modo quasi assoluto — e quella solitudine, anziché pesare, libera.",
+        "Si raggiunge in auto salendo da Promontogno, nel fondovalle, lungo una strada stretta che sale tra i boschi fino al parcheggio del borgo. È già un modo di prepararsi — il viaggio verso Soglio non è mai solo geografico."
+      ]
+    },
     costiera: {
       occhiello: "Racconti di viaggio · Campania",
       titolo: "Dove la luce ha un peso",
@@ -518,6 +535,15 @@ const T42 = {
         immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5236_h4rgus",
         mappa: "Costiera Amalfitana",
         lat: 40.634, lng: 14.602
+      },
+      {
+        titolo: "Soglio",
+        luogo: "Val Bregaglia · Grigioni",
+        sommario: "Un borgo fuori dal tempo, dove la luce ha la qualità di un quadro.",
+        storia: "soglio",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5354_aylm7n",
+        mappa: "Soglio, Val Bregaglia",
+        lat: 46.3494, lng: 9.5186
       }
     ],
 
