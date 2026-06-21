@@ -437,24 +437,15 @@ const T42 = {
     /* ---------------- LOCANDE ---------------- */
     locande: [
       {
-        titolo: "Locanda sul Mare",
-        luogo: "Costiera Sorrentina",
-        sommario: "Una terrazza sospesa sul golfo, dove la sera il blu si fa profondo.",
-        testo: "Due sedie, un tavolo e l’orizzonte. Qui la giornata si misura sul passaggio delle barche e sul colore che il mare assume di ora in ora. Le stanze sono semplici, affacciate sull’acqua, e il silenzio è parte dell’ospitalità.",
-        immagine: "assets/locanda-mare.jpg",
-        telefono: "",
-        mappa: "Sorrento",
-        lat: 40.6263, lng: 14.3757   /* coordinate approssimative — correggi con precisione */
-      },
-      {
-        titolo: "Rifugio di Montagna",
-        luogo: "Alta Valle Alpina",
-        sommario: "Travi di larice, stufe di pietra e la neve fuori dalla finestra.",
-        testo: "Un antico fienile diventato dimora, dove il legno racconta secoli di inverni. Il salotto sotto le travi invita a leggere accanto al fuoco; le finestre incorniciano i pascoli innevati e le baite del borgo.",
-        immagine: "assets/rifugio-montagna.jpg",
-        telefono: "",
-        mappa: "",
-        lat: 45.82, lng: 7.65   /* coordinate approssimative — correggi con precisione */
+        titolo: "Hotel La Soglina",
+        luogo: "Via Carnella 6 · Soglio · Grigioni",
+        sommario: "Una terrazza sospesa sulla Val Bregaglia, dove il panorama è già parte del soggiorno.",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5352_mxpvmk",
+        telefono: "+41818221608",
+        email: "info@lasoglina.ch",
+        web: "http://www.lasoglina.ch",
+        mappa: "Via Carnella 6, Soglio, Svizzera",
+        lat: 46.3494, lng: 9.5186
       }
     ],
 
