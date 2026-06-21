@@ -156,7 +156,7 @@ function costruisciCategoria() {
   const intest = document.getElementById("cat-intestazione");
   if (intest) {
     intest.innerHTML =
-      '<a class="ritorno" href="index.html">Tutte le categorie</a>' +
+      '<a class="ritorno" href="index.html">Riprendi il viaggio</a>' +
       '<div class="occhiello anima d1">' + esc(T42.sito.sigla) + ' · Viaggioperdue</div>' +
       '<h1 class="anima d2">' + esc(cat.titolo) + '</h1>' +
       '<p class="anima d3">' + esc(cat.sottotitolo) + '</p>' +
@@ -333,7 +333,7 @@ function costruisciMappa() {
       '<a class="ritorno" href="index.html">Torna all’inizio</a>' +
       '<div class="occhiello anima d1">' + esc(T42.sito.sigla) + ' · Viaggioperdue</div>' +
       '<h1 class="anima d2">La mappa</h1>' +
-      '<p class="anima d3">Tutte le località del sito, in un colpo d’occhio.</p>';
+      '<p class="anima d3">I luoghi raccontati da Viaggioperdue, su una sola mappa.</p>';
   }
 
   /* colore per categoria */
@@ -458,8 +458,16 @@ function costruisciStoria() {
   /* corpo: i paragrafi che iniziano con § diventano sottotitoli */
   const corpo = document.getElementById("storia-corpo");
   if (corpo) {
+    let html = "";
+    /* epigrafe opzionale in apertura */
+    if (s.epigrafe && s.epigrafe.testo) {
+      html += '<blockquote class="epigrafe">' +
+        '<p class="epigrafe-testo">' + esc(s.epigrafe.testo) + '</p>' +
+        (s.epigrafe.fonte ? '<p class="epigrafe-fonte">' + esc(s.epigrafe.fonte) + '</p>' : '') +
+        '</blockquote>';
+    }
     let primaFatta = false;
-    corpo.innerHTML = (s.paragrafi || []).map(function (p) {
+    html += (s.paragrafi || []).map(function (p) {
       if (p.indexOf("§") === 0) {
         return '<h2 class="storia-h2">' + esc(p.replace(/^§\s*/, "")) + '</h2>';
       }
@@ -467,6 +475,7 @@ function costruisciStoria() {
       primaFatta = true;
       return '<p class="rp' + (primo ? ' rp-prima' : '') + '">' + escV(p) + '</p>';
     }).join("");
+    corpo.innerHTML = html;
   }
 
   /* galleria dalla scheda collegata */
