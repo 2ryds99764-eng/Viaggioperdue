@@ -115,6 +115,22 @@ const T42 = {
         "È, in fondo, ciò che l'azienda dichiara di sé fin dal principio: fatte con il cuore, in Italia. Un mestiere d'autore, dove la firma non è un logo ma il gesto della mano."
       ]
     },
+    bernina: {
+      occhiello: "Racconti di viaggio · Alpi",
+      titolo: "Il treno più suggestivo delle Alpi",
+      sottotitolo: "Un viaggio da St. Moritz a Tirano",
+      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/Bernina_Express_xzhwsr",
+      epigrafe: {
+        testo: "Il viaggio in treno è come un film, una carrellata di fotogrammi che scorrono davanti agli occhi di un solo spettatore, fotogramma dopo fotogramma, e di cui si è perso il negativo.",
+        fonte: "Wim Wenders, prefazione a Le Train - Voyage au cœur du rail, fotografie di Raymond Depardon (Éditions du Chêne, Parigi, 1988)"
+      },
+      paragrafi: [
+        "C’è un treno rosso che parte da St. Moritz e scende verso Tirano, in Italia, attraversando le Alpi in un modo che non si dimentica. Non è la velocità a renderlo speciale, è il contrario. Il Bernina Express è lento per scelta, costruito per ammirare, non per arrivare.",
+        "Il percorso sale fino al Passo del Bernina, a duemila metri di quota, tra ghiacciai e laghi alpini che cambiano colore con la luce. Poi scende verso Poschiavo e il lago omonimo, dove gli scorci sull’acqua si aprono e si chiudono tra una curva e l’altra. A Le Prese, sulla riva del lago, vale la pena fermarsi e l’Hotel Le Prese è una di quelle soste che trasformano un viaggio in treno in un’esperienza completa.",
+        "Il viadotto di Brusio è il momento più straordinario del percorso. Una spirale di pietra che il treno percorre girando su se stesso per perdere quota, come un’opera d’ingegneria che non ha smesso di stupire dal 1908. Chi lo attraversa tende a non dire nulla, a guardare semplicemente fuori dal finestrino.",
+        "Il Bernina Express è Patrimonio dell’Umanità UNESCO dal 2008, insieme alla linea dell’Albula, è uno dei capolavori ferroviari del mondo. Ma la ragione per cui vale la pena prenderlo non è la certificazione: è quella sensazione, difficile da spiegare, di guardare ogni volta un’edizione originale di un film. Il finestrino è lo schermo, il paesaggio scorre in sequenza, il tempo ha il ritmo di una narrazione. E di quel film non esiste un’altra copia."
+      ]
+    },
     soglio: {
       occhiello: "Racconti di viaggio · Val Bregaglia",
       titolo: "Dove il tempo si è fermato",
@@ -526,6 +542,15 @@ const T42 = {
         immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5236_h4rgus",
         mappa: "Costiera Amalfitana",
         lat: 40.634, lng: 14.602
+      },
+      {
+        titolo: "Il Bernina Express",
+        luogo: "Svizzera · Italia",
+        sommario: "Il treno più cinematografico d’Europa, fotogramma dopo fotogramma.",
+        storia: "bernina",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/Bernina_Express_xzhwsr",
+        mappa: "Bernina Pass, Svizzera",
+        lat: 46.4108, lng: 10.0203
       },
       {
         titolo: "Soglio",
