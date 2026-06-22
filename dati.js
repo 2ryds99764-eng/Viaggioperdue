@@ -521,14 +521,14 @@ const T42 = {
         lat: 44.8381, lng: 11.6198
       },
       {
-        titolo: "Tavola sulle Colline",
-        luogo: "Entroterra Marchigiano",
-        sommario: "Una cena all’ora blu, con le colline che sfumano nel buio.",
-        testo: "Sul muretto di pietra di un borgo antico, due coperti e una lampada accesa mentre il cielo vira all’indaco. Cucina del territorio, vini schietti e quella lentezza che a tavola è un lusso raro.",
-        immagine: "assets/tavola-colline.jpg",
-        telefono: "",
-        mappa: "",
-        lat: 43.58, lng: 13.1   /* coordinate approssimative — correggi con precisione */
+        titolo: "Da Gustin",
+        luogo: "Bargni di Serrungarina · Marche",
+        sommario: "Una bottega degli anni Quaranta diventata osteria, nel cuore del Montefeltro.",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_3747_lsjhgi",
+        web: "https://www.dagustin.it",
+        telefono: "+393339979709",
+        mappa: "Via Castello 27, Bargni di Serrungarina, Pesaro Urbino",
+        lat: 43.6891, lng: 12.8734
       }
     ],
 
