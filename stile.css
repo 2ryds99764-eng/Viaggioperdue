@@ -265,7 +265,7 @@ body::before {
   position: absolute; inset: 0;
   background: linear-gradient(180deg, rgba(20,35,63,0.45) 0%, rgba(20,35,63,0.30) 40%, rgba(20,35,63,0.55) 100%);
 }
-.hero-dentro { position: relative; z-index: 2; text-align: center; color: #fff; padding: 0 24px; margin-top: -240px; }
+.hero-dentro { position: relative; z-index: 2; text-align: center; color: #fff; padding: 0 24px; margin-top: -360px; }
 .hero-sigla {
   font-family: var(--serif); font-size: 1.4rem; letter-spacing: 0.08em; font-weight: 300;
   color: rgba(255,255,255,0.92); margin-bottom: 28px; margin-top: -40px;
