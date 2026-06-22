@@ -275,7 +275,7 @@ function costruisciRacconto() {
   const intest = document.getElementById("racconto-intestazione");
   if (intest) {
     intest.innerHTML =
-      '<a class="ritorno" href="index.html">Torna all’inizio</a>' +
+      '<a class="ritorno" href="index.html">⌂</a>' +
       '<div class="occhiello anima d1">' + esc(r.occhiello || "Il racconto") + '</div>' +
       '<h1 class="anima d2">' + esc(r.titolo) + '</h1>';
   }
@@ -330,10 +330,10 @@ function costruisciMappa() {
   const intest = document.getElementById("mappa-intestazione");
   if (intest) {
     intest.innerHTML =
-      '<a class="ritorno" href="index.html">Torna all’inizio</a>' +
+      '<a class="ritorno" href="index.html">⌂</a>' +
       '<div class="occhiello anima d1">' + esc(T42.sito.sigla) + ' · Viaggioperdue</div>' +
       '<h1 class="anima d2">La mappa</h1>' +
-      '<p class="anima d3">Tutte le località del sito, in un colpo d’occhio.</p>';
+      '<p class="anima d3">I luoghi raccontati da Viaggioperdue, su una sola mappa.</p>';
   }
 
   /* colore per categoria */
@@ -439,7 +439,7 @@ function costruisciStoria() {
   if (intest) {
     const ritorno = catId
       ? '<a class="ritorno" href="categoria.html?c=' + catId + '">Torna a ' + esc(cap(catId)) + '</a>'
-      : '<a class="ritorno" href="index.html">Torna all’inizio</a>';
+      : '<a class="ritorno" href="index.html">⌂</a>';
     intest.innerHTML =
       ritorno +
       '<div class="occhiello anima d1">' + esc(s.occhiello || "") + '</div>' +
@@ -453,6 +453,16 @@ function costruisciStoria() {
     if (s.copertina) {
       cop.innerHTML = '<img src="' + esc(s.copertina) + '" alt="' + esc(s.titolo) + '">';
     } else { cop.style.display = "none"; }
+  }
+
+  /* video YouTube opzionale dopo la copertina */
+  const vid = document.getElementById("storia-video");
+  if (vid) {
+    if (s.video) {
+      vid.innerHTML = '<div class="storia-video-link">' +
+        '<a class="btn btn--storia" href="https://youtu.be/' + esc(s.video) + '" target="_blank" rel="noopener">Guarda il video →</a>' +
+        '</div>';
+    } else { vid.style.display = "none"; }
   }
 
   /* corpo: i paragrafi che iniziano con § diventano sottotitoli */
@@ -523,7 +533,7 @@ function costruisciGuida() {
   const intest = document.getElementById("guida-intestazione");
   if (intest) {
     intest.innerHTML =
-      '<a class="ritorno" href="index.html">Torna all’inizio</a>' +
+      '<a class="ritorno" href="index.html">⌂</a>' +
       '<div class="occhiello anima d1">' + esc(T42.sito.sigla) + ' · Viaggioperdue</div>' +
       '<h1 class="anima d2">Guida ai ristoranti</h1>' +
       '<p class="guida-sub anima d3">' + dati.length + ' indirizzi, cercabili per nome, regione o provincia.</p>';
@@ -626,6 +636,7 @@ function costruisciGuida() {
   const selReg = document.getElementById("cerca-regione");
   const selProv = document.getElementById("cerca-provincia");
   if (inputNome) inputNome.addEventListener("input", filtra);
+  if (inputNome) inputNome.addEventListener("keyup", filtra);
   if (selReg) selReg.addEventListener("change", function () { aggiornaProvince(); filtra(); });
   if (selProv) selProv.addEventListener("change", filtra);
 
