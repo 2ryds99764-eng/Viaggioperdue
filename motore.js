@@ -147,7 +147,7 @@ function costruisciCategoria() {
   const intest = document.getElementById("cat-intestazione");
   if (intest) {
     intest.innerHTML =
-      '<a class="ritorno" href="index.html">Tutte le categorie</a>' +
+      '<a class="ritorno" href="index.html">Torna all'inizio</a>' +
       '<div class="occhiello anima d1">' + esc(T42.sito.sigla) + ' · Viaggioperdue</div>' +
       '<h1 class="anima d2">' + esc(cat.titolo) + '</h1>' +
       '<p class="anima d3">' + esc(cat.sottotitolo) + '</p>' +
