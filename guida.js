@@ -2884,7 +2884,7 @@ window.GUIDA = [
     "note": ""
   },
   {
-    "nome": "Roberto Di Pinto",
+    "nome": "Sine",
     "luogo": "Milano · MI",
     "regione": "Lombardia",
     "prov": "MI",
