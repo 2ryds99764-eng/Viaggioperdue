@@ -490,7 +490,11 @@ body::before {
   display: block; width: 8px; height: 8px;
   background: var(--azzurro);
   transform: rotate(45deg);
-  margin: 40px auto;
+  margin: 323
+     
+     
+     
+     0px auto;
 }
 
 /* ---------------- HOME: GRIGLIA CATEGORIE ---------------- */
