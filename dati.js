@@ -89,6 +89,23 @@ const T42 = {
      Ogni storia ha una chiave (es. "campanini") richiamata dal campo
      "storia" di una scheda. titolo, occhiello, sottotitolo e i paragrafi. ---- */
   storie: {
+    minervetta: {
+      occhiello: "Camera con vista · Sorrento",
+      titolo: "Dove il mare non smette mai d'incantarti",
+      sottotitolo: "Maison La Minervetta — Sorrento, Penisola Sorrentina",
+      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5680_aah5th",
+      galleria: [
+        "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5189_p6tsfa",
+        "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_1315_sdj9f4",
+        "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_6169_hfobsi"
+      ],
+      paragrafi: [
+        "Ci sono luoghi in cui il tempo smette di avere fretta. La Minervetta è uno di questi. Una maison aggrappata alla scogliera di Via Capo, a Sorrento, con il golfo di Napoli disteso davanti e il Vesuvio che si staglia sull'orizzonte. Un buen retiro da cui non vorresti più andartene.",
+        "Si resta tutto il giorno a guardare il mare. Non per pigrizia, ma per quella sensazione rara di essere esattamente nel posto giusto. La luce cambia ogni ora del giorno, prende colori che altrove non esistono, e ogni volta sembra uno spettacolo rivolto solo a te.",
+        "Marco De Luca, il proprietario, ha realizzato in questi anni le case più belle della Penisola Sorrentina e della Costiera Amalfitana. Il suo stile è riconoscibile a prima vista — arte contemporanea, design, una cura per i dettagli che racconta un gusto profondo e personale. Lo chiamiamo Peninsula Style. Le tredici camere della Minervetta sono tutte diverse l'una dall'altra, eppure condividono una cosa sola: quella vista sul mare che non si smette di guardare.",
+        "La mattina, a colazione, ci si sente coccolati come degli enfants gâtés: il caffè, la luce, la gentilezza discreta di chi sa accogliere con garbo. E il mare è sempre lì, a tenerti compagnia, mutando colore con le ore. Si finisce per restare più a lungo del previsto. E si riparte già con la voglia di ritornare."
+      ]
+    },
     ghianda: {
       occhiello: "Mestieri d'autore · Brianza",
       titolo: "Nel segno del legno",
@@ -462,6 +479,18 @@ const T42 = {
         web: "http://www.lasoglina.ch",
         mappa: "Via Carnella 6, Soglio, Svizzera",
         lat: 46.3494, lng: 9.5186
+      },
+      {
+        titolo: "Maison La Minervetta",
+        luogo: "Via Capo 25 · Sorrento",
+        sommario: "Un buen retiro sulla scogliera di Sorrento, dove il mare non smette mai d'incantarti.",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5680_aah5th",
+        storia: "minervetta",
+        telefono: "+390818774455",
+        email: "info@laminervetta.com",
+        web: "https://www.laminervetta.com",
+        mappa: "Via Capo 25, Sorrento",
+        lat: 40.6293, lng: 14.3661
       }
     ],
 
