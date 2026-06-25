@@ -1,4 +1,4 @@
-/* T42 · VIAGGIOPERDUE — TESTO RITORNO */
+/* T42 · VIAGGIOPERDUE — TESTO LINK RITORNO */
 (function fix() {
   var links = document.querySelectorAll("a[href='index.html']");
   if (links.length === 0) { setTimeout(fix, 200); return; }
