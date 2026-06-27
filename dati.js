@@ -106,6 +106,42 @@ const T42 = {
         "La mattina, a colazione, ci si sente coccolati come degli enfants gâtés: il caffè, la luce, la gentilezza discreta di chi sa accogliere con garbo. E il mare è sempre lì, a tenerti compagnia, mutando colore con le ore. Si finisce per restare più a lungo del previsto. E si riparte già con la voglia di ritornare."
       ]
     },
+    lapergola: {
+      occhiello: "Un tavolo per due \u00b7 Cilento",
+      titolo: "Dove la Magna Grecia incontra il mare",
+      sottotitolo: "La Pergola \u2014 Capaccio Paestum, Cilento",
+      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/Pesce_n9hpsc",
+      galleria: [
+        "https://res.cloudinary.com/dspgc41gt/image/upload/La_Pergola_qtahs6",
+        "https://res.cloudinary.com/dspgc41gt/image/upload/Bottiglie_hwenvq",
+        "https://res.cloudinary.com/dspgc41gt/image/upload/Interno_gro6hg"
+      ],
+      paragrafi: [
+        "A pochi passi dai templi dorici pi\u00f9 belli del Mediterraneo, lungo Via Magna Grecia, c\u2019\u00e8 un ristorante che ricorda nel nome la storia del luogo. La Pergola esiste da oltre trent\u2019anni, e durante questi anni ha saputo ricercare nel territorio i prodotti migliori.",
+        "D\u2019estate si pranza all\u2019aperto in un gradevole dehors, con quella luce cilentana che rende tutto pi\u00f9 nitido. Il Cilento \u00e8 uno di quei luoghi dove il mare e la montagna si parlano, e la cucina di Giovanni Longo racconta esattamente questo dialogo. I gamberoni arrivano da Acciaroli, il tonno rosso \u00e8 quello di Mazara del Vallo, le ostriche sono le Gilardeau. Non si tratta semplicemente di nomi scritti per impressionare il cliente: \u00e8 il modo in cui lo chef sceglie ogni mattina quello che poi porter\u00e0 in tavola.",
+        "La passione di Giovanni Longo si riflette in quella scelta quotidiana, nel sapere dove guardare, chi chiamare, e nel saper aspettare i prodotti migliori. Una cucina che non si inventa ogni giorno, ma che si costruisce nel tempo, fedele a una terra che non smette mai di sorprendere."
+      ]
+    },
+    viadamez: {
+      occhiello: "Mestieri d\'autore · Poschiavo",
+      titolo: "Le artigiane della Via di Mezzo",
+      sottotitolo: "Viadamez — Poschiavo, Valposchiavo",
+      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/1_evjagy",
+      galleria: [
+        "https://res.cloudinary.com/dspgc41gt/image/upload/3-_qdr7qw",
+        "https://res.cloudinary.com/dspgc41gt/image/upload/7_vwr7wc",
+        "https://res.cloudinary.com/dspgc41gt/image/upload/2_omkqpg"
+      ],
+      paragrafi: [
+        "Adriana e Cristina si conoscono dall\u2019asilo. Hanno coltivato insieme i loro sogni a Poschiavo, poi ognuna ha preso la propria strada — Cristina verso le scuole d\u2019oreficeria a Coira e San Gallo, Adriana verso il restauro di affreschi a Lugano, poi la tappezzeria a San Gallo. Anni di formazione, di lavoro lontano dalla valle, di vita costruita altrove. E poi, entrambe, ritornano a casa.",
+        "Cristina \u00e8 tornata con nuove idee e una sicurezza maturata lontano. Adriana quasi per caso, per una questione di lavoro in Engadina, e ha scoperto di essere tornata a casa. \u201cPoschiavo \u00e8 piccola\u201d, dice, \u201cma a misura d\u2019uomo.\u201d Quella che sembrava una valle da lasciare si \u00e8 rivelata il posto giusto: la qualit\u00e0 della vita, le montagne, gli affetti, e un\u2019anima artigianale autentica che resiste.",
+        "L\u2019incontro tra le due professioni ha preso il nome di Viadamez \u2014 la Via da Mezz \u2014 la strada storica degli artigiani che attraversa il borgo di Poschiavo, affacciata sugli edifici pi\u00f9 antichi del paese. Un nome che \u00e8 gi\u00e0 un racconto: la via degli artigiani, la via di mezzo tra due mestieri, il punto dove cuoio e metallo si incontrano.",
+        "La cintura \u00e8 il loro prodotto pi\u00f9 emblematico. Adriana sceglie la pelle con le mani, le basta toccarla per capire se le trasmette qualcosa. La taglia, la cuce, la trasforma in qualcosa che non lo era ancora. Cristina realizza la fibbia in metallo \u2014 argento, oro rosso, oro giallo \u2014 con dettagli che portano dentro la luce e le forme della Valposchiavo. I gioielli di Cristina nascono spesso da una passeggiata, da un dettaglio della natura, da una forma incontrata lungo i sentieri della valle. Due gesti diversi, un oggetto solo.",
+        "Quello che le unisce, per\u00f2, va oltre la cintura. Cristina dice che un gioiello non deve essere perfetto, deve raccontare una storia, un luogo, un ricordo. Adriana dice che il vero cuoio si riconosce con il tempo, nelle piccole irregolarit\u00e0, nel modo in cui invecchia con chi lo porta, acquistando carattere e fascino. Due filosofie che parlano la stessa lingua: quella degli oggetti fatti per durare, che portano con s\u00e9 la traccia delle mani che li hanno creati.",
+        "In un mondo che tende a buttare e ricomprare, Viadamez crede nel contrario. Adriana restaura poltrone d\u2019autore \u2014 la LC2 di Le Corbusier \u2014 le imbottiture tradizionali con incordatura di molle, e realizza piumini con la lana di Poschiavo, seguendo l\u2019intera filiera dalla tosatura al prodotto finito. Cristina trasforma gioielli antichi in pezzi nuovi che portano dentro la memoria di ci\u00f2 che erano. Ogni oggetto ha una storia da prima, e ne avr\u00e0 una dopo.",
+        "Il treno rosso del Bernina passa da Poschiavo senza fermarsi abbastanza a lungo. Vale la pena scendere, percorrere la Via da Mezz, e spingere la porta di Viadamez. Quello che si trova non \u00e8 un negozio, \u00e8 il racconto di due donne che hanno scelto di tornare, e di costruire qualcosa di bello nel posto dove tutto \u00e8 cominciato."
+      ]
+    },
     ghianda: {
       occhiello: "Mestieri d'autore · Brianza",
       titolo: "Nel segno del legno",
@@ -558,6 +594,19 @@ const T42 = {
         telefono: "+393339979709",
         mappa: "Via Castello 27, Bargni di Serrungarina, Pesaro Urbino",
         lat: 43.6891, lng: 12.8734
+      },
+      {
+        titolo: "La Pergola",
+        luogo: "Via Magna Grecia 50 · Capaccio Paestum",
+        sommario: "A pochi passi dai templi dorici, una cucina fedele al Cilento e al mare.",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/Dehor_zktbye",
+        storia: "lapergola",
+        telefono: "+390828723377",
+        email: "info@lapergolapaestum.it",
+        web: "https://www.lapergolapaestum.it",
+        mappa: "Via Magna Grecia 50, Capaccio Salerno",
+        lat: 40.4570, lng: 15.0119,
+        outdoor: true
       }
     ],
 
@@ -613,6 +662,16 @@ const T42 = {
         web: "https://bottegaghianda.com/it",
         mappa: "Giussano, Monza e Brianza",
         lat: 45.6964, lng: 9.2205
+      },
+      {
+        titolo: "Viadamez",
+        luogo: "Poschiavo · Valposchiavo",
+        sommario: "Due amiche, due mestieri, una via di mezzo — nel cuore della Valposchiavo.",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/6_iwg85z",
+        storia: "viadamez",
+        web: "http://www.viadamez.ch",
+        mappa: "Poschiavo, Svizzera",
+        lat: 46.3225, lng: 10.0694
       }
     ],
 
@@ -758,3 +817,4 @@ const T42 = {
 
   }
 };
+
