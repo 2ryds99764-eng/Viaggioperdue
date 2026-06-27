@@ -89,7 +89,7 @@ body::before {
 .logo-img {
   display: block;
   margin: 6px auto 2px;
-  width: clamp(180px, 38vw, 300px);
+  width: clamp(180px, 38vw, 480px);
   height: auto;
 }
 .nome-sotto {
