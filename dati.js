@@ -390,7 +390,7 @@ const T42 = {
       occhiello: "Pietre Levate · Cilento",
       titolo: "Per pochi, per scelta",
       sottotitolo: "Ottati, nella Valle del Fasanella, ai piedi degli Alburni",
-      copertina: "assets/pietrelevate-copertina.jpg",
+      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/PietreLevate_copertina",
       paragrafi: [
         "I vignaioli sono una pausa dal mondo. Una vigna strappata alla pietra, un vitigno che racconta la sua terra, il giusto silenzio per ritrovarsi.",
         "C’è una domanda all’origine di questo vino: può una bottiglia essere un atto d’amore verso chi è venuto prima, e insieme un gesto di resilienza contro lo spopolamento di una terra? A Ottati, in un angolo del Cilento dove la pietra calcarea affiora ovunque e i centenari sono più numerosi che altrove, qualcuno ha deciso che la risposta fosse sì.",
