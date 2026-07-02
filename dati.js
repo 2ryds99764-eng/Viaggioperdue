@@ -454,7 +454,7 @@ const T42 = {
     },
     {
       id: "artigiani", titolo: "Mestieri d'autore", sottotitolo: "La sapienza del fare",
-      tessera: "https://res.cloudinary.com/dspgc41gt/image/upload/5_ywqkpr",
+      tessera: "https://res.cloudinary.com/dspgc41gt/image/upload/4_ywqkpr",
       intro: "L’importanza del dettaglio. C’è un sapere che non si trova sui motori di ricerca. Si trova in una bottega, al mercato del pesce al mattino presto, in un campo coltivato con la saggezza di un tempo. Nelle mani di chi ha imparato guardando e poi ha fatto proprio. Abbiamo scelto i mestieri dove l’identità di chi fa è inseparabile da ciò che produce — persone da incontrare, non solo prodotti da acquistare.",
       manifesto: {
         titolo: "Quali sono i mestieri che raccontiamo",
