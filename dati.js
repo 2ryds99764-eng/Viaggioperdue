@@ -391,7 +391,6 @@ const T42 = {
       titolo: "Per pochi, per scelta",
       sottotitolo: "Ottati, nella Valle del Fasanella, ai piedi degli Alburni",
       copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/PietreLevate_copertina_mubzk6",
-      galleria: ["https://res.cloudinary.com/dspgc41gt/image/upload/PietreLevate_pietre_f0tqoq","https://res.cloudinary.com/dspgc41gt/image/upload/PietreLevate_campagna_jxlbch","https://res.cloudinary.com/dspgc41gt/image/upload/PietreLevate_vigna_ihmul7"],
       galleria: ["https://res.cloudinary.com/dspgc41gt/image/upload/PietreLevate_pietre_f0tqoq", "https://res.cloudinary.com/dspgc41gt/image/upload/PietreLevate_campagna_jxlbch", "https://res.cloudinary.com/dspgc41gt/image/upload/PietreLevate_vigna_ihmul7"],
       paragrafi: [
         "I vignaioli sono una pausa dal mondo. Una vigna strappata alla pietra, un vitigno che racconta la sua terra, il giusto silenzio per ritrovarsi.",
