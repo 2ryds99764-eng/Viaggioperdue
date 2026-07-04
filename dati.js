@@ -93,7 +93,7 @@ const T42 = {
       occhiello: "Camera con vista · Sorrento",
       titolo: "Dove il mare non smette mai d'incantarti",
       sottotitolo: "Maison La Minervetta — Sorrento, Penisola Sorrentina",
-      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/Copertina_PietreLevate",
+      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5680_aah5th",
       galleria: [
         "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5189_p6tsfa",
         "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_1315_sdj9f4",
