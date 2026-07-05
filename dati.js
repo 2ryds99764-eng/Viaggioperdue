@@ -799,7 +799,7 @@ const T42 = {
         mappa: "Azienda Agricola Pietre Levate, Località Bocito, Ottati SA",
         lat: 40.3760, lng: 15.2480,   /* Ottati (SA) — approssimativa, da affinare */
         storia: "pietrelevate",
-      prestoOnline: true,
+     
         galleria: []
       }
     ]
