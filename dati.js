@@ -391,6 +391,7 @@ const T42 = {
       titolo: "Per pochi, per scelta",
       sottotitolo: "Ottati, nella Valle del Fasanella, ai piedi degli Alburni",
       copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/PietreLevate_copertina_mubzk6",
+      galleria: ["https://res.cloudinary.com/dspgc41gt/image/upload/PietreLevate_pietre_f0tqoq","https://res.cloudinary.com/dspgc41gt/image/upload/PietreLevate_campagna_jxlbch","https://res.cloudinary.com/dspgc41gt/image/upload/PietreLevate_vigna_ihmul7"],
       galleria: ["https://res.cloudinary.com/dspgc41gt/image/upload/PietreLevate_pietre_f0tqoq", "https://res.cloudinary.com/dspgc41gt/image/upload/PietreLevate_campagna_jxlbch", "https://res.cloudinary.com/dspgc41gt/image/upload/PietreLevate_vigna_ihmul7"],
       paragrafi: [
         "I vignaioli sono una pausa dal mondo. Una vigna strappata alla pietra, un vitigno che racconta la sua terra, il giusto silenzio per ritrovarsi.",
@@ -677,6 +678,7 @@ const T42 = {
         mappa: "Azienda Agricola Maria Pia Castelli, Contrada Sant'Isidoro 22, Monte Urano FM",
         lat: 43.1820, lng: 13.6790,   /* Monte Urano (FM) — approssimative, da affinare */
         storia: "castelli",
+      prestoOnline: true,
         galleria: []
       },
       {
@@ -692,6 +694,7 @@ const T42 = {
         mappa: "Azienda Agricola Monte dei Ragni, Località Marega 3, Fumane VR",
         lat: 45.5360, lng: 10.8840,   /* Fumane (VR) — approssimativa, da affinare */
         storia: "ragni",
+      prestoOnline: true,
         galleria: []
       },
       {
@@ -706,6 +709,7 @@ const T42 = {
         mappa: "Azienda Vitivinicola Comm. G. B. Burlotto, Via Vittorio Emanuele II 28, Verduno CN",
         lat: 44.6480, lng: 7.9760,   /* Verduno (CN) — approssimativa, da affinare */
         storia: "burlotto",
+      prestoOnline: true,
         galleria: []
       },
       {
@@ -720,6 +724,7 @@ const T42 = {
         mappa: "Tenute Dettori, Strada Provinciale 29 km 10, Sennori SS",
         lat: 40.7890, lng: 8.5900,   /* Sennori (SS) — approssimativa, da affinare */
         storia: "dettori",
+      prestoOnline: true,
         galleria: []
       },
       {
@@ -734,6 +739,7 @@ const T42 = {
         mappa: "Azienda Agricola Zidarich, Località Prepotto 23, Duino Aurisina TS",
         lat: 45.7570, lng: 13.6160,   /* Prepotto / Carso (TS) — approssimativa, da affinare */
         storia: "zidarich",
+      prestoOnline: true,
         galleria: []
       },
       {
@@ -748,6 +754,7 @@ const T42 = {
         mappa: "Marco De Bartoli, Contrada Samperi, Marsala TP",
         lat: 37.7670, lng: 12.4690,   /* Marsala (TP) — approssimativa, da affinare */
         storia: "debartoli",
+      prestoOnline: true,
         galleria: []
       },
       {
@@ -762,6 +769,7 @@ const T42 = {
         mappa: "Damijan Podversič, Via degli Eroi 33, Gorizia GO",
         lat: 45.9490, lng: 13.6210,   /* Gorizia (GO) — approssimativa, da affinare */
         storia: "damijan",
+      prestoOnline: true,
         galleria: []
       },
       {
@@ -776,6 +784,7 @@ const T42 = {
         mappa: "Azienda Agricola Luigi Tecce, Via Trinità 6, Paternopoli AV",
         lat: 40.9760, lng: 15.0330,   /* Paternopoli (AV) — approssimativa, da affinare */
         storia: "tecce",
+      prestoOnline: true,
         galleria: []
       },
       {
@@ -783,13 +792,14 @@ const T42 = {
         luogo: "Ottati (SA) · Cilento, Monti Alburni",
         sommario: "Nel cuore del Cilento, un vino nato per amore: 528 bottiglie di Aglianico, vinificate in anfora di terracotta. Per pochi, per scelta.",
         testo: "Ad Ottati, nella Valle del Fasanella alle pendici dei Monti Alburni — cuore del Parco Nazionale del Cilento, patrimonio Unesco — nasce il Pietre Levate: un omaggio alla generazione che ha preceduto e una testimonianza di resistenza allo spopolamento della terra. Circa mille piante di Aglianico, vinificate in anfora di terracotta, per sole 528 bottiglie numerate ogni anno. Certificazione biologica dal 2021. Un vino che, per scelta, non cerca i numeri.",
-        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/PietreLevate_copertina_mubzk6",
+        immagine: "assets/pietrelevate-copertina.jpg",
         telefono: "+39 380 2835759",
         email: "info@pietrelevate.it",
         web: "",
         mappa: "Azienda Agricola Pietre Levate, Località Bocito, Ottati SA",
         lat: 40.3760, lng: 15.2480,   /* Ottati (SA) — approssimativa, da affinare */
         storia: "pietrelevate",
+      prestoOnline: true,
         galleria: []
       }
     ]
