@@ -791,20 +791,19 @@ const T42 = {
         titolo: "Pietre Levate",
         luogo: "Ottati (SA) · Cilento, Monti Alburni",
         sommario: "Nel cuore del Cilento, un vino nato per amore: 528 bottiglie di Aglianico, vinificate in anfora di terracotta. Per pochi, per scelta.",
-         
-        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/PietreLevate_copertina_mubzk6",
+        testo: "Ad Ottati, nella Valle del Fasanella alle pendici dei Monti Alburni — cuore del Parco Nazionale del Cilento, patrimonio Unesco — nasce il Pietre Levate: un omaggio alla generazione che ha preceduto e una testimonianza di resistenza allo spopolamento della terra. Circa mille piante di Aglianico, vinificate in anfora di terracotta, per sole 528 bottiglie numerate ogni anno. Certificazione biologica dal 2021. Un vino che, per scelta, non cerca i numeri.",
+        immagine: "assets/pietrelevate-copertina.jpg",
         telefono: "+39 380 2835759",
         email: "info@pietrelevate.it",
         web: "",
         mappa: "Azienda Agricola Pietre Levate, Località Bocito, Ottati SA",
         lat: 40.3760, lng: 15.2480,   /* Ottati (SA) — approssimativa, da affinare */
         storia: "pietrelevate",
-     
+      prestoOnline: true,
         galleria: []
       }
     ]
 
   }
 };
-
 
