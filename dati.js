@@ -106,6 +106,21 @@ const T42 = {
         "La mattina, a colazione, ci si sente coccolati come degli enfants gâtés: il caffè, la luce, la gentilezza discreta di chi sa accogliere con garbo. E il mare è sempre lì, a tenerti compagnia, mutando colore con le ore. Si finisce per restare più a lungo del previsto. E si riparte già con la voglia di ritornare."
       ]
     },
+    vista: {
+      occhiello: "Un tavolo per due · Riviera del Conero",
+      titolo: "Dove il Conero incontra il mare",
+      sottotitolo: "In Riva a Numana — Numana, Riviera del Conero",
+      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/RIVA_Restaurant_Sett_24.jpg_ifpzgv",
+      paragrafi: [
+        "C'è una nonna a San Biagio Saracinisco, nel cuore del Parco Nazionale d'Abruzzo, Lazio e Molise, che fa ancora le salsicce a mano. È lì, dice Antonio Lerro, che ha imparato le cose più importanti — non le tecniche, non le ricette, ma la manualità, il rispetto per ciò che si fa con le mani. Quella nonna è rimasta con lui più di qualsiasi cucina stellata.",
+        "Il resto è arrivato dopo. La Francia, Taillevent, Les Crayères con Philippe Mille. A 23 anni era già responsabile di partita — prima il pesce, poi la carne, le salse. In Francia ha trovato la tecnica e il rigore. Tornato in Italia, ha capito dove finisce la precisione e dove comincia la cucina vera. Ha fatto quindi la sua, di cucina.",
+        "Dodici anni fa qualcuno gli ha proposto di aprire un ristorante sul Conero. Antonio è venuto a vedere il posto e ha capito che era l'unico motivo valido per ritornare a casa — quella casa dove da bambino abitava e che dista soltanto cinque minuti a piedi da qui. Non era nei suoi piani. Eppure è tornato.",
+        "Al Riva la cucina si muove tra due mondi. Il menu Conero è l'espressione del parco naturale che li circonda — la verdura arriva da un'azienda agricola a pochi chilometri, condotta da una ragazza giovane che ha ripreso l'attività di famiglia, il pesce dai pescatori al porto di Numana o di Ancona. Poi in autunno arriva la cacciagione, e con lei uno stile molto francese — foie gras, pithiviers, lepre alla royale. Il sabato sera d'autunno non arriva una sola richiesta di pesce. Questa, dice Antonio, è una delle soddisfazioni più grandi.",
+        "Il piatto che lo racconta meglio è il pithiviers. Lo metti nel forno, aspetti, e scopri se hai sbagliato soltanto quando lo tagli davanti al cliente. C'è tutto, in quel piatto: la pasticceria, la carne, la tecnica, il rischio. E poi c'è l'altro lato — le mazzancolle in bagnacauda, quattro ingredienti, in carta dall'inizio e mai tolte. La semplicità che nessun cliente ha mai discusso.",
+        "Il servizio, dice, è come scendere in campo. Prima c'è l'allenamento, la preparazione, il silenzio del mattino in cucina. Poi si entra in partita e non ci si può permettere di sbagliare. È il momento che non cambierebbe con nulla — perché è lì che succede tutto. A lui piace leggere il volto dei clienti al primo boccone. Quello sguardo dice più di qualsiasi parola: se c'è stupore, se c'è meraviglia, allora vuol dire che ce l'ha fatta. Lo stesso vale in cucina, quando fa assaggiare un piatto nuovo ai suoi ragazzi — a volte hanno timore di dire tutto quello che pensano, ma il primo sguardo non mente mai.",
+        "Buona cucina, per Antonio Lerro, è una cosa sola: un piatto eseguito bene, che sia buono e mostri una qualità tecnica. Il resto, dice, viene da sé."
+      ]
+    },
     lapergola: {
       occhiello: "Un tavolo per due \u00b7 Cilento",
       titolo: "Dove la Magna Grecia incontra il mare",
@@ -572,6 +587,19 @@ const T42 = {
         web: "http://www.manifatturaalimentare.it",
         mappa: "Ferrara",
         lat: 44.8381, lng: 11.6198
+      },
+      {
+        titolo: "In Riva a Numana",
+        luogo: "Via Flaminia 109 · Numana · Riviera del Conero",
+        sommario: "Dove il Conero incontra il mare, una cucina che sceglie ogni mattina quello che porterà in tavola.",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/RIVA_Restaurant_Sett_24.jpg_ifpzgv",
+        storia: "vista",
+        telefono: "+390719720967",
+        email: "info@vistanumana.it",
+        web: "https://www.rivanumana.it",
+        mappa: "Via Flaminia 109, Numana, Ancona",
+        lat: 43.5052, lng: 13.6274,
+        galleria: ["https://res.cloudinary.com/dspgc41gt/image/upload/Chef.jpg_mim2sg","https://res.cloudinary.com/dspgc41gt/image/upload/Bagna_Cruda.jpg_xcer0y","https://res.cloudinary.com/dspgc41gt/image/upload/Pithivier.jpg_e0z7q1"]
       },
       {
         titolo: "Da Gustin",
