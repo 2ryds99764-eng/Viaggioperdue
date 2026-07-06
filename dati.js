@@ -128,7 +128,7 @@ const T42 = {
       sottotitolo: "Viadamez — Poschiavo, Valposchiavo",
       copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/1_evjagy",
       galleria: [
-        "https://res.cloudinary.com/dspgc41gt/image/upload/3-_qdr7qw",
+        "https://res.cloudinary.com/dspgc41gt/image/upload/3_qdr7qw",
         "https://res.cloudinary.com/dspgc41gt/image/upload/7_vwr7wc",
         "https://res.cloudinary.com/dspgc41gt/image/upload/2_omkqpg"
       ],
@@ -655,7 +655,7 @@ const T42 = {
         titolo: "Viadamez",
         luogo: "Strada S. Giovanni 4 · Poschiavo · Valposchiavo",
         sommario: "Due amiche, due mestieri, una via di mezzo — nel cuore della Valposchiavo.",
-        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/6_iwg85z",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/g_auto:faces,c_fill/6_iwg85z",
         storia: "viadamez",
         galleria: ["https://res.cloudinary.com/dspgc41gt/image/upload/3-_qdr7qw","https://res.cloudinary.com/dspgc41gt/image/upload/7_vwr7wc","https://res.cloudinary.com/dspgc41gt/image/upload/2_omkqpg"],
         telefono: "+41788800671",
