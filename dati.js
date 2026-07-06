@@ -598,7 +598,7 @@ const T42 = {
         email: "info@vistanumana.it",
         web: "https://www.rivanumana.it",
         mappa: "Via Flaminia 109, Numana, Ancona",
-        lat: 43.5052, lng: 13.6274,
+        lat: 43.5025, lng: 13.6289,
         galleria: ["https://res.cloudinary.com/dspgc41gt/image/upload/Chef.jpg_mim2sg","https://res.cloudinary.com/dspgc41gt/image/upload/Bagna_Cruda.jpg_xcer0y","https://res.cloudinary.com/dspgc41gt/image/upload/Pithivier.jpg_e0z7q1"]
       },
       {
