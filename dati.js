@@ -219,7 +219,7 @@ const T42 = {
       titolo: "Dove il tempo si è fermato",
       sottotitolo: "Soglio, Val Bregaglia",
       copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5354_aylm7n",
-      video: "1cwtk9T2wj4",
+      vimeo: "1207748552",
       galleria: [
         "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5342_pw0v41",
         "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5340_cvv7yi"
