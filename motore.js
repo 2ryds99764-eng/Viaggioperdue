@@ -458,9 +458,10 @@ function costruisciStoria() {
   /* video YouTube opzionale dopo la copertina */
   const vid = document.getElementById("storia-video");
   if (vid) {
-    if (s.video) {
+    if (s.video || s.vimeo) {
+      const videoUrl = s.vimeo ? 'https://vimeo.com/' + esc(s.vimeo) : 'https://youtu.be/' + esc(s.video);
       vid.innerHTML = '<div class="storia-video-link">' +
-        '<a class="btn btn--storia" href="https://youtu.be/' + esc(s.video) + '" target="_blank" rel="noopener">Guarda il video →</a>' +
+        '<a class="btn btn--storia" href="' + videoUrl + '" target="_blank" rel="noopener">Guarda il video →</a>' +
         '</div>';
     } else { vid.style.display = "none"; }
   }

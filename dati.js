@@ -609,7 +609,8 @@ const T42 = {
         web: "https://www.dagustin.it",
         telefono: "+393339979709",
         mappa: "Via Castello 27, Bargni di Serrungarina, Pesaro Urbino",
-        lat: 43.6891, lng: 12.8734
+        lat: 43.6891, lng: 12.8734,
+        storia: "dagustin"
       },
       {
         titolo: "La Pergola",
