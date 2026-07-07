@@ -36,7 +36,7 @@
    IL CAMPO "immagine"
    -------------------
    Scrivi il nome del file foto che hai caricato nella cartella "assets",
-   es: "assets/stadera.jpg". Se non hai foto, lascia "".
+   es: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_8781_ouxnzu". Se non hai foto, lascia "".
 =================================================================== */
 
 const T42 = {
