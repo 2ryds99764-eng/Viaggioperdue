@@ -125,13 +125,14 @@ const T42 = {
       occhiello: "Un tavolo per due · Marche",
       titolo: "La tavola sulle colline",
       sottotitolo: "Da Gustin — Bargni di Serrungarina, Marche",
-      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_3747_lsjhgi",
+      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_0585_tvzgdm",
       vimeo: "1207672070",
+      galleria: ["https://res.cloudinary.com/dspgc41gt/image/upload/IMG_3766_qfwws0","https://res.cloudinary.com/dspgc41gt/image/upload/IMG_3781_vofs7d","https://res.cloudinary.com/dspgc41gt/image/upload/IMG_4657_urt9bj","https://res.cloudinary.com/dspgc41gt/image/upload/IMG_2720_dlg8dn"],
       paragrafi: [
         "Imboccata la strada per Bargni, il mondo cambia. Colline curate, borghi silenziosi, una luce che d'estate pesa come il grano maturo. E in cima, in quella che fu la prima bottega del paese, gestita da nonno Augusto per tutti Gustin, c'e' un'osteria che ha capito una cosa rara: che la qualita' non ha bisogno di spiegazioni.",
         "Virginio Baldelli e sua moglie Catia hanno trasformato quello spazio in qualcosa di difficile da trovare: un luogo dove si mangia davvero bene, senza fronzoli, con materie prime scelte ogni giorno. La crescia sfogliata di Urbino, i tartufi di Acqualagna, l'olio extravergine di Serrungarina, le carni e i formaggi della zona raccontano un territorio.",
         "D'estate ci si siede nel nuovo dehors coperto, che prolunga la stagione anche quando il cielo non collabora. La vista sulle colline marchigiane e' quella che ha ispirato anche la foto hero di Viaggioperdue.",
-        "Soltanto una ventina di coperti all'interno, e pochi tavoli all'esterno. Non si prenota per abitudine: si prenota perche' il posto finisce presto."
+        "Soltanto una ventina di coperti all'interno, e pochi tavoli all'esterno. Non si prenota per abitudine: si prenota perche' i posti finiscono presto."
       ]
     },
     lapergola: {
@@ -620,7 +621,7 @@ const T42 = {
         sommario: "Una bottega degli anni Quaranta diventata osteria, nel cuore del Montefeltro.",
         immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_3757_kxkhuw",
         web: "https://www.dagustin.it",
-        telefono: "+393339979709",
+        telefono: "+390721891517",
         mappa: "Via Castello 27, Bargni di Serrungarina, Pesaro Urbino",
         lat: 43.6891, lng: 12.8734,
         storia: "dagustin"
