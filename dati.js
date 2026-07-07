@@ -624,7 +624,8 @@ const T42 = {
         telefono: "+390721891517",
         mappa: "Via Castello 27, Bargni di Serrungarina, Pesaro Urbino",
         lat: 43.6891, lng: 12.8734,
-        storia: "dagustin"
+        storia: "dagustin",
+        galleria: ["https://res.cloudinary.com/dspgc41gt/image/upload/IMG_3766_qfwws0","https://res.cloudinary.com/dspgc41gt/image/upload/IMG_3781_vofs7d","https://res.cloudinary.com/dspgc41gt/image/upload/IMG_4657_urt9bj","https://res.cloudinary.com/dspgc41gt/image/upload/IMG_2720_dlg8dn"]
       },
       {
         titolo: "La Pergola",
