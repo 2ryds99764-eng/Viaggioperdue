@@ -587,7 +587,7 @@ const T42 = {
         luogo: "Largo della Crocetta 1 · Milano",
         sommario: "Sembra una gastronomia di quartiere. È, invece, grande cucina.",
         testo: "Un’occhiata distratta potrebbe ingannare. Ma se cedete alla curiosità di soffermarvi, scoprirete un locale dove si servono piatti di grande cucina. Aldo Ritrovato e Laura hanno realizzato il sogno che a lungo custodivano in un cassetto.",
-        immagine: "",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_8781_ouxnzu",
         telefono: "",
         mappa: "Largo della Crocetta 1, Milano",
         lat: 45.4566, lng: 9.1878
