@@ -596,7 +596,7 @@ const T42 = {
         titolo: "Manifattura Alimentare",
         luogo: "Ferrara",
         sommario: "Cucina del territorio, nel cuore di Ferrara.",
-        immagine: "",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_2487_x5bdzv",
         telefono: "",
         web: "http://www.manifatturaalimentare.it",
         mappa: "Ferrara",
