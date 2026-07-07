@@ -618,7 +618,7 @@ const T42 = {
         titolo: "Da Gustin",
         luogo: "Bargni di Serrungarina · Marche",
         sommario: "Una bottega degli anni Quaranta diventata osteria, nel cuore del Montefeltro.",
-        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_3747_lsjhgi",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_3757_kxkhuw",
         web: "https://www.dagustin.it",
         telefono: "+393339979709",
         mappa: "Via Castello 27, Bargni di Serrungarina, Pesaro Urbino",
