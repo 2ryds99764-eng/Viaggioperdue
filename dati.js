@@ -121,6 +121,19 @@ const T42 = {
         "Buona cucina, per Antonio Lerro, è una cosa sola: un piatto eseguito bene, che sia buono e mostri una qualità tecnica. Il resto, dice, viene da sé."
       ]
     },
+    dagustin: {
+      occhiello: "Un tavolo per due · Marche",
+      titolo: "La tavola sulle colline",
+      sottotitolo: "Da Gustin — Bargni di Serrungarina, Marche",
+      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_3747_lsjhgi",
+      vimeo: "1207672070",
+      paragrafi: [
+        "Imboccata la strada per Bargni, il mondo cambia. Colline curate, borghi silenziosi, una luce che d'estate pesa come il grano maturo. E in cima, in quella che fu la prima bottega del paese, gestita da nonno Augusto per tutti Gustin, c'e' un'osteria che ha capito una cosa rara: che la qualita' non ha bisogno di spiegazioni.",
+        "Virginio Baldelli e sua moglie Catia hanno trasformato quello spazio in qualcosa di difficile da trovare: un luogo dove si mangia davvero bene, senza fronzoli, con materie prime scelte ogni giorno. La crescia sfogliata di Urbino, i tartufi di Acqualagna, l'olio extravergine di Serrungarina, le carni e i formaggi della zona racconta un territorio preciso.",
+        "D'estate ci si siede nel nuovo dehors coperto, che prolunga la stagione anche quando il cielo non collabora. La vista sulle colline marchigiane e' quella che ha ispirato anche la foto hero di Viaggioperdue.",
+        "Soli 12-14 coperti all'interno, 4 tavoli all'esterno. Non si prenota per abitudine: si prenota perche' il posto finisce presto."
+      ]
+    },
     lapergola: {
       occhiello: "Un tavolo per due \u00b7 Cilento",
       titolo: "Dove la Magna Grecia incontra il mare",
