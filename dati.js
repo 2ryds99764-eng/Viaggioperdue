@@ -701,7 +701,7 @@ const T42 = {
         sommario: "Due amiche, due mestieri, una via di mezzo — nel cuore della Valposchiavo.",
         immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/1_vmrtqa",
         storia: "viadamez",
-        galleria: ["https://res.cloudinary.com/dspgc41gt/image/upload/3_qdr7qw","https://res.cloudinary.com/dspgc41gt/image/upload/3_qdr7qw","https://res.cloudinary.com/dspgc41gt/image/upload/2_omkqpg"],
+        galleria: ["https://res.cloudinary.com/dspgc41gt/image/upload/5_ae6n4v","https://res.cloudinary.com/dspgc41gt/image/upload/3_qdr7qw","https://res.cloudinary.com/dspgc41gt/image/upload/2_omkqpg"],
         telefono: "+41788800671",
         web: "http://www.viadamez.ch",
         mappa: "Strada S. Giovanni 4, Poschiavo, Svizzera",
