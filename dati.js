@@ -232,7 +232,7 @@ const T42 = {
       ]
     },
     costiera: {
-      vimeo: "1208219578",
+      vimeo: "1208219578/8f9d8ad8f0",
       occhiello: "Racconti di viaggio · Campania",
       titolo: "Dove la luce ha un peso",
       sottotitolo: "Costiera Amalfitana",
