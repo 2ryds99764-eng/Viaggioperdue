@@ -155,9 +155,9 @@ const T42 = {
       occhiello: "Mestieri d'autore · Poschiavo",
       titolo: "Le artigiane della Via di Mezzo",
       sottotitolo: "Viadamez — Poschiavo, Valposchiavo",
-      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/1_evjagy",
+      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/7_vwr7wc",
       galleria: [
-        "https://res.cloudinary.com/dspgc41gt/image/upload/3_qdr7qw",
+        "https://res.cloudinary.com/dspgc41gt/image/upload/4_ywqkpr",
         "https://res.cloudinary.com/dspgc41gt/image/upload/3_qdr7qw",
         "https://res.cloudinary.com/dspgc41gt/image/upload/2_omkqpg"
       ],
