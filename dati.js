@@ -176,7 +176,7 @@ const T42 = {
       occhiello: "Mestieri d'autore · Brianza",
       titolo: "Nel segno del legno",
       sottotitolo: "Bottega Ghianda — Giussano, Brianza",
-      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/a_-90/IMG_1788_mftxg6",
+      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/a_-90,f_jpg/IMG_1788_mftxg6",
       paragrafi: [
         "Ci sono botteghe che sopravvivono ai loro fondatori. Bottega Ghianda è nata più di due secoli fa in Brianza, dove il legno non è mai stato solo materia prima ma linguaggio — un modo di pensare la forma, il tempo, la cura.",
         "Luigi Ghianda ha portato quell'arte ai vertici. Ebanista tra i più grandi del Novecento italiano, ha lavorato con architetti e designer di eccezione, trasformando visioni progettuali in oggetti unici. Ogni pezzo che usciva dalla sua bottega era irripetibile: incastri complessi quanto discreti, essenze lavorate con mano sicura e amorevole — il segno distintivo di un'ebanisteria che non ammette scorciatoie.",
@@ -189,7 +189,7 @@ const T42 = {
       occhiello: "Mestieri d'autore · Montegranaro",
       titolo: "L'eleganza che si costruisce a mano",
       sottotitolo: "Giorgio Paponi — Montegranaro, nelle Marche",
-      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/a_-90/IMG_5771_bsqkns",
+      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/a_-90,f_jpg/IMG_5771_bsqkns",
       paragrafi: [
         "Nelle Marche c'è un lembo di terra dove il cuoio è una lingua madre. Si chiama Montegranaro, ed è qui che nel 1977 Giorgio Paponi apre il suo calzaturificio, scegliendo da subito una strada precisa: l'eleganza della calzatura costruita a mano, per uomo e per donna, senza scorciatoie.",
         "L'identità del marchio nasce da un dialogo curioso tra due sensibilità. Da un lato il gusto inglese, rigoroso e raffinato; dall'altro la mano italiana, che quel rigore lo riscalda, lo addolcisce, lo reinterpreta. Le scarpe Paponi nascono da questo incontro — classici britannici che parlano con accento marchigiano.",
@@ -232,6 +232,7 @@ const T42 = {
       ]
     },
     costiera: {
+      vimeo: "1208219578",
       occhiello: "Racconti di viaggio · Campania",
       titolo: "Dove la luce ha un peso",
       sottotitolo: "Costiera Amalfitana",
