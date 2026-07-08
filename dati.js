@@ -126,7 +126,7 @@ const T42 = {
       titolo: "La tavola sulle colline",
       sottotitolo: "Da Gustin — Bargni di Serrungarina, Marche",
       copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_0585_tvzgdm",
-      vimeo: "1207672070",
+      vimeo: "1207672070/b13928359c",
       galleria: ["https://res.cloudinary.com/dspgc41gt/image/upload/IMG_3766_qfwws0","https://res.cloudinary.com/dspgc41gt/image/upload/IMG_3781_vofs7d","https://res.cloudinary.com/dspgc41gt/image/upload/IMG_4657_urt9bj","https://res.cloudinary.com/dspgc41gt/image/upload/IMG_2720_dlg8dn"],
       paragrafi: [
         "Imboccata la strada per Bargni, il mondo cambia. Colline curate, borghi silenziosi, una luce che d'estate pesa come il grano maturo. E in cima, in quella che fu la prima bottega del paese, gestita da nonno Augusto per tutti Gustin, c'è un'osteria che ha capito una cosa rara: che la qualita' non ha bisogno di spiegazioni.",
