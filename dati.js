@@ -61,7 +61,7 @@ const T42 = {
       { parola: "Camera con vista",    testo: "Dimore dove l’ospitalità è autentica e il paesaggio entra dentro le stanze.", immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5181_pp5vga" },
       { parola: "Un tavolo per due",   testo: "Cucine che raccontano un luogo, una stagione, le mani di chi ha scelto di fare le cose a modo suo.", immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_6904_n0zj2j" },
       { parola: "Racconti di viaggio", testo: "Luoghi che non si visitano: si attraversano, e ci lasciano qualcosa.", immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5236_h4rgus" },
-      { parola: "Mestieri d’autore",  testo: "Artigiani, agricoltori, pescatori: persone da incontrare, non solo prodotti da acquistare.", immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_9780_bcsj2u" },
+      { parola: "Mestieri d’autore",  testo: "Artigiani, agricoltori, pescatori: persone da incontrare, non solo prodotti da acquistare.", immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/4_ywqkpr" },
       { parola: "Vignaioli",           testo: "Chi fa vino con intenzione, controcorrente, perché certe radici meritano di sopravvivere.", immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_7370_c878u6" }
     ]
   },
