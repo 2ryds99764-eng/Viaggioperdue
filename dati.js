@@ -189,7 +189,7 @@ const T42 = {
       occhiello: "Mestieri d'autore · Montegranaro",
       titolo: "L'eleganza che si costruisce a mano",
       sottotitolo: "Giorgio Paponi — Montegranaro, nelle Marche",
-      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5771_bsqkns",
+      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/a_-90/IMG_5771_bsqkns",
       paragrafi: [
         "Nelle Marche c'è un lembo di terra dove il cuoio è una lingua madre. Si chiama Montegranaro, ed è qui che nel 1977 Giorgio Paponi apre il suo calzaturificio, scegliendo da subito una strada precisa: l'eleganza della calzatura costruita a mano, per uomo e per donna, senza scorciatoie.",
         "L'identità del marchio nasce da un dialogo curioso tra due sensibilità. Da un lato il gusto inglese, rigoroso e raffinato; dall'altro la mano italiana, che quel rigore lo riscalda, lo addolcisce, lo reinterpreta. Le scarpe Paponi nascono da questo incontro — classici britannici che parlano con accento marchigiano.",
