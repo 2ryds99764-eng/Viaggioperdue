@@ -176,7 +176,7 @@ const T42 = {
       occhiello: "Mestieri d'autore · Brianza",
       titolo: "Nel segno del legno",
       sottotitolo: "Bottega Ghianda — Giussano, Brianza",
-      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/Copy of IMG_1788_mftxg6",
+      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/Copy of Copy of IMG_1788_mftxg6",
       paragrafi: [
         "Ci sono botteghe che sopravvivono ai loro fondatori. Bottega Ghianda è nata più di due secoli fa in Brianza, dove il legno non è mai stato solo materia prima ma linguaggio — un modo di pensare la forma, il tempo, la cura.",
         "Luigi Ghianda ha portato quell'arte ai vertici. Ebanista tra i più grandi del Novecento italiano, ha lavorato con architetti e designer di eccezione, trasformando visioni progettuali in oggetti unici. Ogni pezzo che usciva dalla sua bottega era irripetibile: incastri complessi quanto discreti, essenze lavorate con mano sicura e amorevole — il segno distintivo di un'ebanisteria che non ammette scorciatoie.",
@@ -689,7 +689,7 @@ const T42 = {
         titolo: "Bottega Ghianda",
         luogo: "Giussano · Brianza",
         sommario: "Due secoli di sapienza ebanistica, nel cuore della Brianza.",
-        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_1788_mftxg6",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/Copy of IMG_1788_mftxg6",
         storia: "ghianda",
         web: "https://bottegaghianda.com/it",
         mappa: "Giussano, Monza e Brianza",
