@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
           var url = isApple
             ? "https://maps.apple.com/?ll=" + lat + "," + lng + "&z=12"
             : "https://www.google.com/maps/@" + lat + "," + lng + ",12z";
-          window.open(url, "_blank");
+          if(window.T42mappa){window.T42mappa.setView([lat,lng],12);L.marker([lat,lng]).addTo(window.T42mappa).bindPopup("Sei qui").openPopup();};
           btn.textContent = "📍 Vicino a me";
           btn.disabled = false;
         },

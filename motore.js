@@ -365,6 +365,7 @@ function costruisciMappa() {
 
   /* inizializza la mappa Leaflet */
   const mappa = L.map("mappa", { scrollWheelZoom: false }).setView([42.5, 12.5], 6);
+  window.T42mappa = mappa;
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 18,
     attribution: "&copy; OpenStreetMap"
