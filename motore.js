@@ -520,18 +520,7 @@ function costruisciStoria() {
         (righe.length ? '<div class="scc-luogo">' + righe.join(" · ") + '</div>' : '') +
         '<div class="azioni" style="justify-content:center;">' + btn.join("") + '</div>' +
       '</div>';
-  }
-
-
-  const corr = document.getElementById('storia-correlate');
-  if (corr && scheda && catId) {
-    const voci = (T42.schede && T42.schede[catId]) || [];
-    const simili = voci.filter(function(v) { return v.storia && v.storia !== chiave && v.immagine; }).slice(0, 3);
-    if (simili.length) {
-      corr.innerHTML = '<h2 class="storia-h2">Potrebbe interessarti</h2>' + simili.map(function(v) { return '<a href="storia.html?s=' + encodeURIComponent(v.storia) + '&c=' + encodeURIComponent(catId) + '"><div class="sc-foto" style="background-image:url(' + esc(v.immagine) + ')"></div><div>' + esc(v.titolo) + '</div></a>'; }).join('');
-    }
-  }
-  costruisciPie(T42.sito);
+  }  costruisciPie(T42.sito);
 }
 
 function cap(s) { return s.charAt(0).toUpperCase() + s.slice(1); }
