@@ -177,7 +177,7 @@ function costruisciCategoria() {
     }
   }
 
-  const corr=document.getElementById("storia-correlate");if(corr&&scheda&&catId){const cat=T42.categorie.find(function(c){return c.id===catId;});const voci=cat?(cat.locande||cat.trattorie||cat.luoghi||cat.artigiani||cat.vignaioli||[]):[];const simili=voci.filter(function(v){return v.storia&&v.storia!==s&&v.immagine;}).slice(0,3);if(simili.length){corr.innerHTML="<h2 class=storia-h2>Potrebbe interessarti</h2>"+simili.map(function(v){return"<a class=scheda-correlata href=storia.html?s="+encodeURIComponent(v.storia)+"&c="+encodeURIComponent(catId)+"><div class=sc-foto style=background-image:url("+esc(v.immagine)+")></div><div class=sc-titolo>"+esc(v.titolo)+"</div><div class=sc-luogo>"+esc(v.luogo)+"</div></a>";}).join("");}}
+  const corr=document.getElementById("storia-correlate");if(corr&&scheda&&catId){const cat=T42.categorie.find(function(c){return c.id===catId;});const voci=cat?(cat.locande||cat.trattorie||cat.luoghi||cat.artigiani||cat.vignaioli||[]):[];const simili=voci.filter(function(v){return v.storia&&v.storia!==chiave&&v.immagine;}).slice(0,3);if(simili.length){corr.innerHTML="<h2 class=storia-h2>Potrebbe interessarti</h2>"+simili.map(function(v){return"<a class=scheda-correlata href=storia.html?s="+encodeURIComponent(v.storia)+"&c="+encodeURIComponent(catId)+"><div class=sc-foto style=background-image:url("+esc(v.immagine)+")></div><div class=sc-titolo>"+esc(v.titolo)+"</div><div class=sc-luogo>"+esc(v.luogo)+"</div></a>";}).join("");}}
   costruisciPie(T42.sito);
 }
 
