@@ -528,7 +528,7 @@ function costruisciStoria() {
     const voci = (T42.schede && T42.schede[catId]) || [];
     const simili = voci.filter(function(v) { return v.storia && v.storia !== chiave && v.immagine; }).slice(0, 3);
     if (simili.length) {
-      corr.innerHTML = '<h2>Potrebbe interessarti</h2>' + simili.map(function(v) { return '<a href="storia.html?s=' + encodeURIComponent(v.storia) + '&c=' + encodeURIComponent(catId) + '"><div style="background-image:url(' + esc(v.immagine) + ')"></div><div>' + esc(v.titolo) + '</div></a>'; }).join('');
+      corr.innerHTML = '<h2 class="storia-h2">Potrebbe interessarti</h2>' + simili.map(function(v) { return '<a href="storia.html?s=' + encodeURIComponent(v.storia) + '&c=' + encodeURIComponent(catId) + '"><div class="sc-foto" style="background-image:url(' + esc(v.immagine) + ')"></div><div>' + esc(v.titolo) + '</div></a>'; }).join('');
     }
   }
   costruisciPie(T42.sito);
