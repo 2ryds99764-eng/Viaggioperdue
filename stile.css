@@ -705,5 +705,5 @@ body::before {
 .storia-griglia--3 { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 24px; margin-top: 24px; }
 .scheda-correlata { display: block; text-decoration: none; color: var(--blu); border-radius: 2px; overflow: hidden; box-shadow: 0 1px 8px rgba(20,35,63,.08); transition: transform .2s, box-shadow .2s; }
 .scheda-correlata:hover { transform: translateY(-3px); box-shadow: 0 4px 20px rgba(20,35,63,.14); }
-.sc-foto { height: 160px; background-size: cover; background-position: center; }
-.sc-titolo { padding: 16px; font-family: var(--serif); font-size: 1rem; font-weight: 500; }
+.sc-foto { height: 220px; background-size: cover; background-position: center; }
+.sc-titolo { padding: 16px; font-family: var(--serif); font-size: 1rem; font-weight: 500; color: var(--blu); line-height: 1.4; }
