@@ -1,11 +1,13 @@
-/* T42 · VIAGGIOPERDUE — GUIDA RISTORANTI */
+/* T42 VIAGGIOPERDUE GUIDA RISTORANTI */
 var GUIDA=[
   {
     "nome": "Accademia",
     "indirizzo": "Via Mameli 29",
     "citta": "Casale Monferrato",
     "provincia": "AL",
+    "prov": "AL",
     "regione": "Piemonte",
+    "luogo": "Casale Monferrato (AL)",
     "telefono": "+390142452269",
     "web": "https://www.accademiaristorante.it"
   },
@@ -14,7 +16,9 @@ var GUIDA=[
     "indirizzo": "Corso Garibaldi 38",
     "citta": "Cetara",
     "provincia": "SA",
+    "prov": "SA",
     "regione": "Campania",
+    "luogo": "Cetara (SA)",
     "telefono": "+39 089 261606",
     "web": "http://www.acquapazza.it"
   },
@@ -23,7 +27,9 @@ var GUIDA=[
     "indirizzo": "Rudolfstrasse 6",
     "citta": "Zurigo",
     "provincia": "ZH",
+    "prov": "ZH",
     "regione": "Svizzera",
+    "luogo": "Zurigo (ZH)",
     "telefono": "+41 44 422 72 42",
     "web": "https://www.restaurantgandria.ch"
   },
@@ -32,7 +38,9 @@ var GUIDA=[
     "indirizzo": "Via Luigi Cadorna 7",
     "citta": "Trieste",
     "provincia": "TS",
+    "prov": "TS",
     "regione": "Friuli-Venezia Giulia",
+    "luogo": "Trieste (TS)",
     "telefono": "+39 040 301771",
     "web": "https://www.albagatto.it"
   },
@@ -41,7 +49,9 @@ var GUIDA=[
     "indirizzo": "Via Savona 50",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+39 02 49533630",
     "web": "http://www.alfrescomilano.it"
   },
@@ -50,7 +60,9 @@ var GUIDA=[
     "indirizzo": "Via Galeazzino 4, Montevecchia (LC)",
     "citta": "Montevecchia",
     "provincia": "MB",
+    "prov": "MB",
     "regione": "Lombardia",
+    "luogo": "Montevecchia (MB)",
     "telefono": "+39 039 9930850",
     "web": "https://algaleazzino.wixsite.com/algaleazzino"
   },
@@ -59,7 +71,9 @@ var GUIDA=[
     "indirizzo": "Via Sant'Eufemia 16",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+39 02 87237167",
     "web": "https://www.al-mercato.it"
   },
@@ -68,7 +82,9 @@ var GUIDA=[
     "indirizzo": "Via F. Magellano 35",
     "citta": "San Salvo",
     "provincia": "CH",
+    "prov": "CH",
     "regione": "Abruzzo",
+    "luogo": "San Salvo (CH)",
     "telefono": "+39 0873 803428",
     "web": "https://www.ristorantealmetro.it"
   },
@@ -77,7 +93,9 @@ var GUIDA=[
     "indirizzo": "Piazza General Antonio Cantore 13",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+39 02 89407425",
     "web": "https://alportomilano.it"
   },
@@ -86,7 +104,9 @@ var GUIDA=[
     "indirizzo": "Largo della Crocetta 1",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+39 329 0112243",
     "web": "https://staderamilano.it"
   },
@@ -95,7 +115,9 @@ var GUIDA=[
     "indirizzo": "Piazza Cesare Battisti 11",
     "citta": "Cavalese",
     "provincia": "TN",
+    "prov": "TN",
     "regione": "Trentino-Alto Adige",
+    "luogo": "Cavalese (TN)",
     "telefono": "+39 0462 340074",
     "web": "https://www.alessandrogilmozzi.it"
   },
@@ -104,7 +126,9 @@ var GUIDA=[
     "indirizzo": "Via Spinale 37b",
     "citta": "Madonna di Campiglio",
     "provincia": "TN",
+    "prov": "TN",
     "regione": "Trentino-Alto Adige",
+    "luogo": "Madonna di Campiglio (TN)",
     "telefono": "+39 349 5140485",
     "web": "https://www.ristoranteduepini.com"
   },
@@ -113,7 +137,9 @@ var GUIDA=[
     "indirizzo": "Piazza Cavour 24",
     "citta": "Como",
     "provincia": "CO",
+    "prov": "CO",
     "regione": "Lombardia",
+    "luogo": "Como (CO)",
     "telefono": "+39 348 9156166",
     "web": "https://www.vistapalazzo.com/lago_como/ristorante-sottovoce/"
   },
@@ -122,7 +148,9 @@ var GUIDA=[
     "indirizzo": "Via Marina di Praia 6",
     "citta": "Praiano",
     "provincia": "SA",
+    "prov": "SA",
     "regione": "Campania",
+    "luogo": "Praiano (SA)",
     "telefono": "+39 089 874091",
     "web": "https://alfonsoamare.it"
   },
@@ -131,7 +159,9 @@ var GUIDA=[
     "indirizzo": "Carrer de la indústria 70",
     "citta": "Barcellona",
     "provincia": "ES",
+    "prov": "ES",
     "regione": "Spagna",
+    "luogo": "Barcellona (ES)",
     "telefono": "+34 932 076 115",
     "web": "https://www.alkimia.com"
   },
@@ -140,7 +170,9 @@ var GUIDA=[
     "indirizzo": "S.S. Adriatica Sud 78",
     "citta": "Metaurilia di Fano",
     "provincia": "PU",
+    "prov": "PU",
     "regione": "Marche",
+    "luogo": "Metaurilia di Fano (PU)",
     "telefono": "+39 0721 884748",
     "web": "https://www.allalanterna.com"
   },
@@ -149,7 +181,9 @@ var GUIDA=[
     "indirizzo": "Via Guglielmo Pepe 38",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+39 02 606340",
     "web": "https://www.ristoranteamaltea.it"
   },
@@ -158,7 +192,9 @@ var GUIDA=[
     "indirizzo": "Via Marconi 14-16",
     "citta": "Savigno",
     "provincia": "BO",
+    "prov": "BO",
     "regione": "Emilia-Romagna",
+    "luogo": "Savigno (BO)",
     "telefono": "+39 051 6708326",
     "web": "https://www.amerigo1934.it"
   },
@@ -167,7 +203,9 @@ var GUIDA=[
     "indirizzo": "Località Borro 1",
     "citta": "San Giustino Valdarno",
     "provincia": "AR",
+    "prov": "AR",
     "regione": "Toscana",
+    "luogo": "San Giustino Valdarno (AR)",
     "telefono": "+39 331 1076958",
     "web": "https://www.osteriadelborro.it"
   },
@@ -176,7 +214,9 @@ var GUIDA=[
     "indirizzo": "Grotticelle 1",
     "citta": "Caggiano",
     "provincia": "SA",
+    "prov": "SA",
     "regione": "Campania",
+    "luogo": "Caggiano (SA)",
     "telefono": "+3909751966171",
     "web": "https://www.legrotticelle.it"
   },
@@ -185,7 +225,9 @@ var GUIDA=[
     "indirizzo": "Via Moroni 88",
     "citta": "Bergamo",
     "provincia": "BG",
+    "prov": "BG",
     "regione": "Lombardia",
+    "luogo": "Bergamo (BG)",
     "telefono": "+39 035 0787497",
     "web": ""
   },
@@ -194,7 +236,9 @@ var GUIDA=[
     "indirizzo": "Corso Garibaldi 7",
     "citta": "Galatina",
     "provincia": "LE",
+    "prov": "LE",
     "regione": "Puglia",
+    "luogo": "Galatina (LE)",
     "telefono": "+39 0836 564301",
     "web": "https://www.animaecuore.it"
   },
@@ -203,7 +247,9 @@ var GUIDA=[
     "indirizzo": "Lungomare Cristoforo Colombo 147 · Borgo Pes",
     "citta": "Tricase",
     "provincia": "LE",
+    "prov": "LE",
     "regione": "Puglia",
+    "luogo": "Tricase (LE)",
     "telefono": "+39 0833 775213",
     "web": ""
   },
@@ -212,7 +258,9 @@ var GUIDA=[
     "indirizzo": "Via Monti 46",
     "citta": "Bianzone",
     "provincia": "SO",
+    "prov": "SO",
     "regione": "Lombardia",
+    "luogo": "Bianzone (SO)",
     "telefono": "+39 0342 720355",
     "web": ""
   },
@@ -221,7 +269,9 @@ var GUIDA=[
     "indirizzo": "Strada Palazzo Due Torri 3",
     "citta": "Polesine Zibello",
     "provincia": "PR",
+    "prov": "PR",
     "regione": "Emilia-Romagna",
+    "luogo": "Polesine Zibello (PR)",
     "telefono": "+39 0524 936539",
     "web": "https://www.acpallavicina.com"
   },
@@ -230,7 +280,9 @@ var GUIDA=[
     "indirizzo": "Via Trieste 11",
     "citta": "Mantova",
     "provincia": "MN",
+    "prov": "MN",
     "regione": "Lombardia",
+    "luogo": "Mantova (MN)",
     "telefono": "+390376328431",
     "web": "https://www.ranari.it"
   },
@@ -239,7 +291,9 @@ var GUIDA=[
     "indirizzo": "Via Marghera 24",
     "citta": "Lughetto",
     "provincia": "VE",
+    "prov": "VE",
     "regione": "Veneto",
+    "luogo": "Lughetto (VE)",
     "telefono": "+39 041 5185009",
     "web": ""
   },
@@ -248,7 +302,9 @@ var GUIDA=[
     "indirizzo": "Via Privata Gerli 3",
     "citta": "Vigano Certosino",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Vigano Certosino (MI)",
     "telefono": "+39 02 9085276",
     "web": "https://www.trattoriadelgallo.com"
   },
@@ -257,7 +313,9 @@ var GUIDA=[
     "indirizzo": "Via Pistoiese 353-357 · Localita S. Angelo a",
     "citta": "Signa",
     "provincia": "FI",
+    "prov": "FI",
     "regione": "Toscana",
+    "luogo": "Signa (FI)",
     "telefono": "+39 055 8778203",
     "web": "https://antica-trattoria-di-tramway.eatbu.com/?lang=it"
   },
@@ -266,7 +324,9 @@ var GUIDA=[
     "indirizzo": "Via Cenischia 9",
     "citta": "Torino",
     "provincia": "TO",
+    "prov": "TO",
     "regione": "Piemonte",
+    "luogo": "Torino (TO)",
     "telefono": "+39 011 3854347",
     "web": ""
   },
@@ -275,7 +335,9 @@ var GUIDA=[
     "indirizzo": "Strada Montanara 318",
     "citta": "Gaione",
     "provincia": "PR",
+    "prov": "PR",
     "regione": "Emilia-Romagna",
+    "luogo": "Gaione (PR)",
     "telefono": "+39 0521 648165",
     "web": "https://www.trattoria-antichisapori.com"
   },
@@ -284,7 +346,9 @@ var GUIDA=[
     "indirizzo": "Via Frà Giovanni da Fiesole detto l'Angelico 35",
     "citta": "Fiesole",
     "provincia": "FI",
+    "prov": "FI",
     "regione": "Toscana",
+    "luogo": "Fiesole (FI)",
     "telefono": "+39 055 597252",
     "web": "https://www.ristoranteserrae.it"
   },
@@ -293,7 +357,9 @@ var GUIDA=[
     "indirizzo": "Via Matteo Camera 12",
     "citta": "Amalfi",
     "provincia": "SA",
+    "prov": "SA",
     "regione": "Campania",
+    "luogo": "Amalfi (SA)",
     "telefono": "+39 089 871029",
     "web": "http://www.ristorantelacaravella.it"
   },
@@ -302,7 +368,9 @@ var GUIDA=[
     "indirizzo": "Via Flaminia 109, Numana",
     "citta": "Numana",
     "provincia": "AN",
+    "prov": "AN",
     "regione": "Marche",
+    "luogo": "Numana (AN)",
     "telefono": "+39 0719720971",
     "web": "https://www.viewnumana.it/ristorante-view"
   },
@@ -311,7 +379,9 @@ var GUIDA=[
     "indirizzo": "Viale Stazione 13/15",
     "citta": "Camigliatello Silano",
     "provincia": "CS",
+    "prov": "CS",
     "regione": "Calabria",
+    "luogo": "Camigliatello Silano (CS)",
     "telefono": "+39 0984 578044",
     "web": "https://www.hotelaquilaedelweiss.com"
   },
@@ -320,7 +390,9 @@ var GUIDA=[
     "indirizzo": "Borgo San Rocco",
     "citta": "Sant'Angelo dei Lombardi",
     "provincia": "AV",
+    "prov": "AV",
     "regione": "Campania",
+    "luogo": "Sant'Angelo dei Lombardi (AV)",
     "telefono": "+39 0827 23888",
     "web": ""
   },
@@ -329,7 +401,9 @@ var GUIDA=[
     "indirizzo": "Piazza Garibaldi 32",
     "citta": "Ovada",
     "provincia": "AL",
+    "prov": "AL",
     "regione": "Piemonte",
+    "luogo": "Ovada (AL)",
     "telefono": "+39 0143 835208",
     "web": "https://www.archivoltoosterianostrale.com"
   },
@@ -338,7 +412,9 @@ var GUIDA=[
     "indirizzo": "1 rue Maître Albert",
     "citta": "Parigi",
     "provincia": "F",
+    "prov": "F",
     "regione": "Francia",
+    "luogo": "Parigi (F)",
     "telefono": "+33 (0) 1 56 81 30 01",
     "web": "https://www.ateliermaitrealbert.com"
   },
@@ -347,7 +423,9 @@ var GUIDA=[
     "indirizzo": "Porretana 291",
     "citta": "Sasso Marconi",
     "provincia": "BO",
+    "prov": "BO",
     "regione": "Emilia-Romagna",
+    "luogo": "Sasso Marconi (BO)",
     "telefono": "+39 051 846216",
     "web": "https://www.casamazzucchelli.com"
   },
@@ -356,7 +434,9 @@ var GUIDA=[
     "indirizzo": "Via Occidentale 109",
     "citta": "Isernia",
     "provincia": "IS",
+    "prov": "IS",
     "regione": "Molise",
+    "luogo": "Isernia (IS)",
     "telefono": "+39 0865 271528",
     "web": "https://www.ausaristorante.it"
   },
@@ -365,7 +445,9 @@ var GUIDA=[
     "indirizzo": "Corso Savoia",
     "citta": "Rosolini",
     "provincia": "SR",
+    "prov": "SR",
     "regione": "Sicilia",
+    "luogo": "Rosolini (SR)",
     "telefono": "+39 0931 453625",
     "web": "https://acavaristorante.it"
   },
@@ -374,7 +456,9 @@ var GUIDA=[
     "indirizzo": "Piazza Marina 30",
     "citta": "Barletta",
     "provincia": "BT",
+    "prov": "BT",
     "regione": "Puglia",
+    "luogo": "Barletta (BT)",
     "telefono": "",
     "web": "https://www.ristorantebacco.it"
   },
@@ -383,7 +467,9 @@ var GUIDA=[
     "indirizzo": "Via Case Secchia 2 A",
     "citta": "Casalgrande",
     "provincia": "RE",
+    "prov": "RE",
     "regione": "Emilia-Romagna",
+    "luogo": "Casalgrande (RE)",
     "telefono": "+39 0522 989138",
     "web": "https://www.ristorantebadessa.it"
   },
@@ -392,7 +478,9 @@ var GUIDA=[
     "indirizzo": "Via San Giovanni Bosco 115",
     "citta": "Caspoggio",
     "provincia": "SO",
+    "prov": "SO",
     "regione": "Lombardia",
+    "luogo": "Caspoggio (SO)",
     "telefono": "+39 0342 452962",
     "web": ""
   },
@@ -401,7 +489,9 @@ var GUIDA=[
     "indirizzo": "Via Roma 86",
     "citta": "Maglie",
     "provincia": "LE",
+    "prov": "LE",
     "regione": "Puglia",
+    "luogo": "Maglie (LE)",
     "telefono": "+39 0836 312930",
     "web": "https://www.hotelbelami.it"
   },
@@ -410,7 +500,9 @@ var GUIDA=[
     "indirizzo": "Via Pablo Neruda 18",
     "citta": "Agazzano",
     "provincia": "PC",
+    "prov": "PC",
     "regione": "Emilia-Romagna",
+    "luogo": "Agazzano (PC)",
     "telefono": "+39 328 3157448",
     "web": ""
   },
@@ -419,7 +511,9 @@ var GUIDA=[
     "indirizzo": "Via XX Settembre 50, Colle di Val d'Elsa",
     "citta": "Colle di Val d'Elsa",
     "provincia": "SI",
+    "prov": "SI",
     "regione": "Toscana",
+    "luogo": "Colle di Val d'Elsa (SI)",
     "telefono": "+39 338 7706128",
     "web": ""
   },
@@ -428,7 +522,9 @@ var GUIDA=[
     "indirizzo": "Via Garibaldi 9",
     "citta": "Levico Terme",
     "provincia": "TN",
+    "prov": "TN",
     "regione": "Trentino-Alto Adige",
+    "luogo": "Levico Terme (TN)",
     "telefono": "+39 0461 701670",
     "web": "https://www.boivin.it"
   },
@@ -437,7 +533,9 @@ var GUIDA=[
     "indirizzo": "Via Acaja 2",
     "citta": "Lecce",
     "provincia": "LE",
+    "prov": "LE",
     "regione": "Puglia",
+    "luogo": "Lecce (LE)",
     "telefono": "+39 0832 092601",
     "web": "https://www.brosrestaurant.it"
   },
@@ -446,7 +544,9 @@ var GUIDA=[
     "indirizzo": "Via Privata Fratelli Gabba 7/B",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+39028058051",
     "web": "https://www.bulgarihotels.com/milan/dining/il-ristorante"
   },
@@ -455,7 +555,9 @@ var GUIDA=[
     "indirizzo": "Località Bosmenso Superiore 41",
     "citta": "Varzi",
     "provincia": "PV",
+    "prov": "PV",
     "regione": "Lombardia",
+    "luogo": "Varzi (PV)",
     "telefono": "+39 0383 52224",
     "web": ""
   },
@@ -464,7 +566,9 @@ var GUIDA=[
     "indirizzo": "Piazza Vittorio Veneto 8",
     "citta": "Mergozzo",
     "provincia": "VB",
+    "prov": "VB",
     "regione": "Piemonte",
+    "luogo": "Mergozzo (VB)",
     "telefono": "+39 0323 800970",
     "web": ""
   },
@@ -473,7 +577,9 @@ var GUIDA=[
     "indirizzo": "Piazza Matteotti 14",
     "citta": "Isola Dovarese",
     "provincia": "CR",
+    "prov": "CR",
     "regione": "Lombardia",
+    "luogo": "Isola Dovarese (CR)",
     "telefono": "+39 0375 396161",
     "web": "https://www.caffelacrepa.it"
   },
@@ -482,7 +588,9 @@ var GUIDA=[
     "indirizzo": "Via Giudecca 36",
     "citta": "Trapani",
     "provincia": "TP",
+    "prov": "TP",
     "regione": "Sicilia",
+    "luogo": "Trapani (TP)",
     "telefono": "+39 0923 28673",
     "web": ""
   },
@@ -491,7 +599,9 @@ var GUIDA=[
     "indirizzo": "Località Vesalo",
     "citta": "Laurino",
     "provincia": "SA",
+    "prov": "SA",
     "regione": "Campania",
+    "luogo": "Laurino (SA)",
     "telefono": "+393498546265",
     "web": "https://www.chaletnicoletti.it"
   },
@@ -500,7 +610,9 @@ var GUIDA=[
     "indirizzo": "Via Monte Baldo 28",
     "citta": "Costermano",
     "provincia": "VR",
+    "prov": "VR",
     "regione": "Veneto",
+    "luogo": "Costermano (VR)",
     "telefono": "+39 045 6200766",
     "web": "https://www.casadeglispiriti.it"
   },
@@ -509,7 +621,9 @@ var GUIDA=[
     "indirizzo": "Via Ponchielli 54",
     "citta": "Lecco",
     "provincia": "LC",
+    "prov": "LC",
     "regione": "Lombardia",
+    "luogo": "Lecco (LC)",
     "telefono": "+39 0341 422122",
     "web": "https://www.ristorantenicolin.it"
   },
@@ -518,7 +632,9 @@ var GUIDA=[
     "indirizzo": "Via San Francesco d'Assisi 32",
     "citta": "Trapani",
     "provincia": "TP",
+    "prov": "TP",
     "regione": "Sicilia",
+    "luogo": "Trapani (TP)",
     "telefono": "+39 0923 546618",
     "web": ""
   },
@@ -527,7 +643,9 @@ var GUIDA=[
     "indirizzo": "Via San Giovanni 79",
     "citta": "Ponte di Legno",
     "provincia": "BS",
+    "prov": "BS",
     "regione": "Lombardia",
+    "luogo": "Ponte di Legno (BS)",
     "telefono": "+39 0364 91777",
     "web": ""
   },
@@ -536,7 +654,9 @@ var GUIDA=[
     "indirizzo": "Vicolo S. Antonio 7",
     "citta": "Faenza",
     "provincia": "RA",
+    "prov": "RA",
     "regione": "Emilia-Romagna",
+    "luogo": "Faenza (RA)",
     "telefono": "+39 0546 88054",
     "web": ""
   },
@@ -545,7 +665,9 @@ var GUIDA=[
     "indirizzo": "Via Roma 296",
     "citta": "Recco",
     "provincia": "GE",
+    "prov": "GE",
     "regione": "Liguria",
+    "luogo": "Recco (GE)",
     "telefono": "+39 0185 74128",
     "web": "https://www.manuelina.it"
   },
@@ -554,7 +676,9 @@ var GUIDA=[
     "indirizzo": "Via Umberto I 9",
     "citta": "Albareto Torre",
     "provincia": "CN",
+    "prov": "CN",
     "regione": "Piemonte",
+    "luogo": "Albareto Torre (CN)",
     "telefono": "+39 0173 520141",
     "web": ""
   },
@@ -563,7 +687,9 @@ var GUIDA=[
     "indirizzo": "Via Labiena 1861",
     "citta": "Comabbio",
     "provincia": "VA",
+    "prov": "VA",
     "regione": "Lombardia",
+    "luogo": "Comabbio (VA)",
     "telefono": "+39 0331 968472",
     "web": ""
   },
@@ -572,7 +698,9 @@ var GUIDA=[
     "indirizzo": "Via de’ Macci 122r",
     "citta": "Firenze",
     "provincia": "FI",
+    "prov": "FI",
     "regione": "Toscana",
+    "luogo": "Firenze (FI)",
     "telefono": "+39 055 2341100",
     "web": "http://www.cibreo.com/trattoria/#cucina"
   },
@@ -581,7 +709,9 @@ var GUIDA=[
     "indirizzo": "Via Chianche di Scarano 7",
     "citta": "Ceglie Messapica",
     "provincia": "BR",
+    "prov": "BR",
     "regione": "Puglia",
+    "luogo": "Ceglie Messapica (BR)",
     "telefono": "+39 0831 388980",
     "web": "https://www.ristorantecibus.it"
   },
@@ -590,7 +720,9 @@ var GUIDA=[
     "indirizzo": "Via Marina",
     "citta": "Forio",
     "provincia": "NA",
+    "prov": "NA",
     "regione": "Campania",
+    "luogo": "Forio (NA)",
     "telefono": "+39 333 1056719",
     "web": "http://www.ristorantesaturnino.it"
   },
@@ -599,7 +731,9 @@ var GUIDA=[
     "indirizzo": "80 rue de Charonne",
     "citta": "Parigi",
     "provincia": "F",
+    "prov": "F",
     "regione": "Francia",
+    "luogo": "Parigi (F)",
     "telefono": "+33 1 43 72 74 53",
     "web": "https://clamato-charonne.fr"
   },
@@ -608,7 +742,9 @@ var GUIDA=[
     "indirizzo": "Via Giovanni Minzoni 24",
     "citta": "La Spezia",
     "provincia": "SP",
+    "prov": "SP",
     "regione": "Liguria",
+    "luogo": "La Spezia (SP)",
     "telefono": "+39 0187 760437",
     "web": "https://www.ristorantelaposta.it"
   },
@@ -617,7 +753,9 @@ var GUIDA=[
     "indirizzo": "Piazza XXIV Maggio 3",
     "citta": "Rubiera",
     "provincia": "RE",
+    "prov": "RE",
     "regione": "Emilia-Romagna",
+    "luogo": "Rubiera (RE)",
     "telefono": "+39 0522 626124",
     "web": "http://www.clinicagastronomica.com"
   },
@@ -626,7 +764,9 @@ var GUIDA=[
     "indirizzo": "Via Gramsci 16/A",
     "citta": "Parma",
     "provincia": "PR",
+    "prov": "PR",
     "regione": "Emilia-Romagna",
+    "luogo": "Parma (PR)",
     "telefono": "+39 0521 981990",
     "web": "https://www.ristorantecocchi.it"
   },
@@ -635,7 +775,9 @@ var GUIDA=[
     "indirizzo": "Via Collebrunacchi 6/A",
     "citta": "San Miniato",
     "provincia": "PI",
+    "prov": "PI",
     "regione": "Toscana",
+    "luogo": "San Miniato (PI)",
     "telefono": "+39 0571 409593",
     "web": "https://www.collebrunacchi.it"
   },
@@ -644,7 +786,9 @@ var GUIDA=[
     "indirizzo": "Via Monte di Pietà 23",
     "citta": "Torino",
     "provincia": "TO",
+    "prov": "TO",
     "regione": "Piemonte",
+    "luogo": "Torino (TO)",
     "telefono": "+39 011 2767661",
     "web": "http://www.ristoranteconsorzio.it"
   },
@@ -653,7 +797,9 @@ var GUIDA=[
     "indirizzo": "Via Meriggia 3",
     "citta": "Settimo Milanese",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Settimo Milanese (MI)",
     "telefono": "+39 331 1138645",
     "web": "https://www.cristianmagri.it"
   },
@@ -662,7 +808,9 @@ var GUIDA=[
     "indirizzo": "Via Don Primo Lucchinetti 63",
     "citta": "Mese",
     "provincia": "SO",
+    "prov": "SO",
     "regione": "Lombardia",
+    "luogo": "Mese (SO)",
     "telefono": "+39 0343 41003",
     "web": ""
   },
@@ -671,7 +819,9 @@ var GUIDA=[
     "indirizzo": "Via Giano della Bella 3 rosso",
     "citta": "Firenze",
     "provincia": "FI",
+    "prov": "FI",
     "regione": "Toscana",
+    "luogo": "Firenze (FI)",
     "telefono": "+39 392 5510969",
     "web": "https://www.c-ucina.it"
   },
@@ -680,7 +830,9 @@ var GUIDA=[
     "indirizzo": "Via Piazzini 33 · Passaggio Toscanini",
     "citta": "Ponte San Pietro",
     "provincia": "BG",
+    "prov": "BG",
     "regione": "Lombardia",
+    "luogo": "Ponte San Pietro (BG)",
     "telefono": "+39 035 4371900",
     "web": "https://www.cucinacereda.com"
   },
@@ -689,7 +841,9 @@ var GUIDA=[
     "indirizzo": "Via  1º Maggio 5",
     "citta": "Sutrio",
     "provincia": "UD",
+    "prov": "UD",
     "regione": "Friuli-Venezia Giulia",
+    "luogo": "Sutrio (UD)",
     "telefono": "+39 0433 778692",
     "web": "https://www.osteriadaalvise.it"
   },
@@ -698,7 +852,9 @@ var GUIDA=[
     "indirizzo": "Lago Gerundo 15",
     "citta": "Madignano",
     "provincia": "CR",
+    "prov": "CR",
     "regione": "Lombardia",
+    "luogo": "Madignano (CR)",
     "telefono": "+39 0373 658920",
     "web": ""
   },
@@ -707,7 +863,9 @@ var GUIDA=[
     "indirizzo": "Via della Chiesa 4",
     "citta": "Montemerano",
     "provincia": "GR",
+    "prov": "GR",
     "regione": "Toscana",
+    "luogo": "Montemerano (GR)",
     "telefono": "+390564602817",
     "web": "http://www.dacaino.com"
   },
@@ -716,7 +874,9 @@ var GUIDA=[
     "indirizzo": "Piazza Municipio 2",
     "citta": "Pizzighettone",
     "provincia": "CR",
+    "prov": "CR",
     "regione": "Lombardia",
+    "luogo": "Pizzighettone (CR)",
     "telefono": "+39 0372 730260",
     "web": "https://www.dagiacomo.it"
   },
@@ -725,7 +885,9 @@ var GUIDA=[
     "indirizzo": "Via IV Novembre 7",
     "citta": "Montemarzino",
     "provincia": "AL",
+    "prov": "AL",
     "regione": "Piemonte",
+    "luogo": "Montemarzino (AL)",
     "telefono": "+39 0131 878135",
     "web": "https://www.ristorantedagiuseppe.it"
   },
@@ -734,7 +896,9 @@ var GUIDA=[
     "indirizzo": "Via IV Novembre 86",
     "citta": "Fano",
     "provincia": "PS",
+    "prov": "PS",
     "regione": "Marche",
+    "luogo": "Fano (PS)",
     "telefono": "+39 0721 808962",
     "web": ""
   },
@@ -743,7 +907,9 @@ var GUIDA=[
     "indirizzo": "Spiaggia San Michele Sassi Neri · Via Salett",
     "citta": "Sirolo",
     "provincia": "AN",
+    "prov": "AN",
     "regione": "Marche",
+    "luogo": "Sirolo (AN)",
     "telefono": "+39 071 7360507",
     "web": ""
   },
@@ -752,7 +918,9 @@ var GUIDA=[
     "indirizzo": "Via Piacenza 13",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+39 349 356 5436",
     "web": ""
   },
@@ -761,7 +929,9 @@ var GUIDA=[
     "indirizzo": "Località Runate 15 · Riserva del Parco Oglio",
     "citta": "Runate",
     "provincia": "MN",
+    "prov": "MN",
     "regione": "Lombardia",
+    "luogo": "Runate (MN)",
     "telefono": "+39 0376 723001",
     "web": "https://www.dalpescatore.com/it"
   },
@@ -770,7 +940,9 @@ var GUIDA=[
     "indirizzo": "Via dell’Orizzonte 2",
     "citta": "Gabicce Monte",
     "provincia": "PU",
+    "prov": "PU",
     "regione": "Marche",
+    "luogo": "Gabicce Monte (PU)",
     "telefono": "+39 0541 962295",
     "web": "https://www.dallagioconda.it/"
   },
@@ -779,7 +951,9 @@ var GUIDA=[
     "indirizzo": "Via dell’Orizzonte 2",
     "citta": "Gabicce Monte",
     "provincia": "PU",
+    "prov": "PU",
     "regione": "Marche",
+    "luogo": "Gabicce Monte (PU)",
     "telefono": "+39 0541 962295",
     "web": "https://www.dallagioconda.it"
   },
@@ -788,7 +962,9 @@ var GUIDA=[
     "indirizzo": "Via San Marco, angolo Castelfidardo 7",
     "citta": "Milano",
     "provincia": "Mi",
+    "prov": "Mi",
     "regione": "Lombardia",
+    "luogo": "Milano (Mi)",
     "telefono": "+39 02 63793837",
     "web": "https://www.danielcanzian.it"
   },
@@ -797,7 +973,9 @@ var GUIDA=[
     "indirizzo": "Via Baldassini 2",
     "citta": "Pesaro",
     "provincia": "PU",
+    "prov": "PU",
     "regione": "Marche",
+    "luogo": "Pesaro (PU)",
     "telefono": "+39 0721 1651804",
     "web": "http://www.ristorantescudiero.it"
   },
@@ -806,7 +984,9 @@ var GUIDA=[
     "indirizzo": "Via Trevisago 68",
     "citta": "Manerba del Garda",
     "provincia": "BS",
+    "prov": "BS",
     "regione": "Lombardia",
+    "luogo": "Manerba del Garda (BS)",
     "telefono": "+39 347 2492388",
     "web": ""
   },
@@ -815,7 +995,9 @@ var GUIDA=[
     "indirizzo": "Via Negheli 37",
     "citta": "Folgaria",
     "provincia": "TN",
+    "prov": "TN",
     "regione": "Trentino-Alto Adige",
+    "luogo": "Folgaria (TN)",
     "telefono": "+39 346 2527616",
     "web": "https://www.muuvillage.it"
   },
@@ -824,7 +1006,9 @@ var GUIDA=[
     "indirizzo": "Viale Rimembranze 58/60",
     "citta": "Palmi",
     "provincia": "RC",
+    "prov": "RC",
     "regione": "Calabria",
+    "luogo": "Palmi (RC)",
     "telefono": "+39 0966 25069",
     "web": "https://degustibuspalmi.it"
   },
@@ -833,7 +1017,9 @@ var GUIDA=[
     "indirizzo": "Via Roncato 9",
     "citta": "Massa Lubrense",
     "provincia": "",
+    "prov": "",
     "regione": "Campania",
+    "luogo": "Massa Lubrense",
     "telefono": "+39 081 8081989",
     "web": ""
   },
@@ -842,7 +1028,9 @@ var GUIDA=[
     "indirizzo": "Piazzetta de Amicis 14",
     "citta": "Tortona",
     "provincia": "AL",
+    "prov": "AL",
     "regione": "Piemonte",
+    "luogo": "Tortona (AL)",
     "telefono": "+39 0131 484000",
     "web": "https://degusteriaforlino.com"
   },
@@ -851,7 +1039,9 @@ var GUIDA=[
     "indirizzo": "Via Eugenio Villoresi 71-73",
     "citta": "Vittuone",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Vittuone (MI)",
     "telefono": "+39 02 90225 77",
     "web": "https://www.ristorantedellangolo.it"
   },
@@ -860,7 +1050,9 @@ var GUIDA=[
     "indirizzo": "Via Cavour 7, Barate di Gaggiano",
     "citta": "Barate di Gaggiano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Barate di Gaggiano (MI)",
     "telefono": "+39 02 9085125",
     "web": "https://www.osteriamagenes.it"
   },
@@ -869,7 +1061,9 @@ var GUIDA=[
     "indirizzo": "Via San Protaso 5",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+39 02 36517 496",
     "web": "https://www.hortorestaurant.com"
   },
@@ -878,7 +1072,9 @@ var GUIDA=[
     "indirizzo": "Lungotevere delle Armi 22/23",
     "citta": "Roma",
     "provincia": "RM",
+    "prov": "RM",
     "regione": "Lazio",
+    "luogo": "Roma (RM)",
     "telefono": "+39 392 7875295",
     "web": "https://www.enotecalatorreroma.com"
   },
@@ -887,7 +1083,9 @@ var GUIDA=[
     "indirizzo": "Piazza Umberto I 1",
     "citta": "Oviglio",
     "provincia": "AL",
+    "prov": "AL",
     "regione": "Piemonte",
+    "luogo": "Oviglio (AL)",
     "telefono": "+39 0131 776907",
     "web": "http://www.donatellabistrot.it"
   },
@@ -896,7 +1094,9 @@ var GUIDA=[
     "indirizzo": "Calle d'Elisabets 9",
     "citta": "Barcellona",
     "provincia": "ES",
+    "prov": "ES",
     "regione": "Spagna",
+    "luogo": "Barcellona (ES)",
     "telefono": "+34 933 040 513",
     "web": "http://www.dospalillos.com/home.php?rest=1&lang=en"
   },
@@ -905,7 +1105,9 @@ var GUIDA=[
     "indirizzo": "Via Foresti 13",
     "citta": "Borgonato di Cortefranca",
     "provincia": "BS",
+    "prov": "BS",
     "regione": "Lombardia",
+    "luogo": "Borgonato di Cortefranca (BS)",
     "telefono": "+39 030 9828227",
     "web": "https://www.duecolombe.com"
   },
@@ -914,7 +1116,9 @@ var GUIDA=[
     "indirizzo": "Via XX Settembre 12",
     "citta": "Borgio Verezzi",
     "provincia": "SV",
+    "prov": "SV",
     "regione": "Liguria",
+    "luogo": "Borgio Verezzi (SV)",
     "telefono": "+39 019 610166",
     "web": ""
   },
@@ -923,7 +1127,9 @@ var GUIDA=[
     "indirizzo": "Via Bernasconi 60",
     "citta": "Cosio Valtellino",
     "provincia": "SO",
+    "prov": "SO",
     "regione": "Lombardia",
+    "luogo": "Cosio Valtellino (SO)",
     "telefono": "+390342635769",
     "web": "http://www.ristorantepizzeriaeden.com"
   },
@@ -932,7 +1138,9 @@ var GUIDA=[
     "indirizzo": "Via Salde Entrà 60",
     "citta": "Località Entrà Finale Emilia",
     "provincia": "MO",
+    "prov": "MO",
     "regione": "Emilia-Romagna",
+    "luogo": "Località Entrà Finale Emilia (MO)",
     "telefono": "+39 0535 97105",
     "web": "https://trattoriaentra.it"
   },
@@ -941,7 +1149,9 @@ var GUIDA=[
     "indirizzo": "Via Schito 42, Castellammare di Stabia (già Corso A. De Gasperi 23)",
     "citta": "Castellammare di Stabia",
     "provincia": "",
+    "prov": "",
     "regione": "Campania",
+    "luogo": "Castellammare di Stabia",
     "telefono": "+39 081 8715779",
     "web": "https://www.piazzettamilu.it"
   },
@@ -950,7 +1160,9 @@ var GUIDA=[
     "indirizzo": "Via Osan 45",
     "citta": "Fumane",
     "provincia": "VR",
+    "prov": "VR",
     "regione": "Veneto",
+    "luogo": "Fumane (VR)",
     "telefono": "+39 045 6839146",
     "web": "https://www.enotecadellavalpolicella.it"
   },
@@ -959,7 +1171,9 @@ var GUIDA=[
     "indirizzo": "Alzaia Naviglio Pavese 286",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+39 02 87380711",
     "web": "https://www.erbabrusca.it"
   },
@@ -968,7 +1182,9 @@ var GUIDA=[
     "indirizzo": "Ronda Litoral 42",
     "citta": "Barcellona",
     "provincia": "ES",
+    "prov": "ES",
     "regione": "Spagna",
+    "luogo": "Barcellona (ES)",
     "telefono": "+34 932 210 729",
     "web": "https://restaurantsescriba.com/xiringuitoescriba/en/"
   },
@@ -977,7 +1193,9 @@ var GUIDA=[
     "indirizzo": "Località Portonovo 171",
     "citta": "Ancona",
     "provincia": "AN",
+    "prov": "AN",
     "regione": "Marche",
+    "luogo": "Ancona (AN)",
     "telefono": "+39071801384",
     "web": "http://www.ristorantedagiacchetti.it"
   },
@@ -986,7 +1204,9 @@ var GUIDA=[
     "indirizzo": "Via Pacognano 19",
     "citta": "Vico Equense",
     "provincia": "",
+    "prov": "",
     "regione": "Campania",
+    "luogo": "Vico Equense",
     "telefono": "+390818029165",
     "web": "https://www.villa-chiara.com"
   },
@@ -995,7 +1215,9 @@ var GUIDA=[
     "indirizzo": "Piazza del Popolo 14",
     "citta": "Ruffano",
     "provincia": "LE",
+    "prov": "LE",
     "regione": "Puglia",
+    "luogo": "Ruffano (LE)",
     "telefono": "+39 339 8332514",
     "web": "https://www.farmaciadeisani.eu"
   },
@@ -1004,7 +1226,9 @@ var GUIDA=[
     "indirizzo": "Via della Maulina 747",
     "citta": "Lucca",
     "provincia": "LU",
+    "prov": "LU",
     "regione": "Toscana",
+    "luogo": "Lucca (LU)",
     "telefono": "+39 0583 341230",
     "web": "https://www.fattoriasardi.com"
   },
@@ -1013,7 +1237,9 @@ var GUIDA=[
     "indirizzo": "Via Panfilo Castaldi 4",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+39 338 858 3753",
     "web": "https://www.frangentemilano.com/"
   },
@@ -1022,7 +1248,9 @@ var GUIDA=[
     "indirizzo": "Via Roma 64",
     "citta": "Serino",
     "provincia": "AV",
+    "prov": "AV",
     "regione": "Campania",
+    "luogo": "Serino (AV)",
     "telefono": "+39 392 4048445",
     "web": ""
   },
@@ -1031,7 +1259,9 @@ var GUIDA=[
     "indirizzo": "Via Filiberto Emanuele 1",
     "citta": "Canonica",
     "provincia": "MB",
+    "prov": "MB",
     "regione": "Lombardia",
+    "luogo": "Canonica (MB)",
     "telefono": "+390362997799",
     "web": ""
   },
@@ -1040,7 +1270,9 @@ var GUIDA=[
     "indirizzo": "Via Bernardino Corio 8, Milano",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+39 02 55190020",
     "web": "http://www.pastamadremilano.it"
   },
@@ -1049,7 +1281,9 @@ var GUIDA=[
     "indirizzo": "Viale Guglielmo Marconi 22, San Vincenzo",
     "citta": "San Vincenzo",
     "provincia": "LI",
+    "prov": "LI",
     "regione": "Toscana",
+    "luogo": "San Vincenzo (LI)",
     "telefono": "+39 335 8001695",
     "web": "http://www.ristoranteilbucaniere.com"
   },
@@ -1058,7 +1292,9 @@ var GUIDA=[
     "indirizzo": "13 Paramithias street and Salaminos",
     "citta": "Atene",
     "provincia": "GR",
+    "prov": "GR",
     "regione": "Grecia",
+    "luogo": "Atene (GR)",
     "telefono": "+30 21 0524 2727",
     "web": "https://www.funkygourmet.gr"
   },
@@ -1067,7 +1303,9 @@ var GUIDA=[
     "indirizzo": "Via Salvella 18",
     "citta": "Rovato",
     "provincia": "BS",
+    "prov": "BS",
     "regione": "Lombardia",
+    "luogo": "Rovato (BS)",
     "telefono": "+39 335 5962554",
     "web": ""
   },
@@ -1076,7 +1314,9 @@ var GUIDA=[
     "indirizzo": "Viale della Rimembranza 24",
     "citta": "Colle di Val d'Elsa",
     "provincia": "SI",
+    "prov": "SI",
     "regione": "Toscana",
+    "luogo": "Colle di Val d'Elsa (SI)",
     "telefono": "+39 0577 920549",
     "web": "https://www.arnolfo.com"
   },
@@ -1085,7 +1325,9 @@ var GUIDA=[
     "indirizzo": "Via Federigi 544",
     "citta": "Querceta",
     "provincia": "LU",
+    "prov": "LU",
     "regione": "Toscana",
+    "luogo": "Querceta (LU)",
     "telefono": "+39 0584 743696",
     "web": "https://www.pozzodibugia.it"
   },
@@ -1094,7 +1336,9 @@ var GUIDA=[
     "indirizzo": "Via Orti 12",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+39 327 8995646",
     "web": ""
   },
@@ -1103,7 +1347,9 @@ var GUIDA=[
     "indirizzo": "Via Laghetto 2, Milano",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+39 334 3031953",
     "web": "https://www.cantina-piemontese.it"
   },
@@ -1112,7 +1358,9 @@ var GUIDA=[
     "indirizzo": "Via Garibaldi 37",
     "citta": "Seregno",
     "provincia": "MB",
+    "prov": "MB",
     "regione": "Lombardia",
+    "luogo": "Seregno (MB)",
     "telefono": "+39 0362 237973",
     "web": "https://www.pomiroeu.com"
   },
@@ -1121,7 +1369,9 @@ var GUIDA=[
     "indirizzo": "Via Pagliani 2 (Castello di Arceto)",
     "citta": "Arceto",
     "provincia": "RE",
+    "prov": "RE",
     "regione": "Emilia-Romagna",
+    "luogo": "Arceto (RE)",
     "telefono": "+39 328 8909980",
     "web": "https://www.damatosteria.it"
   },
@@ -1130,7 +1380,9 @@ var GUIDA=[
     "indirizzo": "Via Spinesante",
     "citta": "Forio",
     "provincia": "NA",
+    "prov": "NA",
     "regione": "Campania",
+    "luogo": "Forio (NA)",
     "telefono": "+39 335 6769595",
     "web": "https://www.lidomattera.it"
   },
@@ -1139,7 +1391,9 @@ var GUIDA=[
     "indirizzo": "Piazza del Giglio 2",
     "citta": "Lucca",
     "provincia": "LU",
+    "prov": "LU",
     "regione": "Toscana",
+    "luogo": "Lucca (LU)",
     "telefono": "+39 0583 494058",
     "web": "https://www.ristorantegiglio.com"
   },
@@ -1148,7 +1402,9 @@ var GUIDA=[
     "indirizzo": "Baia di San Montano (Parco Negombo)",
     "citta": "Lacco Ameno",
     "provincia": "NA",
+    "prov": "NA",
     "regione": "Campania",
+    "luogo": "Lacco Ameno (NA)",
     "telefono": "+39 081 986055",
     "web": "https://negombo.it/it/ristoranti-e-bar/casa-colonica/"
   },
@@ -1157,7 +1413,9 @@ var GUIDA=[
     "indirizzo": "Via Giuseppe Mazzini 26",
     "citta": "Stradella",
     "provincia": "PV",
+    "prov": "PV",
     "regione": "Lombardia",
+    "luogo": "Stradella (PV)",
     "telefono": "+39038543444",
     "web": "https://www.ristorantegioele.com"
   },
@@ -1166,7 +1424,9 @@ var GUIDA=[
     "indirizzo": "Via Roma 18/20",
     "citta": "Guiglia",
     "provincia": "MO",
+    "prov": "MO",
     "regione": "Emilia-Romagna",
+    "luogo": "Guiglia (MO)",
     "telefono": "+39 059 792451",
     "web": "https://www.instagram.com/belvedere_guiglia/"
   },
@@ -1175,7 +1435,9 @@ var GUIDA=[
     "indirizzo": "2ª Rampa Marina Piccola 5 (Piazza S. Antonino)",
     "citta": "Sorrento",
     "provincia": "",
+    "prov": "",
     "regione": "Campania",
+    "luogo": "Sorrento",
     "telefono": "+39 081 8782354",
     "web": "https://www.ilbucoristorante.it"
   },
@@ -1184,7 +1446,9 @@ var GUIDA=[
     "indirizzo": "Via Castello di Montebello 6",
     "citta": "Poggio Torriana",
     "provincia": "RN",
+    "prov": "RN",
     "regione": "Emilia-Romagna",
+    "luogo": "Poggio Torriana (RN)",
     "telefono": "+39 0541 675410",
     "web": "https://casagasperoni.it"
   },
@@ -1193,7 +1457,9 @@ var GUIDA=[
     "indirizzo": "Spiaggia Ripari Bardella · Statale 16 km 477",
     "citta": "Ripari Bardella",
     "provincia": "CH",
+    "prov": "CH",
     "regione": "Abruzzo",
+    "luogo": "Ripari Bardella (CH)",
     "telefono": "+39 347 5435830",
     "web": "https://gliostinatirestaurant.com/#home"
   },
@@ -1202,7 +1468,9 @@ var GUIDA=[
     "indirizzo": "Via Teresio Olivelli 1",
     "citta": "Bellagio",
     "provincia": "CO",
+    "prov": "CO",
     "regione": "Lombardia",
+    "luogo": "Bellagio (CO)",
     "telefono": "+39 031 950216",
     "web": "https://www.villaserbelloni.com"
   },
@@ -1211,7 +1479,9 @@ var GUIDA=[
     "indirizzo": "Via Nonantolana 406",
     "citta": "Modena",
     "provincia": "MO",
+    "prov": "MO",
     "regione": "Emilia-Romagna",
+    "luogo": "Modena (MO)",
     "telefono": "+39 059 251460",
     "web": ""
   },
@@ -1220,7 +1490,9 @@ var GUIDA=[
     "indirizzo": "Via ai Grotti 4",
     "citta": "Gentilino Canton Ticino",
     "provincia": "TI",
+    "prov": "TI",
     "regione": "Svizzera",
+    "luogo": "Gentilino Canton Ticino (TI)",
     "telefono": "+41 91 994 67 76",
     "web": "https://www.grottoalboscogentilino.ch"
   },
@@ -1229,7 +1501,9 @@ var GUIDA=[
     "indirizzo": "Via ai Canvetti 19a",
     "citta": "Montagnola Canton Ticino",
     "provincia": "TI",
+    "prov": "TI",
     "regione": "Svizzera",
+    "luogo": "Montagnola Canton Ticino (TI)",
     "telefono": "+41919947995",
     "web": "https://grottocavicc.ch/it/home"
   },
@@ -1238,7 +1512,9 @@ var GUIDA=[
     "indirizzo": "Via dei Sindacatori, 2A",
     "citta": "Massagno Canton Ticino",
     "provincia": "TI",
+    "prov": "TI",
     "regione": "Svizzera",
+    "luogo": "Massagno Canton Ticino (TI)",
     "telefono": "+41 91 966 04 76",
     "web": "https://www.grottodellasalute.ch"
   },
@@ -1247,7 +1523,9 @@ var GUIDA=[
     "indirizzo": "Via ai grotti 17",
     "citta": "Gentilino Canton Ticino",
     "provincia": "TI",
+    "prov": "TI",
     "regione": "Svizzera",
+    "luogo": "Gentilino Canton Ticino (TI)",
     "telefono": "+41 91 994 40 80",
     "web": "https://www.grottofigini.ch"
   },
@@ -1256,7 +1534,9 @@ var GUIDA=[
     "indirizzo": "Cavergno",
     "citta": "Foroglio Canton Ticino",
     "provincia": "TI",
+    "prov": "TI",
     "regione": "Svizzera",
+    "luogo": "Foroglio Canton Ticino (TI)",
     "telefono": "+41 91 754 11 81",
     "web": "https://www.lafroda.ch"
   },
@@ -1265,7 +1545,9 @@ var GUIDA=[
     "indirizzo": "Via San Valerio 4",
     "citta": "Albiate",
     "provincia": "MB",
+    "prov": "MB",
     "regione": "Lombardia",
+    "luogo": "Albiate (MB)",
     "telefono": "+39 0362 1360111",
     "web": "https://www.growrestaurant.it"
   },
@@ -1274,7 +1556,9 @@ var GUIDA=[
     "indirizzo": "781 Fifth Avenue",
     "citta": "New York",
     "provincia": "NY",
+    "prov": "NY",
     "regione": "Stati Uniti",
+    "luogo": "New York (NY)",
     "telefono": "+12127535566",
     "web": "http://cipriani.com/restaurant/?loc=ny-harry"
   },
@@ -1283,7 +1567,9 @@ var GUIDA=[
     "indirizzo": "Via Verdi 32",
     "citta": "Castiglione delle Stiviere",
     "provincia": "MN",
+    "prov": "MN",
     "regione": "Lombardia",
+    "luogo": "Castiglione delle Stiviere (MN)",
     "telefono": "+39 0376 670000",
     "web": "https://www.hostariaviola.com"
   },
@@ -1292,7 +1578,9 @@ var GUIDA=[
     "indirizzo": "Piazza Vittorio Veneto 26A",
     "citta": "Saturnia",
     "provincia": "GR",
+    "prov": "GR",
     "regione": "Toscana",
+    "luogo": "Saturnia (GR)",
     "telefono": "+39 0564 601074",
     "web": "https://www.iduecippi.com"
   },
@@ -1301,7 +1589,9 @@ var GUIDA=[
     "indirizzo": "Via Romagnosi 3",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+39 02 23668 900",
     "web": "https://www.identitagolosemilano.it"
   },
@@ -1310,7 +1600,9 @@ var GUIDA=[
     "indirizzo": "Via Finilnuovo 9/11",
     "citta": "Rodengo Saiano",
     "provincia": "BS",
+    "prov": "BS",
     "regione": "Lombardia",
+    "luogo": "Rodengo Saiano (BS)",
     "telefono": "+39 030 6811292",
     "web": "https://www.ilcolmetto.it"
   },
@@ -1319,7 +1611,9 @@ var GUIDA=[
     "indirizzo": "Via Balilla 44",
     "citta": "San Benedetto del Tronto",
     "provincia": "AP",
+    "prov": "AP",
     "regione": "Marche",
+    "luogo": "San Benedetto del Tronto (AP)",
     "telefono": "+39 0735 587349",
     "web": ""
   },
@@ -1328,7 +1622,9 @@ var GUIDA=[
     "indirizzo": "Piazza XX Settembre 10",
     "citta": "Chiusi Città",
     "provincia": "SI",
+    "prov": "SI",
     "regione": "Toscana",
+    "luogo": "Chiusi Città (SI)",
     "telefono": "+39 0578 20112",
     "web": "https://ilgrilloebuoncantore.wixsite.com/ristorante"
   },
@@ -1337,7 +1633,9 @@ var GUIDA=[
     "indirizzo": "Piazza Garibaldi 7",
     "citta": "Capriata d'Orba",
     "provincia": "AL",
+    "prov": "AL",
     "regione": "Piemonte",
+    "luogo": "Capriata d'Orba (AL)",
     "telefono": "+39 0143 46157",
     "web": "https://www.ristoranteilmoro.it"
   },
@@ -1346,7 +1644,9 @@ var GUIDA=[
     "indirizzo": "Località Santa Croce 3",
     "citta": "Duino-Aurisina",
     "provincia": "TS",
+    "prov": "TS",
     "regione": "Friuli-Venezia Giulia",
+    "luogo": "Duino-Aurisina (TS)",
     "telefono": "+39 040220619",
     "web": ""
   },
@@ -1355,7 +1655,9 @@ var GUIDA=[
     "indirizzo": "Via Panoramica 4",
     "citta": "Poggiridenti",
     "provincia": "SO",
+    "prov": "SO",
     "regione": "Lombardia",
+    "luogo": "Poggiridenti (SO)",
     "telefono": "+39 0342 380800",
     "web": "https://www.ilpoggioristorante.it"
   },
@@ -1364,7 +1666,9 @@ var GUIDA=[
     "indirizzo": "Via Piani d'Aspio 12",
     "citta": "Sirolo",
     "provincia": "AN",
+    "prov": "AN",
     "regione": "Calabria",
+    "luogo": "Sirolo (AN)",
     "telefono": "+39 071 9331544",
     "web": "https://ilritorno.com"
   },
@@ -1373,7 +1677,9 @@ var GUIDA=[
     "indirizzo": "Via Rossi 28",
     "citta": "Sarzana",
     "provincia": "SP",
+    "prov": "SP",
     "regione": "Liguria",
+    "luogo": "Sarzana (SP)",
     "telefono": "+39 351 2056178",
     "web": ""
   },
@@ -1382,7 +1688,9 @@ var GUIDA=[
     "indirizzo": "Via Nicotera, 26 bis",
     "citta": "Acciaroli di Pollica",
     "provincia": "SA",
+    "prov": "SA",
     "regione": "Campania",
+    "luogo": "Acciaroli di Pollica (SA)",
     "telefono": "+39 347 7720134",
     "web": ""
   },
@@ -1391,7 +1699,9 @@ var GUIDA=[
     "indirizzo": "Via Monte Cadria 127",
     "citta": "Fiumicino",
     "provincia": "RM",
+    "prov": "RM",
     "regione": "Lazio",
+    "luogo": "Fiumicino (RM)",
     "telefono": "+39 06 56227 78",
     "web": "https://www.ristoranteiltino.com"
   },
@@ -1400,7 +1710,9 @@ var GUIDA=[
     "indirizzo": "Via Bergiola Vecchia 30",
     "citta": "Massa",
     "provincia": "MS",
+    "prov": "MS",
     "regione": "Toscana",
+    "luogo": "Massa (MS)",
     "telefono": "+39 0585 46755",
     "web": "http://www.iltrillo.net/ristorante-2/"
   },
@@ -1409,7 +1721,9 @@ var GUIDA=[
     "indirizzo": "Traversa via 18 Settembre 11",
     "citta": "Vastogirardi",
     "provincia": "IS",
+    "prov": "IS",
     "regione": "Molise",
+    "luogo": "Vastogirardi (IS)",
     "telefono": "+39 338 7233260",
     "web": ""
   },
@@ -1418,7 +1732,9 @@ var GUIDA=[
     "indirizzo": "Via Statale 774",
     "citta": "Ossuccio",
     "provincia": "CO",
+    "prov": "CO",
     "regione": "Lombardia",
+    "luogo": "Ossuccio (CO)",
     "telefono": "+39 338 5690049",
     "web": ""
   },
@@ -1427,7 +1743,9 @@ var GUIDA=[
     "indirizzo": "Via Marco Polo 5",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+39 02 3664 2181",
     "web": ""
   },
@@ -1436,7 +1754,9 @@ var GUIDA=[
     "indirizzo": "Viale Filagno 4",
     "citta": "Treviglio",
     "provincia": "BG",
+    "prov": "BG",
     "regione": "Lombardia",
+    "luogo": "Treviglio (BG)",
     "telefono": "+39 331 3691514",
     "web": "http://www.japorestaurant.it"
   },
@@ -1445,7 +1765,9 @@ var GUIDA=[
     "indirizzo": "Via Roma 2",
     "citta": "Grosio",
     "provincia": "SO",
+    "prov": "SO",
     "regione": "Lombardia",
+    "luogo": "Grosio (SO)",
     "telefono": "+39 0342 847272",
     "web": "https://hotelsassella.it/ristorante-jim/"
   },
@@ -1454,7 +1776,9 @@ var GUIDA=[
     "indirizzo": "Via Gramsci 17",
     "citta": "Capriate San Gervasio",
     "provincia": "BG",
+    "prov": "BG",
     "regione": "Lombardia",
+    "luogo": "Capriate San Gervasio (BG)",
     "telefono": "+39 02 90962 671",
     "web": "http://www.kantonrestaurant.it"
   },
@@ -1463,7 +1787,9 @@ var GUIDA=[
     "indirizzo": "Località Ca’ Pisani",
     "citta": "Porto Viro",
     "provincia": "RO",
+    "prov": "RO",
     "regione": "Veneto",
+    "luogo": "Porto Viro (RO)",
     "telefono": "+39 0426 85194",
     "web": "https://oasi-val-pisani.business.site"
   },
@@ -1472,7 +1798,9 @@ var GUIDA=[
     "indirizzo": "Via S. Abbondio 2",
     "citta": "Borgonuovo di Piuro",
     "provincia": "SO",
+    "prov": "SO",
     "regione": "Lombardia",
+    "luogo": "Borgonuovo di Piuro (SO)",
     "telefono": "+39 375 6304552",
     "web": "https://www.birrificiolegnone.com"
   },
@@ -1481,7 +1809,9 @@ var GUIDA=[
     "indirizzo": "Via Bondi 473/a",
     "citta": "Livigno",
     "provincia": "SO",
+    "prov": "SO",
     "regione": "Lombardia",
+    "luogo": "Livigno (SO)",
     "telefono": "+39 346 1152048",
     "web": "https://www.kosmotastethemountain.com"
   },
@@ -1490,7 +1820,9 @@ var GUIDA=[
     "indirizzo": "Viale Piave 17",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+39 02 76016221",
     "web": ""
   },
@@ -1499,7 +1831,9 @@ var GUIDA=[
     "indirizzo": "Via Sighignola 36",
     "citta": "Lanzo Intelvi",
     "provincia": "CO",
+    "prov": "CO",
     "regione": "Lombardia",
+    "luogo": "Lanzo Intelvi (CO)",
     "telefono": "+39 031 840693",
     "web": "http://labaita-lanzo.it"
   },
@@ -1508,7 +1842,9 @@ var GUIDA=[
     "indirizzo": "Litoranea Salentina",
     "citta": "Marina di Pulsano",
     "provincia": "TA",
+    "prov": "TA",
     "regione": "Puglia",
+    "luogo": "Marina di Pulsano (TA)",
     "telefono": "+390995333335",
     "web": ""
   },
@@ -1517,7 +1853,9 @@ var GUIDA=[
     "indirizzo": "Via Pianetto Borgo 24/a",
     "citta": "Galeata",
     "provincia": "FC",
+    "prov": "FC",
     "regione": "Emilia-Romagna",
+    "luogo": "Galeata (FC)",
     "telefono": "+39 0543 981561",
     "web": "https://www.osterialacampanara.it/la-campanara/"
   },
@@ -1526,7 +1864,9 @@ var GUIDA=[
     "indirizzo": "Via Piranesi 10",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+39 02 39666784",
     "web": "https://www.lacucinadeifrigoriferimolanesi.it"
   },
@@ -1535,7 +1875,9 @@ var GUIDA=[
     "indirizzo": "Via Vicinale Campana 2",
     "citta": "Pozzuoli",
     "provincia": "",
+    "prov": "",
     "regione": "Campania",
+    "luogo": "Pozzuoli",
     "telefono": "+39 081 5263733",
     "web": "https://www.lafattoriadelcampiglione.it"
   },
@@ -1544,7 +1886,9 @@ var GUIDA=[
     "indirizzo": "Via Bersano 59 bis",
     "citta": "Besenzone",
     "provincia": "PC",
+    "prov": "PC",
     "regione": "Emilia-Romagna",
+    "luogo": "Besenzone (PC)",
     "telefono": "+39 0523 830444",
     "web": "https://www.la-fiaschetteria.com"
   },
@@ -1553,7 +1897,9 @@ var GUIDA=[
     "indirizzo": "Frazione Monterotondo 56",
     "citta": "Gavi Piemonte",
     "provincia": "AL",
+    "prov": "AL",
     "regione": "Piemonte",
+    "luogo": "Gavi Piemonte (AL)",
     "telefono": "+39 0143 685132",
     "web": "https://www.villasparinaresort.it/it/ristorante-la-gall"
   },
@@ -1562,7 +1908,9 @@ var GUIDA=[
     "indirizzo": "Regione Selvapiana 7",
     "citta": "Fabbrica Curone",
     "provincia": "AL",
+    "prov": "AL",
     "regione": "Piemonte",
+    "luogo": "Fabbrica Curone (AL)",
     "telefono": "+39 0131 780135",
     "web": "https://www.albergoristorantelagenzianellaselvapiana.it"
   },
@@ -1571,7 +1919,9 @@ var GUIDA=[
     "indirizzo": "Piano delle Noci 22",
     "citta": "Pellio Intelvi",
     "provincia": "CO",
+    "prov": "CO",
     "regione": "Lombardia",
+    "luogo": "Pellio Intelvi (CO)",
     "telefono": "+39 031 8427016",
     "web": "http://www.lalocandadelnotaio.com"
   },
@@ -1580,7 +1930,9 @@ var GUIDA=[
     "indirizzo": "Via Giovanni Rasori 12",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "",
     "web": "https://www.lamanieradicarlo.it"
   },
@@ -1589,7 +1941,9 @@ var GUIDA=[
     "indirizzo": "Via Magna Graecia 50",
     "citta": "Capaccio",
     "provincia": "SA",
+    "prov": "SA",
     "regione": "Campania",
+    "luogo": "Capaccio (SA)",
     "telefono": "+39 348 8158060",
     "web": "https://www.lapergolapaestum.it"
   },
@@ -1598,7 +1952,9 @@ var GUIDA=[
     "indirizzo": "Piazza Canonico Iannuzzi, 2",
     "citta": "Montevecchia",
     "provincia": "LC",
+    "prov": "LC",
     "regione": "Lombardia",
+    "luogo": "Montevecchia (LC)",
     "telefono": "+39 039 9930106",
     "web": ""
   },
@@ -1607,7 +1963,9 @@ var GUIDA=[
     "indirizzo": "Piazza Canonico Iannuzzi, 2",
     "citta": "Valle dell’Angelo",
     "provincia": "SA",
+    "prov": "SA",
     "regione": "Campania",
+    "luogo": "Valle dell’Angelo (SA)",
     "telefono": "+39 0974 942008",
     "web": ""
   },
@@ -1616,7 +1974,9 @@ var GUIDA=[
     "indirizzo": "Via dei Cavalleggeri Nord 27",
     "citta": "Marina di Bibbona",
     "provincia": "LI",
+    "prov": "LI",
     "regione": "Toscana",
+    "luogo": "Marina di Bibbona (LI)",
     "telefono": "+39 0586 600016",
     "web": "https://lapinetadizazzeri.it/"
   },
@@ -1625,7 +1985,9 @@ var GUIDA=[
     "indirizzo": "Località Lomellina 26",
     "citta": "Gavi",
     "provincia": "AL",
+    "prov": "AL",
     "regione": "Piemonte",
+    "luogo": "Gavi (AL)",
     "telefono": "+39 0143 642860",
     "web": "https://www.la-raia.it/it"
   },
@@ -1634,7 +1996,9 @@ var GUIDA=[
     "indirizzo": "Via Someraro 13",
     "citta": "Campino",
     "provincia": "VB",
+    "prov": "VB",
     "regione": "Piemonte",
+    "luogo": "Campino (VB)",
     "telefono": "+393468689445",
     "web": "https://www.larampolina.com"
   },
@@ -1643,7 +2007,9 @@ var GUIDA=[
     "indirizzo": "Via dei Mille 55",
     "citta": "Cesenatico",
     "provincia": "FC",
+    "prov": "FC",
     "regione": "Emilia-Romagna",
+    "luogo": "Cesenatico (FC)",
     "telefono": "+39 345 1604771",
     "web": "https://saluma.it"
   },
@@ -1652,7 +2018,9 @@ var GUIDA=[
     "indirizzo": "Via Roma 1",
     "citta": "Pratovecchio Stia",
     "provincia": "AR",
+    "prov": "AR",
     "regione": "Toscana",
+    "luogo": "Pratovecchio Stia (AR)",
     "telefono": "+39 0575 583377",
     "web": ""
   },
@@ -1661,7 +2029,9 @@ var GUIDA=[
     "indirizzo": "Via Crocetta 2",
     "citta": "Montecalvo Versiggia",
     "provincia": "PV",
+    "prov": "PV",
     "regione": "Lombardia",
+    "luogo": "Montecalvo Versiggia (PV)",
     "telefono": "+39 0385 99734",
     "web": "https://www.laverdesosta.it/home"
   },
@@ -1670,7 +2040,9 @@ var GUIDA=[
     "indirizzo": "Lungolago Motta 9",
     "citta": "Melide Canton Ticino",
     "provincia": "TI",
+    "prov": "TI",
     "regione": "Svizzera",
+    "luogo": "Melide Canton Ticino (TI)",
     "telefono": "+41 79 911 82 59",
     "web": "https://www.lelacrestaurant.ch"
   },
@@ -1679,7 +2051,9 @@ var GUIDA=[
     "indirizzo": "Rambla de Prim 6",
     "citta": "Barcellona",
     "provincia": "ES",
+    "prov": "ES",
     "regione": "Spagna",
+    "luogo": "Barcellona (ES)",
     "telefono": "",
     "web": "https://legrandcaferouge.eu"
   },
@@ -1688,7 +2062,9 @@ var GUIDA=[
     "indirizzo": "Via San Domenico 36",
     "citta": "Firenze",
     "provincia": "FI",
+    "prov": "FI",
     "regione": "Toscana",
+    "luogo": "Firenze (FI)",
     "telefono": "+39 055 570222",
     "web": "https://www.lelunefirenze.it/home-1"
   },
@@ -1697,7 +2073,9 @@ var GUIDA=[
     "indirizzo": "Via Posillipo 16/C",
     "citta": "Napoli",
     "provincia": "",
+    "prov": "",
     "regione": "Campania",
+    "luogo": "Napoli",
     "telefono": "+39 366 3398895",
     "web": "http://www.palazzopetrucci.it"
   },
@@ -1706,7 +2084,9 @@ var GUIDA=[
     "indirizzo": "Via Tramonti 4",
     "citta": "Campiglia",
     "provincia": "SP",
+    "prov": "SP",
     "regione": "Liguria",
+    "luogo": "Campiglia (SP)",
     "telefono": "+39 342 0736590",
     "web": "https://lalamparacampiglia.com"
   },
@@ -1715,7 +2095,9 @@ var GUIDA=[
     "indirizzo": "Contrada Fonte dei Ginepri 5",
     "citta": "Rosello",
     "provincia": "CH",
+    "prov": "CH",
     "regione": "Abruzzo",
+    "luogo": "Rosello (CH)",
     "telefono": "+39 0872 948441",
     "web": ""
   },
@@ -1724,7 +2106,9 @@ var GUIDA=[
     "indirizzo": "Via Porredo 32",
     "citta": "Fosdinovo",
     "provincia": "MS",
+    "prov": "MS",
     "regione": "Toscana",
+    "luogo": "Fosdinovo (MS)",
     "telefono": "+39 333 1849263",
     "web": "https://www.locandadebanchieri.it"
   },
@@ -1733,7 +2117,9 @@ var GUIDA=[
     "indirizzo": "Via XX Settembre 67",
     "citta": "Cervia",
     "provincia": "RA",
+    "prov": "RA",
     "regione": "Emilia-Romagna",
+    "luogo": "Cervia (RA)",
     "telefono": "",
     "web": "https://www.locandasalinari.it/"
   },
@@ -1742,7 +2128,9 @@ var GUIDA=[
     "indirizzo": "Via San Pio X 2",
     "citta": "Grazie",
     "provincia": "MN",
+    "prov": "MN",
     "regione": "Lombardia",
+    "luogo": "Grazie (MN)",
     "telefono": "+39 0376 348038",
     "web": ""
   },
@@ -1751,7 +2139,9 @@ var GUIDA=[
     "indirizzo": "Via Balilla 2",
     "citta": "Canosa di Puglia",
     "provincia": "BT",
+    "prov": "BT",
     "regione": "Puglia",
+    "luogo": "Canosa di Puglia (BT)",
     "telefono": "+39 0883 615096",
     "web": ""
   },
@@ -1760,7 +2150,9 @@ var GUIDA=[
     "indirizzo": "Via Brežiči 22",
     "citta": "Savogna d’Isonzo",
     "provincia": "GO",
+    "prov": "GO",
     "regione": "Friuli-Venezia Giulia",
+    "luogo": "Savogna d’Isonzo (GO)",
     "telefono": "+39-0481-882488",
     "web": "https://www.devetak.com"
   },
@@ -1769,7 +2161,9 @@ var GUIDA=[
     "indirizzo": "Via Fornio 78",
     "citta": "Fidenza",
     "provincia": "PR",
+    "prov": "PR",
     "regione": "Emilia-Romagna",
+    "luogo": "Fidenza (PR)",
     "telefono": "+39 348 269 2415",
     "web": "https://www.osteriafornio.it"
   },
@@ -1778,7 +2172,9 @@ var GUIDA=[
     "indirizzo": "Via Ceresio 7",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+39 02 31039221",
     "web": "https://www.ceresio7.com"
   },
@@ -1787,7 +2183,9 @@ var GUIDA=[
     "indirizzo": "Via Cartoceto 36",
     "citta": "Cartoceto",
     "provincia": "PU",
+    "prov": "PU",
     "regione": "Marche",
+    "luogo": "Cartoceto (PU)",
     "telefono": "+393356445032",
     "web": ""
   },
@@ -1796,7 +2194,9 @@ var GUIDA=[
     "indirizzo": "Via Roma 55",
     "citta": "Cercemaggiore",
     "provincia": "CB",
+    "prov": "CB",
     "regione": "Molise",
+    "luogo": "Cercemaggiore (CB)",
     "telefono": "+39 0874 799230",
     "web": "https://www.contrastoristorante.it"
   },
@@ -1805,7 +2205,9 @@ var GUIDA=[
     "indirizzo": "Viale Regina Margherita 18",
     "citta": "Cagliari",
     "provincia": "CA",
+    "prov": "CA",
     "regione": "Sardegna",
+    "luogo": "Cagliari (CA)",
     "telefono": "+39 070 672058",
     "web": "https://luigipomata.com"
   },
@@ -1814,7 +2216,9 @@ var GUIDA=[
     "indirizzo": "Via Di Capalle 28b",
     "citta": "Calenzano",
     "provincia": "FI",
+    "prov": "FI",
     "regione": "Toscana",
+    "luogo": "Calenzano (FI)",
     "telefono": "+39 055 882352",
     "web": ""
   },
@@ -1823,7 +2227,9 @@ var GUIDA=[
     "indirizzo": "Via Torre Clementina 114",
     "citta": "Fiumicino",
     "provincia": "RM",
+    "prov": "RM",
     "regione": "Lazio",
+    "luogo": "Fiumicino (RM)",
     "telefono": "+39066505251",
     "web": "https://osteriadellorologio.net"
   },
@@ -1832,7 +2238,9 @@ var GUIDA=[
     "indirizzo": "Via S.Felice 3",
     "citta": "Chioggia",
     "provincia": "VE",
+    "prov": "VE",
     "regione": "Veneto",
+    "luogo": "Chioggia (VE)",
     "telefono": "+39 370 3112387",
     "web": "https://www.m4restaurant.it"
   },
@@ -1841,7 +2249,9 @@ var GUIDA=[
     "indirizzo": "Via IV Novembre 29",
     "citta": "San Miniato",
     "provincia": "PI",
+    "prov": "PI",
     "regione": "Toscana",
+    "luogo": "San Miniato (PI)",
     "telefono": "+39 0571 1723546",
     "web": "https://www.ristorantemaggese.it"
   },
@@ -1850,7 +2260,9 @@ var GUIDA=[
     "indirizzo": "Via Pergola 10",
     "citta": "Moniga del Garda",
     "provincia": "BS",
+    "prov": "BS",
     "regione": "Lombardia",
+    "luogo": "Moniga del Garda (BS)",
     "telefono": "+39 0365 503225",
     "web": "https://www.losteriah2o.it"
   },
@@ -1859,7 +2271,9 @@ var GUIDA=[
     "indirizzo": "Piazzetta Manenti 2",
     "citta": "Pontoglio",
     "provincia": "BS",
+    "prov": "BS",
     "regione": "Lombardia",
+    "luogo": "Pontoglio (BS)",
     "telefono": "+39 030 7376708",
     "web": ""
   },
@@ -1868,7 +2282,9 @@ var GUIDA=[
     "indirizzo": "Via Mazzini 8",
     "citta": "Soragna",
     "provincia": "PR",
+    "prov": "PR",
     "regione": "Emilia-Romagna",
+    "luogo": "Soragna (PR)",
     "telefono": "+390524597122",
     "web": "http://www.ristorantestelladoro.it/stella-d'oro-ristora"
   },
@@ -1877,7 +2293,9 @@ var GUIDA=[
     "indirizzo": "Via XXIV Maggio 1",
     "citta": "Erba",
     "provincia": "CO",
+    "prov": "CO",
     "regione": "Lombardia",
+    "luogo": "Erba (CO)",
     "telefono": "+39 031 2258464",
     "web": "https://www.damorris.it"
   },
@@ -1886,7 +2304,9 @@ var GUIDA=[
     "indirizzo": "Via Nazionale 42",
     "citta": "Policastro Bussentino",
     "provincia": "SA",
+    "prov": "SA",
     "regione": "Campania",
+    "luogo": "Policastro Bussentino (SA)",
     "telefono": "+39 0974 984186",
     "web": ""
   },
@@ -1895,7 +2315,9 @@ var GUIDA=[
     "indirizzo": "Sul lungomare, vicino alla ex fabbrica di olio e sapone",
     "citta": "Kardamili",
     "provincia": "GR",
+    "prov": "GR",
     "regione": "Grecia",
+    "luogo": "Kardamili (GR)",
     "telefono": "+30 2721 073541",
     "web": "http://www.lelastaverna.com/index.php?lang=EN"
   },
@@ -1904,7 +2326,9 @@ var GUIDA=[
     "indirizzo": "Via Passo Buole 4",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+393497075513",
     "web": "https://www.sporeristorante.it"
   },
@@ -1913,7 +2337,9 @@ var GUIDA=[
     "indirizzo": "Via Fragnolo 29",
     "citta": "Calestano",
     "provincia": "PR",
+    "prov": "PR",
     "regione": "Emilia-Romagna",
+    "luogo": "Calestano (PR)",
     "telefono": "+39 0525 52102",
     "web": "https://locandamariella.it"
   },
@@ -1922,7 +2348,9 @@ var GUIDA=[
     "indirizzo": "Via Ca' Paler 5 - Strada per Roncola San Be",
     "citta": "Almenno San Salvatore",
     "provincia": "BG",
+    "prov": "BG",
     "regione": "Lombardia",
+    "luogo": "Almenno San Salvatore (BG)",
     "telefono": "+39 035 642570",
     "web": "https://www.ristorantecollina.it"
   },
@@ -1931,7 +2359,9 @@ var GUIDA=[
     "indirizzo": "Molo di Levante 74",
     "citta": "Cesenatico",
     "provincia": "FC",
+    "prov": "FC",
     "regione": "Emilia-Romagna",
+    "luogo": "Cesenatico (FC)",
     "telefono": "+39 331 1476563",
     "web": "https://mareconlaccento.it"
   },
@@ -1940,7 +2370,9 @@ var GUIDA=[
     "indirizzo": "Via Crotto del Sergente 13",
     "citta": "Como",
     "provincia": "CO",
+    "prov": "CO",
     "regione": "Lombardia",
+    "luogo": "Como (CO)",
     "telefono": "+39 031 283911",
     "web": "https://www.crottodelsergente.it"
   },
@@ -1949,7 +2381,9 @@ var GUIDA=[
     "indirizzo": "",
     "citta": "Ibiza",
     "provincia": "ES",
+    "prov": "ES",
     "regione": "Spagna",
+    "luogo": "Ibiza (ES)",
     "telefono": "",
     "web": "https://www.comelyclub.com"
   },
@@ -1958,7 +2392,9 @@ var GUIDA=[
     "indirizzo": "Località Millegrobbe",
     "citta": "Lavarone",
     "provincia": "TN",
+    "prov": "TN",
     "regione": "Trentino-Alto Adige",
+    "luogo": "Lavarone (TN)",
     "telefono": "+39 348 7476813",
     "web": "https://www.malgamillegrobbe.it"
   },
@@ -1967,7 +2403,9 @@ var GUIDA=[
     "indirizzo": "Piazza Litta 1 (Villa Panza)",
     "citta": "Varese",
     "provincia": "VA",
+    "prov": "VA",
     "regione": "Lombardia",
+    "luogo": "Varese (VA)",
     "telefono": "+39 0332 242199",
     "web": "https://ristoranteluce.it"
   },
@@ -1976,7 +2414,9 @@ var GUIDA=[
     "indirizzo": "Via Verona 29",
     "citta": "Lugana di Sirmione",
     "provincia": "BS",
+    "prov": "BS",
     "regione": "Lombardia",
+    "luogo": "Lugana di Sirmione (BS)",
     "telefono": "+39 030 9196177",
     "web": "https://www.ristorantepizzeriaciclone.it"
   },
@@ -1985,7 +2425,9 @@ var GUIDA=[
     "indirizzo": "Largo Pietro Gioia 3",
     "citta": "Piacenza",
     "provincia": "PC",
+    "prov": "PC",
     "regione": "Emilia-Romagna",
+    "luogo": "Piacenza (PC)",
     "telefono": "+39 331 8439035",
     "web": "https://www.ladispensadeibalocchi.it"
   },
@@ -1994,7 +2436,9 @@ var GUIDA=[
     "indirizzo": "Via Deserto 1/A, Sant'Agata sui Due Golfi",
     "citta": "Massa Lubrense",
     "provincia": "",
+    "prov": "",
     "regione": "Campania",
+    "luogo": "Massa Lubrense",
     "telefono": "+39 081 5330010",
     "web": "https://www.ristorantelostuzzichino.it"
   },
@@ -2003,7 +2447,9 @@ var GUIDA=[
     "indirizzo": "Via XX Settembre 18",
     "citta": "La Morra",
     "provincia": "CN",
+    "prov": "CN",
     "regione": "Piemonte",
+    "luogo": "La Morra (CN)",
     "telefono": "+39 0173 500395",
     "web": ""
   },
@@ -2012,7 +2458,9 @@ var GUIDA=[
     "indirizzo": "Via Garibaldi 7",
     "citta": "Calizzano",
     "provincia": "SV",
+    "prov": "SV",
     "regione": "Liguria",
+    "luogo": "Calizzano (SV)",
     "telefono": "+39 339 3199648",
     "web": ""
   },
@@ -2021,7 +2469,9 @@ var GUIDA=[
     "indirizzo": "Via delle Confraternite 7",
     "citta": "Castelbuono",
     "provincia": "PA",
+    "prov": "PA",
     "regione": "Sicilia",
+    "luogo": "Castelbuono (PA)",
     "telefono": "+39 0921 671228",
     "web": "https://www.hostarianangalarruni.it"
   },
@@ -2030,7 +2480,9 @@ var GUIDA=[
     "indirizzo": "Via Inferiore 7",
     "citta": "Treviso",
     "provincia": "TV",
+    "prov": "TV",
     "regione": "Veneto",
+    "luogo": "Treviso (TV)",
     "telefono": "+39 393 9863597",
     "web": "http://www.ristorantetonidelspin.com"
   },
@@ -2039,7 +2491,9 @@ var GUIDA=[
     "indirizzo": "Via Castelletto 3",
     "citta": "Pedeguarda di Follina",
     "provincia": "TV",
+    "prov": "TV",
     "regione": "Veneto",
+    "luogo": "Pedeguarda di Follina (TV)",
     "telefono": "+39 0438 842484",
     "web": "http://www.alcastelletto.com/mobile/index.htm"
   },
@@ -2048,7 +2502,9 @@ var GUIDA=[
     "indirizzo": "Via Lunga 2",
     "citta": "Bordighera",
     "provincia": "IM",
+    "prov": "IM",
     "regione": "Liguria",
+    "luogo": "Bordighera (IM)",
     "telefono": "+39 0184 842580",
     "web": "https://www.novantiquabordighera.it"
   },
@@ -2057,7 +2513,9 @@ var GUIDA=[
     "indirizzo": "Via Brigata Partigiana Muccini 181",
     "citta": "Sarzana",
     "provincia": "SP",
+    "prov": "SP",
     "regione": "Liguria",
+    "luogo": "Sarzana (SP)",
     "telefono": "+39 393 9584694",
     "web": "https://www.officinedelcibosarzana.it"
   },
@@ -2066,7 +2524,9 @@ var GUIDA=[
     "indirizzo": "Via del Popolo 31",
     "citta": "Vho di Piadena",
     "provincia": "CR",
+    "prov": "CR",
     "regione": "Lombardia",
+    "luogo": "Vho di Piadena (CR)",
     "telefono": "+39 334 3161427",
     "web": "http://www.trattoriadellalba.com"
   },
@@ -2075,7 +2535,9 @@ var GUIDA=[
     "indirizzo": "Via Madonnina 35",
     "citta": "Castionetto di Chiuro",
     "provincia": "SO",
+    "prov": "SO",
     "regione": "Lombardia",
+    "luogo": "Castionetto di Chiuro (SO)",
     "telefono": "+39 346 7299410",
     "web": "https://www.lasvolta.eu"
   },
@@ -2084,7 +2546,9 @@ var GUIDA=[
     "indirizzo": "· Via Verri 19",
     "citta": "Biassono",
     "provincia": "MB",
+    "prov": "MB",
     "regione": "Lombardia",
+    "luogo": "Biassono (MB)",
     "telefono": "+39 335 6850486",
     "web": ""
   },
@@ -2093,7 +2557,9 @@ var GUIDA=[
     "indirizzo": "Via Franco Sampietro 28",
     "citta": "Chiesa in Valmalenco",
     "provincia": "SO",
+    "prov": "SO",
     "regione": "Lombardia",
+    "luogo": "Chiesa in Valmalenco (SO)",
     "telefono": "+39 0342 454056",
     "web": ""
   },
@@ -2102,7 +2568,9 @@ var GUIDA=[
     "indirizzo": "Via Camillo Benso Cavour 53",
     "citta": "Casale Monferrato",
     "provincia": "AL",
+    "prov": "AL",
     "regione": "Piemonte",
+    "luogo": "Casale Monferrato (AL)",
     "telefono": "+39 0142 781281",
     "web": "https://www.osteriaamarottocasale.it/tradizioni"
   },
@@ -2111,7 +2579,9 @@ var GUIDA=[
     "indirizzo": "Strada Statale Alessandria 85",
     "citta": "San Germano Casale Monferrato",
     "provincia": "AL",
+    "prov": "AL",
     "regione": "Piemonte",
+    "luogo": "San Germano Casale Monferrato (AL)",
     "telefono": "+39014250686",
     "web": "https://osteriabarsport.wordpress.com"
   },
@@ -2120,7 +2590,9 @@ var GUIDA=[
     "indirizzo": "Via Santa Caterina 51",
     "citta": "Bologna",
     "provincia": "BO",
+    "prov": "BO",
     "regione": "Emilia-Romagna",
+    "luogo": "Bologna (BO)",
     "telefono": "+39 051 585111",
     "web": "https://www.osteriabottega.it"
   },
@@ -2129,7 +2601,9 @@ var GUIDA=[
     "indirizzo": "Corso Vittorio Emanuele 176",
     "citta": "Palermo",
     "provincia": "PA",
+    "prov": "PA",
     "regione": "Sicilia",
+    "luogo": "Palermo (PA)",
     "telefono": "+39 091 322378",
     "web": "http://www.buattapalermo.it"
   },
@@ -2138,7 +2612,9 @@ var GUIDA=[
     "indirizzo": "Via della Palla 4",
     "citta": "Folzano",
     "provincia": "BS",
+    "prov": "BS",
     "regione": "Lombardia",
+    "luogo": "Folzano (BS)",
     "telefono": "+39 320 0163147",
     "web": ""
   },
@@ -2147,7 +2623,9 @@ var GUIDA=[
     "indirizzo": "Via Pedemontana 23",
     "citta": "Morbegno",
     "provincia": "SO",
+    "prov": "SO",
     "regione": "Lombardia",
+    "luogo": "Morbegno (SO)",
     "telefono": "+39 0342614800",
     "web": "https://www.osteriadelcrotto.it"
   },
@@ -2156,7 +2634,9 @@ var GUIDA=[
     "indirizzo": "Via Giacomo Matteotti 17",
     "citta": "San Giovanni in Persiceto",
     "provincia": "BO",
+    "prov": "BO",
     "regione": "Emilia-Romagna",
+    "luogo": "San Giovanni in Persiceto (BO)",
     "telefono": "+39 051 821273",
     "web": "http://www.osteriadelmirasole.it"
   },
@@ -2165,7 +2645,9 @@ var GUIDA=[
     "indirizzo": "Via Maffei 2",
     "citta": "Cortona",
     "provincia": "AR",
+    "prov": "AR",
     "regione": "Toscana",
+    "luogo": "Cortona (AR)",
     "telefono": "+39 0575 630556",
     "web": "http://www.osteria-del-teatro.it"
   },
@@ -2174,7 +2656,9 @@ var GUIDA=[
     "indirizzo": "Vicolo Bancalegno 2",
     "citta": "Bergamo",
     "provincia": "BG",
+    "prov": "BG",
     "regione": "Lombardia",
+    "luogo": "Bergamo (BG)",
     "telefono": "+39 035 237353",
     "web": ""
   },
@@ -2183,7 +2667,9 @@ var GUIDA=[
     "indirizzo": "Via Guglielmo Marconi 104,",
     "citta": "Palazzolo sull'Oglio",
     "provincia": "BS",
+    "prov": "BS",
     "regione": "Lombardia",
+    "luogo": "Palazzolo sull'Oglio (BS)",
     "telefono": "+39 030 7401899",
     "web": "https://www.osteriadellavilletta.it"
   },
@@ -2192,7 +2678,9 @@ var GUIDA=[
     "indirizzo": "Via Roma 4",
     "citta": "Varano de' Melegari",
     "provincia": "PR",
+    "prov": "PR",
     "regione": "Emilia-Romagna",
+    "luogo": "Varano de' Melegari (PR)",
     "telefono": "+39 0525 404328",
     "web": ""
   },
@@ -2201,7 +2689,9 @@ var GUIDA=[
     "indirizzo": "Strada Fondovalle 99 · Citerna",
     "citta": "Fornovo di Taro",
     "provincia": "PR",
+    "prov": "PR",
     "regione": "Emilia-Romagna",
+    "luogo": "Fornovo di Taro (PR)",
     "telefono": "+39 327 0121349",
     "web": ""
   },
@@ -2210,7 +2700,9 @@ var GUIDA=[
     "indirizzo": "Via Miramare 26",
     "citta": "Santa Lucia",
     "provincia": "LU",
+    "prov": "LU",
     "regione": "Toscana",
+    "luogo": "Santa Lucia (LU)",
     "telefono": "+39 348 3058303",
     "web": "https://www.ristorantebernardone.it"
   },
@@ -2219,7 +2711,9 @@ var GUIDA=[
     "indirizzo": "Via Trento e Trieste 9/C",
     "citta": "Finale Emilia",
     "provincia": "MO",
+    "prov": "MO",
     "regione": "Emilia-Romagna",
+    "luogo": "Finale Emilia (MO)",
     "telefono": "+39 0535 780202",
     "web": "https://www.osterialafefa.it"
   },
@@ -2228,7 +2722,9 @@ var GUIDA=[
     "indirizzo": "Via Vittorio Emanuele II 69",
     "citta": "Castiglione del Lago",
     "provincia": "PG",
+    "prov": "PG",
     "regione": "Umbria",
+    "luogo": "Castiglione del Lago (PG)",
     "telefono": "+39 075 9652432",
     "web": "http://www.ristorantelacquario.it"
   },
@@ -2237,7 +2733,9 @@ var GUIDA=[
     "indirizzo": "Via Vajenti 21",
     "citta": "Marostica",
     "provincia": "VI",
+    "prov": "VI",
     "regione": "Veneto",
+    "luogo": "Marostica (VI)",
     "telefono": "+39 0424 75859",
     "web": "https://www.osteriamadonnetta.it"
   },
@@ -2246,7 +2744,9 @@ var GUIDA=[
     "indirizzo": "Via San Donà 195/c",
     "citta": "Venezia Mestre",
     "provincia": "VE",
+    "prov": "VE",
     "regione": "Veneto",
+    "luogo": "Venezia Mestre (VE)",
     "telefono": "+39 347 9944257",
     "web": "https://www.osteriaplip.com"
   },
@@ -2255,7 +2755,9 @@ var GUIDA=[
     "indirizzo": "Via Cardamone 75",
     "citta": "Tramonti",
     "provincia": "SA",
+    "prov": "SA",
     "regione": "Campania",
+    "luogo": "Tramonti (SA)",
     "telefono": "+39 089 856144",
     "web": "http://www.osteriareale.it"
   },
@@ -2264,7 +2766,9 @@ var GUIDA=[
     "indirizzo": "Via Fratelli Papini 81",
     "citta": "Magione",
     "provincia": "PG",
+    "prov": "PG",
     "regione": "Umbria",
+    "luogo": "Magione (PG)",
     "telefono": "+39 075 8476277",
     "web": "https://osteriarossodisera.net/"
   },
@@ -2273,7 +2777,9 @@ var GUIDA=[
     "indirizzo": "Via Raffaello Sanzio 2 Località Trecella",
     "citta": "Pozzuolo Martesana",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Pozzuolo Martesana (MI)",
     "telefono": "+39 02 95357663",
     "web": ""
   },
@@ -2282,7 +2788,9 @@ var GUIDA=[
     "indirizzo": "Gariga 8",
     "citta": "Podenzano",
     "provincia": "PC",
+    "prov": "PC",
     "regione": "Emilia-Romagna",
+    "luogo": "Podenzano (PC)",
     "telefono": "+39 0523 524077",
     "web": "https://www.ostreria.it"
   },
@@ -2291,7 +2799,9 @@ var GUIDA=[
     "indirizzo": "Viale Col di Lana 5",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+39 02 58100 259",
     "web": "https://ostrichevino.eatbu.com/?lang=it"
   },
@@ -2300,7 +2810,9 @@ var GUIDA=[
     "indirizzo": "Via Regina 8 (Grand Hotel Tremezzo)",
     "citta": "Tremezzina",
     "provincia": "CO",
+    "prov": "CO",
     "regione": "Lombardia",
+    "luogo": "Tremezzina (CO)",
     "telefono": "+39 0344 42491",
     "web": "https://www.grandhoteltremezzo.com"
   },
@@ -2309,7 +2821,9 @@ var GUIDA=[
     "indirizzo": "Piazza Matteotti 30",
     "citta": "Sarzana",
     "provincia": "SP",
+    "prov": "SP",
     "regione": "Liguria",
+    "luogo": "Sarzana (SP)",
     "telefono": "+39 0187 624924",
     "web": ""
   },
@@ -2318,7 +2832,9 @@ var GUIDA=[
     "indirizzo": "Via del Corso 6",
     "citta": "Firenze",
     "provincia": "FI",
+    "prov": "FI",
     "regione": "Toscana",
+    "luogo": "Firenze (FI)",
     "telefono": "+39 055 5353555",
     "web": "https://www.attodivitomollica.com"
   },
@@ -2327,7 +2843,9 @@ var GUIDA=[
     "indirizzo": "Via Sant'Elia 18",
     "citta": "Gallipoli",
     "provincia": "LE",
+    "prov": "LE",
     "regione": "Puglia",
+    "luogo": "Gallipoli (LE)",
     "telefono": "+39 0833 264205",
     "web": ""
   },
@@ -2336,7 +2854,9 @@ var GUIDA=[
     "indirizzo": "Piazza Libertà 36",
     "citta": "Appiano Gentile",
     "provincia": "CO",
+    "prov": "CO",
     "regione": "Lombardia",
+    "luogo": "Appiano Gentile (CO)",
     "telefono": "+39 031 931982",
     "web": ""
   },
@@ -2345,7 +2865,9 @@ var GUIDA=[
     "indirizzo": "Rua da Atalaia 57 · Bairro Alto",
     "citta": "Lisbon",
     "provincia": "P",
+    "prov": "P",
     "regione": "Portogallo",
+    "luogo": "Lisbon (P)",
     "telefono": "+351 213 464 811",
     "web": ""
   },
@@ -2354,7 +2876,9 @@ var GUIDA=[
     "indirizzo": "Via Lattuada 12/a",
     "citta": "Senago",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Senago (MI)",
     "telefono": "+39 02 99480093",
     "web": ""
   },
@@ -2363,7 +2887,9 @@ var GUIDA=[
     "indirizzo": "Piazza San Francesco 16",
     "citta": "Cetara",
     "provincia": "SA",
+    "prov": "SA",
     "regione": "Campania",
+    "luogo": "Cetara (SA)",
     "telefono": "+39 333 3998507",
     "web": "https://www.alconvento.net"
   },
@@ -2372,7 +2898,9 @@ var GUIDA=[
     "indirizzo": "Via Bonnet 5",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+39 02 66993 22",
     "web": "https://www.pescaria.it"
   },
@@ -2381,7 +2909,9 @@ var GUIDA=[
     "indirizzo": "Via Linfano 47",
     "citta": "Arco",
     "provincia": "TN",
+    "prov": "TN",
     "regione": "Trentino-Alto Adige",
+    "luogo": "Arco (TN)",
     "telefono": "+39 333 4536979",
     "web": "https://www.peterbrunel.com"
   },
@@ -2390,7 +2920,9 @@ var GUIDA=[
     "indirizzo": "Via San Piero a Strada 23 -",
     "citta": "Pontassieve",
     "provincia": "FI",
+    "prov": "FI",
     "regione": "Toscana",
+    "luogo": "Pontassieve (FI)",
     "telefono": "+39 333 8693448",
     "web": "https://poderebelvederetuscany.it"
   },
@@ -2399,7 +2931,9 @@ var GUIDA=[
     "indirizzo": "Piazza della Scala 5",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+39 331 1958361",
     "web": ""
   },
@@ -2408,7 +2942,9 @@ var GUIDA=[
     "indirizzo": "Via Colombo 38",
     "citta": "Peschici",
     "provincia": "FG",
+    "prov": "FG",
     "regione": "Puglia",
+    "luogo": "Peschici (FG)",
     "telefono": "+39 0884 355167",
     "web": "http://www.portadibasso.com/"
   },
@@ -2417,7 +2953,9 @@ var GUIDA=[
     "indirizzo": "Via dell’Orizzonte 1",
     "citta": "Gabicce Monte",
     "provincia": "PU",
+    "prov": "PU",
     "regione": "Marche",
+    "luogo": "Gabicce Monte (PU)",
     "telefono": "+39 0541 953373",
     "web": "https://www.ristoranteposillipo.com"
   },
@@ -2426,7 +2964,9 @@ var GUIDA=[
     "indirizzo": "Via 47º Regimento Fanteria 7",
     "citta": "Lecce",
     "provincia": "LE",
+    "prov": "LE",
     "regione": "Puglia",
+    "luogo": "Lecce (LE)",
     "telefono": "+390832243802",
     "web": "https://www.primorestaurant.it"
   },
@@ -2435,7 +2975,9 @@ var GUIDA=[
     "indirizzo": "Via Capo di Fiume 4",
     "citta": "Capaccio Paestum",
     "provincia": "SA",
+    "prov": "SA",
     "regione": "Campania",
+    "luogo": "Capaccio Paestum (SA)",
     "telefono": "+39 0828 724165",
     "web": "https://www.letrabe.it"
   },
@@ -2444,7 +2986,9 @@ var GUIDA=[
     "indirizzo": "Via Laura 45",
     "citta": "Capaccio",
     "provincia": "SA",
+    "prov": "SA",
     "regione": "Campania",
+    "luogo": "Capaccio (SA)",
     "telefono": "+39 0828 851064",
     "web": "https://www.nonnasceppa.com"
   },
@@ -2453,7 +2997,9 @@ var GUIDA=[
     "indirizzo": "Via de Castilla 28",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+39 02 87128855",
     "web": "https://www.ratana.it"
   },
@@ -2462,7 +3008,9 @@ var GUIDA=[
     "indirizzo": "Wilhelm Spazier Straße 7A",
     "citta": "Salzburg",
     "provincia": "A",
+    "prov": "A",
     "regione": "Austria",
+    "luogo": "Salzburg (A)",
     "telefono": "+43 662 2197",
     "web": "https://www.hangar-7.com/en/"
   },
@@ -2471,7 +3019,9 @@ var GUIDA=[
     "indirizzo": "Portich de Sura",
     "citta": "Vico Morcote Canton Ticino",
     "provincia": "CH",
+    "prov": "CH",
     "regione": "Svizzera",
+    "luogo": "Vico Morcote Canton Ticino (CH)",
     "telefono": "+41 91 980 22 52",
     "web": "https://www.relaiscastellodimorcote.ch"
   },
@@ -2480,7 +3030,9 @@ var GUIDA=[
     "indirizzo": "Via IV Novembre 60",
     "citta": "Vairano Patenora",
     "provincia": "CE",
+    "prov": "CE",
     "regione": "Campania",
+    "luogo": "Vairano Patenora (CE)",
     "telefono": "",
     "web": "http://www.vairodelvolturno.com"
   },
@@ -2489,7 +3041,9 @@ var GUIDA=[
     "indirizzo": "Via Armando Diaz 25",
     "citta": "Villa di Lozio",
     "provincia": "BS",
+    "prov": "BS",
     "regione": "Lombardia",
+    "luogo": "Villa di Lozio (BS)",
     "telefono": "+39 335 315631",
     "web": "http://www.ristorantealresu.it/ristorante/"
   },
@@ -2498,7 +3052,9 @@ var GUIDA=[
     "indirizzo": "Via della Stelletta 4",
     "citta": "Roma",
     "provincia": "RM",
+    "prov": "RM",
     "regione": "Lazio",
+    "luogo": "Roma (RM)",
     "telefono": "+39 06 68136 310",
     "web": "https://www.retro-bottega.com"
   },
@@ -2507,7 +3063,9 @@ var GUIDA=[
     "indirizzo": "Via Asilo Maria Teresa 34",
     "citta": "Sestri Levante",
     "provincia": "GE",
+    "prov": "GE",
     "regione": "Liguria",
+    "luogo": "Sestri Levante (GE)",
     "telefono": "+39 0185 450909",
     "web": "https://rezzanocucinaevino.it"
   },
@@ -2516,7 +3074,9 @@ var GUIDA=[
     "indirizzo": "Località Intermedia Grostè",
     "citta": "Madonna di Campiglio",
     "provincia": "TN",
+    "prov": "TN",
     "regione": "Trentino-Alto Adige",
+    "luogo": "Madonna di Campiglio (TN)",
     "telefono": "+39 348 7326782",
     "web": ""
   },
@@ -2525,7 +3085,9 @@ var GUIDA=[
     "indirizzo": "Viale Galliano",
     "citta": "Cecina Mare",
     "provincia": "LI",
+    "prov": "LI",
     "regione": "Toscana",
+    "luogo": "Cecina Mare (LI)",
     "telefono": "+39 0586 620519",
     "web": "http://ristopescheria.com"
   },
@@ -2534,7 +3096,9 @@ var GUIDA=[
     "indirizzo": "Strada Padana Superiore, 90",
     "citta": "Bellinzago Lombardo",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Bellinzago Lombardo (MI)",
     "telefono": "+39 02 95784123",
     "web": "http://www.ristorantemacelleriamotta.it"
   },
@@ -2543,7 +3107,9 @@ var GUIDA=[
     "indirizzo": "Via Vincenzo Sorlini 14",
     "citta": "Concesio",
     "provincia": "BS",
+    "prov": "BS",
     "regione": "Lombardia",
+    "luogo": "Concesio (BS)",
     "telefono": "",
     "web": ""
   },
@@ -2552,7 +3118,9 @@ var GUIDA=[
     "indirizzo": "Strèda Roma 58",
     "citta": "Canazei",
     "provincia": "TN",
+    "prov": "TN",
     "regione": "Trentino-Alto Adige",
+    "luogo": "Canazei (TN)",
     "telefono": "+39 0462 601433",
     "web": "https://www.elpael.com"
   },
@@ -2561,7 +3129,9 @@ var GUIDA=[
     "indirizzo": "Via Lomellina 12",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+39 324 862 6157",
     "web": "https://www.sinerestaurant.com"
   },
@@ -2570,7 +3140,9 @@ var GUIDA=[
     "indirizzo": "Via Alberto Pasini 20",
     "citta": "Parma",
     "provincia": "PR",
+    "prov": "PR",
     "regione": "Emilia-Romagna",
+    "luogo": "Parma (PR)",
     "telefono": "+39 0521 293529",
     "web": "https://www.ristoranteportasantacroce.it"
   },
@@ -2579,7 +3151,9 @@ var GUIDA=[
     "indirizzo": "Via Giuseppe Colombo 42",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+39 02 70100 136",
     "web": ""
   },
@@ -2588,7 +3162,9 @@ var GUIDA=[
     "indirizzo": "Vico Saline 5",
     "citta": "Rapallo",
     "provincia": "GE",
+    "prov": "GE",
     "regione": "Liguria",
+    "luogo": "Rapallo (GE)",
     "telefono": "+39 0185 694058",
     "web": "http://www.ristorantebark2.it"
   },
@@ -2597,7 +3173,9 @@ var GUIDA=[
     "indirizzo": "Via Mazzini 120",
     "citta": "Viareggio",
     "provincia": "LU",
+    "prov": "LU",
     "regione": "Toscana",
+    "luogo": "Viareggio (LU)",
     "telefono": "+39 0584 31382",
     "web": ""
   },
@@ -2606,7 +3184,9 @@ var GUIDA=[
     "indirizzo": "Via dei Giubbonari 21-22",
     "citta": "Roma",
     "provincia": "RM",
+    "prov": "RM",
     "regione": "Lazio",
+    "luogo": "Roma (RM)",
     "telefono": "+39 06 68752 87",
     "web": "https://www.salumeriaroscioli.com"
   },
@@ -2615,7 +3195,9 @@ var GUIDA=[
     "indirizzo": "Via Ariberto 3",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+39 02 72093709",
     "web": "http://rovello18.it/it/home/"
   },
@@ -2624,7 +3206,9 @@ var GUIDA=[
     "indirizzo": "Vicolo San Matteo 3",
     "citta": "Verona",
     "provincia": "VR",
+    "prov": "VR",
     "regione": "Veneto",
+    "luogo": "Verona (VR)",
     "telefono": "+393404549806",
     "web": "http://www.ristorantelacanonicaverona.it"
   },
@@ -2633,7 +3217,9 @@ var GUIDA=[
     "indirizzo": "Via San Gerolamo 56",
     "citta": "Vercurago",
     "provincia": "LC",
+    "prov": "LC",
     "regione": "Lombardia",
+    "luogo": "Vercurago (LC)",
     "telefono": "+39 0341 420429",
     "web": ""
   },
@@ -2642,7 +3228,9 @@ var GUIDA=[
     "indirizzo": "Via Cesare Battisti 3",
     "citta": "Treviglio",
     "provincia": "BG",
+    "prov": "BG",
     "regione": "Lombardia",
+    "luogo": "Treviglio (BG)",
     "telefono": "+39 0363 49075",
     "web": ""
   },
@@ -2651,7 +3239,9 @@ var GUIDA=[
     "indirizzo": "Lungomare Matteotti 14",
     "citta": "San Foca",
     "provincia": "LE",
+    "prov": "LE",
     "regione": "Puglia",
+    "luogo": "San Foca (LE)",
     "telefono": "+39 0832 881540",
     "web": ""
   },
@@ -2660,7 +3250,9 @@ var GUIDA=[
     "indirizzo": "Via Pier Capponi 72/A",
     "citta": "Firenze",
     "provincia": "FI",
+    "prov": "FI",
     "regione": "Toscana",
+    "luogo": "Firenze (FI)",
     "telefono": "+39 055 8358985",
     "web": "https://www.santabarbarafirenze.com"
   },
@@ -2669,7 +3261,9 @@ var GUIDA=[
     "indirizzo": "Via Litoranea 209",
     "citta": "Marcelli",
     "provincia": "AN",
+    "prov": "AN",
     "regione": "Marche",
+    "luogo": "Marcelli (AN)",
     "telefono": "+39 071 7391596",
     "web": ""
   },
@@ -2678,7 +3272,9 @@ var GUIDA=[
     "indirizzo": "Via San Fedele 29",
     "citta": "Colico",
     "provincia": "LC",
+    "prov": "LC",
     "regione": "Lombardia",
+    "luogo": "Colico (LC)",
     "telefono": "+39 0341 940594",
     "web": ""
   },
@@ -2687,7 +3283,9 @@ var GUIDA=[
     "indirizzo": "Via Giovanni Tempini 15",
     "citta": "Brescia",
     "provincia": "BS",
+    "prov": "BS",
     "regione": "Lombardia",
+    "luogo": "Brescia (BS)",
     "telefono": "+39 349 8408893",
     "web": "https://www.selvabistrot.com"
   },
@@ -2696,7 +3294,9 @@ var GUIDA=[
     "indirizzo": "Via Patrioti 5",
     "citta": "Fagnano Olona",
     "provincia": "VA",
+    "prov": "VA",
     "regione": "Lombardia",
+    "luogo": "Fagnano Olona (VA)",
     "telefono": "+39 338 7694245",
     "web": "https://www.ristoranteacquerello.com"
   },
@@ -2705,7 +3305,9 @@ var GUIDA=[
     "indirizzo": "Strada per Parma Crocizia 3",
     "citta": "Pilastro",
     "provincia": "PR",
+    "prov": "PR",
     "regione": "Emilia-Romagna",
+    "luogo": "Pilastro (PR)",
     "telefono": "+39 340 4053006",
     "web": "https://www.simoneollari.it"
   },
@@ -2714,7 +3316,9 @@ var GUIDA=[
     "indirizzo": "Via Lambro 11",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+39 02 45476502",
     "web": ""
   },
@@ -2723,7 +3327,9 @@ var GUIDA=[
     "indirizzo": "Via Roma 42",
     "citta": "Olevano Romano",
     "provincia": "RM",
+    "prov": "RM",
     "regione": "Lazio",
+    "luogo": "Olevano Romano (RM)",
     "telefono": "+39 06 95640 43",
     "web": "https://www.soramariaearcangelo.com"
   },
@@ -2732,7 +3338,9 @@ var GUIDA=[
     "indirizzo": "Via Marconi 93",
     "citta": "Ancona",
     "provincia": "AN",
+    "prov": "AN",
     "regione": "Marche",
+    "luogo": "Ancona (AN)",
     "telefono": "+39 071 202441",
     "web": "https://www.ristorantesotajarchi.it"
   },
@@ -2741,7 +3349,9 @@ var GUIDA=[
     "indirizzo": "Galleria Vittorio Emanuele II · Piazza Duomo",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+39 02 87840 0",
     "web": ""
   },
@@ -2750,7 +3360,9 @@ var GUIDA=[
     "indirizzo": "Pyrronos 5",
     "citta": "Atene",
     "provincia": "GR",
+    "prov": "GR",
     "regione": "Grecia",
+    "luogo": "Atene (GR)",
     "telefono": "+39 2107564021",
     "web": "https://www.spondi.gr"
   },
@@ -2759,7 +3371,9 @@ var GUIDA=[
     "indirizzo": "Contrada Castelnuovo 86",
     "citta": "Agnone",
     "provincia": "IS",
+    "prov": "IS",
     "regione": "Molise",
+    "luogo": "Agnone (IS)",
     "telefono": "+39 0865 77379",
     "web": "http://www.locandamammi.it"
   },
@@ -2768,7 +3382,9 @@ var GUIDA=[
     "indirizzo": "Viale della Vittoria 16",
     "citta": "Verghera di Samarate",
     "provincia": "VA",
+    "prov": "VA",
     "regione": "Lombardia",
+    "luogo": "Verghera di Samarate (VA)",
     "telefono": "+39 389 4413857",
     "web": ""
   },
@@ -2777,7 +3393,9 @@ var GUIDA=[
     "indirizzo": "Piazzale della Libertà 7",
     "citta": "Pesaro",
     "provincia": "PU",
+    "prov": "PU",
     "regione": "Marche",
+    "luogo": "Pesaro (PU)",
     "telefono": "+39 0721 639813",
     "web": "https://www.nostranoristorante.it"
   },
@@ -2786,7 +3404,9 @@ var GUIDA=[
     "indirizzo": "Via Castello 23",
     "citta": "Sorio di Gambellara",
     "provincia": "VI",
+    "prov": "VI",
     "regione": "Veneto",
+    "luogo": "Sorio di Gambellara (VI)",
     "telefono": "+39 0444 444085",
     "web": "https://www.anticaosteriaalcastello.com"
   },
@@ -2795,7 +3415,9 @@ var GUIDA=[
     "indirizzo": "Via S.S. Pietro e Paolo 5",
     "citta": "Quarto",
     "provincia": "",
+    "prov": "",
     "regione": "Campania",
+    "luogo": "Quarto",
     "telefono": "+39 081 0202708",
     "web": ""
   },
@@ -2804,7 +3426,9 @@ var GUIDA=[
     "indirizzo": "Via G. Mameli 1",
     "citta": "Bardolino",
     "provincia": "VR",
+    "prov": "VR",
     "regione": "Veneto",
+    "luogo": "Bardolino (VR)",
     "telefono": "+39 045 6210477",
     "web": "https://www.giardinodelleesperidi.it"
   },
@@ -2813,7 +3437,9 @@ var GUIDA=[
     "indirizzo": "20 Queen Street",
     "citta": "London",
     "provincia": "GB",
+    "prov": "GB",
     "regione": "Inghilterra",
+    "luogo": "London (GB)",
     "telefono": "+44 (0) 20 7629 3561",
     "web": "https://www.tamarindrestaurant.com"
   },
@@ -2822,7 +3448,9 @@ var GUIDA=[
     "indirizzo": "Carrer de la Diputació 269",
     "citta": "Barcellona",
     "provincia": "ES",
+    "prov": "ES",
     "regione": "Spagna",
+    "luogo": "Barcellona (ES)",
     "telefono": "+34 934 880 977",
     "web": "https://www.carlesabellan.com"
   },
@@ -2831,7 +3459,9 @@ var GUIDA=[
     "indirizzo": "Via Dante 1, angolo Via De Amicis 21",
     "citta": "Melegnano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Melegnano (MI)",
     "telefono": "+39 02 9830217",
     "web": ""
   },
@@ -2840,7 +3470,9 @@ var GUIDA=[
     "indirizzo": "Via Arcivescovo Calabiana 3",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+39 393 9817906",
     "web": ""
   },
@@ -2849,7 +3481,9 @@ var GUIDA=[
     "indirizzo": "Via Laurito, 43",
     "citta": "Positano",
     "provincia": "SA",
+    "prov": "SA",
     "regione": "Campania",
+    "luogo": "Positano (SA)",
     "telefono": "+39 089 875474",
     "web": "http://www.latavernadelleone.com/"
   },
@@ -2858,7 +3492,9 @@ var GUIDA=[
     "indirizzo": "Sul mare, nel villaggio di Limeni",
     "citta": "Limeni Laconia",
     "provincia": "GR",
+    "prov": "GR",
     "regione": "Grecia",
+    "luogo": "Limeni Laconia (GR)",
     "telefono": "+30 2733 051327",
     "web": ""
   },
@@ -2867,7 +3503,9 @@ var GUIDA=[
     "indirizzo": "Via del Giglio 9",
     "citta": "Firenze",
     "provincia": "FI",
+    "prov": "FI",
     "regione": "Toscana",
+    "luogo": "Firenze (FI)",
     "telefono": "+39 331 2947089",
     "web": "https://www.terraerestaurant.it"
   },
@@ -2876,7 +3514,9 @@ var GUIDA=[
     "indirizzo": "Via Leonardo da Vinci 14",
     "citta": "Cona",
     "provincia": "VE",
+    "prov": "VE",
     "regione": "Veneto",
+    "luogo": "Cona (VE)",
     "telefono": "+39 0426509178",
     "web": "http://www.anticatrattorialportico.it"
   },
@@ -2885,7 +3525,9 @@ var GUIDA=[
     "indirizzo": "Via Torre a Cona 49",
     "citta": "Rignano sull’Arno",
     "provincia": "FI",
+    "prov": "FI",
     "regione": "Toscana",
+    "luogo": "Rignano sull’Arno (FI)",
     "telefono": "+39 055 699000",
     "web": "https://www.torreacona.com/ristorante"
   },
@@ -2894,7 +3536,9 @@ var GUIDA=[
     "indirizzo": "Via Lorenzini 14",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+39 02 23323 910",
     "web": "https://www.fondazioneprada.org/torre/"
   },
@@ -2903,7 +3547,9 @@ var GUIDA=[
     "indirizzo": "Via Melzo 15",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+39 02 74281 354",
     "web": ""
   },
@@ -2912,7 +3558,9 @@ var GUIDA=[
     "indirizzo": "Via Budellungo 104/a",
     "citta": "Coloreto",
     "provincia": "PR",
+    "prov": "PR",
     "regione": "Emilia-Romagna",
+    "luogo": "Coloreto (PR)",
     "telefono": "+39 0521 645626",
     "web": "https://trattoria-ai-due-platani.eatbu.com/?lang=it"
   },
@@ -2921,7 +3569,9 @@ var GUIDA=[
     "indirizzo": "Vicolo Regina d'Ungheria 5",
     "citta": "Verona",
     "provincia": "VR",
+    "prov": "VR",
     "regione": "Veneto",
+    "luogo": "Verona (VR)",
     "telefono": "+390458030537",
     "web": ""
   },
@@ -2930,7 +3580,9 @@ var GUIDA=[
     "indirizzo": "Via San Martino e Solferino 3",
     "citta": "Ponti sul Mincio",
     "provincia": "MN",
+    "prov": "MN",
     "regione": "Lombardia",
+    "luogo": "Ponti sul Mincio (MN)",
     "telefono": "+39 0376 808256",
     "web": ""
   },
@@ -2939,7 +3591,9 @@ var GUIDA=[
     "indirizzo": "Piazza Garibaldi 6",
     "citta": "Castelnuovo Magra",
     "provincia": "SP",
+    "prov": "SP",
     "regione": "Liguria",
+    "luogo": "Castelnuovo Magra (SP)",
     "telefono": "+39 0187 674410",
     "web": ""
   },
@@ -2948,7 +3602,9 @@ var GUIDA=[
     "indirizzo": "Via di Galiga 21",
     "citta": "Molino del Piano",
     "provincia": "FI",
+    "prov": "FI",
     "regione": "Toscana",
+    "luogo": "Molino del Piano (FI)",
     "telefono": "+39 055 8317240",
     "web": "https://artemideristorante.wixsite.com/artemide"
   },
@@ -2957,7 +3613,9 @@ var GUIDA=[
     "indirizzo": "Via G.B. Spaccini  24",
     "citta": "Modena",
     "provincia": "MO",
+    "prov": "MO",
     "regione": "Emilia-Romagna",
+    "luogo": "Modena (MO)",
     "telefono": "+39 059 311524",
     "web": "http://www.trattoriabianca.it"
   },
@@ -2966,7 +3624,9 @@ var GUIDA=[
     "indirizzo": "Via Marconi 9",
     "citta": "Palermo",
     "provincia": "PA",
+    "prov": "PA",
     "regione": "Sicilia",
+    "luogo": "Palermo (PA)",
     "telefono": "+39 091 335139",
     "web": "http://www.coronatrattoria.it"
   },
@@ -2975,7 +3635,9 @@ var GUIDA=[
     "indirizzo": "Via Pulsaria 16",
     "citta": "Torre Orsaia",
     "provincia": "SA",
+    "prov": "SA",
     "regione": "Campania",
+    "luogo": "Torre Orsaia (SA)",
     "telefono": "+39 0974 985669",
     "web": ""
   },
@@ -2984,7 +3646,9 @@ var GUIDA=[
     "indirizzo": "Via Pistoiese 154",
     "citta": "Firenze",
     "provincia": "FI",
+    "prov": "FI",
     "regione": "Toscana",
+    "luogo": "Firenze (FI)",
     "telefono": "+39 055 317206",
     "web": "https://landing.vinodaburde.eu"
   },
@@ -2993,7 +3657,9 @@ var GUIDA=[
     "indirizzo": "Via Fra Gerardo Sasso 11",
     "citta": "Amalfi",
     "provincia": "SA",
+    "prov": "SA",
     "regione": "Campania",
+    "luogo": "Amalfi (SA)",
     "telefono": "+39 089 871345",
     "web": "https://trattoria.trattoriadagemma.com"
   },
@@ -3002,7 +3668,9 @@ var GUIDA=[
     "indirizzo": "Viale Amerigo Vespucci, 71",
     "citta": "Rimini",
     "provincia": "RN",
+    "prov": "RN",
     "regione": "Emilia-Romagna",
+    "luogo": "Rimini (RN)",
     "telefono": "+39 340 9743459",
     "web": "https://trattoriadalucio.cuoriebbri.com/"
   },
@@ -3011,7 +3679,9 @@ var GUIDA=[
     "indirizzo": "Via Gaudenzio Ferrari 1",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+39 02 72093 709",
     "web": ""
   },
@@ -3020,7 +3690,9 @@ var GUIDA=[
     "indirizzo": "Via Farra 56",
     "citta": "Sernaglia della Battaglia",
     "provincia": "TV",
+    "prov": "TV",
     "regione": "Veneto",
+    "luogo": "Sernaglia della Battaglia (TV)",
     "telefono": "+39 0438 966295",
     "web": "https://www.trattoriadallalibera.it"
   },
@@ -3029,7 +3701,9 @@ var GUIDA=[
     "indirizzo": "Via Filippo Nicolai 44",
     "citta": "Caprarola",
     "provincia": "VT",
+    "prov": "VT",
     "regione": "Lazio",
+    "luogo": "Caprarola (VT)",
     "telefono": "+39 0761 646173",
     "web": "https://www.trattoriadelciminodal1895.it"
   },
@@ -3038,7 +3712,9 @@ var GUIDA=[
     "indirizzo": "Via Marecchiese 345",
     "citta": "Rimini",
     "provincia": "RN",
+    "prov": "RN",
     "regione": "Emilia-Romagna",
+    "luogo": "Rimini (RN)",
     "telefono": "+39 0541 727082",
     "web": ""
   },
@@ -3047,7 +3723,9 @@ var GUIDA=[
     "indirizzo": "Via Luigi Serra 9",
     "citta": "Bologna",
     "provincia": "BO",
+    "prov": "BO",
     "regione": "Emilia-Romagna",
+    "luogo": "Bologna (BO)",
     "telefono": "+39 051 6312330",
     "web": "https://www.trattoriadiviaserra.it"
   },
@@ -3056,7 +3734,9 @@ var GUIDA=[
     "indirizzo": "Via San Giorgio 79",
     "citta": "Ruinas",
     "provincia": "OR",
+    "prov": "OR",
     "regione": "Sardegna",
+    "luogo": "Ruinas (OR)",
     "telefono": "+39 0783 459101",
     "web": ""
   },
@@ -3065,7 +3745,9 @@ var GUIDA=[
     "indirizzo": "Via Montanara 2",
     "citta": "Lucugnano",
     "provincia": "LE",
+    "prov": "LE",
     "regione": "Puglia",
+    "luogo": "Lucugnano (LE)",
     "telefono": "+39 0833 784164",
     "web": "https://www.trattoriaiolanda.com"
   },
@@ -3074,7 +3756,9 @@ var GUIDA=[
     "indirizzo": "Via Campo di Ne 58",
     "citta": "Ne",
     "provincia": "GE",
+    "prov": "GE",
     "regione": "Liguria",
+    "luogo": "Ne (GE)",
     "telefono": "+39 0185 337480",
     "web": "https://www.labrinca.it"
   },
@@ -3083,7 +3767,9 @@ var GUIDA=[
     "indirizzo": "Via Rosina 2/R · Angolo Piazza Mercato centr",
     "citta": "Firenze",
     "provincia": "FI",
+    "prov": "FI",
     "regione": "Toscana",
+    "luogo": "Firenze (FI)",
     "telefono": "+39 055 218550",
     "web": "https://www.trattoriamario.com"
   },
@@ -3092,7 +3778,9 @@ var GUIDA=[
     "indirizzo": "Piazza San Materno 12",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+39 02 91180496",
     "web": ""
   },
@@ -3101,7 +3789,9 @@ var GUIDA=[
     "indirizzo": "Via Arginello 24",
     "citta": "Pietrasanta",
     "provincia": "LU",
+    "prov": "LU",
     "regione": "Toscana",
+    "luogo": "Pietrasanta (LU)",
     "telefono": "+39 0584 791200",
     "web": ""
   },
@@ -3110,7 +3800,9 @@ var GUIDA=[
     "indirizzo": "Riva de Amicis 1",
     "citta": "Muggia",
     "provincia": "TS",
+    "prov": "TS",
     "regione": "Friuli-Venezia Giulia",
+    "luogo": "Muggia (TS)",
     "telefono": "+39 040 271219",
     "web": "http://www.trattoriarisorta.it"
   },
@@ -3119,7 +3811,9 @@ var GUIDA=[
     "indirizzo": "Via Ontignano 48",
     "citta": "Fiesole",
     "provincia": "FI",
+    "prov": "FI",
     "regione": "Toscana",
+    "luogo": "Fiesole (FI)",
     "telefono": "+39 055 697354",
     "web": "https://www.ristorantetullio.it"
   },
@@ -3128,7 +3822,9 @@ var GUIDA=[
     "indirizzo": "Via De Gasperi 12",
     "citta": "Ambivere",
     "provincia": "BG",
+    "prov": "BG",
     "regione": "Lombardia",
+    "luogo": "Ambivere (BG)",
     "telefono": "+39 035 908153",
     "web": "https://www.trattoriavisconti.it"
   },
@@ -3137,7 +3833,9 @@ var GUIDA=[
     "indirizzo": "Via Stelvio 297 mi",
     "citta": "Montagna in Valtellina",
     "provincia": "SO",
+    "prov": "SO",
     "regione": "Lombardia",
+    "luogo": "Montagna in Valtellina (SO)",
     "telefono": "+390342615584",
     "web": "https://www.ristorantetrippi.it"
   },
@@ -3146,7 +3844,9 @@ var GUIDA=[
     "indirizzo": "Via Treval 26",
     "citta": "Sagno Canton Ticino",
     "provincia": "CH",
+    "prov": "CH",
     "regione": "Svizzera",
+    "luogo": "Sagno Canton Ticino (CH)",
     "telefono": "+41 91 682 01 75",
     "web": "http://ul-furmighin.ch/web/"
   },
@@ -3155,7 +3855,9 @@ var GUIDA=[
     "indirizzo": "Via Soccorso 8",
     "citta": "Forio d’Ischia",
     "provincia": "",
+    "prov": "",
     "regione": "Campania",
+    "luogo": "Forio d’Ischia",
     "telefono": "+39081997171",
     "web": ""
   },
@@ -3164,7 +3866,9 @@ var GUIDA=[
     "indirizzo": "Via Achille Papa 30",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+39 02 39261025",
     "web": "https://www.unicorestaurant.it"
   },
@@ -3173,7 +3877,9 @@ var GUIDA=[
     "indirizzo": "Lungomare Trento 37",
     "citta": "Roseto degli Abruzzi",
     "provincia": "TE",
+    "prov": "TE",
     "regione": "Abruzzo",
+    "luogo": "Roseto degli Abruzzi (TE)",
     "telefono": "+39 085 8931170",
     "web": ""
   },
@@ -3182,7 +3888,9 @@ var GUIDA=[
     "indirizzo": "Via Montepirolo 7",
     "citta": "Coriano",
     "provincia": "RN",
+    "prov": "RN",
     "regione": "Emilia-Romagna",
+    "luogo": "Coriano (RN)",
     "telefono": "+39 0541 759138",
     "web": "http://www.ristorantevite.it/"
   },
@@ -3191,7 +3899,9 @@ var GUIDA=[
     "indirizzo": "Via Fonticelle 16",
     "citta": "Colli al Volturno",
     "provincia": "IS",
+    "prov": "IS",
     "regione": "Molise",
+    "luogo": "Colli al Volturno (IS)",
     "telefono": "+390865955215",
     "web": "https://www.albergovolturno.com"
   },
@@ -3200,7 +3910,9 @@ var GUIDA=[
     "indirizzo": "Piazza della Scala 6",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+39 349 3273374",
     "web": "https://www.aimoenadia.com"
   },
@@ -3209,7 +3921,9 @@ var GUIDA=[
     "indirizzo": "Piazza Antonio Gramsci 14",
     "citta": "Sant’Arcangelo di Romagna",
     "provincia": "RM",
+    "prov": "RM",
     "regione": "Emilia-Romagna",
+    "luogo": "Sant’Arcangelo di Romagna (RM)",
     "telefono": "+39 0541 626136",
     "web": "https://www.ristorantezaghini.it/dove-siamo"
   },
@@ -3218,7 +3932,9 @@ var GUIDA=[
     "indirizzo": "Via San Miniato, 2 rosso",
     "citta": "Firenze",
     "provincia": "FI",
+    "prov": "FI",
     "regione": "Toscana",
+    "luogo": "Firenze (FI)",
     "telefono": "+39 055 2342864",
     "web": "http://www.zebgastronomia.com"
   },
@@ -3227,7 +3943,9 @@ var GUIDA=[
     "indirizzo": "Via XXV Aprile 53",
     "citta": "Riva di Solto",
     "provincia": "BG",
+    "prov": "BG",
     "regione": "Lombardia",
+    "luogo": "Riva di Solto (BG)",
     "telefono": "+39035986004",
     "web": ""
   },
@@ -3236,7 +3954,9 @@ var GUIDA=[
     "indirizzo": "Via Coste 19",
     "citta": "Paroldo",
     "provincia": "CN",
+    "prov": "CN",
     "regione": "Piemonte",
+    "luogo": "Paroldo (CN)",
     "telefono": "+39 0174 789131 · +39 347 8904709",
     "web": "https://www.trattoriasalvetti.it"
   },
@@ -3245,7 +3965,9 @@ var GUIDA=[
     "indirizzo": "Via Roma 21",
     "citta": "Castellino Tanaro",
     "provincia": "CN",
+    "prov": "CN",
     "regione": "Piemonte",
+    "luogo": "Castellino Tanaro (CN)",
     "telefono": "+39 0174 785137",
     "web": ""
   },
@@ -3254,7 +3976,9 @@ var GUIDA=[
     "indirizzo": "Frazione Rioscone 112",
     "citta": "Asti",
     "provincia": "AT",
+    "prov": "AT",
     "regione": "Piemonte",
+    "luogo": "Asti (AT)",
     "telefono": "+39 0141 212674",
     "web": ""
   },
@@ -3263,7 +3987,9 @@ var GUIDA=[
     "indirizzo": "Via Roma 4",
     "citta": "Olmo Gentile",
     "provincia": "AT",
+    "prov": "AT",
     "regione": "Piemonte",
+    "luogo": "Olmo Gentile (AT)",
     "telefono": "+39 0144 953613",
     "web": "https://www.ristorantedellaposta.it"
   },
@@ -3272,7 +3998,9 @@ var GUIDA=[
     "indirizzo": "Piazza S. Martino 5",
     "citta": "Vezza d'Alba",
     "provincia": "CN",
+    "prov": "CN",
     "regione": "Piemonte",
+    "luogo": "Vezza d'Alba (CN)",
     "telefono": "+39 0173 65114 · +39 333 9013173",
     "web": "https://www.divinroero.com"
   },
@@ -3281,7 +4009,9 @@ var GUIDA=[
     "indirizzo": "Regione Madonna della Neve 2",
     "citta": "Cessole",
     "provincia": "AT",
+    "prov": "AT",
     "regione": "Piemonte",
+    "luogo": "Cessole (AT)",
     "telefono": "+39 0144 850402",
     "web": "https://www.ristorantemadonnadellaneve.it"
   },
@@ -3290,7 +4020,9 @@ var GUIDA=[
     "indirizzo": "Vicolo Adami 47",
     "citta": "Alghero",
     "provincia": "SS",
+    "prov": "SS",
     "regione": "Sardegna",
+    "luogo": "Alghero (SS)",
     "telefono": "+39 079 9731126",
     "web": "https://alrefettorio.eatbu.com"
   },
@@ -3299,149 +4031,150 @@ var GUIDA=[
     "indirizzo": "Via Varesina 177",
     "citta": "Milano",
     "provincia": "MI",
+    "prov": "MI",
     "regione": "Lombardia",
+    "luogo": "Milano (MI)",
     "telefono": "+39 02 85689735",
     "web": "https://www.ristoranteabba.com"
   }
 ];
-
 var GUIDA_REGPROV={
-  "Piemonte": {
-    "AL": 1,
-    "TO": 1,
-    "VB": 1,
-    "CN": 1,
-    "AT": 1
-  },
-  "Campania": {
-    "SA": 1,
-    "AV": 1,
-    "NA": 1,
-    "CE": 1
-  },
-  "Svizzera": {
-    "ZH": 1,
-    "TI": 1,
-    "CH": 1
-  },
-  "Friuli-Venezia Giulia": {
-    "TS": 1,
-    "UD": 1,
-    "GO": 1
-  },
-  "Lombardia": {
-    "MI": 1,
-    "MB": 1,
-    "CO": 1,
-    "BG": 1,
-    "SO": 1,
-    "MN": 1,
-    "PV": 1,
-    "CR": 1,
-    "LC": 1,
-    "BS": 1,
-    "VA": 1,
-    "Mi": 1
-  },
-  "Abruzzo": {
-    "CH": 1,
-    "TE": 1
-  },
-  "Trentino-Alto Adige": {
-    "TN": 1
-  },
-  "Spagna": {
-    "ES": 1
-  },
-  "Marche": {
-    "PU": 1,
-    "AN": 1,
-    "PS": 1,
-    "AP": 1
-  },
-  "Emilia-Romagna": {
-    "BO": 1,
-    "PR": 1,
-    "RE": 1,
-    "PC": 1,
-    "RA": 1,
-    "MO": 1,
-    "RN": 1,
-    "FC": 1,
-    "RM": 1
-  },
-  "Toscana": {
-    "AR": 1,
-    "FI": 1,
-    "SI": 1,
-    "PI": 1,
-    "GR": 1,
-    "LU": 1,
-    "LI": 1,
-    "MS": 1
-  },
-  "Puglia": {
-    "LE": 1,
-    "BT": 1,
-    "BR": 1,
-    "TA": 1,
-    "FG": 1
-  },
-  "Veneto": {
-    "VE": 1,
-    "VR": 1,
-    "RO": 1,
-    "TV": 1,
-    "VI": 1
-  },
-  "Calabria": {
-    "CS": 1,
-    "RC": 1,
-    "AN": 1
-  },
-  "Francia": {
-    "F": 1
-  },
-  "Molise": {
-    "IS": 1,
-    "CB": 1
-  },
-  "Sicilia": {
-    "SR": 1,
-    "TP": 1,
-    "PA": 1
-  },
-  "Liguria": {
-    "GE": 1,
-    "SP": 1,
-    "SV": 1,
-    "IM": 1
-  },
-  "Lazio": {
-    "RM": 1,
-    "VT": 1
-  },
-  "Grecia": {
-    "GR": 1
-  },
-  "Stati Uniti": {
-    "NY": 1
-  },
-  "Sardegna": {
-    "CA": 1,
-    "OR": 1,
-    "SS": 1
-  },
-  "Umbria": {
-    "PG": 1
-  },
-  "Portogallo": {
-    "P": 1
-  },
-  "Austria": {
-    "A": 1
-  },
-  "Inghilterra": {
-    "GB": 1
-  }
+  "Piemonte": [
+    "AL",
+    "AT",
+    "CN",
+    "TO",
+    "VB"
+  ],
+  "Campania": [
+    "AV",
+    "CE",
+    "NA",
+    "SA"
+  ],
+  "Svizzera": [
+    "CH",
+    "TI",
+    "ZH"
+  ],
+  "Friuli-Venezia Giulia": [
+    "GO",
+    "TS",
+    "UD"
+  ],
+  "Lombardia": [
+    "BG",
+    "BS",
+    "CO",
+    "CR",
+    "LC",
+    "MB",
+    "MI",
+    "MN",
+    "Mi",
+    "PV",
+    "SO",
+    "VA"
+  ],
+  "Abruzzo": [
+    "CH",
+    "TE"
+  ],
+  "Trentino-Alto Adige": [
+    "TN"
+  ],
+  "Spagna": [
+    "ES"
+  ],
+  "Marche": [
+    "AN",
+    "AP",
+    "PS",
+    "PU"
+  ],
+  "Emilia-Romagna": [
+    "BO",
+    "FC",
+    "MO",
+    "PC",
+    "PR",
+    "RA",
+    "RE",
+    "RM",
+    "RN"
+  ],
+  "Toscana": [
+    "AR",
+    "FI",
+    "GR",
+    "LI",
+    "LU",
+    "MS",
+    "PI",
+    "SI"
+  ],
+  "Puglia": [
+    "BR",
+    "BT",
+    "FG",
+    "LE",
+    "TA"
+  ],
+  "Veneto": [
+    "RO",
+    "TV",
+    "VE",
+    "VI",
+    "VR"
+  ],
+  "Calabria": [
+    "AN",
+    "CS",
+    "RC"
+  ],
+  "Francia": [
+    "F"
+  ],
+  "Molise": [
+    "CB",
+    "IS"
+  ],
+  "Sicilia": [
+    "PA",
+    "SR",
+    "TP"
+  ],
+  "Liguria": [
+    "GE",
+    "IM",
+    "SP",
+    "SV"
+  ],
+  "Lazio": [
+    "RM",
+    "VT"
+  ],
+  "Grecia": [
+    "GR"
+  ],
+  "Stati Uniti": [
+    "NY"
+  ],
+  "Sardegna": [
+    "CA",
+    "OR",
+    "SS"
+  ],
+  "Umbria": [
+    "PG"
+  ],
+  "Portogallo": [
+    "P"
+  ],
+  "Austria": [
+    "A"
+  ],
+  "Inghilterra": [
+    "GB"
+  ]
 };
