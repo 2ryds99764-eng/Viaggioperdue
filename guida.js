@@ -1,3787 +1,3306 @@
-/* ===================================================================
-   T42 · VIAGGIOPERDUE — GUIDA AI RISTORANTI
-   Generato automaticamente dall'Excel — non modificare a mano.
-=================================================================== */
-window.GUIDA = [
+/* T42 · VIAGGIOPERDUE — GUIDA RISTORANTI */
+var GUIDA=[
   {
     "nome": "Accademia",
-    "luogo": "Casale Monferrato · AL",
+    "indirizzo": "Via Mameli 29",
+    "citta": "Casale Monferrato",
+    "provincia": "AL",
     "regione": "Piemonte",
-    "prov": "AL",
-    "tel": "+390142452269",
-    "web": "https://www.accademiaristorante.it",
-    "mappa": "Via Mameli 29, Casale Monferrato",
-    "note": ""
+    "telefono": "+390142452269",
+    "web": "https://www.accademiaristorante.it"
   },
   {
     "nome": "Acqua Pazza",
-    "luogo": "Cetara · SA",
+    "indirizzo": "Corso Garibaldi 38",
+    "citta": "Cetara",
+    "provincia": "SA",
     "regione": "Campania",
-    "prov": "SA",
-    "tel": "+39 089 261606",
-    "web": "http://www.acquapazza.it",
-    "mappa": "Corso Garibaldi 38, Cetara",
-    "note": ""
+    "telefono": "+39 089 261606",
+    "web": "http://www.acquapazza.it"
   },
   {
-    "nome": "Gandria",
-    "luogo": "Zurigo · ZH",
+    "nome": "Adriano",
+    "indirizzo": "Rudolfstrasse 6",
+    "citta": "Zurigo",
+    "provincia": "ZH",
     "regione": "Svizzera",
-    "prov": "ZH",
-    "tel": "+41 044 422 72 42",
-    "web": "https://www.restaurantgandria.ch/it/adriano/",
-    "mappa": "Rudolfstrasse 6,, Zurigo",
-    "note": ""
+    "telefono": "+41 44 422 72 42",
+    "web": "https://www.restaurantgandria.ch"
   },
   {
     "nome": "Al Bagatto",
-    "luogo": "Trieste · TS",
+    "indirizzo": "Via Luigi Cadorna 7",
+    "citta": "Trieste",
+    "provincia": "TS",
     "regione": "Friuli-Venezia Giulia",
-    "prov": "TS",
-    "tel": "+39 040 301771",
-    "web": "",
-    "mappa": "Via Luigi Cadorna 7, Trieste",
-    "note": ""
+    "telefono": "+39 040 301771",
+    "web": "https://www.albagatto.it"
   },
   {
     "nome": "Al Fresco",
-    "luogo": "Milano · MI",
+    "indirizzo": "Via Savona 50",
+    "citta": "Milano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 02 49533630",
-    "web": "http://www.alfrescomilano.it",
-    "mappa": "Via Savona 50, Milano",
-    "note": ""
+    "telefono": "+39 02 49533630",
+    "web": "http://www.alfrescomilano.it"
   },
   {
     "nome": "Al Galeazzino",
-    "luogo": "Montevecchia · MB",
+    "indirizzo": "Via Galeazzino 4, Montevecchia (LC)",
+    "citta": "Montevecchia",
+    "provincia": "MB",
     "regione": "Lombardia",
-    "prov": "MB",
-    "tel": "+39 039 9930850",
-    "web": "",
-    "mappa": "Via Galeazzino 4, Montevecchia (LC), Montevecchia",
-    "note": "Chiuso il venerdì"
+    "telefono": "+39 039 9930850",
+    "web": "https://algaleazzino.wixsite.com/algaleazzino"
   },
   {
     "nome": "Al Mercato",
-    "luogo": "Milano · MI",
+    "indirizzo": "Via Sant'Eufemia 16",
+    "citta": "Milano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 02 87237167",
-    "web": "https://www.al-mercato.it",
-    "mappa": "Via Sant'Eufemia 16, Milano",
-    "note": ""
+    "telefono": "+39 02 87237167",
+    "web": "https://www.al-mercato.it"
   },
   {
     "nome": "Al Metrò",
-    "luogo": "San Salvo · CH",
+    "indirizzo": "Via F. Magellano 35",
+    "citta": "San Salvo",
+    "provincia": "CH",
     "regione": "Abruzzo",
-    "prov": "CH",
-    "tel": "+39 0873 803428",
-    "web": "https://www.ristorantealmetro.it",
-    "mappa": "Via F. Magellano 35, San Salvo",
-    "note": "Chiuso domenica sera e lunedì"
+    "telefono": "+39 0873 803428",
+    "web": "https://www.ristorantealmetro.it"
   },
   {
     "nome": "Al Porto",
-    "luogo": "Milano · MI",
+    "indirizzo": "Piazza General Antonio Cantore 13",
+    "citta": "Milano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 02 89407425",
-    "web": "https://alportomilano.it",
-    "mappa": "Piazza General Antonio Cantore 13, Milano",
-    "note": ""
+    "telefono": "+39 02 89407425",
+    "web": "https://alportomilano.it"
   },
   {
     "nome": "Stadera",
-    "luogo": "Milano · MI",
+    "indirizzo": "Largo della Crocetta 1",
+    "citta": "Milano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 329 0112243",
-    "web": "",
-    "mappa": "Largo della Crocetta 1, Milano",
-    "note": ""
-  },
-  {
-    "nome": "Alessandro",
-    "luogo": "Lecce · LE",
-    "regione": "Puglia",
-    "prov": "LE",
-    "tel": "+39 0832 243619",
-    "web": "https://www.alexristorantelecce.it",
-    "mappa": "Piazzetta Arco di Trionfo · Porta Napoli, Lecce",
-    "note": ""
+    "telefono": "+39 329 0112243",
+    "web": "https://staderamilano.it"
   },
   {
     "nome": "Alessandro Gilmozzi",
-    "luogo": "Cavalese · TN",
+    "indirizzo": "Piazza Cesare Battisti 11",
+    "citta": "Cavalese",
+    "provincia": "TN",
     "regione": "Trentino-Alto Adige",
-    "prov": "TN",
-    "tel": "+39 0462 340074",
-    "web": "https://www.alessandrogilmozzi.it",
-    "mappa": "Piazza Cesare Battisti 11, Cavalese",
-    "note": ""
+    "telefono": "+39 0462 340074",
+    "web": "https://www.alessandrogilmozzi.it"
   },
   {
-    "nome": "Alessandro Nocella",
-    "luogo": "Madonna di Campiglio · TN",
+    "nome": "Due Pini",
+    "indirizzo": "Via Spinale 37b",
+    "citta": "Madonna di Campiglio",
+    "provincia": "TN",
     "regione": "Trentino-Alto Adige",
-    "prov": "TN",
-    "tel": "+39 349 5140485",
-    "web": "",
-    "mappa": "Via Spinale 37b, Madonna di Campiglio",
-    "note": ""
+    "telefono": "+39 349 5140485",
+    "web": "https://www.ristoranteduepini.com"
   },
   {
-    "nome": "Alessandro Rinaldi",
-    "luogo": "Como · CO",
+    "nome": "Sottovoce",
+    "indirizzo": "Piazza Cavour 24",
+    "citta": "Como",
+    "provincia": "CO",
     "regione": "Lombardia",
-    "prov": "CO",
-    "tel": "+39 348 9156166",
-    "web": "https://www.vistapalazzo.com/lago_como/ristorante-sotto",
-    "mappa": "Piazza Cavour 24, Como",
-    "note": ""
+    "telefono": "+39 348 9156166",
+    "web": "https://www.vistapalazzo.com/lago_como/ristorante-sottovoce/"
   },
   {
     "nome": "Alfonso a Mare",
-    "luogo": "Praiano · SA",
+    "indirizzo": "Via Marina di Praia 6",
+    "citta": "Praiano",
+    "provincia": "SA",
     "regione": "Campania",
-    "prov": "SA",
-    "tel": "+39 089 874091",
-    "web": "https://alfonsoamare.it",
-    "mappa": "Via Marina di Praia 6, Praiano",
-    "note": "🌳🌅♥️"
+    "telefono": "+39 089 874091",
+    "web": "https://alfonsoamare.it"
   },
   {
     "nome": "Alkimia",
-    "luogo": "Barcellona · ES",
+    "indirizzo": "Carrer de la indústria 70",
+    "citta": "Barcellona",
+    "provincia": "ES",
     "regione": "Spagna",
-    "prov": "ES",
-    "tel": "+34 932 076 115",
-    "web": "https://www.alkimia.com",
-    "mappa": "Carrer de la indústria 70, Barcellona",
-    "note": "Chiuso sabato a mezzogiorno e domenica"
+    "telefono": "+34 932 076 115",
+    "web": "https://www.alkimia.com"
   },
   {
     "nome": "Alla Lanterna",
-    "luogo": "Metaurilia di Fano · PU",
+    "indirizzo": "S.S. Adriatica Sud 78",
+    "citta": "Metaurilia di Fano",
+    "provincia": "PU",
     "regione": "Marche",
-    "prov": "PU",
-    "tel": "+39 0721 884748",
-    "web": "https://www.allalanterna.com",
-    "mappa": "S.S. Adriatica Sud 78, Metaurilia di Fano",
-    "note": "Chiuso il lunedì e la domenica a pranzo"
+    "telefono": "+39 0721 884748",
+    "web": "https://www.allalanterna.com"
+  },
+  {
+    "nome": "Amaltea",
+    "indirizzo": "Via Guglielmo Pepe 38",
+    "citta": "Milano",
+    "provincia": "MI",
+    "regione": "Lombardia",
+    "telefono": "+39 02 606340",
+    "web": "https://www.ristoranteamaltea.it"
   },
   {
     "nome": "Amerigo 1934",
-    "luogo": "Savigno · BO",
+    "indirizzo": "Via Marconi 14-16",
+    "citta": "Savigno",
+    "provincia": "BO",
     "regione": "Emilia-Romagna",
-    "prov": "BO",
-    "tel": "+39 051 6708326",
-    "web": "https://www.amerigo1934.it",
-    "mappa": "Via Marconi 14-16, Savigno",
-    "note": "Premiate trattorie italiane"
+    "telefono": "+39 051 6708326",
+    "web": "https://www.amerigo1934.it"
   },
   {
-    "nome": "Andrea Campani",
-    "luogo": "San Giustino Valdarno · AR",
+    "nome": "Osteria del Borro",
+    "indirizzo": "Località Borro 1",
+    "citta": "San Giustino Valdarno",
+    "provincia": "AR",
     "regione": "Toscana",
-    "prov": "AR",
-    "tel": "+39 331 1076958",
-    "web": "",
-    "mappa": "Località Borro 1, San Giustino Valdarno",
-    "note": ""
-  },
-  {
-    "nome": "Al Refettorio",
-    "luogo": "Alghero · SS",
-    "regione": "Sardegna",
-    "prov": "SS",
-    "tel": "+39 079 9731126",
-    "web": "https://alrefettorio.eatbu.com/?lang=it",
-    "mappa": "Vicolo Adami 47, Alghero",
-    "note": ""
+    "telefono": "+39 331 1076958",
+    "web": "https://www.osteriadelborro.it"
   },
   {
     "nome": "Le Grotticelle",
-    "luogo": "Caggiano · SA",
+    "indirizzo": "Grotticelle 1",
+    "citta": "Caggiano",
+    "provincia": "SA",
     "regione": "Campania",
-    "prov": "SA",
-    "tel": "+3909751966171",
-    "web": "https://www.legrotticelle.it",
-    "mappa": "Grotticelle 1, Caggiano",
-    "note": ""
+    "telefono": "+3909751966171",
+    "web": "https://www.legrotticelle.it"
   },
   {
     "nome": "Angelo",
-    "luogo": "Bergamo · BG",
+    "indirizzo": "Via Moroni 88",
+    "citta": "Bergamo",
+    "provincia": "BG",
     "regione": "Lombardia",
-    "prov": "BG",
-    "tel": "+39 035 0787497",
-    "web": "",
-    "mappa": "Via Moroni 88, Bergamo",
-    "note": "Vini naturali · Chiuso il lunedì e domenica sera"
+    "telefono": "+39 035 0787497",
+    "web": ""
   },
   {
     "nome": "Anima & Cuore",
-    "luogo": "Galatina · LE",
+    "indirizzo": "Corso Garibaldi 7",
+    "citta": "Galatina",
+    "provincia": "LE",
     "regione": "Puglia",
-    "prov": "LE",
-    "tel": "+39 0836 564301",
-    "web": "https://www.animaecuore.it",
-    "mappa": "Corso Garibaldi 7, Galatina",
-    "note": ""
+    "telefono": "+39 0836 564301",
+    "web": "https://www.animaecuore.it"
   },
   {
     "nome": "Anime Sante",
-    "luogo": "Tricase · LE",
+    "indirizzo": "Lungomare Cristoforo Colombo 147 · Borgo Pes",
+    "citta": "Tricase",
+    "provincia": "LE",
     "regione": "Puglia",
-    "prov": "LE",
-    "tel": "+39 0833 775213",
-    "web": "",
-    "mappa": "Lungomare Cristoforo Colombo 147 · Borgo Pes, Tricase",
-    "note": "Pescaturismo"
+    "telefono": "+39 0833 775213",
+    "web": ""
   },
   {
-    "nome": "Anna Altavilla",
-    "luogo": "Bianzone · SO",
+    "nome": "Altavilla",
+    "indirizzo": "Via Monti 46",
+    "citta": "Bianzone",
+    "provincia": "SO",
     "regione": "Lombardia",
-    "prov": "SO",
-    "tel": "+39 0342 720355",
-    "web": "",
-    "mappa": "Via Monti 46, Bianzone",
-    "note": ""
+    "telefono": "+39 0342 720355",
+    "web": ""
   },
   {
     "nome": "Antica Corte Pallavicina Relais",
-    "luogo": "Polesine Zibello · PR",
+    "indirizzo": "Strada Palazzo Due Torri 3",
+    "citta": "Polesine Zibello",
+    "provincia": "PR",
     "regione": "Emilia-Romagna",
-    "prov": "PR",
-    "tel": "+39 0524 936539",
-    "web": "https://www.acpallavicina.com",
-    "mappa": "Strada Palazzo Due Torri 3, Polesine Zibello",
-    "note": ""
+    "telefono": "+39 0524 936539",
+    "web": "https://www.acpallavicina.com"
   },
   {
     "nome": "Antica Osteria ai Ranari",
-    "luogo": "Mantova · MN",
+    "indirizzo": "Via Trieste 11",
+    "citta": "Mantova",
+    "provincia": "MN",
     "regione": "Lombardia",
-    "prov": "MN",
-    "tel": "+390376328431",
-    "web": "https://www.ranari.it",
-    "mappa": "Via Trieste 11, Mantova",
-    "note": "Chiuso il lunedì"
+    "telefono": "+390376328431",
+    "web": "https://www.ranari.it"
   },
   {
     "nome": "Antica Osteria Cera",
-    "luogo": "Lughetto · VE",
+    "indirizzo": "Via Marghera 24",
+    "citta": "Lughetto",
+    "provincia": "VE",
     "regione": "Veneto",
-    "prov": "VE",
-    "tel": "+39 041 5185009",
-    "web": "",
-    "mappa": "Via Marghera 24, Lughetto",
-    "note": ""
+    "telefono": "+39 041 5185009",
+    "web": ""
   },
   {
     "nome": "Antica Trattoria Del Gallo",
-    "luogo": "Vigano Certosino · MI",
+    "indirizzo": "Via Privata Gerli 3",
+    "citta": "Vigano Certosino",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 02 9085276",
-    "web": "https://www.trattoriadelgallo.com",
-    "mappa": "Via Privata Gerli 3, Vigano Certosino",
-    "note": "Premiate trattorie italiane"
+    "telefono": "+39 02 9085276",
+    "web": "https://www.trattoriadelgallo.com"
   },
   {
     "nome": "Antica Trattoria di' Tramway",
-    "luogo": "Signa · FI",
+    "indirizzo": "Via Pistoiese 353-357 · Localita S. Angelo a",
+    "citta": "Signa",
+    "provincia": "FI",
     "regione": "Toscana",
-    "prov": "FI",
-    "tel": "+39 055 8778203",
-    "web": "https://antica-trattoria-di-tramway.eatbu.com/?lang=it",
-    "mappa": "Via Pistoiese 353-357 · Localita S. Angelo a, Signa",
-    "note": "8,1 km dall'uscita A11 Prato Est"
+    "telefono": "+39 055 8778203",
+    "web": "https://antica-trattoria-di-tramway.eatbu.com/?lang=it"
   },
   {
     "nome": "Antiche Sere",
-    "luogo": "Torino · TO",
+    "indirizzo": "Via Cenischia 9",
+    "citta": "Torino",
+    "provincia": "TO",
     "regione": "Piemonte",
-    "prov": "TO",
-    "tel": "+39 011 3854347",
-    "web": "",
-    "mappa": "Via Cenischia 9, Torino",
-    "note": "Aperto solo la sera · Chiuso la domenica"
+    "telefono": "+39 011 3854347",
+    "web": ""
   },
   {
     "nome": "Antichi Sapori",
-    "luogo": "Gaione · PR",
+    "indirizzo": "Strada Montanara 318",
+    "citta": "Gaione",
+    "provincia": "PR",
     "regione": "Emilia-Romagna",
-    "prov": "PR",
-    "tel": "+39 0521 648165",
-    "web": "https://www.trattoria-antichisapori.com",
-    "mappa": "Strada Montanara 318, Gaione",
-    "note": "Savarin di riso con ricetta di Mirella Cantarelli · Chiuso martedì e mercoledì"
+    "telefono": "+39 0521 648165",
+    "web": "https://www.trattoria-antichisapori.com"
   },
   {
-    "nome": "Antonello Sardi",
-    "luogo": "Firenze · FI",
+    "nome": "Serrae",
+    "indirizzo": "Via Frà Giovanni da Fiesole detto l'Angelico 35",
+    "citta": "Fiesole",
+    "provincia": "FI",
     "regione": "Toscana",
-    "prov": "FI",
-    "tel": "+39 055 5535677",
-    "web": "https://www.borgointhecity.com",
-    "mappa": "Lungarno Cellini 69/r, Firenze",
-    "note": ""
+    "telefono": "+39 055 597252",
+    "web": "https://www.ristoranteserrae.it"
   },
   {
     "nome": "La Caravella",
-    "luogo": "Amalfi · SA",
+    "indirizzo": "Via Matteo Camera 12",
+    "citta": "Amalfi",
+    "provincia": "SA",
     "regione": "Campania",
-    "prov": "SA",
-    "tel": "+39 089 871029",
-    "web": "http://www.ristorantelacaravella.it",
-    "mappa": "Via Matteo Camera 12, Amalfi",
-    "note": "Chiuso il martedì"
+    "telefono": "+39 089 871029",
+    "web": "http://www.ristorantelacaravella.it"
   },
   {
     "nome": "Riva",
-    "luogo": "Numana · AN",
+    "indirizzo": "Via Flaminia 109, Numana",
+    "citta": "Numana",
+    "provincia": "AN",
     "regione": "Marche",
-    "prov": "AN",
-    "tel": "+39 0719720971",
-    "web": "https://www.viewnumana.it/ristorante-view",
-    "mappa": "Via Flaminia 109, Numana, Numana",
-    "note": ""
+    "telefono": "+39 0719720971",
+    "web": "https://www.viewnumana.it/ristorante-view"
   },
   {
     "nome": "Aquila Edelweiss",
-    "luogo": "Camigliatello Silano · CS",
+    "indirizzo": "Viale Stazione 13/15",
+    "citta": "Camigliatello Silano",
+    "provincia": "CS",
     "regione": "Calabria",
-    "prov": "CS",
-    "tel": "+39 0984 578044",
-    "web": "https://www.hotelaquilaedelweiss.com",
-    "mappa": "Viale Stazione 13/15, Camigliatello Silano",
-    "note": ""
+    "telefono": "+39 0984 578044",
+    "web": "https://www.hotelaquilaedelweiss.com"
   },
   {
     "nome": "Arcangelo",
-    "luogo": "Sant'Angelo dei Lombardi · AV",
+    "indirizzo": "Borgo San Rocco",
+    "citta": "Sant'Angelo dei Lombardi",
+    "provincia": "AV",
     "regione": "Campania",
-    "prov": "AV",
-    "tel": "+39 0827 23888",
-    "web": "",
-    "mappa": "Borgo San Rocco, Sant'Angelo dei Lombardi",
-    "note": ""
+    "telefono": "+39 0827 23888",
+    "web": ""
   },
   {
     "nome": "Archivolto Osteria Nostrale",
-    "luogo": "Ovada · AL",
+    "indirizzo": "Piazza Garibaldi 32",
+    "citta": "Ovada",
+    "provincia": "AL",
     "regione": "Piemonte",
-    "prov": "AL",
-    "tel": "+39 0143 835208",
-    "web": "https://www.archivoltoosterianostrale.com",
-    "mappa": "Piazza Garibaldi 32, Ovada",
-    "note": "Chiuso il mercoledì"
+    "telefono": "+39 0143 835208",
+    "web": "https://www.archivoltoosterianostrale.com"
   },
   {
     "nome": "Atelier Maître Albert",
-    "luogo": "Parigi · F",
+    "indirizzo": "1 rue Maître Albert",
+    "citta": "Parigi",
+    "provincia": "F",
     "regione": "Francia",
-    "prov": "F",
-    "tel": "+33 (0) 1 56 81 30 01",
-    "web": "https://www.ateliermaitrealbert.com",
-    "mappa": "1 rue Maître Albert, Parigi",
-    "note": ""
+    "telefono": "+33 (0) 1 56 81 30 01",
+    "web": "https://www.ateliermaitrealbert.com"
   },
   {
-    "nome": "Aurora Mazzucchelli",
-    "luogo": "Sasso Marconi · BO",
+    "nome": "Casa Mazzucchelli",
+    "indirizzo": "Porretana 291",
+    "citta": "Sasso Marconi",
+    "provincia": "BO",
     "regione": "Emilia-Romagna",
-    "prov": "BO",
-    "tel": "+39 051 846216",
-    "web": "https://www.casamazzucchelli.com",
-    "mappa": "Porretana 291, Sasso Marconi",
-    "note": "Inserire nel navigatore: Via Mezzana - Sasso Marconi"
+    "telefono": "+39 051 846216",
+    "web": "https://www.casamazzucchelli.com"
   },
   {
     "nome": "Ausa",
-    "luogo": "Isernia · IS",
+    "indirizzo": "Via Occidentale 109",
+    "citta": "Isernia",
+    "provincia": "IS",
     "regione": "Molise",
-    "prov": "IS",
-    "tel": "+39 0865 271528",
-    "web": "https://www.ausaristorante.it",
-    "mappa": "Via Occidentale 109, Isernia",
-    "note": "Chiuso domenica a cena e l'intero mercoledì"
+    "telefono": "+39 0865 271528",
+    "web": "https://www.ausaristorante.it"
   },
   {
     "nome": "A’ Cava",
-    "luogo": "Rosolini · SR",
+    "indirizzo": "Corso Savoia",
+    "citta": "Rosolini",
+    "provincia": "SR",
     "regione": "Sicilia",
-    "prov": "SR",
-    "tel": "+39 0931 453625",
-    "web": "https://acavaristorante.it",
-    "mappa": "Corso Savoia, Rosolini",
-    "note": "Chiuso il lunedì"
+    "telefono": "+39 0931 453625",
+    "web": "https://acavaristorante.it"
   },
   {
     "nome": "Bacco",
-    "luogo": "Barletta · BT",
+    "indirizzo": "Piazza Marina 30",
+    "citta": "Barletta",
+    "provincia": "BT",
     "regione": "Puglia",
-    "prov": "BT",
-    "tel": "",
-    "web": "https://www.ristorantebacco.it",
-    "mappa": "Piazza Marina 30, Barletta",
-    "note": ""
+    "telefono": "",
+    "web": "https://www.ristorantebacco.it"
   },
   {
     "nome": "Badessa",
-    "luogo": "Casalgrande · RE",
+    "indirizzo": "Via Case Secchia 2 A",
+    "citta": "Casalgrande",
+    "provincia": "RE",
     "regione": "Emilia-Romagna",
-    "prov": "RE",
-    "tel": "+39 0522 989138",
-    "web": "https://www.ristorantebadessa.it",
-    "mappa": "Via Case Secchia 2 A, Casalgrande",
-    "note": "Chiuso il lunedi · Aperto mezzogiorno e sera"
+    "telefono": "+39 0522 989138",
+    "web": "https://www.ristorantebadessa.it"
   },
   {
     "nome": "Baita al Doss",
-    "luogo": "Caspoggio · SO",
+    "indirizzo": "Via San Giovanni Bosco 115",
+    "citta": "Caspoggio",
+    "provincia": "SO",
     "regione": "Lombardia",
-    "prov": "SO",
-    "tel": "+39 0342 452962",
-    "web": "",
-    "mappa": "Via San Giovanni Bosco 115, Caspoggio",
-    "note": ""
+    "telefono": "+39 0342 452962",
+    "web": ""
   },
   {
     "nome": "BelAmi",
-    "luogo": "Maglie · LE",
+    "indirizzo": "Via Roma 86",
+    "citta": "Maglie",
+    "provincia": "LE",
     "regione": "Puglia",
-    "prov": "LE",
-    "tel": "+39 0836 312930",
-    "web": "https://www.hotelbelami.it",
-    "mappa": "Via Roma 86, Maglie",
-    "note": ""
+    "telefono": "+39 0836 312930",
+    "web": "https://www.hotelbelami.it"
   },
   {
     "nome": "Belrespiro",
-    "luogo": "Agazzano · PC",
+    "indirizzo": "Via Pablo Neruda 18",
+    "citta": "Agazzano",
+    "provincia": "PC",
     "regione": "Emilia-Romagna",
-    "prov": "PC",
-    "tel": "+39 328 3157448",
-    "web": "",
-    "mappa": "Via Pablo Neruda 18, Agazzano",
-    "note": "Chiuso: lunedì, martedì"
-  },
-  {
-    "nome": "Beppe Schino",
-    "luogo": "Bari · BA",
-    "regione": "Puglia",
-    "prov": "BA",
-    "tel": "+39 080 5588563",
-    "web": "",
-    "mappa": "Via Abbrescia 99, Bari",
-    "note": "Chiuso sabato a pranzo e domenica"
+    "telefono": "+39 328 3157448",
+    "web": ""
   },
   {
     "nome": "Bis Osteria Contemporanea",
-    "luogo": "Colle di Val d'Elsa · SI",
+    "indirizzo": "Via XX Settembre 50, Colle di Val d'Elsa",
+    "citta": "Colle di Val d'Elsa",
+    "provincia": "SI",
     "regione": "Toscana",
-    "prov": "SI",
-    "tel": "+39 338 7706128",
-    "web": "",
-    "mappa": "Via XX Settembre 50, Colle di Val d'Elsa, Colle di Val d'Elsa",
-    "note": ""
+    "telefono": "+39 338 7706128",
+    "web": ""
   },
   {
     "nome": "Boivin",
-    "luogo": "Levico Terme · TN",
+    "indirizzo": "Via Garibaldi 9",
+    "citta": "Levico Terme",
+    "provincia": "TN",
     "regione": "Trentino-Alto Adige",
-    "prov": "TN",
-    "tel": "+39 0461 701670",
-    "web": "https://www.boivin.it",
-    "mappa": "Via Garibaldi 9, Levico Terme",
-    "note": "Premiate trattorie italiane"
+    "telefono": "+39 0461 701670",
+    "web": "https://www.boivin.it"
   },
   {
     "nome": "Bros'",
-    "luogo": "Lecce · LE",
+    "indirizzo": "Via Acaja 2",
+    "citta": "Lecce",
+    "provincia": "LE",
     "regione": "Puglia",
-    "prov": "LE",
-    "tel": "+39 0832 092601",
-    "web": "https://www.brosrestaurant.it",
-    "mappa": "Via Acaja 2, Lecce",
-    "note": ""
+    "telefono": "+39 0832 092601",
+    "web": "https://www.brosrestaurant.it"
   },
   {
     "nome": "Bulgari Niko Romito",
-    "luogo": "Milano · MI",
+    "indirizzo": "Via Privata Fratelli Gabba 7/B",
+    "citta": "Milano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39028058051",
-    "web": "https://www.bulgarihotels.com/milan/dining/il-ristorante",
-    "mappa": "Via Privata Fratelli Gabba 7/B, Milano",
-    "note": ""
+    "telefono": "+39028058051",
+    "web": "https://www.bulgarihotels.com/milan/dining/il-ristorante"
   },
   {
     "nome": "Buscone",
-    "luogo": "Varzi · PV",
+    "indirizzo": "Località Bosmenso Superiore 41",
+    "citta": "Varzi",
+    "provincia": "PV",
     "regione": "Lombardia",
-    "prov": "PV",
-    "tel": "+39 0383 52224",
-    "web": "",
-    "mappa": "Località Bosmenso Superiore 41, Varzi",
-    "note": ""
+    "telefono": "+39 0383 52224",
+    "web": ""
   },
   {
     "nome": "Caffetteria la Fugascina",
-    "luogo": "Mergozzo · VB",
+    "indirizzo": "Piazza Vittorio Veneto 8",
+    "citta": "Mergozzo",
+    "provincia": "VB",
     "regione": "Piemonte",
-    "prov": "VB",
-    "tel": "+39 0323 800970",
-    "web": "",
-    "mappa": "Piazza Vittorio Veneto 8, Mergozzo",
-    "note": ""
+    "telefono": "+39 0323 800970",
+    "web": ""
   },
   {
     "nome": "Caffè la Crepa",
-    "luogo": "Isola Dovarese · CR",
+    "indirizzo": "Piazza Matteotti 14",
+    "citta": "Isola Dovarese",
+    "provincia": "CR",
     "regione": "Lombardia",
-    "prov": "CR",
-    "tel": "+39 0375 396161",
-    "web": "https://www.caffelacrepa.it",
-    "mappa": "Piazza Matteotti 14, Isola Dovarese",
-    "note": "Premiate trattorie italiane"
+    "telefono": "+39 0375 396161",
+    "web": "https://www.caffelacrepa.it"
   },
   {
     "nome": "Cantina Siciliana",
-    "luogo": "Trapani · TP",
+    "indirizzo": "Via Giudecca 36",
+    "citta": "Trapani",
+    "provincia": "TP",
     "regione": "Sicilia",
-    "prov": "TP",
-    "tel": "+39 0923 28673",
-    "web": "",
-    "mappa": "Via Giudecca 36, Trapani",
-    "note": "Chiuso il mercoledì, mai d'estate · Aperto a mezzogiorno e alla sera ·"
+    "telefono": "+39 0923 28673",
+    "web": ""
   },
   {
     "nome": "Carmine Nicoletti",
-    "luogo": "Laurino · SA",
+    "indirizzo": "Località Vesalo",
+    "citta": "Laurino",
+    "provincia": "SA",
     "regione": "Campania",
-    "prov": "SA",
-    "tel": "+393498546265",
-    "web": "https://www.chaletnicoletti.it",
-    "mappa": "Località Vesalo, Laurino",
-    "note": "Strada Provinciale 371 · Cilento"
+    "telefono": "+393498546265",
+    "web": "https://www.chaletnicoletti.it"
   },
   {
     "nome": "Casa degli Spiriti",
-    "luogo": "Costermano · VR",
+    "indirizzo": "Via Monte Baldo 28",
+    "citta": "Costermano",
+    "provincia": "VR",
     "regione": "Veneto",
-    "prov": "VR",
-    "tel": "+39 045 6200766",
-    "web": "https://www.casadeglispiriti.it",
-    "mappa": "Via Monte Baldo 28, Costermano",
-    "note": ""
+    "telefono": "+39 045 6200766",
+    "web": "https://www.casadeglispiriti.it"
   },
   {
-    "nome": "Cattaneo Giovanni",
-    "luogo": "Lecco · LC",
+    "nome": "Nicolin",
+    "indirizzo": "Via Ponchielli 54",
+    "citta": "Lecco",
+    "provincia": "LC",
     "regione": "Lombardia",
-    "prov": "LC",
-    "tel": "+39 0341 422122",
-    "web": "",
-    "mappa": "Via Ponchielli 54, Lecco",
-    "note": ""
+    "telefono": "+39 0341 422122",
+    "web": "https://www.ristorantenicolin.it"
   },
   {
     "nome": "Caupona Taverna di Sicilia",
-    "luogo": "Trapani · TP",
+    "indirizzo": "Via San Francesco d'Assisi 32",
+    "citta": "Trapani",
+    "provincia": "TP",
     "regione": "Sicilia",
-    "prov": "TP",
-    "tel": "+39 0923 546618",
-    "web": "",
-    "mappa": "Via San Francesco d'Assisi 32, Trapani",
-    "note": "Chiuso il martedì, mai d'estate · Aperto la sera, sabato e domenica a pranzo"
+    "telefono": "+39 0923 546618",
+    "web": ""
   },
   {
     "nome": "Ca’ del Re",
-    "luogo": "Ponte di Legno · BS",
+    "indirizzo": "Via San Giovanni 79",
+    "citta": "Ponte di Legno",
+    "provincia": "BS",
     "regione": "Lombardia",
-    "prov": "BS",
-    "tel": "+39 0364 91777",
-    "web": "",
-    "mappa": "Via San Giovanni 79, Ponte di Legno",
-    "note": ""
+    "telefono": "+39 0364 91777",
+    "web": ""
   },
   {
     "nome": "Ca’ Murani",
-    "luogo": "Faenza · RA",
+    "indirizzo": "Vicolo S. Antonio 7",
+    "citta": "Faenza",
+    "provincia": "RA",
     "regione": "Emilia-Romagna",
-    "prov": "RA",
-    "tel": "+39 0546 88054",
-    "web": "",
-    "mappa": "Vicolo S. Antonio 7, Faenza",
-    "note": ""
+    "telefono": "+39 0546 88054",
+    "web": ""
   },
   {
-    "nome": "Cesare Carbone",
-    "luogo": "Recco · GE",
+    "nome": "Manuelina",
+    "indirizzo": "Via Roma 296",
+    "citta": "Recco",
+    "provincia": "GE",
     "regione": "Liguria",
-    "prov": "GE",
-    "tel": "+39 0185 74128",
-    "web": "https://www.manuelina.it",
-    "mappa": "Via Roma 296, Recco",
-    "note": "Chiuso il mercoledì"
+    "telefono": "+39 0185 74128",
+    "web": "https://www.manuelina.it"
   },
   {
-    "nome": "Cesare Giacone",
-    "luogo": "Albareto Torre · CN",
+    "nome": "Filippo Oste",
+    "indirizzo": "Via Umberto I 9",
+    "citta": "Albareto Torre",
+    "provincia": "CN",
     "regione": "Piemonte",
-    "prov": "CN",
-    "tel": "+39 0173 520141",
-    "web": "",
-    "mappa": "Via Umberto I 9, Albareto Torre",
-    "note": ""
+    "telefono": "+39 0173 520141",
+    "web": ""
   },
   {
     "nome": "Cesarino",
-    "luogo": "Comabbio · VA",
+    "indirizzo": "Via Labiena 1861",
+    "citta": "Comabbio",
+    "provincia": "VA",
     "regione": "Lombardia",
-    "prov": "VA",
-    "tel": "+39 0331 968472",
-    "web": "",
-    "mappa": "Via Labiena 1861, Comabbio",
-    "note": ""
+    "telefono": "+39 0331 968472",
+    "web": ""
   },
   {
     "nome": "Cibrèo",
-    "luogo": "Firenze · FI",
+    "indirizzo": "Via de’ Macci 122r",
+    "citta": "Firenze",
+    "provincia": "FI",
     "regione": "Toscana",
-    "prov": "FI",
-    "tel": "+39 055 2341100",
-    "web": "http://www.cibreo.com/trattoria/#cucina",
-    "mappa": "Via de’ Macci 122r, Firenze",
-    "note": ""
+    "telefono": "+39 055 2341100",
+    "web": "http://www.cibreo.com/trattoria/#cucina"
   },
   {
     "nome": "Cibus",
-    "luogo": "Ceglie Messapica · BR",
+    "indirizzo": "Via Chianche di Scarano 7",
+    "citta": "Ceglie Messapica",
+    "provincia": "BR",
     "regione": "Puglia",
-    "prov": "BR",
-    "tel": "+39 0831 388980",
-    "web": "https://www.ristorantecibus.it",
-    "mappa": "Via Chianche di Scarano 7, Ceglie Messapica",
-    "note": "Premiate trattorie italiane"
+    "telefono": "+39 0831 388980",
+    "web": "https://www.ristorantecibus.it"
   },
   {
     "nome": "Saturnino",
-    "luogo": "Forio",
+    "indirizzo": "Via Marina",
+    "citta": "Forio",
+    "provincia": "NA",
     "regione": "Campania",
-    "prov": "",
-    "tel": "+39 333 1056719",
-    "web": "https://www.ristorantesaturnino.it",
-    "mappa": "Via Soprascaro 17, Forio",
-    "note": ""
+    "telefono": "+39 333 1056719",
+    "web": "http://www.ristorantesaturnino.it"
   },
   {
     "nome": "Clamato",
-    "luogo": "Parigi · F",
+    "indirizzo": "80 rue de Charonne",
+    "citta": "Parigi",
+    "provincia": "F",
     "regione": "Francia",
-    "prov": "F",
-    "tel": "+33 1 43 72 74 53",
-    "web": "https://clamato-charonne.fr",
-    "mappa": "80 rue de Charonne, Parigi",
-    "note": "Pesce e frutti di mare"
+    "telefono": "+33 1 43 72 74 53",
+    "web": "https://clamato-charonne.fr"
   },
   {
     "nome": "Claudio Mazzoni",
-    "luogo": "La Spezia · SP",
+    "indirizzo": "Via Giovanni Minzoni 24",
+    "citta": "La Spezia",
+    "provincia": "SP",
     "regione": "Liguria",
-    "prov": "SP",
-    "tel": "+39 0187 760437",
-    "web": "https://www.ristorantelaposta.it",
-    "mappa": "Via Giovanni Minzoni 24, La Spezia",
-    "note": "Cucina di pesce"
+    "telefono": "+39 0187 760437",
+    "web": "https://www.ristorantelaposta.it"
   },
   {
     "nome": "Clinica Gastronomica Arnaldo",
-    "luogo": "Rubiera · RE",
+    "indirizzo": "Piazza XXIV Maggio 3",
+    "citta": "Rubiera",
+    "provincia": "RE",
     "regione": "Emilia-Romagna",
-    "prov": "RE",
-    "tel": "+39 0522 626124",
-    "web": "http://www.clinicagastronomica.com",
-    "mappa": "Piazza XXIV Maggio 3, Rubiera",
-    "note": "Chiuso domenica sera e lunedì"
+    "telefono": "+39 0522 626124",
+    "web": "http://www.clinicagastronomica.com"
   },
   {
     "nome": "Cocchi",
-    "luogo": "Parma · PR",
+    "indirizzo": "Via Gramsci 16/A",
+    "citta": "Parma",
+    "provincia": "PR",
     "regione": "Emilia-Romagna",
-    "prov": "PR",
-    "tel": "+39 0521 981990",
-    "web": "https://www.ristorantecocchi.it",
-    "mappa": "Via Gramsci 16/A, Parma",
-    "note": ""
+    "telefono": "+39 0521 981990",
+    "web": "https://www.ristorantecocchi.it"
   },
   {
     "nome": "Collebrunacchi",
-    "luogo": "San Miniato · PI",
+    "indirizzo": "Via Collebrunacchi 6/A",
+    "citta": "San Miniato",
+    "provincia": "PI",
     "regione": "Toscana",
-    "prov": "PI",
-    "tel": "+39 0571 409593",
-    "web": "https://www.collebrunacchi.it",
-    "mappa": "Via Collebrunacchi 6/A, San Miniato",
-    "note": ""
+    "telefono": "+39 0571 409593",
+    "web": "https://www.collebrunacchi.it"
   },
   {
     "nome": "Consorzio",
-    "luogo": "Torino · TO",
+    "indirizzo": "Via Monte di Pietà 23",
+    "citta": "Torino",
+    "provincia": "TO",
     "regione": "Piemonte",
-    "prov": "TO",
-    "tel": "+39 011 2767661",
-    "web": "http://www.ristoranteconsorzio.it",
-    "mappa": "Via Monte di Pietà 23, Torino",
-    "note": "Chiuso domenica e lunedì"
+    "telefono": "+39 011 2767661",
+    "web": "http://www.ristoranteconsorzio.it"
   },
   {
     "nome": "Cristian Magri",
-    "luogo": "Settimo Milanese · MI",
+    "indirizzo": "Via Meriggia 3",
+    "citta": "Settimo Milanese",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 331 1138645",
-    "web": "https://www.cristianmagri.it",
-    "mappa": "Via Meriggia 3, Settimo Milanese",
-    "note": "Chiuso il lunedì"
+    "telefono": "+39 331 1138645",
+    "web": "https://www.cristianmagri.it"
   },
   {
     "nome": "Crotasc",
-    "luogo": "Mese · SO",
+    "indirizzo": "Via Don Primo Lucchinetti 63",
+    "citta": "Mese",
+    "provincia": "SO",
     "regione": "Lombardia",
-    "prov": "SO",
-    "tel": "+39 0343 41003",
-    "web": "",
-    "mappa": "Via Don Primo Lucchinetti 63, Mese",
-    "note": "Aperto da giovedì a domenica"
+    "telefono": "+39 0343 41003",
+    "web": ""
   },
   {
     "nome": "Cucina",
-    "luogo": "Firenze · FI",
+    "indirizzo": "Via Giano della Bella 3 rosso",
+    "citta": "Firenze",
+    "provincia": "FI",
     "regione": "Toscana",
-    "prov": "FI",
-    "tel": "+39 392 5510969",
-    "web": "https://www.c-ucina.it",
-    "mappa": "Via Giano della Bella 3 rosso, Firenze",
-    "note": ""
+    "telefono": "+39 392 5510969",
+    "web": "https://www.c-ucina.it"
   },
   {
     "nome": "Cucina Cereda",
-    "luogo": "Ponte San Pietro · BG",
+    "indirizzo": "Via Piazzini 33 · Passaggio Toscanini",
+    "citta": "Ponte San Pietro",
+    "provincia": "BG",
     "regione": "Lombardia",
-    "prov": "BG",
-    "tel": "+39 035 4371900",
-    "web": "https://www.cucinacereda.com",
-    "mappa": "Via Piazzini 33 · Passaggio Toscanini, Ponte San Pietro",
-    "note": ""
+    "telefono": "+39 035 4371900",
+    "web": "https://www.cucinacereda.com"
   },
   {
     "nome": "Da Alvise",
-    "luogo": "Sutrio · UD",
+    "indirizzo": "Via  1º Maggio 5",
+    "citta": "Sutrio",
+    "provincia": "UD",
     "regione": "Friuli-Venezia Giulia",
-    "prov": "UD",
-    "tel": "+39 0433 778692",
-    "web": "https://www.osteriadaalvise.it",
-    "mappa": "Via  1º Maggio 5, Sutrio",
-    "note": "Chiuso il mercoledì"
+    "telefono": "+39 0433 778692",
+    "web": "https://www.osteriadaalvise.it"
   },
   {
     "nome": "da Bassano",
-    "luogo": "Madignano · CR",
+    "indirizzo": "Lago Gerundo 15",
+    "citta": "Madignano",
+    "provincia": "CR",
     "regione": "Lombardia",
-    "prov": "CR",
-    "tel": "+39 0373 658920",
-    "web": "",
-    "mappa": "Lago Gerundo 15, Madignano",
-    "note": ""
+    "telefono": "+39 0373 658920",
+    "web": ""
   },
   {
     "nome": "Da Caino",
-    "luogo": "Montemerano · GR",
+    "indirizzo": "Via della Chiesa 4",
+    "citta": "Montemerano",
+    "provincia": "GR",
     "regione": "Toscana",
-    "prov": "GR",
-    "tel": "+390564602817",
-    "web": "http://www.dacaino.com",
-    "mappa": "Via della Chiesa 4, Montemerano",
-    "note": ""
+    "telefono": "+390564602817",
+    "web": "http://www.dacaino.com"
   },
   {
     "nome": "Da Giacomo",
-    "luogo": "Pizzighettone · CR",
+    "indirizzo": "Piazza Municipio 2",
+    "citta": "Pizzighettone",
+    "provincia": "CR",
     "regione": "Lombardia",
-    "prov": "CR",
-    "tel": "+39 0372 730260",
-    "web": "https://www.dagiacomo.it",
-    "mappa": "Piazza Municipio 2, Pizzighettone",
-    "note": "Chiuso lunedì e martedì 🌳"
+    "telefono": "+39 0372 730260",
+    "web": "https://www.dagiacomo.it"
   },
   {
     "nome": "Da Giuseppe",
-    "luogo": "Montermarzino · AL",
+    "indirizzo": "Via IV Novembre 7",
+    "citta": "Montemarzino",
+    "provincia": "AL",
     "regione": "Piemonte",
-    "prov": "AL",
-    "tel": "+39 0131 878135",
-    "web": "https://www.ristorantedagiuseppe.it",
-    "mappa": "Via IV Novembre 7, Montermarzino",
-    "note": "Chiuso martedì e mercoledì"
+    "telefono": "+39 0131 878135",
+    "web": "https://www.ristorantedagiuseppe.it"
   },
   {
     "nome": "Da Maria",
-    "luogo": "Fano · PS",
+    "indirizzo": "Via IV Novembre 86",
+    "citta": "Fano",
+    "provincia": "PS",
     "regione": "Marche",
-    "prov": "PS",
-    "tel": "+39 0721 808962",
-    "web": "",
-    "mappa": "Via IV Novembre 86, Fano",
-    "note": ""
+    "telefono": "+39 0721 808962",
+    "web": ""
   },
   {
     "nome": "Da Silvio",
-    "luogo": "Sirolo · AN",
+    "indirizzo": "Spiaggia San Michele Sassi Neri · Via Salett",
+    "citta": "Sirolo",
+    "provincia": "AN",
     "regione": "Marche",
-    "prov": "AN",
-    "tel": "+39 071 7360507",
-    "web": "",
-    "mappa": "Spiaggia San Michele Sassi Neri · Via Salett, Sirolo",
-    "note": "🌳 🌅"
+    "telefono": "+39 071 7360507",
+    "web": ""
   },
   {
     "nome": "Dabass",
-    "luogo": "Milano · MI",
+    "indirizzo": "Via Piacenza 13",
+    "citta": "Milano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 349 356 5436",
-    "web": "",
-    "mappa": "Via Piacenza 13, Milano",
-    "note": "Materie prime di grande qualità; Chiuso il lunedì"
+    "telefono": "+39 349 356 5436",
+    "web": ""
   },
   {
     "nome": "Dal Pescatore",
-    "luogo": "Runate · MN",
+    "indirizzo": "Località Runate 15 · Riserva del Parco Oglio",
+    "citta": "Runate",
+    "provincia": "MN",
     "regione": "Lombardia",
-    "prov": "MN",
-    "tel": "+39 0376 723001",
-    "web": "https://www.dalpescatore.com/it",
-    "mappa": "Località Runate 15 · Riserva del Parco Oglio, Runate",
-    "note": "Chiuso lunedì e martedì, mercoledì e giovedì aperto solo la sera, sempre aperto negli altri giorni"
+    "telefono": "+39 0376 723001",
+    "web": "https://www.dalpescatore.com/it"
   },
   {
     "nome": "Dalla Gioconda",
-    "luogo": "Gabicce Monte · PU",
+    "indirizzo": "Via dell’Orizzonte 2",
+    "citta": "Gabicce Monte",
+    "provincia": "PU",
     "regione": "Marche",
-    "prov": "PU",
-    "tel": "+39 0541 962295",
-    "web": "https://www.dallagioconda.it/",
-    "mappa": "Via dell’Orizzonte 2, Gabicce Monte",
-    "note": ""
+    "telefono": "+39 0541 962295",
+    "web": "https://www.dallagioconda.it/"
   },
   {
     "nome": "Dalla Gioconda",
-    "luogo": "Gabicce Monte · PU",
+    "indirizzo": "Via dell’Orizzonte 2",
+    "citta": "Gabicce Monte",
+    "provincia": "PU",
     "regione": "Marche",
-    "prov": "PU",
-    "tel": "+39 0541 962295",
-    "web": "https://www.dallagioconda.it",
-    "mappa": "Via dell’Orizzonte 2, Gabicce Monte",
-    "note": ""
+    "telefono": "+39 0541 962295",
+    "web": "https://www.dallagioconda.it"
   },
   {
     "nome": "Daniel",
-    "luogo": "Milano · Mi",
+    "indirizzo": "Via San Marco, angolo Castelfidardo 7",
+    "citta": "Milano",
+    "provincia": "Mi",
     "regione": "Lombardia",
-    "prov": "Mi",
-    "tel": "+39 02 63793837",
-    "web": "https://www.danielcanzian.it",
-    "mappa": "Via San Marco, angolo Castelfidardo 7, Milano",
-    "note": ""
+    "telefono": "+39 02 63793837",
+    "web": "https://www.danielcanzian.it"
   },
   {
     "nome": "Lo Scudiero",
-    "luogo": "Pesaro · PU",
+    "indirizzo": "Via Baldassini 2",
+    "citta": "Pesaro",
+    "provincia": "PU",
     "regione": "Marche",
-    "prov": "PU",
-    "tel": "+39 0721 1651804",
-    "web": "http://www.ristorantescudiero.it",
-    "mappa": "Via Baldassini 2, Pesaro",
-    "note": ""
+    "telefono": "+39 0721 1651804",
+    "web": "http://www.ristorantescudiero.it"
   },
   {
     "nome": "Dario",
-    "luogo": "Manerba del Garda · BS",
+    "indirizzo": "Via Trevisago 68",
+    "citta": "Manerba del Garda",
+    "provincia": "BS",
     "regione": "Lombardia",
-    "prov": "BS",
-    "tel": "+39 347 2492388",
-    "web": "",
-    "mappa": "Via Trevisago 68, Manerba del Garda",
-    "note": ""
+    "telefono": "+39 347 2492388",
+    "web": ""
   },
   {
     "nome": "Davide Pola",
-    "luogo": "Folgaria · TN",
+    "indirizzo": "Via Negheli 37",
+    "citta": "Folgaria",
+    "provincia": "TN",
     "regione": "Trentino-Alto Adige",
-    "prov": "TN",
-    "tel": "+39 346 2527616",
-    "web": "https://www.muuvillage.it",
-    "mappa": "Via Negheli 37, Folgaria",
-    "note": ""
+    "telefono": "+39 346 2527616",
+    "web": "https://www.muuvillage.it"
   },
   {
     "nome": "De Gustibus",
-    "luogo": "Palmi · RC",
+    "indirizzo": "Viale Rimembranze 58/60",
+    "citta": "Palmi",
+    "provincia": "RC",
     "regione": "Calabria",
-    "prov": "RC",
-    "tel": "+39 0966 25069",
-    "web": "https://degustibuspalmi.it",
-    "mappa": "Viale Rimembranze 58/60, Palmi",
-    "note": "Chiudo lunedì e domenica sera"
+    "telefono": "+39 0966 25069",
+    "web": "https://degustibuspalmi.it"
   },
   {
     "nome": "De Simone Crescenzo",
-    "luogo": "Massa Lubrense",
+    "indirizzo": "Via Roncato 9",
+    "citta": "Massa Lubrense",
+    "provincia": "",
     "regione": "Campania",
-    "prov": "",
-    "tel": "+39 081 8081989",
-    "web": "",
-    "mappa": "Via Roncato 9, Massa Lubrense",
-    "note": ""
+    "telefono": "+39 081 8081989",
+    "web": ""
   },
   {
     "nome": "Degusteria Forlino",
-    "luogo": "Tortona · AL",
+    "indirizzo": "Piazzetta de Amicis 14",
+    "citta": "Tortona",
+    "provincia": "AL",
     "regione": "Piemonte",
-    "prov": "AL",
-    "tel": "+39 0131 484000",
-    "web": "https://degusteriaforlino.com",
-    "mappa": "Piazzetta de Amicis 14, Tortona",
-    "note": ""
+    "telefono": "+39 0131 484000",
+    "web": "https://degusteriaforlino.com"
   },
   {
     "nome": "Dell’Angolo",
-    "luogo": "Vittuone · MI",
+    "indirizzo": "Via Eugenio Villoresi 71-73",
+    "citta": "Vittuone",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 02 90225 77",
-    "web": "https://www.ristorantedellangolo.it",
-    "mappa": "Via Eugenio Villoresi 71-73, Vittuone",
-    "note": "Lunedì e martedì chiuso · Aperto da mercoledì a domenica"
+    "telefono": "+39 02 90225 77",
+    "web": "https://www.ristorantedellangolo.it"
   },
   {
     "nome": "Osteria Magenes",
-    "luogo": "Barate di Gaggiano · MI",
+    "indirizzo": "Via Cavour 7, Barate di Gaggiano",
+    "citta": "Barate di Gaggiano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 02 9085125",
-    "web": "https://www.osteriamagenes.it",
-    "mappa": "Via Cavour 7, Barate di Gaggiano, Barate di Gaggiano",
-    "note": ""
+    "telefono": "+39 02 9085125",
+    "web": "https://www.osteriamagenes.it"
   },
   {
     "nome": "Horto",
-    "luogo": "Milano · MI",
+    "indirizzo": "Via San Protaso 5",
+    "citta": "Milano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 02 36517 496",
-    "web": "https://www.hortorestaurant.com",
-    "mappa": "Via San Protaso 5, Milano",
-    "note": ""
+    "telefono": "+39 02 36517 496",
+    "web": "https://www.hortorestaurant.com"
   },
   {
     "nome": "Enoteca La Torre",
-    "luogo": "Roma · RM",
+    "indirizzo": "Lungotevere delle Armi 22/23",
+    "citta": "Roma",
+    "provincia": "RM",
     "regione": "Lazio",
-    "prov": "RM",
-    "tel": "+39 392 7875295",
-    "web": "https://www.enotecalatorreroma.com",
-    "mappa": "Lungotevere delle Armi 22/23, Roma",
-    "note": ""
+    "telefono": "+39 392 7875295",
+    "web": "https://www.enotecalatorreroma.com"
   },
   {
     "nome": "Donatella Bistrot",
-    "luogo": "Oviglio · AL",
+    "indirizzo": "Piazza Umberto I 1",
+    "citta": "Oviglio",
+    "provincia": "AL",
     "regione": "Piemonte",
-    "prov": "AL",
-    "tel": "+39 0131 776907",
-    "web": "http://www.donatellabistrot.it",
-    "mappa": "Piazza Umberto I 1, Oviglio",
-    "note": ""
+    "telefono": "+39 0131 776907",
+    "web": "http://www.donatellabistrot.it"
   },
   {
     "nome": "Dos Palillos",
-    "luogo": "Barcellona · ES",
+    "indirizzo": "Calle d'Elisabets 9",
+    "citta": "Barcellona",
+    "provincia": "ES",
     "regione": "Spagna",
-    "prov": "ES",
-    "tel": "+34 933 040 513",
-    "web": "http://www.dospalillos.com/home.php?rest=1&lang=en",
-    "mappa": "Calle d'Elisabets 9, Barcellona",
-    "note": ""
+    "telefono": "+34 933 040 513",
+    "web": "http://www.dospalillos.com/home.php?rest=1&lang=en"
   },
   {
     "nome": "Due Colombe",
-    "luogo": "Borgonato di Cortefranca · BS",
+    "indirizzo": "Via Foresti 13",
+    "citta": "Borgonato di Cortefranca",
+    "provincia": "BS",
     "regione": "Lombardia",
-    "prov": "BS",
-    "tel": "+39 030 9828227",
-    "web": "https://www.duecolombe.com",
-    "mappa": "Via Foresti 13, Borgonato di Cortefranca",
-    "note": "Chiuso domenica sera e lunedì"
+    "telefono": "+39 030 9828227",
+    "web": "https://www.duecolombe.com"
   },
   {
     "nome": "Dâ Casetta",
-    "luogo": "Borgio Verezzi · SV",
+    "indirizzo": "Via XX Settembre 12",
+    "citta": "Borgio Verezzi",
+    "provincia": "SV",
     "regione": "Liguria",
-    "prov": "SV",
-    "tel": "+39 019 610166",
-    "web": "",
-    "mappa": "Via XX Settembre 12, Borgio Verezzi",
-    "note": ""
+    "telefono": "+39 019 610166",
+    "web": ""
   },
   {
     "nome": "Eden",
-    "luogo": "Cosio Valtellino · SO",
+    "indirizzo": "Via Bernasconi 60",
+    "citta": "Cosio Valtellino",
+    "provincia": "SO",
     "regione": "Lombardia",
-    "prov": "SO",
-    "tel": "+390342635769",
-    "web": "http://www.ristorantepizzeriaeden.com",
-    "mappa": "Via Bernasconi 60, Cosio Valtellino",
-    "note": "Chiuso il martedì"
+    "telefono": "+390342635769",
+    "web": "http://www.ristorantepizzeriaeden.com"
   },
   {
     "nome": "Elvira Previdi",
-    "luogo": "Località Entrà Finale Emilia · MO",
+    "indirizzo": "Via Salde Entrà 60",
+    "citta": "Località Entrà Finale Emilia",
+    "provincia": "MO",
     "regione": "Emilia-Romagna",
-    "prov": "MO",
-    "tel": "+39 0535 97105",
-    "web": "https://trattoriaentra.it",
-    "mappa": "Via Salde Entrà 60, Località Entrà Finale Emilia",
-    "note": ""
+    "telefono": "+39 0535 97105",
+    "web": "https://trattoriaentra.it"
   },
   {
     "nome": "Piazzetta Milù",
-    "luogo": "Castellammare di Stabia",
+    "indirizzo": "Via Schito 42, Castellammare di Stabia (già Corso A. De Gasperi 23)",
+    "citta": "Castellammare di Stabia",
+    "provincia": "",
     "regione": "Campania",
-    "prov": "",
-    "tel": "+39 081 8715779",
-    "web": "https://www.piazzettamilu.it",
-    "mappa": "Via Schito 42, Castellammare di Stabia (già Corso A. De Gasperi 23), Castellammare di Stabia",
-    "note": ""
+    "telefono": "+39 081 8715779",
+    "web": "https://www.piazzettamilu.it"
   },
   {
     "nome": "Enoteca della Valpollicella",
-    "luogo": "Fumane · VR",
+    "indirizzo": "Via Osan 45",
+    "citta": "Fumane",
+    "provincia": "VR",
     "regione": "Veneto",
-    "prov": "VR",
-    "tel": "+39 045 6839146",
-    "web": "https://www.enotecadellavalpolicella.it",
-    "mappa": "Via Osan 45, Fumane",
-    "note": "Chiuso domenica sera e lunedì"
+    "telefono": "+39 045 6839146",
+    "web": "https://www.enotecadellavalpolicella.it"
   },
   {
     "nome": "Erba Brusca",
-    "luogo": "Milano · MI",
+    "indirizzo": "Alzaia Naviglio Pavese 286",
+    "citta": "Milano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 02 87380711",
-    "web": "https://www.erbabrusca.it",
-    "mappa": "Alzaia Naviglio Pavese 286, Milano",
-    "note": ""
+    "telefono": "+39 02 87380711",
+    "web": "https://www.erbabrusca.it"
   },
   {
     "nome": "Escriba Xiringuito",
-    "luogo": "Barcellona · ES",
+    "indirizzo": "Ronda Litoral 42",
+    "citta": "Barcellona",
+    "provincia": "ES",
     "regione": "Spagna",
-    "prov": "ES",
-    "tel": "+34 932 210 729",
-    "web": "https://restaurantsescriba.com/xiringuitoescriba/en/",
-    "mappa": "Ronda Litoral 42, Barcellona",
-    "note": "Ristorante sulla spiaggia"
+    "telefono": "+34 932 210 729",
+    "web": "https://restaurantsescriba.com/xiringuitoescriba/en/"
   },
   {
     "nome": "Ezio Giacchetti",
-    "luogo": "Ancona · AN",
+    "indirizzo": "Località Portonovo 171",
+    "citta": "Ancona",
+    "provincia": "AN",
     "regione": "Marche",
-    "prov": "AN",
-    "tel": "+39071801384",
-    "web": "http://www.ristorantedagiacchetti.it",
-    "mappa": "Località Portonovo 171, Ancona",
-    "note": ""
+    "telefono": "+39071801384",
+    "web": "http://www.ristorantedagiacchetti.it"
   },
   {
-    "nome": "Fabiana Scarica",
-    "luogo": "Vico Equense",
+    "nome": "Villa Chiara Orto e Cucina",
+    "indirizzo": "Via Pacognano 19",
+    "citta": "Vico Equense",
+    "provincia": "",
     "regione": "Campania",
-    "prov": "",
-    "tel": "+390818029165",
-    "web": "",
-    "mappa": "Via Pacognano 19, Vico Equense",
-    "note": ""
-  },
-  {
-    "nome": "Fabio Abbattista",
-    "luogo": "Erbusco · BS",
-    "regione": "Lombardia",
-    "prov": "BS",
-    "tel": "+39 030 7762603",
-    "web": "http://www.albereta.it",
-    "mappa": "Via Vittorio Emanuele 40, Erbusco",
-    "note": ""
+    "telefono": "+390818029165",
+    "web": "https://www.villa-chiara.com"
   },
   {
     "nome": "Farmacia dei Sani",
-    "luogo": "Ruffano · LE",
+    "indirizzo": "Piazza del Popolo 14",
+    "citta": "Ruffano",
+    "provincia": "LE",
     "regione": "Puglia",
-    "prov": "LE",
-    "tel": "+39 339 8332514",
-    "web": "https://www.farmaciadeisani.eu",
-    "mappa": "Piazza del Popolo 14, Ruffano",
-    "note": ""
+    "telefono": "+39 339 8332514",
+    "web": "https://www.farmaciadeisani.eu"
   },
   {
     "nome": "Fattoria Sardi",
-    "luogo": "Lucca · LU",
+    "indirizzo": "Via della Maulina 747",
+    "citta": "Lucca",
+    "provincia": "LU",
     "regione": "Toscana",
-    "prov": "LU",
-    "tel": "+39 0583 341230",
-    "web": "https://www.fattoriasardi.com",
-    "mappa": "Via della Maulina 747, Lucca",
-    "note": "Con camere · ♥️"
+    "telefono": "+39 0583 341230",
+    "web": "https://www.fattoriasardi.com"
   },
   {
-    "nome": "Frangente",
-    "luogo": "Milano · MI",
+    "nome": "Federico Sisti",
+    "indirizzo": "Via Panfilo Castaldi 4",
+    "citta": "Milano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 338 858 3753",
-    "web": "https://www.frangentemilano.com/",
-    "mappa": "Via Panfilo Castaldi 4, Milano",
-    "note": ""
+    "telefono": "+39 338 858 3753",
+    "web": "https://www.frangentemilano.com/"
   },
   {
     "nome": "Fiore",
-    "luogo": "Serino · AV",
+    "indirizzo": "Via Roma 64",
+    "citta": "Serino",
+    "provincia": "AV",
     "regione": "Campania",
-    "prov": "AV",
-    "tel": "+39 392 4048445",
-    "web": "",
-    "mappa": "Via Roma 64, Serino",
-    "note": ""
+    "telefono": "+39 392 4048445",
+    "web": ""
   },
   {
     "nome": "Fossati",
-    "luogo": "Canonica · MB",
+    "indirizzo": "Via Filiberto Emanuele 1",
+    "citta": "Canonica",
+    "provincia": "MB",
     "regione": "Lombardia",
-    "prov": "MB",
-    "tel": "+390362997799",
-    "web": "",
-    "mappa": "Via Filiberto Emanuele 1, Canonica",
-    "note": "Chiuso il lunedì"
+    "telefono": "+390362997799",
+    "web": ""
   },
   {
     "nome": "Pasta Madre",
-    "luogo": "Milano · MI",
+    "indirizzo": "Via Bernardino Corio 8, Milano",
+    "citta": "Milano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 02 55190020",
-    "web": "http://www.pastamadremilano.it",
-    "mappa": "Via Bernardino Corio 8, Milano, Milano",
-    "note": ""
+    "telefono": "+39 02 55190020",
+    "web": "http://www.pastamadremilano.it"
   },
   {
     "nome": "Il Bucaniere",
-    "luogo": "San Vincenzo · LI",
+    "indirizzo": "Viale Guglielmo Marconi 22, San Vincenzo",
+    "citta": "San Vincenzo",
+    "provincia": "LI",
     "regione": "Toscana",
-    "prov": "LI",
-    "tel": "+39 335 8001695",
-    "web": "http://www.ristoranteilbucaniere.com",
-    "mappa": "Viale Guglielmo Marconi 22, San Vincenzo, San Vincenzo",
-    "note": "🌅"
+    "telefono": "+39 335 8001695",
+    "web": "http://www.ristoranteilbucaniere.com"
   },
   {
     "nome": "Funky Gourmet",
-    "luogo": "Atene · GR",
+    "indirizzo": "13 Paramithias street and Salaminos",
+    "citta": "Atene",
+    "provincia": "GR",
     "regione": "Grecia",
-    "prov": "GR",
-    "tel": "+30 21 0524 2727",
-    "web": "https://www.funkygourmet.com",
-    "mappa": "13 Paramithias street and Salaminos, Atene",
-    "note": ""
+    "telefono": "+30 21 0524 2727",
+    "web": "https://www.funkygourmet.gr"
   },
   {
     "nome": "Gabriella",
-    "luogo": "Rovato · BS",
+    "indirizzo": "Via Salvella 18",
+    "citta": "Rovato",
+    "provincia": "BS",
     "regione": "Lombardia",
-    "prov": "BS",
-    "tel": "+39 335 5962554",
-    "web": "",
-    "mappa": "Via Salvella 18, Rovato",
-    "note": ""
+    "telefono": "+39 335 5962554",
+    "web": ""
   },
   {
     "nome": "Arnolfo",
-    "luogo": "Colle di Val d'Elsa · SI",
+    "indirizzo": "Viale della Rimembranza 24",
+    "citta": "Colle di Val d'Elsa",
+    "provincia": "SI",
     "regione": "Toscana",
-    "prov": "SI",
-    "tel": "+39 0577 920549",
-    "web": "https://www.arnolfo.com",
-    "mappa": "Viale della Rimembranza 24, Colle di Val d'Elsa",
-    "note": "🌅 ♥️"
+    "telefono": "+39 0577 920549",
+    "web": "https://www.arnolfo.com"
   },
   {
     "nome": "Gaio Giannelli",
-    "luogo": "Querceta · LU",
+    "indirizzo": "Via Federigi 544",
+    "citta": "Querceta",
+    "provincia": "LU",
     "regione": "Toscana",
-    "prov": "LU",
-    "tel": "+39 0584 743696",
-    "web": "https://www.pozzodibugia.it",
-    "mappa": "Via Federigi 544, Querceta",
-    "note": "Inverno: chiuso il lunedì · Estate: sempre aperto · Lucca · Toscana · (DP)"
+    "telefono": "+39 0584 743696",
+    "web": "https://www.pozzodibugia.it"
   },
   {
     "nome": "Gastronomia CreDa",
-    "luogo": "Milano · MI",
+    "indirizzo": "Via Orti 12",
+    "citta": "Milano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 327 8995646",
-    "web": "",
-    "mappa": "Via Orti 12, Milano",
-    "note": ""
+    "telefono": "+39 327 8995646",
+    "web": ""
   },
   {
     "nome": "Cantina Piemontese",
-    "luogo": "Milano · MI",
+    "indirizzo": "Via Laghetto 2, Milano",
+    "citta": "Milano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 334 3031953",
-    "web": "https://www.cantina-piemontese.it",
-    "mappa": "Via Laghetto 2, Milano, Milano",
-    "note": ""
+    "telefono": "+39 334 3031953",
+    "web": "https://www.cantina-piemontese.it"
   },
   {
     "nome": "Pomiroeu",
-    "luogo": "Seregno · MB",
+    "indirizzo": "Via Garibaldi 37",
+    "citta": "Seregno",
+    "provincia": "MB",
     "regione": "Lombardia",
-    "prov": "MB",
-    "tel": "+39 0362 237973",
-    "web": "https://www.pomiroeu.com",
-    "mappa": "Via Garibaldi 37, Seregno",
-    "note": "Parcheggiare in via Formenti"
+    "telefono": "+39 0362 237973",
+    "web": "https://www.pomiroeu.com"
   },
   {
     "nome": "D’Amato Osteria",
-    "luogo": "Arcato · RE",
+    "indirizzo": "Via Pagliani 2 (Castello di Arceto)",
+    "citta": "Arceto",
+    "provincia": "RE",
     "regione": "Emilia-Romagna",
-    "prov": "RE",
-    "tel": "+39 328 8909980",
-    "web": "",
-    "mappa": "Arcato",
-    "note": ""
+    "telefono": "+39 328 8909980",
+    "web": "https://www.damatosteria.it"
   },
   {
     "nome": "Lido Mattera",
-    "luogo": "Forio",
+    "indirizzo": "Via Spinesante",
+    "citta": "Forio",
+    "provincia": "NA",
     "regione": "Campania",
-    "prov": "",
-    "tel": "+39 335 6769595",
-    "web": "https://www.lidomattera.it",
-    "mappa": "Forio",
-    "note": ""
+    "telefono": "+39 335 6769595",
+    "web": "https://www.lidomattera.it"
   },
   {
     "nome": "Giglio",
-    "luogo": "Lucca · LU",
+    "indirizzo": "Piazza del Giglio 2",
+    "citta": "Lucca",
+    "provincia": "LU",
     "regione": "Toscana",
-    "prov": "LU",
-    "tel": "+39 0583 494058",
-    "web": "https://www.ristorantegiglio.com",
-    "mappa": "Piazza del Giglio 2, Lucca",
-    "note": ""
+    "telefono": "+39 0583 494058",
+    "web": "https://www.ristorantegiglio.com"
   },
   {
     "nome": "Casa Colonica",
-    "luogo": "Lacco Ameno",
+    "indirizzo": "Baia di San Montano (Parco Negombo)",
+    "citta": "Lacco Ameno",
+    "provincia": "NA",
     "regione": "Campania",
-    "prov": "",
-    "tel": "+39 081 986055",
-    "web": "https://negombo.it/it/ristoranti-e-bar/casa-colonica/",
-    "mappa": "Lacco Ameno",
-    "note": ""
+    "telefono": "+39 081 986055",
+    "web": "https://negombo.it/it/ristoranti-e-bar/casa-colonica/"
   },
   {
     "nome": "GioEle",
-    "luogo": "Stradella · PV",
+    "indirizzo": "Via Giuseppe Mazzini 26",
+    "citta": "Stradella",
+    "provincia": "PV",
     "regione": "Lombardia",
-    "prov": "PV",
-    "tel": "+39038543444",
-    "web": "https://www.ristorantegioele.com",
-    "mappa": "Via Giuseppe Mazzini 26, Stradella",
-    "note": "Chiuso lunedì e martedì 🌳"
+    "telefono": "+39038543444",
+    "web": "https://www.ristorantegioele.com"
   },
   {
     "nome": "Belvedere",
-    "luogo": "Guiglia · MO",
+    "indirizzo": "Via Roma 18/20",
+    "citta": "Guiglia",
+    "provincia": "MO",
     "regione": "Emilia-Romagna",
-    "prov": "MO",
-    "tel": "+39 059 792451",
-    "web": "https://www.instagram.com/belvedere_guiglia/",
-    "mappa": "Guiglia",
-    "note": "Con camere"
+    "telefono": "+39 059 792451",
+    "web": "https://www.instagram.com/belvedere_guiglia/"
   },
   {
     "nome": "Il Buco",
-    "luogo": "Sorrento",
+    "indirizzo": "2ª Rampa Marina Piccola 5 (Piazza S. Antonino)",
+    "citta": "Sorrento",
+    "provincia": "",
     "regione": "Campania",
-    "prov": "",
-    "tel": "+39 081 8782354",
-    "web": "https://www.ilbucoristorante.it",
-    "mappa": "2ª Rampa Marina Piccola 5 (Piazza S. Antonino), Sorrento",
-    "note": ""
+    "telefono": "+39 081 8782354",
+    "web": "https://www.ilbucoristorante.it"
   },
   {
     "nome": "Casa Gasperoni",
-    "luogo": "Poggio Torriana · RN",
+    "indirizzo": "Via Castello di Montebello 6",
+    "citta": "Poggio Torriana",
+    "provincia": "RN",
     "regione": "Emilia-Romagna",
-    "prov": "RN",
-    "tel": "+39 0541 675410",
-    "web": "https://casagasperoni.it",
-    "mappa": "Via Castello di Montebelloi 6, Poggio Torriana",
-    "note": "Ex chef Povero Diavolo"
+    "telefono": "+39 0541 675410",
+    "web": "https://casagasperoni.it"
   },
   {
     "nome": "Gli Ostinati",
-    "luogo": "Ripari Bardella · CH",
+    "indirizzo": "Spiaggia Ripari Bardella · Statale 16 km 477",
+    "citta": "Ripari Bardella",
+    "provincia": "CH",
     "regione": "Abruzzo",
-    "prov": "CH",
-    "tel": "+39 347 5435830",
-    "web": "https://gliostinatirestaurant.com/#home",
-    "mappa": "Spiaggia Ripari Bardella · Statale 16 km 477, Ripari Bardella",
-    "note": "Traboccò Mucchiola S.S. 16 km 477 🌳 🌅 ♥️"
+    "telefono": "+39 347 5435830",
+    "web": "https://gliostinatirestaurant.com/#home"
   },
   {
     "nome": "Mistral Grand Hotel Villa Serbelloni",
-    "luogo": "Bellagio · CO",
+    "indirizzo": "Via Teresio Olivelli 1",
+    "citta": "Bellagio",
+    "provincia": "CO",
     "regione": "Lombardia",
-    "prov": "CO",
-    "tel": "+39 031 950216",
-    "web": "https://www.villaserbelloni.com",
-    "mappa": "Bellagio",
-    "note": "🌳 🌅 ♥️"
+    "telefono": "+39 031 950216",
+    "web": "https://www.villaserbelloni.com"
   },
   {
     "nome": "Grotta",
-    "luogo": "Modena · MO",
+    "indirizzo": "Via Nonantolana 406",
+    "citta": "Modena",
+    "provincia": "MO",
     "regione": "Emilia-Romagna",
-    "prov": "MO",
-    "tel": "+39 059 251460",
-    "web": "",
-    "mappa": "Via Nonantolana 406, Modena",
-    "note": ""
+    "telefono": "+39 059 251460",
+    "web": ""
   },
   {
     "nome": "Grotto al Bosco",
-    "luogo": "Gentilino Canton Ticino · TI",
+    "indirizzo": "Via ai Grotti 4",
+    "citta": "Gentilino Canton Ticino",
+    "provincia": "TI",
     "regione": "Svizzera",
-    "prov": "TI",
-    "tel": "+41 91 994 67 76",
-    "web": "https://www.grottoalboscogentilino.ch",
-    "mappa": "Via ai Grotti 4, Gentilino Canton Ticino",
-    "note": "🌳"
+    "telefono": "+41 91 994 67 76",
+    "web": "https://www.grottoalboscogentilino.ch"
   },
   {
     "nome": "Grotto del Cavicc",
-    "luogo": "Montagnola Canton Ticino · TI",
+    "indirizzo": "Via ai Canvetti 19a",
+    "citta": "Montagnola Canton Ticino",
+    "provincia": "TI",
     "regione": "Svizzera",
-    "prov": "TI",
-    "tel": "+41919947995",
-    "web": "https://grottocavicc.ch/it/home",
-    "mappa": "Via ai Canvetti 19a, Montagnola Canton Ticino",
-    "note": "🌳"
+    "telefono": "+41919947995",
+    "web": "https://grottocavicc.ch/it/home"
   },
   {
     "nome": "Grotto della Salute",
-    "luogo": "Massagno Canton Ticino · TI",
+    "indirizzo": "Via dei Sindacatori, 2A",
+    "citta": "Massagno Canton Ticino",
+    "provincia": "TI",
     "regione": "Svizzera",
-    "prov": "TI",
-    "tel": "+41 91 966 04 76",
-    "web": "https://www.grottodellasalute.ch",
-    "mappa": "Via dei Sindacatori, 2A, Massagno Canton Ticino",
-    "note": "Aperto lunedì al sabato: 12:00-14:00 / 19:00-23:30 · Domenica chiuso 🌳"
+    "telefono": "+41 91 966 04 76",
+    "web": "https://www.grottodellasalute.ch"
   },
   {
     "nome": "Grotto Figini",
-    "luogo": "Gentilino Canton Ticino · TI",
+    "indirizzo": "Via ai grotti 17",
+    "citta": "Gentilino Canton Ticino",
+    "provincia": "TI",
     "regione": "Svizzera",
-    "prov": "TI",
-    "tel": "+41 91 994 40 80",
-    "web": "https://www.grottofigini.ch",
-    "mappa": "Via ai grotti 17, Gentilino Canton Ticino",
-    "note": "🌳"
+    "telefono": "+41 91 994 40 80",
+    "web": "https://www.grottofigini.ch"
   },
   {
     "nome": "Grotto La Froda",
-    "luogo": "Foroglio Canton Ticino · TI",
+    "indirizzo": "Cavergno",
+    "citta": "Foroglio Canton Ticino",
+    "provincia": "TI",
     "regione": "Svizzera",
-    "prov": "TI",
-    "tel": "+41 91 754 11 81",
-    "web": "https://www.lafroda.ch",
-    "mappa": "Cavergno, Foroglio Canton Ticino",
-    "note": "Osteria alpina in una località isolata della Val Bavona 🌳"
+    "telefono": "+41 91 754 11 81",
+    "web": "https://www.lafroda.ch"
   },
   {
     "nome": "Grow",
-    "luogo": "Albiate · MB",
+    "indirizzo": "Via San Valerio 4",
+    "citta": "Albiate",
+    "provincia": "MB",
     "regione": "Lombardia",
-    "prov": "MB",
-    "tel": "+39 0362 1360111",
-    "web": "https://www.growrestaurant.it",
-    "mappa": "Via San Valerio 4, Albiate",
-    "note": ""
+    "telefono": "+39 0362 1360111",
+    "web": "https://www.growrestaurant.it"
   },
   {
     "nome": "Harry Cipriani",
-    "luogo": "New York · NY",
+    "indirizzo": "781 Fifth Avenue",
+    "citta": "New York",
+    "provincia": "NY",
     "regione": "Stati Uniti",
-    "prov": "NY",
-    "tel": "+12127535566",
-    "web": "http://cipriani.com/restaurant/?loc=ny-harry",
-    "mappa": "781 Fifth Avenue, New York",
-    "note": "Manager: Sergio Vacca · Jordy"
+    "telefono": "+12127535566",
+    "web": "http://cipriani.com/restaurant/?loc=ny-harry"
   },
   {
     "nome": "Hostaria Viola",
-    "luogo": "Castiglione delle Stiviere · MN",
+    "indirizzo": "Via Verdi 32",
+    "citta": "Castiglione delle Stiviere",
+    "provincia": "MN",
     "regione": "Lombardia",
-    "prov": "MN",
-    "tel": "+39 0376 670000",
-    "web": "https://www.hostariaviola.com",
-    "mappa": "Via Verdi 32, Castiglione delle Stiviere",
-    "note": ""
+    "telefono": "+39 0376 670000",
+    "web": "https://www.hostariaviola.com"
   },
   {
     "nome": "I Due Cippi",
-    "luogo": "Saturnia · GR",
+    "indirizzo": "Piazza Vittorio Veneto 26A",
+    "citta": "Saturnia",
+    "provincia": "GR",
     "regione": "Toscana",
-    "prov": "GR",
-    "tel": "+39 0564 601074",
-    "web": "https://www.iduecippi.com",
-    "mappa": "Piazza Vittorio Veneto 26A, Saturnia",
-    "note": ""
+    "telefono": "+39 0564 601074",
+    "web": "https://www.iduecippi.com"
   },
   {
     "nome": "Identità Golose",
-    "luogo": "Milano · MI",
+    "indirizzo": "Via Romagnosi 3",
+    "citta": "Milano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 02 23668 900",
-    "web": "https://www.identitagolosemilano.it",
-    "mappa": "Via Romagnosi 3, Milano",
-    "note": ""
+    "telefono": "+39 02 23668 900",
+    "web": "https://www.identitagolosemilano.it"
   },
   {
     "nome": "Il Colmetto",
-    "luogo": "Rodengo Saiano · BS",
+    "indirizzo": "Via Finilnuovo 9/11",
+    "citta": "Rodengo Saiano",
+    "provincia": "BS",
     "regione": "Lombardia",
-    "prov": "BS",
-    "tel": "+39 030 6811292",
-    "web": "https://www.ilcolmetto.it",
-    "mappa": "Via Finilnuovo 9/11, Rodengo Saiano",
-    "note": "Agriturismo · 🌳"
+    "telefono": "+39 030 6811292",
+    "web": "https://www.ilcolmetto.it"
   },
   {
     "nome": "Il Gambero da Tato",
-    "luogo": "San Benedetto del Tronto · AP",
+    "indirizzo": "Via Balilla 44",
+    "citta": "San Benedetto del Tronto",
+    "provincia": "AP",
     "regione": "Marche",
-    "prov": "AP",
-    "tel": "+39 0735 587349",
-    "web": "",
-    "mappa": "Via Balilla 44, San Benedetto del Tronto",
-    "note": ""
+    "telefono": "+39 0735 587349",
+    "web": ""
   },
   {
     "nome": "Il Grillo è Buon Cantore",
-    "luogo": "Chiusi Città · SI",
+    "indirizzo": "Piazza XX Settembre 10",
+    "citta": "Chiusi Città",
+    "provincia": "SI",
     "regione": "Toscana",
-    "prov": "SI",
-    "tel": "+39 0578 20112",
-    "web": "https://ilgrilloebuoncantore.wixsite.com/ristorante",
-    "mappa": "Piazza XX Settembre 10, Chiusi Città",
-    "note": ""
+    "telefono": "+39 0578 20112",
+    "web": "https://ilgrilloebuoncantore.wixsite.com/ristorante"
   },
   {
     "nome": "Il Moro",
-    "luogo": "Capriata d'Orba · AL",
+    "indirizzo": "Piazza Garibaldi 7",
+    "citta": "Capriata d'Orba",
+    "provincia": "AL",
     "regione": "Piemonte",
-    "prov": "AL",
-    "tel": "+39 0143 46157",
-    "web": "https://www.ristoranteilmoro.it",
-    "mappa": "Piazza Garibaldi 7, Capriata d'Orba",
-    "note": ""
+    "telefono": "+39 0143 46157",
+    "web": "https://www.ristoranteilmoro.it"
   },
   {
     "nome": "Il Pettirosso",
-    "luogo": "Duino-Aurisina · TS",
+    "indirizzo": "Località Santa Croce 3",
+    "citta": "Duino-Aurisina",
+    "provincia": "TS",
     "regione": "Friuli-Venezia Giulia",
-    "prov": "TS",
-    "tel": "+39 040220619",
-    "web": "",
-    "mappa": "Località Santa Croce 3, Duino-Aurisina",
-    "note": ""
+    "telefono": "+39 040220619",
+    "web": ""
   },
   {
     "nome": "Il Poggio",
-    "luogo": "Poggiridenti · SO",
+    "indirizzo": "Via Panoramica 4",
+    "citta": "Poggiridenti",
+    "provincia": "SO",
     "regione": "Lombardia",
-    "prov": "SO",
-    "tel": "+39 0342 380800",
-    "web": "https://www.ilpoggioristorante.it",
-    "mappa": "Via Panoramica 4, Poggiridenti",
-    "note": "Chiuso lunedì e martedì a pranzo"
+    "telefono": "+39 0342 380800",
+    "web": "https://www.ilpoggioristorante.it"
   },
   {
     "nome": "Il Ritorno",
-    "luogo": "Sirolo · AN",
+    "indirizzo": "Via Piani d'Aspio 12",
+    "citta": "Sirolo",
+    "provincia": "AN",
     "regione": "Calabria",
-    "prov": "AN",
-    "tel": "+39 071 9331544",
-    "web": "https://ilritorno.com",
-    "mappa": "Via Piani d'Aspio 12, Sirolo",
-    "note": "Chiuso lunedì"
+    "telefono": "+39 071 9331544",
+    "web": "https://ilritorno.com"
   },
   {
     "nome": "Il Rondò",
-    "luogo": "Sarzana · SP",
+    "indirizzo": "Via Rossi 28",
+    "citta": "Sarzana",
+    "provincia": "SP",
     "regione": "Liguria",
-    "prov": "SP",
-    "tel": "+39 351 2056178",
-    "web": "",
-    "mappa": "Via Rossi 28, Sarzana",
-    "note": "Ex Trattoria Armanda"
+    "telefono": "+39 351 2056178",
+    "web": ""
   },
   {
     "nome": "Il Rosso e il Mare",
-    "luogo": "Acciaroli di Pollica · SA",
+    "indirizzo": "Via Nicotera, 26 bis",
+    "citta": "Acciaroli di Pollica",
+    "provincia": "SA",
     "regione": "Campania",
-    "prov": "SA",
-    "tel": "+39 347 7720134",
-    "web": "",
-    "mappa": "Via Nicotera, 26 bis, Acciaroli di Pollica",
-    "note": ""
+    "telefono": "+39 347 7720134",
+    "web": ""
   },
   {
     "nome": "Il Tino",
-    "luogo": "Fiumicino · RM",
+    "indirizzo": "Via Monte Cadria 127",
+    "citta": "Fiumicino",
+    "provincia": "RM",
     "regione": "Lazio",
-    "prov": "RM",
-    "tel": "+39 06 56227 78",
-    "web": "https://www.ristoranteiltino.com",
-    "mappa": "Via Monte Cadria 127, Fiumicino",
-    "note": ""
+    "telefono": "+39 06 56227 78",
+    "web": "https://www.ristoranteiltino.com"
   },
   {
     "nome": "Il Trillo",
-    "luogo": "MS",
+    "indirizzo": "Via Bergiola Vecchia 30",
+    "citta": "Massa",
+    "provincia": "MS",
     "regione": "Toscana",
-    "prov": "MS",
-    "tel": "",
-    "web": "http://www.iltrillo.net/ristorante-2/",
-    "mappa": "Il Trillo",
-    "note": ""
+    "telefono": "+39 0585 46755",
+    "web": "http://www.iltrillo.net/ristorante-2/"
   },
   {
     "nome": "Il Vecchio Granaio",
-    "luogo": "Vastogirardi · IS",
+    "indirizzo": "Traversa via 18 Settembre 11",
+    "citta": "Vastogirardi",
+    "provincia": "IS",
     "regione": "Molise",
-    "prov": "IS",
-    "tel": "+39 338 7233260",
-    "web": "",
-    "mappa": "Traversa via 18 Settembre 11, Vastogirardi",
-    "note": "🌳"
+    "telefono": "+39 338 7233260",
+    "web": ""
   },
   {
     "nome": "Ittiturismo",
-    "luogo": "Ossuccio · CO",
+    "indirizzo": "Via Statale 774",
+    "citta": "Ossuccio",
+    "provincia": "CO",
     "regione": "Lombardia",
-    "prov": "CO",
-    "tel": "+39 338 5690049",
-    "web": "",
-    "mappa": "Ossuccio",
-    "note": ""
+    "telefono": "+39 338 5690049",
+    "web": ""
   },
   {
     "nome": "Japan Bistro",
-    "luogo": "Milano · MI",
+    "indirizzo": "Via Marco Polo 5",
+    "citta": "Milano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 02 3664 2181",
-    "web": "",
-    "mappa": "Via Marco Polo 5, Milano",
-    "note": "Sushi"
+    "telefono": "+39 02 3664 2181",
+    "web": ""
   },
   {
     "nome": "Japo Restaurant",
-    "luogo": "Treviglio · BG",
+    "indirizzo": "Viale Filagno 4",
+    "citta": "Treviglio",
+    "provincia": "BG",
     "regione": "Lombardia",
-    "prov": "BG",
-    "tel": "+39 331 3691514",
-    "web": "http://www.japorestaurant.it",
-    "mappa": "Viale Filagno 4, Treviglio",
-    "note": "Cucina giapponese · Chiuso lunedì."
+    "telefono": "+39 331 3691514",
+    "web": "http://www.japorestaurant.it"
   },
   {
     "nome": "Jim",
-    "luogo": "Grosio · SO",
+    "indirizzo": "Via Roma 2",
+    "citta": "Grosio",
+    "provincia": "SO",
     "regione": "Lombardia",
-    "prov": "SO",
-    "tel": "+39 0342 847272",
-    "web": "https://hotelsassella.it/ristorante-jim/",
-    "mappa": "Via Roma 2, Grosio",
-    "note": ""
+    "telefono": "+39 0342 847272",
+    "web": "https://hotelsassella.it/ristorante-jim/"
   },
   {
     "nome": "Kanton",
-    "luogo": "Capriate San Gervasio · BG",
+    "indirizzo": "Via Gramsci 17",
+    "citta": "Capriate San Gervasio",
+    "provincia": "BG",
     "regione": "Lombardia",
-    "prov": "BG",
-    "tel": "+39 02 90962 671",
-    "web": "http://www.kantonrestaurant.it",
-    "mappa": "Via Gramsci 17, Capriate San Gervasio",
-    "note": "Cucina cinese"
+    "telefono": "+39 02 90962 671",
+    "web": "http://www.kantonrestaurant.it"
   },
   {
-    "nome": "Katia Bellan",
-    "luogo": "Porto Viro · RO",
+    "nome": "Oasi Val Pisani",
+    "indirizzo": "Località Ca’ Pisani",
+    "citta": "Porto Viro",
+    "provincia": "RO",
     "regione": "Veneto",
-    "prov": "RO",
-    "tel": "+39 0426 85194",
-    "web": "https://oasi-val-pisani.business.site",
-    "mappa": "Località Ca’ Pisani, Porto Viro",
-    "note": ""
+    "telefono": "+39 0426 85194",
+    "web": "https://oasi-val-pisani.business.site"
   },
   {
     "nome": "Kiosko Legnone",
-    "luogo": "Borgonuovo di Piuro · SO",
+    "indirizzo": "Via S. Abbondio 2",
+    "citta": "Borgonuovo di Piuro",
+    "provincia": "SO",
     "regione": "Lombardia",
-    "prov": "SO",
-    "tel": "+39 375 6304552",
-    "web": "https://www.birrificiolegnone.com",
-    "mappa": "Via S. Abbondio 2, Borgonuovo di Piuro",
-    "note": "Pin nic · 🌳"
+    "telefono": "+39 375 6304552",
+    "web": "https://www.birrificiolegnone.com"
   },
   {
     "nome": "Kosmo",
-    "luogo": "Livigno · SO",
+    "indirizzo": "Via Bondi 473/a",
+    "citta": "Livigno",
+    "provincia": "SO",
     "regione": "Lombardia",
-    "prov": "SO",
-    "tel": "+39 346 1152048",
-    "web": "https://www.kosmotastethemountain.com",
-    "mappa": "Via Bondi 473/a, Livigno",
-    "note": ""
+    "telefono": "+39 346 1152048",
+    "web": "https://www.kosmotastethemountain.com"
   },
   {
     "nome": "L'Angolo di Casa",
-    "luogo": "Milano · MI",
+    "indirizzo": "Viale Piave 17",
+    "citta": "Milano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 02 76016221",
-    "web": "",
-    "mappa": "Viale Piave 17, Milano",
-    "note": ""
+    "telefono": "+39 02 76016221",
+    "web": ""
   },
   {
     "nome": "La Baita",
-    "luogo": "Lanzo Intelvi · CO",
+    "indirizzo": "Via Sighignola 36",
+    "citta": "Lanzo Intelvi",
+    "provincia": "CO",
     "regione": "Lombardia",
-    "prov": "CO",
-    "tel": "+39 031 840693",
-    "web": "http://labaita-lanzo.it",
-    "mappa": "Via Sighignola 36, Lanzo Intelvi",
-    "note": "Vista sulla Val d’Intelvi  ♥️🌳"
+    "telefono": "+39 031 840693",
+    "web": "http://labaita-lanzo.it"
   },
   {
     "nome": "La Barca",
-    "luogo": "Marina di Pulsano · TA",
+    "indirizzo": "Litoranea Salentina",
+    "citta": "Marina di Pulsano",
+    "provincia": "TA",
     "regione": "Puglia",
-    "prov": "TA",
-    "tel": "+390995333335",
-    "web": "",
-    "mappa": "Litoranea Salentina, Marina di Pulsano",
-    "note": ""
+    "telefono": "+390995333335",
+    "web": ""
   },
   {
     "nome": "La Campanara",
-    "luogo": "Galeata · FC",
+    "indirizzo": "Via Pianetto Borgo 24/a",
+    "citta": "Galeata",
+    "provincia": "FC",
     "regione": "Emilia-Romagna",
-    "prov": "FC",
-    "tel": "+39 0543 981561",
-    "web": "https://www.osterialacampanara.it/la-campanara/",
-    "mappa": "Via Pianetto Borgo 24/a, Galeata",
-    "note": ""
+    "telefono": "+39 0543 981561",
+    "web": "https://www.osterialacampanara.it/la-campanara/"
   },
   {
     "nome": "La Cucina dei Frigoriferi Milanesi",
-    "luogo": "Milano · MI",
+    "indirizzo": "Via Piranesi 10",
+    "citta": "Milano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 02 39666784",
-    "web": "https://www.lacucinadeifrigoriferimolanesi.it",
-    "mappa": "Via Piranesi 10, Milano",
-    "note": "Chiuso sabato a mezzogiorno e domenica"
+    "telefono": "+39 02 39666784",
+    "web": "https://www.lacucinadeifrigoriferimolanesi.it"
   },
   {
     "nome": "La Fattoria del Campiglione",
-    "luogo": "Pozzuoli",
+    "indirizzo": "Via Vicinale Campana 2",
+    "citta": "Pozzuoli",
+    "provincia": "",
     "regione": "Campania",
-    "prov": "",
-    "tel": "+39 081 5263733",
-    "web": "https://www.lafattoriadelcampiglione.it",
-    "mappa": "Via Vicinale Campana 2, Pozzuoli",
-    "note": "Selezione carni pregiate"
+    "telefono": "+39 081 5263733",
+    "web": "https://www.lafattoriadelcampiglione.it"
   },
   {
     "nome": "La Fiaschetteria",
-    "luogo": "Besenzone · PC",
+    "indirizzo": "Via Bersano 59 bis",
+    "citta": "Besenzone",
+    "provincia": "PC",
     "regione": "Emilia-Romagna",
-    "prov": "PC",
-    "tel": "+39 0523 830444",
-    "web": "https://www.la-fiaschetteria.com",
-    "mappa": "Via Bersano 59 bis, Besenzone",
-    "note": "Con camere · Parma · ❤️"
+    "telefono": "+39 0523 830444",
+    "web": "https://www.la-fiaschetteria.com"
   },
   {
     "nome": "La Gallina",
-    "luogo": "Gavi Piemonte · AL",
+    "indirizzo": "Frazione Monterotondo 56",
+    "citta": "Gavi Piemonte",
+    "provincia": "AL",
     "regione": "Piemonte",
-    "prov": "AL",
-    "tel": "+39 0143 685132",
-    "web": "https://www.villasparinaresort.it/it/ristorante-la-gall",
-    "mappa": "Frazione Monterotondo 56, Gavi Piemonte",
-    "note": "🌳 🌅 ♥️"
+    "telefono": "+39 0143 685132",
+    "web": "https://www.villasparinaresort.it/it/ristorante-la-gall"
   },
   {
     "nome": "La Genzianella",
-    "luogo": "Fabbrica Curone · AL",
+    "indirizzo": "Regione Selvapiana 7",
+    "citta": "Fabbrica Curone",
+    "provincia": "AL",
     "regione": "Piemonte",
-    "prov": "AL",
-    "tel": "+39 0131 780135",
-    "web": "https://www.albergoristorantelagenzianellaselvapiana.it",
-    "mappa": "Regione Selvapiana 7, Fabbrica Curone",
-    "note": "Chiuso lunedì e martedì"
+    "telefono": "+39 0131 780135",
+    "web": "https://www.albergoristorantelagenzianellaselvapiana.it"
   },
   {
     "nome": "La Locanda del Notaio",
-    "luogo": "Pellio Intelvi · CO",
+    "indirizzo": "Piano delle Noci 22",
+    "citta": "Pellio Intelvi",
+    "provincia": "CO",
     "regione": "Lombardia",
-    "prov": "CO",
-    "tel": "+39 031 8427016",
-    "web": "http://www.lalocandadelnotaio.com",
-    "mappa": "Piano delle Noci 22, Pellio Intelvi",
-    "note": ""
+    "telefono": "+39 031 8427016",
+    "web": "http://www.lalocandadelnotaio.com"
   },
   {
     "nome": "La Maniera di Carlo",
-    "luogo": "Milano · MI",
+    "indirizzo": "Via Giovanni Rasori 12",
+    "citta": "Milano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "",
-    "web": "https://www.lamanieradicarlo.it",
-    "mappa": "Via Giovanni Rasori 12, Milano",
-    "note": ""
+    "telefono": "",
+    "web": "https://www.lamanieradicarlo.it"
   },
   {
     "nome": "La Pergola",
-    "luogo": "Capaccio · SA",
+    "indirizzo": "Via Magna Graecia 50",
+    "citta": "Capaccio",
+    "provincia": "SA",
     "regione": "Campania",
-    "prov": "SA",
-    "tel": "+39 348 8158060",
-    "web": "https://www.lapergolapaestum.it",
-    "mappa": "Via Magna Graecia 50, Capaccio",
-    "note": ""
+    "telefono": "+39 348 8158060",
+    "web": "https://www.lapergolapaestum.it"
   },
   {
     "nome": "La Piazzetta",
-    "luogo": "Montevecchia · LC",
+    "indirizzo": "Piazza Canonico Iannuzzi, 2",
+    "citta": "Montevecchia",
+    "provincia": "LC",
     "regione": "Lombardia",
-    "prov": "LC",
-    "tel": "+39 039 9930106",
-    "web": "",
-    "mappa": "Piazza Canonico Iannuzzi, 2, Montevecchia",
-    "note": "🥪 🌳 🌅 ♥️"
+    "telefono": "+39 039 9930106",
+    "web": ""
   },
   {
     "nome": "La Piazzetta",
-    "luogo": "Valle dell’Angelo · SA",
+    "indirizzo": "Piazza Canonico Iannuzzi, 2",
+    "citta": "Valle dell’Angelo",
+    "provincia": "SA",
     "regione": "Campania",
-    "prov": "SA",
-    "tel": "+39 0974 942008",
-    "web": "",
-    "mappa": "Piazza Canonico Iannuzzi, 2, Valle dell’Angelo",
-    "note": ""
+    "telefono": "+39 0974 942008",
+    "web": ""
   },
   {
     "nome": "La Pineta",
-    "luogo": "Marina di Bibbona · LI",
+    "indirizzo": "Via dei Cavalleggeri Nord 27",
+    "citta": "Marina di Bibbona",
+    "provincia": "LI",
     "regione": "Toscana",
-    "prov": "LI",
-    "tel": "+39 0586 600016",
-    "web": "https://lapinetadizazzeri.it/",
-    "mappa": "Via dei Cavalleggeri Nord 27, Marina di Bibbona",
-    "note": "🌳 🌅 ♥️"
+    "telefono": "+39 0586 600016",
+    "web": "https://lapinetadizazzeri.it/"
   },
   {
     "nome": "La Raia",
-    "luogo": "Gavi · AL",
+    "indirizzo": "Località Lomellina 26",
+    "citta": "Gavi",
+    "provincia": "AL",
     "regione": "Piemonte",
-    "prov": "AL",
-    "tel": "+39 0143 642860",
-    "web": "https://www.la-raia.it/it",
-    "mappa": "Località Lomellina 26, Gavi",
-    "note": "Colli di Gavi · 🌳 🌅 ♥️"
+    "telefono": "+39 0143 642860",
+    "web": "https://www.la-raia.it/it"
   },
   {
     "nome": "La Rampolina",
-    "luogo": "Campino · VB",
+    "indirizzo": "Via Someraro 13",
+    "citta": "Campino",
+    "provincia": "VB",
     "regione": "Piemonte",
-    "prov": "VB",
-    "tel": "+393468689445",
-    "web": "https://www.larampolina.com",
-    "mappa": "Via Someraro 13, Campino",
-    "note": "Con camere 🌳 🌅 ♥️"
+    "telefono": "+393468689445",
+    "web": "https://www.larampolina.com"
   },
   {
     "nome": "La Saluma",
-    "luogo": "Cesenatico · FC",
+    "indirizzo": "Via dei Mille 55",
+    "citta": "Cesenatico",
+    "provincia": "FC",
     "regione": "Emilia-Romagna",
-    "prov": "FC",
-    "tel": "+39 345 1604771",
-    "web": "https://saluma.it",
-    "mappa": "Via dei Mille 55, Cesenatico",
-    "note": "Chiuso lunedì e martedì"
+    "telefono": "+39 345 1604771",
+    "web": "https://saluma.it"
   },
   {
     "nome": "La Tana degli Orsi",
-    "luogo": "Pratovecchio Stia · AR",
+    "indirizzo": "Via Roma 1",
+    "citta": "Pratovecchio Stia",
+    "provincia": "AR",
     "regione": "Toscana",
-    "prov": "AR",
-    "tel": "+39 0575 583377",
-    "web": "",
-    "mappa": "Via Roma 1, Pratovecchio Stia",
-    "note": ""
-  },
-  {
-    "nome": "La Toraia",
-    "luogo": "Sinalunga · SI",
-    "regione": "Toscana",
-    "prov": "SI",
-    "tel": "+39 0577 678204",
-    "web": "https://www.tenutalafratta.it",
-    "mappa": "Località La Fratta 5, Sinalunga",
-    "note": "Con camere"
+    "telefono": "+39 0575 583377",
+    "web": ""
   },
   {
     "nome": "La Verde Sosta",
-    "luogo": "Montecalvo Versiggia · PV",
+    "indirizzo": "Via Crocetta 2",
+    "citta": "Montecalvo Versiggia",
+    "provincia": "PV",
     "regione": "Lombardia",
-    "prov": "PV",
-    "tel": "+39 0385 99734",
-    "web": "https://www.laverdesosta.it/home",
-    "mappa": "Via Crocetta 2, Montecalvo Versiggia",
-    "note": "Aperto dal mercoledì al giovedì a pranzo e a cena"
+    "telefono": "+39 0385 99734",
+    "web": "https://www.laverdesosta.it/home"
   },
   {
     "nome": "Lac",
-    "luogo": "Melide Canton Ticino · TI",
+    "indirizzo": "Lungolago Motta 9",
+    "citta": "Melide Canton Ticino",
+    "provincia": "TI",
     "regione": "Svizzera",
-    "prov": "TI",
-    "tel": "+41 79 911 82 59",
-    "web": "https://www.lelacrestaurant.ch",
-    "mappa": "Lungolago Motta 9, Melide Canton Ticino",
-    "note": "Lounge Bar · 🌳 🌅 ♥️"
+    "telefono": "+41 79 911 82 59",
+    "web": "https://www.lelacrestaurant.ch"
   },
   {
     "nome": "Le Grand Cafe Rouge",
-    "luogo": "Barcellona · ES",
+    "indirizzo": "Rambla de Prim 6",
+    "citta": "Barcellona",
+    "provincia": "ES",
     "regione": "Spagna",
-    "prov": "ES",
-    "tel": "",
-    "web": "https://legrandcaferouge.eu",
-    "mappa": "Rambla de Prim 6, Barcellona",
-    "note": ""
+    "telefono": "",
+    "web": "https://legrandcaferouge.eu"
   },
   {
     "nome": "Le Lune",
-    "luogo": "Firenze · FI",
+    "indirizzo": "Via San Domenico 36",
+    "citta": "Firenze",
+    "provincia": "FI",
     "regione": "Toscana",
-    "prov": "FI",
-    "tel": "+39 055 570222",
-    "web": "https://www.lelunefirenze.it/home-1",
-    "mappa": "Via San Domenico 36, Firenze",
-    "note": "Ristorante e Vivaio · Firenze · Toscana"
+    "telefono": "+39 055 570222",
+    "web": "https://www.lelunefirenze.it/home-1"
   },
   {
     "nome": "Lino Scarallo",
-    "luogo": "Napoli",
+    "indirizzo": "Via Posillipo 16/C",
+    "citta": "Napoli",
+    "provincia": "",
     "regione": "Campania",
-    "prov": "",
-    "tel": "+39 366 3398895",
-    "web": "http://www.palazzopetrucci.it",
-    "mappa": "Via Posillipo 16/C, Napoli",
-    "note": ""
+    "telefono": "+39 366 3398895",
+    "web": "http://www.palazzopetrucci.it"
   },
   {
     "nome": "Livia Cerliani",
-    "luogo": "Campiglia · SP",
+    "indirizzo": "Via Tramonti 4",
+    "citta": "Campiglia",
+    "provincia": "SP",
     "regione": "Liguria",
-    "prov": "SP",
-    "tel": "+39 342 0736590",
-    "web": "https://lalamparacampiglia.com",
-    "mappa": "Via Tramonti 4, Campiglia",
-    "note": "Liguria · Camere vista mare · 🌳🌅♥️ · (DP)"
+    "telefono": "+39 342 0736590",
+    "web": "https://lalamparacampiglia.com"
   },
   {
     "nome": "Lo Scamorzaro",
-    "luogo": "Rosello · CH",
+    "indirizzo": "Contrada Fonte dei Ginepri 5",
+    "citta": "Rosello",
+    "provincia": "CH",
     "regione": "Abruzzo",
-    "prov": "CH",
-    "tel": "+39 0872 948441",
-    "web": "",
-    "mappa": "Contrada Fonte dei Ginepri 5, Rosello",
-    "note": "Abruzzo · Molise ·"
+    "telefono": "+39 0872 948441",
+    "web": ""
   },
   {
     "nome": "Locanda de Banchieri",
-    "luogo": "Fosdinovo · MS",
+    "indirizzo": "Via Porredo 32",
+    "citta": "Fosdinovo",
+    "provincia": "MS",
     "regione": "Toscana",
-    "prov": "MS",
-    "tel": "+39 333 1849263",
-    "web": "https://www.locandadebanchieri.it",
-    "mappa": "Via Porredo 32, Fosdinovo",
-    "note": "Lunigiana, Toscana, con camere · Giacomo Devoto"
+    "telefono": "+39 333 1849263",
+    "web": "https://www.locandadebanchieri.it"
   },
   {
     "nome": "Locanda dei Salinari",
-    "luogo": "Cervia · RA",
+    "indirizzo": "Via XX Settembre 67",
+    "citta": "Cervia",
+    "provincia": "RA",
     "regione": "Emilia-Romagna",
-    "prov": "RA",
-    "tel": "",
-    "web": "https://www.locandasalinari.it/",
-    "mappa": "Via XX Settembre 67, Cervia",
-    "note": "Pesce e frutti di mare, cucina romagnola · Chiuso il mercoledì · Emilia"
+    "telefono": "",
+    "web": "https://www.locandasalinari.it/"
   },
   {
     "nome": "Locanda delle Grazie",
-    "luogo": "Grazie · MN",
+    "indirizzo": "Via San Pio X 2",
+    "citta": "Grazie",
+    "provincia": "MN",
     "regione": "Lombardia",
-    "prov": "MN",
-    "tel": "+39 0376 348038",
-    "web": "",
-    "mappa": "Via San Pio X 2, Grazie",
-    "note": "Indicazioni: Via Cantarana, Piazza Santuario"
+    "telefono": "+39 0376 348038",
+    "web": ""
   },
   {
     "nome": "Locanda di Nunno",
-    "luogo": "Canosa di Puglia · BT",
+    "indirizzo": "Via Balilla 2",
+    "citta": "Canosa di Puglia",
+    "provincia": "BT",
     "regione": "Puglia",
-    "prov": "BT",
-    "tel": "+39 0883 615096",
-    "web": "",
-    "mappa": "Via Balilla 2, Canosa di Puglia",
-    "note": ""
+    "telefono": "+39 0883 615096",
+    "web": ""
   },
   {
     "nome": "Lokanda Devetak",
-    "luogo": "Savogna d’Isonzo · GO",
+    "indirizzo": "Via Brežiči 22",
+    "citta": "Savogna d’Isonzo",
+    "provincia": "GO",
     "regione": "Friuli-Venezia Giulia",
-    "prov": "GO",
-    "tel": "+39-0481-882488",
-    "web": "https://www.devetak.com",
-    "mappa": "Via Brežiči 22, Savogna d’Isonzo",
-    "note": "Premiate trattorie italiane"
+    "telefono": "+39-0481-882488",
+    "web": "https://www.devetak.com"
   },
   {
     "nome": "Luca",
-    "luogo": "Fidenza · PR",
+    "indirizzo": "Via Fornio 78",
+    "citta": "Fidenza",
+    "provincia": "PR",
     "regione": "Emilia-Romagna",
-    "prov": "PR",
-    "tel": "+39 348 269 2415",
-    "web": "https://www.osteriafornio.it",
-    "mappa": "Via Fornio 78, Fidenza",
-    "note": ""
+    "telefono": "+39 348 269 2415",
+    "web": "https://www.osteriafornio.it"
   },
   {
-    "nome": "Ceresio 7",
-    "luogo": "Milano · MI",
+    "nome": "Luca Pardini",
+    "indirizzo": "Via Ceresio 7",
+    "citta": "Milano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 02 31039221",
-    "web": "https://www.ceresio7.com",
-    "mappa": "Via Ceresio 7, Milano",
-    "note": ""
+    "telefono": "+39 02 31039221",
+    "web": "https://www.ceresio7.com"
   },
   {
     "nome": "Lucio Pompili",
-    "luogo": "Cartoceto · PU",
+    "indirizzo": "Via Cartoceto 36",
+    "citta": "Cartoceto",
+    "provincia": "PU",
     "regione": "Marche",
-    "prov": "PU",
-    "tel": "+393356445032",
-    "web": "",
-    "mappa": "Via Cartoceto 36, Cartoceto",
-    "note": "Ex Simposyum · Pesaro Urbino · Marche"
+    "telefono": "+393356445032",
+    "web": ""
   },
   {
-    "nome": "Lucio Testa",
-    "luogo": "Cercemaggiore · CB",
+    "nome": "Contrasto",
+    "indirizzo": "Via Roma 55",
+    "citta": "Cercemaggiore",
+    "provincia": "CB",
     "regione": "Molise",
-    "prov": "CB",
-    "tel": "+39 0874 799230",
-    "web": "https://www.contrastoristorante.it",
-    "mappa": "Via Roma 55, Cercemaggiore",
-    "note": "Molise"
+    "telefono": "+39 0874 799230",
+    "web": "https://www.contrastoristorante.it"
   },
   {
     "nome": "Luigi Pomata",
-    "luogo": "Cagliari · CA",
+    "indirizzo": "Viale Regina Margherita 18",
+    "citta": "Cagliari",
+    "provincia": "CA",
     "regione": "Sardegna",
-    "prov": "CA",
-    "tel": "+39 070 672058",
-    "web": "https://luigipomata.com",
-    "mappa": "Viale Regina Margherita 18, Cagliari",
-    "note": ""
+    "telefono": "+39 070 672058",
+    "web": "https://luigipomata.com"
   },
   {
     "nome": "L’Oste",
-    "luogo": "Calenzano · FI",
+    "indirizzo": "Via Di Capalle 28b",
+    "citta": "Calenzano",
+    "provincia": "FI",
     "regione": "Toscana",
-    "prov": "FI",
-    "tel": "+39 055 882352",
-    "web": "",
-    "mappa": "Via Di Capalle 28b, Calenzano",
-    "note": "Firenze · Toscana · (DP) ·"
+    "telefono": "+39 055 882352",
+    "web": ""
   },
   {
     "nome": "L’Osteria dell’Orologio",
-    "luogo": "Fiumicino · RM",
+    "indirizzo": "Via Torre Clementina 114",
+    "citta": "Fiumicino",
+    "provincia": "RM",
     "regione": "Lazio",
-    "prov": "RM",
-    "tel": "+39066505251",
-    "web": "https://osteriadellorologio.net",
-    "mappa": "Via Torre Clementina 114, Fiumicino",
-    "note": ""
+    "telefono": "+39066505251",
+    "web": "https://osteriadellorologio.net"
   },
   {
     "nome": "M4 Restaurant",
-    "luogo": "Chioggia · VE",
+    "indirizzo": "Via S.Felice 3",
+    "citta": "Chioggia",
+    "provincia": "VE",
     "regione": "Veneto",
-    "prov": "VE",
-    "tel": "+39 370 3112387",
-    "web": "https://www.m4restaurant.it",
-    "mappa": "Via S.Felice 3, Chioggia",
-    "note": "Venezia · Veneto"
+    "telefono": "+39 370 3112387",
+    "web": "https://www.m4restaurant.it"
   },
   {
     "nome": "Maggese",
-    "luogo": "San Miniato · PI",
+    "indirizzo": "Via IV Novembre 29",
+    "citta": "San Miniato",
+    "provincia": "PI",
     "regione": "Toscana",
-    "prov": "PI",
-    "tel": "+39 0571 1723546",
-    "web": "https://www.ristorantemaggese.it",
-    "mappa": "Via IV Novembre 29, San Miniato",
-    "note": "Pisa · Toscana · (DP)"
+    "telefono": "+39 0571 1723546",
+    "web": "https://www.ristorantemaggese.it"
   },
   {
     "nome": "Manuel Lombardi",
-    "luogo": "Moniga del Garda · BS",
+    "indirizzo": "Via Pergola 10",
+    "citta": "Moniga del Garda",
+    "provincia": "BS",
     "regione": "Lombardia",
-    "prov": "BS",
-    "tel": "+39 0365 503225",
-    "web": "https://www.losteriah2o.it",
-    "mappa": "Via Pergola 10, Moniga del Garda",
-    "note": ""
+    "telefono": "+39 0365 503225",
+    "web": "https://www.losteriah2o.it"
   },
   {
-    "nome": "Marco Brescianini",
-    "luogo": "Pontoglio · BS",
+    "nome": "Dal Vecchio Larry",
+    "indirizzo": "Piazzetta Manenti 2",
+    "citta": "Pontoglio",
+    "provincia": "BS",
     "regione": "Lombardia",
-    "prov": "BS",
-    "tel": "+39 030 7376708",
-    "web": "",
-    "mappa": "Piazzetta Manenti 2, Pontoglio",
-    "note": ""
+    "telefono": "+39 030 7376708",
+    "web": ""
   },
   {
-    "nome": "Marco Dallabona",
-    "luogo": "Soragna · PR",
+    "nome": "Stella d'Oro",
+    "indirizzo": "Via Mazzini 8",
+    "citta": "Soragna",
+    "provincia": "PR",
     "regione": "Emilia-Romagna",
-    "prov": "PR",
-    "tel": "+390524597122",
-    "web": "http://www.ristorantestelladoro.it/stella-d'oro-ristora",
-    "mappa": "Via Mazzini 8, Soragna",
-    "note": ""
+    "telefono": "+390524597122",
+    "web": "http://www.ristorantestelladoro.it/stella-d'oro-ristora"
   },
   {
     "nome": "Marco Mori",
-    "luogo": "Erba · CO",
+    "indirizzo": "Via XXIV Maggio 1",
+    "citta": "Erba",
+    "provincia": "CO",
     "regione": "Lombardia",
-    "prov": "CO",
-    "tel": "+39 031 2258464",
-    "web": "https://www.damorris.it",
-    "mappa": "Via XXIV Maggio 1, Erba",
-    "note": ""
+    "telefono": "+39 031 2258464",
+    "web": "https://www.damorris.it"
   },
   {
     "nome": "Maria",
-    "luogo": "Policastro Bussentino · SA",
+    "indirizzo": "Via Nazionale 42",
+    "citta": "Policastro Bussentino",
+    "provincia": "SA",
     "regione": "Campania",
-    "prov": "SA",
-    "tel": "+39 0974 984186",
-    "web": "",
-    "mappa": "Via Nazionale 42, Policastro Bussentino",
-    "note": "Cilento · Campania"
+    "telefono": "+39 0974 984186",
+    "web": ""
   },
   {
-    "nome": "Lela’s Taverna",
-    "luogo": "Kardamili · GR",
+    "nome": "Maria Malliri",
+    "indirizzo": "Sul lungomare, vicino alla ex fabbrica di olio e sapone",
+    "citta": "Kardamili",
+    "provincia": "GR",
     "regione": "Grecia",
-    "prov": "GR",
-    "tel": "+30 2721 073541",
-    "web": "https://www.lelastaverna.com",
-    "mappa": "Messenia, Kardamili",
-    "note": "Chiuso domenica e lunedì Mani"
+    "telefono": "+30 2721 073541",
+    "web": "http://www.lelastaverna.com/index.php?lang=EN"
   },
   {
-    "nome": "Spore",
-    "luogo": "Milano · MI",
+    "nome": "Mariasole Cuomo",
+    "indirizzo": "Via Passo Buole 4",
+    "citta": "Milano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+393497075513",
-    "web": "https://www.sporeristorante.it",
-    "mappa": "Via Passo Buole 4, Milano",
-    "note": "Martedì-Sabato · 19:00-23:00"
+    "telefono": "+393497075513",
+    "web": "https://www.sporeristorante.it"
   },
   {
     "nome": "Mariella Gennari",
-    "luogo": "Calestano · PR",
+    "indirizzo": "Via Fragnolo 29",
+    "citta": "Calestano",
+    "provincia": "PR",
     "regione": "Emilia-Romagna",
-    "prov": "PR",
-    "tel": "+39 0525 52102",
-    "web": "https://locandamariella.it",
-    "mappa": "Via Fragnolo 29, Calestano",
-    "note": "Appennino parmense"
+    "telefono": "+39 0525 52102",
+    "web": "https://locandamariella.it"
   },
   {
     "nome": "Mario Cornali",
-    "luogo": "Almenno San Salvatore · BG",
+    "indirizzo": "Via Ca' Paler 5 - Strada per Roncola San Be",
+    "citta": "Almenno San Salvatore",
+    "provincia": "BG",
     "regione": "Lombardia",
-    "prov": "BG",
-    "tel": "+39 035 642570",
-    "web": "https://www.ristorantecollina.it",
-    "mappa": "Via Ca' Paler 5 - Strada per Roncola San Be, Almenno San Salvatore",
-    "note": "🌳 🌅"
+    "telefono": "+39 035 642570",
+    "web": "https://www.ristorantecollina.it"
   },
   {
     "nome": "Marè",
-    "luogo": "Cesenatico · FC",
+    "indirizzo": "Molo di Levante 74",
+    "citta": "Cesenatico",
+    "provincia": "FC",
     "regione": "Emilia-Romagna",
-    "prov": "FC",
-    "tel": "+39 331 1476563",
-    "web": "https://mareconlaccento.it",
-    "mappa": "Molo di Levante 74, Cesenatico",
-    "note": "Spiaggia: attivo 9-12 e 15-18 · Emilia Romagna · 🌳 ·  ·"
+    "telefono": "+39 331 1476563",
+    "web": "https://mareconlaccento.it"
   },
   {
     "nome": "Massimo",
-    "luogo": "Como · CO",
+    "indirizzo": "Via Crotto del Sergente 13",
+    "citta": "Como",
+    "provincia": "CO",
     "regione": "Lombardia",
-    "prov": "CO",
-    "tel": "+39 031 283911",
-    "web": "https://www.crottodelsergente.it",
-    "mappa": "Via Crotto del Sergente 13, Como",
-    "note": ""
+    "telefono": "+39 031 283911",
+    "web": "https://www.crottodelsergente.it"
   },
   {
     "nome": "Comely Club",
-    "luogo": "Codino · ES",
+    "indirizzo": "",
+    "citta": "Ibiza",
+    "provincia": "ES",
     "regione": "Spagna",
-    "prov": "ES",
-    "tel": "",
-    "web": "https://www.comelyclub.com",
-    "mappa": "Direcion social Calle Paris 54, Codino",
-    "note": "🌳 🌅"
+    "telefono": "",
+    "web": "https://www.comelyclub.com"
   },
   {
-    "nome": "Malga Millegrobbe",
-    "luogo": "Lavarone · TN",
+    "nome": "Massimo Osele",
+    "indirizzo": "Località Millegrobbe",
+    "citta": "Lavarone",
+    "provincia": "TN",
     "regione": "Trentino-Alto Adige",
-    "prov": "TN",
-    "tel": "+39 3409533476",
-    "web": "https://www.malgamillegrobbe.it",
-    "mappa": "Località Millegrobbe, Lavarone",
-    "note": "Aperti sabato e domenica"
+    "telefono": "+39 348 7476813",
+    "web": "https://www.malgamillegrobbe.it"
   },
   {
     "nome": "Luce",
-    "luogo": "Varese · VA",
+    "indirizzo": "Piazza Litta 1 (Villa Panza)",
+    "citta": "Varese",
+    "provincia": "VA",
     "regione": "Lombardia",
-    "prov": "VA",
-    "tel": "+39 0332 242199",
-    "web": "https://ristoranteluce.it",
-    "mappa": "Piazza Letta 1, Varese",
-    "note": ""
+    "telefono": "+39 0332 242199",
+    "web": "https://ristoranteluce.it"
   },
   {
     "nome": "Ciclone",
-    "luogo": "Lugana di Sirmione · BS",
+    "indirizzo": "Via Verona 29",
+    "citta": "Lugana di Sirmione",
+    "provincia": "BS",
     "regione": "Lombardia",
-    "prov": "BS",
-    "tel": "+39 030 9196177",
-    "web": "https://www.ristorantepizzeriaciclone.it",
-    "mappa": "Via Verona 29, Lugana di Sirmione",
-    "note": "Pizza gourmet"
+    "telefono": "+39 030 9196177",
+    "web": "https://www.ristorantepizzeriaciclone.it"
   },
   {
     "nome": "La Dispensa dei Balocchi",
-    "luogo": "Piacenza · PC",
+    "indirizzo": "Largo Pietro Gioia 3",
+    "citta": "Piacenza",
+    "provincia": "PC",
     "regione": "Emilia-Romagna",
-    "prov": "PC",
-    "tel": "+39 0523 323639",
-    "web": "https://www.ladispensadeibalocchi.it",
-    "mappa": "Largo Pietro Gioia 3, Piacenza",
-    "note": "Chiuso il giovedì"
+    "telefono": "+39 331 8439035",
+    "web": "https://www.ladispensadeibalocchi.it"
   },
   {
     "nome": "Lo Stuzzichino",
-    "luogo": "Massa Lubrense",
+    "indirizzo": "Via Deserto 1/A, Sant'Agata sui Due Golfi",
+    "citta": "Massa Lubrense",
+    "provincia": "",
     "regione": "Campania",
-    "prov": "",
-    "tel": "+39 081 5330010",
-    "web": "https://www.ristorantelostuzzichino.it",
-    "mappa": "Via Deserto 1/A, Sant'Agata sui Due Golfi, Massa Lubrense",
-    "note": "Premiate trattorie italiane"
+    "telefono": "+39 081 5330010",
+    "web": "https://www.ristorantelostuzzichino.it"
   },
   {
     "nome": "More e Macine",
-    "luogo": "La Morra · CN",
+    "indirizzo": "Via XX Settembre 18",
+    "citta": "La Morra",
+    "provincia": "CN",
     "regione": "Piemonte",
-    "prov": "CN",
-    "tel": "+39 0173 500395",
-    "web": "",
-    "mappa": "Via XX Settembre 18, La Morra",
-    "note": "Langhe · Piemonte"
+    "telefono": "+39 0173 500395",
+    "web": ""
   },
   {
     "nome": "MSE Tutta",
-    "luogo": "Calizzano · SV",
+    "indirizzo": "Via Garibaldi 7",
+    "citta": "Calizzano",
+    "provincia": "SV",
     "regione": "Liguria",
-    "prov": "SV",
-    "tel": "+39 339 3199648",
-    "web": "",
-    "mappa": "Via Garibaldi 7, Calizzano",
-    "note": "Chiuso il lunedì · Aperto soltanto la sera · Savona · Liguria"
+    "telefono": "+39 339 3199648",
+    "web": ""
   },
   {
     "nome": "Nangalarruni",
-    "luogo": "Castelbuono · PA",
+    "indirizzo": "Via delle Confraternite 7",
+    "citta": "Castelbuono",
+    "provincia": "PA",
     "regione": "Sicilia",
-    "prov": "PA",
-    "tel": "+39 0921 671228",
-    "web": "https://www.hostarianangalarruni.it",
-    "mappa": "Via delle Confraternite 7, Castelbuono",
-    "note": "Premiate trattorie italiane"
+    "telefono": "+39 0921 671228",
+    "web": "https://www.hostarianangalarruni.it"
   },
   {
     "nome": "Toni del Spin",
-    "luogo": "Treviso · TV",
+    "indirizzo": "Via Inferiore 7",
+    "citta": "Treviso",
+    "provincia": "TV",
     "regione": "Veneto",
-    "prov": "TV",
-    "tel": "+39 393 9863597",
-    "web": "http://www.ristorantetonidelspin.com",
-    "mappa": "Via Inferiore 7, Treviso",
-    "note": ""
+    "telefono": "+39 393 9863597",
+    "web": "http://www.ristorantetonidelspin.com"
   },
   {
     "nome": "Al Castelletto",
-    "luogo": "Pedeguarda di Follina · TV",
+    "indirizzo": "Via Castelletto 3",
+    "citta": "Pedeguarda di Follina",
+    "provincia": "TV",
     "regione": "Veneto",
-    "prov": "TV",
-    "tel": "+39 0438 842484",
-    "web": "http://www.alcastelletto.com/mobile/index.htm",
-    "mappa": "Via Castelletto 3, Pedeguarda di Follina",
-    "note": "Chiuso martedì e mercoledì"
+    "telefono": "+39 0438 842484",
+    "web": "http://www.alcastelletto.com/mobile/index.htm"
   },
   {
     "nome": "Novantiqua",
-    "luogo": "Bordighera · IM",
+    "indirizzo": "Via Lunga 2",
+    "citta": "Bordighera",
+    "provincia": "IM",
     "regione": "Liguria",
-    "prov": "IM",
-    "tel": "+39 0184 842580",
-    "web": "https://www.novantiquabordighera.it",
-    "mappa": "Via Lunga 2, Bordighera",
-    "note": "Imperia · Liguria"
+    "telefono": "+39 0184 842580",
+    "web": "https://www.novantiquabordighera.it"
   },
   {
     "nome": "Officina del Cibo",
-    "luogo": "Sarzana · SP",
+    "indirizzo": "Via Brigata Partigiana Muccini 181",
+    "citta": "Sarzana",
+    "provincia": "SP",
     "regione": "Liguria",
-    "prov": "SP",
-    "tel": "+39 393 9584694",
-    "web": "https://www.officinedelcibosarzana.it",
-    "mappa": "Via Brigata Partigiana Muccini 181, Sarzana",
-    "note": "Pizzeria contemporanea"
+    "telefono": "+39 393 9584694",
+    "web": "https://www.officinedelcibosarzana.it"
   },
   {
     "nome": "Omar Bertoletti",
-    "luogo": "Vho di Piadena · CR",
+    "indirizzo": "Via del Popolo 31",
+    "citta": "Vho di Piadena",
+    "provincia": "CR",
     "regione": "Lombardia",
-    "prov": "CR",
-    "tel": "+39 334 3161427",
-    "web": "http://www.trattoriadellalba.com",
-    "mappa": "Via del Popolo 31, Vho di Piadena",
-    "note": ""
+    "telefono": "+39 334 3161427",
+    "web": "http://www.trattoriadellalba.com"
   },
   {
     "nome": "Omar Folini",
-    "luogo": "Castionetto di Chiuro · SO",
+    "indirizzo": "Via Madonnina 35",
+    "citta": "Castionetto di Chiuro",
+    "provincia": "SO",
     "regione": "Lombardia",
-    "prov": "SO",
-    "tel": "+39 346 7299410",
-    "web": "https://www.lasvolta.eu",
-    "mappa": "Via Madonnina 35, Castionetto di Chiuro",
-    "note": ""
+    "telefono": "+39 346 7299410",
+    "web": "https://www.lasvolta.eu"
   },
   {
     "nome": "Osteria 1927",
-    "luogo": "Biassono · MB",
+    "indirizzo": "· Via Verri 19",
+    "citta": "Biassono",
+    "provincia": "MB",
     "regione": "Lombardia",
-    "prov": "MB",
-    "tel": "+39 335 6850486",
-    "web": "",
-    "mappa": "· Via Verri 19, Biassono",
-    "note": ""
+    "telefono": "+39 335 6850486",
+    "web": ""
   },
   {
     "nome": "Osteria 99",
-    "luogo": "Chiesa in Valmalenco · SO",
+    "indirizzo": "Via Franco Sampietro 28",
+    "citta": "Chiesa in Valmalenco",
+    "provincia": "SO",
     "regione": "Lombardia",
-    "prov": "SO",
-    "tel": "+39 0342 454056",
-    "web": "",
-    "mappa": "Via Franco Sampietro 28, Chiesa in Valmalenco",
-    "note": "🌳 🌅 ♥️"
+    "telefono": "+39 0342 454056",
+    "web": ""
   },
   {
     "nome": "Osteria Amarotto",
-    "luogo": "Casale Monferrato · AL",
+    "indirizzo": "Via Camillo Benso Cavour 53",
+    "citta": "Casale Monferrato",
+    "provincia": "AL",
     "regione": "Piemonte",
-    "prov": "AL",
-    "tel": "+39 0142 781281",
-    "web": "https://www.osteriaamarottocasale.it/tradizioni",
-    "mappa": "Via Camillo Benso Cavour 53, Casale Monferrato",
-    "note": "Chiuso lunedì e martedì · Piemonte"
+    "telefono": "+39 0142 781281",
+    "web": "https://www.osteriaamarottocasale.it/tradizioni"
   },
   {
     "nome": "Osteria Bar Sport",
-    "luogo": "San Germano Casale Monferrato · AL",
+    "indirizzo": "Strada Statale Alessandria 85",
+    "citta": "San Germano Casale Monferrato",
+    "provincia": "AL",
     "regione": "Piemonte",
-    "prov": "AL",
-    "tel": "+39014250686",
-    "web": "https://osteriabarsport.wordpress.com",
-    "mappa": "Strada Statale Alessandria 85, San Germano Casale Monferrato",
-    "note": "Casale Monferrato · Piemonte"
+    "telefono": "+39014250686",
+    "web": "https://osteriabarsport.wordpress.com"
   },
   {
     "nome": "Osteria Bottega",
-    "luogo": "Bologna · BO",
+    "indirizzo": "Via Santa Caterina 51",
+    "citta": "Bologna",
+    "provincia": "BO",
     "regione": "Emilia-Romagna",
-    "prov": "BO",
-    "tel": "+39 051 585111",
-    "web": "https://www.osteriabottega.it",
-    "mappa": "Via Santa Caterina 51, Bologna",
-    "note": "Tortellini in brodo · Emilia Romagna"
+    "telefono": "+39 051 585111",
+    "web": "https://www.osteriabottega.it"
   },
   {
     "nome": "Osteria Buatta",
-    "luogo": "Palermo · PA",
+    "indirizzo": "Corso Vittorio Emanuele 176",
+    "citta": "Palermo",
+    "provincia": "PA",
     "regione": "Sicilia",
-    "prov": "PA",
-    "tel": "+39 091 322378",
-    "web": "http://www.buattapalermo.it",
-    "mappa": "Corso Vittorio Emanuele 176, Palermo",
-    "note": "Chiuso il mercoledì · Palermo · Sicilia"
+    "telefono": "+39 091 322378",
+    "web": "http://www.buattapalermo.it"
   },
   {
     "nome": "Osteria Cominelli",
-    "luogo": "Folzano · BS",
+    "indirizzo": "Via della Palla 4",
+    "citta": "Folzano",
+    "provincia": "BS",
     "regione": "Lombardia",
-    "prov": "BS",
-    "tel": "+39 320 0163147",
-    "web": "",
-    "mappa": "Via della Palla 4, Folzano",
-    "note": ""
+    "telefono": "+39 320 0163147",
+    "web": ""
   },
   {
     "nome": "Osteria del Crotto",
-    "luogo": "Morbegno · SO",
+    "indirizzo": "Via Pedemontana 23",
+    "citta": "Morbegno",
+    "provincia": "SO",
     "regione": "Lombardia",
-    "prov": "SO",
-    "tel": "+39 0342614800",
-    "web": "https://www.osteriadelcrotto.it",
-    "mappa": "Via Pedemontana 23, Morbegno",
-    "note": ""
+    "telefono": "+39 0342614800",
+    "web": "https://www.osteriadelcrotto.it"
   },
   {
     "nome": "Osteria del Mirasole",
-    "luogo": "San Giovanni in Persiceto · BO",
+    "indirizzo": "Via Giacomo Matteotti 17",
+    "citta": "San Giovanni in Persiceto",
+    "provincia": "BO",
     "regione": "Emilia-Romagna",
-    "prov": "BO",
-    "tel": "+39 051 821273",
-    "web": "http://www.osteriadelmirasole.it",
-    "mappa": "Via Giacomo Matteotti 17, San Giovanni in Persiceto",
-    "note": ""
+    "telefono": "+39 051 821273",
+    "web": "http://www.osteriadelmirasole.it"
   },
   {
     "nome": "Osteria del Teatro",
-    "luogo": "Cortona · AR",
+    "indirizzo": "Via Maffei 2",
+    "citta": "Cortona",
+    "provincia": "AR",
     "regione": "Toscana",
-    "prov": "AR",
-    "tel": "+39 0575 630556",
-    "web": "http://www.osteria-del-teatro.it",
-    "mappa": "Via Maffei 2, Cortona",
-    "note": "Chiuso il mercoledì · Arezzo · Toscana"
+    "telefono": "+39 0575 630556",
+    "web": "http://www.osteria-del-teatro.it"
   },
   {
     "nome": "Osteria dell'Albachiara",
-    "luogo": "Bergamo · BG",
+    "indirizzo": "Vicolo Bancalegno 2",
+    "citta": "Bergamo",
+    "provincia": "BG",
     "regione": "Lombardia",
-    "prov": "BG",
-    "tel": "+39 035 237353",
-    "web": "",
-    "mappa": "Vicolo Bancalegno 2, Bergamo",
-    "note": ""
+    "telefono": "+39 035 237353",
+    "web": ""
   },
   {
     "nome": "Osteria della Villetta",
-    "luogo": "Palazzolo sull'Oglio · BS",
+    "indirizzo": "Via Guglielmo Marconi 104,",
+    "citta": "Palazzolo sull'Oglio",
+    "provincia": "BS",
     "regione": "Lombardia",
-    "prov": "BS",
-    "tel": "+39 030 7401899",
-    "web": "https://www.osteriadellavilletta.it",
-    "mappa": "Via Guglielmo Marconi 104,, Palazzolo sull'Oglio",
-    "note": ""
+    "telefono": "+39 030 7401899",
+    "web": "https://www.osteriadellavilletta.it"
   },
   {
     "nome": "Osteria delle Vigne",
-    "luogo": "Varano de' Melegari · PR",
+    "indirizzo": "Via Roma 4",
+    "citta": "Varano de' Melegari",
+    "provincia": "PR",
     "regione": "Emilia-Romagna",
-    "prov": "PR",
-    "tel": "+39 0525 404328",
-    "web": "",
-    "mappa": "Via Roma 4, Varano de' Melegari",
-    "note": "Uscita autostrada Fornovo · Appennino parmense · Chiuso il martedì"
+    "telefono": "+39 0525 404328",
+    "web": ""
   },
   {
     "nome": "Osteria di Citerna",
-    "luogo": "Fornovo di Taro · PR",
+    "indirizzo": "Strada Fondovalle 99 · Citerna",
+    "citta": "Fornovo di Taro",
+    "provincia": "PR",
     "regione": "Emilia-Romagna",
-    "prov": "PR",
-    "tel": "+39 327 0121349",
-    "web": "",
-    "mappa": "Strada Fondovalle 99 · Citerna, Fornovo di Taro",
-    "note": "Appennino parmense"
+    "telefono": "+39 327 0121349",
+    "web": ""
   },
   {
     "nome": "Osteria Il Vignaccio",
-    "luogo": "Santa Lucia · LU",
+    "indirizzo": "Via Miramare 26",
+    "citta": "Santa Lucia",
+    "provincia": "LU",
     "regione": "Toscana",
-    "prov": "LU",
-    "tel": "+39 348 3058303",
-    "web": "https://www.ristorantebernardone.it",
-    "mappa": "Via Miramare 26, Santa Lucia",
-    "note": "Chiuso il mercoledì, aperto solo la sera · Con camere B&B Bernardone ·"
+    "telefono": "+39 348 3058303",
+    "web": "https://www.ristorantebernardone.it"
   },
   {
     "nome": "Osteria la Fefa",
-    "luogo": "Finale Emilia · MO",
+    "indirizzo": "Via Trento e Trieste 9/C",
+    "citta": "Finale Emilia",
+    "provincia": "MO",
     "regione": "Emilia-Romagna",
-    "prov": "MO",
-    "tel": "+39 0535 780202",
-    "web": "https://www.osterialafefa.it",
-    "mappa": "Via Trento e Trieste 9/C, Finale Emilia",
-    "note": "Modena · Emilia Romagna · (DP)"
+    "telefono": "+39 0535 780202",
+    "web": "https://www.osterialafefa.it"
   },
   {
     "nome": "Osteria l’Acquario",
-    "luogo": "Castiglione del Lago · PG",
+    "indirizzo": "Via Vittorio Emanuele II 69",
+    "citta": "Castiglione del Lago",
+    "provincia": "PG",
     "regione": "Umbria",
-    "prov": "PG",
-    "tel": "+39 075 9652432",
-    "web": "http://www.ristorantelacquario.it",
-    "mappa": "Via Vittorio Emanuele II 69, Castiglione del Lago",
-    "note": "Chiuso il mercoledì"
+    "telefono": "+39 075 9652432",
+    "web": "http://www.ristorantelacquario.it"
   },
   {
     "nome": "Osteria Madonnetta",
-    "luogo": "Marostica · VI",
+    "indirizzo": "Via Vajenti 21",
+    "citta": "Marostica",
+    "provincia": "VI",
     "regione": "Veneto",
-    "prov": "VI",
-    "tel": "+39 0424 75859",
-    "web": "https://www.osteriamadonnetta.it",
-    "mappa": "Via Vajenti 21, Marostica",
-    "note": ""
+    "telefono": "+39 0424 75859",
+    "web": "https://www.osteriamadonnetta.it"
   },
   {
     "nome": "Osteria Plip",
-    "luogo": "Venezia Mestre · VE",
+    "indirizzo": "Via San Donà 195/c",
+    "citta": "Venezia Mestre",
+    "provincia": "VE",
     "regione": "Veneto",
-    "prov": "VE",
-    "tel": "+39 347 9944257",
-    "web": "https://www.osteriaplip.com",
-    "mappa": "Via San Donà 195/c, Venezia Mestre",
-    "note": ""
+    "telefono": "+39 347 9944257",
+    "web": "https://www.osteriaplip.com"
   },
   {
     "nome": "Osteria Reale",
-    "luogo": "Tramonti · SA",
+    "indirizzo": "Via Cardamone 75",
+    "citta": "Tramonti",
+    "provincia": "SA",
     "regione": "Campania",
-    "prov": "SA",
-    "tel": "+39 089 856144",
-    "web": "http://www.osteriareale.it",
-    "mappa": "Via Cardamone 75, Tramonti",
-    "note": "Chiuso il mercoledì, mai in agosto · Salerno · Campania · 🌳 ·"
+    "telefono": "+39 089 856144",
+    "web": "http://www.osteriareale.it"
   },
   {
     "nome": "Osteria Rosso di Sera",
-    "luogo": "Magione · PG",
+    "indirizzo": "Via Fratelli Papini 81",
+    "citta": "Magione",
+    "provincia": "PG",
     "regione": "Umbria",
-    "prov": "PG",
-    "tel": "+39 075 8476277",
-    "web": "https://osteriarossodisera.net/",
-    "mappa": "Via Fratelli Papini 81, Magione",
-    "note": "Chiuso martedì e mercoledì"
+    "telefono": "+39 075 8476277",
+    "web": "https://osteriarossodisera.net/"
   },
   {
     "nome": "Osteria San Rocco",
-    "luogo": "Pozzuolo Martesana · MI",
+    "indirizzo": "Via Raffaello Sanzio 2 Località Trecella",
+    "citta": "Pozzuolo Martesana",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 02 95357663",
-    "web": "",
-    "mappa": "Via Raffaello Sanzio 2 Località Trecella, Pozzuolo Martesana",
-    "note": "Chiuso il lunedì sera e martedì tutto il giorno. · Maurizio"
+    "telefono": "+39 02 95357663",
+    "web": ""
   },
   {
     "nome": "Ostreria Fratelli Pavesi",
-    "luogo": "Podenzano · PC",
+    "indirizzo": "Gariga 8",
+    "citta": "Podenzano",
+    "provincia": "PC",
     "regione": "Emilia-Romagna",
-    "prov": "PC",
-    "tel": "+39 0523 524077",
-    "web": "https://www.ostreria.it",
-    "mappa": "Gariga 8, Podenzano",
-    "note": ""
+    "telefono": "+39 0523 524077",
+    "web": "https://www.ostreria.it"
   },
   {
     "nome": "Ostriche e Vino",
-    "luogo": "Milano · MI",
+    "indirizzo": "Viale Col di Lana 5",
+    "citta": "Milano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 02 58100 259",
-    "web": "https://ostrichevino.eatbu.com/?lang=it",
-    "mappa": "Viale Col di Lana 5, Milano",
-    "note": "Crostacei e frutti di mare"
+    "telefono": "+39 02 58100 259",
+    "web": "https://ostrichevino.eatbu.com/?lang=it"
   },
   {
     "nome": "La Terrazza",
-    "luogo": "Tremezzina · CO",
+    "indirizzo": "Via Regina 8 (Grand Hotel Tremezzo)",
+    "citta": "Tremezzina",
+    "provincia": "CO",
     "regione": "Lombardia",
-    "prov": "CO",
-    "tel": "+39 0344 42491",
-    "web": "https://www.grandhoteltremezzo.com",
-    "mappa": "Via Statale 5401, Tremezzina",
-    "note": ""
+    "telefono": "+39 0344 42491",
+    "web": "https://www.grandhoteltremezzo.com"
   },
   {
     "nome": "Ottone I",
-    "luogo": "Sarzana · SP",
+    "indirizzo": "Piazza Matteotti 30",
+    "citta": "Sarzana",
+    "provincia": "SP",
     "regione": "Liguria",
-    "prov": "SP",
-    "tel": "+39 0187 624924",
-    "web": "",
-    "mappa": "Piazza Matteotti 30, Sarzana",
-    "note": ""
+    "telefono": "+39 0187 624924",
+    "web": ""
   },
   {
     "nome": "Palazzo Portinari",
-    "luogo": "Firenze · FI",
+    "indirizzo": "Via del Corso 6",
+    "citta": "Firenze",
+    "provincia": "FI",
     "regione": "Toscana",
-    "prov": "FI",
-    "tel": "+39 055 5353555",
-    "web": "https://www.attodivitomollica.com",
-    "mappa": "Via del Corso 6, Firenze",
-    "note": "Atto  · Chef: Vito Mollica · Bistrot: tavolo 31 · Lucie"
+    "telefono": "+39 055 5353555",
+    "web": "https://www.attodivitomollica.com"
   },
   {
     "nome": "La Puritate",
-    "luogo": "Gallipoli · LE",
+    "indirizzo": "Via Sant'Elia 18",
+    "citta": "Gallipoli",
+    "provincia": "LE",
     "regione": "Puglia",
-    "prov": "LE",
-    "tel": "+39 0833 264205",
-    "web": "",
-    "mappa": "Via Sant'Elia 18, Gallipoli",
-    "note": "Salento"
+    "telefono": "+39 0833 264205",
+    "web": ""
   },
   {
     "nome": "Il Portico",
-    "luogo": "Appiano Gentile · CO",
+    "indirizzo": "Piazza Libertà 36",
+    "citta": "Appiano Gentile",
+    "provincia": "CO",
     "regione": "Lombardia",
-    "prov": "CO",
-    "tel": "+39 031 931982",
-    "web": "",
-    "mappa": "Via Giuseppe Mazzini 2, Appiano Gentile",
-    "note": ""
+    "telefono": "+39 031 931982",
+    "web": ""
   },
   {
     "nome": "Pap'Acorda",
-    "luogo": "Lisbon · P",
+    "indirizzo": "Rua da Atalaia 57 · Bairro Alto",
+    "citta": "Lisbon",
+    "provincia": "P",
     "regione": "Portogallo",
-    "prov": "P",
-    "tel": "+351 213 464 811",
-    "web": "",
-    "mappa": "Rua da Atalaia 57 · Bairro Alto, Lisbon",
-    "note": ""
+    "telefono": "+351 213 464 811",
+    "web": ""
   },
   {
     "nome": "Papillon",
-    "luogo": "Senago · MI",
+    "indirizzo": "Via Lattuada 12/a",
+    "citta": "Senago",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 02 99480093",
-    "web": "",
-    "mappa": "Via Lattuada 12/a, Senago",
-    "note": ""
+    "telefono": "+39 02 99480093",
+    "web": ""
   },
   {
     "nome": "Al Convento",
-    "luogo": "Cetara · SA",
+    "indirizzo": "Piazza San Francesco 16",
+    "citta": "Cetara",
+    "provincia": "SA",
     "regione": "Campania",
-    "prov": "SA",
-    "tel": "+39 333 3998507",
-    "web": "",
-    "mappa": "Piazza San Francesco 16, Cetara",
-    "note": ""
+    "telefono": "+39 333 3998507",
+    "web": "https://www.alconvento.net"
   },
   {
     "nome": "Pescaria",
-    "luogo": "Milano · MI",
+    "indirizzo": "Via Bonnet 5",
+    "citta": "Milano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 02 66993 22",
-    "web": "https://www.pescaria.it",
-    "mappa": "Via Bonnet 5, Milano",
-    "note": ""
+    "telefono": "+39 02 66993 22",
+    "web": "https://www.pescaria.it"
   },
   {
-    "nome": "Peter Brunel",
-    "luogo": "Arco · TN",
+    "nome": "Peter Brunel Ristorante Gourmet",
+    "indirizzo": "Via Linfano 47",
+    "citta": "Arco",
+    "provincia": "TN",
     "regione": "Trentino-Alto Adige",
-    "prov": "TN",
-    "tel": "+39 333 4536979",
-    "web": "https://www.peterbrunel.com",
-    "mappa": "Via Linfano 47, Arco",
-    "note": ""
+    "telefono": "+39 333 4536979",
+    "web": "https://www.peterbrunel.com"
   },
   {
     "nome": "Podere Belvedere",
-    "luogo": "Pontassieve · FI",
+    "indirizzo": "Via San Piero a Strada 23 -",
+    "citta": "Pontassieve",
+    "provincia": "FI",
     "regione": "Toscana",
-    "prov": "FI",
-    "tel": "+39 333 8693448",
-    "web": "https://poderebelvederetuscany.it",
-    "mappa": "Via San Piero a Strada 23 -, Pontassieve",
-    "note": "Con camere · Toscana · (DP) · Telefono:  | 329/0115099 ·"
+    "telefono": "+39 333 8693448",
+    "web": "https://poderebelvederetuscany.it"
   },
   {
     "nome": "Poliform Cafè",
-    "luogo": "Milano · MI",
+    "indirizzo": "Piazza della Scala 5",
+    "citta": "Milano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 331 1958361",
-    "web": "",
-    "mappa": "Piazza della Scala 5, Milano",
-    "note": ""
+    "telefono": "+39 331 1958361",
+    "web": ""
   },
   {
     "nome": "Porta di Basso",
-    "luogo": "Peschici · FG",
+    "indirizzo": "Via Colombo 38",
+    "citta": "Peschici",
+    "provincia": "FG",
     "regione": "Puglia",
-    "prov": "FG",
-    "tel": "+39 0884 355167",
-    "web": "http://www.portadibasso.com/",
-    "mappa": "Via Colombo 38, Peschici",
-    "note": ""
+    "telefono": "+39 0884 355167",
+    "web": "http://www.portadibasso.com/"
   },
   {
     "nome": "Posillipo",
-    "luogo": "Gabicce Monte · PU",
+    "indirizzo": "Via dell’Orizzonte 1",
+    "citta": "Gabicce Monte",
+    "provincia": "PU",
     "regione": "Marche",
-    "prov": "PU",
-    "tel": "+39 0541 953373",
-    "web": "https://www.ristoranteposillipo.com",
-    "mappa": "Via dell’Orizzonte 1, Gabicce Monte",
-    "note": "Marche"
+    "telefono": "+39 0541 953373",
+    "web": "https://www.ristoranteposillipo.com"
   },
   {
     "nome": "Primo Restaurant",
-    "luogo": "Lecce · LE",
+    "indirizzo": "Via 47º Regimento Fanteria 7",
+    "citta": "Lecce",
+    "provincia": "LE",
     "regione": "Puglia",
-    "prov": "LE",
-    "tel": "+390832243802",
-    "web": "https://www.primorestaurant.it",
-    "mappa": "Via 47º Regimento Fanteria 7, Lecce",
-    "note": ""
+    "telefono": "+390832243802",
+    "web": "https://www.primorestaurant.it"
   },
   {
     "nome": "Le Trabe",
-    "luogo": "Capaccio Paestum · SA",
+    "indirizzo": "Via Capo di Fiume 4",
+    "citta": "Capaccio Paestum",
+    "provincia": "SA",
     "regione": "Campania",
-    "prov": "SA",
-    "tel": "+39 0828 724165",
-    "web": "https://www.letrabe.it",
-    "mappa": "Via Capo di Fiume, 4, Capaccio Paestum",
-    "note": "Chiuso lunedì e martedì"
+    "telefono": "+39 0828 724165",
+    "web": "https://www.letrabe.it"
   },
   {
     "nome": "Nonna Sceppa",
-    "luogo": "Capaccio · SA",
+    "indirizzo": "Via Laura 45",
+    "citta": "Capaccio",
+    "provincia": "SA",
     "regione": "Campania",
-    "prov": "SA",
-    "tel": "+39 0828 851064",
-    "web": "https://www.nonnasceppa.com",
-    "mappa": "via Laura 45, Capaccio",
-    "note": "Chiuso il giovedì, tranne luglio e agosto"
+    "telefono": "+39 0828 851064",
+    "web": "https://www.nonnasceppa.com"
   },
   {
     "nome": "Ratanà",
-    "luogo": "Milano · MI",
+    "indirizzo": "Via de Castilla 28",
+    "citta": "Milano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 02 87128855",
-    "web": "https://www.ratana.it",
-    "mappa": "Via de Castilla 28, Milano",
-    "note": "⛱️"
+    "telefono": "+39 02 87128855",
+    "web": "https://www.ratana.it"
   },
   {
     "nome": "Red Bull Hangar 7",
-    "luogo": "Salzburg · A",
+    "indirizzo": "Wilhelm Spazier Straße 7A",
+    "citta": "Salzburg",
+    "provincia": "A",
     "regione": "Austria",
-    "prov": "A",
-    "tel": "+43 662 2197",
-    "web": "https://www.hangar-7.com/en/",
-    "mappa": "Wilhelm Spazier Straße 7A, Salzburg",
-    "note": "GmbH ·  · Tel.: +43 (0)662 2197 · E-mail: willkommen@hangar-7.com"
+    "telefono": "+43 662 2197",
+    "web": "https://www.hangar-7.com/en/"
   },
   {
     "nome": "Relais Castello di Morcote",
-    "luogo": "Vico Morcote Canton Ticino · CH",
+    "indirizzo": "Portich de Sura",
+    "citta": "Vico Morcote Canton Ticino",
+    "provincia": "CH",
     "regione": "Svizzera",
-    "prov": "CH",
-    "tel": "+41 91 980 22 52",
-    "web": "https://www.relaiscastellodimorcote.ch",
-    "mappa": "Portich de Sura, Vico Morcote Canton Ticino",
-    "note": "Ticino · ❤️🌳"
+    "telefono": "+41 91 980 22 52",
+    "web": "https://www.relaiscastellodimorcote.ch"
   },
   {
-    "nome": "Renato Martino",
-    "luogo": "Vairano Patenora · CE",
+    "nome": "Vairo del Volturno",
+    "indirizzo": "Via IV Novembre 60",
+    "citta": "Vairano Patenora",
+    "provincia": "CE",
     "regione": "Campania",
-    "prov": "CE",
-    "tel": "",
-    "web": "http://www.vairodelvolturno.com",
-    "mappa": "Via IV Novembre 60, Vairano Patenora",
-    "note": ""
+    "telefono": "",
+    "web": "http://www.vairodelvolturno.com"
   },
   {
     "nome": "Resù",
-    "luogo": "Villa di Lozio · BS",
+    "indirizzo": "Via Armando Diaz 25",
+    "citta": "Villa di Lozio",
+    "provincia": "BS",
     "regione": "Lombardia",
-    "prov": "BS",
-    "tel": "+39 335 315631",
-    "web": "http://www.ristorantealresu.it/ristorante/",
-    "mappa": "Via Armando Diaz 25, Villa di Lozio",
-    "note": "Vista Valle Camonica · Lombardia · 🌳"
+    "telefono": "+39 335 315631",
+    "web": "http://www.ristorantealresu.it/ristorante/"
   },
   {
     "nome": "Retrobottega",
-    "luogo": "Roma · RM",
+    "indirizzo": "Via della Stelletta 4",
+    "citta": "Roma",
+    "provincia": "RM",
     "regione": "Lazio",
-    "prov": "RM",
-    "tel": "+39 06 68136 310",
-    "web": "https://www.retro-bottega.com",
-    "mappa": "Via della Stelletta 4, Roma",
-    "note": ""
+    "telefono": "+39 06 68136 310",
+    "web": "https://www.retro-bottega.com"
   },
   {
     "nome": "Rezzano Cucina & Vino",
-    "luogo": "Sestri Levante · GE",
+    "indirizzo": "Via Asilo Maria Teresa 34",
+    "citta": "Sestri Levante",
+    "provincia": "GE",
     "regione": "Liguria",
-    "prov": "GE",
-    "tel": "+39 0185 450909",
-    "web": "https://rezzanocucinaevino.it",
-    "mappa": "Via Asilo Maria Teresa 34, Sestri Levante",
-    "note": "Ex Fiammenghilla Fieschi · Liguria"
+    "telefono": "+39 0185 450909",
+    "web": "https://rezzanocucinaevino.it"
   },
   {
     "nome": "Rifugio Boch",
-    "luogo": "Madonna di Campiglio · TN",
+    "indirizzo": "Località Intermedia Grostè",
+    "citta": "Madonna di Campiglio",
+    "provincia": "TN",
     "regione": "Trentino-Alto Adige",
-    "prov": "TN",
-    "tel": "+39 348 7326782",
-    "web": "",
-    "mappa": "Località Intermedia Grostè, Madonna di Campiglio",
-    "note": "Roberta"
+    "telefono": "+39 348 7326782",
+    "web": ""
   },
   {
     "nome": "Ristopescheria da Mery",
-    "luogo": "Cecina Mare · LI",
+    "indirizzo": "Viale Galliano",
+    "citta": "Cecina Mare",
+    "provincia": "LI",
     "regione": "Toscana",
-    "prov": "LI",
-    "tel": "+39 0586 620519",
-    "web": "http://ristopescheria.com",
-    "mappa": "Viale Galliano, Cecina Mare",
-    "note": "Livorno · Toscana · (DP) ·"
+    "telefono": "+39 0586 620519",
+    "web": "http://ristopescheria.com"
   },
   {
     "nome": "Ristorante Macelleria Motta",
-    "luogo": "Bellinzago Lombardo · MI",
+    "indirizzo": "Strada Padana Superiore, 90",
+    "citta": "Bellinzago Lombardo",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 02 95784123",
-    "web": "http://www.ristorantemacelleriamotta.it",
-    "mappa": "Strada Padana Superiore, 90, Bellinzago Lombardo",
-    "note": "Chef: Enzo Pettè"
+    "telefono": "+39 02 95784123",
+    "web": "http://www.ristorantemacelleriamotta.it"
   },
   {
     "nome": "Rita Cucina",
-    "luogo": "Concesio · BS",
+    "indirizzo": "Via Vincenzo Sorlini 14",
+    "citta": "Concesio",
+    "provincia": "BS",
     "regione": "Lombardia",
-    "prov": "BS",
-    "tel": "",
-    "web": "",
-    "mappa": "Via Vincenzo Sorlini 14, Concesio",
-    "note": ""
+    "telefono": "",
+    "web": ""
   },
   {
     "nome": "Roberto Anesi",
-    "luogo": "Canazei · TN",
+    "indirizzo": "Strèda Roma 58",
+    "citta": "Canazei",
+    "provincia": "TN",
     "regione": "Trentino-Alto Adige",
-    "prov": "TN",
-    "tel": "+39 0462 601433",
-    "web": "https://www.elpael.com",
-    "mappa": "Strèda Roma 58, Canazei",
-    "note": ""
+    "telefono": "+39 0462 601433",
+    "web": "https://www.elpael.com"
   },
   {
-    "nome": "Sine",
-    "luogo": "Milano · MI",
+    "nome": "Roberto Di Pinto",
+    "indirizzo": "Via Lomellina 12",
+    "citta": "Milano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 324 862 6157",
-    "web": "https://www.sinerestaurant.com",
-    "mappa": "Via Lomellina 12, Milano",
-    "note": "Ex Executive Chef Bulgari Hotel"
+    "telefono": "+39 324 862 6157",
+    "web": "https://www.sinerestaurant.com"
   },
   {
     "nome": "Santa Croce",
-    "luogo": "Parma · PR",
+    "indirizzo": "Via Alberto Pasini 20",
+    "citta": "Parma",
+    "provincia": "PR",
     "regione": "Emilia-Romagna",
-    "prov": "PR",
-    "tel": "+39 0521 293529",
-    "web": "",
-    "mappa": "Parma",
-    "note": ""
+    "telefono": "+39 0521 293529",
+    "web": "https://www.ristoranteportasantacroce.it"
   },
   {
-    "nome": "Charmant",
-    "luogo": "Milano · MI",
+    "nome": "Rocco",
+    "indirizzo": "Via Giuseppe Colombo 42",
+    "citta": "Milano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 02 70100 136",
-    "web": "",
-    "mappa": "Via Giuseppe Colombo 42, Milano",
-    "note": "Chiuso: domenica. · Amico di Lucio Nigro"
+    "telefono": "+39 02 70100 136",
+    "web": ""
   },
   {
     "nome": "Rocco e i suoi fratelli",
-    "luogo": "Rapallo · GE",
+    "indirizzo": "Vico Saline 5",
+    "citta": "Rapallo",
+    "provincia": "GE",
     "regione": "Liguria",
-    "prov": "GE",
-    "tel": "+39 0185 694058",
-    "web": "http://www.ristorantebark2.it",
-    "mappa": "Vico Saline 5, Rapallo",
-    "note": ""
+    "telefono": "+39 0185 694058",
+    "web": "http://www.ristorantebark2.it"
   },
   {
     "nome": "Romano",
-    "luogo": "Viareggio · LU",
+    "indirizzo": "Via Mazzini 120",
+    "citta": "Viareggio",
+    "provincia": "LU",
     "regione": "Toscana",
-    "prov": "LU",
-    "tel": "+39 0584 31382",
-    "web": "",
-    "mappa": "Via Mazzini 120, Viareggio",
-    "note": ""
+    "telefono": "+39 0584 31382",
+    "web": ""
   },
   {
     "nome": "Roscioli",
-    "luogo": "Roma · RM",
+    "indirizzo": "Via dei Giubbonari 21-22",
+    "citta": "Roma",
+    "provincia": "RM",
     "regione": "Lazio",
-    "prov": "RM",
-    "tel": "+39 06 68752 87",
-    "web": "https://www.salumeriaroscioli.com",
-    "mappa": "Via dei Giubbonari 21-22, Roma",
-    "note": "·"
+    "telefono": "+39 06 68752 87",
+    "web": "https://www.salumeriaroscioli.com"
   },
   {
     "nome": "Rovello Ariberto",
-    "luogo": "Milano · MI",
+    "indirizzo": "Via Ariberto 3",
+    "citta": "Milano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 02 72093709",
-    "web": "http://rovello18.it/it/home/",
-    "mappa": "Via Ariberto 3, Milano",
-    "note": ""
+    "telefono": "+39 02 72093709",
+    "web": "http://rovello18.it/it/home/"
   },
   {
-    "nome": "Manifattura Alimentare",
-    "luogo": "Ferrara · FE",
-    "regione": "Emilia-Romagna",
-    "prov": "FE",
-    "tel": "+39 0532 1716071",
-    "web": "http://www.manifatturaalimentare.it",
-    "mappa": "Via Palestro 73, Ferrara",
-    "note": "Gastronomia"
-  },
-  {
-    "nome": "Saimir Xhaxhaj",
-    "luogo": "Verona · VR",
+    "nome": "La Canonica",
+    "indirizzo": "Vicolo San Matteo 3",
+    "citta": "Verona",
+    "provincia": "VR",
     "regione": "Veneto",
-    "prov": "VR",
-    "tel": "+393404549806",
-    "web": "http://www.ristorantelacanonicaverona.it",
-    "mappa": "Vicolo San Matteo 3, Verona",
-    "note": ""
+    "telefono": "+393404549806",
+    "web": "http://www.ristorantelacanonicaverona.it"
   },
   {
     "nome": "San Gerolamo",
-    "luogo": "Vercurago · LC",
+    "indirizzo": "Via San Gerolamo 56",
+    "citta": "Vercurago",
+    "provincia": "LC",
     "regione": "Lombardia",
-    "prov": "LC",
-    "tel": "+39 0341 420429",
-    "web": "",
-    "mappa": "Via San Gerolamo 56, Vercurago",
-    "note": ""
+    "telefono": "+39 0341 420429",
+    "web": ""
   },
   {
     "nome": "San Martino",
-    "luogo": "Treviglio · BG",
+    "indirizzo": "Via Cesare Battisti 3",
+    "citta": "Treviglio",
+    "provincia": "BG",
     "regione": "Lombardia",
-    "prov": "BG",
-    "tel": "+39 0363 49075",
-    "web": "",
-    "mappa": "Via Cesare Battisti 3, Treviglio",
-    "note": ""
+    "telefono": "+39 0363 49075",
+    "web": ""
   },
   {
     "nome": "Sanna",
-    "luogo": "San Foca · LE",
+    "indirizzo": "Lungomare Matteotti 14",
+    "citta": "San Foca",
+    "provincia": "LE",
     "regione": "Puglia",
-    "prov": "LE",
-    "tel": "+39 0832 881540",
-    "web": "",
-    "mappa": "Lungomare Matteotti 14, San Foca",
-    "note": ""
+    "telefono": "+39 0832 881540",
+    "web": ""
   },
   {
     "nome": "Santa Barbara",
-    "luogo": "Firenze · FI",
+    "indirizzo": "Via Pier Capponi 72/A",
+    "citta": "Firenze",
+    "provincia": "FI",
     "regione": "Toscana",
-    "prov": "FI",
-    "tel": "+39 055 8358985",
-    "web": "https://www.santabarbarafirenze.com",
-    "mappa": "Via Pier Capponi 72/A, Firenze",
-    "note": "Aperto a cena dal lunedì al sabato 19:00/22:30 · Toscana · (DP)"
+    "telefono": "+39 055 8358985",
+    "web": "https://www.santabarbarafirenze.com"
   },
   {
     "nome": "Saraghino",
-    "luogo": "Marcelli · AN",
+    "indirizzo": "Via Litoranea 209",
+    "citta": "Marcelli",
+    "provincia": "AN",
     "regione": "Marche",
-    "prov": "AN",
-    "tel": "+39 071 7391596",
-    "web": "",
-    "mappa": "Marcelli",
-    "note": ""
+    "telefono": "+39 071 7391596",
+    "web": ""
   },
   {
     "nome": "Sci d’oro",
-    "luogo": "Colico · LC",
+    "indirizzo": "Via San Fedele 29",
+    "citta": "Colico",
+    "provincia": "LC",
     "regione": "Lombardia",
-    "prov": "LC",
-    "tel": "+39 0341 940594",
-    "web": "",
-    "mappa": "Via San Fedele 29, Colico",
-    "note": ""
+    "telefono": "+39 0341 940594",
+    "web": ""
   },
   {
     "nome": "Silvia",
-    "luogo": "Brescia · BS",
+    "indirizzo": "Via Giovanni Tempini 15",
+    "citta": "Brescia",
+    "provincia": "BS",
     "regione": "Lombardia",
-    "prov": "BS",
-    "tel": "+39 349 8408893",
-    "web": "https://www.selvabistrot.com",
-    "mappa": "Via Giovanni Tempini 15, Brescia",
-    "note": ""
+    "telefono": "+39 349 8408893",
+    "web": "https://www.selvabistrot.com"
   },
   {
     "nome": "Silvio Salmoiraghi",
-    "luogo": "Fagnano Olona · VA",
+    "indirizzo": "Via Patrioti 5",
+    "citta": "Fagnano Olona",
+    "provincia": "VA",
     "regione": "Lombardia",
-    "prov": "VA",
-    "tel": "+39 338 7694245",
-    "web": "https://www.ristoranteacquerello.com",
-    "mappa": "Via Patrioti 5, Fagnano Olona",
-    "note": ""
-  },
-  {
-    "nome": "Simone Cipriani",
-    "luogo": "Firenze · FI",
-    "regione": "Toscana",
-    "prov": "FI",
-    "tel": "+39 055 2476956",
-    "web": "",
-    "mappa": "Piazza di Cestello 3R, Firenze",
-    "note": ""
+    "telefono": "+39 338 7694245",
+    "web": "https://www.ristoranteacquerello.com"
   },
   {
     "nome": "Simone Ollari",
-    "luogo": "Pilastro · PR",
+    "indirizzo": "Strada per Parma Crocizia 3",
+    "citta": "Pilastro",
+    "provincia": "PR",
     "regione": "Emilia-Romagna",
-    "prov": "PR",
-    "tel": "+39 340 4053006",
-    "web": "https://www.simoneollari.it",
-    "mappa": "Strada per Parma Crocizia 3, Pilastro",
-    "note": "Savarin di riso con la ricetta di Mirella Cantarelli · Parma · Emilia Ro"
+    "telefono": "+39 340 4053006",
+    "web": "https://www.simoneollari.it"
   },
   {
     "nome": "Sol Levante",
-    "luogo": "Milano · MI",
+    "indirizzo": "Via Lambro 11",
+    "citta": "Milano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 02 45476502",
-    "web": "",
-    "mappa": "Via Lambro 11, Milano",
-    "note": "Sushi"
+    "telefono": "+39 02 45476502",
+    "web": ""
   },
   {
     "nome": "Sora Maria e Arcangelo",
-    "luogo": "Olevano Romano · RM",
+    "indirizzo": "Via Roma 42",
+    "citta": "Olevano Romano",
+    "provincia": "RM",
     "regione": "Lazio",
-    "prov": "RM",
-    "tel": "+39 06 95640 43",
-    "web": "https://www.soramariaearcangelo.com",
-    "mappa": "Via Roma 42, Olevano Romano",
-    "note": "Premiate trattorie italiane · Chiuso: Lunedì e Mercoledì."
+    "telefono": "+39 06 95640 43",
+    "web": "https://www.soramariaearcangelo.com"
   },
   {
     "nome": "Sot Aj'Archi",
-    "luogo": "Ancona · AN",
+    "indirizzo": "Via Marconi 93",
+    "citta": "Ancona",
+    "provincia": "AN",
     "regione": "Marche",
-    "prov": "AN",
-    "tel": "+39 071 202441",
-    "web": "https://www.ristorantesotajarchi.it",
-    "mappa": "Via Marconi 93, Ancona",
-    "note": ""
+    "telefono": "+39 071 202441",
+    "web": "https://www.ristorantesotajarchi.it"
   },
   {
     "nome": "Spazio",
-    "luogo": "Milano · MI",
+    "indirizzo": "Galleria Vittorio Emanuele II · Piazza Duomo",
+    "citta": "Milano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 02 87840 0",
-    "web": "",
-    "mappa": "Galleria Vittorio Emanuele II · Piazza Duomo, Milano",
-    "note": ""
+    "telefono": "+39 02 87840 0",
+    "web": ""
   },
   {
     "nome": "Spondi",
-    "luogo": "Atene · GR",
+    "indirizzo": "Pyrronos 5",
+    "citta": "Atene",
+    "provincia": "GR",
     "regione": "Grecia",
-    "prov": "GR",
-    "tel": "+39 2107564021",
-    "web": "https://www.spondi.gr",
-    "mappa": "Pyrronos 5, Atene",
-    "note": "Executive Chef: Aggelos Lantos"
+    "telefono": "+39 2107564021",
+    "web": "https://www.spondi.gr"
   },
   {
     "nome": "Locanda Mammì",
-    "luogo": "Agnone · IS",
+    "indirizzo": "Contrada Castelnuovo 86",
+    "citta": "Agnone",
+    "provincia": "IS",
     "regione": "Molise",
-    "prov": "IS",
-    "tel": "+39 0865 77379",
-    "web": "http://www.locandamammi.it",
-    "mappa": "Agnone",
-    "note": ""
+    "telefono": "+39 0865 77379",
+    "web": "http://www.locandamammi.it"
   },
   {
     "nome": "Al 16",
-    "luogo": "Verghera di Samarate · VA",
+    "indirizzo": "Viale della Vittoria 16",
+    "citta": "Verghera di Samarate",
+    "provincia": "VA",
     "regione": "Lombardia",
-    "prov": "VA",
-    "tel": "+39 389 4413857",
-    "web": "",
-    "mappa": "Verghera di Samarate",
-    "note": ""
+    "telefono": "+39 389 4413857",
+    "web": ""
   },
   {
-    "nome": "Stefano Ciotti",
-    "luogo": "Pesaro · PU",
+    "nome": "Nostrano",
+    "indirizzo": "Piazzale della Libertà 7",
+    "citta": "Pesaro",
+    "provincia": "PU",
     "regione": "Marche",
-    "prov": "PU",
-    "tel": "+39 0721 639813",
-    "web": "",
-    "mappa": "Piazzale della Libertà 7, Pesaro",
-    "note": "Aperto tutti i giorni a pranzo e cena · Chiudo martedì e mercoledì"
+    "telefono": "+39 0721 639813",
+    "web": "https://www.nostranoristorante.it"
   },
   {
-    "nome": "Stefano Fabris",
-    "luogo": "Sorio di Gambellara · VI",
+    "nome": "Antica Osteria al Castello",
+    "indirizzo": "Via Castello 23",
+    "citta": "Sorio di Gambellara",
+    "provincia": "VI",
     "regione": "Veneto",
-    "prov": "VI",
-    "tel": "+39 0444 444085",
-    "web": "https://www.anticaosteriaalcastello.com",
-    "mappa": "Via Castello 23, Sorio di Gambellara",
-    "note": "1 Km dall'uscita di Montebello Vicentino, direzione Gambellara Locali"
+    "telefono": "+39 0444 444085",
+    "web": "https://www.anticaosteriaalcastello.com"
   },
   {
-    "nome": "Susanna Tezzon",
-    "luogo": "Bardolino · VR",
+    "nome": "Sud Ristorante",
+    "indirizzo": "Via S.S. Pietro e Paolo 5",
+    "citta": "Quarto",
+    "provincia": "",
+    "regione": "Campania",
+    "telefono": "+39 081 0202708",
+    "web": ""
+  },
+  {
+    "nome": "Il Giardino delle Esperidi",
+    "indirizzo": "Via G. Mameli 1",
+    "citta": "Bardolino",
+    "provincia": "VR",
     "regione": "Veneto",
-    "prov": "VR",
-    "tel": "+39 045 6210477",
-    "web": "",
-    "mappa": "Via G. Mameli 1, Bardolino",
-    "note": "Chiuso il martedì"
+    "telefono": "+39 045 6210477",
+    "web": "https://www.giardinodelleesperidi.it"
   },
   {
     "nome": "Tamarind",
-    "luogo": "London · GB",
+    "indirizzo": "20 Queen Street",
+    "citta": "London",
+    "provincia": "GB",
     "regione": "Inghilterra",
-    "prov": "GB",
-    "tel": "+44 (0) 20 7629 3561",
-    "web": "https://www.tamarindrestaurant.com",
-    "mappa": "20 Queen Street, London",
-    "note": "·"
+    "telefono": "+44 (0) 20 7629 3561",
+    "web": "https://www.tamarindrestaurant.com"
   },
   {
     "nome": "Tapas 24",
-    "luogo": "Barcellona · ES",
+    "indirizzo": "Carrer de la Diputació 269",
+    "citta": "Barcellona",
+    "provincia": "ES",
     "regione": "Spagna",
-    "prov": "ES",
-    "tel": "+34 934 880 977",
-    "web": "https://www.carlesabellan.com",
-    "mappa": "Carrer de la Diputació 269, Barcellona",
-    "note": "Chef: Carles Abellán · Orari: 9-24, chiuso domenica"
+    "telefono": "+34 934 880 977",
+    "web": "https://www.carlesabellan.com"
   },
   {
     "nome": "Taurasi",
-    "luogo": "Melegnano · MI",
+    "indirizzo": "Via Dante 1, angolo Via De Amicis 21",
+    "citta": "Melegnano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 02 9830217",
-    "web": "",
-    "mappa": "Via Dante 1, angolo Via De Amicis 21, Melegnano",
-    "note": ""
+    "telefono": "+39 02 9830217",
+    "web": ""
   },
   {
     "nome": "Taverna Calabiana",
-    "luogo": "Milano · MI",
+    "indirizzo": "Via Arcivescovo Calabiana 3",
+    "citta": "Milano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 393 9817906",
-    "web": "",
-    "mappa": "Milano",
-    "note": ""
+    "telefono": "+39 393 9817906",
+    "web": ""
   },
   {
     "nome": "Taverna del Leone",
-    "luogo": "Positano · SA",
+    "indirizzo": "Via Laurito, 43",
+    "citta": "Positano",
+    "provincia": "SA",
     "regione": "Campania",
-    "prov": "SA",
-    "tel": "+39 089 875474",
-    "web": "http://www.latavernadelleone.com/",
-    "mappa": "Via Laurito, 43, Positano",
-    "note": ""
+    "telefono": "+39 089 875474",
+    "web": "http://www.latavernadelleone.com/"
   },
   {
     "nome": "Taverna Takis",
-    "luogo": "Limeni Laconia · GR",
+    "indirizzo": "Sul mare, nel villaggio di Limeni",
+    "citta": "Limeni Laconia",
+    "provincia": "GR",
     "regione": "Grecia",
-    "prov": "GR",
-    "tel": "+30 2733 051327",
-    "web": "",
-    "mappa": "Limeni Laconia",
-    "note": "Mani"
+    "telefono": "+30 2733 051327",
+    "web": ""
   },
   {
     "nome": "Tivoli Palazzo Gaddi",
-    "luogo": "Firenze · FI",
+    "indirizzo": "Via del Giglio 9",
+    "citta": "Firenze",
+    "provincia": "FI",
     "regione": "Toscana",
-    "prov": "FI",
-    "tel": "+39 331 2947089",
-    "web": "https://www.terraerestaurant.it",
-    "mappa": "Via del Giglio 9, Firenze",
-    "note": "Ristorante aperto a cena dal giovedì al lunedì dalle 19:00 alle 21:30\\"
+    "telefono": "+39 331 2947089",
+    "web": "https://www.terraerestaurant.it"
   },
   {
     "nome": "Al Portico",
-    "luogo": "Cona · VE",
+    "indirizzo": "Via Leonardo da Vinci 14",
+    "citta": "Cona",
+    "provincia": "VE",
     "regione": "Veneto",
-    "prov": "VE",
-    "tel": "+39 0426509178",
-    "web": "http://www.anticatrattorialportico.it",
-    "mappa": "Cona",
-    "note": ""
+    "telefono": "+39 0426509178",
+    "web": "http://www.anticatrattorialportico.it"
   },
   {
     "nome": "Torre a Cona",
-    "luogo": "Rignano sull’Arno · FI",
+    "indirizzo": "Via Torre a Cona 49",
+    "citta": "Rignano sull’Arno",
+    "provincia": "FI",
     "regione": "Toscana",
-    "prov": "FI",
-    "tel": "+39 055 699000",
-    "web": "https://www.torreacona.com/ristorante",
-    "mappa": "Via Torre a Cona 49, Rignano sull’Arno",
-    "note": ""
+    "telefono": "+39 055 699000",
+    "web": "https://www.torreacona.com/ristorante"
   },
   {
     "nome": "Torre Prada",
-    "luogo": "Milano · MI",
+    "indirizzo": "Via Lorenzini 14",
+    "citta": "Milano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 02 23323 910",
-    "web": "https://www.fondazioneprada.org/torre/",
-    "mappa": "Via Lorenzini 14, Milano",
-    "note": "Bar Manager: Carlo Mereu"
+    "telefono": "+39 02 23323 910",
+    "web": "https://www.fondazioneprada.org/torre/"
   },
   {
     "nome": "Tosca & Nino",
-    "luogo": "Milano · MI",
+    "indirizzo": "Via Melzo 15",
+    "citta": "Milano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 02 74281 354",
-    "web": "",
-    "mappa": "Via Melzo 15, Milano",
-    "note": ""
+    "telefono": "+39 02 74281 354",
+    "web": ""
   },
   {
     "nome": "Trattoria ai Due Platani",
-    "luogo": "Coloreto · PR",
+    "indirizzo": "Via Budellungo 104/a",
+    "citta": "Coloreto",
+    "provincia": "PR",
     "regione": "Emilia-Romagna",
-    "prov": "PR",
-    "tel": "+39 0521 645626",
-    "web": "https://trattoria-ai-due-platani.eatbu.com/?lang=it",
-    "mappa": "Via Budellungo 104/a, Coloreto",
-    "note": "Chiuso: 15 febbraio-4 marzo · 16 agosto-4 settembre · lunedì sera, mart"
+    "telefono": "+39 0521 645626",
+    "web": "https://trattoria-ai-due-platani.eatbu.com/?lang=it"
   },
   {
     "nome": "Trattoria al Pompiere",
-    "luogo": "Verona · VR",
+    "indirizzo": "Vicolo Regina d'Ungheria 5",
+    "citta": "Verona",
+    "provincia": "VR",
     "regione": "Veneto",
-    "prov": "VR",
-    "tel": "+390458030537",
-    "web": "",
-    "mappa": "Vicolo Regina d'Ungheria 5, Verona",
-    "note": ""
+    "telefono": "+390458030537",
+    "web": ""
   },
   {
     "nome": "Trattoria alla Torre",
-    "luogo": "Ponti sul Mincio · MN",
+    "indirizzo": "Via San Martino e Solferino 3",
+    "citta": "Ponti sul Mincio",
+    "provincia": "MN",
     "regione": "Lombardia",
-    "prov": "MN",
-    "tel": "+39 0376 808256",
-    "web": "",
-    "mappa": "Via San Martino e Solferino 3, Ponti sul Mincio",
-    "note": "Chiuso il mercoledì"
+    "telefono": "+39 0376 808256",
+    "web": ""
   },
   {
     "nome": "Trattoria Armanda",
-    "luogo": "Castelnuovo Magra · SP",
+    "indirizzo": "Piazza Garibaldi 6",
+    "citta": "Castelnuovo Magra",
+    "provincia": "SP",
     "regione": "Liguria",
-    "prov": "SP",
-    "tel": "+39 0187 674410",
-    "web": "",
-    "mappa": "Piazza Garibaldi 6, Castelnuovo Magra",
-    "note": "La Spezia · Liguria"
+    "telefono": "+39 0187 674410",
+    "web": ""
   },
   {
     "nome": "Trattoria Artemide",
-    "luogo": "Molino del Piano · FI",
+    "indirizzo": "Via di Galiga 21",
+    "citta": "Molino del Piano",
+    "provincia": "FI",
     "regione": "Toscana",
-    "prov": "FI",
-    "tel": "+39 055 8317240",
-    "web": "https://artemideristorante.wixsite.com/artemide",
-    "mappa": "Via di Galiga 21, Molino del Piano",
-    "note": "Firenze · Toscana · DP"
+    "telefono": "+39 055 8317240",
+    "web": "https://artemideristorante.wixsite.com/artemide"
   },
   {
     "nome": "Trattoria Bianca",
-    "luogo": "Modena · MO",
+    "indirizzo": "Via G.B. Spaccini  24",
+    "citta": "Modena",
+    "provincia": "MO",
     "regione": "Emilia-Romagna",
-    "prov": "MO",
-    "tel": "+39 059 311524",
-    "web": "http://www.trattoriabianca.it",
-    "mappa": "Via G.B. Spaccini  24, Modena",
-    "note": ""
+    "telefono": "+39 059 311524",
+    "web": "http://www.trattoriabianca.it"
   },
   {
     "nome": "Trattoria Corona",
-    "luogo": "Palermo · PA",
+    "indirizzo": "Via Marconi 9",
+    "citta": "Palermo",
+    "provincia": "PA",
     "regione": "Sicilia",
-    "prov": "PA",
-    "tel": "+39 091 335139",
-    "web": "http://www.coronatrattoria.it",
-    "mappa": "Via Marconi 9, Palermo",
-    "note": "Chiuso domenica sera e lunedì · Palermo · Sicilia"
+    "telefono": "+39 091 335139",
+    "web": "http://www.coronatrattoria.it"
   },
   {
     "nome": "Trattoria Da Addolorata",
-    "luogo": "Torre Orsaia · SA",
+    "indirizzo": "Via Pulsaria 16",
+    "citta": "Torre Orsaia",
+    "provincia": "SA",
     "regione": "Campania",
-    "prov": "SA",
-    "tel": "+39 0974 985669",
-    "web": "",
-    "mappa": "Via Pulsaria 16, Torre Orsaia",
-    "note": "Cilento · Campania"
+    "telefono": "+39 0974 985669",
+    "web": ""
   },
   {
     "nome": "Trattoria Da Burde",
-    "luogo": "Firenze · FI",
+    "indirizzo": "Via Pistoiese 154",
+    "citta": "Firenze",
+    "provincia": "FI",
     "regione": "Toscana",
-    "prov": "FI",
-    "tel": "+39 055 317206",
-    "web": "https://landing.vinodaburde.eu",
-    "mappa": "Via Pistoiese 154, Firenze",
-    "note": "Firenze · Toscana · (DP)"
+    "telefono": "+39 055 317206",
+    "web": "https://landing.vinodaburde.eu"
   },
   {
     "nome": "Trattoria Da Gemma",
-    "luogo": "Amalfi · SA",
+    "indirizzo": "Via Fra Gerardo Sasso 11",
+    "citta": "Amalfi",
+    "provincia": "SA",
     "regione": "Campania",
-    "prov": "SA",
-    "tel": "+39 089 871345",
-    "web": "https://trattoria.trattoriadagemma.com",
-    "mappa": "Via Fra Gerardo Sasso 11, Amalfi",
-    "note": ""
+    "telefono": "+39 089 871345",
+    "web": "https://trattoria.trattoriadagemma.com"
   },
   {
     "nome": "Trattoria da Lucio",
-    "luogo": "Rimini · RN",
+    "indirizzo": "Viale Amerigo Vespucci, 71",
+    "citta": "Rimini",
+    "provincia": "RN",
     "regione": "Emilia-Romagna",
-    "prov": "RN",
-    "tel": "+39 340 9743459",
-    "web": "https://trattoriadalucio.cuoriebbri.com/",
-    "mappa": "Viale Amerigo Vespucci, 71, Rimini",
-    "note": ""
+    "telefono": "+39 340 9743459",
+    "web": "https://trattoriadalucio.cuoriebbri.com/"
   },
   {
     "nome": "Trattoria Da Panciroli",
-    "luogo": "Milano · MI",
+    "indirizzo": "Via Gaudenzio Ferrari 1",
+    "citta": "Milano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 02 72093 709",
-    "web": "",
-    "mappa": "Via Gaudenzio Ferrari 1, Milano",
-    "note": ""
+    "telefono": "+39 02 72093 709",
+    "web": ""
   },
   {
     "nome": "Trattoria Dalla Libera",
-    "luogo": "Sernaglia della Battaglia · TV",
+    "indirizzo": "Via Farra 56",
+    "citta": "Sernaglia della Battaglia",
+    "provincia": "TV",
     "regione": "Veneto",
-    "prov": "TV",
-    "tel": "+39 0438 966295",
-    "web": "https://www.trattoriadallalibera.it",
-    "mappa": "Via Farra 56, Sernaglia della Battaglia",
-    "note": ""
+    "telefono": "+39 0438 966295",
+    "web": "https://www.trattoriadallalibera.it"
   },
   {
     "nome": "Trattoria del Cimino da Colombo",
-    "luogo": "Caprarola · VT",
+    "indirizzo": "Via Filippo Nicolai 44",
+    "citta": "Caprarola",
+    "provincia": "VT",
     "regione": "Lazio",
-    "prov": "VT",
-    "tel": "+39 0761 646173",
-    "web": "https://www.trattoriadelciminodal1895.it",
-    "mappa": "Via Filippo Nicolai 44, Caprarola",
-    "note": "Chiuso il lunedì · Tuscia · Viterbo"
+    "telefono": "+39 0761 646173",
+    "web": "https://www.trattoriadelciminodal1895.it"
   },
   {
     "nome": "Trattoria Delinda",
-    "luogo": "Rimini · RN",
+    "indirizzo": "Via Marecchiese 345",
+    "citta": "Rimini",
+    "provincia": "RN",
     "regione": "Emilia-Romagna",
-    "prov": "RN",
-    "tel": "+39 0541 727082",
-    "web": "",
-    "mappa": "Via Marecchiese 345, Rimini",
-    "note": "Cucina tipica romagnola · Emilia Romagna"
+    "telefono": "+39 0541 727082",
+    "web": ""
   },
   {
     "nome": "Trattoria di Via Serra",
-    "luogo": "Bologna · BO",
+    "indirizzo": "Via Luigi Serra 9",
+    "citta": "Bologna",
+    "provincia": "BO",
     "regione": "Emilia-Romagna",
-    "prov": "BO",
-    "tel": "+39 051 6312330",
-    "web": "https://www.trattoriadiviaserra.it",
-    "mappa": "Via Luigi Serra 9, Bologna",
-    "note": "Chiuso domenica, lunedi e martedì a pranzo · Emilia Romagna"
+    "telefono": "+39 051 6312330",
+    "web": "https://www.trattoriadiviaserra.it"
   },
   {
     "nome": "Trattoria Ghentiana",
-    "luogo": "Ruinas · OR",
+    "indirizzo": "Via San Giorgio 79",
+    "citta": "Ruinas",
+    "provincia": "OR",
     "regione": "Sardegna",
-    "prov": "OR",
-    "tel": "+39 0783 459101",
-    "web": "",
-    "mappa": "Via San Giorgio 79, Ruinas",
-    "note": ""
+    "telefono": "+39 0783 459101",
+    "web": ""
   },
   {
     "nome": "Trattoria Iolanda",
-    "luogo": "Lucugnano · LE",
+    "indirizzo": "Via Montanara 2",
+    "citta": "Lucugnano",
+    "provincia": "LE",
     "regione": "Puglia",
-    "prov": "LE",
-    "tel": "+39 0833 784164",
-    "web": "https://www.trattoriaiolanda.com",
-    "mappa": "Via Montanara 2, Lucugnano",
-    "note": "Salento"
+    "telefono": "+39 0833 784164",
+    "web": "https://www.trattoriaiolanda.com"
   },
   {
     "nome": "Trattoria La Brinca",
-    "luogo": "Ne · GE",
+    "indirizzo": "Via Campo di Ne 58",
+    "citta": "Ne",
+    "provincia": "GE",
     "regione": "Liguria",
-    "prov": "GE",
-    "tel": "+39 0185 337480",
-    "web": "https://www.labrinca.it",
-    "mappa": "Via Campo di Ne 58, Ne",
-    "note": "Premiate trattorie italiane"
+    "telefono": "+39 0185 337480",
+    "web": "https://www.labrinca.it"
   },
   {
     "nome": "Trattoria Mario",
-    "luogo": "Firenze · FI",
+    "indirizzo": "Via Rosina 2/R · Angolo Piazza Mercato centr",
+    "citta": "Firenze",
+    "provincia": "FI",
     "regione": "Toscana",
-    "prov": "FI",
-    "tel": "+39 055 218550",
-    "web": "https://www.trattoriamario.com",
-    "mappa": "Via Rosina 2/R · Angolo Piazza Mercato centr, Firenze",
-    "note": "Domenica e festivi chiusi."
+    "telefono": "+39 055 218550",
+    "web": "https://www.trattoriamario.com"
   },
   {
     "nome": "Trattoria Mirta",
-    "luogo": "Milano · MI",
+    "indirizzo": "Piazza San Materno 12",
+    "citta": "Milano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 02 91180496",
-    "web": "",
-    "mappa": "Piazza San Materno 12, Milano",
-    "note": ""
+    "telefono": "+39 02 91180496",
+    "web": ""
   },
   {
     "nome": "Trattoria Peposo",
-    "luogo": "Pietrasanta · LU",
+    "indirizzo": "Via Arginello 24",
+    "citta": "Pietrasanta",
+    "provincia": "LU",
     "regione": "Toscana",
-    "prov": "LU",
-    "tel": "+39 0584 791200",
-    "web": "",
-    "mappa": "Via Arginello 24, Pietrasanta",
-    "note": "Lucca · Toscana · DP"
+    "telefono": "+39 0584 791200",
+    "web": ""
   },
   {
     "nome": "Trattoria Risorta",
-    "luogo": "Muggia · TS",
+    "indirizzo": "Riva de Amicis 1",
+    "citta": "Muggia",
+    "provincia": "TS",
     "regione": "Friuli-Venezia Giulia",
-    "prov": "TS",
-    "tel": "+39 040 271219",
-    "web": "http://www.trattoriarisorta.it",
-    "mappa": "Riva de Amicis 1, Muggia",
-    "note": ""
+    "telefono": "+39 040 271219",
+    "web": "http://www.trattoriarisorta.it"
   },
   {
     "nome": "Trattoria Tullio a Montebeni",
-    "luogo": "Fiesole · FI",
+    "indirizzo": "Via Ontignano 48",
+    "citta": "Fiesole",
+    "provincia": "FI",
     "regione": "Toscana",
-    "prov": "FI",
-    "tel": "+39 055 697354",
-    "web": "https://www.ristorantetullio.it",
-    "mappa": "Via Ontignano 48, Fiesole",
-    "note": ""
+    "telefono": "+39 055 697354",
+    "web": "https://www.ristorantetullio.it"
   },
   {
     "nome": "Trattoria Visconti",
-    "luogo": "Ambivere · BG",
+    "indirizzo": "Via De Gasperi 12",
+    "citta": "Ambivere",
+    "provincia": "BG",
     "regione": "Lombardia",
-    "prov": "BG",
-    "tel": "+39 035 908153",
-    "web": "https://www.trattoriavisconti.it",
-    "mappa": "Via De Gasperi 12, Ambivere",
-    "note": "Premiate trattorie italiane"
+    "telefono": "+39 035 908153",
+    "web": "https://www.trattoriavisconti.it"
   },
   {
     "nome": "Trippi",
-    "luogo": "Montagna in Valtellina · SO",
+    "indirizzo": "Via Stelvio 297 mi",
+    "citta": "Montagna in Valtellina",
+    "provincia": "SO",
     "regione": "Lombardia",
-    "prov": "SO",
-    "tel": "+390342615584",
-    "web": "https://www.ristorantetrippi.it",
-    "mappa": "Via Stelvio 297 mi, Montagna in Valtellina",
-    "note": "Chiuso martedì sera, giovedì e domenica tutto il giorno."
+    "telefono": "+390342615584",
+    "web": "https://www.ristorantetrippi.it"
   },
   {
     "nome": "Ul Furmighin",
-    "luogo": "Sagno Canton Ticino · CH",
+    "indirizzo": "Via Treval 26",
+    "citta": "Sagno Canton Ticino",
+    "provincia": "CH",
     "regione": "Svizzera",
-    "prov": "CH",
-    "tel": "+41 91 682 01 75",
-    "web": "http://ul-furmighin.ch/web/",
-    "mappa": "Via Treval 26, Sagno Canton Ticino",
-    "note": "Ticino · Svizzera · 🌳"
+    "telefono": "+41 91 682 01 75",
+    "web": "http://ul-furmighin.ch/web/"
   },
   {
     "nome": "Umberto a Mare",
-    "luogo": "Forio d’Ischia",
+    "indirizzo": "Via Soccorso 8",
+    "citta": "Forio d’Ischia",
+    "provincia": "",
     "regione": "Campania",
-    "prov": "",
-    "tel": "+39081997171",
-    "web": "",
-    "mappa": "Via Soccorso 8, Forio d’Ischia",
-    "note": ""
+    "telefono": "+39081997171",
+    "web": ""
   },
   {
     "nome": "Unico",
-    "luogo": "Milano · MI",
+    "indirizzo": "Via Achille Papa 30",
+    "citta": "Milano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 02 39261025",
-    "web": "https://www.unicorestaurant.it",
-    "mappa": "Via Achille Papa 30, Milano",
-    "note": ""
+    "telefono": "+39 02 39261025",
+    "web": "https://www.unicorestaurant.it"
   },
   {
     "nome": "Vecchia Marina",
-    "luogo": "Roseto degli Abruzzi · TE",
+    "indirizzo": "Lungomare Trento 37",
+    "citta": "Roseto degli Abruzzi",
+    "provincia": "TE",
     "regione": "Abruzzo",
-    "prov": "TE",
-    "tel": "+39 085 8931170",
-    "web": "",
-    "mappa": "Lungomare Trento 37, Roseto degli Abruzzi",
-    "note": "Premiate trattorie italiane"
+    "telefono": "+39 085 8931170",
+    "web": ""
   },
   {
     "nome": "Vite",
-    "luogo": "Coriano · RN",
+    "indirizzo": "Via Montepirolo 7",
+    "citta": "Coriano",
+    "provincia": "RN",
     "regione": "Emilia-Romagna",
-    "prov": "RN",
-    "tel": "+39 0541 759138",
-    "web": "http://www.ristorantevite.it/",
-    "mappa": "Via Montepirolo 7, Coriano",
-    "note": ""
+    "telefono": "+39 0541 759138",
+    "web": "http://www.ristorantevite.it/"
   },
   {
     "nome": "Volturno",
-    "luogo": "Colli al Volturno · IS",
+    "indirizzo": "Via Fonticelle 16",
+    "citta": "Colli al Volturno",
+    "provincia": "IS",
     "regione": "Molise",
-    "prov": "IS",
-    "tel": "+390865955215",
-    "web": "https://www.albergovolturno.com",
-    "mappa": "Via Fonticelle 16, Colli al Volturno",
-    "note": "Isernia · Molise"
+    "telefono": "+390865955215",
+    "web": "https://www.albergovolturno.com"
   },
   {
     "nome": "Vòce",
-    "luogo": "Milano · MI",
+    "indirizzo": "Piazza della Scala 6",
+    "citta": "Milano",
+    "provincia": "MI",
     "regione": "Lombardia",
-    "prov": "MI",
-    "tel": "+39 349 3273374",
-    "web": "",
-    "mappa": "Piazza della Scala 6, Milano",
-    "note": ""
+    "telefono": "+39 349 3273374",
+    "web": "https://www.aimoenadia.com"
   },
   {
     "nome": "Zaghini",
-    "luogo": "Sant’Arcangelo di Romagna · RM",
+    "indirizzo": "Piazza Antonio Gramsci 14",
+    "citta": "Sant’Arcangelo di Romagna",
+    "provincia": "RM",
     "regione": "Emilia-Romagna",
-    "prov": "RM",
-    "tel": "+39 0541 626136",
-    "web": "https://www.ristorantezaghini.it/dove-siamo",
-    "mappa": "Piazza Antonio Gramsci 14, Sant’Arcangelo di Romagna",
-    "note": ""
+    "telefono": "+39 0541 626136",
+    "web": "https://www.ristorantezaghini.it/dove-siamo"
   },
   {
     "nome": "Zeb Gastronomia",
-    "luogo": "Firenze · FI",
+    "indirizzo": "Via San Miniato, 2 rosso",
+    "citta": "Firenze",
+    "provincia": "FI",
     "regione": "Toscana",
-    "prov": "FI",
-    "tel": "+39 055 2342864",
-    "web": "http://www.zebgastronomia.com",
-    "mappa": "Via San Miniato, 2 rosso, Firenze",
-    "note": ""
+    "telefono": "+39 055 2342864",
+    "web": "http://www.zebgastronomia.com"
   },
   {
     "nome": "Zu",
-    "luogo": "Riva di Solto · BG",
+    "indirizzo": "Via XXV Aprile 53",
+    "citta": "Riva di Solto",
+    "provincia": "BG",
     "regione": "Lombardia",
-    "prov": "BG",
-    "tel": "+39035986004",
-    "web": "",
-    "mappa": "Via XXV Aprile 53, Riva di Solto",
-    "note": "Chiuso mercoledì e giovedì · Lago d’Iseo · Bergamo"
+    "telefono": "+39035986004",
+    "web": ""
+  },
+  {
+    "nome": "Trattoria Salvetti",
+    "indirizzo": "Via Coste 19",
+    "citta": "Paroldo",
+    "provincia": "CN",
+    "regione": "Piemonte",
+    "telefono": "+39 0174 789131 · +39 347 8904709",
+    "web": "https://www.trattoriasalvetti.it"
+  },
+  {
+    "nome": "Vecchia Osteria",
+    "indirizzo": "Via Roma 21",
+    "citta": "Castellino Tanaro",
+    "provincia": "CN",
+    "regione": "Piemonte",
+    "telefono": "+39 0174 785137",
+    "web": ""
+  },
+  {
+    "nome": "Trattoria Rioscone",
+    "indirizzo": "Frazione Rioscone 112",
+    "citta": "Asti",
+    "provincia": "AT",
+    "regione": "Piemonte",
+    "telefono": "+39 0141 212674",
+    "web": ""
+  },
+  {
+    "nome": "Ristorante della Posta da Geminio",
+    "indirizzo": "Via Roma 4",
+    "citta": "Olmo Gentile",
+    "provincia": "AT",
+    "regione": "Piemonte",
+    "telefono": "+39 0144 953613",
+    "web": "https://www.ristorantedellaposta.it"
+  },
+  {
+    "nome": "Di Vin Roero",
+    "indirizzo": "Piazza S. Martino 5",
+    "citta": "Vezza d'Alba",
+    "provincia": "CN",
+    "regione": "Piemonte",
+    "telefono": "+39 0173 65114 · +39 333 9013173",
+    "web": "https://www.divinroero.com"
+  },
+  {
+    "nome": "Ristorante Albergo Madonna della Neve",
+    "indirizzo": "Regione Madonna della Neve 2",
+    "citta": "Cessole",
+    "provincia": "AT",
+    "regione": "Piemonte",
+    "telefono": "+39 0144 850402",
+    "web": "https://www.ristorantemadonnadellaneve.it"
+  },
+  {
+    "nome": "Al Refettorio",
+    "indirizzo": "Vicolo Adami 47",
+    "citta": "Alghero",
+    "provincia": "SS",
+    "regione": "Sardegna",
+    "telefono": "+39 079 9731126",
+    "web": "https://alrefettorio.eatbu.com"
+  },
+  {
+    "nome": "Abba",
+    "indirizzo": "Via Varesina 177",
+    "citta": "Milano",
+    "provincia": "MI",
+    "regione": "Lombardia",
+    "telefono": "+39 02 85689735",
+    "web": "https://www.ristoranteabba.com"
   }
 ];
-
-window.GUIDA_REGPROV = {
-  "Piemonte": [
-    "AL",
-    "CN",
-    "TO",
-    "VB"
-  ],
-  "Campania": [
-    "AV",
-    "CE",
-    "SA"
-  ],
-  "Svizzera": [
-    "CH",
-    "TI",
-    "ZH"
-  ],
-  "Friuli-Venezia Giulia": [
-    "GO",
-    "TS",
-    "UD"
-  ],
-  "Lombardia": [
-    "BG",
-    "BS",
-    "CO",
-    "CR",
-    "LC",
-    "MB",
-    "MI",
-    "MN",
-    "Mi",
-    "PV",
-    "SO",
-    "VA"
-  ],
-  "Abruzzo": [
-    "CH",
-    "TE"
-  ],
-  "Puglia": [
-    "BA",
-    "BR",
-    "BT",
-    "FG",
-    "LE",
-    "TA"
-  ],
-  "Trentino-Alto Adige": [
-    "TN"
-  ],
-  "Spagna": [
-    "ES"
-  ],
-  "Marche": [
-    "AN",
-    "AP",
-    "PS",
-    "PU"
-  ],
-  "Emilia-Romagna": [
-    "BO",
-    "FC",
-    "FE",
-    "MO",
-    "PC",
-    "PR",
-    "RA",
-    "RE",
-    "RM",
-    "RN"
-  ],
-  "Toscana": [
-    "AR",
-    "FI",
-    "GR",
-    "LI",
-    "LU",
-    "MS",
-    "PI",
-    "SI"
-  ],
-  "Sardegna": [
-    "CA",
-    "OR",
-    "SS"
-  ],
-  "Veneto": [
-    "RO",
-    "TV",
-    "VE",
-    "VI",
-    "VR"
-  ],
-  "Calabria": [
-    "AN",
-    "CS",
-    "RC"
-  ],
-  "Francia": [
-    "F"
-  ],
-  "Molise": [
-    "CB",
-    "IS"
-  ],
-  "Sicilia": [
-    "PA",
-    "SR",
-    "TP"
-  ],
-  "Liguria": [
-    "GE",
-    "IM",
-    "SP",
-    "SV"
-  ],
-  "Lazio": [
-    "RM",
-    "VT"
-  ],
-  "Grecia": [
-    "GR"
-  ],
-  "Stati Uniti": [
-    "NY"
-  ],
-  "Umbria": [
-    "PG"
-  ],
-  "Portogallo": [
-    "P"
-  ],
-  "Austria": [
-    "A"
-  ],
-  "Inghilterra": [
-    "GB"
-  ]
-};
