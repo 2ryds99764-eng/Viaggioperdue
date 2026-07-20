@@ -3304,3 +3304,144 @@ var GUIDA=[
     "web": "https://www.ristoranteabba.com"
   }
 ];
+
+var GUIDA_REGPROV={
+  "Piemonte": {
+    "AL": 1,
+    "TO": 1,
+    "VB": 1,
+    "CN": 1,
+    "AT": 1
+  },
+  "Campania": {
+    "SA": 1,
+    "AV": 1,
+    "NA": 1,
+    "CE": 1
+  },
+  "Svizzera": {
+    "ZH": 1,
+    "TI": 1,
+    "CH": 1
+  },
+  "Friuli-Venezia Giulia": {
+    "TS": 1,
+    "UD": 1,
+    "GO": 1
+  },
+  "Lombardia": {
+    "MI": 1,
+    "MB": 1,
+    "CO": 1,
+    "BG": 1,
+    "SO": 1,
+    "MN": 1,
+    "PV": 1,
+    "CR": 1,
+    "LC": 1,
+    "BS": 1,
+    "VA": 1,
+    "Mi": 1
+  },
+  "Abruzzo": {
+    "CH": 1,
+    "TE": 1
+  },
+  "Trentino-Alto Adige": {
+    "TN": 1
+  },
+  "Spagna": {
+    "ES": 1
+  },
+  "Marche": {
+    "PU": 1,
+    "AN": 1,
+    "PS": 1,
+    "AP": 1
+  },
+  "Emilia-Romagna": {
+    "BO": 1,
+    "PR": 1,
+    "RE": 1,
+    "PC": 1,
+    "RA": 1,
+    "MO": 1,
+    "RN": 1,
+    "FC": 1,
+    "RM": 1
+  },
+  "Toscana": {
+    "AR": 1,
+    "FI": 1,
+    "SI": 1,
+    "PI": 1,
+    "GR": 1,
+    "LU": 1,
+    "LI": 1,
+    "MS": 1
+  },
+  "Puglia": {
+    "LE": 1,
+    "BT": 1,
+    "BR": 1,
+    "TA": 1,
+    "FG": 1
+  },
+  "Veneto": {
+    "VE": 1,
+    "VR": 1,
+    "RO": 1,
+    "TV": 1,
+    "VI": 1
+  },
+  "Calabria": {
+    "CS": 1,
+    "RC": 1,
+    "AN": 1
+  },
+  "Francia": {
+    "F": 1
+  },
+  "Molise": {
+    "IS": 1,
+    "CB": 1
+  },
+  "Sicilia": {
+    "SR": 1,
+    "TP": 1,
+    "PA": 1
+  },
+  "Liguria": {
+    "GE": 1,
+    "SP": 1,
+    "SV": 1,
+    "IM": 1
+  },
+  "Lazio": {
+    "RM": 1,
+    "VT": 1
+  },
+  "Grecia": {
+    "GR": 1
+  },
+  "Stati Uniti": {
+    "NY": 1
+  },
+  "Sardegna": {
+    "CA": 1,
+    "OR": 1,
+    "SS": 1
+  },
+  "Umbria": {
+    "PG": 1
+  },
+  "Portogallo": {
+    "P": 1
+  },
+  "Austria": {
+    "A": 1
+  },
+  "Inghilterra": {
+    "GB": 1
+  }
+};
