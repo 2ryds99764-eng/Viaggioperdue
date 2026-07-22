@@ -654,4 +654,5 @@ document.addEventListener("DOMContentLoaded", function () {
   if (document.body.dataset.pagina === "mappa") costruisciMappa();
   if (document.body.dataset.pagina === "storia") costruisciStoria();
   if (document.body.dataset.pagina === "guida") costruisciGuida();
+   if (document.body.dataset.pagina === "hotel") costruisciHotel();
 });
