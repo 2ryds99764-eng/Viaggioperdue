@@ -666,36 +666,4 @@ document.addEventListener("DOMContentLoaded", function () {
   if (document.body.dataset.pagina === "storia") costruisciStoria();
   if (document.body.dataset.pagina === "guida") costruisciGuida();
    if (document.body.dataset.pagina === "hotel") costruisciHotel();
-});function costruisciHotel() {
-  var dati = (window.HOTEL || []).slice();
-  var regprov = window.HOTEL_PROVCITTA || {};
-  var ricerca = document.getElementById("guida-ricerca");
-  if (ricerca) {
-    var regioni = Object.keys(regprov).sort();
-    ricerca.innerHTML = "<input id=cerca-nome type=search placeholder=Cerca> <select id=cerca-reg-hotel><option value=''>Tutte le regioni</option>" + regioni.map(function(r){return "<option value='" + escV(r) + "'>" + escV(r) + "</option>";}).join("") + "</select>";
-  }
-  var lista = document.getElementById("guida-lista");
-  function disegna(items) {
-    if (lista) lista.innerHTML = items.map(function(r) {
-      var b = "";
-      if (r.tel) b += "<a class=btn href=tel:" + r.tel.replace(/\s/g,"") + ">Chiama</a>";
-      if (r.web) b += "<a class=btn href=" + r.web + " target=_blank>Sito</a>";
-      if (r.mappa) b += "<a class=btn href=" + urlMappa(r.mappa) + " target=_blank>Mappa</a>";
-      return "<article class=rist><div class=rist-nome>" + esc(r.nome) + "</div><div class=rist-luogo>" + esc(r.luogo) + "</div><div class=azioni>" + b + "</div></article>";
-    }).join("");
-  }
-  function filtra() {
-    var q = normalizza((document.getElementById("cerca-nome")||{}).value||"");
-    var reg = (document.getElementById("cerca-reg-hotel")||{}).value||"";
-    var items = dati;
-    if (reg) items = items.filter(function(r){return r.regione===reg;});
-    if (q) items = items.filter(function(r){return normalizza(r.nome).indexOf(q)!==-1||normalizza(r.luogo).indexOf(q)!==-1;});
-    disegna(items);
-  }
-  var inp = document.getElementById("cerca-nome");
-  var sel = document.getElementById("cerca-reg-hotel");
-  if (inp) inp.addEventListener("input",filtra);
-  if (sel) sel.addEventListener("change",filtra); else setTimeout(function(){var s=document.getElementById("cerca-reg-hotel");if(s)s.addEventListener("change",filtra);},100);
-  disegna(dati);
-  costruisciPie(T42.sito);
-}
+});
