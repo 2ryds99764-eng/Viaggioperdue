@@ -646,11 +646,11 @@ function costruisciGuida() {
 
   const inputNome = document.getElementById("cerca-nome");
   const selReg = document.getElementById("cerca-regione");
-  const selProv = document.getElementById("cerca-provincia");
+  const selReg2 = document.getElementById("cerca-regione-hotel"); const selProv = document.getElementById("cerca-provincia-hotel");
   if (inputNome) inputNome.addEventListener("input", filtra);
   if (inputNome) inputNome.addEventListener("keyup", filtra);
   if (selReg) selReg.addEventListener("change", function () { aggiornaProvince(); filtra(); });
-  if (selReg2) selReg2.addEventListener("change", filtra); if (selProv) selProv.addEventListener("change", filtra);
+  if (selReg2) selReg2.addEventListener("change", filtra); if (selReg2) selReg2.addEventListener("change", filtra); if (selProv) selProv.addEventListener("change", filtra);
 
   disegna(dati);
   costruisciPie(T42.sito);
@@ -666,6 +666,36 @@ document.addEventListener("DOMContentLoaded", function () {
   if (document.body.dataset.pagina === "storia") costruisciStoria();
   if (document.body.dataset.pagina === "guida") costruisciGuida();
    if (document.body.dataset.pagina === "hotel") costruisciHotel();
-});
-
-function costruisciHotel() { document.title = "Guida agli alberghi · " + T42.sito.nome; const dati = (window.HOTEL || []).slice(); const regprov = window.HOTEL_PROVCITTA || {}; const intest = document.getElementById("guida-intestazione"); if (intest) { intest.innerHTML = '<a class="ritorno" href="index.html" aria-label="Home"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" style="vertical-align:middle"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" fill="#4A6FA5"/></svg></a>' + '<div class="occhiello anima d1">' + esc(T42.sito.sigla) + ' · Viaggioperdue</div>' + '<h1 class="anima d2">Guida agli alberghi</h1>' + '<p class="guida-sub anima d3">' + dati.length + ' alberghi, cercabili per nome o provincia.</p>'; } const ricerca = document.getElementById("guida-ricerca"); if (ricerca) { const regioni = Object.keys(regprov).sort(function(a,b){return a.localeCompare(b,"it");}); ricerca.innerHTML = '<div class="cerca-campo"><input id="cerca-nome" type="search" placeholder="Cerca per nome o citta..." autocomplete="off"></div>' + '<div class="cerca-campo"><select id="cerca-regione-hotel"><option value="">Tutte le regioni</option>' + regioni.map(function(r){return '<option value="'+escV(r)+'">'+escV(r)+'</option>';}).join("") + '</select></div>' + '<div class="cerca-campo"><select id="cerca-provincia-hotel" disabled><option value="">Tutte le province</option></select></div>'; } const conteggio = document.getElementById("guida-conteggio"); const lista = document.getElementById("guida-lista"); function disegna(items) { if (conteggio) conteggio.textContent = items.length === dati.length ? (dati.length + " alberghi") : (items.length + " trovati"); if (lista === null) return; lista.innerHTML = items.map(function(r) { let btn = ""; if (r.tel) btn += '<a class="btn btn--pieno" href="tel:' + esc(r.tel.replace(/\s/g,"")) + '">Chiama</a>'; if (r.mappa) btn += '<a class="btn" href="' + urlMappa(r.mappa) + '" target="_blank" rel="noopener">Mappa</a>'; if (r.web) btn += '<a class="btn" href="' + esc(r.web) + '" target="_blank" rel="noopener">Sito</a>'; return '<article class="rist"><div class="rist-nome">' + esc(r.nome) + '</div>' + (r.luogo ? '<div class="rist-luogo">' + esc(r.luogo) + '</div>' : '') + (r.note ? '<div class="rist-luogo" style="font-style:italic;color:#5A6A80">' + esc(r.note) + '</div>' : '') + '<div class="azioni rist-azioni">' + btn + '</div></article>'; }).join(""); } function filtra() { const q = normalizza((document.getElementById("cerca-nome")||{}).value||""); const reg = (document.getElementById("cerca-regione-hotel")||{}).value||""; const prov = (document.getElementById("cerca-provincia-hotel")||{}).value||""; let items = dati; if (reg) items = items.filter(function(r){return r.regione===reg;}); if (prov) items = items.filter(function(r){return r.prov===prov;}); if (q) items = items.filter(function(r){return normalizza(r.nome).indexOf(q) !== -1 || normalizza(r.luogo).indexOf(q) !== -1;}); disegna(items); } const inputNome = document.getElementById("cerca-nome"); const selProv = document.getElementById("cerca-provincia"); if (inputNome) inputNome.addEventListener("input", filtra); if (selProv) selProv.addEventListener("change", filtra); disegna(dati); costruisciPie(T42.sito); } EOF
+});function costruisciHotel() {
+  var dati = (window.HOTEL || []).slice();
+  var regprov = window.HOTEL_PROVCITTA || {};
+  var ricerca = document.getElementById("guida-ricerca");
+  if (ricerca) {
+    var regioni = Object.keys(regprov).sort();
+    ricerca.innerHTML = "<input id=cerca-nome type=search placeholder=Cerca> <select id=cerca-reg-hotel><option value='>Tutte</option>" + regioni.map(function(r){return "<option value='" + escV(r) + "'>" + escV(r) + "</option>";}).join("") + "</select>";
+  }
+  var lista = document.getElementById("guida-lista");
+  function disegna(items) {
+    if (lista) lista.innerHTML = items.map(function(r) {
+      var b = "";
+      if (r.tel) b += "<a class=btn href=tel:" + r.tel.replace(/\s/g,"") + ">Chiama</a>";
+      if (r.web) b += "<a class=btn href=" + r.web + " target=_blank>Sito</a>";
+      if (r.mappa) b += "<a class=btn href=" + urlMappa(r.mappa) + " target=_blank>Mappa</a>";
+      return "<article class=rist><div class=rist-nome>" + esc(r.nome) + "</div><div class=rist-luogo>" + esc(r.luogo) + "</div><div class=azioni>" + b + "</div></article>";
+    }).join("");
+  }
+  function filtra() {
+    var q = normalizza((document.getElementById("cerca-nome")||{}).value||"");
+    var reg = (document.getElementById("cerca-reg-hotel")||{}).value||"";
+    var items = dati;
+    if (reg) items = items.filter(function(r){return r.regione===reg;});
+    if (q) items = items.filter(function(r){return normalizza(r.nome).indexOf(q)!==-1||normalizza(r.luogo).indexOf(q)!==-1;});
+    disegna(items);
+  }
+  var inp = document.getElementById("cerca-nome");
+  var sel = document.getElementById("cerca-reg-hotel");
+  if (inp) inp.addEventListener("input",filtra);
+  if (sel) sel.addEventListener("change",filtra);
+  disegna(dati);
+  costruisciPie(T42.sito);
+}
