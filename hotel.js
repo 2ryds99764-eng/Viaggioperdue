@@ -6,12 +6,13 @@ var HOTEL=[
     "citta": "Camigliatello Silano",
     "provincia": "CS",
     "prov": "CS",
+    "regione": "Calabria",
     "nazione": "Italia",
     "luogo": "Camigliatello Silano (CS)",
     "tel": "+39 0984 578044",
     "email": "info@hotelaquilaedelweiss.com",
     "web": "https://www.hotelaquilaedelweiss.com",
-    "note": "Sila",
+    "note": "Sila 🌲",
     "mappa": "Aquila Edelweiss, Via Stazione 15, 87052, Camigliatello Silano, Italia"
   },
   {
@@ -20,6 +21,7 @@ var HOTEL=[
     "citta": "St. Petersburg",
     "provincia": "",
     "prov": "",
+    "regione": "Russia",
     "nazione": "Russia",
     "luogo": "St. Petersburg",
     "tel": "+7 (812) 494-57-92",
@@ -34,6 +36,7 @@ var HOTEL=[
     "citta": "Maglie",
     "provincia": "LE",
     "prov": "LE",
+    "regione": "Puglia",
     "nazione": "Italia",
     "luogo": "Maglie (LE)",
     "tel": "+39 0836 312930",
@@ -48,12 +51,13 @@ var HOTEL=[
     "citta": "Cogne",
     "provincia": "AO",
     "prov": "AO",
+    "regione": "Valle d Aosta",
     "nazione": "Italia",
     "luogo": "Cogne (AO)",
     "tel": "+39 0165 74825",
     "email": "info@hotelbellevue.it",
     "web": "https://www.hotelbellevue.it/it/",
-    "note": "Valle d'Aosta ⛰️ 🌳❤️",
+    "note": "Valle d’Aosta ⛰️ 🌳❤️",
     "mappa": "Bellevue, Rue Grand Paradis 22, 11012, Cogne, Italia"
   },
   {
@@ -62,6 +66,7 @@ var HOTEL=[
     "citta": "Sankt Moritz",
     "provincia": "GR",
     "prov": "GR",
+    "regione": "Toscana",
     "nazione": "Svizzera",
     "luogo": "Sankt Moritz (GR)",
     "tel": "+41 (0) 81 8308383",
@@ -76,6 +81,7 @@ var HOTEL=[
     "citta": "Oggiono",
     "provincia": "LC",
     "prov": "LC",
+    "regione": "Lombardia",
     "nazione": "Italia",
     "luogo": "Oggiono (LC)",
     "tel": "+39 0341 1831110",
@@ -90,12 +96,13 @@ var HOTEL=[
     "citta": "Colle di Val d'Elsa",
     "provincia": "SI",
     "prov": "SI",
+    "regione": "Toscana",
     "nazione": "Italia",
     "luogo": "Colle di Val d'Elsa (SI)",
     "tel": "",
     "email": "info@osteriabis.it",
     "web": "www.osteriabis.it",
-    "note": "Locanda di charme, vista sulla campagna toscana, 🌳❤️",
+    "note": "Locanda di charme, vista sulla campagna toscana 🌳❤️",
     "mappa": "Bis Osteria Contemporanea, Via XX Settembre 50, 53034, Colle di Val d'Elsa, Italia"
   },
   {
@@ -104,6 +111,7 @@ var HOTEL=[
     "citta": "Amalfi",
     "provincia": "SA",
     "prov": "SA",
+    "regione": "Campania",
     "nazione": "Italia",
     "luogo": "Amalfi (SA)",
     "tel": "+39 089 831148",
@@ -118,6 +126,7 @@ var HOTEL=[
     "citta": "Chiusdino",
     "provincia": "SI",
     "prov": "SI",
+    "regione": "Toscana",
     "nazione": "Italia",
     "luogo": "Chiusdino (SI)",
     "tel": "+30 0577751222",
@@ -132,12 +141,13 @@ var HOTEL=[
     "citta": "Milano",
     "provincia": "MI",
     "prov": "MI",
+    "regione": "Lombardia",
     "nazione": "Italia",
     "luogo": "Milano (MI)",
     "tel": "+39028058051",
     "email": "milano@bulgarihotels.com",
     "web": "https://www.bulgarihotels.com/it_IT/milan/",
-    "note": "Albergo in stile contemporaneo immerso in un parco, 🌳❤️",
+    "note": "Albergo contemporaneo in un parco 🌳❤️",
     "mappa": "Bulgari Milano, Via Privata Fratelli Gabba 7b, 20121, Milano, Italia"
   },
   {
@@ -146,6 +156,7 @@ var HOTEL=[
     "citta": "Beijing",
     "provincia": "",
     "prov": "",
+    "regione": "China",
     "nazione": "China",
     "luogo": "Beijing",
     "tel": "+86 10 8555 8555",
@@ -160,12 +171,13 @@ var HOTEL=[
     "citta": "Roma",
     "provincia": "RM",
     "prov": "RM",
+    "regione": "Lazio",
     "nazione": "Italia",
     "luogo": "Roma (RM)",
     "tel": "+39 06 36080 400",
     "email": "roma@bulgarihotels.com",
     "web": "https://www.bulgarihotels.com/it_IT/rome",
-    "note": "\\n",
+    "note": "",
     "mappa": "Bulgari Roma, Piazza Augusto Imperatore 10, 00186, Roma, Italia"
   },
   {
@@ -174,12 +186,13 @@ var HOTEL=[
     "citta": "Sauze D'Oulx",
     "provincia": "TO",
     "prov": "TO",
+    "regione": "Piemonte",
     "nazione": "Italia",
     "luogo": "Sauze D'Oulx (TO)",
     "tel": "+39 0122 850273",
     "email": "info@chaletilcapricorno.it",
     "web": "https://chaletilcapricorno.it",
-    "note": "Montagna\\nTorino\\nPiemonte\\n🌲❤️",
+    "note": "Montagna 🌲❤️",
     "mappa": "Capricorno, Via Case Sparse 21, 10050, Sauze D'Oulx, Italia"
   },
   {
@@ -188,6 +201,7 @@ var HOTEL=[
     "citta": "Ravello",
     "provincia": "SA",
     "prov": "SA",
+    "regione": "Campania",
     "nazione": "Italia",
     "luogo": "Ravello (SA)",
     "tel": "+39 089 858801",
@@ -202,12 +216,13 @@ var HOTEL=[
     "citta": "Pella",
     "provincia": "NO",
     "prov": "NO",
+    "regione": "Piemonte",
     "nazione": "Italia",
     "luogo": "Pella (NO)",
     "tel": "+39 0322 969893",
     "email": "info@casafantinilaketime.com",
     "web": "https://www.casafantinilaketime.com/it",
-    "note": "Hotel di charme sul Lago d’Orta, 🌳❤️",
+    "note": "Hotel di charme sul Lago d’Orta 🌳❤️",
     "mappa": "Casa Fantini, Piazza Motta angolo Via Roma 2, 28010, Pella, Italia"
   },
   {
@@ -216,6 +231,7 @@ var HOTEL=[
     "citta": "Madonna di Campiglio",
     "provincia": "TN",
     "prov": "TN",
+    "regione": "Trentino-Alto Adige",
     "nazione": "Italia",
     "luogo": "Madonna di Campiglio (TN)",
     "tel": "+39 0465 441033",
@@ -230,12 +246,13 @@ var HOTEL=[
     "citta": "San Cassiano in Badia",
     "provincia": "BZ",
     "prov": "BZ",
+    "regione": "Trentino-Alto Adige",
     "nazione": "Italia",
     "luogo": "San Cassiano in Badia (BZ)",
     "tel": "+39 0471 849445",
     "email": "info@ciasasalares.it",
     "web": "https://www.ciasasalares.it",
-    "note": "Albergo di montagna, vista sui monti, 🌳❤️",
+    "note": "Albergo di montagna, vista sui monti 🌳❤️",
     "mappa": "Ciasa Salares, Strada Pre de Vì 31, 39036, San Cassiano in Badia, Italia"
   },
   {
@@ -244,6 +261,7 @@ var HOTEL=[
     "citta": "Venezia",
     "provincia": "VE",
     "prov": "VE",
+    "regione": "Veneto",
     "nazione": "Italia",
     "luogo": "Venezia (VE)",
     "tel": "+39 0185 2353451",
@@ -258,6 +276,7 @@ var HOTEL=[
     "citta": "Bergeggi",
     "provincia": "SV",
     "prov": "SV",
+    "regione": "Liguria",
     "nazione": "Italia",
     "luogo": "Bergeggi (SV)",
     "tel": "+39 019 859750",
@@ -272,6 +291,7 @@ var HOTEL=[
     "citta": "London",
     "provincia": "",
     "prov": "",
+    "regione": "United Kingdom",
     "nazione": "United Kingdom",
     "luogo": "London",
     "tel": "",
@@ -286,12 +306,13 @@ var HOTEL=[
     "citta": "Le Rouret",
     "provincia": "",
     "prov": "",
+    "regione": "France",
     "nazione": "France",
     "luogo": "Le Rouret",
     "tel": "+33 (0) 4 93 40 78 85",
     "email": "contact@hotel-du-clos.com",
     "web": "https://hotel-du-clos.com",
-    "note": "\\n",
+    "note": "",
     "mappa": "Du Clos, 55 Chemin des Écoles, 06650, Le Rouret, France"
   },
   {
@@ -300,12 +321,13 @@ var HOTEL=[
     "citta": "Lerici",
     "provincia": "SP",
     "prov": "SP",
+    "regione": "Liguria",
     "nazione": "Italia",
     "luogo": "Lerici (SP)",
     "tel": "+39 0187 964239",
     "email": "info@ecodelmare.it",
     "web": "https://ecodelmare.it",
-    "note": "La Spezia\\nLiguria\\n🌳🌅♥️",
+    "note": "🌳🌅♥️",
     "mappa": "Eco del Mare, Località Maramozza 4, 19032, Lerici, Italia"
   },
   {
@@ -314,6 +336,7 @@ var HOTEL=[
     "citta": "Duino Aurisina",
     "provincia": "TS",
     "prov": "TS",
+    "regione": "Friuli-Venezia Giulia",
     "nazione": "Italia",
     "luogo": "Duino Aurisina (TS)",
     "tel": "+39 040 2907042",
@@ -328,6 +351,7 @@ var HOTEL=[
     "citta": "Roma",
     "provincia": "RM",
     "prov": "RM",
+    "regione": "Lazio",
     "nazione": "Italia",
     "luogo": "Roma (RM)",
     "tel": "+39 06 478121",
@@ -342,6 +366,7 @@ var HOTEL=[
     "citta": "San Remo",
     "provincia": "IM",
     "prov": "IM",
+    "regione": "Liguria",
     "nazione": "Italia",
     "luogo": "San Remo (IM)",
     "tel": "+39 0184 503430",
@@ -356,6 +381,7 @@ var HOTEL=[
     "citta": "Bangkok",
     "provincia": "",
     "prov": "",
+    "regione": "Thailand",
     "nazione": "Thailand",
     "luogo": "Bangkok",
     "tel": "+66 (0) 2 032 0887",
@@ -370,6 +396,7 @@ var HOTEL=[
     "citta": "Geneva",
     "provincia": "GE",
     "prov": "GE",
+    "regione": "Liguria",
     "nazione": "Svizzera",
     "luogo": "Geneva (GE)",
     "tel": "",
@@ -384,6 +411,7 @@ var HOTEL=[
     "citta": "Milano",
     "provincia": "Mi",
     "prov": "Mi",
+    "regione": "Lombardia",
     "nazione": "Italia",
     "luogo": "Milano (Mi)",
     "tel": "+39 02 77088",
@@ -398,12 +426,13 @@ var HOTEL=[
     "citta": "Sondrio",
     "provincia": "",
     "prov": "",
+    "regione": "Italia",
     "nazione": "Italia",
     "luogo": "Sondrio",
     "tel": "+39 0342 200397",
     "email": "info@grandhoteldellaposta.eu",
     "web": "https://www.grandhoteldellaposta.eu",
-    "note": "Camere: 108 e 110\\nLucia\\, Sabrina",
+    "note": "",
     "mappa": "Grand Hotel della Posta, Piazza Garibaldi 19, 23100, Sondrio, Italia"
   },
   {
@@ -412,6 +441,7 @@ var HOTEL=[
     "citta": "Tremezzina",
     "provincia": "CO",
     "prov": "CO",
+    "regione": "Lombardia",
     "nazione": "Italia",
     "luogo": "Tremezzina (CO)",
     "tel": "+39 0344 42491",
@@ -426,6 +456,7 @@ var HOTEL=[
     "citta": "Bellagio",
     "provincia": "CO",
     "prov": "CO",
+    "regione": "Lombardia",
     "nazione": "Italia",
     "luogo": "Bellagio (CO)",
     "tel": "+39 031 950216",
@@ -440,6 +471,7 @@ var HOTEL=[
     "citta": "Venezia",
     "provincia": "VE",
     "prov": "VE",
+    "regione": "Veneto",
     "nazione": "Italia",
     "luogo": "Venezia (VE)",
     "tel": "+39 041 794611",
@@ -454,12 +486,13 @@ var HOTEL=[
     "citta": "Trento",
     "provincia": "TN",
     "prov": "TN",
+    "regione": "Trentino-Alto Adige",
     "nazione": "Italia",
     "luogo": "Trento (TN)",
     "tel": "",
     "email": "trento.loftrooms@gmail.com",
     "web": "https://trentoloftroom.it",
-    "note": "Reception Centro Salus",
+    "note": "",
     "mappa": "Heart of Trento, Vicolo del Vò 27 Interno 24-23, 38122, Trento, Italia"
   },
   {
@@ -468,6 +501,7 @@ var HOTEL=[
     "citta": "Firenze",
     "provincia": "FI",
     "prov": "FI",
+    "regione": "Toscana",
     "nazione": "Italia",
     "luogo": "Firenze (FI)",
     "tel": "+3905526651",
@@ -482,6 +516,7 @@ var HOTEL=[
     "citta": "Milano",
     "provincia": "MI",
     "prov": "MI",
+    "regione": "Lombardia",
     "nazione": "Italia",
     "luogo": "Milano (MI)",
     "tel": "+39 02 811221",
@@ -496,6 +531,7 @@ var HOTEL=[
     "citta": "Ravello",
     "provincia": "SA",
     "prov": "SA",
+    "regione": "Campania",
     "nazione": "Italia",
     "luogo": "Ravello (SA)",
     "tel": "+39 089 858801",
@@ -510,6 +546,7 @@ var HOTEL=[
     "citta": "Praiano",
     "provincia": "SA",
     "prov": "SA",
+    "regione": "Campania",
     "nazione": "Italia",
     "luogo": "Praiano (SA)",
     "tel": "+39 089 8131333",
@@ -524,12 +561,13 @@ var HOTEL=[
     "citta": "Porto Ercole",
     "provincia": "GR",
     "prov": "GR",
+    "regione": "Toscana",
     "nazione": "Italia",
     "luogo": "Porto Ercole (GR)",
     "tel": "+39 0564 858111",
     "email": "reservations@pellicanohotels.com",
     "web": "https://www.pellicanohotelshttps://www.pellicanohotels.com/it/hotels/hotel-il-pellicano/.com",
-    "note": "Camere vista mare,🌳🌅 🏖️❤️",
+    "note": "Camere vista mare 🌳🌅🏖️❤️",
     "mappa": "Il Pellicano, Località Sbarcatello, 58019, Porto Ercole, Italia"
   },
   {
@@ -538,6 +576,7 @@ var HOTEL=[
     "citta": "Ayas",
     "provincia": "AO",
     "prov": "AO",
+    "regione": "Valle d Aosta",
     "nazione": "Italia",
     "luogo": "Ayas (AO)",
     "tel": "",
@@ -552,12 +591,13 @@ var HOTEL=[
     "citta": "San Giustino Valdarno",
     "provincia": "AR",
     "prov": "AR",
+    "regione": "Toscana",
     "nazione": "Italia",
     "luogo": "San Giustino Valdarno (AR)",
     "tel": "+39 055 977053",
     "email": "ilborro@ilborro.it",
     "web": "https://www.ilborro.it",
-    "note": "Arezzo\\nToscana\\n🌳🌅♥️",
+    "note": "🌳🌅♥️",
     "mappa": "Il Borro, Località Il Borro 1, 52024, San Giustino Valdarno, Italia"
   },
   {
@@ -566,12 +606,13 @@ var HOTEL=[
     "citta": "Pescocostanzo",
     "provincia": "AQ",
     "prov": "AQ",
+    "regione": "Abruzzo",
     "nazione": "Italia",
     "luogo": "Pescocostanzo (AQ)",
     "tel": "+39 0864 641651",
     "email": "info@ilgattobianco.it",
     "web": "https://www.ilgattobianco.com",
-    "note": "Montagna\\nAbruzzo\\n❤️",
+    "note": "Montagna ❤️",
     "mappa": "Il Gatto Bianco, Viale Appennini 3, 67033, Pescocostanzo, Italia"
   },
   {
@@ -580,6 +621,7 @@ var HOTEL=[
     "citta": "Sant’Arcangelo di Romagna",
     "provincia": "RN",
     "prov": "RN",
+    "regione": "Emilia-Romagna",
     "nazione": "Italia",
     "luogo": "Sant’Arcangelo di Romagna (RN)",
     "tel": "+39 0541 685959",
@@ -594,12 +636,13 @@ var HOTEL=[
     "citta": "Pontresina",
     "provincia": "GR",
     "prov": "GR",
+    "regione": "Toscana",
     "nazione": "Svizzera",
     "luogo": "Pontresina (GR)",
     "tel": "+41 (0) 81 830 32 23",
     "email": "info@kronenhof.com",
     "web": "https://www.kronenhof.com",
-    "note": "Hotel Kulm St. Moritz",
+    "note": "",
     "mappa": "Kronenhof, Via Maistra, 7504, Pontresina, Svizzera"
   },
   {
@@ -608,6 +651,7 @@ var HOTEL=[
     "citta": "Anterivo",
     "provincia": "BZ",
     "prov": "BZ",
+    "regione": "Trentino-Alto Adige",
     "nazione": "Italia",
     "luogo": "Anterivo (BZ)",
     "tel": "+39 0471 882140",
@@ -622,6 +666,7 @@ var HOTEL=[
     "citta": "Gerolimenas",
     "provincia": "",
     "prov": "",
+    "regione": "Grecia",
     "nazione": "Grecia",
     "luogo": "Gerolimenas",
     "tel": "(+30) 27330 54288",
@@ -636,12 +681,13 @@ var HOTEL=[
     "citta": "Tempio Pausania",
     "provincia": "SS",
     "prov": "SS",
+    "regione": "Sardegna",
     "nazione": "Italia",
     "luogo": "Tempio Pausania (SS)",
     "tel": "+39 079 671384",
     "email": "info@agnata.com",
     "web": "https://www.agnata.com",
-    "note": "Gallura\\nSardegna\\n❤️\\n",
+    "note": "Gallura ❤️",
     "mappa": "L’Agnata, Località l’Agnata San Bachisio, 07029, Tempio Pausania, Italia"
   },
   {
@@ -650,6 +696,7 @@ var HOTEL=[
     "citta": "Erbusco",
     "provincia": "BS",
     "prov": "BS",
+    "regione": "Lombardia",
     "nazione": "Italia",
     "luogo": "Erbusco (BS)",
     "tel": "+390307760550",
@@ -664,6 +711,7 @@ var HOTEL=[
     "citta": "Nerano",
     "provincia": "NA",
     "prov": "NA",
+    "regione": "Campania",
     "nazione": "Italia",
     "luogo": "Nerano (NA)",
     "tel": "+39 081 8081036",
@@ -678,12 +726,13 @@ var HOTEL=[
     "citta": "Scario",
     "provincia": "SA",
     "prov": "SA",
+    "regione": "Campania",
     "nazione": "Italia",
     "luogo": "Scario (SA)",
     "tel": "+39 0974 986068",
     "email": "info@lafrancescasud.it",
     "web": "https://lafrancescascario.it",
-    "note": "Casa Blu: ospitalità in vecchie case con vista sul mare\\nCilento\\nCamp",
+    "note": "Casa Blu: ospitalità in vecchie case con vista sul mare",
     "mappa": "La Francesca, Via Gloria Bortolotti De Poli 8, 84070, Scario, Italia"
   },
   {
@@ -692,12 +741,13 @@ var HOTEL=[
     "citta": "Finale Ligure",
     "provincia": "SV",
     "prov": "SV",
+    "regione": "Liguria",
     "nazione": "Italia",
     "luogo": "Finale Ligure (SV)",
     "tel": "+39 019 601306",
     "email": "",
     "web": "https://www.lagioiosahotel.it",
-    "note": "6\\,5 km dall'uscita A10 Finale Ligure\\nSavona\\nLiguria\\n🌳🌅",
+    "note": "6,5 km dall’uscita A10 Finale Ligure 🌳🌅",
     "mappa": "La Gioiosa, Via Manie 55, 17024, Finale Ligure, Italia"
   },
   {
@@ -706,6 +756,7 @@ var HOTEL=[
     "citta": "Senigallia",
     "provincia": "AN",
     "prov": "AN",
+    "regione": "Marche",
     "nazione": "Italia",
     "luogo": "Senigallia (AN)",
     "tel": "+39 071 6610052",
@@ -720,6 +771,7 @@ var HOTEL=[
     "citta": "Miraflores, Lima",
     "provincia": "",
     "prov": "",
+    "regione": "Perù",
     "nazione": "Perù",
     "luogo": "Miraflores, Lima",
     "tel": "+51 995 938 000",
@@ -734,12 +786,13 @@ var HOTEL=[
     "citta": "Gavi",
     "provincia": "AL",
     "prov": "AL",
+    "regione": "Piemonte",
     "nazione": "Italia",
     "luogo": "Gavi (AL)",
     "tel": "+39 0143 642860",
     "email": "locanda@la-raia.it",
     "web": "https://www.la-raia.it/it",
-    "note": "Colli di Gavi\\nAlessandria\\n🌳",
+    "note": "Colli di Gavi 🌳",
     "mappa": "La Raia, Località Lomellina 26, 15066, Gavi, Italia"
   },
   {
@@ -748,12 +801,13 @@ var HOTEL=[
     "citta": "Castro",
     "provincia": "LE",
     "prov": "LE",
+    "regione": "Puglia",
     "nazione": "Italia",
     "luogo": "Castro (LE)",
     "tel": "+39 0836 979013",
     "email": "info@larocciahotel.it",
     "web": "https://larocciahotel.it",
-    "note": "Camere vista mare, 🌳 🌅 🏖️",
+    "note": "Camere vista mare 🌳🌅🏖️",
     "mappa": "La Roccia, Via Litoranea Tricase, 73030, Castro, Italia"
   },
   {
@@ -762,6 +816,7 @@ var HOTEL=[
     "citta": "Soglio",
     "provincia": "GR",
     "prov": "GR",
+    "regione": "Toscana",
     "nazione": "Svizzera",
     "luogo": "Soglio (GR)",
     "tel": "+41 81 822 16 08",
@@ -776,6 +831,7 @@ var HOTEL=[
     "citta": "Ostuni",
     "provincia": "BR",
     "prov": "BR",
+    "regione": "Puglia",
     "nazione": "Italia",
     "luogo": "Ostuni (BR)",
     "tel": "+39 0831 305925",
@@ -790,6 +846,7 @@ var HOTEL=[
     "citta": "Paris",
     "provincia": "FR",
     "prov": "FR",
+    "regione": "Lazio",
     "nazione": "Francia",
     "luogo": "Paris (FR)",
     "tel": "+33 1 53 43 43 00",
@@ -804,6 +861,7 @@ var HOTEL=[
     "citta": "Paris",
     "provincia": "FR",
     "prov": "FR",
+    "regione": "Lazio",
     "nazione": "Francia",
     "luogo": "Paris (FR)",
     "tel": "+33 1 44 27 07 97",
@@ -818,6 +876,7 @@ var HOTEL=[
     "citta": "Basel",
     "provincia": "BS",
     "prov": "BS",
+    "regione": "Lombardia",
     "nazione": "Svizzera",
     "luogo": "Basel (BS)",
     "tel": "+41 79 756 36 24",
@@ -832,6 +891,7 @@ var HOTEL=[
     "citta": "Ameglia",
     "provincia": "SP",
     "prov": "SP",
+    "regione": "Liguria",
     "nazione": "Italia",
     "luogo": "Ameglia (SP)",
     "tel": "",
@@ -846,6 +906,7 @@ var HOTEL=[
     "citta": "Bagnoregio",
     "provincia": "VT",
     "prov": "VT",
+    "regione": "Lazio",
     "nazione": "Italia",
     "luogo": "Bagnoregio (VT)",
     "tel": "+39 0761 792121",
@@ -860,6 +921,7 @@ var HOTEL=[
     "citta": "Campiglia",
     "provincia": "SP",
     "prov": "SP",
+    "regione": "Liguria",
     "nazione": "Italia",
     "luogo": "Campiglia (SP)",
     "tel": "",
@@ -874,12 +936,13 @@ var HOTEL=[
     "citta": "Sorrento",
     "provincia": "NA",
     "prov": "NA",
+    "regione": "Campania",
     "nazione": "Italia",
     "luogo": "Sorrento (NA)",
     "tel": "+39 081 8774455",
     "email": "info@laminervetta.com",
     "web": "https://www.laminervetta.com",
-    "note": "Campania\\n❤️",
+    "note": "❤️",
     "mappa": "Maison La Minervetta, Via Capo 25, 80067, Sorrento, Italia"
   },
   {
@@ -888,6 +951,7 @@ var HOTEL=[
     "citta": "London",
     "provincia": "GB",
     "prov": "GB",
+    "regione": "Regno Unito",
     "nazione": "United Kingdom",
     "luogo": "London (GB)",
     "tel": "+44 (0) 20 7235 2000",
@@ -902,12 +966,13 @@ var HOTEL=[
     "citta": "Blevio",
     "provincia": "CO",
     "prov": "CO",
+    "regione": "Lombardia",
     "nazione": "Italia",
     "luogo": "Blevio (CO)",
     "tel": "+39 031 32511",
     "email": "",
     "web": "https://www.mandarinoriental.com/lake-como/blevio/luxur",
-    "note": "Camere vista lago,🌳 🌅 🏖️",
+    "note": "Camere vista lago 🌳🌅🏖️",
     "mappa": "Mandarin Oriental Lago di Como, Via Enrico Caronti 69, 22020, Blevio, Italia"
   },
   {
@@ -916,6 +981,7 @@ var HOTEL=[
     "citta": "Pisciotta",
     "provincia": "SA",
     "prov": "SA",
+    "regione": "Campania",
     "nazione": "Italia",
     "luogo": "Pisciotta (SA)",
     "tel": "0974973792",
@@ -930,6 +996,7 @@ var HOTEL=[
     "citta": "Ischia",
     "provincia": "NA",
     "prov": "NA",
+    "regione": "Campania",
     "nazione": "Italia",
     "luogo": "Ischia (NA)",
     "tel": "+39 081 986111",
@@ -944,12 +1011,13 @@ var HOTEL=[
     "citta": "Miralago",
     "provincia": "GR",
     "prov": "GR",
+    "regione": "Toscana",
     "nazione": "Svizzera",
     "luogo": "Miralago (GR)",
     "tel": "+41 81 839 20 00",
     "email": "info@albergomiralago.ch",
     "web": "https://www.albergomiralago.ch",
-    "note": "Camere vista lago,🌳 🌅",
+    "note": "Camere vista lago 🌳🌅",
     "mappa": "Miralago, Miralago 10, 7743, Miralago, Svizzera"
   },
   {
@@ -958,6 +1026,7 @@ var HOTEL=[
     "citta": "Zermatt",
     "provincia": "VS",
     "prov": "VS",
+    "regione": "Sardegna",
     "nazione": "Svizzera",
     "luogo": "Zermatt (VS)",
     "tel": "+41 27 966 88 88",
@@ -972,6 +1041,7 @@ var HOTEL=[
     "citta": "Sottomarina di Chioggia",
     "provincia": "VE",
     "prov": "VE",
+    "regione": "Veneto",
     "nazione": "Italia",
     "luogo": "Sottomarina di Chioggia (VE)",
     "tel": "+39 041 0986095",
@@ -986,6 +1056,7 @@ var HOTEL=[
     "citta": "Sorrento",
     "provincia": "NA",
     "prov": "NA",
+    "regione": "Campania",
     "nazione": "Italia",
     "luogo": "Sorrento (NA)",
     "tel": "(+39) 081 8772862",
@@ -1000,6 +1071,7 @@ var HOTEL=[
     "citta": "Isola del Giglio",
     "provincia": "GR",
     "prov": "GR",
+    "regione": "Toscana",
     "nazione": "Italia",
     "luogo": "Isola del Giglio (GR)",
     "tel": "+39 0564 809034",
@@ -1014,6 +1086,7 @@ var HOTEL=[
     "citta": "Grottaferrata",
     "provincia": "RM",
     "prov": "RM",
+    "regione": "Lazio",
     "nazione": "Italia",
     "luogo": "Grottaferrata (RM)",
     "tel": "+3906945400",
@@ -1028,12 +1101,13 @@ var HOTEL=[
     "citta": "Lecce",
     "provincia": "LE",
     "prov": "LE",
+    "regione": "Puglia",
     "nazione": "Italia",
     "luogo": "Lecce (LE)",
     "tel": "+39 0832 245111",
     "email": "info@patriapalace.com",
     "web": "https://patriapalace.com",
-    "note": "Reception: Caterina\\nSalento",
+    "note": "",
     "mappa": "Patria Palace, Piazzetta Gabriele Riccardi, 73100, Lecce, Italia"
   },
   {
@@ -1042,12 +1116,13 @@ var HOTEL=[
     "citta": "Scopello",
     "provincia": "TP",
     "prov": "TP",
+    "regione": "Sicilia",
     "nazione": "Italia",
     "luogo": "Scopello (TP)",
     "tel": "+39 0924 541099",
     "email": "pensione.tranchina@gmail.com",
     "web": "https://www.pensionetranchina.com",
-    "note": "Sicilia",
+    "note": "",
     "mappa": "Pensione Tranchina, Via Armando Diaz 7, 91014, Scopello, Italia"
   },
   {
@@ -1056,6 +1131,7 @@ var HOTEL=[
     "citta": "Poppi",
     "provincia": "AR",
     "prov": "AR",
+    "regione": "Toscana",
     "nazione": "Italia",
     "luogo": "Poppi (AR)",
     "tel": "",
@@ -1070,6 +1146,7 @@ var HOTEL=[
     "citta": "Limeni Laconia",
     "provincia": "GR",
     "prov": "GR",
+    "regione": "Toscana",
     "nazione": "Grecia",
     "luogo": "Limeni Laconia (GR)",
     "tel": "+30 27330 51042",
@@ -1084,6 +1161,7 @@ var HOTEL=[
     "citta": "Menfi",
     "provincia": "AG",
     "prov": "AG",
+    "regione": "Sicilia",
     "nazione": "Italia",
     "luogo": "Menfi (AG)",
     "tel": "+39 0925 529986",
@@ -1098,6 +1176,7 @@ var HOTEL=[
     "citta": "Menfi",
     "provincia": "AG",
     "prov": "AG",
+    "regione": "Sicilia",
     "nazione": "Italia",
     "luogo": "Menfi (AG)",
     "tel": "+39 0925 529988",
@@ -1112,6 +1191,7 @@ var HOTEL=[
     "citta": "Menfi",
     "provincia": "AG",
     "prov": "AG",
+    "regione": "Sicilia",
     "nazione": "Italia",
     "luogo": "Menfi (AG)",
     "tel": "+39 0925 529987",
@@ -1126,6 +1206,7 @@ var HOTEL=[
     "citta": "Palermo",
     "provincia": "PA",
     "prov": "PA",
+    "regione": "Sicilia",
     "nazione": "Italia",
     "luogo": "Palermo (PA)",
     "tel": "+39 091 7330940",
@@ -1140,6 +1221,7 @@ var HOTEL=[
     "citta": "Sambuca di Sicilia",
     "provincia": "AG",
     "prov": "AG",
+    "regione": "Sicilia",
     "nazione": "Italia",
     "luogo": "Sambuca di Sicilia (AG)",
     "tel": "+39 0925 1955460",
@@ -1154,6 +1236,7 @@ var HOTEL=[
     "citta": "Noto",
     "provincia": "SR",
     "prov": "SR",
+    "regione": "Sicilia",
     "nazione": "Italia",
     "luogo": "Noto (SR)",
     "tel": "+39 0925 1955460",
@@ -1168,12 +1251,13 @@ var HOTEL=[
     "citta": "Milano",
     "provincia": "MI",
     "prov": "MI",
+    "regione": "Lombardia",
     "nazione": "Italia",
     "luogo": "Milano (MI)",
     "tel": "+39 02 62301",
     "email": "club10.HPS@dorchestercollection.com",
     "web": "https://www.hotelprincipedisavoia.com/contattaci-hotel-p",
-    "note": "Principe Bar\\nManager: Daniele\\nAssistant manager: Andrea",
+    "note": "",
     "mappa": "Principe di Savoia, Piazza della Repubblica 17, 20124, Milano, Italia"
   },
   {
@@ -1182,6 +1266,7 @@ var HOTEL=[
     "citta": "Forte dei Marmi",
     "provincia": "LU",
     "prov": "LU",
+    "regione": "Toscana",
     "nazione": "Italia",
     "luogo": "Forte dei Marmi (LU)",
     "tel": "+39 0584 783636",
@@ -1196,6 +1281,7 @@ var HOTEL=[
     "citta": "Roma",
     "provincia": "RM",
     "prov": "RM",
+    "regione": "Lazio",
     "nazione": "Italia",
     "luogo": "Roma (RM)",
     "tel": "+39 06 682831",
@@ -1210,6 +1296,7 @@ var HOTEL=[
     "citta": "Salamanca",
     "provincia": "ES",
     "prov": "ES",
+    "regione": "Spagna",
     "nazione": "Spagna",
     "luogo": "Salamanca (ES)",
     "tel": "+34 923 218 482",
@@ -1224,12 +1311,13 @@ var HOTEL=[
     "citta": "Vico Morcote",
     "provincia": "TI",
     "prov": "TI",
+    "regione": "Svizzera",
     "nazione": "Svizzera",
     "luogo": "Vico Morcote (TI)",
     "tel": "+41 91 980 22 52",
     "email": "relais@castellodimorcote.ch",
     "web": "https://www.relaiscastellodimorcote.ch",
-    "note": "Ticino\\n❤️🌳",
+    "note": "Ticino ❤️🌳",
     "mappa": "Relais Castello di Morcote, Portich de Sura, 6921, Vico Morcote, Svizzera"
   },
   {
@@ -1238,6 +1326,7 @@ var HOTEL=[
     "citta": "Susegana",
     "provincia": "TV",
     "prov": "TV",
+    "regione": "Veneto",
     "nazione": "Italia",
     "luogo": "Susegana (TV)",
     "tel": "+39 0438 841414",
@@ -1252,12 +1341,13 @@ var HOTEL=[
     "citta": "Bergamo Alta",
     "provincia": "BG",
     "prov": "BG",
+    "regione": "Lombardia",
     "nazione": "Italia",
     "luogo": "Bergamo Alta (BG)",
     "tel": "+39 035 2650987",
     "email": "info@relaissanvigilio.it",
     "web": "https://www.relaissanvigilio.it",
-    "note": "Bergamo\\nLombardia",
+    "note": "",
     "mappa": "Relais San Vigilio, Via al Castello 7, 24129, Bergamo Alta, Italia"
   },
   {
@@ -1266,6 +1356,7 @@ var HOTEL=[
     "citta": "Benevello",
     "provincia": "CN",
     "prov": "CN",
+    "regione": "Piemonte",
     "nazione": "Italia",
     "luogo": "Benevello (CN)",
     "tel": "+39 0173 529225",
@@ -1280,12 +1371,13 @@ var HOTEL=[
     "citta": "Mantova",
     "provincia": "MN",
     "prov": "MN",
+    "regione": "Lombardia",
     "nazione": "Italia",
     "luogo": "Mantova (MN)",
     "tel": "+39 0376 226161",
     "email": "residenza@scaravelli.it",
     "web": "https://www.scaravelli.it/residenza",
-    "note": "Check-in 15:00 - 19:00",
+    "note": "",
     "mappa": "Residenza Scaravelli, Portici Broletto 22, 46100, Mantova, Italia"
   },
   {
@@ -1294,12 +1386,13 @@ var HOTEL=[
     "citta": "Poggiridenti",
     "provincia": "SO",
     "prov": "SO",
+    "regione": "Lombardia",
     "nazione": "Italia",
     "luogo": "Poggiridenti (SO)",
     "tel": "+39 0342 382092",
     "email": "info@reticibalzi.it",
     "web": "https://www.reticibalzi.it",
-    "note": "Junior suite estiva: Fracia\\nJunior suite invernale: Ca’ Rizzieri",
+    "note": "",
     "mappa": "Retici Balzi, Via Panoramica 2, 23020, Poggiridenti, Italia"
   },
   {
@@ -1308,6 +1401,7 @@ var HOTEL=[
     "citta": "Madrid",
     "provincia": "M",
     "prov": "M",
+    "regione": "Lombardia",
     "nazione": "Spagna",
     "luogo": "Madrid (M)",
     "tel": "+34 91 7016888",
@@ -1322,12 +1416,13 @@ var HOTEL=[
     "citta": "Roma",
     "provincia": "RM",
     "prov": "RM",
+    "regione": "Lazio",
     "nazione": "Italia",
     "luogo": "Roma (RM)",
     "tel": "+39 06 328881",
     "email": "reservations.derussie@roccofortehotels.com",
     "web": "https://www.roccofortehotels.com/it/hotels-and-resorts/hotel-de-russie/",
-    "note": "Italia e Svizzera",
+    "note": "",
     "mappa": "Rocco Forte Hotels, Via del Babuino 9, 00187, Roma, Italia"
   },
   {
@@ -1336,12 +1431,13 @@ var HOTEL=[
     "citta": "Napoli",
     "provincia": "NA",
     "prov": "NA",
+    "regione": "Campania",
     "nazione": "Italia",
     "luogo": "Napoli (NA)",
     "tel": "+39 081 0175001",
     "email": "welcome.na@thrromeocollection.com",
     "web": "https://www.romeohotel.com/it/romeo-napoli/",
-    "note": "Responsabile Sales: Antonella Graziano",
+    "note": "",
     "mappa": "Romeo, Via Cristoforo Colombo 45, 80133, Napoli, Italia"
   },
   {
@@ -1350,6 +1446,7 @@ var HOTEL=[
     "citta": "Rovereto",
     "provincia": "TN",
     "prov": "TN",
+    "regione": "Trentino-Alto Adige",
     "nazione": "Italia",
     "luogo": "Rovereto (TN)",
     "tel": "+39 0464 435222",
@@ -1364,6 +1461,7 @@ var HOTEL=[
     "citta": "Wien",
     "provincia": "W",
     "prov": "W",
+    "regione": "Austria",
     "nazione": "Austria",
     "luogo": "Wien (W)",
     "tel": "+43 1 514 560",
@@ -1378,12 +1476,13 @@ var HOTEL=[
     "citta": "Salsomaggiore Terme",
     "provincia": "PR",
     "prov": "PR",
+    "regione": "Emilia-Romagna",
     "nazione": "Italia",
     "luogo": "Salsomaggiore Terme (PR)",
     "tel": "+39 0524 582311",
     "email": "",
     "web": "",
-    "note": "Parma\\nEmilia Romagna",
+    "note": "",
     "mappa": "Salsomaggiore, Largo Roma 3, 43039, Salsomaggiore Terme, Italia"
   },
   {
@@ -1392,6 +1491,7 @@ var HOTEL=[
     "citta": "Positano",
     "provincia": "SA",
     "prov": "SA",
+    "regione": "Campania",
     "nazione": "Italia",
     "luogo": "Positano (SA)",
     "tel": "+39 089 812080",
@@ -1406,6 +1506,7 @@ var HOTEL=[
     "citta": "Orta San Giulio",
     "provincia": "NO",
     "prov": "NO",
+    "regione": "Piemonte",
     "nazione": "Italia",
     "luogo": "Orta San Giulio (NO)",
     "tel": "+39 0322 911977",
@@ -1420,12 +1521,13 @@ var HOTEL=[
     "citta": "Venezia",
     "provincia": "VE",
     "prov": "VE",
+    "regione": "Veneto",
     "nazione": "Italia",
     "luogo": "Venezia (VE)",
     "tel": "+39 041 2400001",
     "email": "",
     "web": "https://giosrestaurantvenice.com",
-    "note": "Restaurant Manager: Enrico Pagnotta",
+    "note": "",
     "mappa": "St. Regis Venezia, San Marco 2159, 30124, Venezia, Italia"
   },
   {
@@ -1434,12 +1536,13 @@ var HOTEL=[
     "citta": "Camogli",
     "provincia": "GE",
     "prov": "GE",
+    "regione": "Liguria",
     "nazione": "Italia",
     "luogo": "Camogli (GE)",
     "tel": "+39 0185 770285",
     "email": "info@stellamaris.cc",
     "web": "https://www.stellamaris.cc",
-    "note": "Liguria\\nCamere vista mare\\nTaxi boat da Recco a Punta Chiappa\\n🌳🌅♥️",
+    "note": "Camere vista mare, taxi boat da Recco a Punta Chiappa 🌳🌅♥️",
     "mappa": "Stella Maris, Punta Chiappa, 16032, Camogli, Italia"
   },
   {
@@ -1448,6 +1551,7 @@ var HOTEL=[
     "citta": "Vathia",
     "provincia": "GR",
     "prov": "GR",
+    "regione": "Toscana",
     "nazione": "Grecia",
     "luogo": "Vathia (GR)",
     "tel": "+30 2108080049 ",
@@ -1462,6 +1566,7 @@ var HOTEL=[
     "citta": "New York",
     "provincia": "NY",
     "prov": "NY",
+    "regione": "Stati Uniti",
     "nazione": "Stati Uniti d",
     "luogo": "New York (NY)",
     "tel": "+1 (212) 605-6812",
@@ -1476,12 +1581,13 @@ var HOTEL=[
     "citta": "New York",
     "provincia": "NY",
     "prov": "NY",
+    "regione": "Stati Uniti",
     "nazione": "Stati Un",
     "luogo": "New York (NY)",
     "tel": "+1 (212) 355-2800",
     "email": "jacosta@sherrynetherland.com",
     "web": "https://www.sherrynetherland.com",
-    "note": "Camera 1204",
+    "note": "",
     "mappa": "The Sherry Netherland, 781 Fifth Avenue, 10022, New York, Stati Un"
   },
   {
@@ -1490,12 +1596,13 @@ var HOTEL=[
     "citta": "Firenze",
     "provincia": "FI",
     "prov": "FI",
+    "regione": "Toscana",
     "nazione": "Italia",
     "luogo": "Firenze (FI)",
     "tel": "+39 331 2947089",
     "email": "info@terraerestaurant.it",
     "web": "https://www.terraerestaurant.it",
-    "note": "Ristorante aperto a cena dal giovedì al lunedì dalle 19:00 alle 21:30\\",
+    "note": "",
     "mappa": "Tivoli Palazzo Gaddi, Via del Giglio 9, 50123, Firenze, Italia"
   },
   {
@@ -1504,12 +1611,13 @@ var HOTEL=[
     "citta": "Scopello",
     "provincia": "TP",
     "prov": "TP",
+    "regione": "Sicilia",
     "nazione": "Italia",
     "luogo": "Scopello (TP)",
     "tel": "+39 0924 1866101",
     "email": "booking@tonnaradiscopello.it",
     "web": "https://www.tonnaradiscopello.it",
-    "note": "Hotel sul mare\\nSicilia",
+    "note": "Hotel sul mare",
     "mappa": "Tonnara di Scopello, Largo Tonnara, 91014, Scopello, Italia"
   },
   {
@@ -1518,6 +1626,7 @@ var HOTEL=[
     "citta": "Follina",
     "provincia": "TV",
     "prov": "TV",
+    "regione": "Veneto",
     "nazione": "Italia",
     "luogo": "Follina (TV)",
     "tel": "+39 0438 971277",
@@ -1532,6 +1641,7 @@ var HOTEL=[
     "citta": "Lugano",
     "provincia": "TI",
     "prov": "TI",
+    "regione": "Svizzera",
     "nazione": "Svizzera",
     "luogo": "Lugano (TI)",
     "tel": "+41 91 9732555",
@@ -1546,6 +1656,7 @@ var HOTEL=[
     "citta": "Abbazia di Rosara",
     "provincia": "AP",
     "prov": "AP",
+    "regione": "Marche",
     "nazione": "Italia",
     "luogo": "Abbazia di Rosara (AP)",
     "tel": "",
@@ -1560,12 +1671,13 @@ var HOTEL=[
     "citta": "Firenze",
     "provincia": "FI",
     "prov": "FI",
+    "regione": "Toscana",
     "nazione": "Italia",
     "luogo": "Firenze (FI)",
     "tel": "+39 055 228790",
     "email": "info@villacora.it",
     "web": "https://www.villacora.it",
-    "note": "Sontuosa residenza, vista sulla città, 🌳❤️",
+    "note": "Sontuosa residenza, vista sulla città 🌳❤️",
     "mappa": "Villa Cora, Viale Machiavelli 18, 50125, Firenze, Italia"
   },
   {
@@ -1574,12 +1686,13 @@ var HOTEL=[
     "citta": "Sirmione",
     "provincia": "BS",
     "prov": "BS",
+    "regione": "Lombardia",
     "nazione": "Italia",
     "luogo": "Sirmione (BS)",
     "tel": "+39 030 9905890",
     "email": "roberto.cappelletto@hotelvillacorti",
     "web": "https://www.hotelvillacortine.com",
-    "note": "Sontuosa residenza in un parco, 🌳❤️",
+    "note": "Sontuosa residenza in un parco 🌳❤️",
     "mappa": "Villa Cortine Palace, Viale C. Gennari 2, 25019, Sirmione, Italia"
   },
   {
@@ -1588,6 +1701,7 @@ var HOTEL=[
     "citta": "Cernobbio",
     "provincia": "CO",
     "prov": "CO",
+    "regione": "Lombardia",
     "nazione": "Italia",
     "luogo": "Cernobbio (CO)",
     "tel": "+39 031 3481",
@@ -1602,6 +1716,7 @@ var HOTEL=[
     "citta": "Mira",
     "provincia": "VE",
     "prov": "VE",
+    "regione": "Veneto",
     "nazione": "Italia",
     "luogo": "Mira (VE)",
     "tel": "+39 0414266531",
@@ -1616,12 +1731,13 @@ var HOTEL=[
     "citta": "Aix en Provence",
     "provincia": "",
     "prov": "",
+    "regione": "France",
     "nazione": "France",
     "luogo": "Aix en Provence",
     "tel": "+33 (0) 4 42 32 92 3",
     "email": "gallici@relaischateaux.fr",
     "web": "https://www.villagallici.com",
-    "note": "Maître de Maison: Michel Marey",
+    "note": "",
     "mappa": "Villa Gallici, Avenue de la Violette, 13100, Aix en Provence, France"
   },
   {
@@ -1630,6 +1746,7 @@ var HOTEL=[
     "citta": "Francavilla al Mare",
     "provincia": "CH",
     "prov": "CH",
+    "regione": "Abruzzo",
     "nazione": "Italia",
     "luogo": "Francavilla al Mare (CH)",
     "tel": "+39 085 450051",
@@ -1644,12 +1761,13 @@ var HOTEL=[
     "citta": "Positano",
     "provincia": "SA",
     "prov": "SA",
+    "regione": "Campania",
     "nazione": "Italia",
     "luogo": "Positano (SA)",
     "tel": "+39 089 8122401",
     "email": "direttore@villatreville.it",
     "web": "https://www.villatreville.it",
-    "note": "Vista mare, 🌳❤️",
+    "note": "Vista mare 🌳❤️",
     "mappa": "Villa Treville, Via Arienzo 30, 84017, Positano, Italia"
   },
   {
@@ -1658,215 +1776,139 @@ var HOTEL=[
     "citta": "San Luca",
     "provincia": "PG",
     "prov": "PG",
+    "regione": "Umbria",
     "nazione": "Italia",
     "luogo": "San Luca (PG)",
     "tel": "+39 0742 399402",
     "email": "info@hotelvillasantabarbara.com",
     "web": "https://www.hotelvillasantabarbara.com",
-    "note": "Residenz di campagna tra i vigneti ⛰️ 🌳❤️",
+    "note": "Residenza di campagna tra i vigneti ⛰️ 🌳❤️",
     "mappa": "Villa Santa Barbara, Via Federico Giunchi, 06036, San Luca, Italia"
   }
 ];
 var HOTEL_PROVCITTA={
-  "CS": [
-    "Camigliatello Silano"
+  "Calabria": [
+    "CS"
   ],
-  "LE": [
-    "Maglie",
-    "Castro",
-    "Lecce"
+  "Russia": [
+    ""
   ],
-  "AO": [
-    "Cogne",
-    "Ayas"
+  "Puglia": [
+    "BR",
+    "LE"
   ],
-  "GR": [
-    "Sankt Moritz",
-    "Porto Ercole",
-    "Pontresina",
-    "Soglio",
-    "Miralago",
-    "Isola del Giglio",
-    "Limeni Laconia",
-    "Vathia"
+  "Valle d Aosta": [
+    "AO"
   ],
-  "LC": [
-    "Oggiono"
+  "Toscana": [
+    "AR",
+    "FI",
+    "GR",
+    "LU",
+    "SI"
   ],
-  "SI": [
-    "Colle di Val d'Elsa",
-    "Chiusdino"
+  "Lombardia": [
+    "BG",
+    "BS",
+    "CO",
+    "LC",
+    "M",
+    "MI",
+    "MN",
+    "Mi",
+    "SO"
   ],
-  "SA": [
-    "Amalfi",
-    "Ravello",
-    "Praiano",
-    "Scario",
-    "Pisciotta",
-    "Positano"
+  "Campania": [
+    "NA",
+    "SA"
   ],
-  "MI": [
-    "Milano"
+  "China": [
+    ""
   ],
-  "RM": [
-    "Roma",
-    "Grottaferrata"
+  "Lazio": [
+    "FR",
+    "RM",
+    "VT"
   ],
-  "TO": [
-    "Sauze D'Oulx"
+  "Piemonte": [
+    "AL",
+    "CN",
+    "NO",
+    "TO"
   ],
-  "NO": [
-    "Pella",
-    "Orta San Giulio"
+  "Trentino-Alto Adige": [
+    "BZ",
+    "TN"
   ],
-  "TN": [
-    "Madonna di Campiglio",
-    "Trento",
-    "Rovereto"
+  "Veneto": [
+    "TV",
+    "VE"
   ],
-  "BZ": [
-    "San Cassiano in Badia",
-    "Anterivo"
+  "Liguria": [
+    "GE",
+    "IM",
+    "SP",
+    "SV"
   ],
-  "VE": [
-    "Venezia",
-    "Sottomarina di Chioggia",
-    "Mira"
+  "United Kingdom": [
+    ""
   ],
-  "SV": [
-    "Bergeggi",
-    "Finale Ligure"
+  "France": [
+    ""
   ],
-  "SP": [
-    "Lerici",
-    "Ameglia",
-    "Campiglia"
+  "Friuli-Venezia Giulia": [
+    "TS"
   ],
-  "TS": [
-    "Duino Aurisina"
+  "Thailand": [
+    ""
   ],
-  "IM": [
-    "San Remo"
+  "Italia": [
+    ""
   ],
-  "GE": [
-    "Geneva",
-    "Camogli"
+  "Abruzzo": [
+    "AQ",
+    "CH"
   ],
-  "Mi": [
-    "Milano"
+  "Emilia-Romagna": [
+    "PR",
+    "RN"
   ],
-  "CO": [
-    "Tremezzina",
-    "Bellagio",
-    "Blevio",
-    "Cernobbio"
+  "Grecia": [
+    ""
   ],
-  "FI": [
-    "Firenze"
+  "Sardegna": [
+    "SS",
+    "VS"
   ],
-  "AR": [
-    "San Giustino Valdarno",
-    "Poppi"
+  "Marche": [
+    "AN",
+    "AP"
   ],
-  "AQ": [
-    "Pescocostanzo"
+  "Perù": [
+    ""
   ],
-  "RN": [
-    "Sant’Arcangelo di Romagna"
+  "Regno Unito": [
+    "GB"
   ],
-  "SS": [
-    "Tempio Pausania"
+  "Sicilia": [
+    "AG",
+    "PA",
+    "SR",
+    "TP"
   ],
-  "BS": [
-    "Erbusco",
-    "Basel",
-    "Sirmione"
+  "Spagna": [
+    "ES"
   ],
-  "NA": [
-    "Nerano",
-    "Sorrento",
-    "Ischia",
-    "Napoli"
+  "Svizzera": [
+    "TI"
   ],
-  "AN": [
-    "Senigallia"
+  "Austria": [
+    "W"
   ],
-  "AL": [
-    "Gavi"
+  "Stati Uniti": [
+    "NY"
   ],
-  "BR": [
-    "Ostuni"
-  ],
-  "FR": [
-    "Paris"
-  ],
-  "VT": [
-    "Bagnoregio"
-  ],
-  "GB": [
-    "London"
-  ],
-  "VS": [
-    "Zermatt"
-  ],
-  "TP": [
-    "Scopello"
-  ],
-  "AG": [
-    "Menfi",
-    "Sambuca di Sicilia"
-  ],
-  "PA": [
-    "Palermo"
-  ],
-  "SR": [
-    "Noto"
-  ],
-  "LU": [
-    "Forte dei Marmi"
-  ],
-  "ES": [
-    "Salamanca"
-  ],
-  "TI": [
-    "Vico Morcote",
-    "Lugano"
-  ],
-  "TV": [
-    "Susegana",
-    "Follina"
-  ],
-  "BG": [
-    "Bergamo Alta"
-  ],
-  "CN": [
-    "Benevello"
-  ],
-  "MN": [
-    "Mantova"
-  ],
-  "SO": [
-    "Poggiridenti"
-  ],
-  "M": [
-    "Madrid"
-  ],
-  "W": [
-    "Wien"
-  ],
-  "PR": [
-    "Salsomaggiore Terme"
-  ],
-  "NY": [
-    "New York"
-  ],
-  "AP": [
-    "Abbazia di Rosara"
-  ],
-  "CH": [
-    "Francavilla al Mare"
-  ],
-  "PG": [
-    "San Luca"
+  "Umbria": [
+    "PG"
   ]
 };
