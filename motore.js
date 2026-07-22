@@ -672,7 +672,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var ricerca = document.getElementById("guida-ricerca");
   if (ricerca) {
     var regioni = Object.keys(regprov).sort();
-    ricerca.innerHTML = "<input id=cerca-nome type=search placeholder=Cerca> <select id=cerca-reg-hotel><option value='>Tutte</option>" + regioni.map(function(r){return "<option value='" + escV(r) + "'>" + escV(r) + "</option>";}).join("") + "</select>";
+    ricerca.innerHTML = "<input id=cerca-nome type=search placeholder=Cerca> <select id=cerca-reg-hotel><option value=''>Tutte le regioni</option>" + regioni.map(function(r){return "<option value='" + escV(r) + "'>" + escV(r) + "</option>";}).join("") + "</select>";
   }
   var lista = document.getElementById("guida-lista");
   function disegna(items) {
