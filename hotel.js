@@ -12,7 +12,7 @@ var HOTEL=[
     "email": "info@hotelaquilaedelweiss.com",
     "web": "https://www.hotelaquilaedelweiss.com",
     "note": "Sila",
-    "mappa": "Via Stazione 15, 87052, Camigliatello Silano"
+    "mappa": "Aquila Edelweiss, Via Stazione 15, 87052, Camigliatello Silano, Italia"
   },
   {
     "nome": "Astoria",
@@ -26,7 +26,7 @@ var HOTEL=[
     "email": "",
     "web": "https://www.roccofortehotels.ru/en",
     "note": "",
-    "mappa": "Bolshaya Morskaya str. 39, 190031, St. Petersburg"
+    "mappa": "Astoria, Bolshaya Morskaya str. 39, 190031, St. Petersburg, Russia"
   },
   {
     "nome": "BelAmi",
@@ -40,7 +40,7 @@ var HOTEL=[
     "email": "info@bel-ami.it",
     "web": "https://www.hotelbelami.it",
     "note": "Salento",
-    "mappa": "Via Roma 86, 73024, Maglie"
+    "mappa": "BelAmi, Via Roma 86, 73024, Maglie, Italia"
   },
   {
     "nome": "Bellevue",
@@ -54,7 +54,7 @@ var HOTEL=[
     "email": "info@hotelbellevue.it",
     "web": "https://www.hotelbellevue.it/it/",
     "note": "Valle d'Aosta ⛰️ 🌳❤️",
-    "mappa": "Rue Grand Paradis 22, 11012, Cogne"
+    "mappa": "Bellevue, Rue Grand Paradis 22, 11012, Cogne, Italia"
   },
   {
     "nome": "Berghotel Randolins",
@@ -68,7 +68,7 @@ var HOTEL=[
     "email": "willkommen@randolins.ch",
     "web": "https://www.randolins.ch/it/",
     "note": "",
-    "mappa": "Via Curtins 2, 7500, Sankt Moritz"
+    "mappa": "Berghotel Randolins, Via Curtins 2, 7500, Sankt Moritz, Svizzera"
   },
   {
     "nome": "Bianca Relais",
@@ -82,7 +82,7 @@ var HOTEL=[
     "email": "reservation@biancarelais.it",
     "web": "https://biancarelais.it",
     "note": "",
-    "mappa": "Via Dante Alighieri 18, 23848, Oggiono"
+    "mappa": "Bianca Relais, Via Dante Alighieri 18, 23848, Oggiono, Italia"
   },
   {
     "nome": "Bis Osteria Contemporanea",
@@ -96,7 +96,7 @@ var HOTEL=[
     "email": "info@osteriabis.it",
     "web": "www.osteriabis.it",
     "note": "Locanda di charme, vista sulla campagna toscana, 🌳❤️",
-    "mappa": "Via XX Settembre 50, 53034, Colle di Val d'Elsa"
+    "mappa": "Bis Osteria Contemporanea, Via XX Settembre 50, 53034, Colle di Val d'Elsa, Italia"
   },
   {
     "nome": "Borgo Santandrea",
@@ -110,7 +110,7 @@ var HOTEL=[
     "email": "info@borgosantandrea.it",
     "web": "https://borgosantandrea.it",
     "note": "",
-    "mappa": "Via Giovanni Augustariccio 33, 84011, Amalfi"
+    "mappa": "Borgo Santandrea, Via Giovanni Augustariccio 33, 84011, Amalfi, Italia"
   },
   {
     "nome": "Borgo Santo Pietro",
@@ -124,7 +124,7 @@ var HOTEL=[
     "email": "laura@borgosantopietro.com",
     "web": "https://www.borgosantopietro.com",
     "note": "",
-    "mappa": "Località Palazzetto, 53012, Chiusdino"
+    "mappa": "Borgo Santo Pietro, Località Palazzetto, 53012, Chiusdino, Italia"
   },
   {
     "nome": "Bulgari Milano",
@@ -138,7 +138,7 @@ var HOTEL=[
     "email": "milano@bulgarihotels.com",
     "web": "https://www.bulgarihotels.com/it_IT/milan/",
     "note": "Albergo in stile contemporaneo immerso in un parco, 🌳❤️",
-    "mappa": "Via Privata Fratelli Gabba 7b, 20121, Milano"
+    "mappa": "Bulgari Milano, Via Privata Fratelli Gabba 7b, 20121, Milano, Italia"
   },
   {
     "nome": "Bulgari Pechino",
@@ -152,7 +152,7 @@ var HOTEL=[
     "email": "beijing@bulgarihotels.com",
     "web": "https://www.bulgarihotels.com/it_IT/beijing",
     "note": "",
-    "mappa": "No.8 Xinyuan South Road\\, Chaoyang District, 100027, Beijing"
+    "mappa": "Bulgari Pechino, No.8 Xinyuan South Road\\, Chaoyang District, 100027, Beijing, China"
   },
   {
     "nome": "Bulgari Roma",
@@ -166,7 +166,7 @@ var HOTEL=[
     "email": "roma@bulgarihotels.com",
     "web": "https://www.bulgarihotels.com/it_IT/rome",
     "note": "\\n",
-    "mappa": "Piazza Augusto Imperatore 10, 00186, Roma"
+    "mappa": "Bulgari Roma, Piazza Augusto Imperatore 10, 00186, Roma, Italia"
   },
   {
     "nome": "Capricorno",
@@ -180,7 +180,7 @@ var HOTEL=[
     "email": "info@chaletilcapricorno.it",
     "web": "https://chaletilcapricorno.it",
     "note": "Montagna\\nTorino\\nPiemonte\\n🌲❤️",
-    "mappa": "Via Case Sparse 21, 10050, Sauze D'Oulx"
+    "mappa": "Capricorno, Via Case Sparse 21, 10050, Sauze D'Oulx, Italia"
   },
   {
     "nome": "Caruso",
@@ -194,7 +194,7 @@ var HOTEL=[
     "email": "",
     "web": "https://www.belmond.com/it/hotels/europe/italy/amalfi-c",
     "note": "",
-    "mappa": "Piazza San Giovanni Del Toro 2, 84010, Ravello"
+    "mappa": "Caruso, Piazza San Giovanni Del Toro 2, 84010, Ravello, Italia"
   },
   {
     "nome": "Casa Fantini",
@@ -208,7 +208,7 @@ var HOTEL=[
     "email": "info@casafantinilaketime.com",
     "web": "https://www.casafantinilaketime.com/it",
     "note": "Hotel di charme sul Lago d’Orta, 🌳❤️",
-    "mappa": "Piazza Motta angolo Via Roma 2, 28010, Pella"
+    "mappa": "Casa Fantini, Piazza Motta angolo Via Roma 2, 28010, Pella, Italia"
   },
   {
     "nome": "Chalet del Sogno",
@@ -222,7 +222,7 @@ var HOTEL=[
     "email": "direzione@hotelchaletdelsogno.com",
     "web": "https://www.hotelchaletdelsognocampiglio.com",
     "note": "",
-    "mappa": "Via Spinale 37b, 38086, Madonna di Campiglio"
+    "mappa": "Chalet del Sogno, Via Spinale 37b, 38086, Madonna di Campiglio, Italia"
   },
   {
     "nome": "Ciasa Salares",
@@ -236,7 +236,7 @@ var HOTEL=[
     "email": "info@ciasasalares.it",
     "web": "https://www.ciasasalares.it",
     "note": "Albergo di montagna, vista sui monti, 🌳❤️",
-    "mappa": "Strada Pre de Vì 31, 39036, San Cassiano in Badia"
+    "mappa": "Ciasa Salares, Strada Pre de Vì 31, 39036, San Cassiano in Badia, Italia"
   },
   {
     "nome": "Cipriani",
@@ -250,7 +250,7 @@ var HOTEL=[
     "email": "",
     "web": "https://www.belmond.com/it/hotels/europe/italy/venice/belmond-hotel-cipriani/",
     "note": "",
-    "mappa": "Giudecca 10, 30133, Venezia"
+    "mappa": "Cipriani, Giudecca 10, 30133, Venezia, Italia"
   },
   {
     "nome": "Claudio Le Terrazze",
@@ -264,7 +264,7 @@ var HOTEL=[
     "email": "info@hotelclaudio.it",
     "web": "https://www.hotelclaudio.it",
     "note": "",
-    "mappa": "Via XXV Aprile 37, 17028, Bergeggi"
+    "mappa": "Claudio Le Terrazze, Via XXV Aprile 37, 17028, Bergeggi, Italia"
   },
   {
     "nome": "Connaught Hotel",
@@ -278,7 +278,7 @@ var HOTEL=[
     "email": "",
     "web": "httpS://www.maybourne.com/en/hotels/the-connaught",
     "note": "",
-    "mappa": "Carlos Place Mayfair, W1K 2AL, London"
+    "mappa": "Connaught Hotel, Carlos Place Mayfair, W1K 2AL, London, United Kingdom"
   },
   {
     "nome": "Du Clos",
@@ -292,7 +292,7 @@ var HOTEL=[
     "email": "contact@hotel-du-clos.com",
     "web": "https://hotel-du-clos.com",
     "note": "\\n",
-    "mappa": "55 Chemin des Écoles, 06650, Le Rouret"
+    "mappa": "Du Clos, 55 Chemin des Écoles, 06650, Le Rouret, France"
   },
   {
     "nome": "Eco del Mare",
@@ -306,7 +306,7 @@ var HOTEL=[
     "email": "info@ecodelmare.it",
     "web": "https://ecodelmare.it",
     "note": "La Spezia\\nLiguria\\n🌳🌅♥️",
-    "mappa": "Località Maramozza 4, 19032, Lerici"
+    "mappa": "Eco del Mare, Località Maramozza 4, 19032, Lerici, Italia"
   },
   {
     "nome": "Eden",
@@ -320,7 +320,7 @@ var HOTEL=[
     "email": "info@edensistiana.it",
     "web": "https://www.edensistiana.it",
     "note": "",
-    "mappa": "Località Sistiana 42, 3401, Duino Aurisina"
+    "mappa": "Eden, Località Sistiana 42, 3401, Duino Aurisina, Italia"
   },
   {
     "nome": "Eden",
@@ -334,7 +334,7 @@ var HOTEL=[
     "email": "",
     "web": "https://www.dorchestercollection.com/it/rome/hotel-eden",
     "note": "",
-    "mappa": "Via Ludovisi 49, 00187, Roma"
+    "mappa": "Eden, Via Ludovisi 49, 00187, Roma, Italia"
   },
   {
     "nome": "Eveline Portosole",
@@ -348,7 +348,7 @@ var HOTEL=[
     "email": "mailto:hotel@evelineportosole.com",
     "web": "https://www.evelineportosole.com",
     "note": "",
-    "mappa": "Corso Cavallotti 111, 18038, San Remo"
+    "mappa": "Eveline Portosole, Corso Cavallotti 111, 18038, San Remo, Italia"
   },
   {
     "nome": "Four Seasons Bangkok",
@@ -362,7 +362,7 @@ var HOTEL=[
     "email": "reservations.bangkok@fourseasons.com",
     "web": "www.fourseasons.com/bangkok",
     "note": "",
-    "mappa": "300 Charoen Krung Road, Sathorn, 10120, Bangkok"
+    "mappa": "Four Seasons Bangkok, 300 Charoen Krung Road, Sathorn, 10120, Bangkok, Thailand"
   },
   {
     "nome": "Four Seasons Geneva",
@@ -376,7 +376,7 @@ var HOTEL=[
     "email": "",
     "web": "https://www.fourseasons.com/geneva",
     "note": "",
-    "mappa": "33 Quai des Bergues, 1211, Geneva"
+    "mappa": "Four Seasons Geneva, 33 Quai des Bergues, 1211, Geneva, Svizzera"
   },
   {
     "nome": "Four Seasons Milano",
@@ -390,7 +390,7 @@ var HOTEL=[
     "email": "",
     "web": "www.fourseasons.com/milan",
     "note": "",
-    "mappa": "Via Gesù 6/8, 20121, Milano"
+    "mappa": "Four Seasons Milano, Via Gesù 6/8, 20121, Milano, Italia"
   },
   {
     "nome": "Grand Hotel della Posta",
@@ -404,7 +404,7 @@ var HOTEL=[
     "email": "info@grandhoteldellaposta.eu",
     "web": "https://www.grandhoteldellaposta.eu",
     "note": "Camere: 108 e 110\\nLucia\\, Sabrina",
-    "mappa": "Piazza Garibaldi 19, 23100, Sondrio"
+    "mappa": "Grand Hotel della Posta, Piazza Garibaldi 19, 23100, Sondrio, Italia"
   },
   {
     "nome": "Grand Hotel Tremezzo",
@@ -418,7 +418,7 @@ var HOTEL=[
     "email": "",
     "web": "https://www.grandhoteltremezzo.com",
     "note": "",
-    "mappa": "Via Regina 8, 22016, Tremezzina"
+    "mappa": "Grand Hotel Tremezzo, Via Regina 8, 22016, Tremezzina, Italia"
   },
   {
     "nome": "Grand Hotel Villa Serbelloni",
@@ -432,7 +432,7 @@ var HOTEL=[
     "email": "info@villaserbelloni.com",
     "web": "https://www.villaserbelloni.com",
     "note": "",
-    "mappa": "Via Roma 1, 22021, Bellagio"
+    "mappa": "Grand Hotel Villa Serbelloni, Via Roma 1, 22021, Bellagio, Italia"
   },
   {
     "nome": "Gritti Palace",
@@ -446,7 +446,7 @@ var HOTEL=[
     "email": "",
     "web": "https://www.marriott.com/en-us/hotels/vcegl-the-gritti-palace-a-luxury-collection-hotel-venice/overview/",
     "note": "",
-    "mappa": "Campo Santa Maria del Giglio 2467, 30124, Venezia"
+    "mappa": "Gritti Palace, Campo Santa Maria del Giglio 2467, 30124, Venezia, Italia"
   },
   {
     "nome": "Heart of Trento",
@@ -460,7 +460,7 @@ var HOTEL=[
     "email": "trento.loftrooms@gmail.com",
     "web": "https://trentoloftroom.it",
     "note": "Reception Centro Salus",
-    "mappa": "Vicolo del Vò 27 Interno 24-23, 38122, Trento"
+    "mappa": "Heart of Trento, Vicolo del Vò 27 Interno 24-23, 38122, Trento, Italia"
   },
   {
     "nome": "Helvetia & Bristol",
@@ -474,7 +474,7 @@ var HOTEL=[
     "email": "",
     "web": "https://collezione.starhotels.com/it/i-nostri-hotel/hel",
     "note": "",
-    "mappa": "Via dei Pescioni 2, 50123, Firenze"
+    "mappa": "Helvetia & Bristol, Via dei Pescioni 2, 50123, Firenze, Italia"
   },
   {
     "nome": "Carlton",
@@ -488,7 +488,7 @@ var HOTEL=[
     "email": "reservations.carlton@roccofortehotels.com",
     "web": "https://www.roccofortehotels.com/it/hotels-and-resorts/the-carlton-milan/",
     "note": "",
-    "mappa": "Via Senato 7, 20121, Milano"
+    "mappa": "Carlton, Via Senato 7, 20121, Milano, Italia"
   },
   {
     "nome": "Caruso",
@@ -502,7 +502,7 @@ var HOTEL=[
     "email": "",
     "web": "https://www.belmond.com/it/hotels/europe/italy/amalfi-coast/belmond-hotel-caruso/",
     "note": "",
-    "mappa": "Piazza San Giovanni Del Toro 2, 84010, Ravello"
+    "mappa": "Caruso, Piazza San Giovanni Del Toro 2, 84010, Ravello, Italia"
   },
   {
     "nome": "Hotel Casa Angelina",
@@ -516,7 +516,7 @@ var HOTEL=[
     "email": "reservation@casangelina.com",
     "web": "https://www.casangelina.com",
     "note": "",
-    "mappa": "Via Capriglione 147, 84010, Praiano"
+    "mappa": "Hotel Casa Angelina, Via Capriglione 147, 84010, Praiano, Italia"
   },
   {
     "nome": "Il Pellicano",
@@ -530,7 +530,7 @@ var HOTEL=[
     "email": "reservations@pellicanohotels.com",
     "web": "https://www.pellicanohotelshttps://www.pellicanohotels.com/it/hotels/hotel-il-pellicano/.com",
     "note": "Camere vista mare,🌳🌅 🏖️❤️",
-    "mappa": "Località Sbarcatello, 58019, Porto Ercole"
+    "mappa": "Il Pellicano, Località Sbarcatello, 58019, Porto Ercole, Italia"
   },
   {
     "nome": "Hotellerie de Mascognaz",
@@ -544,7 +544,7 @@ var HOTEL=[
     "email": "info@hotelleriedemascognaz.com",
     "web": "https://www.hotelleriedemascognaz.com",
     "note": "Montagna, vista, isolato, ameno",
-    "mappa": "Via Dondeynaz 12, 11020, Ayas"
+    "mappa": "Hotellerie de Mascognaz, Via Dondeynaz 12, 11020, Ayas, Italia"
   },
   {
     "nome": "Il Borro",
@@ -558,7 +558,7 @@ var HOTEL=[
     "email": "ilborro@ilborro.it",
     "web": "https://www.ilborro.it",
     "note": "Arezzo\\nToscana\\n🌳🌅♥️",
-    "mappa": "Località Il Borro 1, 52024, San Giustino Valdarno"
+    "mappa": "Il Borro, Località Il Borro 1, 52024, San Giustino Valdarno, Italia"
   },
   {
     "nome": "Il Gatto Bianco",
@@ -572,7 +572,7 @@ var HOTEL=[
     "email": "info@ilgattobianco.it",
     "web": "https://www.ilgattobianco.com",
     "note": "Montagna\\nAbruzzo\\n❤️",
-    "mappa": "Viale Appennini 3, 67033, Pescocostanzo"
+    "mappa": "Il Gatto Bianco, Viale Appennini 3, 67033, Pescocostanzo, Italia"
   },
   {
     "nome": "Il Villino",
@@ -586,7 +586,7 @@ var HOTEL=[
     "email": "info@hotelilvillino.it",
     "web": "https://www.hotelilvillino.it",
     "note": "🌳❤️",
-    "mappa": "Via Costantino Ruggeri 48, 47822, Sant’Arcangelo di Romagna"
+    "mappa": "Il Villino, Via Costantino Ruggeri 48, 47822, Sant’Arcangelo di Romagna, Italia"
   },
   {
     "nome": "Kronenhof",
@@ -600,7 +600,7 @@ var HOTEL=[
     "email": "info@kronenhof.com",
     "web": "https://www.kronenhof.com",
     "note": "Hotel Kulm St. Moritz",
-    "mappa": "Via Maistra, 7504, Pontresina"
+    "mappa": "Kronenhof, Via Maistra, 7504, Pontresina, Svizzera"
   },
   {
     "nome": "Kuerbishof",
@@ -614,7 +614,7 @@ var HOTEL=[
     "email": "info@kuerbishof.it",
     "web": "www.kuerbishof.it",
     "note": "",
-    "mappa": "Via Guggal 23, 39040, Anterivo"
+    "mappa": "Kuerbishof, Via Guggal 23, 39040, Anterivo, Italia"
   },
   {
     "nome": "Kyrimai",
@@ -628,7 +628,7 @@ var HOTEL=[
     "email": "info@kyrimai.gr",
     "web": "https://www.kyrimai.gr",
     "note": "Mani",
-    "mappa": "Mani, Peliponnese, Gerolimenas"
+    "mappa": "Kyrimai, Mani, Peliponnese, Gerolimenas, Grecia"
   },
   {
     "nome": "L’Agnata",
@@ -642,7 +642,7 @@ var HOTEL=[
     "email": "info@agnata.com",
     "web": "https://www.agnata.com",
     "note": "Gallura\\nSardegna\\n❤️\\n",
-    "mappa": "Località l’Agnata San Bachisio, 07029, Tempio Pausania"
+    "mappa": "L’Agnata, Località l’Agnata San Bachisio, 07029, Tempio Pausania, Italia"
   },
   {
     "nome": "L’Albereta",
@@ -656,7 +656,7 @@ var HOTEL=[
     "email": "info@albereta.it",
     "web": "https://www.albereta.it",
     "note": "",
-    "mappa": "Via Vittorio Emanuele 40, 25030, Erbusco"
+    "mappa": "L’Albereta, Via Vittorio Emanuele 40, 25030, Erbusco, Italia"
   },
   {
     "nome": "La Conca del Sogno",
@@ -670,7 +670,7 @@ var HOTEL=[
     "email": "info@concadelsogno.it",
     "web": "https://www.concadelsogno.it",
     "note": "",
-    "mappa": "Via San Marciano 9, 80061, Nerano"
+    "mappa": "La Conca del Sogno, Via San Marciano 9, 80061, Nerano, Italia"
   },
   {
     "nome": "La Francesca",
@@ -684,7 +684,7 @@ var HOTEL=[
     "email": "info@lafrancescasud.it",
     "web": "https://lafrancescascario.it",
     "note": "Casa Blu: ospitalità in vecchie case con vista sul mare\\nCilento\\nCamp",
-    "mappa": "Via Gloria Bortolotti De Poli 8, 84070, Scario"
+    "mappa": "La Francesca, Via Gloria Bortolotti De Poli 8, 84070, Scario, Italia"
   },
   {
     "nome": "La Gioiosa",
@@ -698,7 +698,7 @@ var HOTEL=[
     "email": "",
     "web": "https://www.lagioiosahotel.it",
     "note": "6\\,5 km dall'uscita A10 Finale Ligure\\nSavona\\nLiguria\\n🌳🌅",
-    "mappa": "Via Manie 55, 17024, Finale Ligure"
+    "mappa": "La Gioiosa, Via Manie 55, 17024, Finale Ligure, Italia"
   },
   {
     "nome": "La Parisienne",
@@ -712,7 +712,7 @@ var HOTEL=[
     "email": "",
     "web": "https://www.bblaparisienne.it/",
     "note": "",
-    "mappa": "Via Enrico Mattei, 28, 60019, Senigallia"
+    "mappa": "La Parisienne, Via Enrico Mattei, 28, 60019, Senigallia, Italia"
   },
   {
     "nome": "La Quinta Miraflores",
@@ -726,7 +726,7 @@ var HOTEL=[
     "email": "b.hotel@quintamiraflores.com",
     "web": "https://www.quintamiraflores.com",
     "note": "",
-    "mappa": "844 Avenida 28 de julio, Miraflores, Lima"
+    "mappa": "La Quinta Miraflores, 844 Avenida 28 de julio, Miraflores, Lima, Perù"
   },
   {
     "nome": "La Raia",
@@ -740,7 +740,7 @@ var HOTEL=[
     "email": "locanda@la-raia.it",
     "web": "https://www.la-raia.it/it",
     "note": "Colli di Gavi\\nAlessandria\\n🌳",
-    "mappa": "Località Lomellina 26, 15066, Gavi"
+    "mappa": "La Raia, Località Lomellina 26, 15066, Gavi, Italia"
   },
   {
     "nome": "La Roccia",
@@ -754,7 +754,7 @@ var HOTEL=[
     "email": "info@larocciahotel.it",
     "web": "https://larocciahotel.it",
     "note": "Camere vista mare, 🌳 🌅 🏖️",
-    "mappa": "Via Litoranea Tricase, 73030, Castro"
+    "mappa": "La Roccia, Via Litoranea Tricase, 73030, Castro, Italia"
   },
   {
     "nome": "La Soglina",
@@ -768,7 +768,7 @@ var HOTEL=[
     "email": "info@lasoglina.ch",
     "web": "https://www.lasoglina.ch",
     "note": "Val Bregaglia",
-    "mappa": "Via Carnella 6, 7610, Soglio"
+    "mappa": "La Soglina, Via Carnella 6, 7610, Soglio, Svizzera"
   },
   {
     "nome": "La Sommità Relais",
@@ -782,7 +782,7 @@ var HOTEL=[
     "email": "info@lasommita.it",
     "web": "https://www.lasommita.it",
     "note": "",
-    "mappa": "Via Scipione Petrarolo 7, 72017, Ostuni"
+    "mappa": "La Sommità Relais, Via Scipione Petrarolo 7, 72017, Ostuni, Italia"
   },
   {
     "nome": "Le Bristol",
@@ -796,7 +796,7 @@ var HOTEL=[
     "email": "reservations.lebristolparis@oetkerhotels.com",
     "web": "https://www.oetkerhotels.com/hotels/le-bristol-paris/",
     "note": "",
-    "mappa": "112 rue Di Faubourg Saint-Honoré, 75008, Paris"
+    "mappa": "Le Bristol, 112 rue Di Faubourg Saint-Honoré, 75008, Paris, Francia"
   },
   {
     "nome": "Le Comptoir du Relais Saint Germain",
@@ -810,7 +810,7 @@ var HOTEL=[
     "email": "hotel@le-relais-saint-germain.com",
     "web": "https://www.hotel-paris-relais-saint-germain.com/en/",
     "note": "",
-    "mappa": "9, Carrefour de l'Odéon, 75006, Paris"
+    "mappa": "Le Comptoir du Relais Saint Germain, 9, Carrefour de l'Odéon, 75006, Paris, Francia"
   },
   {
     "nome": "Les Trois Rois",
@@ -824,7 +824,7 @@ var HOTEL=[
     "email": "asseghid.dinberu spirithotels.com",
     "web": "https://www.lestroisrois.com",
     "note": "",
-    "mappa": "Blumenrain 8, 4001, Basel"
+    "mappa": "Les Trois Rois, Blumenrain 8, 4001, Basel, Svizzera"
   },
   {
     "nome": "Locanda dell'Angelo",
@@ -838,7 +838,7 @@ var HOTEL=[
     "email": "info@paracucchilocanda.it",
     "web": "https://www.paracucchilocanda.it",
     "note": "",
-    "mappa": "Viale XXV Aprile 60, 19031, Ameglia"
+    "mappa": "Locanda dell'Angelo, Viale XXV Aprile 60, 19031, Ameglia, Italia"
   },
   {
     "nome": "Locanda Romantica Pucci",
@@ -852,7 +852,7 @@ var HOTEL=[
     "email": "info@hotelromanticapucci.it",
     "web": "https://www.hotelromanticapucci.it",
     "note": "❤️",
-    "mappa": "Piazza Cavour 1, 01022, Bagnoregio"
+    "mappa": "Locanda Romantica Pucci, Piazza Cavour 1, 01022, Bagnoregio, Italia"
   },
   {
     "nome": "La Lampara",
@@ -866,7 +866,7 @@ var HOTEL=[
     "email": "liviacerliani96@gmail.com",
     "web": "https://lalamparacampiglia.com/pages/camere",
     "note": "",
-    "mappa": "Via Tramonti 4, 19132, Campiglia"
+    "mappa": "La Lampara, Via Tramonti 4, 19132, Campiglia, Italia"
   },
   {
     "nome": "Maison La Minervetta",
@@ -880,7 +880,7 @@ var HOTEL=[
     "email": "info@laminervetta.com",
     "web": "https://www.laminervetta.com",
     "note": "Campania\\n❤️",
-    "mappa": "Via Capo 25, 80067, Sorrento"
+    "mappa": "Maison La Minervetta, Via Capo 25, 80067, Sorrento, Italia"
   },
   {
     "nome": "Mandarin Oriental Hyde Park",
@@ -894,7 +894,7 @@ var HOTEL=[
     "email": "molon-reservations@mohg.com",
     "web": "https://www.mandarinoriental.com/en/london/hyde-park/stay",
     "note": "🌳♥️",
-    "mappa": "66 Knightsbridge, SW1X 7LA, London"
+    "mappa": "Mandarin Oriental Hyde Park, 66 Knightsbridge, SW1X 7LA, London, United Kingdom"
   },
   {
     "nome": "Mandarin Oriental Lago di Como",
@@ -908,7 +908,7 @@ var HOTEL=[
     "email": "",
     "web": "https://www.mandarinoriental.com/lake-como/blevio/luxur",
     "note": "Camere vista lago,🌳 🌅 🏖️",
-    "mappa": "Via Enrico Caronti 69, 22020, Blevio"
+    "mappa": "Mandarin Oriental Lago di Como, Via Enrico Caronti 69, 22020, Blevio, Italia"
   },
   {
     "nome": "Marulivo",
@@ -922,7 +922,7 @@ var HOTEL=[
     "email": "",
     "web": "https://www.marulivohotel.it",
     "note": "",
-    "mappa": "Via Castello, 84066, Pisciotta"
+    "mappa": "Marulivo, Via Castello, 84066, Pisciotta, Italia"
   },
   {
     "nome": "Mezzatorre",
@@ -936,7 +936,7 @@ var HOTEL=[
     "email": "reservations@pellicanohotels.com",
     "web": "https://www.pellicanohotels.com/en/hotels/mezzatorre-hotel-e-thermal-spa/",
     "note": "",
-    "mappa": "Via Mezzatorre 23, 80075, Ischia"
+    "mappa": "Mezzatorre, Via Mezzatorre 23, 80075, Ischia, Italia"
   },
   {
     "nome": "Miralago",
@@ -950,7 +950,7 @@ var HOTEL=[
     "email": "info@albergomiralago.ch",
     "web": "https://www.albergomiralago.ch",
     "note": "Camere vista lago,🌳 🌅",
-    "mappa": "Miralago 10, 7743, Miralago"
+    "mappa": "Miralago, Miralago 10, 7743, Miralago, Svizzera"
   },
   {
     "nome": "Mont Cervin Palace",
@@ -964,7 +964,7 @@ var HOTEL=[
     "email": "a.gartmann@seilerhotels.ch",
     "web": "https://www.montcervin.ch",
     "note": "",
-    "mappa": "Bahnhofstrasse 31, 3920, Zermatt"
+    "mappa": "Mont Cervin Palace, Bahnhofstrasse 31, 3920, Zermatt, Svizzera"
   },
   {
     "nome": "Mosella Suite",
@@ -978,7 +978,7 @@ var HOTEL=[
     "email": "info@mosellasuitehotel.it",
     "web": "https://www.mosellasuitehotel.it",
     "note": "",
-    "mappa": "Via San Felice 3, 30015, Sottomarina di Chioggia"
+    "mappa": "Mosella Suite, Via San Felice 3, 30015, Sottomarina di Chioggia, Italia"
   },
   {
     "nome": "Palazzo Jannuzzi",
@@ -992,7 +992,7 @@ var HOTEL=[
     "email": "info@palazzojannuzzi.com",
     "web": "https://www.palazzojannuzzi.com",
     "note": "",
-    "mappa": "Vico San Aniello 39, 80067, Sorrento"
+    "mappa": "Palazzo Jannuzzi, Vico San Aniello 39, 80067, Sorrento, Italia"
   },
   {
     "nome": "Pardini's Hermitage",
@@ -1006,7 +1006,7 @@ var HOTEL=[
     "email": "info@hermit.it",
     "web": "https://www.hermit.it",
     "note": "",
-    "mappa": "Cala degli Alberi, 58012, Isola del Giglio"
+    "mappa": "Pardini's Hermitage, Cala degli Alberi, 58012, Isola del Giglio, Italia"
   },
   {
     "nome": "Park Villa Grazioli",
@@ -1020,7 +1020,7 @@ var HOTEL=[
     "email": "info@villa-grazioli.it",
     "web": "https://www.villa-grazioli.it",
     "note": "",
-    "mappa": "Via Umberto Pavoni 19, 0004, Grottaferrata"
+    "mappa": "Park Villa Grazioli, Via Umberto Pavoni 19, 0004, Grottaferrata, Italia"
   },
   {
     "nome": "Patria Palace",
@@ -1034,7 +1034,7 @@ var HOTEL=[
     "email": "info@patriapalace.com",
     "web": "https://patriapalace.com",
     "note": "Reception: Caterina\\nSalento",
-    "mappa": "Piazzetta Gabriele Riccardi, 73100, Lecce"
+    "mappa": "Patria Palace, Piazzetta Gabriele Riccardi, 73100, Lecce, Italia"
   },
   {
     "nome": "Pensione Tranchina",
@@ -1048,7 +1048,7 @@ var HOTEL=[
     "email": "pensione.tranchina@gmail.com",
     "web": "https://www.pensionetranchina.com",
     "note": "Sicilia",
-    "mappa": "Via Armando Diaz 7, 91014, Scopello"
+    "mappa": "Pensione Tranchina, Via Armando Diaz 7, 91014, Scopello, Italia"
   },
   {
     "nome": "Pippo’s Resort",
@@ -1062,7 +1062,7 @@ var HOTEL=[
     "email": "ale@pipposlittleresort.com",
     "web": "https://www.pipposlittleresort.com",
     "note": "🌳♥️",
-    "mappa": "Via Becarino 37, 52014, Poppi"
+    "mappa": "Pippo’s Resort, Via Becarino 37, 52014, Poppi, Italia"
   },
   {
     "nome": "Pirgos Mavromichali",
@@ -1076,7 +1076,7 @@ var HOTEL=[
     "email": "info@pirgosmavromichali.gr",
     "web": "https://www.pirgosmavromichali.gr/en",
     "note": "Mani",
-    "mappa": "23062, Limeni Laconia"
+    "mappa": "Pirgos Mavromichali, 23062, Limeni Laconia, Grecia"
   },
   {
     "nome": "La Foresteria Wine Resort ",
@@ -1090,7 +1090,7 @@ var HOTEL=[
     "email": "reservation@planeta.it",
     "web": "https://www.planetaestate.it/it/",
     "note": "Ospitalità nelle proprietà dell’Azienda Planeta",
-    "mappa": "Contrada Passo di Gurra, Ex S.S. 115 s.p. 79, Km 91, 92013, Menfi"
+    "mappa": "La Foresteria Wine Resort , Contrada Passo di Gurra, Ex S.S. 115 s.p. 79, Km 91, 92013, Menfi, Italia"
   },
   {
     "nome": "Planeta Country House",
@@ -1104,7 +1104,7 @@ var HOTEL=[
     "email": "reservation@planeta.it",
     "web": "https://www.planetaestate.it/it/",
     "note": "Ospitalità nelle proprietà dell’Azienda Planeta",
-    "mappa": "Strada Provinciale 50,51 , 92013, Menfi"
+    "mappa": "Planeta Country House, Strada Provinciale 50,51 , 92013, Menfi, Italia"
   },
   {
     "nome": "Insula Beach Club",
@@ -1118,7 +1118,7 @@ var HOTEL=[
     "email": "reservation@planeta.it",
     "web": "https://www.planetaestate.it/it/",
     "note": "Ospitalità nelle proprietà dell’Azienda Planeta",
-    "mappa": "Via dei Pioppi – Lido Fiori, 92013, Menfi"
+    "mappa": "Insula Beach Club, Via dei Pioppi – Lido Fiori, 92013, Menfi, Italia"
   },
   {
     "nome": "Palazzo Planeta",
@@ -1132,7 +1132,7 @@ var HOTEL=[
     "email": "reservation@planeta.it",
     "web": "https://www.planetaestate.it/it/",
     "note": "Ospitalità nelle proprietà dell’Azienda Planeta",
-    "mappa": "Via Principe di Belmonte 68, 90139, Palermo"
+    "mappa": "Palazzo Planeta, Via Principe di Belmonte 68, 90139, Palermo, Italia"
   },
   {
     "nome": "Casa Panitteri",
@@ -1146,7 +1146,7 @@ var HOTEL=[
     "email": "reservation@planeta.it",
     "web": "https://www.planetaestate.it/it/",
     "note": "Ospitalità nelle proprietà dell’Azienda Planeta",
-    "mappa": "Vicolo Puccio 21, 92017, Sambuca di Sicilia"
+    "mappa": "Casa Panitteri, Vicolo Puccio 21, 92017, Sambuca di Sicilia, Italia"
   },
   {
     "nome": "Case Sparse",
@@ -1160,7 +1160,7 @@ var HOTEL=[
     "email": "reservation@planeta.it",
     "web": "https://www.planetaestate.it/it/",
     "note": "Ospitalità nelle proprietà dell’Azienda Planeta",
-    "mappa": "Contrada Buonivini, 96017, Noto"
+    "mappa": "Case Sparse, Contrada Buonivini, 96017, Noto, Italia"
   },
   {
     "nome": "Principe di Savoia",
@@ -1174,7 +1174,7 @@ var HOTEL=[
     "email": "club10.HPS@dorchestercollection.com",
     "web": "https://www.hotelprincipedisavoia.com/contattaci-hotel-p",
     "note": "Principe Bar\\nManager: Daniele\\nAssistant manager: Andrea",
-    "mappa": "Piazza della Repubblica 17, 20124, Milano"
+    "mappa": "Principe di Savoia, Piazza della Repubblica 17, 20124, Milano, Italia"
   },
   {
     "nome": "Principe Forte dei Marmi",
@@ -1188,7 +1188,7 @@ var HOTEL=[
     "email": "info@principefortedeimarmi.com",
     "web": "https://principefortedeimarmi.com/it",
     "note": "",
-    "mappa": "Viale Ammiraglio Morin 67, 55042, Forte dei Marmi"
+    "mappa": "Principe Forte dei Marmi, Viale Ammiraglio Morin 67, 55042, Forte dei Marmi, Italia"
   },
   {
     "nome": "Raphaël",
@@ -1202,7 +1202,7 @@ var HOTEL=[
     "email": "rev@raphaelhotel.com",
     "web": "https://www.raphaelhotel.com",
     "note": "",
-    "mappa": "Largo Febo 2, 00186, Roma"
+    "mappa": "Raphaël, Largo Febo 2, 00186, Roma, Italia"
   },
   {
     "nome": "Rector",
@@ -1216,7 +1216,7 @@ var HOTEL=[
     "email": "info@hotelrector.com",
     "web": "https://www.hotelrector.com",
     "note": "",
-    "mappa": "Paseo Rector Esperabé 10, 37008, Salamanca"
+    "mappa": "Rector, Paseo Rector Esperabé 10, 37008, Salamanca, Spagna"
   },
   {
     "nome": "Relais Castello di Morcote",
@@ -1230,7 +1230,7 @@ var HOTEL=[
     "email": "relais@castellodimorcote.ch",
     "web": "https://www.relaiscastellodimorcote.ch",
     "note": "Ticino\\n❤️🌳",
-    "mappa": "Portich de Sura, 6921, Vico Morcote"
+    "mappa": "Relais Castello di Morcote, Portich de Sura, 6921, Vico Morcote, Svizzera"
   },
   {
     "nome": "Relais Maso di Villa",
@@ -1244,7 +1244,7 @@ var HOTEL=[
     "email": "info@masodivilla.it",
     "web": "https://www.masodivilla.it/it/",
     "note": "",
-    "mappa": "Via Col di Guarda 15, 31058, Susegana"
+    "mappa": "Relais Maso di Villa, Via Col di Guarda 15, 31058, Susegana, Italia"
   },
   {
     "nome": "Relais San Vigilio",
@@ -1258,7 +1258,7 @@ var HOTEL=[
     "email": "info@relaissanvigilio.it",
     "web": "https://www.relaissanvigilio.it",
     "note": "Bergamo\\nLombardia",
-    "mappa": "Via al Castello 7, 24129, Bergamo Alta"
+    "mappa": "Relais San Vigilio, Via al Castello 7, 24129, Bergamo Alta, Italia"
   },
   {
     "nome": "Relais Villa d'Amelia",
@@ -1272,7 +1272,7 @@ var HOTEL=[
     "email": "info@villadamelia.com",
     "web": "https://www.villadamelia.com",
     "note": "",
-    "mappa": "Località Manera 1, 12050, Benevello"
+    "mappa": "Relais Villa d'Amelia, Località Manera 1, 12050, Benevello, Italia"
   },
   {
     "nome": "Residenza Scaravelli",
@@ -1286,7 +1286,7 @@ var HOTEL=[
     "email": "residenza@scaravelli.it",
     "web": "https://www.scaravelli.it/residenza",
     "note": "Check-in 15:00 - 19:00",
-    "mappa": "Portici Broletto 22, 46100, Mantova"
+    "mappa": "Residenza Scaravelli, Portici Broletto 22, 46100, Mantova, Italia"
   },
   {
     "nome": "Retici Balzi",
@@ -1300,7 +1300,7 @@ var HOTEL=[
     "email": "info@reticibalzi.it",
     "web": "https://www.reticibalzi.it",
     "note": "Junior suite estiva: Fracia\\nJunior suite invernale: Ca’ Rizzieri",
-    "mappa": "Via Panoramica 2, 23020, Poggiridenti"
+    "mappa": "Retici Balzi, Via Panoramica 2, 23020, Poggiridenti, Italia"
   },
   {
     "nome": "Mandarin Oriental Ritz",
@@ -1314,7 +1314,7 @@ var HOTEL=[
     "email": "mrmad-reservations@mohg.com",
     "web": "https://www.mandarinoriental.com/en/madrid/hotel-ritz",
     "note": "",
-    "mappa": "Plaza de la Lealtad 5, 28014, Madrid"
+    "mappa": "Mandarin Oriental Ritz, Plaza de la Lealtad 5, 28014, Madrid, Spagna"
   },
   {
     "nome": "Rocco Forte Hotels",
@@ -1328,7 +1328,7 @@ var HOTEL=[
     "email": "reservations.derussie@roccofortehotels.com",
     "web": "https://www.roccofortehotels.com/it/hotels-and-resorts/hotel-de-russie/",
     "note": "Italia e Svizzera",
-    "mappa": "Via del Babuino 9, 00187, Roma"
+    "mappa": "Rocco Forte Hotels, Via del Babuino 9, 00187, Roma, Italia"
   },
   {
     "nome": "Romeo",
@@ -1342,7 +1342,7 @@ var HOTEL=[
     "email": "welcome.na@thrromeocollection.com",
     "web": "https://www.romeohotel.com/it/romeo-napoli/",
     "note": "Responsabile Sales: Antonella Graziano",
-    "mappa": "Via Cristoforo Colombo 45, 80133, Napoli"
+    "mappa": "Romeo, Via Cristoforo Colombo 45, 80133, Napoli, Italia"
   },
   {
     "nome": "Rovereto",
@@ -1356,7 +1356,7 @@ var HOTEL=[
     "email": "",
     "web": "https://www.hotelrovereto.it",
     "note": "",
-    "mappa": "Corso Rosmini 82/D, 38068, Rovereto"
+    "mappa": "Rovereto, Corso Rosmini 82/D, 38068, Rovereto, Italia"
   },
   {
     "nome": "Sacher",
@@ -1370,7 +1370,7 @@ var HOTEL=[
     "email": "wien@sacher.com",
     "web": "https://www.sacher.com",
     "note": "",
-    "mappa": "Philharmonikerstraße 4, A-1010, Wien"
+    "mappa": "Sacher, Philharmonikerstraße 4, A-1010, Wien, Austria"
   },
   {
     "nome": "Salsomaggiore",
@@ -1384,7 +1384,7 @@ var HOTEL=[
     "email": "",
     "web": "",
     "note": "Parma\\nEmilia Romagna",
-    "mappa": "Largo Roma 3, 43039, Salsomaggiore Terme"
+    "mappa": "Salsomaggiore, Largo Roma 3, 43039, Salsomaggiore Terme, Italia"
   },
   {
     "nome": "San Pietro",
@@ -1398,7 +1398,7 @@ var HOTEL=[
     "email": "reservations@ilsanpietro.it",
     "web": "https://www.ilsanpietro.com/it/",
     "note": "",
-    "mappa": "Via Laurito 2, 84017, Positano"
+    "mappa": "San Pietro, Via Laurito 2, 84017, Positano, Italia"
   },
   {
     "nome": "San Rocco",
@@ -1412,7 +1412,7 @@ var HOTEL=[
     "email": "info@hotelsanrocco.it",
     "web": "https://www.hotelsanrocco.it",
     "note": "⛱️",
-    "mappa": "Via Gippini 11, 28016, Orta San Giulio"
+    "mappa": "San Rocco, Via Gippini 11, 28016, Orta San Giulio, Italia"
   },
   {
     "nome": "St. Regis Venezia",
@@ -1426,7 +1426,7 @@ var HOTEL=[
     "email": "",
     "web": "https://giosrestaurantvenice.com",
     "note": "Restaurant Manager: Enrico Pagnotta",
-    "mappa": "San Marco 2159, 30124, Venezia"
+    "mappa": "St. Regis Venezia, San Marco 2159, 30124, Venezia, Italia"
   },
   {
     "nome": "Stella Maris",
@@ -1440,7 +1440,7 @@ var HOTEL=[
     "email": "info@stellamaris.cc",
     "web": "https://www.stellamaris.cc",
     "note": "Liguria\\nCamere vista mare\\nTaxi boat da Recco a Punta Chiappa\\n🌳🌅♥️",
-    "mappa": "Punta Chiappa, 16032, Camogli"
+    "mappa": "Stella Maris, Punta Chiappa, 16032, Camogli, Italia"
   },
   {
     "nome": "Tainaron Blue Retreat",
@@ -1454,7 +1454,7 @@ var HOTEL=[
     "email": "hide@tainaronblue.com",
     "web": "https://www.tainaronblue.com",
     "note": "Mani",
-    "mappa": "Mani, Peliponnese, 23062, Vathia"
+    "mappa": "Tainaron Blue Retreat, Mani, Peliponnese, 23062, Vathia, Grecia"
   },
   {
     "nome": "The Lowell",
@@ -1468,7 +1468,7 @@ var HOTEL=[
     "email": "abuchanan@lowellhotel.com",
     "web": "https://LowellHotel.com",
     "note": "",
-    "mappa": "28 East 63rd Street, 10065, New York"
+    "mappa": "The Lowell, 28 East 63rd Street, 10065, New York, Stati Uniti d"
   },
   {
     "nome": "The Sherry Netherland",
@@ -1482,7 +1482,7 @@ var HOTEL=[
     "email": "jacosta@sherrynetherland.com",
     "web": "https://www.sherrynetherland.com",
     "note": "Camera 1204",
-    "mappa": "781 Fifth Avenue, 10022, New York"
+    "mappa": "The Sherry Netherland, 781 Fifth Avenue, 10022, New York, Stati Un"
   },
   {
     "nome": "Tivoli Palazzo Gaddi",
@@ -1496,7 +1496,7 @@ var HOTEL=[
     "email": "info@terraerestaurant.it",
     "web": "https://www.terraerestaurant.it",
     "note": "Ristorante aperto a cena dal giovedì al lunedì dalle 19:00 alle 21:30\\",
-    "mappa": "Via del Giglio 9, 50123, Firenze"
+    "mappa": "Tivoli Palazzo Gaddi, Via del Giglio 9, 50123, Firenze, Italia"
   },
   {
     "nome": "Tonnara di Scopello",
@@ -1510,7 +1510,7 @@ var HOTEL=[
     "email": "booking@tonnaradiscopello.it",
     "web": "https://www.tonnaradiscopello.it",
     "note": "Hotel sul mare\\nSicilia",
-    "mappa": "Largo Tonnara, 91014, Scopello"
+    "mappa": "Tonnara di Scopello, Largo Tonnara, 91014, Scopello, Italia"
   },
   {
     "nome": "Villa Abbazia",
@@ -1524,7 +1524,7 @@ var HOTEL=[
     "email": "info@hotelabbazia.it",
     "web": "https://www.hotelabbazia.com/it/",
     "note": "",
-    "mappa": "Via Martiri della Libertà 8, 31051, Follina"
+    "mappa": "Villa Abbazia, Via Martiri della Libertà 8, 31051, Follina, Italia"
   },
   {
     "nome": "Villa Castagnola",
@@ -1538,7 +1538,7 @@ var HOTEL=[
     "email": "info@villacastagnola.com",
     "web": "https://www.villacastagnola.com",
     "note": "Vista lago 🌳❤️",
-    "mappa": "Via Pico 9, 6900, Lugano"
+    "mappa": "Villa Castagnola, Via Pico 9, 6900, Lugano, Svizzera"
   },
   {
     "nome": "Villa Cicchi",
@@ -1552,7 +1552,7 @@ var HOTEL=[
     "email": "mariaelenacicchi@gmail.com",
     "web": "https://www.villacicchi.it",
     "note": "Residenza di campagna 🌳❤️",
-    "mappa": "Via Salaria Superiore 137, 63100, Abbazia di Rosara"
+    "mappa": "Villa Cicchi, Via Salaria Superiore 137, 63100, Abbazia di Rosara, Italia"
   },
   {
     "nome": "Villa Cora",
@@ -1566,7 +1566,7 @@ var HOTEL=[
     "email": "info@villacora.it",
     "web": "https://www.villacora.it",
     "note": "Sontuosa residenza, vista sulla città, 🌳❤️",
-    "mappa": "Viale Machiavelli 18, 50125, Firenze"
+    "mappa": "Villa Cora, Viale Machiavelli 18, 50125, Firenze, Italia"
   },
   {
     "nome": "Villa Cortine Palace",
@@ -1580,7 +1580,7 @@ var HOTEL=[
     "email": "roberto.cappelletto@hotelvillacorti",
     "web": "https://www.hotelvillacortine.com",
     "note": "Sontuosa residenza in un parco, 🌳❤️",
-    "mappa": "Viale C. Gennari 2, 25019, Sirmione"
+    "mappa": "Villa Cortine Palace, Viale C. Gennari 2, 25019, Sirmione, Italia"
   },
   {
     "nome": "Villa d’Este",
@@ -1594,7 +1594,7 @@ var HOTEL=[
     "email": "info@villadeste.it",
     "web": "https://www://www.villadeste.com/it/",
     "note": "",
-    "mappa": "Via Regina 40, 22012, Cernobbio"
+    "mappa": "Villa d’Este, Via Regina 40, 22012, Cernobbio, Italia"
   },
   {
     "nome": "Villa Franceschi",
@@ -1608,7 +1608,7 @@ var HOTEL=[
     "email": "info@villafranceschi.com",
     "web": "https://wwwvillafranceschi.com",
     "note": "",
-    "mappa": "Via Don Giovanni Minzoni 27, 30034, Mira"
+    "mappa": "Villa Franceschi, Via Don Giovanni Minzoni 27, 30034, Mira, Italia"
   },
   {
     "nome": "Villa Gallici",
@@ -1622,7 +1622,7 @@ var HOTEL=[
     "email": "gallici@relaischateaux.fr",
     "web": "https://www.villagallici.com",
     "note": "Maître de Maison: Michel Marey",
-    "mappa": "Avenue de la Violette, 13100, Aix en Provence"
+    "mappa": "Villa Gallici, Avenue de la Violette, 13100, Aix en Provence, France"
   },
   {
     "nome": "Villa Maria",
@@ -1636,7 +1636,7 @@ var HOTEL=[
     "email": "info@hvillamaria.it",
     "web": "https://hvillamaria.it",
     "note": "Vista mare 🌳❤️",
-    "mappa": "Contrada Pretaro, 66023, Francavilla al Mare"
+    "mappa": "Villa Maria, Contrada Pretaro, 66023, Francavilla al Mare, Italia"
   },
   {
     "nome": "Villa Treville",
@@ -1650,7 +1650,7 @@ var HOTEL=[
     "email": "direttore@villatreville.it",
     "web": "https://www.villatreville.it",
     "note": "Vista mare, 🌳❤️",
-    "mappa": "Via Arienzo 30, 84017, Positano"
+    "mappa": "Villa Treville, Via Arienzo 30, 84017, Positano, Italia"
   },
   {
     "nome": "Villa Santa Barbara",
@@ -1664,7 +1664,7 @@ var HOTEL=[
     "email": "info@hotelvillasantabarbara.com",
     "web": "https://www.hotelvillasantabarbara.com",
     "note": "Residenz di campagna tra i vigneti ⛰️ 🌳❤️",
-    "mappa": "Via Federico Giunchi, 06036, San Luca"
+    "mappa": "Villa Santa Barbara, Via Federico Giunchi, 06036, San Luca, Italia"
   }
 ];
 var HOTEL_PROVCITTA={
