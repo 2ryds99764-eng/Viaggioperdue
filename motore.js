@@ -695,7 +695,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var inp = document.getElementById("cerca-nome");
   var sel = document.getElementById("cerca-reg-hotel");
   if (inp) inp.addEventListener("input",filtra);
-  if (sel) sel.addEventListener("change",filtra);
+  if (sel) sel.addEventListener("change",filtra); else setTimeout(function(){var s=document.getElementById("cerca-reg-hotel");if(s)s.addEventListener("change",filtra);},100);
   disegna(dati);
   costruisciPie(T42.sito);
 }
