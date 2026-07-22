@@ -727,7 +727,7 @@ function costruisciHotel() {
     const reg = (document.getElementById("cerca-regione-hotel")||{}).value||"";
     const prov = (document.getElementById("cerca-provincia-hotel")||{}).value||"";
     let items = dati;
-    if (reg) items = items.filter(function(r){return r.regione===reg;});
+    }
     if (prov) items = items.filter(function(r){return r.prov===prov;});
     if (q) items = items.filter(function(r){return normalizza(r.nome).indexOf(q) !== -1 || normalizza(r.luogo).indexOf(q) !== -1;});
     disegna(items);
