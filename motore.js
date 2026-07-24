@@ -649,17 +649,7 @@ function costruisciGuida() {
       '<span class="lg-voce">♥️ Albergo di charme</span>' +
       '<span class="lg-voce">🏖️ Spiaggia privata</span>' +
       '<span class="lg-voce">🏞️ Albergo di montagna</span>' +
-      '<span class="lg-voce">👑 Grande tradizione</span>'
-  }
-  const legendaH = document.getElementById("guida-legenda");
-  if (legendaH) {
-    legendaH.innerHTML =
-      '<span class="lg-voce">������ Vista mare, lago, fiume</span>' +
-      '<span class="lg-voce">������ Albergo isolato / natura</span>' +
-      '<span class="lg-voce">♥️ Albergo di charme</span>' +
-      '<span class="lg-voce">������️ Spiaggia privata</span>' +
-      '<span class="lg-voce">������️ Albergo di montagna</span>' +
-      '<span class="lg-voce">������ Grande tradizione</span>';
+      '<span class="lg-voce">👑 Grande tradizione</span>';
   }
   disegna(dati);
   costruisciPie(T42.sito);
@@ -760,6 +750,16 @@ function costruisciHotel() {
   if (selReg) selReg.addEventListener("change", function () { aggiornaProvince(); filtra(); });
   if (selProv) selProv.addEventListener("change", filtra);
 
+  const legendaH = document.getElementById("guida-legenda");
+  if (legendaH) {
+    legendaH.innerHTML =
+      '<span class="lg-voce">������ Vista mare, lago, fiume</span>' +
+      '<span class="lg-voce">������ Albergo isolato / natura</span>' +
+      '<span class="lg-voce">♥️ Albergo di charme</span>' +
+      '<span class="lg-voce">������️ Spiaggia privata</span>' +
+      '<span class="lg-voce">������️ Albergo di montagna</span>' +
+      '<span class="lg-voce">������ Grande tradizione</span>';
+  }
   disegna(dati);
   costruisciPie(T42.sito);
 }
