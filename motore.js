@@ -666,4 +666,60 @@ document.addEventListener("DOMContentLoaded", function () {
   if (document.body.dataset.pagina === "storia") costruisciStoria();
   if (document.body.dataset.pagina === "guida") costruisciGuida();
    if (document.body.dataset.pagina === "hotel") costruisciHotel();
-});
+});function costruisciHotel() {
+  document.title = "Guida agli alberghi - " + T42.sito.nome;
+  var dati = (window.HOTEL || []).slice();
+  var regprov = window.HOTEL_PROVCITTA || {};
+  var intest = document.getElementById("guida-intestazione");
+  if (intest) {
+    intest.innerHTML = "<h1 class=anima>Guida agli alberghi</h1><p class=guida-sub>" + dati.length + " alberghi</p>";
+  }
+  var ricerca = document.getElementById("guida-ricerca");
+  if (ricerca) {
+    var regioni = Object.keys(regprov).sort();
+    var opz = regioni.map(function(r){ return "<option value=" + escV(r) + ">" + escV(r) + "</option>"; }).join("");
+    ricerca.innerHTML = "<div class=cerca-campo><input id=cerca-nome-h type=search placeholder=Cerca></div><div class=cerca-campo><select id=cerca-reg-h><option value='>Tutte le regioni</option>" + opz + "</select></div><div class=cerca-campo><select id=cerca-prov-h disabled><option value='>Tutte le province</option></select></div>";
+  }
+  var lista = document.getElementById("guida-lista");
+  var conteggio = document.getElementById("guida-conteggio");
+  function disegna(items) {
+    if (conteggio) conteggio.textContent = items.length === dati.length ? dati.length + " alberghi" : items.length + " trovati";
+    if (lista) lista.innerHTML = items.map(function(r) {
+      var btn = "";
+      if (r.tel) btn += "<a class=btn href=tel:" + r.tel.replace(/\s/g,"") + ">Chiama</a> ";
+      if (r.mappa) btn += "<a class=btn href=" + urlMappa(r.mappa) + " target=_blank>Mappa</a> ";
+      if (r.web) btn += "<a class=btn href=" + r.web + " target=_blank>Sito</a>";
+      return "<article class=rist><div class=rist-nome>" + esc(r.nome) + (r.note ? " " + r.note : "") + "</div><div class=rist-luogo>" + esc(r.luogo) + "</div><div class=azioni>" + btn + "</div></article>";
+    }).join("");
+  }
+  function aggiornaProv() {
+    var sr = document.getElementById("cerca-reg-h");
+    var sp = document.getElementById("cerca-prov-h");
+    if (!sr || !sp) return;
+    var reg = sr.value;
+    var provs = reg && regprov[reg] ? regprov[reg] : [];
+    sp.innerHTML = "<option value='>Tutte le province</option>" + provs.map(function(p){ return "<option value=" + escV(p) + ">" + escV(p) + "</option>"; }).join("");
+    sp.disabled = provs.length === 0;
+    filtra();
+  }
+  function filtra() {
+    var q = normalizza((document.getElementById("cerca-nome-h")||{}).value||"");
+    var reg = (document.getElementById("cerca-reg-h")||{}).value||"";
+    var prov = (document.getElementById("cerca-prov-h")||{}).value||"";
+    var items = dati;
+    if (reg) items = items.filter(function(r){ return r.regione === reg; });
+    if (prov) items = items.filter(function(r){ return r.prov === prov; });
+    if (q) items = items.filter(function(r){ return normalizza(r.nome).indexOf(q) !== -1 || normalizza(r.luogo).indexOf(q) !== -1; });
+    disegna(items);
+  }
+  setTimeout(function() {
+    var inp = document.getElementById("cerca-nome-h");
+    var sr = document.getElementById("cerca-reg-h");
+    var sp = document.getElementById("cerca-prov-h");
+    if (inp) inp.addEventListener("input", filtra);
+    if (sr) sr.addEventListener("change", aggiornaProv);
+    if (sp) sp.addEventListener("change", filtra);
+  }, 50);
+  disegna(dati);
+  costruisciPie(T42.sito);
+}
