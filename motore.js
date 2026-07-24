@@ -136,7 +136,7 @@ function costruisciHome() {
     invH.innerHTML =
       '<a class="racconto-invito invito-guida anima d3" href="hotel.html">' +
         '<span class="ri-occhiello">Gli alberghi</span>' +
-        '<span class="ri-titolo">Cerca tra gli alberghi per nome o provincia</span>' +
+        '<span class="ri-titolo">Cerca tra gli alberghi per nome o regione</span>' +
         '<span class="ri-azione">Cerca →</span>' +
       '</a>';
   }
