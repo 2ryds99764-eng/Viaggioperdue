@@ -679,7 +679,7 @@ function costruisciHotel() {
       '<a class="ritorno" href="index.html" aria-label="Home"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" style="vertical-align:middle"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" fill="#4A6FA5"/></svg></a>' +
       '<div class="occhiello anima d1">' + esc(T42.sito.sigla) + ' · Viaggioperdue</div>' +
       '<h1 class="anima d2">Guida agli alberghi</h1>' +
-      '<p class="guida-sub anima d3">' + dati.length + ' alberghi, cercabili per nome, regione o provincia.</p>';
+      '<p class="guida-sub anima d3">' + dati.length + ' alberghi, cercabili per nome o regione.</p>';
   }
   const regioni = Object.keys(regprov).sort(function (a, b) { return a.localeCompare(b, "it"); });
   const barra = document.getElementById("guida-ricerca");
