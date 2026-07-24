@@ -576,8 +576,8 @@ function costruisciGuida() {
   const lista = document.getElementById("guida-lista");
 
   /* legenda simboli */
-  const legenda = document.getElementById("guida-legenda");
-  if (legenda) {
+  const legendaH = document.getElementById("guida-legenda");
+  if (legendaH) {
     legenda.innerHTML =
       '<span class="lg-voce">🌅 Vista mare</span>' +
       '<span class="lg-voce">🏞️ Vista paesaggio</span>' +
@@ -652,6 +652,16 @@ function costruisciGuida() {
   if (selReg) selReg.addEventListener("change", function () { aggiornaProvince(); filtra(); });
   if (selProv) selProv.addEventListener("change", filtra);
 
+  const legenda = document.getElementById("guida-legenda");
+  if (legenda) {
+    legenda.innerHTML =
+      '<span class="lg-voce">🌅 Vista mare, lago, fiume</span>' +
+      '<span class="lg-voce">🌳 Albergo isolato / natura</span>' +
+      '<span class="lg-voce">♥️ Albergo di charme</span>' +
+      '<span class="lg-voce">🏖️ Spiaggia privata</span>' +
+      '<span class="lg-voce">🏞️ Albergo di montagna</span>' +
+      '<span class="lg-voce">👑 Grande tradizione</span>'
+  }
   disegna(dati);
   costruisciPie(T42.sito);
 }
