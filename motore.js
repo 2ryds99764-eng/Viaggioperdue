@@ -677,7 +677,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var ricerca = document.getElementById("guida-ricerca");
   if (ricerca) {
     var regioni = Object.keys(regprov).sort();
-    var opz = regioni.map(function(r){ return "<option value=" + escV(r) + ">" + escV(r) + "</option>"; }).join("");
+    var opz = regioni.map(function(r){ return "<option value='" + r + "'>" + r + "</option>"; }).join("");
     ricerca.innerHTML = "<div class=cerca-campo><input id=cerca-nome-h type=search placeholder=Cerca></div><div class=cerca-campo><select id=cerca-reg-h><option value='>Tutte le regioni</option>" + opz + "</select></div><div class=cerca-campo><select id=cerca-prov-h disabled><option value='>Tutte le province</option></select></div>";
   }
   var lista = document.getElementById("guida-lista");
