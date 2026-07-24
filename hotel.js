@@ -66,7 +66,7 @@ var HOTEL=[
     "citta": "Sankt Moritz",
     "provincia": "GR",
     "prov": "GR",
-    "regione": "Toscana",
+    "regione": "Svizzera",
     "nazione": "Svizzera",
     "luogo": "Sankt Moritz (GR)",
     "tel": "+41 (0) 81 8308383",
@@ -456,7 +456,7 @@ var HOTEL=[
     "citta": "Geneva",
     "provincia": "GE",
     "prov": "GE",
-    "regione": "Liguria",
+    "regione": "Svizzera",
     "nazione": "Svizzera",
     "luogo": "Geneva (GE)",
     "tel": "",
@@ -681,7 +681,7 @@ var HOTEL=[
     "citta": "Pontresina",
     "provincia": "GR",
     "prov": "GR",
-    "regione": "Toscana",
+    "regione": "Svizzera",
     "nazione": "Svizzera",
     "luogo": "Pontresina (GR)",
     "tel": "+41 (0) 81 830 32 23",
@@ -906,7 +906,7 @@ var HOTEL=[
     "citta": "Soglio",
     "provincia": "GR",
     "prov": "GR",
-    "regione": "Toscana",
+    "regione": "Svizzera",
     "nazione": "Svizzera",
     "luogo": "Soglio (GR)",
     "tel": "+41 81 822 16 08",
@@ -936,7 +936,7 @@ var HOTEL=[
     "citta": "Paris",
     "provincia": "FR",
     "prov": "FR",
-    "regione": "Lazio",
+    "regione": "Francia",
     "nazione": "Francia",
     "luogo": "Paris (FR)",
     "tel": "+33 1 53 43 43 00",
@@ -951,7 +951,7 @@ var HOTEL=[
     "citta": "Paris",
     "provincia": "FR",
     "prov": "FR",
-    "regione": "Lazio",
+    "regione": "Francia",
     "nazione": "Francia",
     "luogo": "Paris (FR)",
     "tel": "+33 1 44 27 07 97",
@@ -966,7 +966,7 @@ var HOTEL=[
     "citta": "Basel",
     "provincia": "BS",
     "prov": "BS",
-    "regione": "Lombardia",
+    "regione": "Svizzera",
     "nazione": "Svizzera",
     "luogo": "Basel (BS)",
     "tel": "+41 79 756 36 24",
@@ -1026,7 +1026,7 @@ var HOTEL=[
     "citta": "London",
     "provincia": "GB",
     "prov": "GB",
-    "regione": "Regno Unito",
+    "regione": "United Kingdom",
     "nazione": "United Kingdom",
     "luogo": "London (GB)",
     "tel": "+44 (0) 20 7235 2000",
@@ -1056,7 +1056,7 @@ var HOTEL=[
     "citta": "Madrid",
     "provincia": "M",
     "prov": "M",
-    "regione": "Lombardia",
+    "regione": "Spagna",
     "nazione": "Spagna",
     "luogo": "Madrid (M)",
     "tel": "+34 91 7016888",
@@ -1101,7 +1101,7 @@ var HOTEL=[
     "citta": "Miralago",
     "provincia": "GR",
     "prov": "GR",
-    "regione": "Toscana",
+    "regione": "Svizzera",
     "nazione": "Svizzera",
     "luogo": "Miralago (GR)",
     "tel": "+41 81 839 20 00",
@@ -1116,7 +1116,7 @@ var HOTEL=[
     "citta": "Zermatt",
     "provincia": "VS",
     "prov": "VS",
-    "regione": "Sardegna",
+    "regione": "Svizzera",
     "nazione": "Svizzera",
     "luogo": "Zermatt (VS)",
     "tel": "+41 27 966 88 88",
@@ -1266,7 +1266,7 @@ var HOTEL=[
     "citta": "Limeni Laconia",
     "provincia": "GR",
     "prov": "GR",
-    "regione": "Toscana",
+    "regione": "Grecia",
     "nazione": "Grecia",
     "luogo": "Limeni Laconia (GR)",
     "tel": "+30 27330 51042",
@@ -1581,7 +1581,7 @@ var HOTEL=[
     "citta": "Vathia",
     "provincia": "GR",
     "prov": "GR",
-    "regione": "Toscana",
+    "regione": "Grecia",
     "nazione": "Grecia",
     "luogo": "Vathia (GR)",
     "tel": "+30 2108080049 ",
@@ -1830,23 +1830,29 @@ var HOTEL_PROVCITTA={
   "Valle d Aosta": [
     "AO"
   ],
-  "Toscana": [
-    "AR",
-    "FI",
+  "Svizzera": [
+    "BS",
+    "GE",
     "GR",
-    "LU",
-    "SI"
+    "TI",
+    "VS"
   ],
   "Lombardia": [
     "BG",
     "BS",
     "CO",
     "LC",
-    "M",
     "MI",
     "MN",
     "Mi",
     "SO"
+  ],
+  "Toscana": [
+    "AR",
+    "FI",
+    "GR",
+    "LU",
+    "SI"
   ],
   "Campania": [
     "NA",
@@ -1856,7 +1862,6 @@ var HOTEL_PROVCITTA={
     ""
   ],
   "Lazio": [
-    "FR",
     "RM",
     "VT"
   ],
@@ -1887,7 +1892,8 @@ var HOTEL_PROVCITTA={
     "SV"
   ],
   "United Kingdom": [
-    ""
+    "",
+    "GB"
   ],
   "Italia": [
     "UD"
@@ -1910,11 +1916,11 @@ var HOTEL_PROVCITTA={
     "RN"
   ],
   "Grecia": [
-    ""
+    "",
+    "GR"
   ],
   "Sardegna": [
-    "SS",
-    "VS"
+    "SS"
   ],
   "Marche": [
     "AN",
@@ -1923,14 +1929,12 @@ var HOTEL_PROVCITTA={
   "Perù": [
     ""
   ],
-  "Regno Unito": [
-    "GB"
+  "Francia": [
+    "FR"
   ],
   "Spagna": [
-    "ES"
-  ],
-  "Svizzera": [
-    "TI"
+    "ES",
+    "M"
   ],
   "Austria": [
     "W"
