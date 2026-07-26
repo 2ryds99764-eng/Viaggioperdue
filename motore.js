@@ -649,7 +649,7 @@ function costruisciGuida() {
   const selProv = document.getElementById("cerca-provincia");
   if (inputNome) inputNome.addEventListener("input", filtra);
   if (inputNome) inputNome.addEventListener("keyup", filtra);
-  if (selReg) selReg.addEventListener("change", function () { aggiornaProvince(); filtra(); });
+  if (selReg) { selReg.addEventListener("change", function () { aggiornaProvince(); filtra(); }); selReg.addEventListener("click", function () { aggiornaProvince(); filtra(); }); }
   if (selProv) selProv.addEventListener("change", filtra);
 
   disegna(dati);
