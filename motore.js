@@ -627,6 +627,7 @@ function costruisciGuida() {
     let items = dati;
     if (reg) items = items.filter(function (r) { return r.regione === reg; });
     if (prov) items = items.filter(function (r) { return r.prov === prov; });
+    if (simb) items = items.filter(function (r) { return r.note && r.note.indexOf(simb) !== -1; });
     if (q) items = items.filter(function (r) {
       return normalizza(r.nome).indexOf(q) !== -1 || normalizza(r.luogo).indexOf(q) !== -1;
     });
@@ -640,6 +641,8 @@ function costruisciGuida() {
   if (inputNome) inputNome.addEventListener("keyup", filtra);
   if (selReg) selReg.addEventListener("change", function () { aggiornaProvince(); filtra(); });
   if (selProv) selProv.addEventListener("change", filtra);
+  const selSimb = document.getElementById("cerca-simbolo-h");
+  if (selSimb) selSimb.addEventListener("change", filtra);
 
   const legenda = document.getElementById("guida-legenda");
   if (legenda) {
@@ -730,6 +733,7 @@ function costruisciHotel() {
     const q = ((document.getElementById("cerca-nome-h") || {}).value || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     const reg = (document.getElementById("cerca-regione-h") || {}).value || "";
     const prov = (document.getElementById("cerca-provincia-h") || {}).value || "";
+    const simb = (document.getElementById("cerca-simbolo-h") || {}).value || "";
     let items = dati;
     if (reg) items = items.filter(function (r) { return r.regione === reg; });
     if (prov) items = items.filter(function (r) { return r.prov === prov; });
