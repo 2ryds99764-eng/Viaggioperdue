@@ -653,8 +653,6 @@ function costruisciGuida() {
   if (inputNome) inputNome.addEventListener("keyup", filtra);
   if (selReg) selReg.addEventListener("change", function () { aggiornaProvince(); filtra(); });
   if (selProv) selProv.addEventListener("change", filtra);
-  const selSimb = document.getElementById("cerca-simbolo-h");
-  if (selSimb) selSimb.addEventListener("change", filtra);
 
   disegna(dati);
   costruisciPie(T42.sito);
@@ -754,6 +752,8 @@ function costruisciHotel() {
   if (selProv) selProv.addEventListener("change", filtra);
   const legendaH = document.getElementById("guida-legenda");
   if (legendaH) { legendaH.innerHTML = "<span class=lg-voce>🌅 Pied dans l’eau</span>" + "<span class=lg-voce>🌄 Splendida vista</span>" + "<span class=lg-voce>🌳 Albergo isolato</span>" + "<span class=lg-voce>♥️ Albergo di charme</span>" + "<span class=lg-voce>🏖️ Spiaggia privata</span>" + "<span class=lg-voce>🏞️ Albergo di montagna</span>" + "<span class=lg-voce>👑 Grande tradizione</span>"; }
+  const selSimb = document.getElementById("cerca-simbolo-h");
+  if (selSimb) selSimb.addEventListener("change", filtra);
   disegna(dati);
   costruisciPie(T42.sito);
 }
