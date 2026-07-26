@@ -644,6 +644,7 @@ function costruisciGuida() {
   const selSimb = document.getElementById("cerca-simbolo-h");
   if (selSimb) selSimb.addEventListener("change", filtra);
 
+
   const legenda = document.getElementById("guida-legenda");
   if (legenda) {
     legenda.innerHTML =
