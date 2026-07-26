@@ -684,6 +684,9 @@ function costruisciHotel() {
       regioni.map(function(r){ return '<option value="' + esc(r) + '">' + esc(r) + '</option>'; }).join("") +
       '</select></div>' +
       '<div class="cerca-campo"><select id="cerca-provincia-h" disabled><option value="">Tutte le province</option></select></div>';
+    document.getElementById('cerca-nome-h').addEventListener('input',function(){filtra();});
+    document.getElementById('cerca-regione-h').addEventListener('change',function(){aggiornaProvince();filtra();});
+    document.getElementById('cerca-provincia-h').addEventListener('change',function(){filtra();});
   }
   var conteggio = document.getElementById("guida-conteggio");
   var lista = document.getElementById("guida-lista");
