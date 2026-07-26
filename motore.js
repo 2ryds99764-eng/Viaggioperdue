@@ -644,12 +644,10 @@ function costruisciGuida() {
   const legenda = document.getElementById("guida-legenda");
   if (legenda) {
     legenda.innerHTML =
-      '<span class="lg-voce">🌅 🌅 &#127749; Vista mare, lago, fiume</span>' +
-      '<span class="lg-voce">🌳 🌳 &#127795; Albergo isolato / natura</span>' +
-      '<span class="lg-voce">♥️ Albergo di charme</span>' +
-      '<span class="lg-voce">🏖🏖️ &#127958; Spiaggia privata</span>' +
-      '<span class="lg-voce">🏞🏞️ &#127966; Albergo di montagna</span>' +
-      '<span class="lg-voce">👑 👑 &#128081; Grande tradizione</span>';
+      '<span class="lg-voce">🌅 Pied dans l’eau</span>' +
+      '<span class="lg-voce">🏞️ Vista paesaggio</span>' +
+      '<span class="lg-voce">🌿 Tavoli all’esterno</span>' +
+      '<span class="lg-voce">✨ Luogo ameno</span>';
   }
   disegna(dati);
   costruisciPie(T42.sito);
@@ -753,12 +751,12 @@ function costruisciHotel() {
   const legendaH = document.getElementById("guida-legenda");
   if (legendaH) {
     legendaH.innerHTML =
-      '<span class="lg-voce">������ Vista mare, lago, fiume</span>' +
-      '<span class="lg-voce">������ Albergo isolato / natura</span>' +
-      '<span class="lg-voce">♥️ Albergo di charme</span>' +
-      '<span class="lg-voce">������️ Spiaggia privata</span>' +
-      '<span class="lg-voce">������️ Albergo di montagna</span>' +
-      '<span class="lg-voce">������ Grande tradizione</span>';
+      "<span class=lg-voce>🌅 Pied dans l’eau</span>" +
+      "<span class=lg-voce>🌳 Albergo isolato / natura</span>" +
+      "<span class=lg-voce>♥️ Albergo di charme</span>" +
+      "<span class=lg-voce>🏖️ Spiaggia privata</span>" +
+      "<span class=lg-voce>🏞️ Albergo di montagna</span>" +
+      "<span class=lg-voce>👑 Grande tradizione</span>";
   }
   disegna(dati);
   costruisciPie(T42.sito);
