@@ -638,8 +638,6 @@ function costruisciGuida() {
     let items = dati;
     if (reg) items = items.filter(function (r) { return r.regione === reg; });
     if (prov) items = items.filter(function (r) { return r.prov === prov; });
-    const simb = (document.getElementById("cerca-simbolo-h") || {}).value || "";
-    if (simb) items = items.filter(function (r) { return r.note && r.note.indexOf(simb) !== -1; });
     if (q) items = items.filter(function (r) {
       return normalizza(r.nome).indexOf(q) !== -1 || normalizza(r.luogo).indexOf(q) !== -1;
     });
@@ -689,8 +687,7 @@ function costruisciHotel() {
       '<div class="cerca-campo"><select id="cerca-regione-h"><option value="">Tutte le regioni</option>' +
       regioni.map(function (r) { return '<option value="' + esc(r) + '">' + esc(r) + '</option>'; }).join("") +
       '</select></div>' +
-      '<div class="cerca-campo"><select id="cerca-provincia-h" disabled><option value="">Tutte le province</option></select></div>' +
-      '<div class="cerca-campo"><select id="cerca-simbolo-h"><option value="">Tutti i simboli</option><option value="🌅">Pied dans l’eau</option><option value="🌄">Splendida vista</option><option value="🌳">Isolato</option><option value="♥️">Charme</option><option value="🏖️">Spiaggia</option><option value="🏞️">Montagna</option><option value="👑">Tradizione</option></select></div>';
+      '<div class="cerca-campo"><select id="cerca-provincia-h" disabled><option value="">Tutte le province</option></select></div>';
   }
   const conteggio = document.getElementById("guida-conteggio");
   const lista = document.getElementById("guida-lista");
@@ -752,8 +749,6 @@ function costruisciHotel() {
   if (selProv) selProv.addEventListener("change", filtra);
   const legendaH = document.getElementById("guida-legenda");
   if (legendaH) { legendaH.innerHTML = "<span class=lg-voce>🌅 Pied dans l’eau</span>" + "<span class=lg-voce>🌄 Splendida vista</span>" + "<span class=lg-voce>🌳 Albergo isolato</span>" + "<span class=lg-voce>♥️ Albergo di charme</span>" + "<span class=lg-voce>🏖️ Spiaggia privata</span>" + "<span class=lg-voce>🏞️ Albergo di montagna</span>" + "<span class=lg-voce>👑 Grande tradizione</span>"; }
-  const selSimb = document.getElementById("cerca-simbolo-h");
-  if (selSimb) selSimb.addEventListener("change", filtra);
   disegna(dati);
   costruisciPie(T42.sito);
 }
