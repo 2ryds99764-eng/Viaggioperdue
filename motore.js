@@ -719,15 +719,13 @@ function costruisciHotel() {
     if (q) items = items.filter(function(r){ return normalizza(r.nome).indexOf(q) !== -1 || normalizza(r.luogo).indexOf(q) !== -1; });
     disegna(items);
   }
-  setTimeout(function() {
-    var inp = document.getElementById("cerca-nome-h");
-    var sr = document.getElementById("cerca-regione-h");
-    var sp = document.getElementById("cerca-provincia-h");
-    if (inp) inp.addEventListener("input", filtra);
-    if (inp) inp.addEventListener("keyup", filtra);
-    if (sr) sr.addEventListener("change", function(){ aggiornaProvince(); filtra(); });
-    if (sp) sp.addEventListener("change", filtra);
-  }, 100);
+  var inp = document.getElementById("cerca-nome-h");
+  var sr = document.getElementById("cerca-regione-h");
+  var sp = document.getElementById("cerca-provincia-h");
+  if (inp) inp.addEventListener("input", filtra);
+  if (inp) inp.addEventListener("keyup", filtra);
+  if (sr) sr.addEventListener("change", function(){ aggiornaProvince(); filtra(); });
+  if (sp) sp.addEventListener("change", filtra);
   disegna(dati);
   costruisciPie(T42.sito);
 }
