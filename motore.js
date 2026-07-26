@@ -688,7 +688,8 @@ function costruisciHotel() {
       '<div class="cerca-campo"><select id="cerca-regione-h"><option value="">Tutte le regioni</option>' +
       regioni.map(function (r) { return '<option value="' + esc(r) + '">' + esc(r) + '</option>'; }).join("") +
       '</select></div>' +
-      '<div class="cerca-campo"><select id="cerca-provincia-h" disabled><option value="">Tutte le province</option></select></div>';
+      '<div class="cerca-campo"><select id="cerca-provincia-h" disabled><option value="">Tutte le province</option></select></div>' +
+      '<div class="cerca-campo"><select id="cerca-simbolo-h"><option value="">Tutti i simboli</option><option value="🌅">🌅 Pied dans l’eau</option><option value="🌄">🌄 Splendida vista</option><option value="🌳">🌳 Isolato</option><option value="♥️">♥️ Charme</option><option value="🏖️">🏖️ Spiaggia</option><option value="🏞️">🏞️ Montagna</option><option value="👑">👑 Tradizione</option></select></div>';
   }
   const conteggio = document.getElementById("guida-conteggio");
   const lista = document.getElementById("guida-lista");
