@@ -638,6 +638,8 @@ function costruisciGuida() {
     let items = dati;
     if (reg) items = items.filter(function (r) { return r.regione === reg; });
     if (prov) items = items.filter(function (r) { return r.prov === prov; });
+    const simb = (document.getElementById("cerca-simbolo-h") || {}).value || "";
+    if (simb) items = items.filter(function (r) { return r.note && r.note.indexOf(simb) !== -1; });
     if (q) items = items.filter(function (r) {
       return normalizza(r.nome).indexOf(q) !== -1 || normalizza(r.luogo).indexOf(q) !== -1;
     });
@@ -651,6 +653,8 @@ function costruisciGuida() {
   if (inputNome) inputNome.addEventListener("keyup", filtra);
   if (selReg) selReg.addEventListener("change", function () { aggiornaProvince(); filtra(); });
   if (selProv) selProv.addEventListener("change", filtra);
+  const selSimb = document.getElementById("cerca-simbolo-h");
+  if (selSimb) selSimb.addEventListener("change", filtra);
 
   disegna(dati);
   costruisciPie(T42.sito);
@@ -687,7 +691,8 @@ function costruisciHotel() {
       '<div class="cerca-campo"><select id="cerca-regione-h"><option value="">Tutte le regioni</option>' +
       regioni.map(function (r) { return '<option value="' + esc(r) + '">' + esc(r) + '</option>'; }).join("") +
       '</select></div>' +
-      '<div class="cerca-campo"><select id="cerca-provincia-h" disabled><option value="">Tutte le province</option></select></div>';
+      '<div class="cerca-campo"><select id="cerca-provincia-h" disabled><option value="">Tutte le province</option></select></div>' +
+      '<div class="cerca-campo"><select id="cerca-simbolo-h"><option value="">Tutti i simboli</option><option value="🌅">Pied dans l’eau</option><option value="🌄">Splendida vista</option><option value="🌳">Isolato</option><option value="♥️">Charme</option><option value="🏖️">Spiaggia</option><option value="🏞️">Montagna</option><option value="👑">Tradizione</option></select></div>';
   }
   const conteggio = document.getElementById("guida-conteggio");
   const lista = document.getElementById("guida-lista");
