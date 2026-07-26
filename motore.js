@@ -667,5 +667,67 @@ document.addEventListener("DOMContentLoaded", function () {
   if (document.body.dataset.pagina === "guida") costruisciGuida();
    if (document.body.dataset.pagina === "hotel") costruisciHotel();
 });
-
-function costruisciHotel() { document.title = "Guida agli alberghi · " + T42.sito.nome; const dati = (window.HOTEL || []).slice(); const regprov = window.HOTEL_PROVCITTA || {}; const intest = document.getElementById("guida-intestazione"); if (intest) { intest.innerHTML = '<a class="ritorno" href="index.html" aria-label="Home"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" style="vertical-align:middle"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" fill="#4A6FA5"/></svg></a>' + '<div class="occhiello anima d1">' + esc(T42.sito.sigla) + ' · Viaggioperdue</div>' + '<h1 class="anima d2">Guida agli alberghi</h1>' + '<p class="guida-sub anima d3">' + dati.length + ' alberghi, cercabili per nome o provincia.</p>'; } const ricerca = document.getElementById("guida-ricerca"); if (ricerca) { const province = Object.keys(regprov).sort(); ricerca.innerHTML = '<div class="cerca-campo"><input id="cerca-nome" type="search" placeholder="Cerca per nome o citta..." autocomplete="off"></div>' + '<div class="cerca-campo"><select id="cerca-provincia"><option value="">Tutte le province</option>' + province.map(function(p){return '<option value="'+escV(p)+'">'+escV(p)+'</option>';}).join("") + '</select></div>'; } const conteggio = document.getElementById("guida-conteggio"); const lista = document.getElementById("guida-lista"); function disegna(items) { if (conteggio) conteggio.textContent = items.length === dati.length ? (dati.length + " alberghi") : (items.length + " trovati"); if (lista === null) return; lista.innerHTML = items.map(function(r) { let btn = ""; if (r.tel) btn += '<a class="btn btn--pieno" href="tel:' + esc(r.tel.replace(/\s/g,"")) + '">Chiama</a>'; if (r.mappa) btn += '<a class="btn" href="' + urlMappa(r.mappa) + '" target="_blank" rel="noopener">Mappa</a>'; if (r.web) btn += '<a class="btn" href="' + esc(r.web) + '" target="_blank" rel="noopener">Sito</a>'; return '<article class="rist"><div class="rist-nome">' + esc(r.nome) + '</div>' + (r.luogo ? '<div class="rist-luogo">' + esc(r.luogo) + '</div>' : '') + (r.note ? '<div class="rist-luogo" style="font-style:italic;color:#5A6A80">' + esc(r.note) + '</div>' : '') + '<div class="azioni rist-azioni">' + btn + '</div></article>'; }).join(""); } function filtra() { const q = normalizza((document.getElementById("cerca-nome")||{}).value||""); const prov = (document.getElementById("cerca-provincia")||{}).value||""; let items = dati; if (prov) items = items.filter(function(r){return r.prov===prov;}); if (q) items = items.filter(function(r){return normalizza(r.nome).indexOf(q) !== -1 || normalizza(r.luogo).indexOf(q) !== -1;}); disegna(items); } const inputNome = document.getElementById("cerca-nome"); const selProv = document.getElementById("cerca-provincia"); if (inputNome) inputNome.addEventListener("input", filtra); if (selProv) selProv.addEventListener("change", filtra); disegna(dati); costruisciPie(T42.sito); } EOF
+function costruisciHotel() {
+  document.title = "Guida agli alberghi - " + T42.sito.nome;
+  var dati = (window.HOTEL || []).slice();
+  var regprov = window.HOTEL_PROVCITTA || {};
+  var intest = document.getElementById("guida-intestazione");
+  if (intest) {
+    intest.innerHTML = '<h1 class="anima d2">Guida agli alberghi</h1><p class="guida-sub anima d3">' + dati.length + ' alberghi, cercabili per nome o regione.</p>';
+  }
+  var regioni = Object.keys(regprov).sort(function(a,b){return a.localeCompare(b,"it");});
+  var barra = document.getElementById("guida-ricerca");
+  if (barra) {
+    barra.innerHTML =
+      '<div class="cerca-campo cerca-campo--largo"><input type="search" id="cerca-nome-h" placeholder="Cerca un albergo per nome..." autocomplete="off"></div>' +
+      '<div class="cerca-campo"><select id="cerca-regione-h"><option value="">Tutte le regioni</option>' +
+      regioni.map(function(r){ return '<option value="' + esc(r) + '">' + esc(r) + '</option>'; }).join("") +
+      '</select></div>' +
+      '<div class="cerca-campo"><select id="cerca-provincia-h" disabled><option value="">Tutte le province</option></select></div>';
+  }
+  var conteggio = document.getElementById("guida-conteggio");
+  var lista = document.getElementById("guida-lista");
+  function disegna(items) {
+    if (conteggio) conteggio.textContent = items.length === dati.length ? dati.length + " alberghi" : items.length + " trovati";
+    if (lista) lista.innerHTML = items.map(function(r) {
+      var btn = "";
+      if (r.tel) btn += '<a class="btn btn--pieno" href="tel:' + esc(r.tel.replace(/\s/g,"")) + '">Chiama</a>';
+      if (r.mappa) btn += '<a class="btn" href="' + urlMappa(r.mappa) + '" target="_blank" rel="noopener">Mappa</a>';
+      if (r.web) btn += '<a class="btn" href="' + esc(r.web) + '" target="_blank" rel="noopener">Sito</a>';
+      return '<article class="rist"><div class="rist-nome">' + esc(r.nome) + (r.note ? " " + r.note : "") + '</div>' +
+        (r.luogo ? '<div class="rist-luogo">' + esc(r.luogo) + '</div>' : "") +
+        '<div class="azioni rist-azioni">' + btn + '</div></article>';
+    }).join("");
+  }
+  function aggiornaProvince() {
+    var sr = document.getElementById("cerca-regione-h");
+    var sp = document.getElementById("cerca-provincia-h");
+    if (!sr || !sp) return;
+    var reg = sr.value;
+    var provs = reg && regprov[reg] ? regprov[reg] : [];
+    sp.innerHTML = '<option value="">Tutte le province</option>' + provs.map(function(p){ return '<option value="' + esc(p) + '">' + esc(p) + '</option>'; }).join("");
+    sp.disabled = provs.length === 0;
+    filtra();
+  }
+  function filtra() {
+    var q = normalizza((document.getElementById("cerca-nome-h")||{}).value||"");
+    var reg = (document.getElementById("cerca-regione-h")||{}).value||"";
+    var prov = (document.getElementById("cerca-provincia-h")||{}).value||"";
+    var items = dati;
+    if (reg) items = items.filter(function(r){ return r.regione === reg; });
+    if (prov) items = items.filter(function(r){ return r.prov === prov; });
+    if (q) items = items.filter(function(r){ return normalizza(r.nome).indexOf(q) !== -1 || normalizza(r.luogo).indexOf(q) !== -1; });
+    disegna(items);
+  }
+  setTimeout(function() {
+    var inp = document.getElementById("cerca-nome-h");
+    var sr = document.getElementById("cerca-regione-h");
+    var sp = document.getElementById("cerca-provincia-h");
+    if (inp) inp.addEventListener("input", filtra);
+    if (inp) inp.addEventListener("keyup", filtra);
+    if (sr) sr.addEventListener("change", function(){ aggiornaProvince(); filtra(); });
+    if (sp) sp.addEventListener("change", filtra);
+  }, 100);
+  disegna(dati);
+  costruisciPie(T42.sito);
+}
