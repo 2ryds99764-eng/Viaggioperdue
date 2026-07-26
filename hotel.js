@@ -102,7 +102,7 @@ var HOTEL=[
     "tel": "",
     "email": "info@osteriabis.it",
     "web": "www.osteriabis.it",
-    "note": "Vista sulla campagna toscana 🌳♥️",
+    "note": "Campagna toscana 🌄 🌳 ♥️",
     "mappa": "Bis Osteria Contemporanea, Via XX Settembre 50, 53034, Colle di Val d'Elsa, Italia"
   },
   {
@@ -147,7 +147,7 @@ var HOTEL=[
     "tel": "+39028058051",
     "email": "milano@bulgarihotels.com",
     "web": "https://www.bulgarihotels.com/it_IT/milan/",
-    "note": "Albergo in stile contemporaneo immerso in un parco 🌳♥️",
+    "note": "🌄 🌳 ♥️",
     "mappa": "Bulgari Milano, Via Privata Fratelli Gabba 7b, 20121, Milano, Italia"
   },
   {
@@ -177,7 +177,7 @@ var HOTEL=[
     "tel": "+39 06 36080 400",
     "email": "roma@bulgarihotels.com",
     "web": "https://www.bulgarihotels.com/it_IT/rome",
-    "note": "Albergo in stile contemporaneo 👑 ♥️",
+    "note": "Sile contemporaneo 👑 ♥️",
     "mappa": "Bulgari Roma, Piazza Augusto Imperatore 10, 00186, Roma, Italia"
   },
   {
@@ -222,7 +222,7 @@ var HOTEL=[
     "tel": "+39 089 858801",
     "email": "",
     "web": "https://www.belmond.com/it/hotels/europe/italy/amalfi-c",
-    "note": "Splendida vista sulla Costiera Amalfitana 👑 🌳 🌅 🏖️ ♥️",
+    "note": "Costiera Amalfitana 🌄 👑 🌳 🌅 🏖️ ♥️",
     "mappa": "Caruso, Piazza San Giovanni Del Toro 2, 84010, Ravello, Italia"
   },
   {
@@ -417,7 +417,7 @@ var HOTEL=[
     "tel": "+39 06 478121",
     "email": "",
     "web": "https://www.dorchestercollection.com/it/rome/hotel-eden",
-    "note": "Splendida vista sulla città",
+    "note": "👑 🌄",
     "mappa": "Eden, Via Ludovisi 49, 00187, Roma, Italia"
   },
   {
@@ -732,7 +732,7 @@ var HOTEL=[
     "tel": "+39 079 671384",
     "email": "info@agnata.com",
     "web": "https://www.agnata.com",
-    "note": "Stazzu gallurese immerso nella natura 🌳♥️",
+    "note": "Stazzu gallurese 🌳♥️",
     "mappa": "L’Agnata, Località l’Agnata San Bachisio, 07029, Tempio Pausania, Italia"
   },
   {
@@ -747,7 +747,7 @@ var HOTEL=[
     "tel": "+390307760550",
     "email": "info@albereta.it",
     "web": "https://www.albereta.it",
-    "note": "Immerso in un parco 🌳♥️",
+    "note": "🌳♥️",
     "mappa": "L’Albereta, Via Vittorio Emanuele 40, 25030, Erbusco, Italia"
   },
   {
@@ -882,7 +882,7 @@ var HOTEL=[
     "tel": "+39 0143 642860",
     "email": "locanda@la-raia.it",
     "web": "https://www.la-raia.it/it",
-    "note": "Albergo di charme sui colli di Gavi 🌳 ♥️",
+    "note": "Colli di Gavi 🌳 ♥️",
     "mappa": "La Raia, Località Lomellina 26, 15066, Gavi, Italia"
   },
   {
@@ -912,7 +912,7 @@ var HOTEL=[
     "tel": "+41 81 822 16 08",
     "email": "info@lasoglina.ch",
     "web": "https://www.lasoglina.ch",
-    "note": "Vista sulla Val Bregaglia 🌳🌅 ♥️",
+    "note": "Val Bregaglia 🌄 🌳 ♥️",
     "mappa": "La Soglina, Via Carnella 6, 7610, Soglio, Svizzera"
   },
   {
@@ -1017,7 +1017,7 @@ var HOTEL=[
     "tel": "+39 081 8774455",
     "email": "info@laminervetta.com",
     "web": "https://www.laminervetta.com",
-    "note": "Spettacolare vista sul Golfo di Sorrento 🌅 ♥️",
+    "note": "Golfo di Sorrento 🌅 ♥️",
     "mappa": "Maison La Minervetta, Via Capo 25, 80067, Sorrento, Italia"
   },
   {
@@ -1032,7 +1032,7 @@ var HOTEL=[
     "tel": "+44 (0) 20 7235 2000",
     "email": "molon-reservations@mohg.com",
     "web": "https://www.mandarinoriental.com/en/london/hyde-park/stay",
-    "note": "Vista su Hyde Park 👑 🌳♥️",
+    "note": "Hyde Park 👑 🌄 🌳 ♥️",
     "mappa": "Mandarin Oriental Hyde Park, 66 Knightsbridge, SW1X 7LA, London, United Kingdom"
   },
   {
@@ -1332,7 +1332,7 @@ var HOTEL=[
     "tel": "+39 06 682831",
     "email": "rev@raphaelhotel.com",
     "web": "https://www.raphaelhotel.com",
-    "note": "Viata sulla città ♥️",
+    "note": "🌄 ♥️",
     "mappa": "Raphaël, Largo Febo 2, 00186, Roma, Italia"
   },
   {
@@ -1437,7 +1437,7 @@ var HOTEL=[
     "tel": "+39 0342 382092",
     "email": "info@reticibalzi.it",
     "web": "https://www.reticibalzi.it",
-    "note": "Junior suite estiva: Fracia\\nJunior suite invernale: Ca’ Rizzieri",
+    "note": "",
     "mappa": "Retici Balzi, Via Panoramica 2, 23020, Poggiridenti, Italia"
   },
   {
@@ -1467,7 +1467,7 @@ var HOTEL=[
     "tel": "+39 081 0175001",
     "email": "welcome.na@thrromeocollection.com",
     "web": "https://www.romeohotel.com/it/romeo-napoli/",
-    "note": "Albergo con un design contemporaneo 🌅♥️",
+    "note": "Design contemporaneo 🌅♥️",
     "mappa": "Romeo, Via Cristoforo Colombo 45, 80133, Napoli, Italia"
   },
   {
@@ -1557,7 +1557,7 @@ var HOTEL=[
     "tel": "+39 041 2400001",
     "email": "",
     "web": "https://www.marriott.com/en-us/hotels/vcexr-the-st-regis-venice/overview/",
-    "note": "Vista sul Canal Grande 🌅 ♥️",
+    "note": "Canal Grande 🌅 ♥️",
     "mappa": "St. Regis Venezia, San Marco 2159, 30124, Venezia, Italia"
   },
   {
@@ -1617,7 +1617,7 @@ var HOTEL=[
     "tel": "+1 (212) 355-2800",
     "email": "jacosta@sherrynetherland.com",
     "web": "https://www.sherrynetherland.com",
-    "note": "♥️",
+    "note": "Central Park 🌄 ♥️",
     "mappa": "The Sherry Netherland, 781 Fifth Avenue, 10022, New York, Stati Uniti"
   },
   {
@@ -1632,7 +1632,7 @@ var HOTEL=[
     "tel": "+39 331 2947089",
     "email": "info@terraerestaurant.it",
     "web": "https://www.terraerestaurant.it",
-    "note": "Ristorante aperto a cena dal giovedì al lunedì dalle 19:00 alle 21:30\\",
+    "note": "🌄",
     "mappa": "Tivoli Palazzo Gaddi, Via del Giglio 9, 50123, Firenze, Italia"
   },
   {
@@ -1647,7 +1647,7 @@ var HOTEL=[
     "tel": "+39 0924 1866101",
     "email": "booking@tonnaradiscopello.it",
     "web": "https://www.tonnaradiscopello.it",
-    "note": "🌳 🌅 🏖️",
+    "note": "🌅 ♥️",
     "mappa": "Tonnara di Scopello, Largo Tonnara, 91014, Scopello, Italia"
   },
   {
@@ -1707,7 +1707,7 @@ var HOTEL=[
     "tel": "+39 055 228790",
     "email": "info@villacora.it",
     "web": "https://www.villacora.it",
-    "note": "Sontuosa residenza, vista sulla città, 🌳♥️",
+    "note": "Sontuosa residenza 🌄 🌳♥️",
     "mappa": "Villa Cora, Viale Machiavelli 18, 50125, Firenze, Italia"
   },
   {
@@ -1767,7 +1767,7 @@ var HOTEL=[
     "tel": "+33 (0) 4 42 32 92 3",
     "email": "gallici@relaischateaux.fr",
     "web": "https://www.villagallici.com",
-    "note": "Maître de Maison: Michel Marey",
+    "note": "🌳♥️",
     "mappa": "Villa Gallici, Avenue de la Violette, 13100, Aix en Provence, France"
   },
   {
@@ -1782,7 +1782,7 @@ var HOTEL=[
     "tel": "+39 085 450051",
     "email": "info@hvillamaria.it",
     "web": "https://hvillamaria.it",
-    "note": "Vista mare 🌳♥️",
+    "note": "🌅 🌳♥️",
     "mappa": "Villa Maria, Contrada Pretaro, 66023, Francavilla al Mare, Italia"
   },
   {
