@@ -2666,7 +2666,7 @@ var GUIDA=[
     "mappa": "Via IV Novembre 29, San Miniato, PI"
   },
   {
-    "nome": "Manuel Lombardi",
+    "nome": "H20",
     "indirizzo": "Via Pergola 10",
     "citta": "Moniga del Garda",
     "provincia": "BS",
