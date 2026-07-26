@@ -641,6 +641,8 @@ function costruisciGuida() {
   if (inputNome) inputNome.addEventListener("keyup", filtra);
   if (selReg) selReg.addEventListener("change", function () { aggiornaProvince(); filtra(); });
   if (selProv) selProv.addEventListener("change", filtra);
+  const selSimb = document.getElementById("cerca-simbolo-h");
+  if (selSimb) selSimb.addEventListener("change", filtra);
 
 
   const legenda = document.getElementById("guida-legenda");
