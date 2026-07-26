@@ -615,7 +615,7 @@ function costruisciGuida() {
     return (s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
   }
 
-  window.hAggProv = function aggiornaProvince() {
+  function aggiornaProvince() {
     const selReg = document.getElementById("cerca-regione");
     const selProv = document.getElementById("cerca-provincia");
     if (!selReg || !selProv) return;
@@ -631,7 +631,7 @@ function costruisciGuida() {
     }
   }
 
-  window.hFiltra = function filtra() {
+  function filtra() {
     const q = normalizza((document.getElementById("cerca-nome") || {}).value ? document.getElementById("cerca-nome").value.trim() : "");
     const reg = (document.getElementById("cerca-regione") || {}).value || "";
     const prov = (document.getElementById("cerca-provincia") || {}).value || "";
@@ -684,9 +684,7 @@ function costruisciHotel() {
       regioni.map(function(r){ return '<option value="' + esc(r) + '">' + esc(r) + '</option>'; }).join("") +
       '</select></div>' +
       '<div class="cerca-campo"><select id="cerca-provincia-h" disabled><option value="">Tutte le province</option></select></div>';
-    document.getElementById('cerca-nome-h').addEventListener('input',function(){window.hFiltra();});
-    document.getElementById('cerca-regione-h').addEventListener('change',function(){window.hAggProv();window.hFiltra();});
-    document.getElementById('cerca-provincia-h').addEventListener('change',function(){window.hFiltra();});
+
   }
   var conteggio = document.getElementById("guida-conteggio");
   var lista = document.getElementById("guida-lista");
@@ -729,6 +727,13 @@ function costruisciHotel() {
   if (inp) inp.addEventListener("keyup", filtra);
   if (sr) sr.addEventListener("change", function(){ aggiornaProvince(); filtra(); });
   if (sp) sp.addEventListener("change", filtra);
+  var inp=document.getElementById("cerca-nome-h");
+  var sr=document.getElementById("cerca-regione-h");
+  var sp=document.getElementById("cerca-provincia-h");
+  if(inp)inp.addEventListener("input",filtra);
+  if(inp)inp.addEventListener("keyup",filtra);
+  if(sr)sr.addEventListener("change",function(){aggiornaProvince();filtra();});
+  if(sp)sp.addEventListener("change",filtra);
   disegna(dati);
   costruisciPie(T42.sito);
 }
