@@ -615,7 +615,7 @@ function costruisciGuida() {
     return (s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
   }
 
-  function aggiornaProvince() {
+  window.hAggProv = function aggiornaProvince() {
     const selReg = document.getElementById("cerca-regione");
     const selProv = document.getElementById("cerca-provincia");
     if (!selReg || !selProv) return;
@@ -631,7 +631,7 @@ function costruisciGuida() {
     }
   }
 
-  function filtra() {
+  window.hFiltra = function filtra() {
     const q = normalizza((document.getElementById("cerca-nome") || {}).value ? document.getElementById("cerca-nome").value.trim() : "");
     const reg = (document.getElementById("cerca-regione") || {}).value || "";
     const prov = (document.getElementById("cerca-provincia") || {}).value || "";
@@ -684,9 +684,9 @@ function costruisciHotel() {
       regioni.map(function(r){ return '<option value="' + esc(r) + '">' + esc(r) + '</option>'; }).join("") +
       '</select></div>' +
       '<div class="cerca-campo"><select id="cerca-provincia-h" disabled><option value="">Tutte le province</option></select></div>';
-    document.getElementById('cerca-nome-h').addEventListener('input',function(){filtra();});
-    document.getElementById('cerca-regione-h').addEventListener('change',function(){aggiornaProvince();filtra();});
-    document.getElementById('cerca-provincia-h').addEventListener('change',function(){filtra();});
+    document.getElementById('cerca-nome-h').addEventListener('input',function(){window.hFiltra();});
+    document.getElementById('cerca-regione-h').addEventListener('change',function(){window.hAggProv();window.hFiltra();});
+    document.getElementById('cerca-provincia-h').addEventListener('change',function(){window.hFiltra();});
   }
   var conteggio = document.getElementById("guida-conteggio");
   var lista = document.getElementById("guida-lista");
