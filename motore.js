@@ -752,7 +752,8 @@ function costruisciHotel() {
   if (legendaH) {
     legendaH.innerHTML =
       "<span class=lg-voce>🌅 Pied dans l’eau</span>" +
-      "<span class=lg-voce>🌳 Albergo isolato / natura</span>" +
+      "<span class=lg-voce>🌄 Splendida vista</span>" +
+      "<span class=lg-voce>🌳 Albergo isolato, immerso nella natura</span>" +
       "<span class=lg-voce>♥️ Albergo di charme</span>" +
       "<span class=lg-voce>🏖️ Spiaggia privata</span>" +
       "<span class=lg-voce>🏞️ Albergo di montagna</span>" +
