@@ -445,7 +445,7 @@ var HOTEL=[
     "cellulare": "",
     "email": "",
     "web": "https://www.dorchestercollection.com/it/rome/hotel-eden",
-    "note": "Splendida vista sulla città ♥️",
+    "note": "🌄 ♥️",
     "mappa": "Eden, Via Ludovisi 49, 00187, Roma, Italia"
   },
   {
@@ -637,7 +637,7 @@ var HOTEL=[
     "cellulare": "+39 338 7295708",
     "email": "info@hotelleriedemascognaz.com",
     "web": "https://www.hotelleriedemascognaz.com",
-    "note": "⛰️ 🌳♥️",
+    "note": "🌄 ⛰️ 🌳♥️",
     "mappa": "Hotellerie de Mascognaz, Via Dondeynaz 12, 11020, Ayas, Italia"
   },
   {
@@ -1085,7 +1085,7 @@ var HOTEL=[
     "cellulare": "",
     "email": "info@laminervetta.com",
     "web": "https://www.laminervetta.com",
-    "note": "Spettacolare vista sul Golfo di Sorrento 🌅 ♥️",
+    "note": "🌄 🌅 ♥️",
     "mappa": "Maison La Minervetta, Via Capo 25, 80067, Sorrento, Italia"
   },
   {
@@ -1725,7 +1725,7 @@ var HOTEL=[
     "cellulare": "",
     "email": "jacosta@sherrynetherland.com",
     "web": "https://www.sherrynetherland.com",
-    "note": "♥️",
+    "note": "🌄 ♥️",
     "mappa": "The Sherry Netherland, 781 Fifth Avenue, 10022, New York, Stati Uniti"
   },
   {
@@ -1789,7 +1789,7 @@ var HOTEL=[
     "cellulare": "",
     "email": "info@villacastagnola.com",
     "web": "https://www.villacastagnola.com",
-    "note": "⛰️ 🌳♥️",
+    "note": "🌄 🌳 ♥️",
     "mappa": "Villa Castagnola, Via Pico 9, 6900, Lugano, Svizzera"
   },
   {
