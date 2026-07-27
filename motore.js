@@ -768,6 +768,7 @@ function costruisciHotel() {
         let btn = "";
         if (r.tel) btn += '<a class="btn btn--pieno" href="tel:' + esc(r.tel.replace(/\s/g, "")) + '">Chiama</a>';
         if (r.mappa) btn += '<a class="btn" href="' + urlMappa(r.mappa) + '" target="_blank" rel="noopener">Mappa</a>';
+        if (r.web) btn += '<a class="btn" href="' + esc(r.web) + '" target="_blank" rel="noopener">Sito</a>';
         return '<article class="rist">' +
           '<div class="rist-nome">' + esc(r.nome) + '</div>' +
           (r.citta ? '<div class="rist-luogo">' + esc(r.citta) + '</div>' : '') +
