@@ -749,14 +749,18 @@ function costruisciHotel() {
       '</article>';
     }).join("");
   }
-  function disegnaRistorantiZona(prov) {
+  function disegnaRistorantiZona(prov, citta) {
     const box = document.getElementById("guida-ristoranti-zona");
     if (!box) return;
-    if (!prov) {
+    if (!prov && !citta) {
       box.innerHTML = "";
       return;
     }
-    const ristoranti = (window.GUIDA || []).filter(function (r) { return r.prov === prov; }).slice(0, 3);
+    let ristoranti = citta ? (window.GUIDA || []).filter(function (r) { return r.citta === citta; }) : [];
+    if (!ristoranti.length) {
+      ristoranti = (window.GUIDA || []).filter(function (r) { return r.prov === prov; });
+    }
+    ristoranti = ristoranti.slice(0, 3);
     if (!ristoranti.length) {
       box.innerHTML = "";
       return;
@@ -809,7 +813,7 @@ function costruisciHotel() {
       return nome.indexOf(q) !== -1 || luogo.indexOf(q) !== -1;
     });
     disegna(items);
-    disegnaRistorantiZona(prov);
+    disegnaRistorantiZona(items[0] ? items[0].prov : prov, items[0] ? items[0].citta : "");
   }
   const inputNome = document.getElementById("cerca-nome-h");
   const selReg = document.getElementById("cerca-regione-h");
