@@ -611,6 +611,31 @@ function costruisciGuida() {
     }).join("");
   }
 
+  function disegnaAlberghiZona(prov) {
+    const box = document.getElementById("guida-alberghi-zona");
+    if (!box) return;
+    if (!prov) {
+      box.innerHTML = "";
+      return;
+    }
+    const hotel = (window.HOTEL || []).filter(function (h) { return h.prov === prov; }).slice(0, 3);
+    if (!hotel.length) {
+      box.innerHTML = "";
+      return;
+    }
+    box.innerHTML =
+      '<h2 class="guida-alberghi-titolo">Alberghi nella stessa zona</h2>' +
+      '<div class="guida-lista">' +
+      hotel.map(function (h) {
+        return '<article class="rist">' +
+          '<div class="rist-nome">' + esc(h.nome) + '</div>' +
+          (h.citta ? '<div class="rist-luogo">' + esc(h.citta) + '</div>' : '') +
+          (h.web ? '<div class="azioni rist-azioni"><a class="btn" href="' + esc(h.web) + '" target="_blank" rel="noopener">Sito</a></div>' : '') +
+        '</article>';
+      }).join("") +
+      '</div>';
+  }
+
   function normalizza(s) {
     return (s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
   }
@@ -642,6 +667,7 @@ function costruisciGuida() {
       return normalizza(r.nome).indexOf(q) !== -1 || normalizza(r.luogo).indexOf(q) !== -1;
     });
     disegna(items);
+    disegnaAlberghiZona(prov);
   }
 
   const inputNome = document.getElementById("cerca-nome");

@@ -252,6 +252,12 @@ body::before {
   grid-column: 1 / -1; text-align: center; font-style: italic; color: #8b95a1; padding: 50px 0;
 }
 
+.guida-alberghi-titolo {
+  font-family: var(--serif); font-size: 1.4rem; font-weight: 500; text-align: center;
+  margin: 10px 0 22px;
+}
+.guida-alberghi-zona .guida-lista { margin-bottom: 70px; }
+
 @media (max-width: 900px) { .guida-lista { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 600px) {
   .guida-lista { grid-template-columns: 1fr; }
