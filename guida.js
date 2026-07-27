@@ -2783,7 +2783,7 @@ var GUIDA=[
     "mappa": "Molo di Levante 74, Cesenatico, FC"
   },
   {
-    "nome": "Massimo",
+    "nome": "Crotto del Sergente",
     "indirizzo": "Via Crotto del Sergente 13",
     "citta": "Como",
     "provincia": "CO",
