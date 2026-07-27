@@ -742,9 +742,8 @@ function costruisciHotel() {
       if (r.tel) btn += '<a class="btn btn--pieno" href="tel:' + esc(r.tel.replace(/\s/g, "")) + '">Chiama</a>';
       if (r.mappa) btn += '<a class="btn" href="' + urlMappa(r.mappa) + '" target="_blank" rel="noopener">Mappa</a>';
       if (r.web) btn += '<a class="btn" href="' + esc(r.web) + '" target="_blank" rel="noopener">Sito</a>';
-      const noteSimbolo = /[🌅🌄🌳♥️🏖️🏞️👑⛰️]/.test(r.note || "");
       return '<article class="rist">' +
-        '<div class="rist-nome">' + esc(r.nome) + (noteSimbolo ? " " + r.note : "") + '</div>' +
+        '<div class="rist-nome">' + esc(r.nome) + '</div>' +
         (r.luogo ? '<div class="rist-luogo">' + esc(r.luogo) + '</div>' : '<div class="rist-luogo rist-luogo--vuoto">zona non indicata</div>') +
         '<div class="azioni rist-azioni">' + btn + '</div>' +
       '</article>';
