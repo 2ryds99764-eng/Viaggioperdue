@@ -808,7 +808,11 @@ function costruisciHotel() {
     let items = dati;
     if (reg) items = items.filter(function (r) { return r.regione === reg; });
     if (prov) items = items.filter(function (r) { return r.prov === prov; });
-    if (simbolo) items = items.filter(function (r) { return (r.note || "").indexOf(simbolo) !== -1; });
+    if (simbolo) items = items.filter(function (r) {
+      const note = r.note || "";
+      if (simbolo === "⛰️") return note.indexOf("⛰️") !== -1 || note.indexOf("⛰") !== -1;
+      return note.indexOf(simbolo) !== -1;
+    });
     if (q) items = items.filter(function (r) {
       const nome = (r.nome || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
       const luogo = (r.luogo || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
