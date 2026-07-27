@@ -8,8 +8,8 @@ var GUIDA=[
     "prov": "AL",
     "regione": "Piemonte",
     "luogo": "Casale Monferrato (AL)",
-    "tel": "+390142452269",
-    "telefono": "+390142452269",
+    "tel": "+39 0142 452269",
+    "telefono": "+39 0142 452269",
     "web": "https://www.accademiaristorante.it",
     "mappa": "Via Mameli 29, Casale Monferrato, AL"
   },
@@ -131,7 +131,7 @@ var GUIDA=[
     "mappa": "Largo della Crocetta 1, Milano, MI"
   },
   {
-    "nome": "Alessandro Gilmozzi",
+    "nome": "El Molin",
     "indirizzo": "Piazza Cesare Battisti 11",
     "citta": "Cavalese",
     "provincia": "TN",
@@ -255,8 +255,8 @@ var GUIDA=[
     "prov": "SA",
     "regione": "Campania",
     "luogo": "Caggiano (SA)",
-    "tel": "+3909751966171",
-    "telefono": "+3909751966171",
+    "tel": "+39 0975 1966171",
+    "telefono": "+39 0975 1966171",
     "web": "https://www.legrotticelle.it",
     "mappa": "Grotticelle 1, Caggiano, SA"
   },
@@ -1171,7 +1171,7 @@ var GUIDA=[
     "mappa": "Via Trevisago 68, Manerba del Garda, BS"
   },
   {
-    "nome": "Davide Pola",
+    "nome": "L’Alpe",
     "indirizzo": "Via Negheli 37",
     "citta": "Folgaria",
     "provincia": "TN",
@@ -1197,7 +1197,7 @@ var GUIDA=[
     "mappa": "Viale Rimembranze 58/60, Palmi, RC"
   },
   {
-    "nome": "De Simone Crescenzo",
+    "nome": "Eughenes",
     "indirizzo": "Via Roncato 9",
     "citta": "Massa Lubrense",
     "provincia": "",
@@ -1340,7 +1340,7 @@ var GUIDA=[
     "mappa": "Via Bernasconi 60, Cosio Valtellino, SO"
   },
   {
-    "nome": "Elvira Previdi",
+    "nome": "Trattoria Entrà",
     "indirizzo": "Via Salde Entrà 60",
     "citta": "Località Entrà Finale Emilia",
     "provincia": "MO",
@@ -1418,19 +1418,6 @@ var GUIDA=[
     "mappa": "Località Portonovo 171, Ancona, AN"
   },
   {
-    "nome": "Villa Chiara Orto e Cucina",
-    "indirizzo": "Via Pacognano 19",
-    "citta": "Vico Equense",
-    "provincia": "",
-    "prov": "",
-    "regione": "Campania",
-    "luogo": "Vico Equense",
-    "tel": "+390818029165",
-    "telefono": "+390818029165",
-    "web": "https://www.villa-chiara.com",
-    "mappa": "Via Pacognano 19, Vico Equense"
-  },
-  {
     "nome": "Farmacia dei Sani",
     "indirizzo": "Piazza del Popolo 14",
     "citta": "Ruffano",
@@ -1457,7 +1444,7 @@ var GUIDA=[
     "mappa": "Via della Maulina 747, Lucca, LU"
   },
   {
-    "nome": "Federico Sisti",
+    "nome": "Frangente",
     "indirizzo": "Via Panfilo Castaldi 4",
     "citta": "Milano",
     "provincia": "MI",
@@ -1470,7 +1457,7 @@ var GUIDA=[
     "mappa": "Via Panfilo Castaldi 4, Milano, MI"
   },
   {
-    "nome": "Fiore",
+    "nome": "Riserva 24",
     "indirizzo": "Via Roma 64",
     "citta": "Serino",
     "provincia": "AV",
@@ -1535,17 +1522,17 @@ var GUIDA=[
     "mappa": "13 Paramithias street and Salaminos, Atene, GR"
   },
   {
-    "nome": "Gabriella",
-    "indirizzo": "Via Salvella 18",
-    "citta": "Rovato",
-    "provincia": "BS",
-    "prov": "BS",
+    "nome": "Crotto Belvedere",
+    "indirizzo": "Via alla Chiesa 6",
+    "citta": "Piuro",
+    "provincia": "SO",
+    "prov": "SO",
     "regione": "Lombardia",
-    "luogo": "Rovato (BS)",
-    "tel": "+39 335 5962554",
-    "telefono": "+39 335 5962554",
-    "web": "",
-    "mappa": "Via Salvella 18, Rovato, BS"
+    "luogo": "Piuro (SO)",
+    "tel": "+39 0343 33589",
+    "telefono": "+39 0343 33589",
+    "web": "https://www.crottobelvedere.com",
+    "mappa": "Via alla Chiesa 6, Piuro, SO"
   },
   {
     "nome": "Arnolfo",
@@ -1561,7 +1548,7 @@ var GUIDA=[
     "mappa": "Viale della Rimembranza 24, Colle di Val d'Elsa, SI"
   },
   {
-    "nome": "Gaio Giannelli",
+    "nome": "Pozzo di Bugia",
     "indirizzo": "Via Federigi 544",
     "citta": "Querceta",
     "provincia": "LU",
@@ -2445,7 +2432,7 @@ var GUIDA=[
     "mappa": "Via San Domenico 36, Firenze, FI"
   },
   {
-    "nome": "Lino Scarallo",
+    "nome": "Palazzo Petrucci",
     "indirizzo": "Via Posillipo 16/C",
     "citta": "Napoli",
     "provincia": "",
@@ -2458,7 +2445,7 @@ var GUIDA=[
     "mappa": "Via Posillipo 16/C, Napoli"
   },
   {
-    "nome": "Livia Cerliani",
+    "nome": "La Lampara",
     "indirizzo": "Via Tramonti 4",
     "citta": "Campiglia",
     "provincia": "SP",
@@ -2666,7 +2653,7 @@ var GUIDA=[
     "mappa": "Via IV Novembre 29, San Miniato, PI"
   },
   {
-    "nome": "H20",
+    "nome": "Manuel Lombardi",
     "indirizzo": "Via Pergola 10",
     "citta": "Moniga del Garda",
     "provincia": "BS",
@@ -3680,7 +3667,7 @@ var GUIDA=[
     "mappa": "Via Vincenzo Sorlini 14, Concesio, BS"
   },
   {
-    "nome": "Roberto Anesi",
+    "nome": "El Pael",
     "indirizzo": "Strèda Roma 58",
     "citta": "Canazei",
     "provincia": "TN",
@@ -3693,7 +3680,7 @@ var GUIDA=[
     "mappa": "Strèda Roma 58, Canazei, TN"
   },
   {
-    "nome": "Roberto Di Pinto",
+    "nome": "Sine",
     "indirizzo": "Via Lomellina 12",
     "citta": "Milano",
     "provincia": "MI",
@@ -3719,7 +3706,7 @@ var GUIDA=[
     "mappa": "Via Alberto Pasini 20, Parma, PR"
   },
   {
-    "nome": "Rocco",
+    "nome": "Charmant",
     "indirizzo": "Via Giuseppe Colombo 42",
     "citta": "Milano",
     "provincia": "MI",
@@ -3823,19 +3810,6 @@ var GUIDA=[
     "mappa": "Via Cesare Battisti 3, Treviglio, BG"
   },
   {
-    "nome": "Sanna",
-    "indirizzo": "Lungomare Matteotti 14",
-    "citta": "San Foca",
-    "provincia": "LE",
-    "prov": "LE",
-    "regione": "Puglia",
-    "luogo": "San Foca (LE)",
-    "tel": "+39 0832 881540",
-    "telefono": "+39 0832 881540",
-    "web": "",
-    "mappa": "Lungomare Matteotti 14, San Foca, LE"
-  },
-  {
     "nome": "Santa Barbara",
     "indirizzo": "Via Pier Capponi 72/A",
     "citta": "Firenze",
@@ -3875,7 +3849,7 @@ var GUIDA=[
     "mappa": "Via San Fedele 29, Colico, LC"
   },
   {
-    "nome": "Silvia",
+    "nome": "Selva",
     "indirizzo": "Via Giovanni Tempini 15",
     "citta": "Brescia",
     "provincia": "BS",
@@ -3901,7 +3875,7 @@ var GUIDA=[
     "mappa": "Via Patrioti 5, Fagnano Olona, VA"
   },
   {
-    "nome": "Simone Ollari",
+    "nome": "Simone",
     "indirizzo": "Strada per Parma Crocizia 3",
     "citta": "Pilastro",
     "provincia": "PR",
@@ -3951,19 +3925,6 @@ var GUIDA=[
     "telefono": "+39 071 202441",
     "web": "https://www.ristorantesotajarchi.it",
     "mappa": "Via Marconi 93, Ancona, AN"
-  },
-  {
-    "nome": "Spazio",
-    "indirizzo": "Galleria Vittorio Emanuele II · Piazza Duomo",
-    "citta": "Milano",
-    "provincia": "MI",
-    "prov": "MI",
-    "regione": "Lombardia",
-    "luogo": "Milano (MI)",
-    "tel": "+39 02 87840 0",
-    "telefono": "+39 02 87840 0",
-    "web": "",
-    "mappa": "Galleria Vittorio Emanuele II · Piazza Duomo, Milano, MI"
   },
   {
     "nome": "Spondi",
@@ -4912,4 +4873,3 @@ var GUIDA_REGPROV={
     "GB"
   ]
 };
-
