@@ -749,6 +749,34 @@ function costruisciHotel() {
       '</article>';
     }).join("");
   }
+  function disegnaRistorantiZona(prov) {
+    const box = document.getElementById("guida-ristoranti-zona");
+    if (!box) return;
+    if (!prov) {
+      box.innerHTML = "";
+      return;
+    }
+    const ristoranti = (window.GUIDA || []).filter(function (r) { return r.prov === prov; }).slice(0, 3);
+    if (!ristoranti.length) {
+      box.innerHTML = "";
+      return;
+    }
+    box.innerHTML =
+      '<h2 class="guida-alberghi-titolo">Ristoranti nella stessa zona</h2>' +
+      '<div class="guida-lista">' +
+      ristoranti.map(function (r) {
+        let btn = "";
+        if (r.tel) btn += '<a class="btn btn--pieno" href="tel:' + esc(r.tel.replace(/\s/g, "")) + '">Chiama</a>';
+        if (r.mappa) btn += '<a class="btn" href="' + urlMappa(r.mappa) + '" target="_blank" rel="noopener">Mappa</a>';
+        return '<article class="rist">' +
+          '<div class="rist-nome">' + esc(r.nome) + '</div>' +
+          (r.citta ? '<div class="rist-luogo">' + esc(r.citta) + '</div>' : '') +
+          (btn ? '<div class="azioni rist-azioni">' + btn + '</div>' : '') +
+        '</article>';
+      }).join("") +
+      '</div>';
+  }
+
   function aggiornaProvince() {
     const selReg = document.getElementById("cerca-regione-h");
     const selProv = document.getElementById("cerca-provincia-h");
@@ -780,6 +808,7 @@ function costruisciHotel() {
       return nome.indexOf(q) !== -1 || luogo.indexOf(q) !== -1;
     });
     disegna(items);
+    disegnaRistorantiZona(prov);
   }
   const inputNome = document.getElementById("cerca-nome-h");
   const selReg = document.getElementById("cerca-regione-h");
