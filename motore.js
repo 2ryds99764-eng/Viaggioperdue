@@ -740,6 +740,7 @@ function costruisciHotel() {
     lista.innerHTML = items.map(function (r) {
       let btn = "";
       if (r.tel) btn += '<a class="btn btn--pieno" href="tel:' + esc(r.tel.replace(/\s/g, "")) + '">Chiama</a>';
+      else if (r.cellulare) btn += '<a class="btn btn--pieno" href="tel:' + esc(r.cellulare.replace(/\s/g, "")) + '">Chiama</a>';
       if (r.mappa) btn += '<a class="btn" href="' + urlMappa(r.mappa) + '" target="_blank" rel="noopener">Mappa</a>';
       if (r.web) btn += '<a class="btn" href="' + esc(r.web) + '" target="_blank" rel="noopener">Sito</a>';
       return '<article class="rist">' +
