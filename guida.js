@@ -2653,7 +2653,7 @@ var GUIDA=[
     "mappa": "Via IV Novembre 29, San Miniato, PI"
   },
   {
-    "nome": "Manuel Lombardi",
+    "nome": "H2O",
     "indirizzo": "Via Pergola 10",
     "citta": "Moniga del Garda",
     "provincia": "BS",
@@ -2783,7 +2783,7 @@ var GUIDA=[
     "mappa": "Molo di Levante 74, Cesenatico, FC"
   },
   {
-    "nome": "Crotto del Sergente",
+    "nome": "Massimo",
     "indirizzo": "Via Crotto del Sergente 13",
     "citta": "Como",
     "provincia": "CO",
