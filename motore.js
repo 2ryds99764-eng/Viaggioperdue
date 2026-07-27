@@ -627,10 +627,14 @@ function costruisciGuida() {
       '<h2 class="guida-alberghi-titolo">Alberghi nella stessa zona</h2>' +
       '<div class="guida-lista">' +
       hotel.map(function (h) {
+        let btn = "";
+        if (h.tel) btn += '<a class="btn btn--pieno" href="tel:' + esc(h.tel.replace(/\s/g, "")) + '">Chiama</a>';
+        if (h.mappa) btn += '<a class="btn" href="' + urlMappa(h.mappa) + '" target="_blank" rel="noopener">Mappa</a>';
+        if (h.web) btn += '<a class="btn" href="' + esc(h.web) + '" target="_blank" rel="noopener">Sito</a>';
         return '<article class="rist">' +
           '<div class="rist-nome">' + esc(h.nome) + '</div>' +
           (h.citta ? '<div class="rist-luogo">' + esc(h.citta) + '</div>' : '') +
-          (h.web ? '<div class="azioni rist-azioni"><a class="btn" href="' + esc(h.web) + '" target="_blank" rel="noopener">Sito</a></div>' : '') +
+          (btn ? '<div class="azioni rist-azioni">' + btn + '</div>' : '') +
         '</article>';
       }).join("") +
       '</div>';
