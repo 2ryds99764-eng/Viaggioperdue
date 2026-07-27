@@ -829,3 +829,4 @@ function costruisciHotel() {
   disegna(dati);
   costruisciPie(T42.sito);
 }
+
