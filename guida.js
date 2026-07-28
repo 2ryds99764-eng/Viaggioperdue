@@ -209,19 +209,6 @@ var GUIDA=[
     "mappa": "S.S. Adriatica Sud 78, Metaurilia di Fano, PU"
   },
   {
-    "nome": "Amaltea",
-    "indirizzo": "Via Guglielmo Pepe 38",
-    "citta": "Milano",
-    "provincia": "MI",
-    "prov": "MI",
-    "regione": "Lombardia",
-    "luogo": "Milano (MI)",
-    "tel": "+39 02 606340",
-    "telefono": "+39 02 606340",
-    "web": "https://www.ristoranteamaltea.it",
-    "mappa": "Via Guglielmo Pepe 38, Milano, MI"
-  },
-  {
     "nome": "Amerigo 1934",
     "indirizzo": "Via Marconi 14-16",
     "citta": "Savigno",
@@ -703,7 +690,7 @@ var GUIDA=[
     "mappa": "Via Giudecca 36, Trapani, TP"
   },
   {
-    "nome": "Carmine Nicoletti",
+    "nome": "Chalet Nicoletti",
     "indirizzo": "Località Vesalo",
     "citta": "Laurino",
     "provincia": "SA",
@@ -872,7 +859,7 @@ var GUIDA=[
     "mappa": "80 rue de Charonne, Parigi, F"
   },
   {
-    "nome": "Claudio Mazzoni",
+    "nome": "La Posta",
     "indirizzo": "Via Giovanni Minzoni 24",
     "citta": "La Spezia",
     "provincia": "SP",
@@ -1158,19 +1145,6 @@ var GUIDA=[
     "mappa": "Via Baldassini 2, Pesaro, PU"
   },
   {
-    "nome": "Dario",
-    "indirizzo": "Via Trevisago 68",
-    "citta": "Manerba del Garda",
-    "provincia": "BS",
-    "prov": "BS",
-    "regione": "Lombardia",
-    "luogo": "Manerba del Garda (BS)",
-    "tel": "+39 347 2492388",
-    "telefono": "+39 347 2492388",
-    "web": "",
-    "mappa": "Via Trevisago 68, Manerba del Garda, BS"
-  },
-  {
     "nome": "L’Alpe",
     "indirizzo": "Via Negheli 37",
     "citta": "Folgaria",
@@ -1405,7 +1379,7 @@ var GUIDA=[
     "mappa": "Ronda Litoral 42, Barcellona, ES"
   },
   {
-    "nome": "Ezio Giacchetti",
+    "nome": "Giacchetti",
     "indirizzo": "Località Portonovo 171",
     "citta": "Ancona",
     "provincia": "AN",
@@ -2549,7 +2523,7 @@ var GUIDA=[
     "mappa": "Via Fornio 78, Fidenza, PR"
   },
   {
-    "nome": "Luca Pardini",
+    "nome": "Ceresio 7",
     "indirizzo": "Via Ceresio 7",
     "citta": "Milano",
     "provincia": "MI",
@@ -2705,7 +2679,7 @@ var GUIDA=[
     "mappa": "Via XXIV Maggio 1, Erba, CO"
   },
   {
-    "nome": "Maria",
+    "nome": "Il Ghiottone",
     "indirizzo": "Via Nazionale 42",
     "citta": "Policastro Bussentino",
     "provincia": "SA",
@@ -2731,7 +2705,7 @@ var GUIDA=[
     "mappa": "Sul lungomare, vicino alla ex fabbrica di olio e sapone, Kardamili, GR"
   },
   {
-    "nome": "Mariasole Cuomo",
+    "nome": "Spore",
     "indirizzo": "Via Passo Buole 4",
     "citta": "Milano",
     "provincia": "MI",
@@ -2744,7 +2718,7 @@ var GUIDA=[
     "mappa": "Via Passo Buole 4, Milano, MI"
   },
   {
-    "nome": "Mariella Gennari",
+    "nome": "Mariella",
     "indirizzo": "Via Fragnolo 29",
     "citta": "Calestano",
     "provincia": "PR",
@@ -2757,7 +2731,7 @@ var GUIDA=[
     "mappa": "Via Fragnolo 29, Calestano, PR"
   },
   {
-    "nome": "Mario Cornali",
+    "nome": "Collina",
     "indirizzo": "Via Ca' Paler 5 - Strada per Roncola San Be",
     "citta": "Almenno San Salvatore",
     "provincia": "BG",
@@ -2783,7 +2757,7 @@ var GUIDA=[
     "mappa": "Molo di Levante 74, Cesenatico, FC"
   },
   {
-    "nome": "Massimo",
+    "nome": "Crotto del Sergente",
     "indirizzo": "Via Crotto del Sergente 13",
     "citta": "Como",
     "provincia": "CO",
@@ -2809,7 +2783,7 @@ var GUIDA=[
     "mappa": "Ibiza, ES"
   },
   {
-    "nome": "Massimo Osele",
+    "nome": "Mille Grobbe",
     "indirizzo": "Località Millegrobbe",
     "citta": "Lavarone",
     "provincia": "TN",
@@ -2965,7 +2939,7 @@ var GUIDA=[
     "mappa": "Via Brigata Partigiana Muccini 181, Sarzana, SP"
   },
   {
-    "nome": "Omar Bertoletti",
+    "nome": "Trattoria dell’Alba",
     "indirizzo": "Via del Popolo 31",
     "citta": "Vho di Piadena",
     "provincia": "CR",
@@ -2978,7 +2952,7 @@ var GUIDA=[
     "mappa": "Via del Popolo 31, Vho di Piadena, CR"
   },
   {
-    "nome": "Omar Folini",
+    "nome": "La Svolta",
     "indirizzo": "Via Madonnina 35",
     "citta": "Castionetto di Chiuro",
     "provincia": "SO",
@@ -2992,7 +2966,7 @@ var GUIDA=[
   },
   {
     "nome": "Osteria 1927",
-    "indirizzo": "· Via Verri 19",
+    "indirizzo": "Via Verri 19",
     "citta": "Biassono",
     "provincia": "MB",
     "prov": "MB",
@@ -3001,7 +2975,7 @@ var GUIDA=[
     "tel": "+39 335 6850486",
     "telefono": "+39 335 6850486",
     "web": "",
-    "mappa": "· Via Verri 19, Biassono, MB"
+    "mappa": "Via Verri 19, Biassono, MB"
   },
   {
     "nome": "Osteria 99",
