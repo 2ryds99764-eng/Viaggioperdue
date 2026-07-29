@@ -1635,7 +1635,7 @@ var GUIDA=[
     "tel": "+39 0577 920549",
     "telefono": "+39 0577 920549",
     "web": "https://www.arnolfo.com",
-    "note": "🌅 ♥️",
+    "note": "🌄 ♥️",
     "mappa": "Viale della Rimembranza 24, Colle di Val d'Elsa, SI"
   },
   {
@@ -2377,7 +2377,7 @@ var GUIDA=[
     "tel": "+39 0143 685132",
     "telefono": "+39 0143 685132",
     "web": "https://www.villasparinaresort.it/it/ristorante-la-gall",
-    "note": "🌳 🌅 ♥️",
+    "note": "🌳 🌄 ♥️",
     "mappa": "Frazione Monterotondo 56, Gavi Piemonte, AL"
   },
   {
@@ -2447,7 +2447,7 @@ var GUIDA=[
     "tel": "+39 039 9930106",
     "telefono": "+39 039 9930106",
     "web": "",
-    "note": "🥪 🌳 🌅 ♥️",
+    "note": "🥪 🌳 🌄 ♥️",
     "mappa": "Piazza Canonico Iannuzzi, 2, Montevecchia, LC"
   },
   {
@@ -2489,7 +2489,7 @@ var GUIDA=[
     "tel": "+39 0143 642860",
     "telefono": "+39 0143 642860",
     "web": "https://www.la-raia.it/it",
-    "note": "Colli di Gavi · 🌳 🌅 ♥️",
+    "note": "Colli di Gavi · 🌳 🌄 ♥️",
     "mappa": "Località Lomellina 26, Gavi, AL"
   },
   {
@@ -2951,7 +2951,7 @@ var GUIDA=[
     "tel": "+39 035 642570",
     "telefono": "+39 035 642570",
     "web": "https://www.ristorantecollina.it",
-    "note": "🌳 🌅",
+    "note": "🌳 🌄",
     "mappa": "Via Ca' Paler 5 - Strada per Roncola San Be, Almenno San Salvatore, BG"
   },
   {
@@ -3217,7 +3217,7 @@ var GUIDA=[
     "tel": "+39 0342 454056",
     "telefono": "+39 0342 454056",
     "web": "",
-    "note": "🌳 🌅 ♥️",
+    "note": "🌳 🌄 ♥️",
     "mappa": "Via Franco Sampietro 28, Chiesa in Valmalenco, SO"
   },
   {
