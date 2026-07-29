@@ -769,7 +769,7 @@ function costruisciHotel() {
       '</article>';
     }).join("");
   }
-  function disegnaRistorantiZona(prov, citta) {
+  function disegnaRistorantiZona(prov, citta, simbolo) {
     const box = document.getElementById("guida-ristoranti-zona");
     if (!box) return;
     if (!prov && !citta) {
@@ -779,6 +779,9 @@ function costruisciHotel() {
     let ristoranti = citta ? (window.GUIDA || []).filter(function (r) { return r.citta === citta; }) : [];
     if (!ristoranti.length) {
       ristoranti = (window.GUIDA || []).filter(function (r) { return r.prov === prov; });
+    }
+    if (simbolo === "🌅") {
+      ristoranti = ristoranti.filter(function (r) { return (r.note || "").indexOf("🌅") !== -1; });
     }
     ristoranti = ristoranti.slice(0, 3);
     if (!ristoranti.length) {
@@ -837,7 +840,7 @@ function costruisciHotel() {
       return nome.indexOf(q) !== -1 || luogo.indexOf(q) !== -1;
     });
     disegna(items);
-    disegnaRistorantiZona(items[0] ? items[0].prov : prov, items[0] ? items[0].citta : "");
+    disegnaRistorantiZona(items[0] ? items[0].prov : prov, items[0] ? items[0].citta : "", simbolo);
   }
   const inputNome = document.getElementById("cerca-nome-h");
   const selReg = document.getElementById("cerca-regione-h");
