@@ -329,6 +329,49 @@ body::before {
   margin-top: 16px; max-width: 42ch;
 }
 
+/* BANNER STAGIONALE "Pied dans l'eau" — visibile solo giugno-settembre (vedi script in index.html) */
+.banner-estate {
+  display: none; position: relative; min-height: 60vh; width: 100%; overflow: hidden;
+  background: var(--blu-notte);
+}
+.banner-estate.mostra { display: flex; align-items: center; justify-content: center; }
+.banner-estate-img {
+  position: absolute; inset: 0; background-size: cover; background-position: center;
+  transform: scale(1.04);
+}
+.banner-estate-velo {
+  position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(20,35,63,0.35) 0%, rgba(20,35,63,0.25) 40%, rgba(20,35,63,0.62) 100%);
+}
+.banner-estate-dentro {
+  position: relative; z-index: 2; text-align: center; color: #fff;
+  padding: 70px 24px; max-width: 640px; margin: 0 auto;
+}
+.banner-estate-occhiello {
+  display: block; font-family: var(--sans); font-size: 0.72rem; letter-spacing: 0.32em;
+  text-transform: uppercase; color: rgba(255,255,255,0.85); margin-bottom: 18px;
+}
+.banner-estate-titolo {
+  font-family: var(--serif); font-weight: 500; font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.15;
+}
+.banner-estate-sotto {
+  font-family: var(--serif); font-style: italic; font-weight: 300;
+  font-size: clamp(1rem, 2.2vw, 1.25rem); line-height: 1.6; margin: 22px auto 0; max-width: 46ch;
+  color: rgba(255,255,255,0.95); text-shadow: 0 1px 12px rgba(0,0,0,0.3);
+}
+.banner-estate-cta {
+  display: inline-block; margin-top: 30px; font-family: var(--sans); font-size: 0.78rem;
+  letter-spacing: 0.18em; text-transform: uppercase; color: #fff; text-decoration: none;
+  border: 1px solid rgba(255,255,255,0.7); padding: 12px 28px;
+  transition: background .35s, border-color .35s;
+}
+.banner-estate-cta:hover { background: rgba(255,255,255,0.15); border-color: #fff; }
+
+@media (max-width: 600px) {
+  .banner-estate { min-height: 48vh; }
+  .banner-estate-dentro { padding: 50px 20px; }
+}
+
 /* CATEGORIE come grandi tessere fotografiche */
 .categorie-immersive { padding: 80px 22px 30px; }
 .cat-occhiello {
