@@ -11,6 +11,7 @@ var GUIDA=[
     "tel": "+39 0142 452269",
     "telefono": "+39 0142 452269",
     "web": "https://www.accademiaristorante.it",
+    "note": "",
     "mappa": "Via Mameli 29, Casale Monferrato, AL"
   },
   {
@@ -24,6 +25,7 @@ var GUIDA=[
     "tel": "+39 089 261606",
     "telefono": "+39 089 261606",
     "web": "http://www.acquapazza.it",
+    "note": "",
     "mappa": "Corso Garibaldi 38, Cetara, SA"
   },
   {
@@ -37,6 +39,7 @@ var GUIDA=[
     "tel": "+41 44 422 72 42",
     "telefono": "+41 44 422 72 42",
     "web": "https://www.restaurantgandria.ch",
+    "note": "",
     "mappa": "Rudolfstrasse 6, Zurigo, ZH"
   },
   {
@@ -50,6 +53,7 @@ var GUIDA=[
     "tel": "+39 040 301771",
     "telefono": "+39 040 301771",
     "web": "https://www.albagatto.it",
+    "note": "",
     "mappa": "Via Luigi Cadorna 7, Trieste, TS"
   },
   {
@@ -63,6 +67,7 @@ var GUIDA=[
     "tel": "+39 02 49533630",
     "telefono": "+39 02 49533630",
     "web": "http://www.alfrescomilano.it",
+    "note": "",
     "mappa": "Via Savona 50, Milano, MI"
   },
   {
@@ -76,6 +81,7 @@ var GUIDA=[
     "tel": "+39 039 9930850",
     "telefono": "+39 039 9930850",
     "web": "https://algaleazzino.wixsite.com/algaleazzino",
+    "note": "Chiuso il venerdì",
     "mappa": "Via Galeazzino 4, Montevecchia (LC), Montevecchia, MB"
   },
   {
@@ -89,6 +95,7 @@ var GUIDA=[
     "tel": "+39 02 87237167",
     "telefono": "+39 02 87237167",
     "web": "https://www.al-mercato.it",
+    "note": "",
     "mappa": "Via Sant'Eufemia 16, Milano, MI"
   },
   {
@@ -102,6 +109,7 @@ var GUIDA=[
     "tel": "+39 0873 803428",
     "telefono": "+39 0873 803428",
     "web": "https://www.ristorantealmetro.it",
+    "note": "Chiuso domenica sera e lunedì",
     "mappa": "Via F. Magellano 35, San Salvo, CH"
   },
   {
@@ -115,6 +123,7 @@ var GUIDA=[
     "tel": "+39 02 89407425",
     "telefono": "+39 02 89407425",
     "web": "https://alportomilano.it",
+    "note": "",
     "mappa": "Piazza General Antonio Cantore 13, Milano, MI"
   },
   {
@@ -128,6 +137,7 @@ var GUIDA=[
     "tel": "+39 329 0112243",
     "telefono": "+39 329 0112243",
     "web": "https://staderamilano.it",
+    "note": "Gastronomia contemporanea",
     "mappa": "Largo della Crocetta 1, Milano, MI"
   },
   {
@@ -141,6 +151,7 @@ var GUIDA=[
     "tel": "+39 0462 340074",
     "telefono": "+39 0462 340074",
     "web": "https://www.alessandrogilmozzi.it",
+    "note": "",
     "mappa": "Piazza Cesare Battisti 11, Cavalese, TN"
   },
   {
@@ -154,6 +165,7 @@ var GUIDA=[
     "tel": "+39 349 5140485",
     "telefono": "+39 349 5140485",
     "web": "https://www.ristoranteduepini.com",
+    "note": "Presso Hotel Chalet del Sogno",
     "mappa": "Via Spinale 37b, Madonna di Campiglio, TN"
   },
   {
@@ -167,6 +179,7 @@ var GUIDA=[
     "tel": "+39 348 9156166",
     "telefono": "+39 348 9156166",
     "web": "https://www.vistapalazzo.com/lago_como/ristorante-sottovoce/",
+    "note": "",
     "mappa": "Piazza Cavour 24, Como, CO"
   },
   {
@@ -180,6 +193,7 @@ var GUIDA=[
     "tel": "+39 089 874091",
     "telefono": "+39 089 874091",
     "web": "https://alfonsoamare.it",
+    "note": "🌳🌅♥️",
     "mappa": "Via Marina di Praia 6, Praiano, SA"
   },
   {
@@ -193,6 +207,7 @@ var GUIDA=[
     "tel": "+34 932 076 115",
     "telefono": "+34 932 076 115",
     "web": "https://www.alkimia.com",
+    "note": "Chiuso sabato a mezzogiorno e domenica",
     "mappa": "Carrer de la indústria 70, Barcellona, ES"
   },
   {
@@ -206,6 +221,7 @@ var GUIDA=[
     "tel": "+39 0721 884748",
     "telefono": "+39 0721 884748",
     "web": "https://www.allalanterna.com",
+    "note": "Chiuso il lunedì e la domenica a pranzo",
     "mappa": "S.S. Adriatica Sud 78, Metaurilia di Fano, PU"
   },
   {
@@ -219,6 +235,7 @@ var GUIDA=[
     "tel": "+39 051 6708326",
     "telefono": "+39 051 6708326",
     "web": "https://www.amerigo1934.it",
+    "note": "Premiate trattorie italiane",
     "mappa": "Via Marconi 14-16, Savigno, BO"
   },
   {
@@ -232,6 +249,7 @@ var GUIDA=[
     "tel": "+39 331 1076958",
     "telefono": "+39 331 1076958",
     "web": "https://www.osteriadelborro.it",
+    "note": "",
     "mappa": "Località Borro 1, San Giustino Valdarno, AR"
   },
   {
@@ -245,6 +263,7 @@ var GUIDA=[
     "tel": "+39 0975 1966171",
     "telefono": "+39 0975 1966171",
     "web": "https://www.legrotticelle.it",
+    "note": "",
     "mappa": "Grotticelle 1, Caggiano, SA"
   },
   {
@@ -258,6 +277,7 @@ var GUIDA=[
     "tel": "+39 035 0787497",
     "telefono": "+39 035 0787497",
     "web": "",
+    "note": "Vini naturali · Chiuso il lunedì e domenica sera",
     "mappa": "Via Moroni 88, Bergamo, BG"
   },
   {
@@ -271,6 +291,7 @@ var GUIDA=[
     "tel": "+39 0836 564301",
     "telefono": "+39 0836 564301",
     "web": "https://www.animaecuore.it",
+    "note": "",
     "mappa": "Corso Garibaldi 7, Galatina, LE"
   },
   {
@@ -284,6 +305,7 @@ var GUIDA=[
     "tel": "+39 0833 775213",
     "telefono": "+39 0833 775213",
     "web": "",
+    "note": "Pescaturismo",
     "mappa": "Lungomare Cristoforo Colombo 147 · Borgo Pes, Tricase, LE"
   },
   {
@@ -297,6 +319,7 @@ var GUIDA=[
     "tel": "+39 0342 720355",
     "telefono": "+39 0342 720355",
     "web": "",
+    "note": "",
     "mappa": "Via Monti 46, Bianzone, SO"
   },
   {
@@ -310,6 +333,7 @@ var GUIDA=[
     "tel": "+39 0524 936539",
     "telefono": "+39 0524 936539",
     "web": "https://www.acpallavicina.com",
+    "note": "",
     "mappa": "Strada Palazzo Due Torri 3, Polesine Zibello, PR"
   },
   {
@@ -323,6 +347,7 @@ var GUIDA=[
     "tel": "+390376328431",
     "telefono": "+390376328431",
     "web": "https://www.ranari.it",
+    "note": "Chiuso il lunedì",
     "mappa": "Via Trieste 11, Mantova, MN"
   },
   {
@@ -336,6 +361,7 @@ var GUIDA=[
     "tel": "+39 041 5185009",
     "telefono": "+39 041 5185009",
     "web": "",
+    "note": "",
     "mappa": "Via Marghera 24, Lughetto, VE"
   },
   {
@@ -349,6 +375,7 @@ var GUIDA=[
     "tel": "+39 02 9085276",
     "telefono": "+39 02 9085276",
     "web": "https://www.trattoriadelgallo.com",
+    "note": "Premiate trattorie italiane",
     "mappa": "Via Privata Gerli 3, Vigano Certosino, MI"
   },
   {
@@ -362,6 +389,7 @@ var GUIDA=[
     "tel": "+39 055 8778203",
     "telefono": "+39 055 8778203",
     "web": "https://antica-trattoria-di-tramway.eatbu.com/?lang=it",
+    "note": "8,1 km dall'uscita A11 Prato Est",
     "mappa": "Via Pistoiese 353-357 · Localita S. Angelo a, Signa, FI"
   },
   {
@@ -375,6 +403,7 @@ var GUIDA=[
     "tel": "+39 011 3854347",
     "telefono": "+39 011 3854347",
     "web": "",
+    "note": "Aperto solo la sera · Chiuso la domenica",
     "mappa": "Via Cenischia 9, Torino, TO"
   },
   {
@@ -388,6 +417,7 @@ var GUIDA=[
     "tel": "+39 0521 648165",
     "telefono": "+39 0521 648165",
     "web": "https://www.trattoria-antichisapori.com",
+    "note": "Savarin di riso con ricetta di Mirella Cantarelli · Chiuso martedì e mercoledì",
     "mappa": "Strada Montanara 318, Gaione, PR"
   },
   {
@@ -401,6 +431,7 @@ var GUIDA=[
     "tel": "+39 055 597252",
     "telefono": "+39 055 597252",
     "web": "https://www.ristoranteserrae.it",
+    "note": "",
     "mappa": "Via Frà Giovanni da Fiesole detto l'Angelico 35, Fiesole, FI"
   },
   {
@@ -414,6 +445,7 @@ var GUIDA=[
     "tel": "+39 089 871029",
     "telefono": "+39 089 871029",
     "web": "http://www.ristorantelacaravella.it",
+    "note": "Chiuso il martedì",
     "mappa": "Via Matteo Camera 12, Amalfi, SA"
   },
   {
@@ -427,6 +459,7 @@ var GUIDA=[
     "tel": "+39 0719720971",
     "telefono": "+39 0719720971",
     "web": "https://www.viewnumana.it/ristorante-view",
+    "note": "",
     "mappa": "Via Flaminia 109, Numana, Numana, AN"
   },
   {
@@ -440,6 +473,7 @@ var GUIDA=[
     "tel": "+39 0984 578044",
     "telefono": "+39 0984 578044",
     "web": "https://www.hotelaquilaedelweiss.com",
+    "note": "",
     "mappa": "Viale Stazione 13/15, Camigliatello Silano, CS"
   },
   {
@@ -453,6 +487,7 @@ var GUIDA=[
     "tel": "+39 0827 23888",
     "telefono": "+39 0827 23888",
     "web": "",
+    "note": "",
     "mappa": "Borgo San Rocco, Sant'Angelo dei Lombardi, AV"
   },
   {
@@ -466,6 +501,7 @@ var GUIDA=[
     "tel": "+39 0143 835208",
     "telefono": "+39 0143 835208",
     "web": "https://www.archivoltoosterianostrale.com",
+    "note": "Chiuso il mercoledì",
     "mappa": "Piazza Garibaldi 32, Ovada, AL"
   },
   {
@@ -479,6 +515,7 @@ var GUIDA=[
     "tel": "+33 (0) 1 56 81 30 01",
     "telefono": "+33 (0) 1 56 81 30 01",
     "web": "https://www.ateliermaitrealbert.com",
+    "note": "",
     "mappa": "1 rue Maître Albert, Parigi, F"
   },
   {
@@ -492,6 +529,7 @@ var GUIDA=[
     "tel": "+39 051 846216",
     "telefono": "+39 051 846216",
     "web": "https://www.casamazzucchelli.com",
+    "note": "Inserire nel navigatore: Via Mezzana - Sasso Marconi",
     "mappa": "Porretana 291, Sasso Marconi, BO"
   },
   {
@@ -505,6 +543,7 @@ var GUIDA=[
     "tel": "+39 0865 271528",
     "telefono": "+39 0865 271528",
     "web": "https://www.ausaristorante.it",
+    "note": "Chiuso domenica a cena e l'intero mercoledì",
     "mappa": "Via Occidentale 109, Isernia, IS"
   },
   {
@@ -518,6 +557,7 @@ var GUIDA=[
     "tel": "+39 0931 453625",
     "telefono": "+39 0931 453625",
     "web": "https://acavaristorante.it",
+    "note": "Chiuso il lunedì",
     "mappa": "Corso Savoia, Rosolini, SR"
   },
   {
@@ -531,6 +571,7 @@ var GUIDA=[
     "tel": "",
     "telefono": "",
     "web": "https://www.ristorantebacco.it",
+    "note": "",
     "mappa": "Piazza Marina 30, Barletta, BT"
   },
   {
@@ -544,6 +585,7 @@ var GUIDA=[
     "tel": "+39 0522 989138",
     "telefono": "+39 0522 989138",
     "web": "https://www.ristorantebadessa.it",
+    "note": "Chiuso il lunedi · Aperto mezzogiorno e sera",
     "mappa": "Via Case Secchia 2 A, Casalgrande, RE"
   },
   {
@@ -557,6 +599,7 @@ var GUIDA=[
     "tel": "+39 0342 452962",
     "telefono": "+39 0342 452962",
     "web": "",
+    "note": "",
     "mappa": "Via San Giovanni Bosco 115, Caspoggio, SO"
   },
   {
@@ -570,6 +613,7 @@ var GUIDA=[
     "tel": "+39 0836 312930",
     "telefono": "+39 0836 312930",
     "web": "https://www.hotelbelami.it",
+    "note": "",
     "mappa": "Via Roma 86, Maglie, LE"
   },
   {
@@ -583,6 +627,7 @@ var GUIDA=[
     "tel": "+39 328 3157448",
     "telefono": "+39 328 3157448",
     "web": "",
+    "note": "Chiuso: lunedì, martedì",
     "mappa": "Via Pablo Neruda 18, Agazzano, PC"
   },
   {
@@ -596,6 +641,7 @@ var GUIDA=[
     "tel": "+39 338 7706128",
     "telefono": "+39 338 7706128",
     "web": "",
+    "note": "",
     "mappa": "Via XX Settembre 50, Colle di Val d'Elsa, Colle di Val d'Elsa, SI"
   },
   {
@@ -609,6 +655,7 @@ var GUIDA=[
     "tel": "+39 0461 701670",
     "telefono": "+39 0461 701670",
     "web": "https://www.boivin.it",
+    "note": "Premiate trattorie italiane",
     "mappa": "Via Garibaldi 9, Levico Terme, TN"
   },
   {
@@ -622,6 +669,7 @@ var GUIDA=[
     "tel": "+39 0832 092601",
     "telefono": "+39 0832 092601",
     "web": "https://www.brosrestaurant.it",
+    "note": "",
     "mappa": "Via Acaja 2, Lecce, LE"
   },
   {
@@ -635,6 +683,7 @@ var GUIDA=[
     "tel": "+39028058051",
     "telefono": "+39028058051",
     "web": "https://www.bulgarihotels.com/milan/dining/il-ristorante",
+    "note": "",
     "mappa": "Via Privata Fratelli Gabba 7/B, Milano, MI"
   },
   {
@@ -648,6 +697,7 @@ var GUIDA=[
     "tel": "+39 0383 52224",
     "telefono": "+39 0383 52224",
     "web": "",
+    "note": "",
     "mappa": "Località Bosmenso Superiore 41, Varzi, PV"
   },
   {
@@ -661,6 +711,7 @@ var GUIDA=[
     "tel": "+39 0323 800970",
     "telefono": "+39 0323 800970",
     "web": "",
+    "note": "",
     "mappa": "Piazza Vittorio Veneto 8, Mergozzo, VB"
   },
   {
@@ -674,6 +725,7 @@ var GUIDA=[
     "tel": "+39 0375 396161",
     "telefono": "+39 0375 396161",
     "web": "https://www.caffelacrepa.it",
+    "note": "Premiate trattorie italiane",
     "mappa": "Piazza Matteotti 14, Isola Dovarese, CR"
   },
   {
@@ -687,6 +739,7 @@ var GUIDA=[
     "tel": "+39 0923 28673",
     "telefono": "+39 0923 28673",
     "web": "",
+    "note": "Chiuso il mercoledì, mai d'estate · Aperto a mezzogiorno e alla sera ·",
     "mappa": "Via Giudecca 36, Trapani, TP"
   },
   {
@@ -700,6 +753,7 @@ var GUIDA=[
     "tel": "+393498546265",
     "telefono": "+393498546265",
     "web": "https://www.chaletnicoletti.it",
+    "note": "Strada Provinciale 371 · Cilento",
     "mappa": "Località Vesalo, Laurino, SA"
   },
   {
@@ -713,6 +767,7 @@ var GUIDA=[
     "tel": "+39 045 6200766",
     "telefono": "+39 045 6200766",
     "web": "https://www.casadeglispiriti.it",
+    "note": "",
     "mappa": "Via Monte Baldo 28, Costermano, VR"
   },
   {
@@ -726,6 +781,7 @@ var GUIDA=[
     "tel": "+39 0341 422122",
     "telefono": "+39 0341 422122",
     "web": "https://www.ristorantenicolin.it",
+    "note": "",
     "mappa": "Via Ponchielli 54, Lecco, LC"
   },
   {
@@ -739,6 +795,7 @@ var GUIDA=[
     "tel": "+39 0923 546618",
     "telefono": "+39 0923 546618",
     "web": "",
+    "note": "Chiuso il martedì, mai d'estate · Aperto la sera, sabato e domenica a pranzo",
     "mappa": "Via San Francesco d'Assisi 32, Trapani, TP"
   },
   {
@@ -752,6 +809,7 @@ var GUIDA=[
     "tel": "+39 0364 91777",
     "telefono": "+39 0364 91777",
     "web": "",
+    "note": "",
     "mappa": "Via San Giovanni 79, Ponte di Legno, BS"
   },
   {
@@ -765,6 +823,7 @@ var GUIDA=[
     "tel": "+39 0546 88054",
     "telefono": "+39 0546 88054",
     "web": "",
+    "note": "",
     "mappa": "Vicolo S. Antonio 7, Faenza, RA"
   },
   {
@@ -778,6 +837,7 @@ var GUIDA=[
     "tel": "+39 0185 74128",
     "telefono": "+39 0185 74128",
     "web": "https://www.manuelina.it",
+    "note": "Chiuso il mercoledì",
     "mappa": "Via Roma 296, Recco, GE"
   },
   {
@@ -791,6 +851,7 @@ var GUIDA=[
     "tel": "+39 0173 520141",
     "telefono": "+39 0173 520141",
     "web": "",
+    "note": "",
     "mappa": "Via Umberto I 9, Albareto Torre, CN"
   },
   {
@@ -804,6 +865,7 @@ var GUIDA=[
     "tel": "+39 0331 968472",
     "telefono": "+39 0331 968472",
     "web": "",
+    "note": "",
     "mappa": "Via Labiena 1861, Comabbio, VA"
   },
   {
@@ -817,6 +879,7 @@ var GUIDA=[
     "tel": "+39 055 2341100",
     "telefono": "+39 055 2341100",
     "web": "http://www.cibreo.com/trattoria/#cucina",
+    "note": "",
     "mappa": "Via de’ Macci 122r, Firenze, FI"
   },
   {
@@ -830,6 +893,7 @@ var GUIDA=[
     "tel": "+39 0831 388980",
     "telefono": "+39 0831 388980",
     "web": "https://www.ristorantecibus.it",
+    "note": "Premiate trattorie italiane",
     "mappa": "Via Chianche di Scarano 7, Ceglie Messapica, BR"
   },
   {
@@ -843,6 +907,7 @@ var GUIDA=[
     "tel": "+39 333 1056719",
     "telefono": "+39 333 1056719",
     "web": "http://www.ristorantesaturnino.it",
+    "note": "",
     "mappa": "Via Marina, Forio, NA"
   },
   {
@@ -856,6 +921,7 @@ var GUIDA=[
     "tel": "+33 1 43 72 74 53",
     "telefono": "+33 1 43 72 74 53",
     "web": "https://clamato-charonne.fr",
+    "note": "Pesce e frutti di mare",
     "mappa": "80 rue de Charonne, Parigi, F"
   },
   {
@@ -869,6 +935,7 @@ var GUIDA=[
     "tel": "+39 0187 760437",
     "telefono": "+39 0187 760437",
     "web": "https://www.ristorantelaposta.it",
+    "note": "Cucina di pesce",
     "mappa": "Via Giovanni Minzoni 24, La Spezia, SP"
   },
   {
@@ -882,6 +949,7 @@ var GUIDA=[
     "tel": "+39 0522 626124",
     "telefono": "+39 0522 626124",
     "web": "http://www.clinicagastronomica.com",
+    "note": "Chiuso domenica sera e lunedì",
     "mappa": "Piazza XXIV Maggio 3, Rubiera, RE"
   },
   {
@@ -895,6 +963,7 @@ var GUIDA=[
     "tel": "+39 0521 981990",
     "telefono": "+39 0521 981990",
     "web": "https://www.ristorantecocchi.it",
+    "note": "",
     "mappa": "Via Gramsci 16/A, Parma, PR"
   },
   {
@@ -908,6 +977,7 @@ var GUIDA=[
     "tel": "+39 0571 409593",
     "telefono": "+39 0571 409593",
     "web": "https://www.collebrunacchi.it",
+    "note": "",
     "mappa": "Via Collebrunacchi 6/A, San Miniato, PI"
   },
   {
@@ -921,6 +991,7 @@ var GUIDA=[
     "tel": "+39 011 2767661",
     "telefono": "+39 011 2767661",
     "web": "http://www.ristoranteconsorzio.it",
+    "note": "Chiuso domenica e lunedì",
     "mappa": "Via Monte di Pietà 23, Torino, TO"
   },
   {
@@ -934,6 +1005,7 @@ var GUIDA=[
     "tel": "+39 331 1138645",
     "telefono": "+39 331 1138645",
     "web": "https://www.cristianmagri.it",
+    "note": "",
     "mappa": "Via Meriggia 3, Settimo Milanese, MI"
   },
   {
@@ -947,6 +1019,7 @@ var GUIDA=[
     "tel": "+39 0343 41003",
     "telefono": "+39 0343 41003",
     "web": "",
+    "note": "Aperto da giovedì a domenica",
     "mappa": "Via Don Primo Lucchinetti 63, Mese, SO"
   },
   {
@@ -960,6 +1033,7 @@ var GUIDA=[
     "tel": "+39 392 5510969",
     "telefono": "+39 392 5510969",
     "web": "https://www.c-ucina.it",
+    "note": "",
     "mappa": "Via Giano della Bella 3 rosso, Firenze, FI"
   },
   {
@@ -973,6 +1047,7 @@ var GUIDA=[
     "tel": "+39 035 4371900",
     "telefono": "+39 035 4371900",
     "web": "https://www.cucinacereda.com",
+    "note": "",
     "mappa": "Via Piazzini 33 · Passaggio Toscanini, Ponte San Pietro, BG"
   },
   {
@@ -986,6 +1061,7 @@ var GUIDA=[
     "tel": "+39 0433 778692",
     "telefono": "+39 0433 778692",
     "web": "https://www.osteriadaalvise.it",
+    "note": "Chiuso il mercoledì",
     "mappa": "Via  1º Maggio 5, Sutrio, UD"
   },
   {
@@ -999,6 +1075,7 @@ var GUIDA=[
     "tel": "+39 0373 658920",
     "telefono": "+39 0373 658920",
     "web": "",
+    "note": "",
     "mappa": "Lago Gerundo 15, Madignano, CR"
   },
   {
@@ -1012,6 +1089,7 @@ var GUIDA=[
     "tel": "+390564602817",
     "telefono": "+390564602817",
     "web": "http://www.dacaino.com",
+    "note": "",
     "mappa": "Via della Chiesa 4, Montemerano, GR"
   },
   {
@@ -1025,6 +1103,7 @@ var GUIDA=[
     "tel": "+39 0372 730260",
     "telefono": "+39 0372 730260",
     "web": "https://www.dagiacomo.it",
+    "note": "Chiuso il lunedì e il martedì 🌳",
     "mappa": "Piazza Municipio 2, Pizzighettone, CR"
   },
   {
@@ -1038,6 +1117,7 @@ var GUIDA=[
     "tel": "+39 0131 878135",
     "telefono": "+39 0131 878135",
     "web": "https://www.ristorantedagiuseppe.it",
+    "note": "",
     "mappa": "Via IV Novembre 7, Montemarzino, AL"
   },
   {
@@ -1051,6 +1131,7 @@ var GUIDA=[
     "tel": "+39 0721 808962",
     "telefono": "+39 0721 808962",
     "web": "",
+    "note": "",
     "mappa": "Via IV Novembre 86, Fano, PS"
   },
   {
@@ -1064,6 +1145,7 @@ var GUIDA=[
     "tel": "+39 071 7360507",
     "telefono": "+39 071 7360507",
     "web": "",
+    "note": "🌳 🌅",
     "mappa": "Spiaggia San Michele Sassi Neri · Via Salett, Sirolo, AN"
   },
   {
@@ -1077,6 +1159,7 @@ var GUIDA=[
     "tel": "+39 349 356 5436",
     "telefono": "+39 349 356 5436",
     "web": "",
+    "note": "Materie prime di grande qualità; Chiuso il lunedì",
     "mappa": "Via Piacenza 13, Milano, MI"
   },
   {
@@ -1090,6 +1173,7 @@ var GUIDA=[
     "tel": "+39 0376 723001",
     "telefono": "+39 0376 723001",
     "web": "https://www.dalpescatore.com/it",
+    "note": "Chiuso lunedì e martedì, mercoledì e giovedì aperto solo la sera, sempre aperto negli altri giorni ",
     "mappa": "Località Runate 15 · Riserva del Parco Oglio, Runate, MN"
   },
   {
@@ -1103,6 +1187,7 @@ var GUIDA=[
     "tel": "+39 0541 962295",
     "telefono": "+39 0541 962295",
     "web": "https://www.dallagioconda.it/",
+    "note": "",
     "mappa": "Via dell’Orizzonte 2, Gabicce Monte, PU"
   },
   {
@@ -1116,6 +1201,7 @@ var GUIDA=[
     "tel": "+39 0541 962295",
     "telefono": "+39 0541 962295",
     "web": "https://www.dallagioconda.it",
+    "note": "",
     "mappa": "Via dell’Orizzonte 2, Gabicce Monte, PU"
   },
   {
@@ -1129,6 +1215,7 @@ var GUIDA=[
     "tel": "+39 02 63793837",
     "telefono": "+39 02 63793837",
     "web": "https://www.danielcanzian.it",
+    "note": "",
     "mappa": "Via San Marco, angolo Castelfidardo 7, Milano, Mi"
   },
   {
@@ -1142,6 +1229,7 @@ var GUIDA=[
     "tel": "+39 0721 1651804",
     "telefono": "+39 0721 1651804",
     "web": "http://www.ristorantescudiero.it",
+    "note": "",
     "mappa": "Via Baldassini 2, Pesaro, PU"
   },
   {
@@ -1155,6 +1243,7 @@ var GUIDA=[
     "tel": "+39 346 2527616",
     "telefono": "+39 346 2527616",
     "web": "https://www.muuvillage.it",
+    "note": "",
     "mappa": "Via Negheli 37, Folgaria, TN"
   },
   {
@@ -1168,6 +1257,7 @@ var GUIDA=[
     "tel": "+39 0966 25069",
     "telefono": "+39 0966 25069",
     "web": "https://degustibuspalmi.it",
+    "note": "Chiudo lunedì e domenica sera",
     "mappa": "Viale Rimembranze 58/60, Palmi, RC"
   },
   {
@@ -1181,6 +1271,7 @@ var GUIDA=[
     "tel": "+39 081 8081989",
     "telefono": "+39 081 8081989",
     "web": "",
+    "note": "",
     "mappa": "Via Roncato 9, Massa Lubrense"
   },
   {
@@ -1194,6 +1285,7 @@ var GUIDA=[
     "tel": "+39 0131 484000",
     "telefono": "+39 0131 484000",
     "web": "https://degusteriaforlino.com",
+    "note": "",
     "mappa": "Piazzetta de Amicis 14, Tortona, AL"
   },
   {
@@ -1207,6 +1299,7 @@ var GUIDA=[
     "tel": "+39 02 90225 77",
     "telefono": "+39 02 90225 77",
     "web": "https://www.ristorantedellangolo.it",
+    "note": "Lunedì e martedì chiuso · Aperto da mercoledì a domenica",
     "mappa": "Via Eugenio Villoresi 71-73, Vittuone, MI"
   },
   {
@@ -1220,6 +1313,7 @@ var GUIDA=[
     "tel": "+39 02 9085125",
     "telefono": "+39 02 9085125",
     "web": "https://www.osteriamagenes.it",
+    "note": "",
     "mappa": "Via Cavour 7, Barate di Gaggiano, Barate di Gaggiano, MI"
   },
   {
@@ -1233,6 +1327,7 @@ var GUIDA=[
     "tel": "+39 02 36517 496",
     "telefono": "+39 02 36517 496",
     "web": "https://www.hortorestaurant.com",
+    "note": "",
     "mappa": "Via San Protaso 5, Milano, MI"
   },
   {
@@ -1246,6 +1341,7 @@ var GUIDA=[
     "tel": "+39 392 7875295",
     "telefono": "+39 392 7875295",
     "web": "https://www.enotecalatorreroma.com",
+    "note": "",
     "mappa": "Lungotevere delle Armi 22/23, Roma, RM"
   },
   {
@@ -1259,6 +1355,7 @@ var GUIDA=[
     "tel": "+39 0131 776907",
     "telefono": "+39 0131 776907",
     "web": "http://www.donatellabistrot.it",
+    "note": "",
     "mappa": "Piazza Umberto I 1, Oviglio, AL"
   },
   {
@@ -1272,6 +1369,7 @@ var GUIDA=[
     "tel": "+34 933 040 513",
     "telefono": "+34 933 040 513",
     "web": "http://www.dospalillos.com/home.php?rest=1&lang=en",
+    "note": "",
     "mappa": "Calle d'Elisabets 9, Barcellona, ES"
   },
   {
@@ -1285,6 +1383,7 @@ var GUIDA=[
     "tel": "+39 030 9828227",
     "telefono": "+39 030 9828227",
     "web": "https://www.duecolombe.com",
+    "note": "Chiuso domenica sera e lunedì",
     "mappa": "Via Foresti 13, Borgonato di Cortefranca, BS"
   },
   {
@@ -1298,6 +1397,7 @@ var GUIDA=[
     "tel": "+39 019 610166",
     "telefono": "+39 019 610166",
     "web": "",
+    "note": "",
     "mappa": "Via XX Settembre 12, Borgio Verezzi, SV"
   },
   {
@@ -1311,6 +1411,7 @@ var GUIDA=[
     "tel": "+390342635769",
     "telefono": "+390342635769",
     "web": "http://www.ristorantepizzeriaeden.com",
+    "note": "Chiuso il martedì",
     "mappa": "Via Bernasconi 60, Cosio Valtellino, SO"
   },
   {
@@ -1324,6 +1425,7 @@ var GUIDA=[
     "tel": "+39 0535 97105",
     "telefono": "+39 0535 97105",
     "web": "https://trattoriaentra.it",
+    "note": "",
     "mappa": "Via Salde Entrà 60, Località Entrà Finale Emilia, MO"
   },
   {
@@ -1337,6 +1439,7 @@ var GUIDA=[
     "tel": "+39 081 8715779",
     "telefono": "+39 081 8715779",
     "web": "https://www.piazzettamilu.it",
+    "note": "",
     "mappa": "Via Schito 42, Castellammare di Stabia (già Corso A. De Gasperi 23), Castellammare di Stabia"
   },
   {
@@ -1350,6 +1453,7 @@ var GUIDA=[
     "tel": "+39 045 6839146",
     "telefono": "+39 045 6839146",
     "web": "https://www.enotecadellavalpolicella.it",
+    "note": "Chiuso domenica sera e lunedì",
     "mappa": "Via Osan 45, Fumane, VR"
   },
   {
@@ -1363,6 +1467,7 @@ var GUIDA=[
     "tel": "+39 02 87380711",
     "telefono": "+39 02 87380711",
     "web": "https://www.erbabrusca.it",
+    "note": "",
     "mappa": "Alzaia Naviglio Pavese 286, Milano, MI"
   },
   {
@@ -1376,6 +1481,7 @@ var GUIDA=[
     "tel": "+34 932 210 729",
     "telefono": "+34 932 210 729",
     "web": "https://restaurantsescriba.com/xiringuitoescriba/en/",
+    "note": "Ristorante sulla spiaggia",
     "mappa": "Ronda Litoral 42, Barcellona, ES"
   },
   {
@@ -1389,6 +1495,7 @@ var GUIDA=[
     "tel": "+39071801384",
     "telefono": "+39071801384",
     "web": "http://www.ristorantedagiacchetti.it",
+    "note": "",
     "mappa": "Località Portonovo 171, Ancona, AN"
   },
   {
@@ -1402,6 +1509,7 @@ var GUIDA=[
     "tel": "+39 339 8332514",
     "telefono": "+39 339 8332514",
     "web": "https://www.farmaciadeisani.eu",
+    "note": "",
     "mappa": "Piazza del Popolo 14, Ruffano, LE"
   },
   {
@@ -1415,6 +1523,7 @@ var GUIDA=[
     "tel": "+39 0583 341230",
     "telefono": "+39 0583 341230",
     "web": "https://www.fattoriasardi.com",
+    "note": "Con camere · ♥️",
     "mappa": "Via della Maulina 747, Lucca, LU"
   },
   {
@@ -1428,6 +1537,7 @@ var GUIDA=[
     "tel": "+39 338 858 3753",
     "telefono": "+39 338 858 3753",
     "web": "https://www.frangentemilano.com/",
+    "note": "",
     "mappa": "Via Panfilo Castaldi 4, Milano, MI"
   },
   {
@@ -1441,6 +1551,7 @@ var GUIDA=[
     "tel": "+39 392 4048445",
     "telefono": "+39 392 4048445",
     "web": "",
+    "note": "",
     "mappa": "Via Roma 64, Serino, AV"
   },
   {
@@ -1454,6 +1565,7 @@ var GUIDA=[
     "tel": "+390362997799",
     "telefono": "+390362997799",
     "web": "",
+    "note": "Chiuso il lunedì",
     "mappa": "Via Filiberto Emanuele 1, Canonica, MB"
   },
   {
@@ -1467,6 +1579,7 @@ var GUIDA=[
     "tel": "+39 02 55190020",
     "telefono": "+39 02 55190020",
     "web": "http://www.pastamadremilano.it",
+    "note": "",
     "mappa": "Via Bernardino Corio 8, Milano, Milano, MI"
   },
   {
@@ -1480,6 +1593,7 @@ var GUIDA=[
     "tel": "+39 335 8001695",
     "telefono": "+39 335 8001695",
     "web": "http://www.ristoranteilbucaniere.com",
+    "note": "🌅",
     "mappa": "Viale Guglielmo Marconi 22, San Vincenzo, San Vincenzo, LI"
   },
   {
@@ -1493,6 +1607,7 @@ var GUIDA=[
     "tel": "+30 21 0524 2727",
     "telefono": "+30 21 0524 2727",
     "web": "https://www.funkygourmet.gr",
+    "note": "",
     "mappa": "13 Paramithias street and Salaminos, Atene, GR"
   },
   {
@@ -1506,6 +1621,7 @@ var GUIDA=[
     "tel": "+39 0343 33589",
     "telefono": "+39 0343 33589",
     "web": "https://www.crottobelvedere.com",
+    "note": "🌳",
     "mappa": "Via alla Chiesa 6, Piuro, SO"
   },
   {
@@ -1519,6 +1635,7 @@ var GUIDA=[
     "tel": "+39 0577 920549",
     "telefono": "+39 0577 920549",
     "web": "https://www.arnolfo.com",
+    "note": "🌅 ♥️",
     "mappa": "Viale della Rimembranza 24, Colle di Val d'Elsa, SI"
   },
   {
@@ -1532,6 +1649,7 @@ var GUIDA=[
     "tel": "+39 0584 743696",
     "telefono": "+39 0584 743696",
     "web": "https://www.pozzodibugia.it",
+    "note": "Inverno: chiuso il lunedì · Estate: sempre aperto · Lucca · Toscana · (DP)",
     "mappa": "Via Federigi 544, Querceta, LU"
   },
   {
@@ -1545,6 +1663,7 @@ var GUIDA=[
     "tel": "+39 327 8995646",
     "telefono": "+39 327 8995646",
     "web": "",
+    "note": "",
     "mappa": "Via Orti 12, Milano, MI"
   },
   {
@@ -1558,6 +1677,7 @@ var GUIDA=[
     "tel": "+39 334 3031953",
     "telefono": "+39 334 3031953",
     "web": "https://www.cantina-piemontese.it",
+    "note": "",
     "mappa": "Via Laghetto 2, Milano, Milano, MI"
   },
   {
@@ -1571,6 +1691,7 @@ var GUIDA=[
     "tel": "+39 0362 237973",
     "telefono": "+39 0362 237973",
     "web": "https://www.pomiroeu.com",
+    "note": "Parcheggiare in via Formenti",
     "mappa": "Via Garibaldi 37, Seregno, MB"
   },
   {
@@ -1584,6 +1705,7 @@ var GUIDA=[
     "tel": "+39 328 8909980",
     "telefono": "+39 328 8909980",
     "web": "https://www.damatosteria.it",
+    "note": "",
     "mappa": "Via Pagliani 2 (Castello di Arceto), Arceto, RE"
   },
   {
@@ -1597,6 +1719,7 @@ var GUIDA=[
     "tel": "+39 335 6769595",
     "telefono": "+39 335 6769595",
     "web": "https://www.lidomattera.it",
+    "note": "",
     "mappa": "Via Spinesante, Forio, NA"
   },
   {
@@ -1610,6 +1733,7 @@ var GUIDA=[
     "tel": "+39 0583 494058",
     "telefono": "+39 0583 494058",
     "web": "https://www.ristorantegiglio.com",
+    "note": "",
     "mappa": "Piazza del Giglio 2, Lucca, LU"
   },
   {
@@ -1623,6 +1747,7 @@ var GUIDA=[
     "tel": "+39 081 986055",
     "telefono": "+39 081 986055",
     "web": "https://negombo.it/it/ristoranti-e-bar/casa-colonica/",
+    "note": "",
     "mappa": "Baia di San Montano (Parco Negombo), Lacco Ameno, NA"
   },
   {
@@ -1636,6 +1761,7 @@ var GUIDA=[
     "tel": "+39038543444",
     "telefono": "+39038543444",
     "web": "https://www.ristorantegioele.com",
+    "note": "Chiuso lunedì e martedì 🌳",
     "mappa": "Via Giuseppe Mazzini 26, Stradella, PV"
   },
   {
@@ -1649,6 +1775,7 @@ var GUIDA=[
     "tel": "+39 059 792451",
     "telefono": "+39 059 792451",
     "web": "https://www.instagram.com/belvedere_guiglia/",
+    "note": "Con camere",
     "mappa": "Via Roma 18/20, Guiglia, MO"
   },
   {
@@ -1662,6 +1789,7 @@ var GUIDA=[
     "tel": "+39 081 8782354",
     "telefono": "+39 081 8782354",
     "web": "https://www.ilbucoristorante.it",
+    "note": "",
     "mappa": "2ª Rampa Marina Piccola 5 (Piazza S. Antonino), Sorrento"
   },
   {
@@ -1675,6 +1803,7 @@ var GUIDA=[
     "tel": "+39 0541 675410",
     "telefono": "+39 0541 675410",
     "web": "https://casagasperoni.it",
+    "note": "Ex chef Povero Diavolo",
     "mappa": "Via Castello di Montebello 6, Poggio Torriana, RN"
   },
   {
@@ -1688,6 +1817,7 @@ var GUIDA=[
     "tel": "+39 347 5435830",
     "telefono": "+39 347 5435830",
     "web": "https://gliostinatirestaurant.com/#home",
+    "note": "Traboccò Mucchiola S.S. 16 km 477 🌳 🌅 ♥️",
     "mappa": "Spiaggia Ripari Bardella · Statale 16 km 477, Ripari Bardella, CH"
   },
   {
@@ -1701,6 +1831,7 @@ var GUIDA=[
     "tel": "+39 031 950216",
     "telefono": "+39 031 950216",
     "web": "https://www.villaserbelloni.com",
+    "note": "🌳 🌅 ♥️",
     "mappa": "Via Teresio Olivelli 1, Bellagio, CO"
   },
   {
@@ -1714,6 +1845,7 @@ var GUIDA=[
     "tel": "+39 059 251460",
     "telefono": "+39 059 251460",
     "web": "",
+    "note": "",
     "mappa": "Via Nonantolana 406, Modena, MO"
   },
   {
@@ -1727,6 +1859,7 @@ var GUIDA=[
     "tel": "+41 91 994 67 76",
     "telefono": "+41 91 994 67 76",
     "web": "https://www.grottoalboscogentilino.ch",
+    "note": "🌳",
     "mappa": "Via ai Grotti 4, Gentilino Canton Ticino, TI"
   },
   {
@@ -1740,6 +1873,7 @@ var GUIDA=[
     "tel": "+41919947995",
     "telefono": "+41919947995",
     "web": "https://grottocavicc.ch/it/home",
+    "note": "🌳",
     "mappa": "Via ai Canvetti 19a, Montagnola Canton Ticino, TI"
   },
   {
@@ -1753,6 +1887,7 @@ var GUIDA=[
     "tel": "+41 91 966 04 76",
     "telefono": "+41 91 966 04 76",
     "web": "https://www.grottodellasalute.ch",
+    "note": "Aperto lunedì al sabato: 12:00-14:00 / 19:00-23:30 · Domenica chiuso 🌳",
     "mappa": "Via dei Sindacatori, 2A, Massagno Canton Ticino, TI"
   },
   {
@@ -1766,6 +1901,7 @@ var GUIDA=[
     "tel": "+41 91 994 40 80",
     "telefono": "+41 91 994 40 80",
     "web": "https://www.grottofigini.ch",
+    "note": "🌳",
     "mappa": "Via ai grotti 17, Gentilino Canton Ticino, TI"
   },
   {
@@ -1779,6 +1915,7 @@ var GUIDA=[
     "tel": "+41 91 754 11 81",
     "telefono": "+41 91 754 11 81",
     "web": "https://www.lafroda.ch",
+    "note": "Osteria alpina in una località isolata della Val Bavona 🌳",
     "mappa": "Cavergno, Foroglio Canton Ticino, TI"
   },
   {
@@ -1792,6 +1929,7 @@ var GUIDA=[
     "tel": "+39 0362 1360111",
     "telefono": "+39 0362 1360111",
     "web": "https://www.growrestaurant.it",
+    "note": "",
     "mappa": "Via San Valerio 4, Albiate, MB"
   },
   {
@@ -1805,6 +1943,7 @@ var GUIDA=[
     "tel": "+12127535566",
     "telefono": "+12127535566",
     "web": "http://cipriani.com/restaurant/?loc=ny-harry",
+    "note": "Manager: Sergio Vacca · Jordy",
     "mappa": "781 Fifth Avenue, New York, NY"
   },
   {
@@ -1818,6 +1957,7 @@ var GUIDA=[
     "tel": "+39 0376 670000",
     "telefono": "+39 0376 670000",
     "web": "https://www.hostariaviola.com",
+    "note": "",
     "mappa": "Via Verdi 32, Castiglione delle Stiviere, MN"
   },
   {
@@ -1831,6 +1971,7 @@ var GUIDA=[
     "tel": "+39 0564 601074",
     "telefono": "+39 0564 601074",
     "web": "https://www.iduecippi.com",
+    "note": "",
     "mappa": "Piazza Vittorio Veneto 26A, Saturnia, GR"
   },
   {
@@ -1844,6 +1985,7 @@ var GUIDA=[
     "tel": "+39 02 23668 900",
     "telefono": "+39 02 23668 900",
     "web": "https://www.identitagolosemilano.it",
+    "note": "",
     "mappa": "Via Romagnosi 3, Milano, MI"
   },
   {
@@ -1857,6 +1999,7 @@ var GUIDA=[
     "tel": "+39 030 6811292",
     "telefono": "+39 030 6811292",
     "web": "https://www.ilcolmetto.it",
+    "note": "Agriturismo · 🌳",
     "mappa": "Via Finilnuovo 9/11, Rodengo Saiano, BS"
   },
   {
@@ -1870,6 +2013,7 @@ var GUIDA=[
     "tel": "+39 0735 587349",
     "telefono": "+39 0735 587349",
     "web": "",
+    "note": "",
     "mappa": "Via Balilla 44, San Benedetto del Tronto, AP"
   },
   {
@@ -1883,6 +2027,7 @@ var GUIDA=[
     "tel": "+39 0578 20112",
     "telefono": "+39 0578 20112",
     "web": "https://ilgrilloebuoncantore.wixsite.com/ristorante",
+    "note": "",
     "mappa": "Piazza XX Settembre 10, Chiusi Città, SI"
   },
   {
@@ -1896,6 +2041,7 @@ var GUIDA=[
     "tel": "+39 0143 46157",
     "telefono": "+39 0143 46157",
     "web": "https://www.ristoranteilmoro.it",
+    "note": "",
     "mappa": "Piazza Garibaldi 7, Capriata d'Orba, AL"
   },
   {
@@ -1909,6 +2055,7 @@ var GUIDA=[
     "tel": "+39 040220619",
     "telefono": "+39 040220619",
     "web": "",
+    "note": "",
     "mappa": "Località Santa Croce 3, Duino-Aurisina, TS"
   },
   {
@@ -1922,6 +2069,7 @@ var GUIDA=[
     "tel": "+39 0342 380800",
     "telefono": "+39 0342 380800",
     "web": "https://www.ilpoggioristorante.it",
+    "note": "Chiuso lunedì e martedì a pranzo",
     "mappa": "Via Panoramica 4, Poggiridenti, SO"
   },
   {
@@ -1935,6 +2083,7 @@ var GUIDA=[
     "tel": "+39 071 9331544",
     "telefono": "+39 071 9331544",
     "web": "https://ilritorno.com",
+    "note": "Chiuso lunedì",
     "mappa": "Via Piani d'Aspio 12, Sirolo, AN"
   },
   {
@@ -1948,6 +2097,7 @@ var GUIDA=[
     "tel": "+39 351 2056178",
     "telefono": "+39 351 2056178",
     "web": "",
+    "note": "Ex Trattoria Armanda",
     "mappa": "Via Rossi 28, Sarzana, SP"
   },
   {
@@ -1961,6 +2111,7 @@ var GUIDA=[
     "tel": "+39 347 7720134",
     "telefono": "+39 347 7720134",
     "web": "",
+    "note": "",
     "mappa": "Via Nicotera, 26 bis, Acciaroli di Pollica, SA"
   },
   {
@@ -1974,6 +2125,7 @@ var GUIDA=[
     "tel": "+39 06 56227 78",
     "telefono": "+39 06 56227 78",
     "web": "https://www.ristoranteiltino.com",
+    "note": "",
     "mappa": "Via Monte Cadria 127, Fiumicino, RM"
   },
   {
@@ -1987,6 +2139,7 @@ var GUIDA=[
     "tel": "+39 0585 46755",
     "telefono": "+39 0585 46755",
     "web": "http://www.iltrillo.net/ristorante-2/",
+    "note": "",
     "mappa": "Via Bergiola Vecchia 30, Massa, MS"
   },
   {
@@ -2000,6 +2153,7 @@ var GUIDA=[
     "tel": "+39 338 7233260",
     "telefono": "+39 338 7233260",
     "web": "",
+    "note": "🌳",
     "mappa": "Traversa via 18 Settembre 11, Vastogirardi, IS"
   },
   {
@@ -2013,6 +2167,7 @@ var GUIDA=[
     "tel": "+39 338 5690049",
     "telefono": "+39 338 5690049",
     "web": "",
+    "note": "",
     "mappa": "Via Statale 774, Ossuccio, CO"
   },
   {
@@ -2026,6 +2181,7 @@ var GUIDA=[
     "tel": "+39 02 3664 2181",
     "telefono": "+39 02 3664 2181",
     "web": "",
+    "note": "Sushi",
     "mappa": "Via Marco Polo 5, Milano, MI"
   },
   {
@@ -2039,6 +2195,7 @@ var GUIDA=[
     "tel": "+39 331 3691514",
     "telefono": "+39 331 3691514",
     "web": "http://www.japorestaurant.it",
+    "note": "Cucina giapponese · Chiuso lunedì.",
     "mappa": "Viale Filagno 4, Treviglio, BG"
   },
   {
@@ -2052,6 +2209,7 @@ var GUIDA=[
     "tel": "+39 0342 847272",
     "telefono": "+39 0342 847272",
     "web": "https://hotelsassella.it/ristorante-jim/",
+    "note": "",
     "mappa": "Via Roma 2, Grosio, SO"
   },
   {
@@ -2065,6 +2223,7 @@ var GUIDA=[
     "tel": "+39 02 90962 671",
     "telefono": "+39 02 90962 671",
     "web": "http://www.kantonrestaurant.it",
+    "note": "Cucina cinese",
     "mappa": "Via Gramsci 17, Capriate San Gervasio, BG"
   },
   {
@@ -2078,6 +2237,7 @@ var GUIDA=[
     "tel": "+39 0426 85194",
     "telefono": "+39 0426 85194",
     "web": "https://oasi-val-pisani.business.site",
+    "note": "",
     "mappa": "Località Ca’ Pisani, Porto Viro, RO"
   },
   {
@@ -2091,6 +2251,7 @@ var GUIDA=[
     "tel": "+39 375 6304552",
     "telefono": "+39 375 6304552",
     "web": "https://www.birrificiolegnone.com",
+    "note": "Pin nic · 🌳",
     "mappa": "Via S. Abbondio 2, Borgonuovo di Piuro, SO"
   },
   {
@@ -2104,6 +2265,7 @@ var GUIDA=[
     "tel": "+39 346 1152048",
     "telefono": "+39 346 1152048",
     "web": "https://www.kosmotastethemountain.com",
+    "note": "",
     "mappa": "Via Bondi 473/a, Livigno, SO"
   },
   {
@@ -2117,6 +2279,7 @@ var GUIDA=[
     "tel": "+39 02 76016221",
     "telefono": "+39 02 76016221",
     "web": "",
+    "note": "",
     "mappa": "Viale Piave 17, Milano, MI"
   },
   {
@@ -2130,6 +2293,7 @@ var GUIDA=[
     "tel": "+39 031 840693",
     "telefono": "+39 031 840693",
     "web": "http://labaita-lanzo.it",
+    "note": "Vista sulla Val d’Intelvi  ♥️🌳",
     "mappa": "Via Sighignola 36, Lanzo Intelvi, CO"
   },
   {
@@ -2143,6 +2307,7 @@ var GUIDA=[
     "tel": "+390995333335",
     "telefono": "+390995333335",
     "web": "",
+    "note": "",
     "mappa": "Litoranea Salentina, Marina di Pulsano, TA"
   },
   {
@@ -2156,6 +2321,7 @@ var GUIDA=[
     "tel": "+39 0543 981561",
     "telefono": "+39 0543 981561",
     "web": "https://www.osterialacampanara.it/la-campanara/",
+    "note": "",
     "mappa": "Via Pianetto Borgo 24/a, Galeata, FC"
   },
   {
@@ -2169,6 +2335,7 @@ var GUIDA=[
     "tel": "+39 02 39666784",
     "telefono": "+39 02 39666784",
     "web": "https://www.lacucinadeifrigoriferimolanesi.it",
+    "note": "Chiuso sabato a mezzogiorno e domenica",
     "mappa": "Via Piranesi 10, Milano, MI"
   },
   {
@@ -2182,6 +2349,7 @@ var GUIDA=[
     "tel": "+39 081 5263733",
     "telefono": "+39 081 5263733",
     "web": "https://www.lafattoriadelcampiglione.it",
+    "note": "Selezione carni pregiate",
     "mappa": "Via Vicinale Campana 2, Pozzuoli"
   },
   {
@@ -2195,6 +2363,7 @@ var GUIDA=[
     "tel": "+39 0523 830444",
     "telefono": "+39 0523 830444",
     "web": "https://www.la-fiaschetteria.com",
+    "note": "Con camere · Parma · ❤️",
     "mappa": "Via Bersano 59 bis, Besenzone, PC"
   },
   {
@@ -2208,6 +2377,7 @@ var GUIDA=[
     "tel": "+39 0143 685132",
     "telefono": "+39 0143 685132",
     "web": "https://www.villasparinaresort.it/it/ristorante-la-gall",
+    "note": "🌳 🌅 ♥️",
     "mappa": "Frazione Monterotondo 56, Gavi Piemonte, AL"
   },
   {
@@ -2221,6 +2391,7 @@ var GUIDA=[
     "tel": "+39 0131 780135",
     "telefono": "+39 0131 780135",
     "web": "https://www.albergoristorantelagenzianellaselvapiana.it",
+    "note": "Chiuso lunedì e martedì",
     "mappa": "Regione Selvapiana 7, Fabbrica Curone, AL"
   },
   {
@@ -2234,6 +2405,7 @@ var GUIDA=[
     "tel": "+39 031 8427016",
     "telefono": "+39 031 8427016",
     "web": "http://www.lalocandadelnotaio.com",
+    "note": "",
     "mappa": "Piano delle Noci 22, Pellio Intelvi, CO"
   },
   {
@@ -2247,6 +2419,7 @@ var GUIDA=[
     "tel": "",
     "telefono": "",
     "web": "https://www.lamanieradicarlo.it",
+    "note": "",
     "mappa": "Via Giovanni Rasori 12, Milano, MI"
   },
   {
@@ -2260,6 +2433,7 @@ var GUIDA=[
     "tel": "+39 348 8158060",
     "telefono": "+39 348 8158060",
     "web": "https://www.lapergolapaestum.it",
+    "note": "",
     "mappa": "Via Magna Graecia 50, Capaccio, SA"
   },
   {
@@ -2273,6 +2447,7 @@ var GUIDA=[
     "tel": "+39 039 9930106",
     "telefono": "+39 039 9930106",
     "web": "",
+    "note": "🥪 🌳 🌅 ♥️",
     "mappa": "Piazza Canonico Iannuzzi, 2, Montevecchia, LC"
   },
   {
@@ -2286,6 +2461,7 @@ var GUIDA=[
     "tel": "+39 0974 942008",
     "telefono": "+39 0974 942008",
     "web": "",
+    "note": "",
     "mappa": "Piazza Canonico Iannuzzi, 2, Valle dell’Angelo, SA"
   },
   {
@@ -2299,6 +2475,7 @@ var GUIDA=[
     "tel": "+39 0586 600016",
     "telefono": "+39 0586 600016",
     "web": "https://lapinetadizazzeri.it/",
+    "note": "🌳 🌅 ♥️",
     "mappa": "Via dei Cavalleggeri Nord 27, Marina di Bibbona, LI"
   },
   {
@@ -2312,6 +2489,7 @@ var GUIDA=[
     "tel": "+39 0143 642860",
     "telefono": "+39 0143 642860",
     "web": "https://www.la-raia.it/it",
+    "note": "Colli di Gavi · 🌳 🌅 ♥️",
     "mappa": "Località Lomellina 26, Gavi, AL"
   },
   {
@@ -2325,6 +2503,7 @@ var GUIDA=[
     "tel": "+393468689445",
     "telefono": "+393468689445",
     "web": "https://www.larampolina.com",
+    "note": "Con camere 🌳 🌅 ♥️",
     "mappa": "Via Someraro 13, Campino, VB"
   },
   {
@@ -2338,6 +2517,7 @@ var GUIDA=[
     "tel": "+39 345 1604771",
     "telefono": "+39 345 1604771",
     "web": "https://saluma.it",
+    "note": "Chiuso lunedì e martedì",
     "mappa": "Via dei Mille 55, Cesenatico, FC"
   },
   {
@@ -2351,6 +2531,7 @@ var GUIDA=[
     "tel": "+39 0575 583377",
     "telefono": "+39 0575 583377",
     "web": "",
+    "note": "",
     "mappa": "Via Roma 1, Pratovecchio Stia, AR"
   },
   {
@@ -2364,6 +2545,7 @@ var GUIDA=[
     "tel": "+39 0385 99734",
     "telefono": "+39 0385 99734",
     "web": "https://www.laverdesosta.it/home",
+    "note": "Aperto dal mercoledì al giovedì a pranzo e a cena",
     "mappa": "Via Crocetta 2, Montecalvo Versiggia, PV"
   },
   {
@@ -2377,6 +2559,7 @@ var GUIDA=[
     "tel": "+41 79 911 82 59",
     "telefono": "+41 79 911 82 59",
     "web": "https://www.lelacrestaurant.ch",
+    "note": "Lounge Bar · 🌳 🌅 ♥️",
     "mappa": "Lungolago Motta 9, Melide Canton Ticino, TI"
   },
   {
@@ -2390,6 +2573,7 @@ var GUIDA=[
     "tel": "",
     "telefono": "",
     "web": "https://legrandcaferouge.eu",
+    "note": "",
     "mappa": "Rambla de Prim 6, Barcellona, ES"
   },
   {
@@ -2403,6 +2587,7 @@ var GUIDA=[
     "tel": "+39 055 570222",
     "telefono": "+39 055 570222",
     "web": "https://www.lelunefirenze.it/home-1",
+    "note": "Ristorante e Vivaio · Firenze · Toscana",
     "mappa": "Via San Domenico 36, Firenze, FI"
   },
   {
@@ -2416,6 +2601,7 @@ var GUIDA=[
     "tel": "+39 366 3398895",
     "telefono": "+39 366 3398895",
     "web": "http://www.palazzopetrucci.it",
+    "note": "",
     "mappa": "Via Posillipo 16/C, Napoli"
   },
   {
@@ -2429,6 +2615,7 @@ var GUIDA=[
     "tel": "+39 342 0736590",
     "telefono": "+39 342 0736590",
     "web": "https://lalamparacampiglia.com",
+    "note": "Liguria · Camere vista mare · 🌳🌅♥️ · (DP)",
     "mappa": "Via Tramonti 4, Campiglia, SP"
   },
   {
@@ -2442,6 +2629,7 @@ var GUIDA=[
     "tel": "+39 0872 948441",
     "telefono": "+39 0872 948441",
     "web": "",
+    "note": "Abruzzo · Molise ·",
     "mappa": "Contrada Fonte dei Ginepri 5, Rosello, CH"
   },
   {
@@ -2455,6 +2643,7 @@ var GUIDA=[
     "tel": "+39 333 1849263",
     "telefono": "+39 333 1849263",
     "web": "https://www.locandadebanchieri.it",
+    "note": "Lunigiana, Toscana, con camere · Giacomo Devoto",
     "mappa": "Via Porredo 32, Fosdinovo, MS"
   },
   {
@@ -2468,6 +2657,7 @@ var GUIDA=[
     "tel": "",
     "telefono": "",
     "web": "https://www.locandasalinari.it/",
+    "note": "Pesce e frutti di mare, cucina romagnola · Chiuso il mercoledì · Emilia",
     "mappa": "Via XX Settembre 67, Cervia, RA"
   },
   {
@@ -2481,6 +2671,7 @@ var GUIDA=[
     "tel": "+39 0376 348038",
     "telefono": "+39 0376 348038",
     "web": "",
+    "note": "Indicazioni: Via Cantarana, Piazza Santuario",
     "mappa": "Via San Pio X 2, Grazie, MN"
   },
   {
@@ -2494,6 +2685,7 @@ var GUIDA=[
     "tel": "+39 0883 615096",
     "telefono": "+39 0883 615096",
     "web": "",
+    "note": "",
     "mappa": "Via Balilla 2, Canosa di Puglia, BT"
   },
   {
@@ -2507,6 +2699,7 @@ var GUIDA=[
     "tel": "+39-0481-882488",
     "telefono": "+39-0481-882488",
     "web": "https://www.devetak.com",
+    "note": "Premiate trattorie italiane",
     "mappa": "Via Brežiči 22, Savogna d’Isonzo, GO"
   },
   {
@@ -2520,6 +2713,7 @@ var GUIDA=[
     "tel": "+39 348 269 2415",
     "telefono": "+39 348 269 2415",
     "web": "https://www.osteriafornio.it",
+    "note": "",
     "mappa": "Via Fornio 78, Fidenza, PR"
   },
   {
@@ -2533,6 +2727,7 @@ var GUIDA=[
     "tel": "+39 02 31039221",
     "telefono": "+39 02 31039221",
     "web": "https://www.ceresio7.com",
+    "note": "",
     "mappa": "Via Ceresio 7, Milano, MI"
   },
   {
@@ -2546,6 +2741,7 @@ var GUIDA=[
     "tel": "+393356445032",
     "telefono": "+393356445032",
     "web": "",
+    "note": "Ex Simposyum · Pesaro Urbino · Marche",
     "mappa": "Via Cartoceto 36, Cartoceto, PU"
   },
   {
@@ -2559,6 +2755,7 @@ var GUIDA=[
     "tel": "+39 0874 799230",
     "telefono": "+39 0874 799230",
     "web": "https://www.contrastoristorante.it",
+    "note": "Molise",
     "mappa": "Via Roma 55, Cercemaggiore, CB"
   },
   {
@@ -2572,6 +2769,7 @@ var GUIDA=[
     "tel": "+39 070 672058",
     "telefono": "+39 070 672058",
     "web": "https://luigipomata.com",
+    "note": "",
     "mappa": "Viale Regina Margherita 18, Cagliari, CA"
   },
   {
@@ -2585,6 +2783,7 @@ var GUIDA=[
     "tel": "+39 055 882352",
     "telefono": "+39 055 882352",
     "web": "",
+    "note": "Firenze · Toscana · (DP) ·",
     "mappa": "Via Di Capalle 28b, Calenzano, FI"
   },
   {
@@ -2598,6 +2797,7 @@ var GUIDA=[
     "tel": "+39066505251",
     "telefono": "+39066505251",
     "web": "https://osteriadellorologio.net",
+    "note": "",
     "mappa": "Via Torre Clementina 114, Fiumicino, RM"
   },
   {
@@ -2611,6 +2811,7 @@ var GUIDA=[
     "tel": "+39 370 3112387",
     "telefono": "+39 370 3112387",
     "web": "https://www.m4restaurant.it",
+    "note": "Venezia · Veneto",
     "mappa": "Via S.Felice 3, Chioggia, VE"
   },
   {
@@ -2624,6 +2825,7 @@ var GUIDA=[
     "tel": "+39 0571 1723546",
     "telefono": "+39 0571 1723546",
     "web": "https://www.ristorantemaggese.it",
+    "note": "Pisa · Toscana · (DP)",
     "mappa": "Via IV Novembre 29, San Miniato, PI"
   },
   {
@@ -2637,6 +2839,7 @@ var GUIDA=[
     "tel": "+39 0365 503225",
     "telefono": "+39 0365 503225",
     "web": "https://www.losteriah2o.it",
+    "note": "",
     "mappa": "Via Pergola 10, Moniga del Garda, BS"
   },
   {
@@ -2650,6 +2853,7 @@ var GUIDA=[
     "tel": "+39 030 7376708",
     "telefono": "+39 030 7376708",
     "web": "",
+    "note": "",
     "mappa": "Piazzetta Manenti 2, Pontoglio, BS"
   },
   {
@@ -2663,6 +2867,7 @@ var GUIDA=[
     "tel": "+390524597122",
     "telefono": "+390524597122",
     "web": "http://www.ristorantestelladoro.it/stella-d'oro-ristora",
+    "note": "",
     "mappa": "Via Mazzini 8, Soragna, PR"
   },
   {
@@ -2676,6 +2881,7 @@ var GUIDA=[
     "tel": "+39 031 2258464",
     "telefono": "+39 031 2258464",
     "web": "https://www.damorris.it",
+    "note": "",
     "mappa": "Via XXIV Maggio 1, Erba, CO"
   },
   {
@@ -2689,6 +2895,7 @@ var GUIDA=[
     "tel": "+39 0974 984186",
     "telefono": "+39 0974 984186",
     "web": "",
+    "note": "Cilento · Campania",
     "mappa": "Via Nazionale 42, Policastro Bussentino, SA"
   },
   {
@@ -2702,6 +2909,7 @@ var GUIDA=[
     "tel": "+30 2721 073541",
     "telefono": "+30 2721 073541",
     "web": "http://www.lelastaverna.com/index.php?lang=EN",
+    "note": "Mani",
     "mappa": "Sul lungomare, vicino alla ex fabbrica di olio e sapone, Kardamili, GR"
   },
   {
@@ -2715,6 +2923,7 @@ var GUIDA=[
     "tel": "+393497075513",
     "telefono": "+393497075513",
     "web": "https://www.sporeristorante.it",
+    "note": "Martedì-Sabato · 19:00-23:00",
     "mappa": "Via Passo Buole 4, Milano, MI"
   },
   {
@@ -2728,6 +2937,7 @@ var GUIDA=[
     "tel": "+39 0525 52102",
     "telefono": "+39 0525 52102",
     "web": "https://locandamariella.it",
+    "note": "Appennino parmense",
     "mappa": "Via Fragnolo 29, Calestano, PR"
   },
   {
@@ -2741,6 +2951,7 @@ var GUIDA=[
     "tel": "+39 035 642570",
     "telefono": "+39 035 642570",
     "web": "https://www.ristorantecollina.it",
+    "note": "🌳 🌅",
     "mappa": "Via Ca' Paler 5 - Strada per Roncola San Be, Almenno San Salvatore, BG"
   },
   {
@@ -2754,6 +2965,7 @@ var GUIDA=[
     "tel": "+39 331 1476563",
     "telefono": "+39 331 1476563",
     "web": "https://mareconlaccento.it",
+    "note": "Spiaggia: attivo 9-12 e 15-18 · Emilia Romagna · 🌳 ·  ·",
     "mappa": "Molo di Levante 74, Cesenatico, FC"
   },
   {
@@ -2767,6 +2979,7 @@ var GUIDA=[
     "tel": "+39 031 283911",
     "telefono": "+39 031 283911",
     "web": "https://www.crottodelsergente.it",
+    "note": "",
     "mappa": "Via Crotto del Sergente 13, Como, CO"
   },
   {
@@ -2780,6 +2993,7 @@ var GUIDA=[
     "tel": "",
     "telefono": "",
     "web": "https://www.comelyclub.com",
+    "note": "Chef privato/catering a domicilio, nessuna sede fissa",
     "mappa": "Ibiza, ES"
   },
   {
@@ -2793,6 +3007,7 @@ var GUIDA=[
     "tel": "+39 348 7476813",
     "telefono": "+39 348 7476813",
     "web": "https://www.malgamillegrobbe.it",
+    "note": "",
     "mappa": "Località Millegrobbe, Lavarone, TN"
   },
   {
@@ -2806,6 +3021,7 @@ var GUIDA=[
     "tel": "+39 0332 242199",
     "telefono": "+39 0332 242199",
     "web": "https://ristoranteluce.it",
+    "note": "",
     "mappa": "Piazza Litta 1 (Villa Panza), Varese, VA"
   },
   {
@@ -2819,6 +3035,7 @@ var GUIDA=[
     "tel": "+39 030 9196177",
     "telefono": "+39 030 9196177",
     "web": "https://www.ristorantepizzeriaciclone.it",
+    "note": "Pizza gourmet",
     "mappa": "Via Verona 29, Lugana di Sirmione, BS"
   },
   {
@@ -2832,6 +3049,7 @@ var GUIDA=[
     "tel": "+39 331 8439035",
     "telefono": "+39 331 8439035",
     "web": "https://www.ladispensadeibalocchi.it",
+    "note": "Chiuso il lunedì",
     "mappa": "Largo Pietro Gioia 3, Piacenza, PC"
   },
   {
@@ -2845,6 +3063,7 @@ var GUIDA=[
     "tel": "+39 081 5330010",
     "telefono": "+39 081 5330010",
     "web": "https://www.ristorantelostuzzichino.it",
+    "note": "Premiate trattorie italiane",
     "mappa": "Via Deserto 1/A, Sant'Agata sui Due Golfi, Massa Lubrense"
   },
   {
@@ -2858,6 +3077,7 @@ var GUIDA=[
     "tel": "+39 0173 500395",
     "telefono": "+39 0173 500395",
     "web": "",
+    "note": "Langhe · Piemonte",
     "mappa": "Via XX Settembre 18, La Morra, CN"
   },
   {
@@ -2871,6 +3091,7 @@ var GUIDA=[
     "tel": "+39 339 3199648",
     "telefono": "+39 339 3199648",
     "web": "",
+    "note": "Chiuso il lunedì · Aperto soltanto la sera · Savona · Liguria",
     "mappa": "Via Garibaldi 7, Calizzano, SV"
   },
   {
@@ -2884,6 +3105,7 @@ var GUIDA=[
     "tel": "+39 0921 671228",
     "telefono": "+39 0921 671228",
     "web": "https://www.hostarianangalarruni.it",
+    "note": "Premiate trattorie italiane",
     "mappa": "Via delle Confraternite 7, Castelbuono, PA"
   },
   {
@@ -2897,6 +3119,7 @@ var GUIDA=[
     "tel": "+39 393 9863597",
     "telefono": "+39 393 9863597",
     "web": "http://www.ristorantetonidelspin.com",
+    "note": "",
     "mappa": "Via Inferiore 7, Treviso, TV"
   },
   {
@@ -2910,6 +3133,7 @@ var GUIDA=[
     "tel": "+39 0438 842484",
     "telefono": "+39 0438 842484",
     "web": "http://www.alcastelletto.com/mobile/index.htm",
+    "note": "Chiuso: martedì.",
     "mappa": "Via Castelletto 3, Pedeguarda di Follina, TV"
   },
   {
@@ -2923,6 +3147,7 @@ var GUIDA=[
     "tel": "+39 0184 842580",
     "telefono": "+39 0184 842580",
     "web": "https://www.novantiquabordighera.it",
+    "note": "Imperia · Liguria",
     "mappa": "Via Lunga 2, Bordighera, IM"
   },
   {
@@ -2936,6 +3161,7 @@ var GUIDA=[
     "tel": "+39 393 9584694",
     "telefono": "+39 393 9584694",
     "web": "https://www.officinedelcibosarzana.it",
+    "note": "Pizzeria contemporanea",
     "mappa": "Via Brigata Partigiana Muccini 181, Sarzana, SP"
   },
   {
@@ -2949,6 +3175,7 @@ var GUIDA=[
     "tel": "+39 334 3161427",
     "telefono": "+39 334 3161427",
     "web": "http://www.trattoriadellalba.com",
+    "note": "",
     "mappa": "Via del Popolo 31, Vho di Piadena, CR"
   },
   {
@@ -2962,6 +3189,7 @@ var GUIDA=[
     "tel": "+39 346 7299410",
     "telefono": "+39 346 7299410",
     "web": "https://www.lasvolta.eu",
+    "note": "",
     "mappa": "Via Madonnina 35, Castionetto di Chiuro, SO"
   },
   {
@@ -2975,6 +3203,7 @@ var GUIDA=[
     "tel": "+39 335 6850486",
     "telefono": "+39 335 6850486",
     "web": "",
+    "note": "",
     "mappa": "Via Verri 19, Biassono, MB"
   },
   {
@@ -2988,6 +3217,7 @@ var GUIDA=[
     "tel": "+39 0342 454056",
     "telefono": "+39 0342 454056",
     "web": "",
+    "note": "🌳 🌅 ♥️",
     "mappa": "Via Franco Sampietro 28, Chiesa in Valmalenco, SO"
   },
   {
@@ -3001,6 +3231,7 @@ var GUIDA=[
     "tel": "+39 0142 781281",
     "telefono": "+39 0142 781281",
     "web": "https://www.osteriaamarottocasale.it/tradizioni",
+    "note": "Chiuso lunedì e martedì · Piemonte",
     "mappa": "Via Camillo Benso Cavour 53, Casale Monferrato, AL"
   },
   {
@@ -3014,6 +3245,7 @@ var GUIDA=[
     "tel": "+39014250686",
     "telefono": "+39014250686",
     "web": "https://osteriabarsport.wordpress.com",
+    "note": "Casale Monferrato · Piemonte",
     "mappa": "Strada Statale Alessandria 85, San Germano Casale Monferrato, AL"
   },
   {
@@ -3027,6 +3259,7 @@ var GUIDA=[
     "tel": "+39 051 585111",
     "telefono": "+39 051 585111",
     "web": "https://www.osteriabottega.it",
+    "note": "Tortellini in brodo · Emilia Romagna",
     "mappa": "Via Santa Caterina 51, Bologna, BO"
   },
   {
@@ -3040,6 +3273,7 @@ var GUIDA=[
     "tel": "+39 091 322378",
     "telefono": "+39 091 322378",
     "web": "http://www.buattapalermo.it",
+    "note": "Chiuso il mercoledì · Palermo · Sicilia",
     "mappa": "Corso Vittorio Emanuele 176, Palermo, PA"
   },
   {
@@ -3053,6 +3287,7 @@ var GUIDA=[
     "tel": "+39 320 0163147",
     "telefono": "+39 320 0163147",
     "web": "",
+    "note": "",
     "mappa": "Via della Palla 4, Folzano, BS"
   },
   {
@@ -3066,6 +3301,7 @@ var GUIDA=[
     "tel": "+39 0342614800",
     "telefono": "+39 0342614800",
     "web": "https://www.osteriadelcrotto.it",
+    "note": "",
     "mappa": "Via Pedemontana 23, Morbegno, SO"
   },
   {
@@ -3079,6 +3315,7 @@ var GUIDA=[
     "tel": "+39 051 821273",
     "telefono": "+39 051 821273",
     "web": "http://www.osteriadelmirasole.it",
+    "note": "",
     "mappa": "Via Giacomo Matteotti 17, San Giovanni in Persiceto, BO"
   },
   {
@@ -3092,6 +3329,7 @@ var GUIDA=[
     "tel": "+39 0575 630556",
     "telefono": "+39 0575 630556",
     "web": "http://www.osteria-del-teatro.it",
+    "note": "Chiuso il mercoledì · Arezzo · Toscana",
     "mappa": "Via Maffei 2, Cortona, AR"
   },
   {
@@ -3105,6 +3343,7 @@ var GUIDA=[
     "tel": "+39 035 237353",
     "telefono": "+39 035 237353",
     "web": "",
+    "note": "",
     "mappa": "Vicolo Bancalegno 2, Bergamo, BG"
   },
   {
@@ -3118,6 +3357,7 @@ var GUIDA=[
     "tel": "+39 030 7401899",
     "telefono": "+39 030 7401899",
     "web": "https://www.osteriadellavilletta.it",
+    "note": "",
     "mappa": "Via Guglielmo Marconi 104,, Palazzolo sull'Oglio, BS"
   },
   {
@@ -3131,6 +3371,7 @@ var GUIDA=[
     "tel": "+39 0525 404328",
     "telefono": "+39 0525 404328",
     "web": "",
+    "note": "Uscita autostrada Fornovo · Appennino parmense · Chiuso il martedì",
     "mappa": "Via Roma 4, Varano de' Melegari, PR"
   },
   {
@@ -3144,6 +3385,7 @@ var GUIDA=[
     "tel": "+39 327 0121349",
     "telefono": "+39 327 0121349",
     "web": "",
+    "note": "Appennino parmense",
     "mappa": "Strada Fondovalle 99 · Citerna, Fornovo di Taro, PR"
   },
   {
@@ -3157,6 +3399,7 @@ var GUIDA=[
     "tel": "+39 348 3058303",
     "telefono": "+39 348 3058303",
     "web": "https://www.ristorantebernardone.it",
+    "note": "Chiuso il mercoledì, aperto solo la sera · Con camere B&B Bernardone ·",
     "mappa": "Via Miramare 26, Santa Lucia, LU"
   },
   {
@@ -3170,6 +3413,7 @@ var GUIDA=[
     "tel": "+39 0535 780202",
     "telefono": "+39 0535 780202",
     "web": "https://www.osterialafefa.it",
+    "note": "Modena · Emilia Romagna · (DP)",
     "mappa": "Via Trento e Trieste 9/C, Finale Emilia, MO"
   },
   {
@@ -3183,6 +3427,7 @@ var GUIDA=[
     "tel": "+39 075 9652432",
     "telefono": "+39 075 9652432",
     "web": "http://www.ristorantelacquario.it",
+    "note": "Chiuso il mercoledì",
     "mappa": "Via Vittorio Emanuele II 69, Castiglione del Lago, PG"
   },
   {
@@ -3196,6 +3441,7 @@ var GUIDA=[
     "tel": "+39 0424 75859",
     "telefono": "+39 0424 75859",
     "web": "https://www.osteriamadonnetta.it",
+    "note": "",
     "mappa": "Via Vajenti 21, Marostica, VI"
   },
   {
@@ -3209,6 +3455,7 @@ var GUIDA=[
     "tel": "+39 347 9944257",
     "telefono": "+39 347 9944257",
     "web": "https://www.osteriaplip.com",
+    "note": "",
     "mappa": "Via San Donà 195/c, Venezia Mestre, VE"
   },
   {
@@ -3222,6 +3469,7 @@ var GUIDA=[
     "tel": "+39 089 856144",
     "telefono": "+39 089 856144",
     "web": "http://www.osteriareale.it",
+    "note": "Chiuso il mercoledì, mai in agosto · Salerno · Campania · 🌳 ·",
     "mappa": "Via Cardamone 75, Tramonti, SA"
   },
   {
@@ -3235,6 +3483,7 @@ var GUIDA=[
     "tel": "+39 075 8476277",
     "telefono": "+39 075 8476277",
     "web": "https://osteriarossodisera.net/",
+    "note": "Chiuso martedì e mercoledì",
     "mappa": "Via Fratelli Papini 81, Magione, PG"
   },
   {
@@ -3248,6 +3497,7 @@ var GUIDA=[
     "tel": "+39 02 95357663",
     "telefono": "+39 02 95357663",
     "web": "",
+    "note": "Chiuso il lunedì sera e martedì tutto il giorno. · Maurizio",
     "mappa": "Via Raffaello Sanzio 2 Località Trecella, Pozzuolo Martesana, MI"
   },
   {
@@ -3261,6 +3511,7 @@ var GUIDA=[
     "tel": "+39 0523 524077",
     "telefono": "+39 0523 524077",
     "web": "https://www.ostreria.it",
+    "note": "",
     "mappa": "Gariga 8, Podenzano, PC"
   },
   {
@@ -3274,6 +3525,7 @@ var GUIDA=[
     "tel": "+39 02 58100 259",
     "telefono": "+39 02 58100 259",
     "web": "https://ostrichevino.eatbu.com/?lang=it",
+    "note": "Crostacei e frutti di mare",
     "mappa": "Viale Col di Lana 5, Milano, MI"
   },
   {
@@ -3287,6 +3539,7 @@ var GUIDA=[
     "tel": "+39 0344 42491",
     "telefono": "+39 0344 42491",
     "web": "https://www.grandhoteltremezzo.com",
+    "note": "",
     "mappa": "Via Regina 8 (Grand Hotel Tremezzo), Tremezzina, CO"
   },
   {
@@ -3300,6 +3553,7 @@ var GUIDA=[
     "tel": "+39 0187 624924",
     "telefono": "+39 0187 624924",
     "web": "",
+    "note": "",
     "mappa": "Piazza Matteotti 30, Sarzana, SP"
   },
   {
@@ -3313,6 +3567,7 @@ var GUIDA=[
     "tel": "+39 055 5353555",
     "telefono": "+39 055 5353555",
     "web": "https://www.attodivitomollica.com",
+    "note": "Atto  · Chef: Vito Mollica · Bistrot: tavolo 31 · Lucie",
     "mappa": "Via del Corso 6, Firenze, FI"
   },
   {
@@ -3326,6 +3581,7 @@ var GUIDA=[
     "tel": "+39 0833 264205",
     "telefono": "+39 0833 264205",
     "web": "",
+    "note": "Salento",
     "mappa": "Via Sant'Elia 18, Gallipoli, LE"
   },
   {
@@ -3339,6 +3595,7 @@ var GUIDA=[
     "tel": "+39 031 931982",
     "telefono": "+39 031 931982",
     "web": "",
+    "note": "",
     "mappa": "Piazza Libertà 36, Appiano Gentile, CO"
   },
   {
@@ -3352,6 +3609,7 @@ var GUIDA=[
     "tel": "+351 213 464 811",
     "telefono": "+351 213 464 811",
     "web": "",
+    "note": "",
     "mappa": "Rua da Atalaia 57 · Bairro Alto, Lisbon, P"
   },
   {
@@ -3365,6 +3623,7 @@ var GUIDA=[
     "tel": "+39 02 99480093",
     "telefono": "+39 02 99480093",
     "web": "",
+    "note": "",
     "mappa": "Via Lattuada 12/a, Senago, MI"
   },
   {
@@ -3378,6 +3637,7 @@ var GUIDA=[
     "tel": "+39 333 3998507",
     "telefono": "+39 333 3998507",
     "web": "https://www.alconvento.net",
+    "note": "",
     "mappa": "Piazza San Francesco 16, Cetara, SA"
   },
   {
@@ -3391,6 +3651,7 @@ var GUIDA=[
     "tel": "+39 02 66993 22",
     "telefono": "+39 02 66993 22",
     "web": "https://www.pescaria.it",
+    "note": "",
     "mappa": "Via Bonnet 5, Milano, MI"
   },
   {
@@ -3404,6 +3665,7 @@ var GUIDA=[
     "tel": "+39 333 4536979",
     "telefono": "+39 333 4536979",
     "web": "https://www.peterbrunel.com",
+    "note": "",
     "mappa": "Via Linfano 47, Arco, TN"
   },
   {
@@ -3417,6 +3679,7 @@ var GUIDA=[
     "tel": "+39 333 8693448",
     "telefono": "+39 333 8693448",
     "web": "https://poderebelvederetuscany.it",
+    "note": "Con camere · Toscana · (DP) · Telefono:  | 329/0115099 ·",
     "mappa": "Via San Piero a Strada 23 -, Pontassieve, FI"
   },
   {
@@ -3430,6 +3693,7 @@ var GUIDA=[
     "tel": "+39 331 1958361",
     "telefono": "+39 331 1958361",
     "web": "",
+    "note": "",
     "mappa": "Piazza della Scala 5, Milano, MI"
   },
   {
@@ -3443,6 +3707,7 @@ var GUIDA=[
     "tel": "+39 0884 355167",
     "telefono": "+39 0884 355167",
     "web": "http://www.portadibasso.com/",
+    "note": "",
     "mappa": "Via Colombo 38, Peschici, FG"
   },
   {
@@ -3456,6 +3721,7 @@ var GUIDA=[
     "tel": "+39 0541 953373",
     "telefono": "+39 0541 953373",
     "web": "https://www.ristoranteposillipo.com",
+    "note": "Marche",
     "mappa": "Via dell’Orizzonte 1, Gabicce Monte, PU"
   },
   {
@@ -3469,6 +3735,7 @@ var GUIDA=[
     "tel": "+390832243802",
     "telefono": "+390832243802",
     "web": "https://www.primorestaurant.it",
+    "note": "",
     "mappa": "Via 47º Regimento Fanteria 7, Lecce, LE"
   },
   {
@@ -3482,6 +3749,7 @@ var GUIDA=[
     "tel": "+39 0828 724165",
     "telefono": "+39 0828 724165",
     "web": "https://www.letrabe.it",
+    "note": "",
     "mappa": "Via Capo di Fiume 4, Capaccio Paestum, SA"
   },
   {
@@ -3495,6 +3763,7 @@ var GUIDA=[
     "tel": "+39 0828 851064",
     "telefono": "+39 0828 851064",
     "web": "https://www.nonnasceppa.com",
+    "note": "Chiuso il giovedì, tranne luglio e agosto",
     "mappa": "Via Laura 45, Capaccio, SA"
   },
   {
@@ -3508,6 +3777,7 @@ var GUIDA=[
     "tel": "+39 02 87128855",
     "telefono": "+39 02 87128855",
     "web": "https://www.ratana.it",
+    "note": "⛱️",
     "mappa": "Via de Castilla 28, Milano, MI"
   },
   {
@@ -3521,6 +3791,7 @@ var GUIDA=[
     "tel": "+43 662 2197",
     "telefono": "+43 662 2197",
     "web": "https://www.hangar-7.com/en/",
+    "note": "GmbH ·  · Tel.: +43 (0)662 2197 · E-mail: willkommen@hangar-7.com",
     "mappa": "Wilhelm Spazier Straße 7A, Salzburg, A"
   },
   {
@@ -3534,6 +3805,7 @@ var GUIDA=[
     "tel": "+41 91 980 22 52",
     "telefono": "+41 91 980 22 52",
     "web": "https://www.relaiscastellodimorcote.ch",
+    "note": "Ticino · ❤️🌳",
     "mappa": "Portich de Sura, Vico Morcote Canton Ticino, CH"
   },
   {
@@ -3547,6 +3819,7 @@ var GUIDA=[
     "tel": "",
     "telefono": "",
     "web": "http://www.vairodelvolturno.com",
+    "note": "",
     "mappa": "Via IV Novembre 60, Vairano Patenora, CE"
   },
   {
@@ -3560,6 +3833,7 @@ var GUIDA=[
     "tel": "+39 335 315631",
     "telefono": "+39 335 315631",
     "web": "http://www.ristorantealresu.it/ristorante/",
+    "note": "Vista Valle Camonica · Lombardia · 🌳",
     "mappa": "Via Armando Diaz 25, Villa di Lozio, BS"
   },
   {
@@ -3573,6 +3847,7 @@ var GUIDA=[
     "tel": "+39 06 68136 310",
     "telefono": "+39 06 68136 310",
     "web": "https://www.retro-bottega.com",
+    "note": "",
     "mappa": "Via della Stelletta 4, Roma, RM"
   },
   {
@@ -3586,6 +3861,7 @@ var GUIDA=[
     "tel": "+39 0185 450909",
     "telefono": "+39 0185 450909",
     "web": "https://rezzanocucinaevino.it",
+    "note": "Ex Fiammenghilla Fieschi · Liguria",
     "mappa": "Via Asilo Maria Teresa 34, Sestri Levante, GE"
   },
   {
@@ -3599,6 +3875,7 @@ var GUIDA=[
     "tel": "+39 348 7326782",
     "telefono": "+39 348 7326782",
     "web": "",
+    "note": "Roberta",
     "mappa": "Località Intermedia Grostè, Madonna di Campiglio, TN"
   },
   {
@@ -3612,6 +3889,7 @@ var GUIDA=[
     "tel": "+39 0586 620519",
     "telefono": "+39 0586 620519",
     "web": "http://ristopescheria.com",
+    "note": "Livorno · Toscana · (DP) ·",
     "mappa": "Viale Galliano, Cecina Mare, LI"
   },
   {
@@ -3625,6 +3903,7 @@ var GUIDA=[
     "tel": "+39 02 95784123",
     "telefono": "+39 02 95784123",
     "web": "http://www.ristorantemacelleriamotta.it",
+    "note": "Chef: Enzo Pettè",
     "mappa": "Strada Padana Superiore, 90, Bellinzago Lombardo, MI"
   },
   {
@@ -3638,6 +3917,7 @@ var GUIDA=[
     "tel": "",
     "telefono": "",
     "web": "",
+    "note": "",
     "mappa": "Via Vincenzo Sorlini 14, Concesio, BS"
   },
   {
@@ -3651,6 +3931,7 @@ var GUIDA=[
     "tel": "+39 0462 601433",
     "telefono": "+39 0462 601433",
     "web": "https://www.elpael.com",
+    "note": "",
     "mappa": "Strèda Roma 58, Canazei, TN"
   },
   {
@@ -3664,6 +3945,7 @@ var GUIDA=[
     "tel": "+39 324 862 6157",
     "telefono": "+39 324 862 6157",
     "web": "https://www.sinerestaurant.com",
+    "note": "Ex Executive Chef Bulgari Hotel",
     "mappa": "Via Lomellina 12, Milano, MI"
   },
   {
@@ -3677,6 +3959,7 @@ var GUIDA=[
     "tel": "+39 0521 293529",
     "telefono": "+39 0521 293529",
     "web": "https://www.ristoranteportasantacroce.it",
+    "note": "",
     "mappa": "Via Alberto Pasini 20, Parma, PR"
   },
   {
@@ -3690,6 +3973,7 @@ var GUIDA=[
     "tel": "+39 02 70100 136",
     "telefono": "+39 02 70100 136",
     "web": "",
+    "note": "Chiuso: domenica. · Amico di Lucio Nigro",
     "mappa": "Via Giuseppe Colombo 42, Milano, MI"
   },
   {
@@ -3703,6 +3987,7 @@ var GUIDA=[
     "tel": "+39 0185 694058",
     "telefono": "+39 0185 694058",
     "web": "http://www.ristorantebark2.it",
+    "note": "",
     "mappa": "Vico Saline 5, Rapallo, GE"
   },
   {
@@ -3716,6 +4001,7 @@ var GUIDA=[
     "tel": "+39 0584 31382",
     "telefono": "+39 0584 31382",
     "web": "",
+    "note": "",
     "mappa": "Via Mazzini 120, Viareggio, LU"
   },
   {
@@ -3729,6 +4015,7 @@ var GUIDA=[
     "tel": "+39 06 68752 87",
     "telefono": "+39 06 68752 87",
     "web": "https://www.salumeriaroscioli.com",
+    "note": "·",
     "mappa": "Via dei Giubbonari 21-22, Roma, RM"
   },
   {
@@ -3742,6 +4029,7 @@ var GUIDA=[
     "tel": "+39 02 72093709",
     "telefono": "+39 02 72093709",
     "web": "http://rovello18.it/it/home/",
+    "note": "",
     "mappa": "Via Ariberto 3, Milano, MI"
   },
   {
@@ -3755,6 +4043,7 @@ var GUIDA=[
     "tel": "+393404549806",
     "telefono": "+393404549806",
     "web": "http://www.ristorantelacanonicaverona.it",
+    "note": "",
     "mappa": "Vicolo San Matteo 3, Verona, VR"
   },
   {
@@ -3768,6 +4057,7 @@ var GUIDA=[
     "tel": "+39 0341 420429",
     "telefono": "+39 0341 420429",
     "web": "",
+    "note": "",
     "mappa": "Via San Gerolamo 56, Vercurago, LC"
   },
   {
@@ -3781,6 +4071,7 @@ var GUIDA=[
     "tel": "+39 0363 49075",
     "telefono": "+39 0363 49075",
     "web": "",
+    "note": "",
     "mappa": "Via Cesare Battisti 3, Treviglio, BG"
   },
   {
@@ -3794,6 +4085,7 @@ var GUIDA=[
     "tel": "+39 055 8358985",
     "telefono": "+39 055 8358985",
     "web": "https://www.santabarbarafirenze.com",
+    "note": "Aperto a cena dal lunedì al sabato 19:00/22:30 · Toscana · (DP)",
     "mappa": "Via Pier Capponi 72/A, Firenze, FI"
   },
   {
@@ -3807,6 +4099,7 @@ var GUIDA=[
     "tel": "+39 071 7391596",
     "telefono": "+39 071 7391596",
     "web": "",
+    "note": "",
     "mappa": "Via Litoranea 209, Marcelli, AN"
   },
   {
@@ -3820,6 +4113,7 @@ var GUIDA=[
     "tel": "+39 0341 940594",
     "telefono": "+39 0341 940594",
     "web": "",
+    "note": "",
     "mappa": "Via San Fedele 29, Colico, LC"
   },
   {
@@ -3833,6 +4127,7 @@ var GUIDA=[
     "tel": "+39 349 8408893",
     "telefono": "+39 349 8408893",
     "web": "https://www.selvabistrot.com",
+    "note": "",
     "mappa": "Via Giovanni Tempini 15, Brescia, BS"
   },
   {
@@ -3846,6 +4141,7 @@ var GUIDA=[
     "tel": "+39 338 7694245",
     "telefono": "+39 338 7694245",
     "web": "https://www.ristoranteacquerello.com",
+    "note": "",
     "mappa": "Via Patrioti 5, Fagnano Olona, VA"
   },
   {
@@ -3859,6 +4155,7 @@ var GUIDA=[
     "tel": "+39 340 4053006",
     "telefono": "+39 340 4053006",
     "web": "https://www.simoneollari.it",
+    "note": "Savarin di riso con la ricetta di Mirella Cantarelli · Parma · Emilia Ro",
     "mappa": "Strada per Parma Crocizia 3, Pilastro, PR"
   },
   {
@@ -3872,6 +4169,7 @@ var GUIDA=[
     "tel": "+39 02 45476502",
     "telefono": "+39 02 45476502",
     "web": "",
+    "note": "Sushi",
     "mappa": "Via Lambro 11, Milano, MI"
   },
   {
@@ -3885,6 +4183,7 @@ var GUIDA=[
     "tel": "+39 06 95640 43",
     "telefono": "+39 06 95640 43",
     "web": "https://www.soramariaearcangelo.com",
+    "note": "Premiate trattorie italiane · Chiuso: Lunedì e Mercoledì.",
     "mappa": "Via Roma 42, Olevano Romano, RM"
   },
   {
@@ -3898,6 +4197,7 @@ var GUIDA=[
     "tel": "+39 071 202441",
     "telefono": "+39 071 202441",
     "web": "https://www.ristorantesotajarchi.it",
+    "note": "",
     "mappa": "Via Marconi 93, Ancona, AN"
   },
   {
@@ -3911,6 +4211,7 @@ var GUIDA=[
     "tel": "+39 2107564021",
     "telefono": "+39 2107564021",
     "web": "https://www.spondi.gr",
+    "note": "Executive Chef: Aggelos Lantos",
     "mappa": "Pyrronos 5, Atene, GR"
   },
   {
@@ -3924,6 +4225,7 @@ var GUIDA=[
     "tel": "+39 0865 77379",
     "telefono": "+39 0865 77379",
     "web": "http://www.locandamammi.it",
+    "note": "",
     "mappa": "Contrada Castelnuovo 86, Agnone, IS"
   },
   {
@@ -3937,6 +4239,7 @@ var GUIDA=[
     "tel": "+39 389 4413857",
     "telefono": "+39 389 4413857",
     "web": "",
+    "note": "",
     "mappa": "Viale della Vittoria 16, Verghera di Samarate, VA"
   },
   {
@@ -3950,6 +4253,7 @@ var GUIDA=[
     "tel": "+39 0721 639813",
     "telefono": "+39 0721 639813",
     "web": "https://www.nostranoristorante.it",
+    "note": "Aperto tutti i giorni a pranzo e cena · Chiudo martedì e mercoledì",
     "mappa": "Piazzale della Libertà 7, Pesaro, PU"
   },
   {
@@ -3963,6 +4267,7 @@ var GUIDA=[
     "tel": "+39 0444 444085",
     "telefono": "+39 0444 444085",
     "web": "https://www.anticaosteriaalcastello.com",
+    "note": "1 Km dall'uscita di Montebello Vicentino, direzione Gambellara Locali",
     "mappa": "Via Castello 23, Sorio di Gambellara, VI"
   },
   {
@@ -3976,6 +4281,7 @@ var GUIDA=[
     "tel": "+39 081 0202708",
     "telefono": "+39 081 0202708",
     "web": "",
+    "note": "",
     "mappa": "Via S.S. Pietro e Paolo 5, Quarto"
   },
   {
@@ -3989,6 +4295,7 @@ var GUIDA=[
     "tel": "+39 045 6210477",
     "telefono": "+39 045 6210477",
     "web": "https://www.giardinodelleesperidi.it",
+    "note": "Chiuso il martedì",
     "mappa": "Via G. Mameli 1, Bardolino, VR"
   },
   {
@@ -4002,6 +4309,7 @@ var GUIDA=[
     "tel": "+44 (0) 20 7629 3561",
     "telefono": "+44 (0) 20 7629 3561",
     "web": "https://www.tamarindrestaurant.com",
+    "note": "·",
     "mappa": "20 Queen Street, London, GB"
   },
   {
@@ -4015,6 +4323,7 @@ var GUIDA=[
     "tel": "+34 934 880 977",
     "telefono": "+34 934 880 977",
     "web": "https://www.carlesabellan.com",
+    "note": "Chef: Carles Abellán · Orari: 9-24, chiuso domenica",
     "mappa": "Carrer de la Diputació 269, Barcellona, ES"
   },
   {
@@ -4028,6 +4337,7 @@ var GUIDA=[
     "tel": "+39 02 9830217",
     "telefono": "+39 02 9830217",
     "web": "",
+    "note": "",
     "mappa": "Via Dante 1, angolo Via De Amicis 21, Melegnano, MI"
   },
   {
@@ -4041,6 +4351,7 @@ var GUIDA=[
     "tel": "+39 393 9817906",
     "telefono": "+39 393 9817906",
     "web": "",
+    "note": "",
     "mappa": "Via Arcivescovo Calabiana 3, Milano, MI"
   },
   {
@@ -4054,6 +4365,7 @@ var GUIDA=[
     "tel": "+39 089 875474",
     "telefono": "+39 089 875474",
     "web": "http://www.latavernadelleone.com/",
+    "note": "",
     "mappa": "Via Laurito, 43, Positano, SA"
   },
   {
@@ -4067,6 +4379,7 @@ var GUIDA=[
     "tel": "+30 2733 051327",
     "telefono": "+30 2733 051327",
     "web": "",
+    "note": "Mani",
     "mappa": "Sul mare, nel villaggio di Limeni, Limeni Laconia, GR"
   },
   {
@@ -4080,6 +4393,7 @@ var GUIDA=[
     "tel": "+39 331 2947089",
     "telefono": "+39 331 2947089",
     "web": "https://www.terraerestaurant.it",
+    "note": "Ristorante aperto a cena dal giovedì al lunedì dalle 19:00 alle 21:30\\",
     "mappa": "Via del Giglio 9, Firenze, FI"
   },
   {
@@ -4093,6 +4407,7 @@ var GUIDA=[
     "tel": "+39 0426509178",
     "telefono": "+39 0426509178",
     "web": "http://www.anticatrattorialportico.it",
+    "note": "",
     "mappa": "Via Leonardo da Vinci 14, Cona, VE"
   },
   {
@@ -4106,6 +4421,7 @@ var GUIDA=[
     "tel": "+39 055 699000",
     "telefono": "+39 055 699000",
     "web": "https://www.torreacona.com/ristorante",
+    "note": "",
     "mappa": "Via Torre a Cona 49, Rignano sull’Arno, FI"
   },
   {
@@ -4119,6 +4435,7 @@ var GUIDA=[
     "tel": "+39 02 23323 910",
     "telefono": "+39 02 23323 910",
     "web": "https://www.fondazioneprada.org/torre/",
+    "note": "Bar Manager: Carlo Mereu",
     "mappa": "Via Lorenzini 14, Milano, MI"
   },
   {
@@ -4132,6 +4449,7 @@ var GUIDA=[
     "tel": "+39 02 74281 354",
     "telefono": "+39 02 74281 354",
     "web": "",
+    "note": "",
     "mappa": "Via Melzo 15, Milano, MI"
   },
   {
@@ -4145,6 +4463,7 @@ var GUIDA=[
     "tel": "+39 0521 645626",
     "telefono": "+39 0521 645626",
     "web": "https://trattoria-ai-due-platani.eatbu.com/?lang=it",
+    "note": "Chiuso: 15 febbraio-4 marzo · 16 agosto-4 settembre · lunedì sera, mart",
     "mappa": "Via Budellungo 104/a, Coloreto, PR"
   },
   {
@@ -4158,6 +4477,7 @@ var GUIDA=[
     "tel": "+390458030537",
     "telefono": "+390458030537",
     "web": "",
+    "note": "",
     "mappa": "Vicolo Regina d'Ungheria 5, Verona, VR"
   },
   {
@@ -4171,6 +4491,7 @@ var GUIDA=[
     "tel": "+39 0376 808256",
     "telefono": "+39 0376 808256",
     "web": "",
+    "note": "Chiuso il mercoledì",
     "mappa": "Via San Martino e Solferino 3, Ponti sul Mincio, MN"
   },
   {
@@ -4184,6 +4505,7 @@ var GUIDA=[
     "tel": "+39 0187 674410",
     "telefono": "+39 0187 674410",
     "web": "",
+    "note": "La Spezia · Liguria",
     "mappa": "Piazza Garibaldi 6, Castelnuovo Magra, SP"
   },
   {
@@ -4197,6 +4519,7 @@ var GUIDA=[
     "tel": "+39 055 8317240",
     "telefono": "+39 055 8317240",
     "web": "https://artemideristorante.wixsite.com/artemide",
+    "note": "Firenze · Toscana · DP",
     "mappa": "Via di Galiga 21, Molino del Piano, FI"
   },
   {
@@ -4210,6 +4533,7 @@ var GUIDA=[
     "tel": "+39 059 311524",
     "telefono": "+39 059 311524",
     "web": "http://www.trattoriabianca.it",
+    "note": "",
     "mappa": "Via G.B. Spaccini  24, Modena, MO"
   },
   {
@@ -4223,6 +4547,7 @@ var GUIDA=[
     "tel": "+39 091 335139",
     "telefono": "+39 091 335139",
     "web": "http://www.coronatrattoria.it",
+    "note": "Chiuso domenica sera e lunedì · Palermo · Sicilia",
     "mappa": "Via Marconi 9, Palermo, PA"
   },
   {
@@ -4236,6 +4561,7 @@ var GUIDA=[
     "tel": "+39 0974 985669",
     "telefono": "+39 0974 985669",
     "web": "",
+    "note": "Cilento · Campania",
     "mappa": "Via Pulsaria 16, Torre Orsaia, SA"
   },
   {
@@ -4249,6 +4575,7 @@ var GUIDA=[
     "tel": "+39 055 317206",
     "telefono": "+39 055 317206",
     "web": "https://landing.vinodaburde.eu",
+    "note": "Firenze · Toscana · (DP)",
     "mappa": "Via Pistoiese 154, Firenze, FI"
   },
   {
@@ -4262,6 +4589,7 @@ var GUIDA=[
     "tel": "+39 089 871345",
     "telefono": "+39 089 871345",
     "web": "https://trattoria.trattoriadagemma.com",
+    "note": "",
     "mappa": "Via Fra Gerardo Sasso 11, Amalfi, SA"
   },
   {
@@ -4275,6 +4603,7 @@ var GUIDA=[
     "tel": "+39 340 9743459",
     "telefono": "+39 340 9743459",
     "web": "https://trattoriadalucio.cuoriebbri.com/",
+    "note": "",
     "mappa": "Viale Amerigo Vespucci, 71, Rimini, RN"
   },
   {
@@ -4288,6 +4617,7 @@ var GUIDA=[
     "tel": "+39 02 72093 709",
     "telefono": "+39 02 72093 709",
     "web": "",
+    "note": "",
     "mappa": "Via Gaudenzio Ferrari 1, Milano, MI"
   },
   {
@@ -4301,6 +4631,7 @@ var GUIDA=[
     "tel": "+39 0438 966295",
     "telefono": "+39 0438 966295",
     "web": "https://www.trattoriadallalibera.it",
+    "note": "",
     "mappa": "Via Farra 56, Sernaglia della Battaglia, TV"
   },
   {
@@ -4314,6 +4645,7 @@ var GUIDA=[
     "tel": "+39 0761 646173",
     "telefono": "+39 0761 646173",
     "web": "https://www.trattoriadelciminodal1895.it",
+    "note": "Chiuso il lunedì · Tuscia · Viterbo",
     "mappa": "Via Filippo Nicolai 44, Caprarola, VT"
   },
   {
@@ -4327,6 +4659,7 @@ var GUIDA=[
     "tel": "+39 0541 727082",
     "telefono": "+39 0541 727082",
     "web": "",
+    "note": "Cucina tipica romagnola · Emilia Romagna",
     "mappa": "Via Marecchiese 345, Rimini, RN"
   },
   {
@@ -4340,6 +4673,7 @@ var GUIDA=[
     "tel": "+39 051 6312330",
     "telefono": "+39 051 6312330",
     "web": "https://www.trattoriadiviaserra.it",
+    "note": "Chiuso domenica, lunedi e martedì a pranzo · Emilia Romagna",
     "mappa": "Via Luigi Serra 9, Bologna, BO"
   },
   {
@@ -4353,6 +4687,7 @@ var GUIDA=[
     "tel": "+39 0783 459101",
     "telefono": "+39 0783 459101",
     "web": "",
+    "note": "",
     "mappa": "Via San Giorgio 79, Ruinas, OR"
   },
   {
@@ -4366,6 +4701,7 @@ var GUIDA=[
     "tel": "+39 0833 784164",
     "telefono": "+39 0833 784164",
     "web": "https://www.trattoriaiolanda.com",
+    "note": "Salento",
     "mappa": "Via Montanara 2, Lucugnano, LE"
   },
   {
@@ -4379,6 +4715,7 @@ var GUIDA=[
     "tel": "+39 0185 337480",
     "telefono": "+39 0185 337480",
     "web": "https://www.labrinca.it",
+    "note": "Premiate trattorie italiane",
     "mappa": "Via Campo di Ne 58, Ne, GE"
   },
   {
@@ -4392,6 +4729,7 @@ var GUIDA=[
     "tel": "+39 055 218550",
     "telefono": "+39 055 218550",
     "web": "https://www.trattoriamario.com",
+    "note": "Domenica e festivi chiusi.",
     "mappa": "Via Rosina 2/R · Angolo Piazza Mercato centr, Firenze, FI"
   },
   {
@@ -4405,6 +4743,7 @@ var GUIDA=[
     "tel": "+39 02 91180496",
     "telefono": "+39 02 91180496",
     "web": "",
+    "note": "",
     "mappa": "Piazza San Materno 12, Milano, MI"
   },
   {
@@ -4418,6 +4757,7 @@ var GUIDA=[
     "tel": "+39 0584 791200",
     "telefono": "+39 0584 791200",
     "web": "",
+    "note": "Lucca · Toscana · DP",
     "mappa": "Via Arginello 24, Pietrasanta, LU"
   },
   {
@@ -4431,6 +4771,7 @@ var GUIDA=[
     "tel": "+39 040 271219",
     "telefono": "+39 040 271219",
     "web": "http://www.trattoriarisorta.it",
+    "note": "",
     "mappa": "Riva de Amicis 1, Muggia, TS"
   },
   {
@@ -4444,6 +4785,7 @@ var GUIDA=[
     "tel": "+39 055 697354",
     "telefono": "+39 055 697354",
     "web": "https://www.ristorantetullio.it",
+    "note": "",
     "mappa": "Via Ontignano 48, Fiesole, FI"
   },
   {
@@ -4457,6 +4799,7 @@ var GUIDA=[
     "tel": "+39 035 908153",
     "telefono": "+39 035 908153",
     "web": "https://www.trattoriavisconti.it",
+    "note": "Premiate trattorie italiane",
     "mappa": "Via De Gasperi 12, Ambivere, BG"
   },
   {
@@ -4470,6 +4813,7 @@ var GUIDA=[
     "tel": "+390342615584",
     "telefono": "+390342615584",
     "web": "https://www.ristorantetrippi.it",
+    "note": "Chiuso martedì sera, giovedì e domenica tutto il giorno.",
     "mappa": "Via Stelvio 297 mi, Montagna in Valtellina, SO"
   },
   {
@@ -4483,6 +4827,7 @@ var GUIDA=[
     "tel": "+41 91 682 01 75",
     "telefono": "+41 91 682 01 75",
     "web": "http://ul-furmighin.ch/web/",
+    "note": "Ticino · Svizzera · 🌳",
     "mappa": "Via Treval 26, Sagno Canton Ticino, CH"
   },
   {
@@ -4496,6 +4841,7 @@ var GUIDA=[
     "tel": "+39081997171",
     "telefono": "+39081997171",
     "web": "",
+    "note": "",
     "mappa": "Via Soccorso 8, Forio d’Ischia"
   },
   {
@@ -4509,6 +4855,7 @@ var GUIDA=[
     "tel": "+39 02 39261025",
     "telefono": "+39 02 39261025",
     "web": "https://www.unicorestaurant.it",
+    "note": "",
     "mappa": "Via Achille Papa 30, Milano, MI"
   },
   {
@@ -4522,6 +4869,7 @@ var GUIDA=[
     "tel": "+39 085 8931170",
     "telefono": "+39 085 8931170",
     "web": "",
+    "note": "Premiate trattorie italiane",
     "mappa": "Lungomare Trento 37, Roseto degli Abruzzi, TE"
   },
   {
@@ -4535,6 +4883,7 @@ var GUIDA=[
     "tel": "+39 0541 759138",
     "telefono": "+39 0541 759138",
     "web": "http://www.ristorantevite.it/",
+    "note": "",
     "mappa": "Via Montepirolo 7, Coriano, RN"
   },
   {
@@ -4548,6 +4897,7 @@ var GUIDA=[
     "tel": "+390865955215",
     "telefono": "+390865955215",
     "web": "https://www.albergovolturno.com",
+    "note": "Isernia · Molise",
     "mappa": "Via Fonticelle 16, Colli al Volturno, IS"
   },
   {
@@ -4561,6 +4911,7 @@ var GUIDA=[
     "tel": "+39 349 3273374",
     "telefono": "+39 349 3273374",
     "web": "https://www.aimoenadia.com",
+    "note": "",
     "mappa": "Piazza della Scala 6, Milano, MI"
   },
   {
@@ -4574,6 +4925,7 @@ var GUIDA=[
     "tel": "+39 0541 626136",
     "telefono": "+39 0541 626136",
     "web": "https://www.ristorantezaghini.it/dove-siamo",
+    "note": "",
     "mappa": "Piazza Antonio Gramsci 14, Sant’Arcangelo di Romagna, RM"
   },
   {
@@ -4587,6 +4939,7 @@ var GUIDA=[
     "tel": "+39 055 2342864",
     "telefono": "+39 055 2342864",
     "web": "http://www.zebgastronomia.com",
+    "note": "",
     "mappa": "Via San Miniato, 2 rosso, Firenze, FI"
   },
   {
@@ -4600,6 +4953,7 @@ var GUIDA=[
     "tel": "+39035986004",
     "telefono": "+39035986004",
     "web": "",
+    "note": "Chiuso mercoledì e giovedì · Lago d’Iseo · Bergamo",
     "mappa": "Via XXV Aprile 53, Riva di Solto, BG"
   },
   {
@@ -4613,6 +4967,7 @@ var GUIDA=[
     "tel": "+39 0174 789131 · +39 347 8904709",
     "telefono": "+39 0174 789131 · +39 347 8904709",
     "web": "https://www.trattoriasalvetti.it",
+    "note": "",
     "mappa": "Via Coste 19, Paroldo, CN"
   },
   {
@@ -4626,6 +4981,7 @@ var GUIDA=[
     "tel": "+39 0174 785137",
     "telefono": "+39 0174 785137",
     "web": "",
+    "note": "",
     "mappa": "Via Roma 21, Castellino Tanaro, CN"
   },
   {
@@ -4639,6 +4995,7 @@ var GUIDA=[
     "tel": "+39 0141 212674",
     "telefono": "+39 0141 212674",
     "web": "",
+    "note": "",
     "mappa": "Frazione Rioscone 112, Asti, AT"
   },
   {
@@ -4652,6 +5009,7 @@ var GUIDA=[
     "tel": "+39 0144 953613",
     "telefono": "+39 0144 953613",
     "web": "https://www.ristorantedellaposta.it",
+    "note": "E-mail: info@ristorantedellaposta.it",
     "mappa": "Via Roma 4, Olmo Gentile, AT"
   },
   {
@@ -4665,6 +5023,7 @@ var GUIDA=[
     "tel": "+39 0173 65114 · +39 333 9013173",
     "telefono": "+39 0173 65114 · +39 333 9013173",
     "web": "https://www.divinroero.com",
+    "note": "E-mail: info@divinroero.it",
     "mappa": "Piazza S. Martino 5, Vezza d'Alba, CN"
   },
   {
@@ -4678,6 +5037,7 @@ var GUIDA=[
     "tel": "+39 0144 850402",
     "telefono": "+39 0144 850402",
     "web": "https://www.ristorantemadonnadellaneve.it",
+    "note": "E-mail: info@ristorantemadonnadellaneve.it",
     "mappa": "Regione Madonna della Neve 2, Cessole, AT"
   },
   {
@@ -4691,6 +5051,7 @@ var GUIDA=[
     "tel": "+39 079 9731126",
     "telefono": "+39 079 9731126",
     "web": "https://alrefettorio.eatbu.com",
+    "note": "",
     "mappa": "Vicolo Adami 47, Alghero, SS"
   },
   {
@@ -4704,6 +5065,7 @@ var GUIDA=[
     "tel": "+39 02 85689735",
     "telefono": "+39 02 85689735",
     "web": "https://www.ristoranteabba.com",
+    "note": "E-mail: info@ristoranteabba.com",
     "mappa": "Via Varesina 177, Milano, MI"
   }
 ];
