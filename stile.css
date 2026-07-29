@@ -762,3 +762,92 @@ body::before {
 .scheda-correlata:hover { transform: translateY(-3px); box-shadow: 0 4px 20px rgba(20,35,63,.14); }
 .sc-foto { height: 220px; background-size: cover; background-position: center; }
 .sc-titolo { padding: 16px; font-family: var(--serif); font-size: 1rem; font-weight: 500; color: var(--blu); line-height: 1.4; }
+
+/* ---------------- CONCIERGE (assistente flottante) ---------------- */
+.conc-bottone {
+  position: fixed; right: 24px; bottom: 24px; z-index: 900;
+  width: 58px; height: 58px; border-radius: 50%;
+  background: var(--blu); color: var(--bianco);
+  border: none; box-shadow: 0 4px 18px rgba(20,35,63,.28);
+  font-size: 1.6rem; line-height: 1; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  transition: transform .25s ease, background .25s ease;
+}
+.conc-bottone:hover { background: var(--blu-notte); transform: translateY(-2px); }
+
+.conc-overlay {
+  position: fixed; inset: 0; z-index: 950;
+  background: rgba(20,35,63,.55);
+  display: flex; align-items: center; justify-content: center;
+  padding: 20px;
+}
+.conc-overlay[hidden] { display: none; }
+
+.conc-modale {
+  position: relative;
+  width: 100%; max-width: 440px;
+  max-height: 86vh; overflow-y: auto;
+  background: var(--carta); border: 1px solid var(--filo);
+  padding: 40px 30px 30px;
+  box-shadow: 0 12px 50px rgba(20,35,63,.35);
+}
+.conc-chiudi {
+  position: absolute; top: 14px; right: 14px;
+  width: 32px; height: 32px; border: none; background: transparent;
+  color: var(--blu-notte); font-size: 1.4rem; line-height: 1; cursor: pointer;
+}
+.conc-chiudi:hover { color: var(--blu); }
+
+.conc-passi { display: flex; gap: 8px; justify-content: center; margin-bottom: 24px; }
+.conc-passo { width: 8px; height: 8px; border-radius: 50%; background: var(--filo); transition: background .25s ease; }
+.conc-passo.attivo { background: var(--blu); }
+.conc-passo.fatto { background: var(--azzurro-tenue); }
+
+.conc-titolo {
+  font-family: var(--serif); font-size: 1.4rem; font-weight: 500;
+  text-align: center; margin-bottom: 24px; color: var(--blu-notte);
+}
+
+.conc-opzioni { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+.conc-opzione {
+  flex: 1 1 120px; display: flex; flex-direction: column; align-items: center; gap: 8px;
+  font-family: var(--sans); font-size: 0.78rem; letter-spacing: 0.06em;
+  color: var(--blu-notte); background: #fff; border: 1px solid var(--filo);
+  padding: 18px 12px; cursor: pointer; transition: border-color .25s, background .25s;
+}
+.conc-opzione:hover { border-color: var(--blu); background: rgba(74,111,165,0.06); }
+.conc-opzione span { font-size: 0.8rem; }
+.conc-opzione--simbolo { font-size: 1.6rem; flex: 1 1 90px; }
+.conc-opzione--simbolo span { font-family: var(--sans); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.06em; text-align: center; }
+
+.conc-select {
+  width: 100%; font-family: var(--sans); font-size: 0.95rem; color: var(--blu-notte);
+  padding: 13px 16px; border: 1px solid var(--filo); background: #fff;
+  border-radius: 0; -webkit-appearance: none; appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'><path d='M1 1l5 5 5-5' fill='none' stroke='%231f4e8c' stroke-width='1.6'/></svg>");
+  background-repeat: no-repeat; background-position: right 16px center; padding-right: 40px; cursor: pointer;
+}
+.conc-select:focus { outline: none; border-color: var(--blu); }
+
+.conc-azioni-step { display: flex; justify-content: space-between; align-items: center; margin-top: 26px; gap: 12px; }
+.conc-indietro, .conc-avanti, .conc-rifai {
+  font-family: var(--sans); font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase;
+  background: transparent; border: 1px solid var(--blu-notte); color: var(--blu-notte);
+  padding: 11px 18px; cursor: pointer; transition: all .25s ease;
+}
+.conc-indietro:hover { background: rgba(20,35,63,.06); }
+.conc-avanti { background: var(--blu); border-color: var(--blu); color: var(--bianco); margin-left: auto; }
+.conc-avanti:hover { background: var(--blu-notte); border-color: var(--blu-notte); }
+.conc-avanti:disabled { opacity: .4; cursor: default; }
+.conc-rifai { width: 100%; text-align: center; }
+
+.conc-risultati { display: flex; flex-direction: column; gap: 14px; }
+.conc-card { border: 1px solid var(--filo); background: #fff; padding: 16px 18px; display: flex; flex-direction: column; gap: 8px; }
+.conc-card-nome { font-family: var(--serif); font-size: 1.1rem; font-weight: 500; }
+.conc-card-citta { font-family: var(--sans); font-size: 0.78rem; color: #6a788f; }
+.conc-vuoto { text-align: center; color: #6a788f; font-style: italic; padding: 20px 0 6px; }
+
+@media (max-width: 480px) {
+  .conc-bottone { right: 16px; bottom: 16px; width: 52px; height: 52px; font-size: 1.4rem; }
+  .conc-modale { padding: 34px 20px 24px; }
+}

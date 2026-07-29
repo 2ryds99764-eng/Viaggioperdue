@@ -714,6 +714,7 @@ document.addEventListener("DOMContentLoaded", function () {
   if (document.body.dataset.pagina === "storia") costruisciStoria();
   if (document.body.dataset.pagina === "guida") costruisciGuida();
    if (document.body.dataset.pagina === "hotel") costruisciHotel();
+  costruisciConcierge();
 });
 function costruisciHotel() {
   document.title = "Guida agli alberghi · " + T42.sito.nome;
@@ -855,5 +856,185 @@ function costruisciHotel() {
   if (legendaH) { legendaH.innerHTML = "<span class=lg-voce>🌅 Pied dans l’eau</span>" + "<span class=lg-voce>🌄 Splendida vista</span>" + "<span class=lg-voce>🌳 Albergo isolato</span>" + "<span class=lg-voce>♥️ Albergo di charme</span>" + "<span class=lg-voce>🏖️ Spiaggia privata</span>" + "<span class=lg-voce>🏞️ Albergo di montagna</span>" + "<span class=lg-voce>👑 Grande tradizione</span>"; }
   disegna(dati);
   costruisciPie(T42.sito);
+}
+
+/* ----------- CONCIERGE (assistente flottante, presente su tutte le pagine) ----------- */
+function costruisciConcierge() {
+  const SIMBOLI_RISTORANTE = [{ v: "🌅", t: "Pied dans l'eau" }];
+  const SIMBOLI_ALBERGO = [
+    { v: "🌅", t: "Pied dans l'eau" },
+    { v: "🌳", t: "Isolato" },
+    { v: "♥️", t: "Charme" },
+    { v: "🏖️", t: "Spiaggia" },
+    { v: "🏞️", t: "Montagna" },
+    { v: "👑", t: "Tradizione" }
+  ];
+
+  const host = document.createElement("div");
+  host.innerHTML =
+    '<button id="conc-bottone" class="conc-bottone" type="button" aria-haspopup="dialog" aria-label="Apri l\'assistente di viaggio">🛎️</button>' +
+    '<div id="conc-overlay" class="conc-overlay" hidden>' +
+      '<div class="conc-modale" role="dialog" aria-modal="true" aria-label="Assistente di viaggio">' +
+        '<button id="conc-chiudi" class="conc-chiudi" type="button" aria-label="Chiudi">×</button>' +
+        '<div id="conc-passi" class="conc-passi">' +
+          '<span class="conc-passo" data-passo="1"></span>' +
+          '<span class="conc-passo" data-passo="2"></span>' +
+          '<span class="conc-passo" data-passo="3"></span>' +
+        '</div>' +
+        '<div id="conc-corpo" class="conc-corpo"></div>' +
+      '</div>' +
+    '</div>';
+  document.body.appendChild(host);
+
+  const bottone = document.getElementById("conc-bottone");
+  const overlay = document.getElementById("conc-overlay");
+  const chiudiBtn = document.getElementById("conc-chiudi");
+  const passiEl = document.getElementById("conc-passi");
+  const corpo = document.getElementById("conc-corpo");
+
+  let stato = { tipo: null, regione: null, simbolo: null, step: 1 };
+
+  function aggiornaPassi() {
+    passiEl.style.visibility = stato.step > 3 ? "hidden" : "visible";
+    passiEl.querySelectorAll(".conc-passo").forEach(function (el) {
+      const n = Number(el.dataset.passo);
+      el.classList.toggle("attivo", n === stato.step);
+      el.classList.toggle("fatto", n < stato.step);
+    });
+  }
+
+  function renderStep1() {
+    corpo.innerHTML =
+      '<div class="conc-titolo">Cosa cerchi?</div>' +
+      '<div class="conc-opzioni">' +
+        '<button class="conc-opzione" type="button" data-tipo="ristorante">🍽️<span>Ristorante</span></button>' +
+        '<button class="conc-opzione" type="button" data-tipo="albergo">🛏️<span>Albergo</span></button>' +
+      '</div>';
+  }
+
+  function renderStep2() {
+    const regprov = stato.tipo === "ristorante" ? (window.GUIDA_REGPROV || {}) : (window.HOTEL_PROVCITTA || {});
+    const regioni = Object.keys(regprov).sort(function (a, b) { return a.localeCompare(b, "it"); });
+    corpo.innerHTML =
+      '<div class="conc-titolo">Dove?</div>' +
+      '<select id="conc-regione" class="conc-select">' +
+        '<option value="">Scegli una regione…</option>' +
+        regioni.map(function (r) {
+          return '<option value="' + esc(r) + '"' + (r === stato.regione ? " selected" : "") + '>' + esc(r) + '</option>';
+        }).join("") +
+      '</select>' +
+      '<div class="conc-azioni-step">' +
+        '<button class="conc-indietro" type="button">← Indietro</button>' +
+        '<button class="conc-avanti" id="conc-avanti-2" type="button"' + (stato.regione ? "" : " disabled") + '>Continua →</button>' +
+      '</div>';
+  }
+
+  function renderStep3() {
+    const simboli = stato.tipo === "ristorante" ? SIMBOLI_RISTORANTE : SIMBOLI_ALBERGO;
+    corpo.innerHTML =
+      '<div class="conc-titolo">Che tipo?</div>' +
+      '<div class="conc-opzioni conc-opzioni--simboli">' +
+        simboli.map(function (s) {
+          return '<button class="conc-opzione conc-opzione--simbolo" type="button" data-simbolo="' + esc(s.v) + '">' + s.v + '<span>' + esc(s.t) + '</span></button>';
+        }).join("") +
+      '</div>' +
+      '<div class="conc-azioni-step"><button class="conc-indietro" type="button">← Indietro</button></div>';
+  }
+
+  function suggerimenti() {
+    const dati = stato.tipo === "ristorante" ? (window.GUIDA || []) : (window.HOTEL || []);
+    const match = dati.filter(function (r) {
+      return r.regione === stato.regione && (r.note || "").indexOf(stato.simbolo) !== -1;
+    });
+    const mischiati = match.slice();
+    for (let i = mischiati.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const tmp = mischiati[i]; mischiati[i] = mischiati[j]; mischiati[j] = tmp;
+    }
+    const quanti = Math.min(mischiati.length, 1 + Math.floor(Math.random() * 3));
+    return mischiati.slice(0, quanti);
+  }
+
+  function renderRisultati() {
+    const items = suggerimenti();
+    let html = '<div class="conc-titolo">I miei suggerimenti</div>';
+    if (!items.length) {
+      html += '<div class="conc-vuoto">Nessun ' + (stato.tipo === "ristorante" ? "ristorante" : "albergo") +
+        ' con questo profilo in ' + esc(stato.regione) + '. Prova un\'altra combinazione.</div>';
+    } else {
+      html += '<div class="conc-risultati">' + items.map(function (r) {
+        const link = r.web ? esc(r.web) : (r.mappa ? urlMappa(r.mappa) : "");
+        const etichetta = r.web ? "Sito" : "Mappa";
+        return '<article class="conc-card">' +
+          '<div class="conc-card-nome">' + esc(r.nome) + '</div>' +
+          (r.citta ? '<div class="conc-card-citta">' + esc(r.citta) + '</div>' : '') +
+          (link ? '<a class="btn btn--pieno" href="' + link + '" target="_blank" rel="noopener">' + etichetta + '</a>' : '') +
+        '</article>';
+      }).join("") + '</div>';
+    }
+    html += '<div class="conc-azioni-step"><button class="conc-rifai" type="button">↺ Nuova ricerca</button></div>';
+    corpo.innerHTML = html;
+  }
+
+  function render() {
+    aggiornaPassi();
+    if (stato.step === 1) renderStep1();
+    else if (stato.step === 2) renderStep2();
+    else if (stato.step === 3) renderStep3();
+    else renderRisultati();
+  }
+
+  function vaiA(step) {
+    stato.step = step;
+    render();
+  }
+
+  function apri() {
+    stato = { tipo: null, regione: null, simbolo: null, step: 1 };
+    overlay.hidden = false;
+    document.body.style.overflow = "hidden";
+    render();
+  }
+
+  function chiudi() {
+    overlay.hidden = true;
+    document.body.style.overflow = "";
+  }
+
+  bottone.addEventListener("click", apri);
+  chiudiBtn.addEventListener("click", chiudi);
+  overlay.addEventListener("click", function (e) { if (e.target === overlay) chiudi(); });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape" && !overlay.hidden) chiudi(); });
+
+  corpo.addEventListener("click", function (e) {
+    const opzione = e.target.closest(".conc-opzione");
+    if (opzione) {
+      if (stato.step === 1) {
+        stato.tipo = opzione.dataset.tipo;
+        stato.regione = null;
+        stato.simbolo = null;
+        vaiA(2);
+      } else if (stato.step === 3) {
+        stato.simbolo = opzione.dataset.simbolo;
+        vaiA(4);
+      }
+      return;
+    }
+    if (e.target.closest(".conc-indietro")) { vaiA(stato.step - 1); return; }
+    const avanti = e.target.closest(".conc-avanti");
+    if (avanti && !avanti.disabled) { vaiA(3); return; }
+    if (e.target.closest(".conc-rifai")) {
+      stato.tipo = null; stato.regione = null; stato.simbolo = null;
+      vaiA(1);
+    }
+  });
+
+  corpo.addEventListener("change", function (e) {
+    if (e.target.id === "conc-regione") {
+      stato.regione = e.target.value;
+      const avanti = document.getElementById("conc-avanti-2");
+      if (avanti) avanti.disabled = !stato.regione;
+    }
+  });
 }
 
