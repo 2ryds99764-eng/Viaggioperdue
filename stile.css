@@ -359,13 +359,19 @@ body::before {
   font-size: clamp(1rem, 2.2vw, 1.25rem); line-height: 1.6; margin: 22px auto 0; max-width: 46ch;
   color: rgba(255,255,255,0.95); text-shadow: 0 1px 12px rgba(0,0,0,0.3);
 }
+.banner-estate-azioni {
+  display: flex; align-items: center; justify-content: center; gap: 14px; flex-wrap: wrap;
+  margin-top: 30px;
+}
 .banner-estate-cta {
-  display: inline-block; margin-top: 30px; font-family: var(--sans); font-size: 0.78rem;
+  display: inline-block; font-family: var(--sans); font-size: 0.78rem;
   letter-spacing: 0.18em; text-transform: uppercase; color: #fff; text-decoration: none;
   border: 1px solid rgba(255,255,255,0.7); padding: 12px 28px;
   transition: background .35s, border-color .35s;
 }
 .banner-estate-cta:hover { background: rgba(255,255,255,0.15); border-color: #fff; }
+.banner-estate-cta--secondaria { background: rgba(255,255,255,0.12); border-color: rgba(255,255,255,0.4); }
+.banner-estate-cta--secondaria:hover { background: rgba(255,255,255,0.24); border-color: #fff; }
 
 @media (max-width: 600px) {
   .banner-estate { min-height: 48vh; }

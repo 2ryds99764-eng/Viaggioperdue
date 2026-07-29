@@ -682,7 +682,15 @@ function costruisciGuida() {
   if (selReg) { selReg.addEventListener("change", function () { aggiornaProvince(); filtra(); }); selReg.addEventListener("click", function () { aggiornaProvince(); filtra(); }); }
   if (selProv) selProv.addEventListener("change", filtra);
 
-  disegna(dati);
+  /* regione preselezionata da URL, es. guida.html?regione=Liguria */
+  const regioneUrl = new URLSearchParams(window.location.search).get("regione");
+  if (regioneUrl && selReg && regioni.indexOf(regioneUrl) !== -1) {
+    selReg.value = regioneUrl;
+    aggiornaProvince();
+    filtra();
+  } else {
+    disegna(dati);
+  }
   costruisciPie(T42.sito);
 }
 
