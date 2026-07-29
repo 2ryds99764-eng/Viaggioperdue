@@ -851,3 +851,9 @@ body::before {
   .conc-bottone { right: 16px; bottom: 16px; width: 52px; height: 52px; font-size: 1.4rem; }
   .conc-modale { padding: 34px 20px 24px; }
 }
+
+/* Iubenda: sposta il pulsante flottante delle preferenze cookie a sinistra */
+#iubFooterBtn {
+  right: auto !important;
+  left: 20px !important;
+}
