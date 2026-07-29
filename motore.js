@@ -1022,7 +1022,12 @@ function costruisciConcierge() {
     }
     if (e.target.closest(".conc-indietro")) { vaiA(stato.step - 1); return; }
     const avanti = e.target.closest(".conc-avanti");
-    if (avanti && !avanti.disabled) { vaiA(3); return; }
+    if (avanti) {
+      const selRegione = document.getElementById("conc-regione");
+      if (selRegione) stato.regione = selRegione.value;
+      if (stato.regione) vaiA(3);
+      return;
+    }
     if (e.target.closest(".conc-rifai")) {
       stato.tipo = null; stato.regione = null; stato.simbolo = null;
       vaiA(1);
