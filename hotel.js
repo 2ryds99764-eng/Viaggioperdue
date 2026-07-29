@@ -653,7 +653,7 @@ var HOTEL=[
     "cellulare": "",
     "email": "ilborro@ilborro.it",
     "web": "https://www.ilborro.it",
-    "note": "🌳🌅♥️",
+    "note": "🌳🌄♥️",
     "mappa": "Il Borro, Località Il Borro 1, 52024, San Giustino Valdarno, Italia"
   },
   {
@@ -973,7 +973,7 @@ var HOTEL=[
     "cellulare": "",
     "email": "info@lasoglina.ch",
     "web": "https://www.lasoglina.ch",
-    "note": "Vista sulla Val Bregaglia 🌳🌅 ♥️",
+    "note": "Vista sulla Val Bregaglia 🌳🌄 ♥️",
     "mappa": "La Soglina, Via Carnella 6, 7610, Soglio, Svizzera"
   },
   {
@@ -989,7 +989,7 @@ var HOTEL=[
     "cellulare": "",
     "email": "info@lasommita.it",
     "web": "https://www.lasommita.it",
-    "note": "🌅 ♥️",
+    "note": "🌄♥️",
     "mappa": "La Sommità Relais, Via Scipione Petrarolo 7, 72017, Ostuni, Italia"
   },
   {
