@@ -852,8 +852,10 @@ body::before {
   .conc-modale { padding: 34px 20px 24px; }
 }
 
-/* Iubenda: sposta il pulsante flottante delle preferenze cookie a sinistra */
-#iubFooterBtn {
+/* Iubenda: sposta il pulsante flottante delle preferenze cookie a sinistra
+   (selettore reale del widget: .iubenda-tp-btn; ripetuto per battere in specificità
+   eventuali stili inline/!important iniettati dallo script di Iubenda) */
+.iubenda-tp-btn.iubenda-tp-btn:not([data-tp-nostyle]) {
   right: auto !important;
   left: 20px !important;
 }
