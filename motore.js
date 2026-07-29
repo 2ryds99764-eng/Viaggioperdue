@@ -569,6 +569,12 @@ function costruisciGuida() {
         '<select id="cerca-provincia" disabled>' +
           '<option value="">Tutte le province</option>' +
         '</select>' +
+      '</div>' +
+      '<div class="cerca-campo">' +
+        '<select id="cerca-simbolo-g">' +
+          '<option value="">Tutti i simboli</option>' +
+          '<option value="🌅">🌅 Pied dans l\'eau</option>' +
+        '</select>' +
       '</div>';
   }
 
@@ -664,9 +670,11 @@ function costruisciGuida() {
     const q = normalizza((document.getElementById("cerca-nome") || {}).value ? document.getElementById("cerca-nome").value.trim() : "");
     const reg = (document.getElementById("cerca-regione") || {}).value || "";
     const prov = (document.getElementById("cerca-provincia") || {}).value || "";
+    const simbolo = (document.getElementById("cerca-simbolo-g") || {}).value || "";
     let items = dati;
     if (reg) items = items.filter(function (r) { return r.regione === reg; });
     if (prov) items = items.filter(function (r) { return r.prov === prov; });
+    if (simbolo) items = items.filter(function (r) { return (r.note || "").indexOf(simbolo) !== -1; });
     if (q) items = items.filter(function (r) {
       return normalizza(r.nome).indexOf(q) !== -1 || normalizza(r.luogo).indexOf(q) !== -1;
     });
@@ -677,10 +685,12 @@ function costruisciGuida() {
   const inputNome = document.getElementById("cerca-nome");
   const selReg = document.getElementById("cerca-regione");
   const selProv = document.getElementById("cerca-provincia");
+  const selSimbolo = document.getElementById("cerca-simbolo-g");
   if (inputNome) inputNome.addEventListener("input", filtra);
   if (inputNome) inputNome.addEventListener("keyup", filtra);
   if (selReg) { selReg.addEventListener("change", function () { aggiornaProvince(); filtra(); }); selReg.addEventListener("click", function () { aggiornaProvince(); filtra(); }); }
   if (selProv) selProv.addEventListener("change", filtra);
+  if (selSimbolo) selSimbolo.addEventListener("change", filtra);
 
   /* regione preselezionata da URL, es. guida.html?regione=Liguria */
   const regioneUrl = new URLSearchParams(window.location.search).get("regione");
