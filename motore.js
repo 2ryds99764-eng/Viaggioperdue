@@ -960,7 +960,7 @@ function costruisciConcierge() {
 
   function renderStep1() {
     corpo.innerHTML =
-      '<div class="conc-titolo">Cosa cerchi?</div>' +
+      '<div class="conc-titolo">Non sai dove andare? Il nostro concierge digitale ti offre un suggerimento.</div>' +
       '<div class="conc-opzioni">' +
         '<button class="conc-opzione" type="button" data-tipo="ristorante">🍽️<span>Ristorante</span></button>' +
         '<button class="conc-opzione" type="button" data-tipo="albergo">🛏️<span>Albergo</span></button>' +
