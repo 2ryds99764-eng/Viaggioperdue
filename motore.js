@@ -894,6 +894,36 @@ function costruisciConcierge() {
 
   let stato = { tipo: null, regione: null, simbolo: null, step: 1 };
 
+  /* carica guida.js / hotel.js al volo se la pagina non li ha già inclusi
+     (index.html e la maggior parte delle pagine non li caricano) */
+  let promessaGuida = null;
+  let promessaHotel = null;
+
+  function caricaScript(src) {
+    return new Promise(function (resolve, reject) {
+      if (document.querySelector('script[src="' + src + '"]')) {
+        resolve();
+        return;
+      }
+      const s = document.createElement("script");
+      s.src = src;
+      s.onload = function () { resolve(); };
+      s.onerror = function () { reject(new Error("Impossibile caricare " + src)); };
+      document.body.appendChild(s);
+    });
+  }
+
+  function assicuraDati(tipo) {
+    if (tipo === "ristorante") {
+      if (window.GUIDA_REGPROV) return Promise.resolve();
+      if (!promessaGuida) promessaGuida = caricaScript("guida.js");
+      return promessaGuida;
+    }
+    if (window.HOTEL_PROVCITTA) return Promise.resolve();
+    if (!promessaHotel) promessaHotel = caricaScript("hotel.js");
+    return promessaHotel;
+  }
+
   function aggiornaPassi() {
     passiEl.style.visibility = stato.step > 3 ? "hidden" : "visible";
     passiEl.querySelectorAll(".conc-passo").forEach(function (el) {
@@ -946,6 +976,10 @@ function costruisciConcierge() {
     const match = dati.filter(function (r) {
       return r.regione === stato.regione && (r.note || "").indexOf(stato.simbolo) !== -1;
     });
+    console.log("[Concierge] suggerimenti() → stato.tipo =", JSON.stringify(stato.tipo),
+      "stato.regione =", JSON.stringify(stato.regione),
+      "stato.simbolo =", JSON.stringify(stato.simbolo),
+      "risultati trovati =", match.length, "su", dati.length, "totali");
     const mischiati = match.slice();
     for (let i = mischiati.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
@@ -1010,21 +1044,32 @@ function costruisciConcierge() {
     const opzione = e.target.closest(".conc-opzione");
     if (opzione) {
       if (stato.step === 1) {
-        stato.tipo = opzione.dataset.tipo;
+        const tipo = opzione.dataset.tipo;
+        stato.tipo = tipo;
         stato.regione = null;
         stato.simbolo = null;
-        vaiA(2);
+        corpo.innerHTML = '<div class="conc-titolo">Un momento…</div>';
+        assicuraDati(tipo).then(function () {
+          if (stato.tipo === tipo) vaiA(2);
+        }).catch(function (err) {
+          console.error("[Concierge]", err);
+          if (stato.tipo === tipo) {
+            corpo.innerHTML = '<div class="conc-vuoto">Non riesco a caricare i dati. Riprova più tardi.</div>' +
+              '<div class="conc-azioni-step"><button class="conc-indietro" type="button">← Indietro</button></div>';
+          }
+        });
       } else if (stato.step === 3) {
         stato.simbolo = opzione.dataset.simbolo;
         vaiA(4);
       }
       return;
     }
-    if (e.target.closest(".conc-indietro")) { vaiA(stato.step - 1); return; }
+    if (e.target.closest(".conc-indietro")) { vaiA(Math.max(1, stato.step - 1)); return; }
     const avanti = e.target.closest(".conc-avanti");
     if (avanti) {
       const selRegione = document.getElementById("conc-regione");
       if (selRegione) stato.regione = selRegione.value;
+      console.log("[Concierge] Avanti step 2 → stato.regione =", JSON.stringify(stato.regione));
       if (stato.regione) vaiA(3);
       return;
     }
