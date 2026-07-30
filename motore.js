@@ -1022,12 +1022,15 @@ function costruisciConcierge() {
         ' con questo profilo in ' + esc(stato.regione) + '. Prova un\'altra combinazione.</div>';
     } else {
       html += '<div class="conc-risultati">' + items.map(function (r) {
-        const link = r.web ? esc(r.web) : (r.mappa ? urlMappa(r.mappa) : "");
-        const etichetta = r.web ? "Sito" : "Mappa";
+        const tel = r.tel || r.telefono;
+        let btn = "";
+        if (tel) btn += '<a class="btn btn--pieno" href="tel:' + esc(tel.replace(/\s/g, "")) + '">Chiama</a>';
+        if (r.mappa) btn += '<a class="btn" href="' + urlMappa(r.mappa) + '" target="_blank" rel="noopener">Mappa</a>';
+        if (r.web) btn += '<a class="btn" href="' + esc(r.web) + '" target="_blank" rel="noopener">Sito</a>';
         return '<article class="conc-card">' +
           '<div class="conc-card-nome">' + esc(r.nome) + '</div>' +
           (r.citta ? '<div class="conc-card-citta">' + esc(r.citta) + '</div>' : '') +
-          (link ? '<a class="btn btn--pieno" href="' + link + '" target="_blank" rel="noopener">' + etichetta + '</a>' : '') +
+          (btn ? '<div class="azioni rist-azioni">' + btn + '</div>' : '') +
         '</article>';
       }).join("") + '</div>';
     }
