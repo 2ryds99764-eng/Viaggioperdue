@@ -860,7 +860,32 @@ function costruisciHotel() {
 
 /* ----------- CONCIERGE (assistente flottante, presente su tutte le pagine) ----------- */
 function costruisciConcierge() {
-  const SIMBOLI_RISTORANTE = [{ v: "🌅", t: "Pied dans l'eau" }];
+  const ORDINE_SIMBOLI_RISTORANTE = ["🌅", "🌳", "♥️"];
+  const ETICHETTE_SIMBOLO_RISTORANTE = {
+    "🌅": "Pied dans l'eau",
+    "🌳": "Isolato",
+    "♥️": "Charme",
+    "❤️": "Charme",
+    "🌄": "Splendida vista",
+    "🥪": "Sandwich gourmet",
+    "⛱️": "Spiaggia"
+  };
+  /* scopre nelle note di window.GUIDA quali simboli sono davvero in uso,
+     così eventuali nuovi simboli aggiunti ai dati compaiono da soli qui */
+  function elencoSimboliRistorante() {
+    const trovati = new Set();
+    (window.GUIDA || []).forEach(function (r) {
+      const note = r.note || "";
+      (note.match(/\p{Extended_Pictographic}️?/gu) || []).forEach(function (s) { trovati.add(s); });
+    });
+    const ordinati = ORDINE_SIMBOLI_RISTORANTE.filter(function (s) { return trovati.has(s); });
+    Array.from(trovati).sort().forEach(function (s) {
+      if (ordinati.indexOf(s) === -1) ordinati.push(s);
+    });
+    return [{ v: "", t: "Qualsiasi", icona: "✨" }].concat(
+      ordinati.map(function (s) { return { v: s, t: ETICHETTE_SIMBOLO_RISTORANTE[s] || s }; })
+    );
+  }
   const SIMBOLI_ALBERGO = [
     { v: "🌅", t: "Pied dans l'eau" },
     { v: "🌳", t: "Isolato" },
@@ -960,12 +985,12 @@ function costruisciConcierge() {
   }
 
   function renderStep3() {
-    const simboli = stato.tipo === "ristorante" ? SIMBOLI_RISTORANTE : SIMBOLI_ALBERGO;
+    const simboli = stato.tipo === "ristorante" ? elencoSimboliRistorante() : SIMBOLI_ALBERGO;
     corpo.innerHTML =
       '<div class="conc-titolo">Che tipo?</div>' +
       '<div class="conc-opzioni conc-opzioni--simboli">' +
         simboli.map(function (s) {
-          return '<button class="conc-opzione conc-opzione--simbolo" type="button" data-simbolo="' + esc(s.v) + '">' + s.v + '<span>' + esc(s.t) + '</span></button>';
+          return '<button class="conc-opzione conc-opzione--simbolo" type="button" data-simbolo="' + esc(s.v) + '">' + esc(s.icona || s.v) + '<span>' + esc(s.t) + '</span></button>';
         }).join("") +
       '</div>' +
       '<div class="conc-azioni-step"><button class="conc-indietro" type="button">← Indietro</button></div>';
