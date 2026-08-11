@@ -4952,7 +4952,7 @@ var GUIDA=[
     "luogo": "Riva di Solto (BG)",
     "tel": "+39035986004",
     "telefono": "+39035986004",
-    "web": "",
+    "web": "https://ristorantezu.it",
     "note": "Chiuso mercoledì e giovedì · Lago d’Iseo · 🌄 🌅 ♥️",
     "mappa": "Via XXV Aprile 53, Riva di Solto, BG"
   },
