@@ -4918,15 +4918,15 @@ var GUIDA=[
     "nome": "Zaghini",
     "indirizzo": "Piazza Antonio Gramsci 14",
     "citta": "Sant’Arcangelo di Romagna",
-    "provincia": "RM",
-    "prov": "RM",
+    "provincia": "RN",
+    "prov": "RN",
     "regione": "Emilia-Romagna",
-    "luogo": "Sant’Arcangelo di Romagna (RM)",
+    "luogo": "Sant’Arcangelo di Romagna (RN)",
     "tel": "+39 0541 626136",
     "telefono": "+39 0541 626136",
     "web": "https://www.ristorantezaghini.it/dove-siamo",
     "note": "",
-    "mappa": "Piazza Antonio Gramsci 14, Sant’Arcangelo di Romagna, RM"
+    "mappa": "Piazza Antonio Gramsci 14, Sant’Arcangelo di Romagna, RN"
   },
   {
     "nome": "Zeb Gastronomia",
@@ -4953,7 +4953,7 @@ var GUIDA=[
     "tel": "+39035986004",
     "telefono": "+39035986004",
     "web": "",
-    "note": "Chiuso mercoledì e giovedì · Lago d’Iseo · Bergamo",
+    "note": "Chiuso mercoledì e giovedì · Lago d’Iseo · 🌄 🌅 ♥️",
     "mappa": "Via XXV Aprile 53, Riva di Solto, BG"
   },
   {
@@ -5131,7 +5131,6 @@ var GUIDA_REGPROV={
     "PR",
     "RA",
     "RE",
-    "RM",
     "RN"
   ],
   "Toscana": [
