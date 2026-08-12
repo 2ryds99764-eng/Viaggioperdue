@@ -4,9 +4,7 @@
    e a GUIDA (guida.js) per nome, per riusare automaticamente i contatti
    dei ristoranti già presenti nella guida — senza duplicare i dati. */
 
-window.T42 = window.T42 || {};
-
-window.T42.itinerari = Object.assign({}, window.T42.itinerari, {
+T42.itinerari = Object.assign({}, T42.itinerari, {
 
   "costiera-amalfitana": {
     occhiello: "Un itinerario per due",
