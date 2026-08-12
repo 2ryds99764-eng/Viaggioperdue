@@ -127,6 +127,20 @@ var GUIDA=[
     "mappa": "Piazza General Antonio Cantore 13, Milano, MI"
   },
   {
+    "nome": "Lido Azzurro",
+    "indirizzo": "Via Lungomare dei Cavalieri 5",
+    "citta": "Amalfi",
+    "provincia": "SA",
+    "prov": "SA",
+    "regione": "Campania",
+    "luogo": "Amalfi (SA)",
+    "tel": "+39 089 871384",
+    "telefono": "+39 089 871384",
+    "web": "https://www.ristorantelidoazzurro.it",
+    "note": "Vista mare, terrazza a pochi passi dall'acqua",
+    "mappa": "Via Lungomare dei Cavalieri 5, Amalfi, SA"
+  },
+  {
     "nome": "Stadera",
     "indirizzo": "Largo della Crocetta 1",
     "citta": "Milano",

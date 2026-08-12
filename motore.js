@@ -534,6 +534,189 @@ function costruisciStoria() {
   }  costruisciPie(T42.sito);
 }
 
+/* ----------- COSTRUZIONE DELLA PAGINA ITINERARIO ----------- */
+function costruisciItinerario() {
+  const params = new URLSearchParams(window.location.search);
+  const chiave = params.get("i") || "";
+  const it = (T42.itinerari && T42.itinerari[chiave]) ? T42.itinerari[chiave] : null;
+
+  if (!it) {
+    const corpo = document.getElementById("itinerario-corpo");
+    if (corpo) corpo.innerHTML = '<div class="vuoto">Itinerario non trovato.</div>';
+    costruisciPie(T42.sito);
+    return;
+  }
+
+  document.title = it.titolo + " · " + T42.sito.nome;
+
+  /* ---- intestazione ---- */
+  const intest = document.getElementById("itinerario-intestazione");
+  if (intest) {
+    intest.innerHTML =
+      '<a class="ritorno" href="index.html" aria-label="Home">' +
+        '<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" style="vertical-align:middle"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" fill="#4A6FA5"/></svg>' +
+      '</a>' +
+      '<div class="occhiello anima d1">' + esc(it.occhiello || "Un itinerario per due") + '</div>' +
+      '<h1 class="anima d2">' + esc(it.titolo) + '</h1>' +
+      (it.sottotitolo ? '<p class="storia-sub anima d3">' + escV(it.sottotitolo) + '</p>' : '') +
+      (it.tappe && it.tappe.length ? '<p class="itin-tappe anima d3">' + it.tappe.map(esc).join(' <span class="pie-sep">·</span> ') + '</p>' : '');
+  }
+
+  /* ---- copertina e video (stesso schema di storia) ---- */
+  const cop = document.getElementById("itinerario-copertina");
+  if (cop) {
+    if (it.copertina) { cop.className = "storia-copertina"; cop.innerHTML = '<img src="' + esc(it.copertina) + '" alt="' + esc(it.titolo) + '">'; }
+    else cop.style.display = "none";
+  }
+  const vid = document.getElementById("itinerario-video");
+  if (vid) {
+    if (it.video || it.vimeo) {
+      const videoUrl = it.vimeo ? 'https://vimeo.com/' + esc(it.vimeo) : 'https://youtu.be/' + esc(it.video);
+      vid.innerHTML = '<div class="storia-video-link"><a class="btn btn--storia" href="' + videoUrl + '" target="_blank" rel="noopener">Guarda il video →</a></div>';
+    } else { vid.style.display = "none"; }
+  }
+
+  /* ---- apertura: epigrafe opzionale + paragrafi introduttivi ---- */
+  const corpo = document.getElementById("itinerario-corpo");
+  if (corpo) {
+    let html = "";
+    if (it.epigrafe && it.epigrafe.testo) {
+      html += '<blockquote class="epigrafe">' +
+        '<p class="epigrafe-testo">' + esc(it.epigrafe.testo) + '</p>' +
+        (it.epigrafe.fonte ? '<p class="epigrafe-fonte">' + esc(it.epigrafe.fonte) + '</p>' : '') +
+        '</blockquote>';
+    }
+    html += (it.apertura || []).map(function (p, i) {
+      return '<p class="rp' + (i === 0 ? ' rp-prima' : '') + '">' + escV(p) + '</p>';
+    }).join("");
+    if (it.raccontoCollegato && T42.storie && T42.storie[it.raccontoCollegato]) {
+      html += '<p class="itin-rimando"><a href="storia.html?s=' + encodeURIComponent(it.raccontoCollegato) + '">Leggi anche il racconto di viaggio →</a></p>';
+    }
+    corpo.innerHTML = html;
+  }
+
+  /* ---- il percorso: righe sintetiche, una per giorno ---- */
+  const perc = document.getElementById("itinerario-percorso");
+  if (perc && it.percorso) {
+    perc.innerHTML =
+      '<h2 class="storia-h2">Il percorso</h2>' +
+      (it.percorso.intro ? '<p class="rp">' + escV(it.percorso.intro) + '</p>' : '') +
+      '<div class="itin-percorso-lista">' +
+      (it.percorso.giorni || []).map(function (g) {
+        return '<div class="itin-percorso-riga">' +
+          '<div class="itin-percorso-tappa">' +
+            '<span class="itin-percorso-giorno">' + esc(g.giorno) + '</span>' +
+            '<span class="itin-percorso-titolo">' + esc(g.titolo) + (g.km ? ", " + esc(g.km) : "") + '</span>' +
+          '</div>' +
+          '<div class="itin-percorso-testo">' + esc(g.testo) + '</div>' +
+        '</div>';
+      }).join("") +
+      '</div>';
+  }
+
+  /* ---- i giorni, in sequenza ---- */
+  const giorniEl = document.getElementById("itinerario-giorni");
+  if (giorniEl) {
+    giorniEl.innerHTML = '<h2 class="storia-h2">I giorni</h2>' + (it.giorni || []).map(function (g) {
+      let html = '<div class="itin-giorno">';
+      html += '<div class="itin-giorno-label">' + esc(g.label) + '</div>';
+      html += '<h3 class="itin-giorno-titolo">' + esc(g.titolo) + '</h3>';
+      html += (g.paragrafi || []).map(function (p) { return '<p class="rp">' + escV(p) + '</p>'; }).join("");
+      if (g.note && g.note.length) {
+        html += g.note.map(function (n) { return '<p class="itin-nota">' + escV(n) + '</p>'; }).join("");
+      }
+      /* collega i ristoranti citati, cercandoli per nome in GUIDA */
+      if (g.ristoranti && g.ristoranti.length && window.GUIDA) {
+        const trovati = g.ristoranti.map(function (nomeCerca) {
+          return window.GUIDA.find(function (r) { return r.nome === nomeCerca; });
+        }).filter(Boolean);
+        if (trovati.length) {
+          html += '<div class="itin-chip-riga">' + trovati.map(function (r) {
+            return '<a class="chip-ristorante" href="' + urlMappa(r.mappa, r.lat, r.lng) + '" target="_blank" rel="noopener">' + esc(r.nome) + ' · ' + esc(r.luogo) + '</a>';
+          }).join("") + '</div>';
+        }
+      }
+      html += '</div>';
+      return html;
+    }).join("");
+  }
+
+  /* ---- taccuino: dove dormire ---- */
+  const dormire = document.getElementById("itinerario-dormire");
+  if (dormire && it.taccuino && it.taccuino.dormire) {
+    dormire.innerHTML = '<h2 class="storia-h2">Il taccuino · dove dormire</h2>' +
+      it.taccuino.dormire.map(function (zona) {
+        return '<div class="itin-zona-titolo">' + esc(zona.zona) + ' — ' + esc(zona.notti) + '</div>' +
+          (zona.strutture || []).map(function (s) {
+            return '<div class="itin-tac-voce">' +
+              '<div class="itin-tac-nome">' + esc(s.nome) + '</div>' +
+              (s.contatto ? '<div class="itin-tac-contatto">' + esc(s.contatto) + '</div>' : '') +
+              '<div class="itin-tac-testo">' + esc(s.testo) + '</div>' +
+            '</div>';
+          }).join("");
+      }).join("");
+  }
+
+  /* ---- taccuino: dove sedersi a tavola (per nome, da GUIDA) ---- */
+  const tavola = document.getElementById("itinerario-tavola");
+  if (tavola && it.taccuino && it.taccuino.tavola) {
+    const voci = (it.taccuino.tavola.voci || []).map(function (v) {
+      const r = window.GUIDA ? window.GUIDA.find(function (x) { return x.nome === v.nome; }) : null;
+      return { nome: v.nome, storia: v.storia || null, dati: r };
+    });
+    tavola.innerHTML = '<h2 class="storia-h2">Dove sedersi a tavola</h2>' +
+      (it.taccuino.tavola.intro ? '<p class="rp">' + escV(it.taccuino.tavola.intro) + '</p>' : '') +
+      voci.map(function (v) {
+        const contatto = v.dati ? (v.dati.luogo + (v.dati.telefono ? ' · tel. ' + v.dati.telefono : '')) : '';
+        const link = v.storia ? ' <a class="itin-link-storia" href="storia.html?s=' + encodeURIComponent(v.storia) + '">La storia completa →</a>' : '';
+        return '<div class="itin-tac-voce">' +
+          '<div class="itin-tac-nome">' + esc(v.nome) + '</div>' +
+          (contatto ? '<div class="itin-tac-contatto">' + esc(contatto) + '</div>' : '') +
+          (v.dati && v.dati.note ? '<div class="itin-tac-testo">' + esc(v.dati.note) + '</div>' : '') +
+          (link ? '<div class="itin-tac-link">' + link + '</div>' : '') +
+        '</div>';
+      }).join("");
+  }
+
+  /* ---- approfondimenti tematici ---- */
+  const approf = document.getElementById("itinerario-approfondimenti");
+  if (approf && it.taccuino && it.taccuino.approfondimenti) {
+    approf.innerHTML = it.taccuino.approfondimenti.map(function (a) {
+      return '<h3 class="itin-giorno-titolo">' + esc(a.titolo) + '</h3><p class="rp">' + escV(a.testo) + '</p>';
+    }).join("");
+  }
+
+  /* ---- a tavola: cosa cambia ---- */
+  const aTavola = document.getElementById("itinerario-a-tavola");
+  if (aTavola && it.taccuino && it.taccuino.aTavola) {
+    aTavola.innerHTML = '<h2 class="storia-h2">A tavola</h2>' +
+      '<h3 class="itin-giorno-titolo">' + esc(it.taccuino.aTavola.titolo) + '</h3>' +
+      '<p class="rp">' + escV(it.taccuino.aTavola.testo) + '</p>';
+  }
+
+  /* ---- prima di chiudere: cose da sapere ---- */
+  const chiudere = document.getElementById("itinerario-prima-di-chiudere");
+  if (chiudere && it.primaDiChiudere) {
+    chiudere.innerHTML = '<h2 class="storia-h2">Prima di chiudere</h2>' +
+      '<div class="itin-percorso-lista">' +
+      it.primaDiChiudere.map(function (r) {
+        return '<div class="itin-percorso-riga">' +
+          '<div class="itin-percorso-tappa">' +
+            '<span class="itin-percorso-giorno">' + esc(r.titolo) + '</span>' +
+            '<span class="itin-percorso-titolo">' + esc(r.sotto) + '</span>' +
+          '</div>' +
+          '<div class="itin-percorso-testo">' + esc(r.testo) + '</div>' +
+        '</div>';
+      }).join("") +
+      '</div>' +
+      (it.numeriUtili && it.numeriUtili.length
+        ? '<div class="itin-zona-titolo">Numeri utili, in un colpo solo</div>' + it.numeriUtili.map(function (n) { return '<p class="rp">' + escV(n) + '</p>'; }).join("")
+        : "");
+  }
+
+  costruisciPie(T42.sito);
+}
+
 function cap(s) { return s.charAt(0).toUpperCase() + s.slice(1); }
 
 /* ----------- COSTRUZIONE DELLA PAGINA GUIDA (archivio ricercabile) ----------- */
@@ -712,6 +895,7 @@ document.addEventListener("DOMContentLoaded", function () {
   if (document.body.dataset.pagina === "manifesto") costruisciManifesto();
   if (document.body.dataset.pagina === "mappa") costruisciMappa();
   if (document.body.dataset.pagina === "storia") costruisciStoria();
+  if (document.body.dataset.pagina === "itinerario") costruisciItinerario();
   if (document.body.dataset.pagina === "guida") costruisciGuida();
    if (document.body.dataset.pagina === "hotel") costruisciHotel();
   costruisciConcierge();

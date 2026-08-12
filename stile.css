@@ -859,3 +859,97 @@ body::before {
   right: auto !important;
   left: 20px !important;
 }
+
+/* ---------------- PAGINA ITINERARIO ---------------- */
+
+/* piccola correzione: .occhiello dentro le intestazioni stile "storia"
+   (usata sia da storia.html sia da itinerario.html) non aveva ancora
+   una regola propria — restava del colore di default invece che blu. */
+.storia-intestazione .occhiello {
+  font-family: var(--sans);
+  font-size: 0.7rem; letter-spacing: 0.3em; text-transform: uppercase;
+  color: var(--blu);
+}
+
+.itin-tappe {
+  font-family: var(--sans); font-size: 0.8rem; letter-spacing: 0.03em;
+  color: #6a788f; margin-top: 14px; line-height: 1.9;
+}
+
+.itin-rimando { margin: -0.6em 0 2.4em; }
+.itin-rimando a {
+  font-family: var(--sans); font-size: 0.78rem; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--blu); text-decoration: none;
+  border-bottom: 1px solid var(--azzurro-tenue); padding-bottom: 3px;
+}
+.itin-rimando a:hover { border-color: var(--blu); }
+
+.itin-percorso-lista { margin-top: 10px; }
+.itin-percorso-riga {
+  display: grid; grid-template-columns: 260px 1fr; gap: 26px;
+  padding: 20px 0; border-bottom: 1px solid var(--filo);
+}
+.itin-percorso-tappa { display: flex; flex-direction: column; gap: 3px; }
+.itin-percorso-giorno {
+  font-family: var(--sans); font-size: 0.68rem; letter-spacing: 0.2em;
+  text-transform: uppercase; color: var(--blu);
+}
+.itin-percorso-titolo {
+  font-family: var(--serif); font-style: italic; font-size: 1.02rem;
+  color: var(--blu-notte);
+}
+.itin-percorso-testo {
+  font-family: var(--serif); font-size: 1.02rem; line-height: 1.65; color: #38465e;
+}
+
+.itin-giorno { margin-bottom: 2.2em; }
+.itin-giorno-label {
+  font-family: var(--sans); font-size: 0.68rem; letter-spacing: 0.24em;
+  text-transform: uppercase; color: var(--azzurro);
+  margin: 2.4em 0 0.3em; padding-top: 1.6em; border-top: 1px solid var(--filo);
+}
+.itin-giorno:first-of-type .itin-giorno-label { border-top: none; padding-top: 0; margin-top: 0.6em; }
+.itin-giorno-titolo {
+  font-family: var(--serif); font-weight: 500; font-size: 1.5rem;
+  color: var(--blu-notte); margin: 0 0 0.6em;
+}
+.itin-nota {
+  font-family: var(--serif); font-style: italic; font-size: 1rem;
+  color: #51607a; line-height: 1.6; margin-bottom: 0.8em;
+}
+
+.itin-chip-riga { margin: 1.2em 0 0.4em; display: flex; flex-wrap: wrap; gap: 10px; }
+.chip-ristorante {
+  font-family: var(--sans); font-size: 0.72rem; letter-spacing: 0.04em;
+  color: var(--blu); text-decoration: none;
+  border: 1px solid var(--azzurro-tenue); padding: 7px 14px;
+  transition: all .25s ease;
+}
+.chip-ristorante:hover { background: var(--blu); border-color: var(--blu); color: var(--bianco); }
+
+.itin-zona-titolo {
+  font-family: var(--sans); font-size: 0.7rem; letter-spacing: 0.22em;
+  text-transform: uppercase; color: var(--blu);
+  margin: 2.6em 0 0.6em; padding-top: 1.4em; border-top: 1px solid var(--filo);
+}
+.itin-taccuino .itin-zona-titolo:first-child { border-top: none; padding-top: 0; margin-top: 0.4em; }
+.itin-tac-voce { padding: 18px 0; border-bottom: 1px solid var(--filo); }
+.itin-tac-nome { font-family: var(--serif); font-weight: 500; font-size: 1.12rem; color: var(--blu-notte); }
+.itin-tac-contatto {
+  font-family: var(--sans); font-size: 0.76rem; color: #6a788f;
+  margin: 3px 0 8px; letter-spacing: 0.02em;
+}
+.itin-tac-testo { font-family: var(--serif); font-size: 1rem; line-height: 1.62; color: #38465e; }
+.itin-tac-link { margin-top: 8px; }
+.itin-link-storia {
+  font-family: var(--sans); font-size: 0.72rem; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--blu); text-decoration: none;
+  border-bottom: 1px solid var(--azzurro-tenue); padding-bottom: 2px;
+}
+.itin-link-storia:hover { border-color: var(--blu); }
+
+.itin-approfondimenti .itin-giorno-titolo { margin-top: 2em; }
+
+@media (max-width: 720px) {
+  .itin-percorso-riga { grid-template-columns: 1fr; gap: 6px; }
+}
