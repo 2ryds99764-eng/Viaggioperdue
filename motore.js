@@ -510,6 +510,9 @@ function costruisciStoria() {
       primaFatta = true;
       return '<p class="rp' + (primo ? ' rp-prima' : '') + '">' + escV(p) + '</p>';
     }).join("");
+    if (s.itinerarioCollegato && T42.itinerari && T42.itinerari[s.itinerarioCollegato]) {
+      html += '<p class="itin-rimando"><a href="itinerario.html?i=' + encodeURIComponent(s.itinerarioCollegato) + '">Leggi l\'itinerario completo, giorno per giorno →</a></p>';
+    }
     corpo.innerHTML = html;
   }
 
