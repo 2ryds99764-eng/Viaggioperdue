@@ -141,6 +141,17 @@ function costruisciHome() {
       '</a>';
   }
 
+  /* invito agli itinerari (provvisorio: punta al primo e unico itinerario finché non ce ne sono altri) */
+  const invI = document.getElementById("invito-itinerari");
+  if (invI) {
+    invI.innerHTML =
+      '<a class="racconto-invito invito-guida anima d3" href="itinerario.html?i=costiera-amalfitana">' +
+        '<span class="ri-occhiello">Gli itinerari</span>' +
+        '<span class="ri-titolo">Sette giorni in Costiera Amalfitana, da Vietri sul Mare a Positano</span>' +
+        '<span class="ri-azione">Parti →</span>' +
+      '</a>';
+  }
+
   /* invito alla mappa */
   const invM = document.getElementById("invito-mappa");
   if (invM) {
