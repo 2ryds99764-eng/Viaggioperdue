@@ -26,7 +26,7 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
       "Quello che segue non è una classifica. È un percorso possibile, con dentro gli indirizzi di chi lavora bene e da tempo: trattorie di famiglia, un ristorante che ha aspettato ventun anni prima di rimettere in carta il suo piatto più premiato, botteghe di ceramica, cantine scavate nei terrazzamenti. Il resto — quanto fermarsi a ogni tappa, quale spiaggia scegliere — appartiene a chi viaggia."
     ],
 
-    raccontoCollegato: "costiera-amalfitana",
+    raccontoCollegato: "costiera",
 
     percorso: {
       intro: "Vietri e Cetara per una notte, Amalfi per tre, Praiano per due, con l'ultimo giorno dedicato a Tramonti e al congedo da Positano. Circa cinquanta chilometri di strada costiera in tutto, più le deviazioni verso l'interno.",
@@ -144,7 +144,7 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
           { nome: "Acqua Pazza" },
           { nome: "Al Convento" },
           { nome: "Lido Azzurro" },
-          { nome: "La Caravella", storia: "costiera-caravella" },
+          { nome: "La Caravella" },
           { nome: "Osteria Reale" },
           { nome: "Alfonso a Mare" },
           { nome: "Taverna del Leone" }
