@@ -93,7 +93,7 @@ const T42 = {
       occhiello: "Un Tavolo per Due",
       titolo: "Il Sole nel Piatto",
       sottotitolo: "La Caravella — Amalfi, dal 1959",
-      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_1996_atnmb6",
+      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5261_cbhpsq",
       itinerarioCollegato: "costiera-amalfitana",
       paragrafi: [
         "Ad Amalfi il mare non è un panorama: è un socio silenzioso di ogni mestiere che si affaccia sul golfo, e alla Caravella lo si sente entrare dalla porta insieme agli ospiti, come se anche lui ogni sera cercasse un tavolo. Ad accoglierlo — e ad accogliere chi lo segue — c'è Antonio Dipino, figlio degli storici proprietari, che ha ereditato dai genitori non solo un ristorante ma un modo di stare a tavola con gli altri: affabile, presente, capace di trasformare ogni cliente in un ospite e ogni cena in un piccolo racconto. Basta un attimo di conversazione con lui, e la storia della cucina campana degli ultimi settant'anni riprende vita in aneddoti che sembrano appartenere più alla memoria di famiglia che a un libro di storia gastronomica.",
@@ -669,7 +669,7 @@ const T42 = {
         telefono: "+39 089 871029",
         mappa: "Via Matteo Camera 12, Amalfi, SA",
         galleria: [
-          "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5261_cbhpsq",
+          "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_1996_atnmb6",
           "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5288_rillry",
           "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5291_fnb5wy"
         ],
