@@ -144,7 +144,7 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
           { nome: "Acqua Pazza" },
           { nome: "Al Convento" },
           { nome: "Lido Azzurro" },
-          { nome: "La Caravella" },
+          { nome: "La Caravella", storia: "caravella" },
           { nome: "Osteria Reale" },
           { nome: "Alfonso a Mare" },
           { nome: "Taverna del Leone" }

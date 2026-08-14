@@ -89,6 +89,25 @@ const T42 = {
      Ogni storia ha una chiave (es. "campanini") richiamata dal campo
      "storia" di una scheda. titolo, occhiello, sottotitolo e i paragrafi. ---- */
   storie: {
+    caravella: {
+      occhiello: "Un Tavolo per Due",
+      titolo: "Il Sole nel Piatto",
+      sottotitolo: "La Caravella — Amalfi, dal 1959",
+      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_1996_atnmb6",
+      itinerarioCollegato: "costiera-amalfitana",
+      paragrafi: [
+        "Ad Amalfi il mare non è un panorama: è un socio silenzioso di ogni mestiere che si affaccia sul golfo, e alla Caravella lo si sente entrare dalla porta insieme agli ospiti, come se anche lui ogni sera cercasse un tavolo. Ad accoglierlo — e ad accogliere chi lo segue — c'è Antonio Dipino, figlio degli storici proprietari, che ha ereditato dai genitori non solo un ristorante ma un modo di stare a tavola con gli altri: affabile, presente, capace di trasformare ogni cliente in un ospite e ogni cena in un piccolo racconto. Basta un attimo di conversazione con lui, e la storia della cucina campana degli ultimi settant'anni riprende vita in aneddoti che sembrano appartenere più alla memoria di famiglia che a un libro di storia gastronomica.",
+        "Perché di storia, alla Caravella, ne è passata davvero tanta — e la si può leggere ancora prima di sedersi. La sala è un piccolo museo che non dichiara mai se stesso come tale: ceramiche antiche disposte con un gusto che non cede mai alla vetrina, vasi in vetro veneziano che trattengono la luce della costa come fossero stati soffiati apposta per quel golfo. E poi le posate — quelle posate — disegnate negli anni Cinquanta da Giò Ponti per Sambonet, ancora oggi le stesse, ancora oggi in uso: non un pezzo da collezione dietro una teca, ma uno strumento di lavoro che ogni sera torna a sfiorare le labbra di chi mangia, come se il design e il cibo, in questa casa, non si fossero mai davvero separati.",
+        "·",
+        "È in questa cornice che si serve uno dei piatti più antichi della cucina italiana. Gli 'Ndunderi — una sorta di gnocchi che la tradizione fa risalire addirittura ai romani — sono stati riconosciuti dall'UNESCO come la pasta fresca più antica al mondo ancora viva nelle cucine di oggi. Una ricetta che ha attraversato i secoli senza mai fermarsi, fino a incontrare, nel 2003, uno dei riconoscimenti più ambiti della gastronomia italiana: il Sole di Veronelli, assegnato da Luigi Veronelli — il gastronomo che il Novecento ricorda come il narratore per eccellenza del vino e del cibo italiani, il padre involontario di ogni programma di cucina venuto dopo di lui — a non più di cinque piatti l'anno in tutta la nazione, capaci di restare scolpiti nella storia della tavola.",
+        "Quel piatto, allora, si serviva a linguine. L'anno seguente, il 2004, il grande Maestro morì, e lo chef della Caravella fece una scelta che pochi ristoranti avrebbero il coraggio di fare: smise di riproporre quella preparazione, come un lutto silenzioso portato non a parole ma nel menù. Per ventun anni quel piatto premiato è rimasto più un ricordo che una pietanza. È tornato solo di recente, e non più nella forma che vinse il premio: oggi si serve negli 'Ndunderi della tradizione più antica, come se il tempo, chiudendo il cerchio, avesse riportato la ricetta alla sua radice più vera.",
+        "·",
+        "Se il salato racconta un'eredità di secoli, il dolce di casa nasce invece da un attimo soltanto — un errore. Era il 1959, l'anno dell'apertura, e Mamma Anna, alle prese con la primissima preparazione della sua vita da ristoratrice, dimenticò la farina nel soufflé al limone. Da quella distrazione — o da quella grazia — nacque uno dei dessert più amati della cucina italiana.",
+        "Quello stesso 1959 fu anche l'anno in cui Salvatore Quasimodo ricevette il Premio Nobel per la Letteratura. Il poeta era amico del padre della famiglia, e ogni volta che quel soufflé arrivava in tavola — leggero, imperfetto, luminoso — il suo volto si illuminava. Lo chiamava una nuvola. Tornò più volte, nel corso degli anni, a proporre — senza mai riuscire fino in fondo a imporlo — un nome più giusto: il Sole nel piatto. Oggi la Caravella è tra i pochissimi ristoranti al mondo a poter servire un dolce battezzato da un Premio Nobel, e quella nuvola continua a essere riconosciuta ben oltre Amalfi: il soufflé si è aggiudicato di recente il Passion Dessert Award, il miglior dolce d'Italia secondo la Guida Michelin 2026.",
+        "·",
+        "Restano, alla fine, due soli sospesi sopra la stessa cucina: quello che un gastronomo diede a un piatto di pasta più vecchio di Roma, e quello che un poeta sognò per un dolce nato per sbaglio. Tra i due, decenni di silenzi rispettosi, di posate disegnate da un maestro del design, di ceramiche che hanno visto passare generazioni di ospiti, e di un uomo — Antonio, oggi — che ogni sera riapre la porta e lascia che il mare, insieme ai suoi racconti, entri ancora una volta in sala."
+      ]
+    },
     minervetta: {
       occhiello: "Camera con vista · Sorrento",
       titolo: "Dove il mare non smette mai d'incantarti",
@@ -641,6 +660,20 @@ const T42 = {
         mappa: "Via Magna Grecia 50, Capaccio Salerno",
         lat: 40.4570, lng: 15.0119,
         outdoor: true
+      },
+      {
+        titolo: "La Caravella",
+        luogo: "Amalfi, Campania",
+        sommario: "Dal 1959, la pasta più antica del mondo e il dolce che un Nobel battezzò \"il Sole nel Piatto\".",
+        testo: "In Piazza dei Dogi, la famiglia Dipino porta avanti dal 1959 un ristorante che è anche un piccolo museo di ceramiche e vetri veneziani. In cucina, gli 'Ndunderi premiati nel 2003 con il Sole di Veronelli e il soufflé al limone nato per errore, battezzato da Salvatore Quasimodo.",
+        telefono: "+39 089 871029",
+        mappa: "Via Matteo Camera 12, Amalfi, SA",
+        galleria: [
+          "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5261_cbhpsq",
+          "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5288_rillry",
+          "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5291_fnb5wy"
+        ],
+        storia: "caravella"
       }
     ],
 
