@@ -1645,7 +1645,7 @@ var HOTEL=[
     "cellulare": "",
     "email": "info@hotelsanrocco.it",
     "web": "https://www.hotelsanrocco.it",
-    "note": "⛱️",
+    "note": "🏖️",
     "mappa": "Via Gippini 11, Orta San Giulio, NO"
   },
   {
