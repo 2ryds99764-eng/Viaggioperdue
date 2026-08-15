@@ -1209,20 +1209,22 @@ function costruisciConcierge() {
   }
 
   function suggerimenti() {
+    let match;
     if (stato.tipo === "itinerario") {
       const tutti = Object.keys(T42.itinerari || {}).map(function (chiave) {
         return Object.assign({ chiave: chiave }, T42.itinerari[chiave]);
       });
-      return tutti.filter(function (it) { return it.regione === stato.regione; });
+      match = tutti.filter(function (it) { return it.regione === stato.regione; });
+    } else {
+      const dati = stato.tipo === "ristorante" ? (window.GUIDA || []) : (window.HOTEL || []);
+      match = dati.filter(function (r) {
+        return r.regione === stato.regione && (r.note || "").indexOf(stato.simbolo) !== -1;
+      });
     }
-    const dati = stato.tipo === "ristorante" ? (window.GUIDA || []) : (window.HOTEL || []);
-    const match = dati.filter(function (r) {
-      return r.regione === stato.regione && (r.note || "").indexOf(stato.simbolo) !== -1;
-    });
     console.log("[Concierge] suggerimenti() → stato.tipo =", JSON.stringify(stato.tipo),
       "stato.regione =", JSON.stringify(stato.regione),
       "stato.simbolo =", JSON.stringify(stato.simbolo),
-      "risultati trovati =", match.length, "su", dati.length, "totali");
+      "risultati trovati =", match.length);
     const mischiati = match.slice();
     for (let i = mischiati.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
