@@ -462,7 +462,7 @@ function costruisciStoria() {
   const intest = document.getElementById("storia-intestazione");
   if (intest) {
     const ritorno = catId
-      ? '<a class="ritorno" href="categoria.html?c=' + catId + '">Torna a ' + esc(cap(catId)) + '</a>'
+      ? '<a class="ritorno" href="categoria.html?c=' + catId + '">Torna a ' + esc(catId === "trattorie" ? "Ristoranti" : cap(catId)) + '</a>'
       : '<a class="ritorno" href="index.html" aria-label="Home">' + '<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" style="vertical-align:middle"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" fill="#4A6FA5"/></svg>' + '</a>';
     intest.innerHTML =
       ritorno +
