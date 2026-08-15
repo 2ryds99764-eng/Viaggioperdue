@@ -182,6 +182,230 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
       "Traghetti — Travelmar, collegamenti fra tutti i paesi della costiera, orari stagionali da verificare.",
       "Numeri di emergenza — 112 per qualunque emergenza; 1530 per il soccorso in mare."
     ]
+  },
+
+  "cilento-alburni": {
+    occhiello: "Un itinerario per due",
+    titolo: "Da Paestum ad Aquara",
+    sottotitolo: "otto giorni nel Cilento meno raccontato, dalla Baia degli Infreschi al cuore selvatico degli Alburni",
+    regione: "Campania",
+    copertina: "",
+    tappe: ["Paestum","Agropoli","Castellabate","Acciaroli","Casal Velino","Palinuro","Scario","Sant'Angelo a Fasanella","Ottati","Roscigno Vecchia","Piaggine","Aquara","Controne","Caggiano"],
+
+    epigrafe: {
+      testo: "Raccontiamo, non giudichiamo. La libertà di scoprire appartiene a chi viaggia, non a chi scrive.",
+      fonte: ""
+    },
+
+    apertura: [
+      "Il Cilento che si vede dai depliant è quello della costa: Acciaroli, Palinuro, le spiagge premiate ogni anno dalle bandiere blu. È un Cilento vero, ma è solo metà della storia. L'altra metà comincia dove la strada lascia il mare e sale verso l'interno, fino ai Monti Alburni — un massiccio calcareo che i cilentani chiamano \"le Dolomiti campane\", pieno di grotte, doline, gole e paesi che si contano sulle dita di due mani.",
+      "Questo itinerario tiene insieme le due metà, con particolare attenzione a due luoghi che da soli meritano il viaggio: la Baia degli Infreschi, una delle spiagge più belle d'Italia secondo Legambiente, raggiungibile solo a piedi o in barca; e il territorio degli Alburni, dove un santuario scavato nella roccia, un borgo fantasma dichiarato Patrimonio UNESCO e un fagiolo bianco coltivato da secoli raccontano un Cilento che i più non vedono mai.",
+      "C'è anche un terzo filo, meno visibile ma altrettanto presente: una manciata di produttori — un oleificio, una pasticceria agricola, un pizzaiolo di grani antichi, un vignaiolo, un'azienda di conserve, un coltivatore di fagioli — che si conoscono e si usano a vicenda, spesso senza che il visitatore se ne accorga. Lo stesso olio compare in tre tappe diverse del viaggio; lo stesso fagiolo attraversa l'intero itinerario prima di rivelarsi, l'ultimo giorno, nel campo dove nasce.",
+      "Si comincia da Paestum, porta di accesso e sintesi perfetta di questa terra — i templi dorici meglio conservati al mondo, a due passi dal mare e dagli allevamenti che producono la mozzarella più celebre d'Italia. Si scende lungo la costa fino a Scario, dove si dedicano tre giorni alla Baia degli Infreschi e alle gole del Bussento. Si risale infine verso l'interno, attraverso Sant'Angelo a Fasanella e Roscigno Vecchia, fino al cuore degli Alburni: Aquara, dove chiude il viaggio.",
+      "Otto giorni, sette notti, fra costa e montagna. Quello che segue non è una classifica. È un percorso possibile, con dentro gli indirizzi di chi lavora bene e da tempo — pescatori diventati ristoratori, un pasticcere di terza generazione, un vignaiolo che ha realizzato il sogno di suo padre. Il resto appartiene a chi viaggia."
+    ],
+
+    percorso: {
+      intro: "Paestum per due notti, Scario per tre, Aquara per due, con l'ottavo giorno dedicato al congedo fra Controne e Caggiano. Circa centosessanta chilometri in tutto, con Paestum come unica base da cui ci si muove due volte senza cambiare hotel.",
+      giorni: [
+        { giorno: "Giorno primo", titolo: "Paestum", km: "", testo: "Templi, Museo Archeologico, Tenuta Vannulo." },
+        { giorno: "Giorno secondo", titolo: "Castellabate e Acciaroli", km: "andata e ritorno", testo: "San Marco, Punta Licosa, il paese di Hemingway." },
+        { giorno: "Giorno terzo", titolo: "verso Scario", km: "60 km", testo: "Velia, L'Ammaccata, Palinuro." },
+        { giorno: "Giorno quarto", titolo: "La Baia degli Infreschi", km: "", testo: "Escursione in barca da Scario." },
+        { giorno: "Giorno quinto", titolo: "Le gole del Bussento", km: "", testo: "Morigerati, Torre Orsaia." },
+        { giorno: "Giorno sesto", titolo: "verso gli Alburni", km: "70 km", testo: "Sant'Angelo a Fasanella, Pietre Levate a Ottati." },
+        { giorno: "Giorno settimo", titolo: "Il cuore degli Alburni", km: "", testo: "Roscigno Vecchia, i dolci di Piaggine." },
+        { giorno: "Giorno ottavo", titolo: "Aquara e congedo", km: "", testo: "Controne, Caggiano." }
+      ]
+    },
+
+    giorni: [
+      {
+        label: "Giorno primo",
+        titolo: "Paestum, dove la Magna Grecia è ancora in piedi",
+        paragrafi: [
+          "Paestum — Poseidonia per i greci che la fondarono nel VII secolo a.C. — custodisce i tre templi dorici meglio conservati al mondo: la Basilica dedicata a Hera, la più antica; il Tempio di Nettuno, il più imponente, costruito senza malta con blocchi incastrati fra loro; e il Tempio di Atena, isolato su un'altura all'estremità del sito. Le mura lunghe sette chilometri racchiudono ancora il foro romano e un anfiteatro solo parzialmente visibile. Il Museo Archeologico Nazionale, dall'altra parte della strada, custodisce la Tomba del Tuffatore: un uomo sospeso a mezz'aria fra due tavole di pietra dipinta, l'unico esempio di pittura funeraria greca arrivato fino a noi.",
+          "Nel pomeriggio, a Contrada Vannulo, la famiglia Palmieri lavora a mano, ogni giorno, la mozzarella di bufala che dal 1988 ha reso celebre questo angolo di Cilento: un'azienda che affonda le radici nei primi del Novecento, quando il nonno dell'attuale titolare bonificò questa stessa terra per l'allevamento, e che dal 1996 è certificata biologica. La degustazione — su prenotazione — si accompagna alla visita del Museo della Civiltà Contadina e della Bottega della Pelle. Poco distante, sulle stesse colline che degradano verso gli scavi, altri due nomi meritano una sosta se il tempo lo consente: Antonino Mennella, che a Serre porta avanti dal 2003 l'oliveto secolare di Madonna dell'Olivo, e Francesco Vastola, che a Giungano conserva con Maida i sapori di stagione del Cilento — compresi, in vasetto, i fagioli di Controne che ritroveremo l'ultimo giorno."
+        ],
+        note: [
+          "Si dorme a Paestum (prima delle due notti), alla Tenuta Duca Marigliano.",
+          "Cena — Casa Coloni (il ristorante interno alla Tenuta) oppure La Pergola, Capaccio.",
+          "Da prenotare — degustazione a Tenuta Vannulo, tel. 0828 727894."
+        ],
+        ristoranti: ["Tenuta Vannulo", "La Pergola"],
+        produttori: [
+          { nome: "Madonna dell'Olivo", url: "https://www.madonnaolivo.it" },
+          { nome: "Maida", url: "https://www.maidaitaly.it" }
+        ]
+      },
+      {
+        label: "Giorno secondo",
+        titolo: "Castellabate e il paese di Hemingway",
+        paragrafi: [
+          "San Marco di Castellabate ha prestato le sue vie ad alcune scene di Benvenuti al Sud: bandiera blu da anni, con la baia tutelata come area marina protetta. Da qui un sentiero costiero conduce in meno di due ore fino a Punta Licosa, dove la leggenda vuole che il nome derivi dalla sirena Leucosia. Ad Acciaroli, ultima tappa, si respira ancora l'atmosfera che negli anni Cinquanta ospitò Ernest Hemingway — oggi la zona è studiata dai ricercatori come una delle aree a più alta concentrazione di ultracentenari al mondo."
+        ],
+        note: [
+          "Andata e ritorno da Paestum, senza cambiare hotel.",
+          "Pranzo o cena a Castellabate o Acciaroli, a scelta."
+        ],
+        ristoranti: [],
+        produttori: []
+      },
+      {
+        label: "Giorno terzo",
+        titolo: "Da Velia a Palinuro, verso Scario",
+        paragrafi: [
+          "Si lascia Paestum percorrendo la costa verso sud, fino a Casal Velino. Qui gli scavi di Velia — l'antica Elea greca — custodiscono la Porta Rosa e i resti della scuola filosofica che diede i natali a Parmenide e Zenone: il Cilento, prima di essere terra di mare, fu culla del pensiero occidentale. Si pranza da L'Ammaccata, dove Cristian Santomauro ha riportato in vita l'antica pizza cilentana con grani antichi macinati sul posto, condita con l'olio di Madonna dell'Olivo — lo stesso oliveto visitato il primo giorno.",
+          "Nel pomeriggio si prosegue verso Palinuro: la Grotta Azzurra, raggiungibile solo in barca, e l'Arco Naturale, che si tuffa direttamente in mare. Si chiude la giornata a Scario, base per i prossimi tre giorni."
+        ],
+        note: [
+          "Si dorme a Scario (prima delle tre notti), a La Francesca.",
+          "Pranzo — L'Ammaccata, Via Quattroponti, Casal Velino, tel. 392 7938827."
+        ],
+        ristoranti: ["L'Ammaccata"],
+        produttori: []
+      },
+      {
+        label: "Giorno quarto",
+        titolo: "La Baia degli Infreschi, in barca da Scario",
+        paragrafi: [
+          "Più volte eletta da Legambiente la spiaggia più bella d'Italia, la Baia degli Infreschi si raggiunge solo a piedi o in barca — nessuna strada arriva fin lì, ed è proprio questo ad averla preservata. Da Scario, Mega Tourist organizza l'uscita in barca direttamente dal porto, costeggiando grotte marine e insenature della costa della Masseta prima di fermarsi a fare il bagno nella baia. Chi preferisce camminare può comunque raggiungere il Sentiero degli Infreschi dal lato di Marina di Camerota, ma partendo da Scario la barca resta la soluzione più semplice."
+        ],
+        note: [
+          "Si dorme di nuovo a Scario (seconda notte).",
+          "Da prenotare — Mega Tourist, Piazzale Porto, Scario, tel. 334 2918553."
+        ],
+        ristoranti: [],
+        produttori: []
+      },
+      {
+        label: "Giorno quinto",
+        titolo: "Le gole del Bussento",
+        paragrafi: [
+          "Il fiume Bussento, nei pressi di Morigerati, scompare improvvisamente sottoterra per riemergere chilometri più avanti — un fenomeno carsico che l'Oasi WWF locale rende visitabile con un breve percorso guidato. A Torre Orsaia, poco distante, si pranza o si cena da Trattoria Da Addolorata, prima di risalire verso i primi contrafforti degli Alburni."
+        ],
+        note: [
+          "Si dorme per l'ultima volta a Scario (terza notte).",
+          "Pranzo o cena — Trattoria Da Addolorata, Via Pulsaria 16, Torre Orsaia, tel. 0974 985669."
+        ],
+        ristoranti: ["Trattoria Da Addolorata"],
+        produttori: []
+      },
+      {
+        label: "Giorno sesto",
+        titolo: "Sant'Angelo a Fasanella e la cantina di Ottati",
+        paragrafi: [
+          "Sant'Angelo a Fasanella custodisce la Grotta dell'Angelo, dove intorno all'anno Mille si insediò una comunità benedettina, e l'Antece, un guerriero scolpito nella roccia forse nel V secolo a.C. — grotta e figura entrambe tutelate dall'UNESCO. A Ottati, pochi minuti più a valle, Nico Sudano ha realizzato il sogno di suo padre Pietro: Pietre Levate, la cantina che da poche piante di famiglia produce oggi vini in anfora fra le espressioni più originali dell'enologia cilentana."
+        ],
+        note: [
+          "Si dorme ad Aquara (prima delle due notti)."
+        ],
+        ristoranti: [],
+        produttori: [
+          { nome: "Pietre Levate", url: "https://www.pietrelevate.it" }
+        ]
+      },
+      {
+        label: "Giorno settimo",
+        titolo: "Roscigno Vecchia e i dolci di Piaggine",
+        paragrafi: [
+          "Roscigno Vecchia: un intero paese abbandonato dopo le frane di inizio Novecento e lasciato esattamente come i suoi ultimi abitanti lo lasciarono, soprannominato \"la Pompei del Novecento\". Chi ha tempo può allungare fino a Corleto Monforte o alle Gole del Calore; oppure, in direzione opposta, fino a Piaggine, dove da tre generazioni la famiglia Macellaro pratica quella che Pietro Macellaro chiama \"pasticceria agricola\" — panettoni, cioccolato e dolci da forno che raccontano il territorio quanto un piatto salato."
+        ],
+        note: [
+          "Si dorme di nuovo ad Aquara.",
+          "Pranzo — Carmine Nicoletti (Laurino) o La Piazzetta di Valle dell'Angelo."
+        ],
+        ristoranti: ["Carmine Nicoletti", "La Piazzetta di Valle dell'Angelo"],
+        produttori: [
+          { nome: "Pietro Macellaro", url: "https://www.pietromacellaro.it" }
+        ]
+      },
+      {
+        label: "Giorno ottavo",
+        titolo: "Aquara, il cuore degli Alburni, e il congedo a Caggiano",
+        paragrafi: [
+          "Aquara chiude il viaggio dove il territorio degli Alburni si fa più intimo: un paese piccolo, affacciato sulla valle del Calore, dove Bianca Mucciolo porta avanti La Rosa Bianca. Prima di ripartire, una deviazione a Controne vale una sosta: qui, da oltre quarant'anni, Michele Ferrante coltiva il vero fagiolo di Controne, insieme a ceci, cicerchie e un peperoncino che porta il nome dello stesso paese — gli stessi ingredienti già incrociati, senza saperlo, nei vasetti di Maida il primo giorno. A Caggiano, ultima tappa, si pranza a Le Grotticelle, la pizzeria di Angelo Rumolo nello storico Castello: una delle sue pizze porta in cima proprio la buccia di limone essiccata di Ferrante — un'ultima eco dello stesso produttore incontrato lungo tutta la settimana."
+        ],
+        note: [
+          "Congedo: da Aquara, Salerno e l'A2 sono a circa un'ora di auto.",
+          "Pranzo — Le Grotticelle, Caggiano, tel. 0975 1966171."
+        ],
+        ristoranti: ["Le Grotticelle"],
+        produttori: [
+          { nome: "Michele Ferrante", url: "https://www.micheleferrante.it" }
+        ]
+      }
+    ],
+
+    taccuino: {
+      dormire: [
+        {
+          zona: "Paestum", notti: "due notti",
+          strutture: [
+            { nome: "Tenuta Duca Marigliano", contatto: "Via Tavernelle 86, Paestum, tel. 0828 721297", testo: "Dimora nobiliare dell'Ottocento restaurata, di fronte alla Porta Aurea, con il ristorante interno Casa Coloni dello chef Luigi Coppola." },
+            { nome: "Boutique Hotel Esplanade", contatto: "Via Poseidonia 291, tel. 0828 851005", testo: "Dal 1980, gestione Pagano, giardino e piscina tra la pineta." }
+          ]
+        },
+        {
+          zona: "Scario", notti: "tre notti",
+          strutture: [
+            { nome: "La Francesca", contatto: "Via Gloria Bortolotti De Poli 8, tel. 0974 986068", testo: "Ospitalità in vecchie case ristrutturate, a pochi passi dal porto." }
+          ]
+        },
+        {
+          zona: "Aquara e gli Alburni", notti: "due notti",
+          strutture: [
+            { nome: "Agriturismo Il Marchese", contatto: "Aquara, 3 km dal centro", testo: "Crocevia fra la Valle del Calore e gli Alburni, quattro camere confortevoli." },
+            { nome: "Agriturismo Villa Vea", contatto: "Aquara", testo: "Circondato da giardini, vista sul Parco Nazionale del Cilento, piscina all'aperto." }
+          ]
+        }
+      ],
+
+      tavola: {
+        intro: "Gli indirizzi principali sono già segnati giorno per giorno; li ripetiamo qui in ordine di percorso.",
+        voci: [
+          { nome: "Tenuta Vannulo" },
+          { nome: "La Pergola" },
+          { nome: "Il Rosso e il Mare" },
+          { nome: "L'Ammaccata" },
+          { nome: "Trattoria Da Addolorata" },
+          { nome: "Carmine Nicoletti" },
+          { nome: "La Piazzetta di Valle dell'Angelo" },
+          { nome: "Le Grotticelle" }
+        ]
+      },
+
+      approfondimenti: [
+        {
+          titolo: "Le grotte degli Alburni",
+          testo: "Il massiccio degli Alburni è un altopiano calcareo lungo la Valle del Sele e la Valle del Tanagro, soprannominato \"le Dolomiti campane\" per le pareti bianchissime che si vedono dalla piana. La sua natura carsica ha scavato quasi duemila cavità: le più note si visitano a Castelcivita e a Pertosa-Auletta, quest'ultima l'unica grotta non marina d'Italia attraversata da un corso d'acqua navigabile. Chi preferisce un'esperienza più raccolta può scegliere la Grotta dell'Angelo di Sant'Angelo a Fasanella, o la piccola Grotta di Sant'Elia a Postiglione, il cui ingresso permette nei giorni più tersi di scorgere Capri."
+        },
+        {
+          titolo: "Il fagiolo bianco di Controne",
+          testo: "Controne è terra di ulivi e di fagioli, incastonata fra i campi e le pendici degli Alburni. Il suo fagiolo — piccolo, rotondo, bianco perla, senza macchie né occhio — ha una buccia così sottile da non aver bisogno di ammollo e da non spaccarsi in cottura: una rarità che gli è valsa il Presidio Slow Food. Da oltre quarant'anni, Michele Ferrante ne è uno dei custodi principali, insieme a ceci, cicerchie e a un peperoncino che porta il nome dello stesso paese: semina a luglio, raccoglie a novembre, quando in paese si tiene la sagra dedicata. Si mangia al tozzetto — in bianco, con una fresella — oppure con la scarola, o in una semplice pasta e fagioli."
+        }
+      ],
+
+      aTavola: {
+        titolo: "Che cosa cambia dalla costa alla montagna",
+        testo: "Sulla costa la tavola segue il pescato: alici, totani, gamberi, la mozzarella di bufala di Vannulo che accompagna tutto il tratto da Paestum in giù. Salendo verso gli Alburni il registro cambia: i fagioli di Controne, i funghi e i tartufi dei boschi di faggio, i formaggi di malga. Il filo che tiene insieme le due cucine, dalla costa alla montagna, è l'olio di Madonna dell'Olivo — lo stesso che condisce la pizza di Casal Velino e i dolci di Piaggine — a dimostrazione che il Cilento, da nord a sud, resta prima di tutto terra di ulivi."
+      }
+    },
+
+    primaDiChiudere: [
+      { titolo: "GLI AEROPORTI", sotto: "Napoli e Salerno Costa d'Amalfi", testo: "Napoli Capodichino è il più collegato, a circa un'ora e mezza da Paestum. L'aeroporto di Salerno-Pontecagnano è più vicino ma con meno voli." },
+      { titolo: "L'AUTO", sotto: "indispensabile", testo: "Nessuna alternativa valida per raggiungere gli Alburni, Torre Orsaia o Scario fuori stagione; d'estate un servizio di battelli collega alcuni tratti della costa." },
+      { titolo: "LA BAIA DEGLI INFRESCHI", sotto: "in barca da Scario", testo: "Con base a Scario, la soluzione più semplice è l'uscita in barca di Mega Tourist, direttamente dal porto. Il sentiero a piedi resta un'alternativa, ma parte dal lato opposto, verso Marina di Camerota." },
+      { titolo: "LE CHIUSURE", sotto: "da verificare per telefono", testo: "Molte trattorie dell'entroterra chiudono un giorno infrasettimanale che cambia con la stagione; la Grotta dell'Angelo si visita meglio con una guida locale." },
+      { titolo: "LA STAGIONE", sotto: "maggio-giugno, settembre", testo: "Il mare è già godibile a maggio e ancora caldo a settembre, con meno folla che in piena estate. Ad agosto la Baia degli Infreschi e Roscigno Vecchia sono molto frequentate: partire presto la mattina aiuta." },
+      { titolo: "SE I GIORNI DIVENTANO SETTE", sotto: "cosa si toglie", testo: "Una notte in meno a Scario, unendo la giornata delle Gole del Bussento a quella dell'arrivo (Velia e Palinuro nella stessa giornata di Torre Orsaia): si perde un po' di respiro, ma nessuna tappa." }
+    ],
+
+    numeriUtili: [
+      "Da prenotare — escursione in barca alla Baia degli Infreschi con Mega Tourist, Piazzale Porto, Scario, tel. 334 2918553; degustazione a Tenuta Vannulo, tel. 0828 727894.",
+      "Ristoranti dell'itinerario — vedi il taccuino \"Dove sedersi a tavola\".",
+      "Numeri di emergenza — 112 per qualunque emergenza; 1530 per il soccorso in mare."
+    ]
   }
 
 });
