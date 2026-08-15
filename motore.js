@@ -1121,6 +1121,7 @@ function costruisciConcierge() {
      (index.html e la maggior parte delle pagine non li caricano) */
   let promessaGuida = null;
   let promessaHotel = null;
+  let promessaItinerari = null;
 
   function caricaScript(src) {
     return new Promise(function (resolve, reject) {
@@ -1142,6 +1143,11 @@ function costruisciConcierge() {
       if (!promessaGuida) promessaGuida = caricaScript("guida.js");
       return promessaGuida;
     }
+    if (tipo === "itinerario") {
+      if (T42.itinerari) return Promise.resolve();
+      if (!promessaItinerari) promessaItinerari = caricaScript("itinerari.js");
+      return promessaItinerari;
+    }
     if (window.HOTEL_PROVCITTA) return Promise.resolve();
     if (!promessaHotel) promessaHotel = caricaScript("hotel.js");
     return promessaHotel;
@@ -1162,12 +1168,20 @@ function costruisciConcierge() {
       '<div class="conc-opzioni">' +
         '<button class="conc-opzione" type="button" data-tipo="ristorante">🍽️<span>Ristorante</span></button>' +
         '<button class="conc-opzione" type="button" data-tipo="albergo">🛏️<span>Albergo</span></button>' +
+        '<button class="conc-opzione" type="button" data-tipo="itinerario">🗺️<span>Itinerario</span></button>' +
       '</div>';
   }
 
   function renderStep2() {
-    const regprov = stato.tipo === "ristorante" ? (window.GUIDA_REGPROV || {}) : (window.HOTEL_PROVCITTA || {});
-    const regioni = Object.keys(regprov).sort(function (a, b) { return a.localeCompare(b, "it"); });
+    let regioni;
+    if (stato.tipo === "itinerario") {
+      const insieme = new Set();
+      Object.values(T42.itinerari || {}).forEach(function (it) { if (it.regione) insieme.add(it.regione); });
+      regioni = Array.from(insieme).sort(function (a, b) { return a.localeCompare(b, "it"); });
+    } else {
+      const regprov = stato.tipo === "ristorante" ? (window.GUIDA_REGPROV || {}) : (window.HOTEL_PROVCITTA || {});
+      regioni = Object.keys(regprov).sort(function (a, b) { return a.localeCompare(b, "it"); });
+    }
     corpo.innerHTML =
       '<div class="conc-titolo">Dove?</div>' +
       '<select id="conc-regione" class="conc-select">' +
@@ -1195,6 +1209,12 @@ function costruisciConcierge() {
   }
 
   function suggerimenti() {
+    if (stato.tipo === "itinerario") {
+      const tutti = Object.keys(T42.itinerari || {}).map(function (chiave) {
+        return Object.assign({ chiave: chiave }, T42.itinerari[chiave]);
+      });
+      return tutti.filter(function (it) { return it.regione === stato.regione; });
+    }
     const dati = stato.tipo === "ristorante" ? (window.GUIDA || []) : (window.HOTEL || []);
     const match = dati.filter(function (r) {
       return r.regione === stato.regione && (r.note || "").indexOf(stato.simbolo) !== -1;
@@ -1214,10 +1234,19 @@ function costruisciConcierge() {
 
   function renderRisultati() {
     const items = suggerimenti();
+    const etichettaTipo = stato.tipo === "ristorante" ? "ristorante" : (stato.tipo === "albergo" ? "albergo" : "itinerario");
     let html = '<div class="conc-titolo">I miei suggerimenti</div>';
     if (!items.length) {
-      html += '<div class="conc-vuoto">Nessun ' + (stato.tipo === "ristorante" ? "ristorante" : "albergo") +
+      html += '<div class="conc-vuoto">Nessun ' + etichettaTipo +
         ' con questo profilo in ' + esc(stato.regione) + '. Prova un\'altra combinazione.</div>';
+    } else if (stato.tipo === "itinerario") {
+      html += '<div class="conc-risultati">' + items.map(function (it) {
+        return '<article class="conc-card">' +
+          '<div class="conc-card-nome">' + esc(it.titolo) + '</div>' +
+          (it.sottotitolo ? '<div class="conc-card-citta">' + esc(it.sottotitolo) + '</div>' : '') +
+          '<div class="azioni rist-azioni"><a class="btn btn--pieno" href="itinerario.html?i=' + encodeURIComponent(it.chiave) + '">Vedi l\'itinerario →</a></div>' +
+        '</article>';
+      }).join("") + '</div>';
     } else {
       html += '<div class="conc-risultati">' + items.map(function (r) {
         const tel = r.tel || r.telefono;
@@ -1296,7 +1325,7 @@ function costruisciConcierge() {
       const selRegione = document.getElementById("conc-regione");
       if (selRegione) stato.regione = selRegione.value;
       console.log("[Concierge] Avanti step 2 → stato.regione =", JSON.stringify(stato.regione));
-      if (stato.regione) vaiA(3);
+      if (stato.regione) vaiA(stato.tipo === "itinerario" ? 4 : 3);
       return;
     }
     if (e.target.closest(".conc-rifai")) {
