@@ -663,7 +663,7 @@ const T42 = {
         luogo: "Amalfi, Campania",
         immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5288_rillry",
         sommario: "Dal 1959, la pasta più antica del mondo e il dolce che un Nobel battezzò \"il Sole nel Piatto\".",
-        testo: "In Piazza dei Dogi, la famiglia Dipino porta avanti dal 1959 un ristorante che è anche un piccolo museo di ceramiche e vetri veneziani. In cucina, gli 'Ndunderi premiati nel 2003 con il Sole di Veronelli e il soufflé al limone nato per errore, battezzato da Salvatore Quasimodo.",
+        testo: "In Piazza dei Dogi, la famiglia Dipino porta avanti dal 1959 un ristorante che è anche un piccolo museo di ceramiche e vetri veneziani. In cucina, gli 'Ndunderi premiati nel 2003 con il Sole di Veronelli e il soufflé al limone nato per errore, battezzato da Salvatore Quasimodo Il Sole nel Piatto.",
         telefono: "+39 089 871029",
         mappa: "Via Matteo Camera 12, Amalfi, SA",
         galleria: [
