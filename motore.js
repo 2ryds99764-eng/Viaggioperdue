@@ -650,6 +650,11 @@ function costruisciItinerario() {
           }).join("") + '</div>';
         }
       }
+      if (g.produttori && g.produttori.length) {
+        html += '<div class="itin-chip-riga">' + g.produttori.map(function (p) {
+          return '<a class="chip-ristorante" href="' + esc(p.url) + '" target="_blank" rel="noopener">' + esc(p.nome) + '</a>';
+        }).join("") + '</div>';
+      }
       html += '</div>';
       return html;
     }).join("");

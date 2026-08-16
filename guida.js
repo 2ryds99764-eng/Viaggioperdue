@@ -449,6 +449,20 @@ var GUIDA=[
     "mappa": "Via Frà Giovanni da Fiesole detto l'Angelico 35, Fiesole, FI"
   },
   {
+    "nome": "L'Ammaccata",
+    "indirizzo": "Via Quattroponti",
+    "citta": "Casal Velino",
+    "provincia": "SA",
+    "prov": "SA",
+    "regione": "Campania",
+    "luogo": "Casal Velino (SA)",
+    "tel": "+39 392 7938827",
+    "telefono": "+39 392 7938827",
+    "web": "https://lammaccata.it",
+    "note": "Antica pizza cilentana con grani antichi, casale del Cinquecento",
+    "mappa": "Via Quattroponti, Casal Velino, SA"
+  },
+  {
     "nome": "La Caravella",
     "indirizzo": "Via Matteo Camera 12",
     "citta": "Amalfi",
@@ -764,8 +778,8 @@ var GUIDA=[
     "prov": "SA",
     "regione": "Campania",
     "luogo": "Laurino (SA)",
-    "tel": "+393498546265",
-    "telefono": "+393498546265",
+    "tel": "+39 349 8546265",
+    "telefono": "+39 349 8546265",
     "web": "https://www.chaletnicoletti.it",
     "note": "Strada Provinciale 371 · Cilento",
     "mappa": "Località Vesalo, Laurino, SA"
@@ -2465,7 +2479,7 @@ var GUIDA=[
     "mappa": "Piazza Canonico Iannuzzi, 2, Montevecchia, LC"
   },
   {
-    "nome": "La Piazzetta",
+    "nome": "La Piazzetta di Valle dell'Angelo",
     "indirizzo": "Piazza Canonico Iannuzzi, 2",
     "citta": "Valle dell’Angelo",
     "provincia": "SA",
@@ -4395,6 +4409,20 @@ var GUIDA=[
     "web": "",
     "note": "Mani",
     "mappa": "Sul mare, nel villaggio di Limeni, Limeni Laconia, GR"
+  },
+  {
+    "nome": "Tenuta Vannulo",
+    "indirizzo": "Via Galileo Galilei 101",
+    "citta": "Capaccio Paestum",
+    "provincia": "SA",
+    "prov": "SA",
+    "regione": "Campania",
+    "luogo": "Capaccio Paestum (SA)",
+    "tel": "+39 0828 727894",
+    "telefono": "+39 0828 727894",
+    "web": "https://www.tenutavannulo.com",
+    "note": "Azienda agricola biologica dal 1996, mozzarella di bufala lavorata a mano, museo della civiltà contadina",
+    "mappa": "Via Galileo Galilei 101, Capaccio Paestum, SA"
   },
   {
     "nome": "Tivoli Palazzo Gaddi",
