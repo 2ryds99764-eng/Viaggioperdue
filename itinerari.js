@@ -365,7 +365,7 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
         intro: "Gli indirizzi principali sono già segnati giorno per giorno; li ripetiamo qui in ordine di percorso.",
         voci: [
           { nome: "Tenuta Vannulo" },
-          { nome: "La Pergola" },
+          { nome: "La Pergola", storia: "lapergola" },
           { nome: "Il Rosso e il Mare" },
           { nome: "L'Ammaccata" },
           { nome: "Trattoria Da Addolorata" },
