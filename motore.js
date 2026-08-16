@@ -141,15 +141,20 @@ function costruisciHome() {
       '</a>';
   }
 
-  /* invito agli itinerari (provvisorio: punta al primo e unico itinerario finché non ce ne sono altri) */
+  /* invito agli itinerari: sceglie a caso uno fra tutti quelli pubblicati */
   const invI = document.getElementById("invito-itinerari");
-  if (invI) {
-    invI.innerHTML =
-      '<a class="racconto-invito invito-guida anima d3" href="itinerario.html?i=costiera-amalfitana">' +
-        '<span class="ri-occhiello">Gli itinerari</span>' +
-        '<span class="ri-titolo">Sette giorni in Costiera Amalfitana, da Vietri sul Mare a Positano</span>' +
-        '<span class="ri-azione">Parti →</span>' +
-      '</a>';
+  if (invI && T42.itinerari) {
+    const chiavi = Object.keys(T42.itinerari);
+    if (chiavi.length) {
+      const scelta = chiavi[Math.floor(Math.random() * chiavi.length)];
+      const it = T42.itinerari[scelta];
+      invI.innerHTML =
+        '<a class="racconto-invito invito-guida anima d3" href="itinerario.html?i=' + encodeURIComponent(scelta) + '">' +
+          '<span class="ri-occhiello">Gli itinerari</span>' +
+          '<span class="ri-titolo">' + esc(it.titolo) + '</span>' +
+          '<span class="ri-azione">Parti →</span>' +
+        '</a>';
+    }
   }
 
   /* invito alla mappa */
