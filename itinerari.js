@@ -406,6 +406,242 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
       "Ristoranti dell'itinerario — vedi il taccuino \"Dove sedersi a tavola\".",
       "Numeri di emergenza — 112 per qualunque emergenza; 1530 per il soccorso in mare."
     ]
+  },
+
+  "corsica": {
+    occhiello: "Un itinerario per due",
+    titolo: "Da Bastia a Bastia",
+    sottotitolo: "dieci giorni intorno alla Corsica, tra cittadelle, scogliere e ovili trasformati in alberghi",
+    regione: "Francia",
+    areaGeografica: "Corse, France",
+    copertina: "",
+    tappe: ["Bastia","Corte","Ajaccio","Sartène","Filitosa","Campomoro","Roccapina","Bonifacio","Porto-Vecchio","Zonza","Aleria"],
+
+    epigrafe: {
+      testo: "Raccontiamo, non giudichiamo. La libertà di scoprire appartiene a chi viaggia, non a chi scrive.",
+      fonte: ""
+    },
+
+    apertura: [
+      "La Corsica si lascia attraversare una volta sola, se si vuole farlo bene: un giro che parte e torna a Bastia, toccando l'entroterra montano, il sud arcaico del Golfo di Valinco, l'estremo sud fra Bonifacio e Porto-Vecchio, e il cuore selvaggio dell'Alta Rocca prima di richiudersi sulla costa. Dieci giorni, quattro basi, ognuna scelta fra gli indirizzi del Cercle des Grandes Maisons Corses — l'associazione che riunisce gli alberghi più particolari dell'isola, quelli che non assomigliano a nessun altro.",
+      "Si comincia e si finisce a Bastia, città portuale che guarda l'Italia più di quanto guardi Parigi. Si sale poi all'unica cittadella dell'interno, Corte, capitale della breve indipendenza corsa. Si scende ad Ajaccio, città di Napoleone, prima di raggiungere il Golfo di Valinco e Sartène, \"la più corsa delle città corse\". Da lì, l'estremo sud: Bonifacio aggrappata alle sue scogliere bianche, e Porto-Vecchio con le spiagge più fotografate dell'isola. Si risale infine attraverso l'Alta Rocca, sotto le Aiguilles di Bavella, prima del ritorno lungo la costa orientale.",
+      "Quello che segue non è una classifica. È un percorso possibile, con dentro gli indirizzi di chi lavora bene — ovili di pastori trasformati in ville di lusso, trattorie di famiglia sotto le mura di una cittadella, pasticcerie che aprono la stessa porta dal 1921. Il resto appartiene a chi viaggia."
+    ],
+
+    percorso: {
+      intro: "Bastia per una notte, Corte per una, Sartène per due, Porto-Vecchio per due, Zonza per una, di nuovo Bastia per due prima del congedo. Nove notti in tutto, quattro alberghi diversi oltre a quello di partenza.",
+      giorni: [
+        { giorno: "Giorno primo", titolo: "Bastia", km: "", testo: "Cittadella, Terra Vecchia, il Vieux Port." },
+        { giorno: "Giorno secondo", titolo: "Corte", km: "", testo: "La cittadella dell'interno, le Gole della Restonica." },
+        { giorno: "Giorno terzo", titolo: "Ajaccio e il Golfo di Valinco", km: "", testo: "La città di Napoleone, arrivo al Domaine de Murtoli." },
+        { giorno: "Giorno quarto", titolo: "Sartène, Filitosa, le spiagge del Valinco", km: "", testo: "Filitosa, Campomoro, il Leone di Roccapina." },
+        { giorno: "Giorno quinto", titolo: "Bonifacio", km: "", testo: "La Scala del Re d'Aragona, le scogliere." },
+        { giorno: "Giorno sesto", titolo: "Porto-Vecchio", km: "", testo: "Il centro storico, Palombaggia, Santa Giulia." },
+        { giorno: "Giorno settimo", titolo: "Il Col de Bavella", km: "", testo: "Le Aiguilles, verso l'Alta Rocca." },
+        { giorno: "Giorno ottavo", titolo: "Il ritorno, costa orientale", km: "", testo: "Aleria, la piana, di nuovo Bastia." },
+        { giorno: "Giorno nono", titolo: "Erbalunga e il congedo", km: "", testo: "Un'ultima uscita breve dal Capo Corso." },
+        { giorno: "Giorno decimo", titolo: "Congedo", km: "", testo: "Partenza da Bastia." }
+      ]
+    },
+
+    giorni: [
+      {
+        label: "Giorno primo",
+        titolo: "Bastia, la porta d'ingresso",
+        paragrafi: [
+          "Bastia si divide in tre quartieri che si visitano in sequenza naturale: Place Saint-Nicolas, la piazza lunga trecento metri all'ombra delle palme; Terra Vecchia, il dedalo di vicoli intorno al Vieux Port, con la facciata barocca di Saint-Jean-Baptiste, la chiesa più grande di Corsica; e la Cittadella — Terra Nova — costruita dai genovesi fra Quattro e Seicento, raggiungibile a piedi dal Jardin Romieu. Il tramonto visto dai bastioni, con il Mediterraneo che si tinge di rosa, è il modo giusto per cominciare."
+        ],
+        note: [
+          "Si dorme a Bastia, all'Hôtel des Gouverneurs, nella Cittadella.",
+          "Cena — La Table de la Corniche, San-Martino-di-Lota, in alto sopra la città, chef Quentin Sanchez."
+        ],
+        ristoranti: ["La Table de la Corniche"],
+        produttori: []
+      },
+      {
+        label: "Giorno secondo",
+        titolo: "Corte, il cuore della Corsica",
+        paragrafi: [
+          "Si lascia la costa per l'unica cittadella interna dell'isola: Corte, capitale della breve indipendenza corsa sotto Pasquale Paoli nel Settecento, oggi sede dell'unica università dell'isola. La Cittadella, costruita nel 1419, domina il borgo dal \"Nido dell'Aquila\" e ospita il Museo della Corsica, con una delle collezioni etnografiche più ricche sulla cultura dell'isola. Da Piazza Gaffory — dedicata al leader della rivoluzione contro i genovesi, assassinato nel 1753, la cui casa porta ancora i fori dei proiettili — si sale al Belvedere per la vista sulle valli della Restonica e del Tavignano.",
+          "Nel pomeriggio, le Gole della Restonica: sette chilometri di strada stretta che risalgono la valle fino ai laghi glaciali di Melo e Capitello, fra piscine naturali dove è possibile fare il bagno."
+        ],
+        note: [
+          "Si dorme a Corte, al Dominique Colonna.",
+          "Cena — U Museu, Rampe Ribanelle, ai piedi delle mura della cittadella."
+        ],
+        ristoranti: ["U Museu"],
+        produttori: []
+      },
+      {
+        label: "Giorno terzo",
+        titolo: "Ajaccio e l'arrivo nel Golfo di Valinco",
+        paragrafi: [
+          "Ajaccio si visita sulle tracce del suo cittadino più celebre: la Maison Bonaparte, casa natale dell'imperatore nel 1769, oggi museo nazionale con gli arredi originali; la Cattedrale di Santa Maria Assunta, dove fu battezzato; Place Foch, con la statua di Napoleone Primo Console e la fontana dei Quattro Leoni. Il mercato coperto del Casone, aperto ogni mattina, resta il modo più diretto per assaggiare salumi, formaggi e miele della tradizione corsa prima di rimettersi in viaggio verso sud.",
+          "Nel tardo pomeriggio si scende verso sud, fino al Domaine de Murtoli: duemilacinquecento ettari fra mare e macchia mediterranea, venti antichi ovili di pastori restaurati come alloggi indipendenti, tre ristoranti diversi — uno scavato in una grotta a terrazze — e una spiaggia privata. Probabilmente l'indirizzo più particolare di tutta la Corsica."
+        ],
+        note: [
+          "Si dorme al Domaine de Murtoli, Sartène (prima delle due notti).",
+          "Cena — La Table de la Ferme, il ristorante interno del Domaine."
+        ],
+        ristoranti: ["La Table de la Ferme"],
+        produttori: []
+      },
+      {
+        label: "Giorno quarto",
+        titolo: "Sartène, Filitosa e le spiagge del Valinco",
+        paragrafi: [
+          "Sartène — \"la più corsa delle città corse\" — è una città medievale di granito grigio, costruita ad anfiteatro sul golfo. La Place de la Libération è il cuore della vita cittadina; il quartiere di Santa Anna custodisce il nucleo medievale, viuzze strette fra case alte. Ogni Venerdì Santo vi si svolge il Catenacciu, processione penitenziale che risale al Medioevo.",
+          "Filitosa è il sito preistorico più importante di Corsica, Patrimonio UNESCO: statue-menhir antropomorfe dell'età del Bronzo, scoperte nel 1946 da un contadino che arava il campo. Campomoro, borgo di pescatori sul golfo, è dominato dalla torre genovese più alta di Corsica, quindici metri, del Cinquecento, con una spiaggia di sabbia bianca e acque turchesi. Roccapina chiude la giornata: il celebre Leone di Roccapina, una formazione rocciosa naturale che dalla costa sembra davvero un leone accovacciato, accanto a una spiaggia selvaggia fra le più fotografate del sud dell'isola."
+        ],
+        note: ["Si dorme di nuovo al Domaine de Murtoli."],
+        ristoranti: [],
+        produttori: []
+      },
+      {
+        label: "Giorno quinto",
+        titolo: "Bonifacio, la città delle scogliere",
+        paragrafi: [
+          "Bonifacio si raggiunge da Sartène in circa un'ora, e si annuncia da lontano: una città bianca aggrappata a una scogliera calcarea a strapiombo sul mare, visibile fin dalla Sardegna nei giorni tersi. La Cittadella medievale, protetta dal Bastione dello Stendardo, custodisce vicoli e piazzette dove il tempo sembra essersi fermato; ma l'esperienza che nessuno dimentica è la discesa della Scala del Re d'Aragona, centottantasette gradini scavati nella roccia fino quasi al livello del mare — una leggenda vuole scavata in una notte sola dalle truppe aragonesi, la storia più probabilmente opera dei monaci francescani per raggiungere una sorgente d'acqua dolce.",
+          "Nel centro storico, la Pasticceria Sorba porta avanti dal 1921, di padre in figlio, le specialità dolciarie bonifaciane — una sosta da non saltare. Da non perdere anche una gita in barca sotto le scogliere, l'unico modo per apprezzare davvero la scala vista dal basso."
+        ],
+        note: [
+          "Si dorme al Grand Hôtel de Cala Rossa, Lecci (prima delle due notti).",
+          "Pranzo o cena — La Loggia, accanto alla chiesa di Sainte-Marie-Majeure, nella cittadella di Bonifacio."
+        ],
+        ristoranti: ["La Loggia"],
+        produttori: [
+          { nome: "Pasticceria Sorba", url: "https://bonifacio.it" }
+        ]
+      },
+      {
+        label: "Giorno sesto",
+        titolo: "Porto-Vecchio e le spiagge del golfo",
+        paragrafi: [
+          "Porto-Vecchio, la \"Città del Sale\" per le saline attive fra Sette e Ottocento, ha un centro storico che vale una passeggiata a sé: la cittadella genovese, la Rue Borgo con le sue botteghe, Piazza della Repubblica con il Patio, antica infermeria in pietra. Ma il vero motivo per cui il mondo la conosce sono le spiagge che la circondano, nessuna raggiungibile a piedi dal centro ma tutte a pochi minuti d'auto: Palombaggia, sabbia bianca fra le pinete di pini marittimi, di fronte alle Isole Cerbicali; e Santa Giulia, una baia più riparata, quasi una laguna, con uno stagno naturale alle spalle della spiaggia. Il Grand Hôtel de Cala Rossa, dove si dorme, si trova esattamente fra le due, sulla sua stessa penisola."
+        ],
+        note: [
+          "Si dorme di nuovo al Grand Hôtel de Cala Rossa.",
+          "Pranzo — Playa Baggia, sulla spiaggia di Palombaggia (Tamaricciu)."
+        ],
+        ristoranti: ["Playa Baggia"],
+        produttori: []
+      },
+      {
+        label: "Giorno settimo",
+        titolo: "Il Col de Bavella, verso l'Alta Rocca",
+        paragrafi: [
+          "Da Porto-Vecchio la strada risale verso Zonza attraverso l'Alta Rocca, fino al Col de Bavella: milleduecentodiciotto metri, dominati dalle Aiguilles — guglie di granito rosa erose da trecento milioni di anni di vento e gelo, fra le immagini più fotografate di tutta la Corsica. Alla sommità del passo, la statua di Notre-Dame-des-Neiges veglia sul massiccio dal 1953, circondata da ex voto dei pastori della zona. Chi ha tempo può inoltrarsi per un paio d'ore fino al Trou de la Bombe, un'apertura naturale a forma di finestra scavata nella roccia."
+        ],
+        note: [
+          "Si dorme al Domaine Le Mouflon d'Or, Zonza.",
+          "Cena — A Népita, il ristorante gastronomico del Domaine."
+        ],
+        ristoranti: ["A Népita"],
+        produttori: []
+      },
+      {
+        label: "Giorno ottavo",
+        titolo: "Il ritorno, lungo la costa orientale",
+        paragrafi: [
+          "Da Zonza si scende a Solenzara e si imbocca la piana orientale, l'unica vera pianura di Corsica. Vale una sosta ad Aleria, dove le rovine della colonia greco-romana di Alalia, fondata nel 564 a.C., custodiscono uno dei siti archeologici più importanti dell'isola. Il resto del tragitto corre lungo la costa fino a Bastia."
+        ],
+        note: ["Si dorme di nuovo a Bastia (prima delle due notti)."],
+        ristoranti: [],
+        produttori: []
+      },
+      {
+        label: "Giorno nono",
+        titolo: "Erbalunga e il congedo dal Capo Corso",
+        paragrafi: [
+          "Ultima giornata libera, da dedicare a un'ultima uscita breve: Erbalunga, venti minuti da Bastia, porticciolo variopinto sorvegliato da una torre genovese del Cinquecento, amato da generazioni di pittori per la luce del tardo pomeriggio. Oppure, per chi preferisce restare in città, un'ultima passeggiata fra il mercato di Terra Vecchia e i canistrelli appena sfornati di rue Napoléon."
+        ],
+        note: ["Si dorme per l'ultima volta a Bastia."],
+        ristoranti: [],
+        produttori: []
+      },
+      {
+        label: "Giorno decimo",
+        titolo: "Congedo",
+        paragrafi: [
+          "Partenza da Bastia, con porto e aeroporto a pochi minuti dal centro — l'ultimo caffè si può ancora prendere in Place Saint-Nicolas, dove tutto era cominciato dieci giorni prima."
+        ],
+        note: ["Congedo: Bastia ha porto e aeroporto a pochi minuti dal centro."],
+        ristoranti: [],
+        produttori: []
+      }
+    ],
+
+    taccuino: {
+      dormire: [
+        {
+          zona: "Bastia", notti: "quattro notti in totale, due soste",
+          strutture: [
+            { nome: "Hôtel des Gouverneurs", contatto: "3 bis Rue des Turquines, tel. +33 4 95 47 10 10", testo: "Boutique hotel di ventisette camere nella Cittadella, terrazza panoramica sul Vieux Port." }
+          ]
+        },
+        {
+          zona: "Corte", notti: "una notte",
+          strutture: [
+            { nome: "Dominique Colonna", contatto: "Vallée de la Restonica", testo: "Terrazza affacciata sul fiume Tavignano, vicino all'università, ai piedi della valle della Restonica." }
+          ]
+        },
+        {
+          zona: "Sartène", notti: "due notti",
+          strutture: [
+            { nome: "Domaine de Murtoli", contatto: "Vallée de l'Ortolo, tel. +33 4 95 71 69 24", testo: "Duemilacinquecento ettari, venti ovili di pastori restaurati, tre ristoranti, spiaggia privata." }
+          ]
+        },
+        {
+          zona: "Porto-Vecchio", notti: "due notti",
+          strutture: [
+            { nome: "Grand Hôtel de Cala Rossa", contatto: "Route de Cala Rossa, Lecci, tel. +33 4 95 71 61 51", testo: "A conduzione familiare dal 1993, sulla spiaggia della penisola di Cala Rossa." }
+          ]
+        },
+        {
+          zona: "Zonza", notti: "una notte",
+          strutture: [
+            { nome: "Domaine Le Mouflon d'Or", contatto: "Pian di Santo, tel. +33 4 95 78 72 72", testo: "Dimora di inizio Novecento fra cedri del Libano e castagni secolari, ai piedi delle Aiguilles di Bavella." }
+          ]
+        }
+      ],
+
+      tavola: {
+        intro: "Gli indirizzi principali sono già segnati giorno per giorno; li ripetiamo qui in ordine di percorso.",
+        voci: [
+          { nome: "La Table de la Corniche" },
+          { nome: "U Museu" },
+          { nome: "La Table de la Ferme" },
+          { nome: "La Loggia" },
+          { nome: "Playa Baggia" },
+          { nome: "A Népita" }
+        ]
+      },
+
+      approfondimenti: [
+        {
+          titolo: "Il Cercle des Grandes Maisons Corses",
+          testo: "Ventuno indirizzi in tutta l'isola, dal Capo Corso a Bonifacio, uniti da un solo filo: appartengono tutti a famiglie, non a catene. Nato per riunire l'ospitalità corsa più autentica — ovili di pastori restaurati, dimore di fine Ottocento, hotel nati da un'unica casa di famiglia — il Cercle è oggi il modo più affidabile per riconoscere, isola per isola, gli indirizzi che non assomigliano a nessun altro. Quattro delle cinque tappe di questo viaggio appartengono ai suoi membri."
+        }
+      ],
+
+      aTavola: {
+        titolo: "Che cosa cambia, dal mare alla montagna",
+        testo: "Sulla costa la cucina segue il pesce e i frutti di mare; salendo verso Corte e l'Alta Rocca, il registro cambia nel giro di un'ora di strada — cinghiale, brocciu (il formaggio fresco di pecora o capra, onnipresente dai cannelloni al fiadone), castagne macinate in farina. I canistrelli, i biscotti secchi profumati al vino o agli agrumi, accompagnano il viaggio dal primo giorno all'ultimo, in ogni pasticceria dell'isola."
+      }
+    },
+
+    primaDiChiudere: [
+      { titolo: "GLI AEROPORTI E I PORTI", sotto: "Bastia", testo: "Bastia è collegata via traghetto con Savona, Genova, Livorno, Nizza e Marsiglia; l'aeroporto di Poretta ha voli diretti dalle principali città italiane." },
+      { titolo: "L'AUTO", sotto: "indispensabile", testo: "Necessaria per l'intero giro; le strade di montagna (Restonica, Bavella) sono strette e richiedono tempi più lunghi del previsto." },
+      { titolo: "LE CITTADELLE", sotto: "sei in tutta l'isola", testo: "Bastia, Corte, Ajaccio, Bonifacio, Saint-Florent e Calvi: questo itinerario ne tocca quattro." },
+      { titolo: "LA STAGIONE", sotto: "maggio-giugno, settembre", testo: "Le finestre migliori per clima e affluenza; ad agosto Bonifacio e le spiagge di Porto-Vecchio sono molto affollate." },
+      { titolo: "SE I GIORNI DIVENTANO OTTO", sotto: "cosa si toglie", testo: "Si toglie la notte a Corte, visitata in giornata da Bastia, e si accorcia il ritorno saltando la sosta di Erbalunga." }
+    ],
+
+    numeriUtili: [
+      "Ristoranti dell'itinerario — vedi il taccuino \"Dove sedersi a tavola\".",
+      "Numeri di emergenza — 112 per qualunque emergenza; 196 per il soccorso in mare in Francia."
+    ]
   }
 
 });
