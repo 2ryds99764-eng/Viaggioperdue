@@ -660,6 +660,19 @@ function costruisciItinerario() {
           return '<a class="chip-ristorante" href="' + esc(p.url) + '" target="_blank" rel="noopener">' + esc(p.nome) + '</a>';
         }).join("") + '</div>';
       }
+      if (g.tragitti && g.tragitti.length) {
+        const qual = encodeURIComponent(", " + (it.areaGeografica || ""));
+        html += '<div class="itin-tragitti">' + g.tragitti.map(function (t) {
+          const da = encodeURIComponent(t.da), a = encodeURIComponent(t.a);
+          const apple = "https://maps.apple.com/?saddr=" + da + qual + "&daddr=" + a + qual;
+          const google = "https://www.google.com/maps/dir/" + da + qual + "/" + a + qual;
+          return '<div class="itin-tragitto">' +
+            '<span class="itin-tragitto-tratta">' + esc(t.da) + ' → ' + esc(t.a) + '</span>' +
+            '<a class="itin-link-storia" href="' + apple + '" target="_blank" rel="noopener">Apple Maps</a> ' +
+            '<a class="itin-link-storia" href="' + google + '" target="_blank" rel="noopener">Google Maps</a>' +
+          '</div>';
+        }).join("") + '</div>';
+      }
       html += '</div>';
       return html;
     }).join("");

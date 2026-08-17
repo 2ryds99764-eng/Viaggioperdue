@@ -953,3 +953,15 @@ body::before {
 @media (max-width: 720px) {
   .itin-percorso-riga { grid-template-columns: 1fr; gap: 6px; }
 }
+
+/* tragitti di navigazione (Apple/Google Maps) dentro ogni giorno */
+.itin-tragitti { margin: 1em 0 0.4em; }
+.itin-tragitto {
+  display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap;
+  padding: 8px 0; border-top: 1px solid var(--filo);
+}
+.itin-tragitto:first-child { border-top: none; padding-top: 0; }
+.itin-tragitto-tratta {
+  font-family: var(--serif); font-style: italic; font-size: 0.92rem;
+  color: #51607a; margin-right: 4px;
+}
