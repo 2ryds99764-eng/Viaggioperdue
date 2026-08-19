@@ -313,9 +313,9 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
         ],
         note: [
           "Si dorme di nuovo ad Aquara.",
-          "Pranzo — Carmine Nicoletti (Laurino) o La Piazzetta di Valle dell'Angelo."
+          "Pranzo — Chalet Nicoletti (Laurino) o La Piazzetta di Valle dell'Angelo."
         ],
-        ristoranti: ["Carmine Nicoletti", "La Piazzetta di Valle dell'Angelo"],
+        ristoranti: ["Chalet Nicoletti", "La Piazzetta di Valle dell'Angelo"],
         produttori: [
           { nome: "Pietro Macellaro", url: "https://www.pietromacellaro.it" }
         ]
@@ -369,7 +369,7 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
           { nome: "Il Rosso e il Mare" },
           { nome: "L'Ammaccata" },
           { nome: "Trattoria Da Addolorata" },
-          { nome: "Carmine Nicoletti" },
+          { nome: "Chalet Nicoletti" },
           { nome: "La Piazzetta di Valle dell'Angelo" },
           { nome: "Le Grotticelle", storia: "grotticelle" },
           { nome: "La Rosa Bianca", storia: "rosabianca" }
