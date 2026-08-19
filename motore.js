@@ -553,6 +553,56 @@ function costruisciStoria() {
   }  costruisciPie(T42.sito);
 }
 
+/* ----------- COSTRUZIONE DELLA PAGINA INDICE ITINERARI ----------- */
+function costruisciItinerari() {
+  document.title = "Gli itinerari · " + T42.sito.nome;
+
+  const intest = document.getElementById("cat-intestazione");
+  if (intest) {
+    intest.innerHTML =
+      '<a class="ritorno" href="index.html">Riprendi il viaggio</a>' +
+      '<div class="occhiello anima d1">' + esc(T42.sito.sigla) + ' · Viaggioperdue</div>' +
+      '<h1 class="anima d2">Gli itinerari</h1>' +
+      '<p class="anima d3">Percorsi di più giorni, appunti di viaggio da seguire passo dopo passo.</p>';
+  }
+
+  const elenco = document.getElementById("elenco");
+  if (elenco) {
+    const chiavi = Object.keys(T42.itinerari || {});
+    if (!chiavi.length) {
+      elenco.classList.remove("elenco");
+      elenco.innerHTML = '<div class="vuoto">Presto nuovi itinerari.</div>';
+    } else {
+      elenco.innerHTML = chiavi.map(function (k, i) {
+        return schedaItinerario(T42.itinerari[k], k, i);
+      }).join("");
+    }
+  }
+
+  costruisciPie(T42.sito);
+}
+
+function schedaItinerario(it, chiave, i) {
+  const foto = (it.copertina && it.copertina.trim() !== "")
+    ? '<div class="scheda-foto"><img src="' + esc(it.copertina) + '" alt="' + esc(it.titolo) + '" loading="lazy"></div>'
+    : '<div class="scheda-foto vuota"></div>';
+
+  const ritardo = "d" + Math.min(i + 1, 6);
+
+  const numGiorni = (it.percorso && it.percorso.giorni) ? it.percorso.giorni.length : (it.giorni ? it.giorni.length : null);
+  const etichettaGiorni = numGiorni ? numGiorni + (numGiorni === 1 ? " giorno" : " giorni") : "";
+
+  const testo =
+    '<div class="scheda-testo">' +
+      (it.regione ? '<div class="luogo">' + esc(it.regione) + (etichettaGiorni ? " · " + esc(etichettaGiorni) : "") + '</div>' : '') +
+      '<h2>' + esc(it.titolo) + '</h2>' +
+      (it.sottotitolo ? '<p class="sommario">' + esc(it.sottotitolo) + '</p>' : '') +
+      '<div class="azioni"><a class="btn btn--pieno" href="itinerario.html?i=' + encodeURIComponent(chiave) + '">Parti →</a></div>' +
+    '</div>';
+
+  return '<article class="scheda anima ' + ritardo + '">' + foto + testo + '</article>';
+}
+
 /* ----------- COSTRUZIONE DELLA PAGINA ITINERARIO ----------- */
 function costruisciItinerario() {
   const params = new URLSearchParams(window.location.search);
@@ -933,6 +983,7 @@ document.addEventListener("DOMContentLoaded", function () {
   if (document.body.dataset.pagina === "mappa") costruisciMappa();
   if (document.body.dataset.pagina === "storia") costruisciStoria();
   if (document.body.dataset.pagina === "itinerario") costruisciItinerario();
+  if (document.body.dataset.pagina === "itinerari") costruisciItinerari();
   if (document.body.dataset.pagina === "guida") costruisciGuida();
    if (document.body.dataset.pagina === "hotel") costruisciHotel();
   costruisciConcierge();
