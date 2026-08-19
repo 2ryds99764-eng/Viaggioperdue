@@ -695,7 +695,7 @@ function costruisciItinerario() {
         }).filter(Boolean);
         if (trovati.length) {
           html += '<div class="itin-chip-riga">' + trovati.map(function (r) {
-            return '<a class="chip-ristorante" href="' + urlMappa(r.mappa, r.lat, r.lng) + '" target="_blank" rel="noopener">' + esc(r.nome) + ' · ' + esc(r.luogo) + '</a>';
+            return '<a class="chip-ristorante" href="' + urlMappa(r.mappa, r.lat, r.lng) + '" target="_blank" rel="noopener">📍 ' + esc(r.nome) + ' · ' + esc(r.luogo) + '</a>';
           }).join("") + '</div>';
         }
       }
@@ -712,8 +712,8 @@ function costruisciItinerario() {
           const google = "https://www.google.com/maps/dir/" + da + qual + "/" + a + qual;
           return '<div class="itin-tragitto">' +
             '<span class="itin-tragitto-tratta">' + esc(t.da) + ' → ' + esc(t.a) + '</span>' +
-            '<a class="itin-link-storia" href="' + apple + '" target="_blank" rel="noopener">Apple Maps</a> ' +
-            '<a class="itin-link-storia" href="' + google + '" target="_blank" rel="noopener">Google Maps</a>' +
+            '<a class="itin-link-storia" href="' + apple + '" target="_blank" rel="noopener">📍 Apple Maps</a> ' +
+            '<a class="itin-link-storia" href="' + google + '" target="_blank" rel="noopener">📍 Google Maps</a>' +
           '</div>';
         }).join("") + '</div>';
       }
