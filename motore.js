@@ -141,20 +141,14 @@ function costruisciHome() {
       '</a>';
   }
 
-  /* invito agli itinerari: sceglie a caso uno fra tutti quelli pubblicati */
   const invI = document.getElementById("invito-itinerari");
-  if (invI && T42.itinerari) {
-    const chiavi = Object.keys(T42.itinerari);
-    if (chiavi.length) {
-      const scelta = chiavi[Math.floor(Math.random() * chiavi.length)];
-      const it = T42.itinerari[scelta];
-      invI.innerHTML =
-        '<a class="racconto-invito invito-guida anima d3" href="itinerario.html?i=' + encodeURIComponent(scelta) + '">' +
-          '<span class="ri-occhiello">Gli itinerari</span>' +
-          '<span class="ri-titolo">' + esc(it.titolo) + '</span>' +
-          '<span class="ri-azione">Parti →</span>' +
-        '</a>';
-    }
+  if (invI) {
+    invI.innerHTML =
+      '<a class="racconto-invito invito-guida anima d3" href="itinerari.html">' +
+        '<span class="ri-occhiello">Gli itinerari</span>' +
+        '<span class="ri-titolo">Percorsi di più giorni, in Italia e non solo</span>' +
+        '<span class="ri-azione">Scopri →</span>' +
+      '</a>';
   }
 
   /* invito alla mappa */
