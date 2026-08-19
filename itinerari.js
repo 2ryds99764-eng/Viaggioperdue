@@ -11,7 +11,7 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
     titolo: "Da Vietri sul Mare a Positano",
     sottotitolo: "sette giorni sulla Divina Costiera, tra ceramiche, ville sospese e il Sole nel Piatto di Amalfi",
     regione: "Campania",
-    copertina: "",
+    copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_1980_fm3zve",
     tappe: ["Vietri sul Mare","Cetara","Maiori","Minori","Amalfi","Ravello","Tramonti","Conca dei Marini","Furore","Praiano","Positano"],
 
     epigrafe: {
@@ -189,7 +189,7 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
     titolo: "Da Paestum ad Aquara",
     sottotitolo: "otto giorni nel Cilento meno raccontato, dalla Baia degli Infreschi al cuore selvatico degli Alburni",
     regione: "Campania",
-    copertina: "",
+    copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_1938_cenqvj",
     tappe: ["Paestum","Agropoli","Castellabate","Acciaroli","Casal Velino","Palinuro","Scario","Sant'Angelo a Fasanella","Ottati","Roscigno Vecchia","Piaggine","Aquara","Controne","Caggiano"],
 
     epigrafe: {
@@ -415,7 +415,7 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
     sottotitolo: "dieci giorni intorno alla Corsica, tra cittadelle, scogliere e ovili trasformati in alberghi",
     regione: "Francia",
     areaGeografica: "Corse, France",
-    copertina: "",
+    copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/FF018D39-020C-4114-8821-47D667E164C8_ee7uwx",
     tappe: ["Bastia","Corte","Ajaccio","Sartène","Filitosa","Campomoro","Roccapina","Bonifacio","Porto-Vecchio","Zonza","Aleria"],
 
     epigrafe: {
@@ -650,7 +650,7 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
     titolo: "Da Vezza d'Alba a Canelli",
     sottotitolo: "sei giorni tra le colline meno battute delle Langhe, dal Roero alle Cattedrali Sotterranee del Monferrato",
     regione: "Piemonte",
-    copertina: "",
+    copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/725E03D0-B369-4DD5-92F4-4D1E06415D34_infujl",
     tappe: ["Vezza d'Alba","Guarene","Bossolasco","Murazzano","Paroldo","Castellino Tanaro","Cortemilia","Roccaverano","Bubbio","Olmo Gentile","Cessole","Loazzolo","Canelli","Asti"],
 
     epigrafe: {
