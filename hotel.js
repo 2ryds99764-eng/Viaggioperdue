@@ -2015,6 +2015,22 @@ var HOTEL=[
     "web": "https://www.lemouflondor.com",
     "note": "Dimora di inizio Novecento fra cedri del Libano, 1 Chiave Michelin ⛰️ ♥️ 👑",
     "mappa": "Pian di Santo, Zonza, F"
+  },
+  {
+    "nome": "Fior di Farine",
+    "indirizzo": "Via Roma 108",
+    "citta": "La Morra",
+    "provincia": "CN",
+    "prov": "CN",
+    "regione": "Piemonte",
+    "luogo": "La Morra (CN)",
+    "tel": "+39 0173 50118",
+    "telefono": "+39 0173 50118",
+    "cellulare": "",
+    "email": "info@ilmulinosobrino.it",
+    "web": "https://www.fiordifarine.com",
+    "note": "B&B legato al Mulino Sobrino, mugnai dal 1945, farine macinate in casa 🌄 ♥️",
+    "mappa": "Via Roma 108, La Morra, CN"
   }
 ];
 var HOTEL_PROVCITTA={

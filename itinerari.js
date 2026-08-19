@@ -643,6 +643,197 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
       "Ristoranti dell'itinerario — vedi il taccuino \"Dove sedersi a tavola\".",
       "Numeri di emergenza — 112 per qualunque emergenza; 196 per il soccorso in mare in Francia."
     ]
+  },
+
+  "langhe-monferrato": {
+    occhiello: "Un itinerario per due",
+    titolo: "Da Vezza d'Alba a Canelli",
+    sottotitolo: "sei giorni tra le colline meno battute delle Langhe, dal Roero alle Cattedrali Sotterranee del Monferrato",
+    regione: "Piemonte",
+    copertina: "",
+    tappe: ["Vezza d'Alba","Guarene","Bossolasco","Murazzano","Paroldo","Castellino Tanaro","Cortemilia","Roccaverano","Bubbio","Olmo Gentile","Cessole","Loazzolo","Canelli","Asti"],
+
+    epigrafe: {
+      testo: "Raccontiamo, non giudichiamo. La libertà di scoprire appartiene a chi viaggia, non a chi scrive.",
+      fonte: ""
+    },
+
+    apertura: [
+      "C'è una Langhe che tutti conoscono, quella di Barolo e Barbaresco, delle Rocche celebri e delle cantine con la lista d'attesa. E c'è una Langa che si scopre solo scendendo più a sud, dove le colline si fanno più ripide e i paesi più piccoli: l'Alta Langa e, ancora oltre, la Langa Astigiana, dove la provincia di Cuneo cede il passo a quella di Asti senza che il paesaggio se ne accorga. Questo itinerario nasce lì, in quella zona meno fotografata ma non meno vera, e la attraversa da nord a sud e poi di nuovo verso nord-est, chiudendo il cerchio a Canelli e ad Asti.",
+      "Si comincia dal Roero, sulla riva sinistra del Tanaro, dove le rocche di argilla si aprono in calanchi e l'uva Arneis matura all'ombra dei boschi. Si sale poi nell'Alta Langa, tra noccioleti, tome di pecora e paesi che si contano sulle dita di una mano, fino a toccare quasi la Liguria. Si scende infine nella Langa Astigiana, terra di torri medievali e di un vino passito che è la più piccola DOC d'Italia, prima di chiudere il viaggio nelle Cattedrali Sotterranee di Canelli e sotto i portici di Asti.",
+      "Sei giorni sono la misura giusta per non correre: una notte nel Roero, due nell'Alta Langa, due nella Langa Astigiana, e un'ultima giornata tra Canelli e Asti prima di ripartire — Asti ha una stazione ben collegata, quindi non serve necessariamente un'altra notte per chiudere il viaggio.",
+      "Quello che segue non è una classifica. È un percorso possibile, con dentro gli indirizzi di chi lavora bene e da tempo: trattorie di famiglia, agriturismi che fanno colazione con la marmellata dell'orto, cascine dove si dorme tra i noccioleti. Il resto — cosa vedere per primo, dove fermarsi più a lungo — appartiene a chi viaggia."
+    ],
+
+    percorso: {
+      intro: "Vezza d'Alba per una notte, Bossolasco per due, Bubbio per due, con l'ultima giornata a cavallo fra Canelli e Asti. Circa centosessanta chilometri in tutto, mai più di quaranta minuti fra una tappa e l'altra.",
+      giorni: [
+        { giorno: "Giorno primo", titolo: "Vezza d'Alba e il Roero", km: "", testo: "Arrivo, la Rocca del Castello, il Santuario della Madonna dei Boschi, cena in paese." },
+        { giorno: "Giorno secondo", titolo: "verso l'Alta Langa", km: "45 km", testo: "Sosta breve ad Alba, poi le colline fino a Bossolasco, il paese delle rose." },
+        { giorno: "Giorno terzo", titolo: "il cuore dell'Alta Langa", km: "40 km", testo: "Murazzano e la sua toma, Paroldo, Castellino Tanaro, Cortemilia e il suo castello." },
+        { giorno: "Giorno quarto", titolo: "verso la Langa Astigiana", km: "35 km", testo: "San Benedetto Belbo e Fenoglio, il castello di Roccaverano, arrivo a Bubbio." },
+        { giorno: "Giorno quinto", titolo: "il Giro delle Cinque Torri", km: "30 km", testo: "Olmo Gentile, Cessole, il passito di Loazzolo, il borgo remoto di Serole." },
+        { giorno: "Giorno sesto", titolo: "Canelli e Asti", km: "40 km", testo: "Le Cattedrali Sotterranee, il Palio e la Collegiata di San Secondo, congedo." }
+      ]
+    },
+
+    giorni: [
+      {
+        label: "Giorno primo",
+        titolo: "Vezza d'Alba, la porta del Roero",
+        paragrafi: [
+          "Vezza d'Alba è un borgo millenario che guarda il Tanaro da una collina bassa, l'ultima prima che il Roero digradi verso la pianura. Il nucleo antico si raccoglie intorno ai resti della Rocca del Castello, un tempo dimora della famiglia Roero, raggiungibile a piedi lungo un sentiero che sale dal paese; poco distante, in cima a un'altra collina, il Santuario della Madonna dei Boschi custodisce un affresco gotico dell'Annunciazione del Quattrocento.",
+          "Chi arriva nel primo pomeriggio ha il tempo di allungarsi fino a Guarene, dove il castello secentesco dei Roero — oggi residenza d'epoca — domina la valle, o fino a Canale, il paese più grande del Roero, con i suoi portici e l'Enoteca Regionale. È un buon modo per capire, prima ancora di sedersi a tavola, la differenza fra il Roero e le Langhe che si visiteranno nei giorni successivi: qui il vitigno principe è l'Arneis, bianco e profumato, mentre di là dal Tanaro regnano i rossi.",
+          "La cena è a due passi da dove si dorme: a Vezza d'Alba lavora Di Vin Roero, dove Rosa Borlengo porta in tavola una cucina che segue il territorio senza cedere alla nostalgia."
+        ],
+        note: [
+          "Si dorme a Vezza d'Alba.",
+          "Cena — Di Vin Roero, Piazza San Bernardo 11, tel. 0173 65114 / 333 9013173: cucina del territorio, chef Rosa Borlengo."
+        ],
+        ristoranti: ["Di Vin Roero"],
+        produttori: []
+      },
+      {
+        label: "Giorno secondo",
+        titolo: "Verso l'Alta Langa, il paese delle rose",
+        paragrafi: [
+          "La strada verso sud attraversa Alba solo di striscio — merita una sosta per un caffè in via Maestra, non di più: la si scoprirà meglio in un altro viaggio, quello delle Langhe del vino. Da qui le colline cominciano a salire, i vigneti lasciano il posto ai noccioleti, e dopo una quarantina di chilometri di curve si arriva a Bossolasco, settecentocinquanta metri sul livello del mare, conosciuto ovunque come il paese delle rose.",
+          "Bossolasco conquista prima ancora di entrarci: si lascia l'auto fuori dal centro storico e si trova una terrazza affacciata sulle colline, con le panchine messe lì apposta per fermarsi senza fare nulla di particolarmente utile. Rose ovunque, case di pietra, un parco — il Parco delle Rose Rare e Antiche — che costeggia il paese vecchio. Un tempo località di villeggiatura per gli artisti torinesi, oggi resta uno dei punti di riferimento per chi vuole dormire nel cuore dell'Alta Langa."
+        ],
+        note: ["Si dorme a Bossolasco (prima delle due notti)."],
+        ristoranti: [],
+        produttori: []
+      },
+      {
+        label: "Giorno terzo",
+        titolo: "Murazzano, Paroldo, Castellino Tanaro",
+        paragrafi: [
+          "Da Bossolasco si scende a Murazzano, borgo che dà il nome alla toma di pecora più celebre delle Langhe: la Murazzano DOP si assaggia nelle latterie del paese, che vale anche una salita fino alla Torre Medievale e al Palazzo Tovegni. Da qui la strada segue la dorsale fra i fiumi Tanaro e Belbo, passando accanto alla chiesetta romanica di San Sebastiano di Paroldo, fino a raggiungere il paese stesso — poche case raccolte intorno alla piazza, a un passo dal confine con la Liguria.",
+          "A Paroldo si pranza da Trattoria Salvetti, gestita dalla famiglia Salvetti dal 1920: oggi è la terza generazione, con Clelia ai fornelli, a portare avanti una cucina di montagna che non ha mai avuto bisogno di reinventarsi. A pochi minuti, a Castellino Tanaro, la sera si chiude da Vecchia Osteria, un indirizzo di paese senza fronzoli, il tipo di posto che si trova solo chiedendo a chi ci vive.",
+          "Chi ha ancora tempo nel pomeriggio può spingersi fino a Cortemilia, il centro più importante dell'Alta Langa, dominato dalla torre cilindrica duecentesca e da quel che resta del castello; o fino a Mombarcaro, il paese più alto delle Langhe, celebre per gli amaretti."
+        ],
+        note: [
+          "Si dorme di nuovo a Bossolasco.",
+          "Pranzo — Trattoria Salvetti, Via Coste 19, Paroldo, tel. 0174 789131 / 347 8904709: cucina di famiglia dal 1920, oggi con Clelia Salvetti.",
+          "Cena — Vecchia Osteria, Via Roma 21, Castellino Tanaro, tel. 0174 785137: trattoria di paese, gestione Vilma."
+        ],
+        ristoranti: ["Trattoria Salvetti", "Vecchia Osteria"],
+        produttori: []
+      },
+      {
+        label: "Giorno quarto",
+        titolo: "Da Fenoglio a Roccaverano, verso la Langa Astigiana",
+        paragrafi: [
+          "Si lascia l'Alta Langa cuneese passando da San Benedetto Belbo, paese piccolissimo ma presente in ogni pagina di Beppe Fenoglio: chi ha letto La Malora riconoscerà queste colline. Un percorso ad anello nel centro storico ripercorre i luoghi della Resistenza raccontati dallo scrittore.",
+          "Da qui la strada scivola verso est, nella Langa Astigiana, dove il paesaggio cambia poco ma cambia provincia: si entra nel territorio del Giro delle Cinque Torri, antiche torri d'avvistamento dei marchesi del Carretto. La prima tappa è Roccaverano, la piccola capitale della zona e il paese più alto: la facciata in pietra del castello, con le sue tre bifore, fa da sipario a una chiesa rinascimentale che vi si specchia davanti, in una piazza che è già uno spettacolo da sola. È qui che nasce la Robiola di Roccaverano DOP, l'unico formaggio DOP italiano ancora fatto con latte di capra.",
+          "Nel tardo pomeriggio si scende a Bubbio, il centro più grande della Langa Astigiana, nato su una terrazza di roccia con le cappelle sparse sulle colline intorno — quella di San Grato è la più panoramica."
+        ],
+        note: ["Si dorme a Bubbio (prima delle due notti)."],
+        ristoranti: [],
+        produttori: []
+      },
+      {
+        label: "Giorno quinto",
+        titolo: "Il Giro delle Cinque Torri",
+        paragrafi: [
+          "La giornata segue, almeno in parte, l'antico cammino di crinale che univa le torri difensive della zona. Prima tappa Olmo Gentile, il più piccolo dei borghi della Langa Astigiana — il castello, l'osteria, il municipio, la chiesa, e a quanto pare molti gatti amichevoli. Qui si pranza da Ristorante della Posta da Geminio, dove Annita Lavagnino porta in tavola i castagneti e i noccioleti che circondano il paese.",
+          "Nel pomeriggio la strada scende verso Cessole, borgo di pietra digradante verso il fiume, dove un tempo viveva il celebre guaritore di tutta la valle. Chi ha voglia di allungare il giro può deviare verso Loazzolo, il paese che dà il nome alla più piccola DOC d'Italia — un moscato passito ottenuto da vigne terrazzate, prodotto in quantità minime — o spingersi fino a Serole, il comune più remoto della provincia, dove una lapide ricorda la battaglia di Lepanto del 1571.",
+          "La cena è a Cessole, al Ristorante Albergo Madonna della Neve, gestito dalla famiglia Cirio dal 1957, oggi ai fornelli con Piera e Francesca."
+        ],
+        note: [
+          "Si dorme di nuovo a Bubbio.",
+          "Pranzo — Ristorante della Posta da Geminio, Via Roma 4, Olmo Gentile, tel. 0144 953613: chef Annita Lavagnino.",
+          "Cena — Ristorante Albergo Madonna della Neve, Regione Madonna della Neve 2, Cessole, tel. 0144 850402: famiglia Cirio dal 1957."
+        ],
+        ristoranti: ["Ristorante della Posta da Geminio", "Ristorante Albergo Madonna della Neve"],
+        produttori: []
+      },
+      {
+        label: "Giorno sesto",
+        titolo: "Le Cattedrali Sotterranee, e il congedo ad Asti",
+        paragrafi: [
+          "Ultima tappa, Canelli: una ventina di minuti da Bubbio, e un cambio di scala completo. Sotto le strade del borgo si aprono le Cattedrali Sotterranee, oltre venti chilometri di cantine scavate nel tufo fra Sette e Ottocento, dove riposano ancora oggi le bottiglie di Asti Spumante e Moscato d'Asti delle case storiche — Bosca, Contratto, Coppo, Gancia. Riconosciute Patrimonio UNESCO nel 2014, si visitano su prenotazione diretta presso le cantine. Sopra terra, vale una passeggiata la Sternia, la via degli innamorati con vista sulle colline del moscato, e la Torre dei Contini, punto panoramico sulle Alpi e sull'Appennino ligure insieme.",
+          "Da Canelli ad Asti sono meno di trenta chilometri. La città del Palio si visita in un pomeriggio: la Cattedrale di Santa Maria Assunta, fra le più grandi del Piemonte, e la Collegiata di San Secondo, che custodisce nella cripta le reliquie del patrono e, in una cappella laterale, i drappi delle edizioni più recenti del Palio — la corsa di cavalli che si corre la prima domenica di settembre ed è fra le più antiche d'Italia.",
+          "Prima di ripartire, un'ultima tappa fuori le mura, nella frazione Rioscone: qui, alla Trattoria Rioscone, si chiude il viaggio come è cominciato — con una cucina di famiglia che non ha nulla da dimostrare a nessuno."
+        ],
+        note: [
+          "Congedo: Asti ha una stazione ferroviaria ben collegata con Torino e Genova; non è necessario un ulteriore pernottamento.",
+          "Pranzo o cena — Trattoria Rioscone, Frazione Rioscone 112, Asti, tel. 0141 212674: cucina di famiglia.",
+          "Da prenotare — Cattedrali Sotterranee di Canelli: visite dirette presso le cantine Bosca, Contratto, Coppo o Gancia."
+        ],
+        ristoranti: ["Trattoria Rioscone"],
+        produttori: []
+      }
+    ],
+
+    taccuino: {
+      dormire: [
+        {
+          zona: "Vezza d'Alba", notti: "una notte",
+          strutture: [
+            { nome: "Le Cicale", contatto: "tel. — · roeroturismo.it", testo: "Tre camere doppie con bagno privato, gestite dalla signora Maria: colazione con marmellate e torte fatte in casa, miele di produzione propria, servita in giardino nella bella stagione." },
+            { nome: "Agriturismo Il Pedaggio", contatto: "Strada Pedaggio 7/B, Guarene, tel. 0173 212673", testo: "Cascina secentesca ristrutturata ai piedi della collina di Guarene, con piscina e prodotti dell'azienda agricola a colazione." }
+          ]
+        },
+        {
+          zona: "Bossolasco e Alta Langa", notti: "due notti",
+          strutture: [
+            { nome: "Cascina Facelli", contatto: "Bossolasco · cascinafacelli.com", testo: "Bed & breakfast raffinato immerso nel silenzio dell'Alta Langa, piscina privata, a 30 minuti dal mare ligure e da Alba." },
+            { nome: "La Panoramica", contatto: "Bossolasco", testo: "Ventitré camere doppie e una suite, gestione della famiglia Albarello da oltre trent'anni, cucina tradizionale in loco." },
+            { nome: "Casa di Langa", contatto: "Località Talloria 1, Cerretto Langhe · casadilanga.com", testo: "Boutique hotel cinque stelle con spa e piscina panoramica, per chi cerca un soggiorno più curato nella stessa zona." }
+          ]
+        },
+        {
+          zona: "Bubbio e Langa Astigiana", notti: "due notti",
+          strutture: [
+            { nome: "Tre Colline in Langa", contatto: "Bubbio · agriturismo.it", testo: "Vecchia cascina del 1830 restaurata, camere dedicate ai prodotti dell'azienda (Pesco, Nocciola, Moscato), cena con carta dei vini locali e maiale alle nocciole." },
+            { nome: "Agriturismo Mondo", contatto: "Bubbio", testo: "Azienda agricola di famiglia fra vigneti e noccioleti, camere e mini-appartamento ricavati nella cascina, colazione con le conserve dell'orto." }
+          ]
+        }
+      ],
+
+      tavola: {
+        intro: "I sei indirizzi principali sono già segnati giorno per giorno; li ripetiamo qui in ordine di percorso, con orari da verificare telefonicamente il giorno prima — come sempre, fuori stagione qualche chiusura può cambiare.",
+        voci: [
+          { nome: "Di Vin Roero" },
+          { nome: "Trattoria Salvetti" },
+          { nome: "Vecchia Osteria" },
+          { nome: "Ristorante della Posta da Geminio" },
+          { nome: "Ristorante Albergo Madonna della Neve" },
+          { nome: "Trattoria Rioscone" }
+        ]
+      },
+
+      approfondimenti: [
+        {
+          titolo: "La Robiola di Roccaverano",
+          testo: "È l'unico formaggio DOP italiano ancora prodotto con solo latte di capra — o con capra in prevalenza, secondo il disciplinare più recente, che ammette una piccola quota di latte vaccino od ovino. Nasce sugli stessi pascoli scoscesi della Langa Astigiana attraversati in questo itinerario, dove le capre si arrampicano su versanti che nessuna mucca affronterebbe. La forma è cilindrica, la pasta morbida e leggermente acidula da giovane, più decisa e piccante dopo qualche settimana di stagionatura. Si trova nelle latterie di Roccaverano e nei caseifici sparsi fra Bubbio, Olmo Gentile e Loazzolo — chiedere direttamente ai ristoranti dove l'hanno comprata è spesso il modo più veloce per risalire al produttore giusto."
+        },
+        {
+          titolo: "Nocciole, Moscato e un passito piccolissimo",
+          testo: "La Nocciola Piemonte IGP, varietà Tonda Gentile, accompagna la cucina di tutto il percorso: nei dolci, nei ripieni, spesso semplicemente tostata come apertura del pasto. Nei calici, il territorio racconta due storie diverse. Ad Asti e Canelli si beve la spuma dolce dell'Asti Spumante DOCG e del Moscato d'Asti, gli stessi vini che riposano nelle Cattedrali Sotterranee. Salendo verso la Langa Astigiana, a Loazzolo si produce invece un moscato passito da vigne terrazzate — la Loazzolo DOC, fra le denominazioni più piccole d'Italia, con una manciata di ettari e una manciata di produttori. Non è un vino che si trova ovunque: se lo si incontra in carta, vale la pena approfittarne."
+        }
+      ],
+
+      aTavola: {
+        titolo: "Che cosa cambia, chilometro dopo chilometro",
+        testo: "Nel Roero la tavola si apre con l'Arneis, bianco profumato che qui nasce, e con i primi tajarin al tartufo quando è stagione. Salendo in Alta Langa il registro cambia: la toma di Murazzano, i plin ripieni di arrosto, gli agnolotti al tovagliolo, la bagna cauda quando le sere si fanno fredde, gli amaretti di Mombarcaro per chiudere. Nella Langa Astigiana la robiola di capra prende il posto delle tome vaccine, e i noccioleti si fanno più fitti — la nocciola compare ovunque, dai dolci ai ripieni della pasta. Ad Asti e Canelli, infine, la tavola si alleggerisce verso il dolce: il Moscato accompagna più che accompagnare i pasti, e la cucina cittadina — bagna cauda compresa, qui rivendicata come piatto d'origine — si fa più formale, pensata per il dopo-teatro o per il dopo-Palio."
+      }
+    },
+
+    primaDiChiudere: [
+      { titolo: "GLI AEROPORTI", sotto: "Cuneo e Torino", testo: "Cuneo Levaldigi è il più vicino al Roero e all'Alta Langa (circa un'ora), ma ha pochi collegamenti. Torino Caselle ne ha molti di più ed è a circa un'ora e mezza dal punto di partenza." },
+      { titolo: "L'AUTO", sotto: "indispensabile", testo: "Non esistono alternative valide per raggiungere Paroldo, Castellino Tanaro, Olmo Gentile o Cessole. Le strade di cresta sono strette e panoramiche: i tempi reali restano quasi sempre più lunghi di quelli del navigatore." },
+      { titolo: "LE CHIUSURE", sotto: "da verificare per telefono", testo: "Molte trattorie di paese chiudono un giorno infrasettimanale che può cambiare stagione per stagione; le cantine di Canelli si visitano solo su prenotazione diretta." },
+      { titolo: "LA STAGIONE", sotto: "maggio-giugno, settembre-ottobre", testo: "Bossolasco è al meglio nella fioritura delle rose (inizio giugno); settembre porta la vendemmia e il Palio di Asti (prima domenica del mese). Ad agosto molte trattorie di paese chiudono per ferie: verificare prima di partire." },
+      { titolo: "SE I GIORNI DIVENTANO QUATTRO", sotto: "cosa si toglie", testo: "Una notte a Bossolasco e una a Bubbio, restando un solo giorno in ciascuna delle due Alte Langhe. Si perde il Giro delle Cinque Torri per intero, ma resta un viaggio completo." }
+    ],
+
+    numeriUtili: [
+      "Da prenotare — Cattedrali Sotterranee di Canelli: contatto diretto con le cantine Bosca, Contratto, Coppo o Gancia.",
+      "Ristoranti dell'itinerario — vedi il taccuino \"Dove sedersi a tavola\".",
+      "Numeri di emergenza — 112 per qualunque emergenza."
+    ]
   }
 
 });
