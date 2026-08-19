@@ -330,7 +330,7 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
           "Congedo: da Aquara, Salerno e l'A2 sono a circa un'ora di auto.",
           "Pranzo — Le Grotticelle, Caggiano, tel. 0975 1966171."
         ],
-        ristoranti: ["Le Grotticelle"],
+        ristoranti: ["Le Grotticelle", "La Rosa Bianca"],
         produttori: [
           { nome: "Michele Ferrante", url: "https://www.micheleferrante.it" }
         ]
@@ -371,7 +371,8 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
           { nome: "Trattoria Da Addolorata" },
           { nome: "Carmine Nicoletti" },
           { nome: "La Piazzetta di Valle dell'Angelo" },
-          { nome: "Le Grotticelle" }
+          { nome: "Le Grotticelle" },
+          { nome: "La Rosa Bianca", storia: "rosabianca" }
         ]
       },
 

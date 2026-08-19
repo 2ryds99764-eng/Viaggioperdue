@@ -5193,6 +5193,20 @@ var GUIDA=[
     "web": "https://www.lemouflondor.com",
     "note": "Il ristorante gastronomico del Domaine Le Mouflon d'Or, 1 Chiave Michelin 2025",
     "mappa": "Pian di Santo, Zonza, F"
+  },
+  {
+    "nome": "La Rosa Bianca",
+    "indirizzo": "Località Piano",
+    "citta": "Aquara",
+    "provincia": "SA",
+    "prov": "SA",
+    "regione": "Campania",
+    "luogo": "Aquara (SA)",
+    "tel": "+39 366 3426062",
+    "telefono": "+39 366 3426062",
+    "web": "",
+    "note": "Custode della biodiversità, Alleanza dei Cuochi Slow Food",
+    "mappa": "Località Piano, Aquara, SA"
   }
 ];
 var GUIDA_REGPROV={
