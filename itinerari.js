@@ -371,7 +371,7 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
           { nome: "Trattoria Da Addolorata" },
           { nome: "Carmine Nicoletti" },
           { nome: "La Piazzetta di Valle dell'Angelo" },
-          { nome: "Le Grotticelle" },
+          { nome: "Le Grotticelle", storia: "grotticelle" },
           { nome: "La Rosa Bianca", storia: "rosabianca" }
         ]
       },

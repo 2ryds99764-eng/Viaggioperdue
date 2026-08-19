@@ -469,6 +469,28 @@ const T42 = {
         "Ed è lo stesso rispetto che riserva a chi lavora la terra prima di lei. Quando entra in una cantina piena di bottiglie, dice di non vedere mai solo bottiglie: vede pezzi di terra, pezzi di storia — il terreno comprato da un nonno tornato dalla Germania dopo dieci anni di lavoro, il padre che lo consegna al figlio, il figlio che torna e vi investe ancora. Storie di famiglia, di rapporti, di sentimento. Prese una per una, dice, sono piccole luci; messe insieme, diventano una folgorazione. Non è la persona famosa a colpirla davvero — è il signore con la zappa in mano, quello che fa la differenza senza saperlo raccontare.",
         "Forse è proprio questa la risposta che cercava da ragazzina, leggendo a piè di pagina la stessa domanda ripetuta all'infinito. Come è cominciato tutto, alla Rosa Bianca? Da un nonno che non se n'è mai andato, da un pezzo di terra che ha dovuto insegnare al suo occhio a guardarla di nuovo — e da una capra, un chicco di grano, una brace, che continuano a raccontare, ogni sera, la stessa storia."
       ]
+    },
+    grotticelle: {
+      occhiello: "Un Tavolo per Due",
+      titolo: "Tutto Millimetrico",
+      sottotitolo: "Le Grotticelle — nel cuore di Caggiano",
+      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_0958_itjyzy",
+      itinerarioCollegato: "cilento-alburni",
+      paragrafi: [
+        "C'è un posto, tra le pieghe di un antico carcere di guerra diventato pizzeria, dove il tempo si misura in gradi di fermentazione e in millimetri di gesto. È Le Grotticelle, incastonata nello storico Castello di Caggiano: mura che hanno visto prigionia e ora vedono impasti lievitare, un forno scavato nella roccia che da generazioni respira lo stesso calore.",
+        "§Nato in pizzeria",
+        "Il pizzaiolo è cresciuto qui, tra il papà e lo zio, quando la pizzeria era ancora minuscola, su due livelli, e il forno di pietra faceva tutto: pane la mattina, patate, risotti cotti nella brace spinta avanti, arrosti, teglie di verdure. Un solo uomo poteva lavorare in quello spazio — \"tutto millimetrico, tu passavi la palla e ti sfiorava\" — una coreografia tramandata da zio a nipote, l'unico avvicendamento possibile in un luogo che non ammetteva doppioni.",
+        "Oggi Le Grotticelle non è più solo ristorante: è soprattutto asporto, pizza tonda, padellini, focacceria. Un cambio di rotta arrivato sei anni fa, accelerato da un infortunio recente — un metacarpo rotto, un dito ricucito con la forbice del pronto soccorso, un mese di dolore e di lavoro comunque, perché la famiglia — il fratello, la cognata — non si ferma mai davvero.",
+        "§La materia prima, ossessione quotidiana",
+        "Il menù è deliberatamente corto: dodici, tredici pizze. Il resto vive fuori carta, cambia ogni giorno, segue quello che i contadini portano. Non c'è concessione al compromesso: mozzarella, pomodoro, ogni ingrediente scelto con un rigore quasi maniacale. I salumi si comprano crudi e si stagionano in laboratorio. I formaggi arrivano da un caseificio di famiglia — quello della zia — dove le mucche podoliche pascolano in montagna, e da una grotta naturale gestita da un cugino acquisito, dove nasce un caciocavallo di grotta che pochi, davvero pochi, riescono ad assaggiare, perché i numeri sono piccoli e la vita, lassù, resta dura come negli anni Trenta.",
+        "§Il segreto è nell'impasto",
+        "Non conta la farina, dice il pizzaiolo, conta la sua gestione: l'umidità del sacco, la temperatura della giornata, sedici gradi all'alba e trentuno a mezzogiorno. È un mal di testa quotidiano, un'attenzione che non si spegne mai. Il fratello più giovane porta invece l'anima delle fermentazioni spontanee: pane senza lievito, ciliegie fermentate, un padellino nato da gessi fermentati per chi non tollera il lievito. Piccoli trucchi di paese, necessari per attraversare un inverno pieno e sopravvivere a maggio e giugno, quando il paese si svuota e il lavoro crolla a zero.",
+        "§La Gustazione",
+        "Ogni venerdì, all'esterno, nasce un rito nuovo: la Gustazione. Aperitivo con musica, tutto cucinato dal vivo — un caciocavallo impiccato al fuoco, una pizzetta fritta al tartufo servita in diretta, una pasta antica scottata in padella con olio bollente. Il cliente paga un ingresso, sceglie da bere a parte, e si siede a un tavolo che non assomiglia a nessun altro del paese: niente dieci portate riscaldate dal giorno prima, niente prosecco di battaglia. Solo l'autenticità, anche quando costa di più, anche quando il territorio — piccolo, un po' distratto — fatica a starle dietro.",
+        "§Un lavoro da dieci anni",
+        "\"È un lavoraccio,\" ripete più volte, senza autocommiserazione. Bisogna stare dietro a mille cose per garantire una qualità che non sempre trova riscontro immediato. Ma è passione, prima ancora che business: la continuità come parola d'ordine, l'allenamento quotidiano a non ammosciarsi mai, anche quando in sala ci sono solo due coperti. Un progetto guardato a dieci anni di distanza, con la pazienza di chi sa che il territorio, piano piano, va costruito — non trovato già pronto.",
+        "A Le Grotticelle non si cena soltanto: si entra in una storia di famiglia scavata nella roccia, cotta a fuoco vivo, e servita — un venerdì sera qualunque — con la stessa cura di sempre."
+      ]
     }
   },
 
@@ -711,6 +733,22 @@ const T42 = {
           "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_1979_rvmlfp"
         ],
         storia: "rosabianca"
+      },
+      {
+        titolo: "Le Grotticelle",
+        luogo: "Caggiano, Campania",
+        sommario: "Una pizzeria nata in un antico carcere di guerra, dove il forno è scavato nella roccia e la materia prima è un'ossessione quotidiana.",
+        testo: "Nel Castello di Caggiano, Angelo Rumolo porta avanti la pizzeria di famiglia in un forno scavato nella roccia, tra mozzarella e salumi scelti con rigore, formaggi del caseificio di famiglia e una fermentazione che cambia ogni giorno con il tempo. Ogni venerdì, la Gustazione trasforma il cortile in un aperitivo cucinato dal vivo.",
+        telefono: "+39 0975 1966171",
+        mappa: "Grotticelle 1, Caggiano, SA",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_0958_itjyzy",
+        galleria: [
+          "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_1949_dktkxj",
+          "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_1957_vi8woa",
+          "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_1958_vpow4p",
+          "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_1951_sp7xim"
+        ],
+        storia: "grotticelle"
       }
     ],
 
