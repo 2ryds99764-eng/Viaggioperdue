@@ -491,6 +491,26 @@ const T42 = {
         "\"È un lavoraccio,\" ripete più volte, senza autocommiserazione. Bisogna stare dietro a mille cose per garantire una qualità che non sempre trova riscontro immediato. Ma è passione, prima ancora che business: la continuità come parola d'ordine, l'allenamento quotidiano a non ammosciarsi mai, anche quando in sala ci sono solo due coperti. Un progetto guardato a dieci anni di distanza, con la pazienza di chi sa che il territorio, piano piano, va costruito — non trovato già pronto.",
         "A Le Grotticelle non si cena soltanto: si entra in una storia di famiglia scavata nella roccia, cotta a fuoco vivo, e servita — un venerdì sera qualunque — con la stessa cura di sempre."
       ]
+    },
+    ficobianco: {
+      occhiello: "Racconti di viaggio · Campania",
+      titolo: "Un Fico, Due Storie",
+      sottotitolo: "Ottati e il fico bianco degli Alburni",
+      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/0658397e-e17b-4816-aa19-938d0984fde9_j9op5y",
+      itinerarioCollegato: "cilento-alburni",
+      paragrafi: [
+        "A Ottati, paese piccolo arroccato sui contrafforti degli Alburni, cresce da secoli un fico che ha dato il proprio nome — o forse no, la questione è più aperta di quanto sembri — al fico più diffuso ed esportato d'Italia: quello che i toscani chiamano dottato e il resto del Mezzogiorno, più semplicemente, ottato.",
+        "Che la fama di questi fichi fosse solida, e antica, lo conferma un testimone d'eccezione. Nel 1763 Pietro Metastasio — il librettista più celebre d'Europa, allora alla corte di Vienna — scrive a un amico in Italia lamentandosi dei terremoti che affliggono il Regno di Napoli, e chiede che almeno arrivino \"i loro buoni fichi ottati\", insieme a uva sancinella e vitella di Sorrento. Che un poeta di corte, da Vienna, nominasse per nome i fichi di un paesino del Cilento la dice lunga su quanto viaggiasse, già allora, la loro reputazione.",
+        "Un secolo prima, un altro cilentano — Lucido di Stefano, nel suo Della Valle di Fasanella nella Lucania — descriveva la stessa vallata come terra fertilissima di ciliegie, pesche, pere, mele e fichi, \"da' Latini chiamate Coctanae, corrottamente Ottate\", precisando che quei fichi essiccati si chiamavano anche Caricae, lo stesso termine che i romani usavano per i fichi secchi in generale. Il nome locale, insomma, era già lì, radicato nella lingua della valle, molto prima che qualcuno si chiedesse da dove venisse davvero.",
+        "§La disputa sul nome",
+        "Ed è proprio qui che le fonti si dividono. In uno studio dedicato al fico dottato, lo storico Antonio Bamonte ricostruisce un'etimologia lunghissima — dal greco antico optáo, che significa essiccare, fino al dottato toscano e all'ottato meridionale — ed esplicitamente respinge l'ipotesi che il nome derivi dal paese di Ottati: la produzione locale, argomenta, non fu mai abbastanza grande da dare il nome a una varietà diffusa in tutto il Mediterraneo.",
+        "Non tutti gli studiosi, però, la pensano così. Un importante dizionario storico dei nomi derivati da toponimi registra invece proprio l'ipotesi opposta: il tipo \"dottato\" che deriverebbe dal sintagma \"fico d'Ottati\". Due fonti serie, due conclusioni diverse — e nessuna delle due, a onor del vero, la chiude in modo definitivo. Il dubbio stesso non è nuovo: già nell'Ottocento i vocabolari italiani discutevano se il termine venisse dal latino optatus, desiderato, o da un toponimo, senza mai trovare un accordo pieno.",
+        "§Un paese di montagna, un microcosmo di storia",
+        "I registri parrocchiali di Ottati, conservati fino a oggi, restituiscono il ritratto di una comunità di montagna che attraversa il Settecento fra battesimi, ostetriche di paese e le fatiche della terra. Il 1763 fu un anno di siccità prolungata; il 1764 portò carestia, epidemia e un terremoto che gli storici locali descrivono come devastante per l'intera valle del Tanagro, Ottati compreso. Lo stesso anno del terremoto, curiosamente, è anche l'anno della lettera di Metastasio: mentre l'Europa colta si scambiava versi e complimenti sui fichi cilentani, il paese che li produceva combatteva contro fame e scosse di terra.",
+        "§Oggi",
+        "Di quella storia, a Ottati, resta il paesaggio — gli stessi Alburni, la stessa valle fertile descritta da Lucido di Stefano quattrocento anni fa — e resta, probabilmente, ancora qualche albero di fico bianco nei terreni intorno al paese. Che il nome derivi dal greco antico o dal paese stesso, il fico ottato racconta comunque la stessa cosa: un piccolo angolo di Cilento che per secoli ha saputo farsi notare, un fico alla volta, fino alle tavole di Vienna.",
+        "Un ringraziamento particolare a Giuseppe Bamonte, che con la sua ricerca bibliografica ha reso possibile ritrovare e raccontare questa storia."
+      ]
     }
   },
 
@@ -780,6 +800,15 @@ const T42 = {
         immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5354_aylm7n",
         mappa: "Soglio, Val Bregaglia",
         lat: 46.3494, lng: 9.5186
+      },
+      {
+        titolo: "Ottati",
+        luogo: "Campania",
+        sommario: "Un piccolo fico bianco, un secolo di dispute etimologiche, e una lettera che arrivò fino a Vienna.",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/0658397e-e17b-4816-aa19-938d0984fde9_j9op5y",
+        mappa: "Via 24 Maggio 53, Ottati, SA",
+        lat: 40.4628389, lng: 15.3151306,
+        storia: "ficobianco"
       }
     ],
 
