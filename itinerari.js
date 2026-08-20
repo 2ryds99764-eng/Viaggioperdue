@@ -302,7 +302,8 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
         ],
         ristoranti: [],
         produttori: [
-          { nome: "Pietre Levate", url: "https://www.pietrelevate.it" }
+          { nome: "Pietre Levate", url: "https://www.pietrelevate.it" },
+          { nome: "Il racconto di Ottati: Un Fico, Due Storie", url: "storia.html?s=ficobianco" }
         ]
       },
       {
