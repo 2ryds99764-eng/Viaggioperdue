@@ -835,6 +835,205 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
       "Ristoranti dell'itinerario — vedi il taccuino \"Dove sedersi a tavola\".",
       "Numeri di emergenza — 112 per qualunque emergenza."
     ]
+  },
+
+  "val-di-noto-costa": {
+    occhiello: "Un itinerario per due",
+    titolo: "Da Marina di Ragusa a Ortigia",
+    sottotitolo: "il Val di Noto visto dal mare, quattro basi sulla costa e il barocco in giornata",
+    regione: "Sicilia",
+    copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/F0443651-A953-4521-828C-C76ED1B382E3_ima84f",
+    tappe: ["Marina di Ragusa","Ragusa Ibla","Modica","Portopalo di Capo Passero","Vendicari","Marzamemi","Noto","Plemmirio","Siracusa","Ortigia"],
+
+    epigrafe: {
+      testo: "Raccontiamo, non giudichiamo. La libertà di scoprire appartiene a chi viaggia, non a chi scrive.",
+      fonte: ""
+    },
+
+    apertura: [
+      "C'è un modo di vedere il Val di Noto che quasi nessuno prova: non dalle piazze barocche verso il mare, ma dal mare verso le piazze barocche. Questo itinerario ribalta la prospettiva più consueta: invece di dormire nelle città di pietra e toccare la costa di passaggio, si dorme sulla costa — quattro basi, tutte dimore storiche o boutique hotel autentici, mai un resort — e si sale in collina solo per il tempo di una visita.",
+      "Si comincia a Marina di Ragusa, spiaggia Bandiera Blu a un passo da Ragusa Ibla. Si scende a Portopalo di Capo Passero, la punta più a sud della Sicilia, base naturale per Vendicari e Marzamemi. Si risale fino al Plemmirio, l'area marina protetta alle porte di Siracusa. Si chiude a Ortigia, un'ultima notte nel cuore della città vecchia.",
+      "Otto giorni, sette notti. Quello che segue non è una classifica. È un percorso possibile, con dentro gli indirizzi di chi lavora bene — dimore che non assomigliano a nessun villaggio turistico, ristoranti dove il pesce arriva la mattina stessa. Il resto appartiene a chi viaggia."
+    ],
+
+    percorso: {
+      intro: "Marina di Ragusa per due notti, Portopalo di Capo Passero per due, il Plemmirio per due, Ortigia per l'ultima. Le città patrimonio UNESCO — Ragusa, Modica, Noto — si visitano in giornata dalla costa.",
+      giorni: [
+        { giorno: "Giorno primo", titolo: "Marina di Ragusa", km: "", testo: "Arrivo, il lungomare, la spiaggia Bandiera Blu." },
+        { giorno: "Giorno secondo", titolo: "Ragusa Ibla e Modica", km: "in giornata", testo: "Il barocco delle due città, andata e ritorno dalla costa." },
+        { giorno: "Giorno terzo", titolo: "verso Portopalo di Capo Passero", km: "55 km", testo: "Trasferimento, il Faro di Cozzo Spadaro." },
+        { giorno: "Giorno quarto", titolo: "Vendicari, Marzamemi, l'Isola delle Correnti", km: "in giornata", testo: "La riserva, il borgo di pescatori, il punto più a sud della Sicilia." },
+        { giorno: "Giorno quinto", titolo: "verso il Plemmirio, con Noto sulla strada", km: "45 km", testo: "Il barocco netino, poi l'area marina protetta." },
+        { giorno: "Giorno sesto", titolo: "il Plemmirio e la Neapolis", km: "in giornata", testo: "La riserva marina, il Teatro Greco, il Museo Paolo Orsi." },
+        { giorno: "Giorno settimo", titolo: "il Fiume Ciane e Ortigia", km: "15 km", testo: "Escursione in barca, ultimo trasferimento, l'ultima notte in città vecchia." },
+        { giorno: "Giorno ottavo", titolo: "Congedo", km: "", testo: "Partenza da Siracusa." }
+      ]
+    },
+
+    giorni: [
+      {
+        label: "Giorno primo",
+        titolo: "Marina di Ragusa",
+        paragrafi: [
+          "Marina di Ragusa è una Bandiera Blu che non ha mai smesso di essere anche un paese vero: il lungomare di Piazza Duca degli Abruzzi si anima la sera, la sabbia dorata si allunga per chilometri, e da qui Ragusa Ibla dista appena venti minuti. La Moresca Maison de Charme, dove si dorme, occupa un palazzo liberty di primo Novecento a poco più di duecento metri dal mare — l'indirizzo giusto per cominciare senza fretta."
+        ],
+        note: ["Si dorme a Marina di Ragusa, a La Moresca Maison de Charme (prima delle due notti)."],
+        ristoranti: [],
+        produttori: []
+      },
+      {
+        label: "Giorno secondo",
+        titolo: "Ragusa Ibla e Modica, in giornata",
+        paragrafi: [
+          "Da Marina di Ragusa si sale alle due città di pietra chiara che danno il nome al barocco ibleo. Ragusa Ibla si visita a piedi, dal Duomo di San Giorgio al Giardino Ibleo; Modica si legge in verticale, tra il Corso Umberto e la città alta, con una sosta all'Antica Dolceria Bonajuto per il cioccolato lavorato a freddo. Si torna a dormire sulla costa in serata."
+        ],
+        note: [
+          "Si torna a dormire a La Moresca, Marina di Ragusa.",
+          "Pranzo — Hotel Miramare, Lungomare Andrea Doria 44: fronte spiaggia, cucina mediterranea, chef Giuseppe Cutrera."
+        ],
+        ristoranti: ["Hotel Miramare"],
+        produttori: []
+      },
+      {
+        label: "Giorno terzo",
+        titolo: "Verso Portopalo di Capo Passero",
+        paragrafi: [
+          "Si scende lungo la costa, un'ora abbondante, fino alla punta più a sud della Sicilia continentale. Castello Tafuri — residenza storica del 1935 accanto alla vecchia tonnara, letteralmente sul mare — diventa la base per i prossimi due giorni. Nel tardo pomeriggio, una prima uscita verso il Faro di Cozzo Spadaro, a pochi minuti a piedi."
+        ],
+        note: ["Si dorme a Portopalo di Capo Passero, al Castello Tafuri (prima delle due notti)."],
+        ristoranti: [],
+        produttori: []
+      },
+      {
+        label: "Giorno quarto",
+        titolo: "Vendicari, Marzamemi, l'Isola delle Correnti",
+        paragrafi: [
+          "Da Castello Tafuri, tutto è a portata di mano: la Riserva di Vendicari, con la tonnara dismessa e le spiagge di Calamosche ed Eloro; Marzamemi, borgo di pescatori con le case colorate intorno a Piazza Regina Margherita; l'Isola delle Correnti, dove lo Ionio e il Mediterraneo si incontrano. Si pranza a Marzamemi, si cena magari senza muoversi affatto — il ristorante del Castello guarda direttamente il mare.",
+          "Prima che diventasse un borgo da cartolina, questo tratto di costa viveva della mattanza: la pesca del tonno rosso, praticata con lo stesso sistema di reti a camere — la tonnara — che i Fenici portarono nel Mediterraneo. Il tonno lavorato dalla famiglia Campisi — ventresca, bottarga, mosciame — è ancora oggi il modo più diretto per assaggiarne l'eredità."
+        ],
+        note: [
+          "Si dorme di nuovo al Castello Tafuri.",
+          "Pranzo — Campisi, Via Marzamemi 12b: la famiglia lavora il tonno dal 1854, bottega accanto alla sala."
+        ],
+        ristoranti: ["Campisi"],
+        produttori: []
+      },
+      {
+        label: "Giorno quinto",
+        titolo: "Verso il Plemmirio, con Noto sulla strada",
+        paragrafi: [
+          "Si risale la costa verso nord, con una sosta a Noto: il Corso illuminato nel tardo pomeriggio, la Cattedrale di San Nicolò, via Nicolaci con i suoi balconi barocchi. Si prosegue poi fino al Plemmirio, l'area marina protetta alle porte di Siracusa, dove Dimora Caiammari — villa nobiliare del Seicento in un giardino botanico storico — accoglie per le prossime due notti."
+        ],
+        note: ["Si dorme al Plemmirio, a Dimora Caiammari (prima delle due notti)."],
+        ristoranti: [],
+        produttori: []
+      },
+      {
+        label: "Giorno sesto",
+        titolo: "Il Plemmirio e la Neapolis",
+        paragrafi: [
+          "Il mattino si dedica all'Area Marina Protetta del Plemmirio, fra calette e scogliere; nel pomeriggio, il Parco Archeologico della Neapolis — il Teatro Greco, l'Orecchio di Dionisio — e il Museo Paolo Orsi. La cena si fa a Ognina, il porticciolo a pochi minuti da Dimora Caiammari, con il pesce che arriva la mattina stessa."
+        ],
+        note: [
+          "Si dorme di nuovo a Dimora Caiammari.",
+          "Cena — Vista Mare Ognina, sul porticciolo: crudi, fritti, aperitivo al tramonto."
+        ],
+        ristoranti: ["Vista Mare Ognina"],
+        produttori: []
+      },
+      {
+        label: "Giorno settimo",
+        titolo: "Il Fiume Ciane, le Saline, e l'ultima notte a Ortigia",
+        paragrafi: [
+          "Prima di lasciare il Plemmirio, un'ultima uscita: la Riserva Naturale Orientata del Fiume Ciane, l'unico luogo in Europa dove il papiro cresce spontaneo lungo un corso d'acqua dolce, si visita in barca a remi risalendo la corrente fra le canne. Poco distante, le Saline di Siracusa, dove nidificano ancora i fenicotteri. Antonio Vella, di una famiglia di barcaioli locali, accompagna entrambe le escursioni.",
+          "Nel primo pomeriggio, ultimo trasferimento — dieci minuti dal Plemmirio a Ortigia. Palazzo Salomone, a pochi passi dal Castello Maniace e da Piazza Duomo, ospita per l'ultima notte — e al suo interno, il ristorante Cortile Spirito Santo dello chef Giuseppe Torrisi porta una Stella Michelin proprio nel cuore della città vecchia. Il resto del pomeriggio si passa fra il mercato di via Trento, il Duomo costruito dentro il tempio di Atena, e un ultimo bagno dalle scalette."
+        ],
+        note: [
+          "Si dorme a Ortigia, a Palazzo Salomone.",
+          "Da prenotare — escursione al Fiume Ciane e alle Saline con Antonio Vella, tel. 346 1599635.",
+          "Cena — Cortile Spirito Santo, dentro Palazzo Salomone: 1 Stella Michelin, chef Giuseppe Torrisi."
+        ],
+        ristoranti: ["Cortile Spirito Santo"],
+        produttori: [
+          { nome: "Escursioni Antonio Vella (Fiume Ciane)", url: "tel:+393461599635" }
+        ]
+      },
+      {
+        label: "Giorno ottavo",
+        titolo: "Congedo",
+        paragrafi: [
+          "Partenza da Siracusa, con l'aeroporto di Catania a circa un'ora di auto."
+        ],
+        note: ["Congedo: l'aeroporto di Catania è a circa un'ora."],
+        ristoranti: [],
+        produttori: []
+      }
+    ],
+
+    taccuino: {
+      dormire: [
+        {
+          zona: "Marina di Ragusa", notti: "due notti",
+          strutture: [
+            { nome: "La Moresca Maison de Charme", contatto: "Via Dandolo 63, tel. 0932 239495", testo: "Palazzo liberty di primo Novecento, quindici camere, a poco più di duecento metri dal mare." }
+          ]
+        },
+        {
+          zona: "Portopalo di Capo Passero", notti: "due notti",
+          strutture: [
+            { nome: "Castello Tafuri", contatto: "Via Tonnara 1, tel. 0931 844111", testo: "Residenza storica del 1935 accanto alla vecchia tonnara, diciotto camere e suite, spiaggia privata." }
+          ]
+        },
+        {
+          zona: "Plemmirio, Siracusa", notti: "due notti",
+          strutture: [
+            { nome: "Dimora Caiammari", contatto: "Via Daniele Impellizzeri 6, tel. 0931 721217", testo: "Villa nobiliare del Seicento in un giardino botanico storico, diciassette camere, vicino all'Area Marina Protetta." }
+          ]
+        },
+        {
+          zona: "Ortigia", notti: "una notte",
+          strutture: [
+            { nome: "Palazzo Salomone", contatto: "Via Salomone 21, tel. 0931 1815404", testo: "Boutique hotel nel cuore della città vecchia, con il ristorante stellato Cortile Spirito Santo al piano terra." }
+          ]
+        }
+      ],
+
+      tavola: {
+        intro: "Gli indirizzi principali sono già segnati giorno per giorno; li ripetiamo qui in ordine di percorso.",
+        voci: [
+          { nome: "Hotel Miramare" },
+          { nome: "Campisi" },
+          { nome: "Vista Mare Ognina" },
+          { nome: "Cortile Spirito Santo" }
+        ]
+      },
+
+      approfondimenti: [
+        {
+          titolo: "La tonnara, da Portopalo a Marzamemi",
+          testo: "Prima che diventasse un borgo da cartolina, questo tratto di costa viveva della mattanza: la pesca del tonno rosso, praticata con lo stesso sistema di reti a camere — la tonnara — che i Fenici portarono nel Mediterraneo. La Tonnara di Marzamemi, oggi location per cene ed eventi, e quella di Portopalo, accanto a cui sorge Castello Tafuri, restano i segni più visibili di un'economia che ha modellato ogni paese di questa costa per secoli. Il tonno lavorato dalla famiglia Campisi — ventresca, bottarga, mosciame — è ancora oggi il modo più diretto per assaggiarne l'eredità."
+        }
+      ],
+
+      aTavola: {
+        titolo: "Lo stesso mare, quattro registri diversi",
+        testo: "A Marina di Ragusa la cucina resta quella semplice delle spiagge siciliane: pesce alla griglia, pasta con le vongole, poco altro. A Portopalo e Marzamemi il tonno domina ogni carta, crudo o cotto, spesso nella stessa giornata in cui è stato pescato. Salendo al Plemmirio il registro si fa più conviviale, aperitivi lunghi e piatti da condividere guardando il tramonto. A Ortigia, infine, la cucina di mare raggiunge il suo punto più alto: una Stella Michelin, a pochi passi dal Duomo, chiude il viaggio con lo stesso ingrediente — il pesce di questa costa — trattato con la massima cura possibile."
+      }
+    },
+
+    primaDiChiudere: [
+      { titolo: "GLI AEROPORTI", sotto: "Comiso e Catania", testo: "Comiso, quindici chilometri da Ragusa, ha pochi voli diretti; Catania Fontanarossa, un'ora da Siracusa, ne ha molti di più." },
+      { titolo: "L'AUTO", sotto: "indispensabile", testo: "Nessuna delle quattro basi costiere è raggiungibile comodamente senza; serve anche per le giornate in collina." },
+      { titolo: "LE ZONE A TRAFFICO LIMITATO", sotto: "solo nelle giornate in collina", testo: "Riguardano Ragusa Ibla, Modica e Noto: le quattro basi costiere non ne hanno." },
+      { titolo: "LA STAGIONE", sotto: "maggio-giugno, settembre-ottobre", testo: "Le finestre migliori; ad agosto le spiagge di Marina di Ragusa, Vendicari e Fontane Bianche sono molto affollate." },
+      { titolo: "SE I GIORNI DIVENTANO SETTE", sotto: "cosa si toglie", testo: "Si toglie una notte al Plemmirio, unendo la giornata della Neapolis a quella del Fiume Ciane." }
+    ],
+
+    numeriUtili: [
+      "Da prenotare — escursione al Fiume Ciane e alle Saline con Antonio Vella, tel. 346 1599635.",
+      "Ristoranti dell'itinerario — vedi il taccuino \"Dove sedersi a tavola\".",
+      "Numeri di emergenza — 112 per qualunque emergenza; 1530 per il soccorso in mare."
+    ]
   }
 
 });
