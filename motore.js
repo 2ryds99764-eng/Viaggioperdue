@@ -38,6 +38,33 @@ function urlMappa(q, lat, lng) {
   return "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(q || "");
 }
 
+const ORDINE_SIMBOLI_RISTORANTE = ["🌅", "🌳", "♥️"];
+const ETICHETTE_SIMBOLO_RISTORANTE = {
+  "🌅": "Pied dans l'eau",
+  "🌳": "Isolato",
+  "♥️": "Charme",
+  "🌄": "Splendida vista",
+  "🥪": "Sandwich gourmet",
+  "⛱️": "Spiaggia",
+  "👑": "Stella Michelin"
+};
+/* scopre nelle note di window.GUIDA quali simboli sono davvero in uso,
+   così eventuali nuovi simboli aggiunti ai dati compaiono da soli qui */
+function elencoSimboliRistorante() {
+  const trovati = new Set();
+  (window.GUIDA || []).forEach(function (r) {
+    const note = r.note || "";
+    (note.match(/\p{Extended_Pictographic}️?/gu) || []).forEach(function (s) { trovati.add(s); });
+  });
+  const ordinati = ORDINE_SIMBOLI_RISTORANTE.filter(function (s) { return trovati.has(s); });
+  Array.from(trovati).sort().forEach(function (s) {
+    if (ordinati.indexOf(s) === -1) ordinati.push(s);
+  });
+  return [{ v: "", t: "Qualsiasi", icona: "✨" }].concat(
+    ordinati.map(function (s) { return { v: s, t: ETICHETTE_SIMBOLO_RISTORANTE[s] || s }; })
+  );
+}
+
 /* ----------- COSTRUZIONE DELLA HOME ----------- */
 function costruisciHome() {
   const s = T42.sito;
@@ -852,12 +879,10 @@ function costruisciGuida() {
   /* legenda simboli */
   const legenda = document.getElementById("guida-legenda");
   if (legenda) {
-    legenda.innerHTML =
-      '<span class="lg-voce">🌅 Vista mare</span>' +
-      '<span class="lg-voce">🏞️ Vista paesaggio</span>' +
-      '<span class="lg-voce">🌿 Tavoli all’esterno</span>' +
-      '<span class="lg-voce">✨ Luogo ameno</span>' +
-      '<span class="lg-voce">🥪 Sandwich gourmet</span>';
+    legenda.innerHTML = elencoSimboliRistorante()
+      .filter(function (s) { return s.v !== ""; })
+      .map(function (s) { return '<span class="lg-voce">' + s.v + ' ' + s.t + '</span>'; })
+      .join("");
   }
 
   function disegna(items) {
@@ -1123,39 +1148,13 @@ function costruisciHotel() {
   if (selProv) selProv.addEventListener("change", filtra);
   if (selSimbolo) selSimbolo.addEventListener("change", filtra);
   const legendaH = document.getElementById("guida-legenda");
-  if (legendaH) { legendaH.innerHTML = "<span class=lg-voce>🌅 Pied dans l’eau</span>" + "<span class=lg-voce>🌄 Splendida vista</span>" + "<span class=lg-voce>🌳 Albergo isolato</span>" + "<span class=lg-voce>♥️ Albergo di charme</span>" + "<span class=lg-voce>🏖️ Spiaggia privata</span>" + "<span class=lg-voce>🏞️ Albergo di montagna</span>" + "<span class=lg-voce>👑 Grande tradizione</span>"; }
+  if (legendaH) { legendaH.innerHTML = "<span class=lg-voce>🌅 Pied dans l’eau</span>" + "<span class=lg-voce>🌄 Splendida vista</span>" + "<span class=lg-voce>🌳 Albergo isolato</span>" + "<span class=lg-voce>♥️ Albergo di charme</span>" + "<span class=lg-voce>🏖️ Spiaggia privata</span>" + "<span class=lg-voce>⛰️ Albergo di montagna</span>" + "<span class=lg-voce>👑 Grande tradizione</span>"; }
   disegna(dati);
   costruisciPie(T42.sito);
 }
 
 /* ----------- CONCIERGE (assistente flottante, presente su tutte le pagine) ----------- */
 function costruisciConcierge() {
-  const ORDINE_SIMBOLI_RISTORANTE = ["🌅", "🌳", "♥️"];
-  const ETICHETTE_SIMBOLO_RISTORANTE = {
-    "🌅": "Pied dans l'eau",
-    "🌳": "Isolato",
-    "♥️": "Charme",
-    "🌄": "Splendida vista",
-    "🥪": "Sandwich gourmet",
-    "⛱️": "Spiaggia",
-    "👑": "Stella Michelin"
-  };
-  /* scopre nelle note di window.GUIDA quali simboli sono davvero in uso,
-     così eventuali nuovi simboli aggiunti ai dati compaiono da soli qui */
-  function elencoSimboliRistorante() {
-    const trovati = new Set();
-    (window.GUIDA || []).forEach(function (r) {
-      const note = r.note || "";
-      (note.match(/\p{Extended_Pictographic}️?/gu) || []).forEach(function (s) { trovati.add(s); });
-    });
-    const ordinati = ORDINE_SIMBOLI_RISTORANTE.filter(function (s) { return trovati.has(s); });
-    Array.from(trovati).sort().forEach(function (s) {
-      if (ordinati.indexOf(s) === -1) ordinati.push(s);
-    });
-    return [{ v: "", t: "Qualsiasi", icona: "✨" }].concat(
-      ordinati.map(function (s) { return { v: s, t: ETICHETTE_SIMBOLO_RISTORANTE[s] || s }; })
-    );
-  }
   function elencoSimboliAlbergo() {
     const trovati = new Set();
     (window.HOTEL || []).forEach(function (h) {
