@@ -205,7 +205,7 @@ var HOTEL=[
     "cellulare": "",
     "email": "info@chaletilcapricorno.it",
     "web": "https://chaletilcapricorno.it",
-    "note": "⛰♥️️",
+    "note": "⛰️♥️️",
     "mappa": "Via Case Sparse 21, Sauze D'Oulx, TO"
   },
   {
@@ -621,7 +621,7 @@ var HOTEL=[
     "cellulare": "+39 335 5343561",
     "email": "reservation@casangelina.com",
     "web": "https://www.casangelina.com",
-    "note": "🌳 🌅 🏖♥️️",
+    "note": "🌳 🌅 🏖️♥️️",
     "mappa": "Via Capriglione 147, Praiano, SA"
   },
   {
@@ -669,7 +669,7 @@ var HOTEL=[
     "cellulare": "",
     "email": "info@ilgattobianco.it",
     "web": "https://www.ilgattobianco.com",
-    "note": "⛰♥️️",
+    "note": "⛰️♥️️",
     "mappa": "Viale Appennini 3, Pescocostanzo, AQ"
   },
   {
@@ -685,7 +685,7 @@ var HOTEL=[
     "cellulare": "",
     "email": "reservations@pellicanohotels.com",
     "web": "https://www.pellicanohotels.com/it/hotels/hotel-il-pellicano/",
-    "note": "🌳🌅 🏖♥️️",
+    "note": "🌳🌅 🏖️♥️️",
     "mappa": "Località Sbarcatello, Porto Ercole, GR"
   },
   {
@@ -781,7 +781,7 @@ var HOTEL=[
     "cellulare": "",
     "email": "info@concadelsogno.it",
     "web": "https://www.concadelsogno.it",
-    "note": "🌳🌅 🏖♥️️",
+    "note": "🌳🌅 🏖️♥️️",
     "mappa": "Via San Marciano 9, Nerano, NA"
   },
   {
@@ -829,7 +829,7 @@ var HOTEL=[
     "cellulare": "+39 335 5986434",
     "email": "info@lafrancescasud.it",
     "web": "https://lafrancescascario.it",
-    "note": "Ospitalità in vecchie case 🌳 🌅 🏖♥️️",
+    "note": "Ospitalità in vecchie case 🌳 🌅 🏖️♥️️",
     "mappa": "Via Gloria Bortolotti De Poli 8, Scario, SA"
   },
   {

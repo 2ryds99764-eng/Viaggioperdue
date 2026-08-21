@@ -1177,7 +1177,7 @@ function costruisciConcierge() {
     { v: "🌳", t: "Isolato" },
     { v: "♥️", t: "Charme" },
     { v: "🏖️", t: "Spiaggia" },
-    { v: "🏞️", t: "Montagna" },
+    { v: "⛰️", t: "Montagna" },
     { v: "👑", t: "Tradizione" },
     { v: "🌄", t: "Splendida vista" }
   ];
