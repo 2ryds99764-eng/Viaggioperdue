@@ -2391,7 +2391,7 @@ var GUIDA=[
     "tel": "+39 0523 830444",
     "telefono": "+39 0523 830444",
     "web": "https://www.la-fiaschetteria.com",
-    "note": "Con camere · Parma · ❤️",
+    "note": "Con camere · Parma · ♥️",
     "mappa": "Via Bersano 59 bis, Besenzone, PC"
   },
   {
@@ -3833,7 +3833,7 @@ var GUIDA=[
     "tel": "+41 91 980 22 52",
     "telefono": "+41 91 980 22 52",
     "web": "https://www.relaiscastellodimorcote.ch",
-    "note": "Ticino · ❤️🌳",
+    "note": "Ticino · ♥️🌳",
     "mappa": "Portich de Sura, Vico Morcote Canton Ticino, CH"
   },
   {

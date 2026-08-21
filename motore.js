@@ -1135,10 +1135,10 @@ function costruisciConcierge() {
     "🌅": "Pied dans l'eau",
     "🌳": "Isolato",
     "♥️": "Charme",
-    "❤️": "Charme",
     "🌄": "Splendida vista",
     "🥪": "Sandwich gourmet",
-    "⛱️": "Spiaggia"
+    "⛱️": "Spiaggia",
+    "👑": "Stella Michelin"
   };
   /* scopre nelle note di window.GUIDA quali simboli sono davvero in uso,
      così eventuali nuovi simboli aggiunti ai dati compaiono da soli qui */
