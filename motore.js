@@ -1156,13 +1156,30 @@ function costruisciConcierge() {
       ordinati.map(function (s) { return { v: s, t: ETICHETTE_SIMBOLO_RISTORANTE[s] || s }; })
     );
   }
+  function elencoSimboliAlbergo() {
+    const trovati = new Set();
+    (window.HOTEL || []).forEach(function (h) {
+      const note = h.note || "";
+      (note.match(/\p{Extended_Pictographic}️?/gu) || []).forEach(function (s) { trovati.add(s); });
+    });
+    const etichette = {};
+    SIMBOLI_ALBERGO.forEach(function (s) { etichette[s.v] = s.t; });
+    const ordinati = SIMBOLI_ALBERGO.map(function (s) { return s.v; }).filter(function (s) { return trovati.has(s); });
+    Array.from(trovati).sort().forEach(function (s) {
+      if (ordinati.indexOf(s) === -1) ordinati.push(s);
+    });
+    return [{ v: "", t: "Qualsiasi", icona: "✨" }].concat(
+      ordinati.map(function (s) { return { v: s, t: etichette[s] || s }; })
+    );
+  }
   const SIMBOLI_ALBERGO = [
     { v: "🌅", t: "Pied dans l'eau" },
     { v: "🌳", t: "Isolato" },
     { v: "♥️", t: "Charme" },
     { v: "🏖️", t: "Spiaggia" },
     { v: "🏞️", t: "Montagna" },
-    { v: "👑", t: "Tradizione" }
+    { v: "👑", t: "Tradizione" },
+    { v: "🌄", t: "Splendida vista" }
   ];
 
   const host = document.createElement("div");
@@ -1269,7 +1286,7 @@ function costruisciConcierge() {
   }
 
   function renderStep3() {
-    const simboli = stato.tipo === "ristorante" ? elencoSimboliRistorante() : SIMBOLI_ALBERGO;
+    const simboli = stato.tipo === "ristorante" ? elencoSimboliRistorante() : elencoSimboliAlbergo();
     corpo.innerHTML =
       '<div class="conc-titolo">Che tipo?</div>' +
       '<div class="conc-opzioni conc-opzioni--simboli">' +
