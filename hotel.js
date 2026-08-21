@@ -2095,6 +2095,54 @@ var HOTEL=[
     "web": "https://www.palazzosalomone.com",
     "note": "Boutique hotel in Ortigia, ristorante interno Cortile Spirito Santo (1 Stella Michelin) ♥️ 👑",
     "mappa": "Via Salomone 21, Siracusa, SR"
+  },
+  {
+    "nome": "Bastiò Suites",
+    "indirizzo": "Via Cardinale Dusmet 37",
+    "citta": "Catania",
+    "provincia": "CT",
+    "prov": "CT",
+    "regione": "Sicilia",
+    "luogo": "Catania (CT)",
+    "tel": "+39 328 1570423",
+    "telefono": "+39 328 1570423",
+    "cellulare": "",
+    "email": "info@bastiosuites.it",
+    "web": "https://www.bastiosuites.it",
+    "note": "Cinque suite nelle mura di fortificazione di Carlo V, pietra lavica a vista ♥️ 👑",
+    "mappa": "Via Cardinale Dusmet 37, Catania, CT"
+  },
+  {
+    "nome": "Zash Country Boutique Hotel & Spa",
+    "indirizzo": "Strada Provinciale 2/I-II 60",
+    "citta": "Riposto",
+    "provincia": "CT",
+    "prov": "CT",
+    "regione": "Sicilia",
+    "luogo": "Riposto (CT)",
+    "tel": "+39 095 7828932",
+    "telefono": "+39 095 7828932",
+    "cellulare": "+39 347 2765552",
+    "email": "info@zash.it",
+    "web": "https://www.zash.it",
+    "note": "Antico palmento in 13 ettari di agrumeto, vista Etna e mare, 1 Stella Michelin 🌄 ♥️ 👑",
+    "mappa": "Strada Provinciale 2/I-II 60, Riposto, CT"
+  },
+  {
+    "nome": "Hotel Villa Schuler",
+    "indirizzo": "Piazzetta Bastione, Via Roma",
+    "citta": "Taormina",
+    "provincia": "ME",
+    "prov": "ME",
+    "regione": "Sicilia",
+    "luogo": "Taormina (ME)",
+    "tel": "+39 0942 23481",
+    "telefono": "+39 0942 23481",
+    "cellulare": "",
+    "email": "info@hotelvillaschuler.com",
+    "web": "https://www.hotelvillaschuler.com",
+    "note": "Pensione di famiglia dal 1905, villa liberty con giardino, via panoramica lato mare 🌄 ♥️",
+    "mappa": "Piazzetta Bastione, Via Roma, Taormina, ME"
   }
 ];
 var HOTEL_PROVCITTA={

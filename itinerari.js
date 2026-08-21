@@ -1034,6 +1034,173 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
       "Ristoranti dell'itinerario — vedi il taccuino \"Dove sedersi a tavola\".",
       "Numeri di emergenza — 112 per qualunque emergenza; 1530 per il soccorso in mare."
     ]
+  },
+
+  "val-demona": {
+    occhiello: "Un itinerario per due",
+    titolo: "Da Catania a Taormina",
+    sottotitolo: "la Val Dèmona fra le pendici dell'Etna e il mare, tre dimore che uniscono la Sicilia orientale che si vede da entrambi i lati",
+    regione: "Sicilia",
+    copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/96E2AA40-5543-450D-8AC3-A7B63B3DE1A3_zjo7yp",
+    tappe: ["Catania","Etna","Riposto","Alcantara","Taormina"],
+
+    epigrafe: {
+      testo: "Raccontiamo, non giudichiamo. La libertà di scoprire appartiene a chi viaggia, non a chi scrive.",
+      fonte: ""
+    },
+
+    apertura: [
+      "Se la Val di Noto racconta il barocco e il mare del sud-est, la Val Dèmona — la terza delle antiche valli in cui gli arabi divisero la Sicilia, quella che prende il nome da un misterioso insediamento medievale, la Dèmona — racconta tutt'altro: il vulcano più attivo d'Europa che incombe su ogni paesaggio, una città barocca costruita di pietra lavica, e la cittadina che dal Settecento incanta viaggiatori di ogni provenienza.",
+      "Tre basi, scelte con lo stesso criterio della Val di Noto costiera: mai un resort, sempre un indirizzo con una storia propria. Si comincia a Catania, scavata letteralmente nelle mura di fortificazione di Carlo V. Si sale poi a Riposto, dove un antico palmento per la pigiatura dell'uva guarda insieme l'Etna e il mare. Si chiude a Taormina, nella pensione di famiglia che ospita viaggiatori dal 1905.",
+      "Sei giorni, cinque notti. Quello che segue non è una classifica. È un percorso possibile. Il resto appartiene a chi viaggia."
+    ],
+
+    percorso: {
+      intro: "Catania per una notte, Riposto per due, Taormina per due. L'Etna, le Gole dell'Alcantara e le strade del vino si visitano lungo il percorso, senza mai tornare indietro.",
+      giorni: [
+        { giorno: "Giorno primo", titolo: "Catania", km: "", testo: "La città di pietra lavica, il Duomo, via Crociferi." },
+        { giorno: "Giorno secondo", titolo: "verso l'Etna e Riposto", km: "50 km", testo: "I Crateri Silvestri, poi la costa e il palmento di Zash." },
+        { giorno: "Giorno terzo", titolo: "le strade del vino dell'Etna", km: "in giornata", testo: "I terrazzamenti di lava nera, l'Etna DOC." },
+        { giorno: "Giorno quarto", titolo: "le Gole dell'Alcantara, verso Taormina", km: "45 km", testo: "Il canyon di basalto, poi l'ultimo trasferimento." },
+        { giorno: "Giorno quinto", titolo: "Taormina", km: "in giornata", testo: "Il Teatro Antico, Isola Bella, il Corso Umberto." },
+        { giorno: "Giorno sesto", titolo: "Congedo", km: "", testo: "Partenza da Taormina." }
+      ]
+    },
+
+    giorni: [
+      {
+        label: "Giorno primo",
+        titolo: "Catania, la città di pietra nera",
+        paragrafi: [
+          "Catania si costruisce e ricostruisce da sempre con la stessa pietra che la minaccia: la lava dell'Etna, incisa nei palazzi barocchi dopo il terremoto del 1693. In Piazza del Duomo, 'u Liotru — l'elefantino di pietra lavica, simbolo della città — sorveglia la Cattedrale di Sant'Agata, costruita sopra terme romane. Poche centinaia di metri più su, via Crociferi allinea quattro chiese barocche in fila, la strada più bella della città."
+        ],
+        note: [
+          "Si dorme a Catania, a Bastiò Suites.",
+          "Cena — Acqualavica, il ristorante interno: osteria negli ambienti voltati delle mura cinquecentesche."
+        ],
+        ristoranti: ["Acqualavica"],
+        produttori: []
+      },
+      {
+        label: "Giorno secondo",
+        titolo: "Verso l'Etna e Riposto",
+        paragrafi: [
+          "Da Catania si sale verso il vulcano: dal Rifugio Sapienza, a milleottocento metri, un sentiero a piedi raggiunge i Crateri Silvestri, i più accessibili dei tanti crateri spenti che punteggiano i fianchi dell'Etna. Chi vuole salire più in alto può farlo in funivia o in fuoristrada.",
+          "Nel pomeriggio si scende verso la costa ionica, fino a Riposto — piccolo borgo marinaro, il porto storico dell'Etna. Zash Country Boutique Hotel & Spa, la base per le prossime due notti, occupa un antico palmento immerso in tredici ettari di agrumeto: da un lato la vista si apre sul vulcano, dall'altro sul golfo di Taormina."
+        ],
+        note: ["Si dorme a Riposto, a Zash Country Boutique Hotel & Spa (prima delle due notti)."],
+        ristoranti: [],
+        produttori: []
+      },
+      {
+        label: "Giorno terzo",
+        titolo: "Le strade del vino dell'Etna",
+        paragrafi: [
+          "Giornata dedicata al versante orientale del vulcano, dove la denominazione Etna DOC produce, su terrazzamenti di lava nera, alcuni dei rossi più originali d'Italia — Nerello Mascalese e Nerello Cappuccio, spesso vinificati come fossero Borgogna. A Passopisciaro, in Contrada Feudo di Mezzo, Federico Graziani — ex miglior sommelier d'Italia, oggi vignaiolo — lavora vigne prefillossera di oltre cent'anni per il suo Profumo di Vulcano; il terzo vino della cantina, Mareneve, prende il nome proprio dall'ossimoro fra il fuoco del vulcano e la neve che lo ricopre d'inverno. Diverse cantine della zona, compresa la sua, si visitano su prenotazione diretta. La sera, la cena resta dentro Zash: il ristorante, guidato dallo chef Giuseppe Raciti, ha una Stella Michelin dal 2019."
+        ],
+        note: [
+          "Si dorme di nuovo a Zash.",
+          "Cena — Zash, il ristorante interno: chef Giuseppe Raciti, 1 Stella Michelin dal 2019."
+        ],
+        ristoranti: ["Zash"],
+        produttori: [
+          { nome: "Federico Graziani", url: "https://fedegraziani.it" }
+        ]
+      },
+      {
+        label: "Giorno quarto",
+        titolo: "Le Gole dell'Alcantara, verso Taormina",
+        paragrafi: [
+          "Prima di raggiungere Taormina, una deviazione verso l'interno: le Gole dell'Alcantara, un canyon di basalto colonnare scavato dal fiume nella lava solidificata, con pareti alte fino a cinquanta metri. Ci si arriva a piedi o, per chi vuole inoltrarsi nell'acqua, con stivali a noleggio.",
+          "Nel pomeriggio, ultimo trasferimento fino a Taormina. Hotel Villa Schuler, dove si dorme per le ultime due notti, accoglie ospiti dal 1905: la stessa famiglia lo gestisce da allora, in una villa liberty con giardino, sulla via panoramica che guarda il mare."
+        ],
+        note: ["Si dorme a Taormina, a Hotel Villa Schuler (prima delle due notti)."],
+        ristoranti: [],
+        produttori: []
+      },
+      {
+        label: "Giorno quinto",
+        titolo: "Taormina",
+        paragrafi: [
+          "Il Teatro Antico, costruito dai greci e ampliato dai romani, resta il punto più alto della città — e il palcoscenico con la vista più famosa di Sicilia, l'Etna che fa da sfondo naturale al proscenio. Il Corso Umberto attraversa il centro storico da Porta Messina a Porta Catania; da Piazza IX Aprile, una terrazza panoramica si affaccia sul golfo. Isola Bella, la piccola penisola collegata alla terraferma da una lingua di sabbia che appare e scompare con le maree, si raggiunge in funivia o a piedi.",
+          "La sera si cena da Tischi Toschi, la trattoria gourmet di Luca Casablanca: pochi coperti, filosofia Slow Food, gli stessi sapori che secondo più fonti restano fra i più autentici di tutta la città."
+        ],
+        note: [
+          "Si dorme di nuovo a Villa Schuler.",
+          "Cena — Tischi Toschi, Vico Francesco Paladini 3, tel. 339 3642088."
+        ],
+        ristoranti: ["Tischi Toschi"],
+        produttori: []
+      },
+      {
+        label: "Giorno sesto",
+        titolo: "Congedo",
+        paragrafi: [
+          "Partenza da Taormina, con l'aeroporto di Catania a circa un'ora di auto."
+        ],
+        note: ["Congedo: l'aeroporto di Catania è a circa un'ora."],
+        ristoranti: [],
+        produttori: []
+      }
+    ],
+
+    taccuino: {
+      dormire: [
+        {
+          zona: "Catania", notti: "una notte",
+          strutture: [
+            { nome: "Bastiò Suites", contatto: "Via Cardinale Dusmet 37, tel. 328 1570423", testo: "Cinque suite nelle mura di fortificazione di Carlo V, pietra lavica a vista." }
+          ]
+        },
+        {
+          zona: "Riposto", notti: "due notti",
+          strutture: [
+            { nome: "Zash Country Boutique Hotel & Spa", contatto: "Strada Provinciale 2/I-II 60, tel. 095 7828932", testo: "Antico palmento in tredici ettari di agrumeto, vista Etna e mare insieme, 1 Stella Michelin." }
+          ]
+        },
+        {
+          zona: "Taormina", notti: "due notti",
+          strutture: [
+            { nome: "Hotel Villa Schuler", contatto: "Piazzetta Bastione, Via Roma, tel. 0942 23481", testo: "Pensione di famiglia dal 1905, villa liberty con giardino, via panoramica lato mare." }
+          ]
+        }
+      ],
+
+      tavola: {
+        intro: "Gli indirizzi principali sono già segnati giorno per giorno; li ripetiamo qui in ordine di percorso.",
+        voci: [
+          { nome: "Acqualavica" },
+          { nome: "Zash" },
+          { nome: "Tischi Toschi" }
+        ]
+      },
+
+      approfondimenti: [
+        {
+          titolo: "Il vino dell'Etna",
+          testo: "Sui terrazzamenti di lava nera del versante orientale del vulcano nasce l'Etna DOC, una delle denominazioni più originali d'Italia: altitudini che arrivano a mille metri, suoli vulcanici ricchissimi di minerali, e due vitigni autoctoni — Nerello Mascalese e Nerello Cappuccio — che i produttori più attenti vinificano con la stessa cura riservata ai grandi rossi di Borgogna, tanto che i cru dell'Etna vengono ormai chiamati \"contrade\" proprio in analogia ai climat borgognoni. Le stesse pendici, più in basso, restituiscono anche bianchi minerali da uve Carricante. Un territorio che cambia volto nel giro di poche centinaia di metri di altitudine, come raramente accade altrove."
+        }
+      ],
+
+      aTavola: {
+        titolo: "Dalla pietra lavica al mare",
+        testo: "A Catania la cucina resta quella di città: la pasta alla Norma, che qui è nata e che deve il suo nome a Bellini, gli arancini con la punta, le cartocciate di rosticceria. Salendo verso l'Etna il registro si fa più ricco — funghi, formaggi di montagna, i vini rossi strutturati dei terrazzamenti lavici — mentre la cucina di Zash aggiunge agli ingredienti di terra il pescato del vicino porto di Riposto. A Taormina, infine, la tavola guarda soprattutto al mare: pesce fresco, la pasta alla siracusana rivisitata, e la stessa attenzione alle materie prime che ha reso l'isola una delle mete gastronomiche più interessanti del Mediterraneo."
+      }
+    },
+
+    primaDiChiudere: [
+      { titolo: "GLI AEROPORTI", sotto: "Catania Fontanarossa", testo: "Il riferimento per l'intero itinerario, a un'ora da Taormina e pochi minuti da Catania stessa." },
+      { titolo: "L'AUTO", sotto: "indispensabile", testo: "Necessaria per raggiungere l'Etna, le Gole dell'Alcantara e Riposto; a Taormina conviene lasciarla nei parcheggi esterni (Lumbi o Porta Catania) e muoversi a piedi." },
+      { titolo: "L'ETNA", sotto: "attenzione al meteo", testo: "Le condizioni cambiano rapidamente in quota: una felpa serve anche in piena estate, e vale la pena verificare l'accessibilità dei crateri prima di salire." },
+      { titolo: "LA STAGIONE", sotto: "maggio-giugno, settembre-ottobre", testo: "Le finestre migliori; in inverno l'Etna si scia, ma le strade di montagna richiedono catene o gomme adatte." },
+      { titolo: "SE I GIORNI DIVENTANO CINQUE", sotto: "cosa si toglie", testo: "Si toglie una notte a Zash, unendo la giornata dell'Etna a quella delle strade del vino." }
+    ],
+
+    numeriUtili: [
+      "Da prenotare — il ristorante di Zash (Stella Michelin, tavoli limitati); cantine dell'Etna DOC, contatto diretto.",
+      "Ristoranti dell'itinerario — vedi il taccuino \"Dove sedersi a tavola\".",
+      "Numeri di emergenza — 112 per qualunque emergenza."
+    ]
   }
 
 });

@@ -5263,6 +5263,48 @@ var GUIDA=[
     "web": "https://www.cortilespiritosanto.com",
     "note": "1 Stella Michelin, chef Giuseppe Torrisi, dentro Palazzo Salomone 👑",
     "mappa": "Via Salomone 21, Siracusa, SR"
+  },
+  {
+    "nome": "Acqualavica",
+    "indirizzo": "Via Cardinale Dusmet 37",
+    "citta": "Catania",
+    "provincia": "CT",
+    "prov": "CT",
+    "regione": "Sicilia",
+    "luogo": "Catania (CT)",
+    "tel": "",
+    "telefono": "",
+    "web": "https://www.bastiosuites.it",
+    "note": "Osteria negli ambienti voltati delle mura cinquecentesche, dentro Bastiò Suites",
+    "mappa": "Via Cardinale Dusmet 37, Catania, CT"
+  },
+  {
+    "nome": "Zash",
+    "indirizzo": "Strada Provinciale 2/I-II 60",
+    "citta": "Riposto",
+    "provincia": "CT",
+    "prov": "CT",
+    "regione": "Sicilia",
+    "luogo": "Riposto (CT)",
+    "tel": "+39 095 7828932",
+    "telefono": "+39 095 7828932",
+    "web": "https://www.zash.it",
+    "note": "Chef Giuseppe Raciti, 1 Stella Michelin dal 2019, dentro l'omonimo hotel",
+    "mappa": "Strada Provinciale 2/I-II 60, Riposto, CT"
+  },
+  {
+    "nome": "Tischi Toschi",
+    "indirizzo": "Vico Francesco Paladini 3",
+    "citta": "Taormina",
+    "provincia": "ME",
+    "prov": "ME",
+    "regione": "Sicilia",
+    "luogo": "Taormina (ME)",
+    "tel": "+39 339 3642088",
+    "telefono": "+39 339 3642088",
+    "web": "https://www.tischitoschitaormina.com",
+    "note": "Trattoria gourmet di Luca Casablanca, filosofia Slow Food, pochi coperti",
+    "mappa": "Vico Francesco Paladini 3, Taormina, ME"
   }
 ];
 var GUIDA_REGPROV={
