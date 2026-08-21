@@ -729,10 +729,13 @@ function costruisciItinerario() {
       it.taccuino.dormire.map(function (zona) {
         return '<div class="itin-zona-titolo">' + esc(zona.zona) + ' — ' + esc(zona.notti) + '</div>' +
           (zona.strutture || []).map(function (s) {
+            const hotelDati = window.HOTEL ? window.HOTEL.find(function (h) { return h.nome === s.nome; }) : null;
+            const linkWeb = (hotelDati && hotelDati.web) ? '<div class="itin-tac-link"><a class="itin-link-storia" href="' + esc(hotelDati.web) + '" target="_blank" rel="noopener">Sito web →</a></div>' : '';
             return '<div class="itin-tac-voce">' +
               '<div class="itin-tac-nome">' + esc(s.nome) + '</div>' +
               (s.contatto ? '<div class="itin-tac-contatto">' + esc(s.contatto) + '</div>' : '') +
               '<div class="itin-tac-testo">' + esc(s.testo) + '</div>' +
+              linkWeb +
             '</div>';
           }).join("");
       }).join("");
@@ -749,12 +752,13 @@ function costruisciItinerario() {
       (it.taccuino.tavola.intro ? '<p class="rp">' + escV(it.taccuino.tavola.intro) + '</p>' : '') +
       voci.map(function (v) {
         const contatto = v.dati ? (v.dati.luogo + (v.dati.telefono ? ' · tel. ' + v.dati.telefono : '')) : '';
-        const link = v.storia ? ' <a class="itin-link-storia" href="storia.html?s=' + encodeURIComponent(v.storia) + '">La storia completa →</a>' : '';
+        const linkStoria = v.storia ? '<a class="itin-link-storia" href="storia.html?s=' + encodeURIComponent(v.storia) + '">La storia completa →</a>' : '';
+        const linkWeb = (v.dati && v.dati.web) ? '<a class="itin-link-storia" href="' + esc(v.dati.web) + '" target="_blank" rel="noopener">Sito web →</a>' : '';
         return '<div class="itin-tac-voce">' +
           '<div class="itin-tac-nome">' + esc(v.nome) + '</div>' +
           (contatto ? '<div class="itin-tac-contatto">' + esc(contatto) + '</div>' : '') +
           (v.dati && v.dati.note ? '<div class="itin-tac-testo">' + esc(v.dati.note) + '</div>' : '') +
-          (link ? '<div class="itin-tac-link">' + link + '</div>' : '') +
+          ((linkStoria || linkWeb) ? '<div class="itin-tac-link">' + linkStoria + ' ' + linkWeb + '</div>' : '') +
         '</div>';
       }).join("");
   }
