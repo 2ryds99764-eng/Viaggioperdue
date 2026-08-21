@@ -5207,6 +5207,62 @@ var GUIDA=[
     "web": "",
     "note": "Custode della biodiversità, Alleanza dei Cuochi Slow Food",
     "mappa": "Località Piano, Aquara, SA"
+  },
+  {
+    "nome": "Hotel Miramare",
+    "indirizzo": "Lungomare Andrea Doria 44",
+    "citta": "Marina di Ragusa",
+    "provincia": "RG",
+    "prov": "RG",
+    "regione": "Sicilia",
+    "luogo": "Marina di Ragusa (RG)",
+    "tel": "+39 0932 615445",
+    "telefono": "+39 0932 615445",
+    "web": "https://hotelmiramareragusa.com",
+    "note": "Direttamente sulla spiaggia, cucina mediterranea, chef Giuseppe Cutrera 🌅",
+    "mappa": "Lungomare Andrea Doria 44, Marina di Ragusa, RG"
+  },
+  {
+    "nome": "Campisi",
+    "indirizzo": "Via Marzamemi 12b",
+    "citta": "Marzamemi",
+    "provincia": "SR",
+    "prov": "SR",
+    "regione": "Sicilia",
+    "luogo": "Marzamemi (SR)",
+    "tel": "+39 346 9420323",
+    "telefono": "+39 346 9420323",
+    "web": "",
+    "note": "La famiglia lavora il tonno dal 1854, bottega accanto alla sala",
+    "mappa": "Via Marzamemi 12b, Marzamemi, SR"
+  },
+  {
+    "nome": "Vista Mare Ognina",
+    "indirizzo": "Porticciolo di Ognina",
+    "citta": "Siracusa",
+    "provincia": "SR",
+    "prov": "SR",
+    "regione": "Sicilia",
+    "luogo": "Siracusa (SR)",
+    "tel": "",
+    "telefono": "",
+    "web": "https://www.vistamareognina.it",
+    "note": "Sul porticciolo, crudi e fritti, aperitivo al tramonto 🌅",
+    "mappa": "Porticciolo di Ognina, Siracusa, SR"
+  },
+  {
+    "nome": "Cortile Spirito Santo",
+    "indirizzo": "Via Salomone 21",
+    "citta": "Siracusa",
+    "provincia": "SR",
+    "prov": "SR",
+    "regione": "Sicilia",
+    "luogo": "Siracusa (SR)",
+    "tel": "+39 0931 1815404",
+    "telefono": "+39 0931 1815404",
+    "web": "https://www.cortilespiritosanto.com",
+    "note": "1 Stella Michelin, chef Giuseppe Torrisi, dentro Palazzo Salomone 👑",
+    "mappa": "Via Salomone 21, Siracusa, SR"
   }
 ];
 var GUIDA_REGPROV={
