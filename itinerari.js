@@ -840,7 +840,7 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
   "val-di-noto-costa": {
     occhiello: "Un itinerario per due",
     titolo: "Da Marina di Ragusa a Ortigia",
-    sottotitolo: "il Val di Noto visto dal mare, quattro basi sulla costa e il barocco in giornata",
+    sottotitolo: "la Val di Noto vista dal mare, quattro basi sulla costa e il barocco in giornata",
     regione: "Sicilia",
     copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/F0443651-A953-4521-828C-C76ED1B382E3_ima84f",
     tappe: ["Marina di Ragusa","Ragusa Ibla","Modica","Portopalo di Capo Passero","Vendicari","Marzamemi","Noto","Plemmirio","Siracusa","Ortigia"],
@@ -851,7 +851,7 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
     },
 
     apertura: [
-      "C'è un modo di vedere il Val di Noto che quasi nessuno prova: non dalle piazze barocche verso il mare, ma dal mare verso le piazze barocche. Questo itinerario ribalta la prospettiva più consueta: invece di dormire nelle città di pietra e toccare la costa di passaggio, si dorme sulla costa — quattro basi, tutte dimore storiche o boutique hotel autentici, mai un resort — e si sale in collina solo per il tempo di una visita.",
+      "C'è un modo di vedere la Val di Noto che quasi nessuno prova: non dalle piazze barocche verso il mare, ma dal mare verso le piazze barocche. Questo itinerario ribalta la prospettiva più consueta: invece di dormire nelle città di pietra e toccare la costa di passaggio, si dorme sulla costa — quattro basi, tutte dimore storiche o boutique hotel autentici, mai un resort — e si sale in collina solo per il tempo di una visita.",
       "Si comincia a Marina di Ragusa, spiaggia Bandiera Blu a un passo da Ragusa Ibla. Si scende a Portopalo di Capo Passero, la punta più a sud della Sicilia, base naturale per Vendicari e Marzamemi. Si risale fino al Plemmirio, l'area marina protetta alle porte di Siracusa. Si chiude a Ortigia, un'ultima notte nel cuore della città vecchia.",
       "Otto giorni, sette notti. Quello che segue non è una classifica. È un percorso possibile, con dentro gli indirizzi di chi lavora bene — dimore che non assomigliano a nessun villaggio turistico, ristoranti dove il pesce arriva la mattina stessa. Il resto appartiene a chi viaggia."
     ],
