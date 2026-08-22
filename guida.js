@@ -5529,6 +5529,20 @@ var GUIDA=[
     "web": "https://www.buattapalermo.it",
     "note": "Bib Gourmand Michelin, dentro l'ex Antica Valigeria Quattrocchi del 1870",
     "mappa": "Via Vittorio Emanuele 176, Palermo, PA"
+  },
+  {
+    "nome": "Mamma Caura",
+    "indirizzo": "Contrada Ettore e Infersa",
+    "citta": "Marsala",
+    "provincia": "TP",
+    "prov": "TP",
+    "regione": "Sicilia",
+    "luogo": "Marsala (TP)",
+    "tel": "+39 348 7446687",
+    "telefono": "+39 348 7446687",
+    "web": "https://www.seisaline.it/mamma-caura/",
+    "note": "Sunset bar dentro le Saline Ettore e Infersa, vista sul Mulino a Vento cinquecentesco 🌅",
+    "mappa": "Contrada Ettore e Infersa, Marsala, TP"
   }
 ];
 var GUIDA_REGPROV={

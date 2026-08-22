@@ -1409,13 +1409,15 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
         label: "Giorno terzo",
         titolo: "Verso Menfi, con Marsala sulla strada",
         paragrafi: [
-          "Si lascia Trapani lungo la costa, con una sosta a Marsala: qui, da Le Lumie, si pranza affacciati sulle Isole Egadi e sulla Riserva Naturale dello Stagnone, dove il sale si raccoglie ancora con i metodi di sempre. Poco nell'entroterra, in Contrada Samperi, la cantina di Marco De Bartoli custodisce il Vecchio Samperi, il vino \"perpetuo\" che negli anni Settanta riportò alla luce il metodo pre-industriale del vero Marsala — elogiato a suo tempo dallo stesso Luigi Veronelli. Nel pomeriggio si prosegue verso Menfi, fra vigneti che scendono fino al mare, fino a La Foresteria — il wine resort della famiglia Planeta, dove si dorme per le prossime due notti, fra le cantine di Ulmo e Dispensa."
+          "Si lascia Trapani lungo la costa, con una sosta a Marsala: qui, da Le Lumie, si pranza affacciati sulle Isole Egadi e sulla Riserva Naturale dello Stagnone, dove il sale si raccoglie ancora con i metodi di sempre. Poco nell'entroterra, in Contrada Samperi, la cantina di Marco De Bartoli custodisce il Vecchio Samperi, il vino \"perpetuo\" che negli anni Settanta riportò alla luce il metodo pre-industriale del vero Marsala — elogiato a suo tempo dallo stesso Luigi Veronelli. Prima di lasciare la zona, un aperitivo al tramonto a Mamma Caura, dentro le Saline Ettore e Infersa: un'ex caserma degli anni Trenta trasformata in sunset bar, con vista sul Mulino a Vento cinquecentesco e sul sole che scompare dietro l'isola di Favignana. Si prosegue poi verso Menfi, fra vigneti che scendono fino al mare, fino a La Foresteria — il wine resort della famiglia Planeta, dove si dorme per le prossime due notti, fra le cantine di Ulmo e Dispensa."
         ],
         note: [
           "Si dorme a Menfi, a La Foresteria (prima delle due notti).",
-          "Pranzo — Le Lumie, Contrada Fontanelle 178/B, Marsala."
+          "Pranzo — Le Lumie, Contrada Fontanelle 178/B, Marsala.",
+          "Da prenotare — degustazione a Marco De Bartoli, Contrada Fornara Samperi 292, tel. 0923 962093.",
+          "Aperitivo al tramonto — Mamma Caura, Saline Ettore e Infersa, tel. 348 7446687."
         ],
-        ristoranti: ["Le Lumie"],
+        ristoranti: ["Le Lumie", "Mamma Caura"],
         produttori: [
           { nome: "Marco De Bartoli", url: "https://www.marcodebartoli.com" }
         ]
