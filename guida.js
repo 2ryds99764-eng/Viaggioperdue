@@ -5532,8 +5532,7 @@ var GUIDA=[
   },
   {
     "nome": "Mamma Caura",
-    "indirizzo": "Contrada Ettore e Infersa",
-    "citta": "Marsala",
+    "indirizzo": "Contrada Ettore Infersa", "citta": "Marsala",
     "provincia": "TP",
     "prov": "TP",
     "regione": "Sicilia",
@@ -5541,8 +5540,8 @@ var GUIDA=[
     "tel": "+39 348 7446687",
     "telefono": "+39 348 7446687",
     "web": "https://www.seisaline.it/mamma-caura/",
-    "note": "Sunset bar dentro le Saline Ettore e Infersa, vista sul Mulino a Vento cinquecentesco 🌅",
-    "mappa": "Contrada Ettore e Infersa, Marsala, TP"
+    "note": "Sunset bar dentro le Saline Ettore Infersa, vista sul Mulino a Vento cinquecentesco 🌅",
+    "mappa": "Contrada Ettore Infersa, Marsala, TP"
   }
 ];
 var GUIDA_REGPROV={
