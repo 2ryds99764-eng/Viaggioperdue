@@ -1350,6 +1350,179 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
       "Ristoranti dell'itinerario — vedi il taccuino \"Dove sedersi a tavola\".",
       "Numeri di emergenza — 112 per qualunque emergenza."
     ]
+  },
+
+  "val-di-mazara-trapani": {
+    occhiello: "Un itinerario per due",
+    titolo: "Da Trapani a Montallegro",
+    sottotitolo: "la Val di Mazara, il versante occidentale della Sicilia, dalle saline di Trapani alla Valle dei Templi, passando per Selinunte e le vigne di Planeta",
+    regione: "Sicilia",
+    copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/C24329A7-A430-4662-B1B4-748393632795_ffbvgc",
+    tappe: ["Trapani","Erice","Marsala","Menfi","Selinunte","Sciacca","Montallegro","Valle dei Templi","Scala dei Turchi"],
+
+    epigrafe: {
+      testo: "Raccontiamo, non giudichiamo. La libertà di scoprire appartiene a chi viaggia, non a chi scrive.",
+      fonte: ""
+    },
+
+    apertura: [
+      "Se Palermo racconta la Sicilia delle corti e dei mercati, questo secondo versante della Val di Mazara ne racconta un'altra: quella delle saline che si tingono di rosa al tramonto, dei templi greci più imponenti del Mediterraneo, delle vigne che scendono fino al mare. È un itinerario più lento, più rurale, con tre sole basi per sette giorni.",
+      "Si comincia a Trapani, città di saline e di ceramiche, con Erice che veglia dall'alto. Si scende poi a Menfi, fra le vigne di Planeta e le rovine di Selinunte, il più esteso parco archeologico d'Europa. Si chiude a Montallegro, base per la Valle dei Templi e la Scala dei Turchi, prima del congedo.",
+      "Sette giorni, sei notti. Quello che segue non è una classifica. È un percorso possibile. Il resto appartiene a chi viaggia."
+    ],
+
+    percorso: {
+      intro: "Palazzo Gatto a Trapani per due notti, La Foresteria a Menfi per due, Relais Briuccia a Montallegro per due. Circa sessanta-novanta chilometri fra una base e l'altra.",
+      giorni: [
+        { giorno: "Giorno primo", titolo: "Trapani, fra saline e ceramiche", km: "", testo: "Centro storico, Mura di Tramontana, la Riserva delle Saline." },
+        { giorno: "Giorno secondo", titolo: "Erice", km: "in giornata", testo: "Il borgo medievale in quota, il Castello di Venere." },
+        { giorno: "Giorno terzo", titolo: "Verso Menfi, con Marsala sulla strada", km: "80 km", testo: "Pranzo a Marsala, arrivo fra le vigne di Planeta." },
+        { giorno: "Giorno quarto", titolo: "Selinunte", km: "in giornata", testo: "Il parco archeologico più esteso d'Europa." },
+        { giorno: "Giorno quinto", titolo: "Verso Montallegro, con Sciacca sulla strada", km: "65 km", testo: "La città termale, poi Relais Briuccia." },
+        { giorno: "Giorno sesto", titolo: "La Valle dei Templi e la Scala dei Turchi", km: "in giornata", testo: "Il sito archeologico, la falesia bianca." },
+        { giorno: "Giorno settimo", titolo: "Congedo", km: "", testo: "Partenza." }
+      ]
+    },
+
+    giorni: [
+      {
+        label: "Giorno primo",
+        titolo: "Trapani, fra saline e ceramiche",
+        paragrafi: [
+          "Palazzo Gatto, dove si dorme per le prime due notti, occupa un edificio del Settecento nel cuore di Trapani, restaurato dall'architetto Simone Micheli e impreziosito da ceramiche di Santo Stefano di Camastra: diciannove camere, un rooftop con vista sulla città, a pochi passi dall'imbarco per le Egadi. Il centro storico si visita in poche ore — le Mura di Tramontana, il lungomare Dante Alighieri — prima di dedicare il tardo pomeriggio alla Riserva Naturale delle Saline di Trapani e Paceco, dove i mulini a vento e le vasche colorate raccontano un mestiere antico quanto la città stessa."
+        ],
+        note: ["Si dorme a Trapani, a Palazzo Gatto (prima delle due notti)."],
+        ristoranti: [],
+        produttori: []
+      },
+      {
+        label: "Giorno secondo",
+        titolo: "Erice",
+        paragrafi: [
+          "Settecentocinquanta metri sul livello del mare, Erice guarda Trapani e le Egadi da una posizione che sembra fatta apposta per la contemplazione — non a caso vi sorgeva un tempio dedicato a Venere Ericina, meta di pellegrinaggio in tutto il Mediterraneo antico. Il borgo medievale, con il Castello di Venere e le sue strade acciottolate, si visita a piedi in una mattinata; la funivia da Trapani rende la salita un'esperienza in sé."
+        ],
+        note: ["Si torna a dormire a Palazzo Gatto."],
+        ristoranti: [],
+        produttori: []
+      },
+      {
+        label: "Giorno terzo",
+        titolo: "Verso Menfi, con Marsala sulla strada",
+        paragrafi: [
+          "Si lascia Trapani lungo la costa, con una sosta a Marsala: qui, da Le Lumie, si pranza affacciati sulle Isole Egadi e sulla Riserva Naturale dello Stagnone, dove il sale si raccoglie ancora con i metodi di sempre. Nel pomeriggio si prosegue verso Menfi, fra vigneti che scendono fino al mare, fino a La Foresteria — il wine resort della famiglia Planeta, dove si dorme per le prossime due notti, fra le cantine di Ulmo e Dispensa."
+        ],
+        note: [
+          "Si dorme a Menfi, a La Foresteria (prima delle due notti).",
+          "Pranzo — Le Lumie, Contrada Fontanelle 178/B, Marsala."
+        ],
+        ristoranti: ["Le Lumie"],
+        produttori: []
+      },
+      {
+        label: "Giorno quarto",
+        titolo: "Selinunte",
+        paragrafi: [
+          "Selinunte è il parco archeologico più esteso d'Europa: otto templi dorici, di cui solo uno — il Tempio E — è stato ricostruito, gli altri lasciati come colonne cadute a raccontare da soli il tempo che è passato. L'Acropoli si affaccia direttamente sul mare, e la vista dai templi verso l'acqua resta una delle immagini più forti di tutta la Sicilia greca. La sera si cena a La Foresteria stessa, fra i colori che sfumano dall'azzurro al rosa sopra i vigneti."
+        ],
+        note: [
+          "Si dorme di nuovo a La Foresteria.",
+          "Cena — La Foresteria, chef Angelo Pumilia, cucina di Casa Planeta."
+        ],
+        ristoranti: ["La Foresteria"],
+        produttori: []
+      },
+      {
+        label: "Giorno quinto",
+        titolo: "Verso Montallegro, con Sciacca sulla strada",
+        paragrafi: [
+          "Si prosegue lungo la costa fino a Sciacca, città termale dal centro medievale intatto, per una sosta breve prima dell'ultimo trasferimento. Relais Briuccia, a Montallegro, occupa un palazzo nobiliare ottocentesco tinteggiato di rosso pompeiano — la base ideale per la Valle dei Templi, la Scala dei Turchi e le riserve naturali di Torre Salsa ed Eraclea Minoa, tutte a pochi minuti di distanza."
+        ],
+        note: [
+          "Si dorme a Montallegro, a Relais Briuccia (prima delle due notti).",
+          "Cena — Capitolo Primo, il ristorante interno del Relais, chef Damiano Ferraro."
+        ],
+        ristoranti: ["Capitolo Primo"],
+        produttori: []
+      },
+      {
+        label: "Giorno sesto",
+        titolo: "La Valle dei Templi e la Scala dei Turchi",
+        paragrafi: [
+          "La Valle dei Templi è il sito archeologico più vasto al mondo dopo Angkor: il Tempio della Concordia, praticamente intatto dal V secolo a.C., resta l'immagine più fotografata della Sicilia greca, ma l'intera valle — con il Tempio di Giunone, quello di Ercole, e i resti del Tempio di Zeus Olimpico — merita una giornata intera. Nel pomeriggio, la Scala dei Turchi: una falesia di marna bianca modellata dal vento e dal mare in gradoni naturali, il cui nome ricorda le incursioni saracene che qui trovavano un approdo naturale."
+        ],
+        note: ["Si dorme di nuovo a Relais Briuccia."],
+        ristoranti: [],
+        produttori: []
+      },
+      {
+        label: "Giorno settimo",
+        titolo: "Congedo",
+        paragrafi: [
+          "Partenza: l'aeroporto di Palermo è a circa due ore, quello di Trapani-Birgi a circa un'ora e mezza."
+        ],
+        note: ["Congedo: Trapani-Birgi è il più vicino, circa un'ora e mezza."],
+        ristoranti: [],
+        produttori: []
+      }
+    ],
+
+    taccuino: {
+      dormire: [
+        {
+          zona: "Trapani", notti: "due notti",
+          strutture: [
+            { nome: "Palazzo Gatto", contatto: "Via della Cuba 9-11, tel. 0923 941344", testo: "Palazzo del Settecento, design di Simone Micheli, rooftop con vista sulla città." }
+          ]
+        },
+        {
+          zona: "Menfi", notti: "due notti",
+          strutture: [
+            { nome: "La Foresteria", contatto: "Contrada Passo di Gurra, tel. 0925 1955460", testo: "Wine resort della famiglia Planeta, fra le cantine di Ulmo e Dispensa." }
+          ]
+        },
+        {
+          zona: "Montallegro", notti: "due notti",
+          strutture: [
+            { nome: "Relais Briuccia", contatto: "Via Trieste 1, tel. 0922 847755", testo: "Palazzo nobiliare ottocentesco, base per la Valle dei Templi." }
+          ]
+        }
+      ],
+
+      tavola: {
+        intro: "Gli indirizzi principali sono già segnati giorno per giorno; li ripetiamo qui in ordine di percorso.",
+        voci: [
+          { nome: "Le Lumie" },
+          { nome: "La Foresteria" },
+          { nome: "Capitolo Primo" }
+        ]
+      },
+
+      approfondimenti: [
+        {
+          titolo: "Le saline, un paesaggio di lavoro",
+          testo: "Fra Trapani e Marsala, la costa si trasforma in un mosaico di vasche geometriche, mulini a vento e cumuli di sale bianco che d'estate luccicano come neve. È un paesaggio interamente costruito dall'uomo, praticato ininterrottamente dai Fenici a oggi: l'acqua di mare entra nelle vasche più esterne e, evaporando progressivamente sotto il sole siciliano, lascia depositare il sale via via più puro nelle vasche interne. I fenicotteri rosa, che qui sostano regolarmente durante la migrazione, si nutrono degli stessi microrganismi che danno alle vasche più concentrate la loro caratteristica tonalità rosata — lo stesso pigmento che colora anche il loro piumaggio."
+        }
+      ],
+
+      aTavola: {
+        titolo: "Dal sale alla vigna",
+        testo: "Sulla costa trapanese la cucina segue il cous cous di pesce, eredità della vicinanza con il Nord Africa, e il sale delle saline che condisce tutto, dal pane alle acciughe. Scendendo verso Menfi il registro cambia: qui comanda la vigna, con l'olio e il vino Planeta protagonisti di ogni piatto, e la cucina di Casa Planeta che reinterpreta le ricette dei monsù, i cuochi delle antiche dimore nobiliari siciliane. Verso Agrigento, infine, la tavola si fa più semplice e contadina — legumi, verdure di stagione, il pane cotto nei forni a legna dei paesi dell'entroterra."
+      }
+    },
+
+    primaDiChiudere: [
+      { titolo: "GLI AEROPORTI", sotto: "Trapani-Birgi e Palermo", testo: "Trapani-Birgi è il più vicino al punto di partenza, con collegamenti low-cost; Palermo Punta Raisi ne ha di più ma è più lontano." },
+      { titolo: "L'AUTO", sotto: "indispensabile", testo: "Necessaria per l'intero percorso; le distanze fra le tre basi sono nell'ordine di sessanta-novanta chilometri ciascuna." },
+      { titolo: "LE SALINE", sotto: "luce migliore nel tardo pomeriggio", testo: "La Riserva di Trapani e Paceco si visita meglio quando la luce radente esalta i colori delle vasche." },
+      { titolo: "LA STAGIONE", sotto: "aprile-giugno, settembre-ottobre", testo: "Le finestre migliori; le saline sono più spettacolari da giugno a settembre, quando la raccolta del sale è in corso." },
+      { titolo: "SE I GIORNI DIVENTANO CINQUE", sotto: "cosa si toglie", testo: "Si toglie una notte a testa da Trapani e Menfi, trasformando Erice e Selinunte in soste di mezza giornata invece che tappe complete." }
+    ],
+
+    numeriUtili: [
+      "Da prenotare — degustazioni a La Foresteria/Planeta; Capitolo Primo, tavoli limitati.",
+      "Ristoranti dell'itinerario — vedi il taccuino \"Dove sedersi a tavola\".",
+      "Numeri di emergenza — 112 per qualunque emergenza."
+    ]
   }
 
 });

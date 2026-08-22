@@ -2175,6 +2175,38 @@ var HOTEL=[
     "web": "https://www.palazzobrunaccini.it",
     "note": "Ex dimora della Principessa Lucrezia Brunaccini, alle spalle di Ballarò ♥️",
     "mappa": "Piazzetta Lucrezia Brunaccini 9, Palermo, PA"
+  },
+  {
+    "nome": "Palazzo Gatto",
+    "indirizzo": "Via della Cuba 9-11",
+    "citta": "Trapani",
+    "provincia": "TP",
+    "prov": "TP",
+    "regione": "Sicilia",
+    "luogo": "Trapani (TP)",
+    "tel": "+39 0923 941344",
+    "telefono": "+39 0923 941344",
+    "cellulare": "",
+    "email": "",
+    "web": "https://www.palazzogatto.it",
+    "note": "Palazzo del Settecento, design di Simone Micheli, ceramiche di Santo Stefano di Camastra ♥️",
+    "mappa": "Via della Cuba 9-11, Trapani, TP"
+  },
+  {
+    "nome": "Relais Briuccia",
+    "indirizzo": "Via Trieste 1",
+    "citta": "Montallegro",
+    "provincia": "AG",
+    "prov": "AG",
+    "regione": "Sicilia",
+    "luogo": "Montallegro (AG)",
+    "tel": "+39 0922 847755",
+    "telefono": "+39 0922 847755",
+    "cellulare": "",
+    "email": "",
+    "web": "https://www.relaisbriuccia.com",
+    "note": "Palazzo nobiliare ottocentesco tinteggiato di rosso pompeiano ♥️",
+    "mappa": "Via Trieste 1, Montallegro, AG"
   }
 ];
 var HOTEL_PROVCITTA={
