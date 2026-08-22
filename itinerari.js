@@ -1409,14 +1409,16 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
         label: "Giorno terzo",
         titolo: "Verso Menfi, con Marsala sulla strada",
         paragrafi: [
-          "Si lascia Trapani lungo la costa, con una sosta a Marsala: qui, da Le Lumie, si pranza affacciati sulle Isole Egadi e sulla Riserva Naturale dello Stagnone, dove il sale si raccoglie ancora con i metodi di sempre. Nel pomeriggio si prosegue verso Menfi, fra vigneti che scendono fino al mare, fino a La Foresteria — il wine resort della famiglia Planeta, dove si dorme per le prossime due notti, fra le cantine di Ulmo e Dispensa."
+          "Si lascia Trapani lungo la costa, con una sosta a Marsala: qui, da Le Lumie, si pranza affacciati sulle Isole Egadi e sulla Riserva Naturale dello Stagnone, dove il sale si raccoglie ancora con i metodi di sempre. Poco nell'entroterra, in Contrada Samperi, la cantina di Marco De Bartoli custodisce il Vecchio Samperi, il vino \"perpetuo\" che negli anni Settanta riportò alla luce il metodo pre-industriale del vero Marsala — elogiato a suo tempo dallo stesso Luigi Veronelli. Nel pomeriggio si prosegue verso Menfi, fra vigneti che scendono fino al mare, fino a La Foresteria — il wine resort della famiglia Planeta, dove si dorme per le prossime due notti, fra le cantine di Ulmo e Dispensa."
         ],
         note: [
           "Si dorme a Menfi, a La Foresteria (prima delle due notti).",
           "Pranzo — Le Lumie, Contrada Fontanelle 178/B, Marsala."
         ],
         ristoranti: ["Le Lumie"],
-        produttori: []
+        produttori: [
+          { nome: "Marco De Bartoli", url: "https://www.marcodebartoli.com" }
+        ]
       },
       {
         label: "Giorno quarto",
