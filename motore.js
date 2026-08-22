@@ -1319,7 +1319,7 @@ function costruisciConcierge() {
       const j = Math.floor(Math.random() * (i + 1));
       const tmp = mischiati[i]; mischiati[i] = mischiati[j]; mischiati[j] = tmp;
     }
-    if (stato.simbolo === "") return mischiati;
+    if (stato.tipo === "itinerario" || stato.simbolo === "") return mischiati;
     const quanti = Math.min(mischiati.length, 1 + Math.floor(Math.random() * 3));
     return mischiati.slice(0, quanti);
   }
