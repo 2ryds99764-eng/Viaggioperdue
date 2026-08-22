@@ -473,7 +473,7 @@ var GUIDA=[
     "tel": "+39 089 871029",
     "telefono": "+39 089 871029",
     "web": "http://www.ristorantelacaravella.it",
-    "note": "Chiuso il martedì",
+    "note": "Chiuso il martedì ⭐",
     "mappa": "Via Matteo Camera 12, Amalfi, SA"
   },
   {
@@ -5261,7 +5261,7 @@ var GUIDA=[
     "tel": "+39 0931 1815404",
     "telefono": "+39 0931 1815404",
     "web": "https://www.cortilespiritosanto.com",
-    "note": "1 Stella Michelin, chef Giuseppe Torrisi, dentro Palazzo Salomone 👑",
+    "note": "1 Stella Michelin, chef Giuseppe Torrisi, dentro Palazzo Salomone ⭐",
     "mappa": "Via Salomone 21, Siracusa, SR"
   },
   {
