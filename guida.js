@@ -5515,6 +5515,20 @@ var GUIDA=[
     "web": "https://www.limurestaurant.it",
     "note": "1 Stella Michelin, chef Nino Ferreri, dentro una torre cinquecentesca",
     "mappa": "Via Ciro Scianna 177, Bagheria, PA"
+  },
+  {
+    "nome": "Buatta Cucina Popolana",
+    "indirizzo": "Via Vittorio Emanuele 176",
+    "citta": "Palermo",
+    "provincia": "PA",
+    "prov": "PA",
+    "regione": "Sicilia",
+    "luogo": "Palermo (PA)",
+    "tel": "+39 091 322378",
+    "telefono": "+39 091 322378",
+    "web": "https://www.buattapalermo.it",
+    "note": "Bib Gourmand Michelin, dentro l'ex Antica Valigeria Quattrocchi del 1870",
+    "mappa": "Via Vittorio Emanuele 176, Palermo, PA"
   }
 ];
 var GUIDA_REGPROV={
