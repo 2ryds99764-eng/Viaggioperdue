@@ -1201,6 +1201,155 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
       "Ristoranti dell'itinerario — vedi il taccuino \"Dove sedersi a tavola\".",
       "Numeri di emergenza — 112 per qualunque emergenza."
     ]
+  },
+
+  "val-di-mazara-palermo": {
+    occhiello: "Un itinerario per due",
+    titolo: "Da Via Roma a Ballarò",
+    sottotitolo: "la Val di Mazara, cinque giorni a Palermo fra l'eleganza di Via Roma e la vitalità di Ballarò, con i mosaici di Monreale a fare da cerniera",
+    regione: "Sicilia",
+    copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/52DA4616-D0BD-406D-BB72-DEA9C2BCE107_usep56",
+    tappe: ["Palermo","Via Roma","Teatro Massimo","Quattro Canti","Palazzo dei Normanni","Ballarò","Vucciria","Monreale","La Kalsa"],
+
+    epigrafe: {
+      testo: "Raccontiamo, non giudichiamo. La libertà di scoprire appartiene a chi viaggia, non a chi scrive.",
+      fonte: ""
+    },
+
+    apertura: [
+      "Palermo non si lascia raccontare da un solo punto di vista. C'è la città elegante del Liberty e dei grand hotel, quella che guarda l'Europa da Via Roma e dal Teatro Massimo; e c'è la città araba, quella dei mercati che gridano ancora come mille anni fa, dove il Mediterraneo si sente più che altrove. Questo itinerario le tiene insieme, cambiando base a metà percorso invece di sceglierne una sola.",
+      "Si comincia al Grand Hotel et Des Palmes, palazzo del 1874 sulla centralissima Via Roma, per due giorni dedicati al cuore monumentale della città — il Teatro Massimo, la Cappella Palatina, la Cattedrale. Si continua a Palazzo Brunaccini, alle spalle del mercato di Ballarò, per la Palermo più autentica e meno filtrata. Nel mezzo, una giornata a Monreale, dove i mosaici bizantini più estesi del mondo raccontano l'incontro fra le tre culture che hanno fatto la Sicilia.",
+      "Cinque giorni, quattro notti. Quello che segue non è una classifica. È un percorso possibile. Il resto appartiene a chi viaggia."
+    ],
+
+    percorso: {
+      intro: "Grand Hotel et Des Palmes per due notti, Palazzo Brunaccini per due, con Monreale a fare da cerniera fra le due basi. Tutto raggiungibile a piedi o in taxi, senza bisogno di auto.",
+      giorni: [
+        { giorno: "Giorno primo", titolo: "Via Roma, il Teatro Massimo, i Quattro Canti", km: "", testo: "Arrivo, prima passeggiata nel cuore monumentale della città." },
+        { giorno: "Giorno secondo", titolo: "Palazzo dei Normanni e la Cappella Palatina", km: "", testo: "L'arte arabo-normanna, la Cattedrale." },
+        { giorno: "Giorno terzo", titolo: "Verso Ballarò, il mercato e la Vucciria", km: "", testo: "Cambio di base, i due mercati storici." },
+        { giorno: "Giorno quarto", titolo: "Monreale", km: "10 km", testo: "I mosaici bizantini, il chiostro benedettino." },
+        { giorno: "Giorno quinto", titolo: "La Kalsa, e il congedo", km: "", testo: "Il quartiere più antico, Palazzo Abatellis." }
+      ]
+    },
+
+    giorni: [
+      {
+        label: "Giorno primo",
+        titolo: "Via Roma, il Teatro Massimo, i Quattro Canti",
+        paragrafi: [
+          "Il Grand Hotel et Des Palmes, dove si dorme per le prime due notti, fu costruito nel 1874 per la famiglia Ingham-Whitaker come residenza privata, con un tunnel segreto che la collegava alla chiesa anglicana di fronte. Oggi è un albergo Liberty di cinque stelle, con il Giardino d'Inverno disegnato da Ernesto Basile e un passato che comprende anche l'omicidio del bandito Raffaele Cutolo — ne fu ambientato Dimenticare Palermo di Francesco Rosi.",
+          "A dieci minuti a piedi, il Teatro Massimo è il più grande teatro d'opera d'Italia: l'ultima scena de Il Padrino - Parte III è stata girata sulla sua scalinata. Il centro storico si organizza intorno ai Quattro Canti, l'incrocio barocco che divide la città in quattro mandamenti, ciascuno con la propria fontana e la propria statua di santo patrono."
+        ],
+        note: ["Si dorme al Grand Hotel et Des Palmes (prima delle due notti)."],
+        ristoranti: [],
+        produttori: []
+      },
+      {
+        label: "Giorno secondo",
+        titolo: "Palazzo dei Normanni e la Cappella Palatina",
+        paragrafi: [
+          "Il Palazzo dei Normanni, oggi sede dell'Assemblea Regionale Siciliana, custodisce la Cappella Palatina: fatta costruire da Ruggero II nel 1132, è forse l'esempio più compiuto di arte arabo-normanna al mondo — mosaici bizantini, soffitto ligneo a muqarnas di manifattura islamica, pavimento cosmatesco, tutto nello stesso spazio. Poco distante, la Cattedrale di Palermo mescola stili accumulati in otto secoli di rimaneggiamenti, dal normanno al neoclassico.",
+          "La sera si cena da Osteria dei Vespri, al piano terra di Palazzo Gangi — una delle dimore più prestigiose della città, location del ballo ne Il Gattopardo di Visconti: cucina gourmet e tradizionale insieme, oltre seicento etichette in carta."
+        ],
+        note: [
+          "Si torna a dormire al Grand Hotel et Des Palmes.",
+          "Cena — Osteria dei Vespri, Piazza Croce dei Vespri 6, dentro Palazzo Gangi."
+        ],
+        ristoranti: ["Osteria dei Vespri"],
+        produttori: []
+      },
+      {
+        label: "Giorno terzo",
+        titolo: "Verso Ballarò, il mercato e la Vucciria",
+        paragrafi: [
+          "Trasferimento breve, pochi minuti, ma un cambio di registro completo: Palazzo Brunaccini, dove si dorme per le prossime due notti, occupa l'ex dimora della principessa Lucrezia Brunaccini, alle spalle del mercato di Ballarò — il più antico e rumoroso di Palermo, dove i banchi gridano ancora la merce come secoli fa.",
+          "Nel pomeriggio si cammina fino alla Vucciria, l'altro mercato storico della città, oggi più silenzioso di giorno e animato la sera, quando i banchi lasciano il posto a bancarelle di street food. La cena si fa da Buatta Cucina Popolana, in un'antica bottega di Via Vittorio Emanuele: Bib Gourmand della Guida Michelin, cucina popolare palermitana senza compromessi."
+        ],
+        note: ["Si dorme a Palazzo Brunaccini (prima delle due notti)."],
+        ristoranti: ["Buatta Cucina Popolana"],
+        produttori: []
+      },
+      {
+        label: "Giorno quarto",
+        titolo: "Monreale",
+        paragrafi: [
+          "Dieci chilometri a sud, Monreale custodisce uno dei capolavori assoluti dell'arte medievale: il Duomo, inaugurato nel 1174 da Guglielmo II, ha oltre seimilatrecento metri quadrati di mosaici dorati che raccontano l'Antico e il Nuovo Testamento, un soffitto ligneo a capriate del XII secolo, un pavimento in opus sectile di marmi policromi. Accanto, il chiostro benedettino — duecentoventotto colonne, ciascuna diversa dalle altre — offre un momento di silenzio dopo lo sfarzo della chiesa."
+        ],
+        note: [
+          "Si dorme di nuovo a Palazzo Brunaccini.",
+          "Da verificare — orari del Duomo: chiuso la domenica mattina, pausa pranzo nei giorni feriali."
+        ],
+        ristoranti: [],
+        produttori: []
+      },
+      {
+        label: "Giorno quinto",
+        titolo: "La Kalsa, e il congedo",
+        paragrafi: [
+          "L'ultimo giorno si dedica alla Kalsa, il quartiere più antico della città, di fondazione araba: il Museo Regionale di Palazzo Abatellis custodisce il Trionfo della Morte, affresco quattrocentesco di autore ignoto, e il busto di Eleonora d'Aragona di Francesco Laurana. Prima di ripartire, un'ultima passeggiata fra le vie del centro storico, magari fermandosi per un'ultima arancina da uno dei tanti banchi di strada, o per un'ultima dolcezza da Pasticceria Cappello, patria della torta Setteveli."
+        ],
+        note: [
+          "Congedo: l'aeroporto Falcone e Borsellino è a circa quaranta minuti.",
+          "Ultima tappa — Pasticceria Cappello, Via Colonna Rotta 68."
+        ],
+        ristoranti: ["Pasticceria Cappello"],
+        produttori: []
+      }
+    ],
+
+    taccuino: {
+      dormire: [
+        {
+          zona: "Via Roma", notti: "due notti",
+          strutture: [
+            { nome: "Grand Hotel et Des Palmes", contatto: "Via Roma 398, tel. 091 8048800", testo: "Palazzo del 1874 della famiglia Ingham-Whitaker, Giardino d'Inverno di Ernesto Basile." }
+          ]
+        },
+        {
+          zona: "Ballarò", notti: "due notti",
+          strutture: [
+            { nome: "Palazzo Brunaccini", contatto: "Piazzetta Lucrezia Brunaccini 9, tel. 091 586904", testo: "Ex dimora nobiliare, alle spalle del mercato di Ballarò." }
+          ]
+        }
+      ],
+
+      tavola: {
+        intro: "Gli indirizzi principali sono già segnati giorno per giorno; li ripetiamo qui in ordine di percorso, con un'opzione in più.",
+        voci: [
+          { nome: "Osteria dei Vespri" },
+          { nome: "Buatta Cucina Popolana" },
+          { nome: "Ristorante Gagini" },
+          { nome: "Pasticceria Cappello" }
+        ]
+      },
+
+      approfondimenti: [
+        {
+          titolo: "L'arte arabo-normanna, Patrimonio UNESCO",
+          testo: "Nel 2015 l'UNESCO ha riconosciuto un intero itinerario — Palermo, Cefalù e Monreale — come testimonianza di un fenomeno unico al mondo: la sintesi fra elementi architettonici occidentali, islamici e bizantini, fioriti nella Sicilia normanna fra XII e XIII secolo. La Cappella Palatina, il Duomo di Monreale, e la stessa Cattedrale di Palermo ne sono gli esempi più compiuti: mosaici bizantini, soffitti a muqarnas di manifattura araba, e l'architettura normanna a tenerli insieme. Nessun altro luogo al mondo racconta con la stessa chiarezza l'incontro — non lo scontro — fra le tre culture che si sono contese il Mediterraneo medievale."
+        }
+      ],
+
+      aTavola: {
+        titolo: "Dal mercato alla tavola elegante",
+        testo: "A Palermo il cibo di strada non è un ripiego, è una vera e propria cucina a sé: panelle e crocché fritte al momento, pane con la milza, sfincione, arancine con la punta. Ballarò e la Vucciria restano i luoghi migliori per assaggiarlo, in piedi, fra le grida dei venditori. Ma la stessa città sa essere elegante quando serve: da Osteria dei Vespri, dentro un palazzo che ha visto il Gattopardo di Visconti, o da Buatta, dove la cucina popolare si rialza di un grado senza perdere la propria anima. Il filo che tiene insieme le due tavole è lo stesso: rispetto per l'ingrediente povero, trattato con la stessa cura di uno nobile."
+      }
+    },
+
+    primaDiChiudere: [
+      { titolo: "GLI AEROPORTI", sotto: "Falcone e Borsellino", testo: "L'aeroporto di Punta Raisi è a circa quaranta minuti dal centro." },
+      { titolo: "L'AUTO", sotto: "sconsigliata in centro", testo: "Il traffico è denso, i parcheggi scarsi, e le due basi di questo itinerario si raggiungono comodamente a piedi o in taxi dall'aeroporto." },
+      { titolo: "LE ZONE A TRAFFICO LIMITATO", sotto: "gran parte del centro storico", testo: "Incluse le zone di entrambe le basi: un motivo in più per lasciare l'auto fuori città." },
+      { titolo: "LA STAGIONE", sotto: "aprile-giugno, settembre-ottobre", testo: "Le finestre migliori; ad agosto il caldo in città può essere intenso." },
+      { titolo: "SE I GIORNI DIVENTANO QUATTRO", sotto: "cosa si toglie", testo: "Si toglie una notte a testa da entrambe le basi, unendo Ballarò/Vucciria alla giornata di Monreale." }
+    ],
+
+    numeriUtili: [
+      "Da prenotare — Cappella Palatina (Palazzo dei Normanni), verificare orari di apertura variabili per eventi istituzionali; Osteria dei Vespri, tavoli limitati.",
+      "Ristoranti dell'itinerario — vedi il taccuino \"Dove sedersi a tavola\".",
+      "Numeri di emergenza — 112 per qualunque emergenza."
+    ]
   }
 
 });

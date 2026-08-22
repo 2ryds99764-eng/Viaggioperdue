@@ -2143,6 +2143,38 @@ var HOTEL=[
     "web": "https://www.hotelvillaschuler.com",
     "note": "Pensione di famiglia dal 1905, villa liberty con giardino, via panoramica lato mare 🌄 ♥️",
     "mappa": "Piazzetta Bastione, Via Roma, Taormina, ME"
+  },
+  {
+    "nome": "Grand Hotel et Des Palmes",
+    "indirizzo": "Via Roma 398",
+    "citta": "Palermo",
+    "provincia": "PA",
+    "prov": "PA",
+    "regione": "Sicilia",
+    "luogo": "Palermo (PA)",
+    "tel": "+39 091 8048800",
+    "telefono": "+39 091 8048800",
+    "cellulare": "",
+    "email": "",
+    "web": "https://despalmes.mangias.com",
+    "note": "Palazzo del 1874 della famiglia Ingham-Whitaker, Art Nouveau, Salone degli Specchi ♥️ 🌄",
+    "mappa": "Via Roma 398, Palermo, PA"
+  },
+  {
+    "nome": "Palazzo Brunaccini",
+    "indirizzo": "Piazzetta Lucrezia Brunaccini 9",
+    "citta": "Palermo",
+    "provincia": "PA",
+    "prov": "PA",
+    "regione": "Sicilia",
+    "luogo": "Palermo (PA)",
+    "tel": "+39 091 586904",
+    "telefono": "+39 091 586904",
+    "cellulare": "",
+    "email": "",
+    "web": "https://www.palazzobrunaccini.it",
+    "note": "Ex dimora della Principessa Lucrezia Brunaccini, alle spalle di Ballarò ♥️",
+    "mappa": "Piazzetta Lucrezia Brunaccini 9, Palermo, PA"
   }
 ];
 var HOTEL_PROVCITTA={
