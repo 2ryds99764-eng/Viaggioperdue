@@ -1452,10 +1452,14 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
         label: "Giorno sesto",
         titolo: "La Valle dei Templi e la Scala dei Turchi",
         paragrafi: [
-          "La Valle dei Templi è il sito archeologico più vasto al mondo dopo Angkor: il Tempio della Concordia, praticamente intatto dal V secolo a.C., resta l'immagine più fotografata della Sicilia greca, ma l'intera valle — con il Tempio di Giunone, quello di Ercole, e i resti del Tempio di Zeus Olimpico — merita una giornata intera. Nel pomeriggio, la Scala dei Turchi: una falesia di marna bianca modellata dal vento e dal mare in gradoni naturali, il cui nome ricorda le incursioni saracene che qui trovavano un approdo naturale."
+          "La Valle dei Templi è il sito archeologico più vasto al mondo dopo Angkor: il Tempio della Concordia, praticamente intatto dal V secolo a.C., resta l'immagine più fotografata della Sicilia greca, ma l'intera valle — con il Tempio di Giunone, quello di Ercole, e i resti del Tempio di Zeus Olimpico — merita una giornata intera. Nel pomeriggio, la Scala dei Turchi: una falesia di marna bianca modellata dal vento e dal mare in gradoni naturali, il cui nome ricorda le incursioni saracene che qui trovavano un approdo naturale.",
+          "Chi ha tempo e voglia di allungare può spingersi fino a Licata, un'ora abbondante di strada: qui, a La Madia, Pino Cuttaia ha guidato per sette anni La Sicilia di Ulisse — l'associazione che raccoglie molti degli indirizzi di questo itinerario — prima di cedere la presidenza a Tony Lo Coco nel 2024. Tornato in Sicilia nel 2000 dopo anni di formazione in Piemonte, la sua cucina — due Stelle Michelin dal 2009 — si costruisce tutta sulla memoria: \"il mio ingrediente segreto\", dice lui stesso, capace di trasformare un ricordo d'infanzia in un piatto come la Nuvola di Mozzarella, premiata \"piatto dell'anno\" nel 2013."
         ],
-        note: ["Si dorme di nuovo a Relais Briuccia."],
-        ristoranti: [],
+        note: [
+          "Si dorme di nuovo a Relais Briuccia.",
+          "Deviazione facoltativa — La Madia, Corso Filippo Re Capriata 22, Licata, tel. 0922 771443: due Stelle Michelin, chef Pino Cuttaia. Un'ora abbondante da Montallegro, consigliata solo se non si ha fretta."
+        ],
+        ristoranti: ["La Madia"],
         produttori: []
       },
       {
