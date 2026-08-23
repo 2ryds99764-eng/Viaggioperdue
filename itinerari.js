@@ -1527,6 +1527,247 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
       "Ristoranti dell'itinerario — vedi il taccuino \"Dove sedersi a tavola\".",
       "Numeri di emergenza — 112 per qualunque emergenza."
     ]
+  },
+
+  "ragusa-siracusa": {
+    occhiello: "Un itinerario per due",
+    titolo: "Da Ragusa a Siracusa",
+    sottotitolo: "sette giorni lungo il filo del barocco, dall'altopiano ibleo al mare di Ortigia",
+    regione: "Sicilia",
+    copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/23FC9D95-1811-4C25-9B86-AB9CC2768ACE_crnpn8",
+    tappe: ["Ragusa Ibla","Donnafugata","Punta Secca","Scicli","Modica","Cava d'Ispica","Vendicari","Marzamemi","Noto","Siracusa","Ortigia","Catania"],
+
+    epigrafe: {
+      testo: "Raccontiamo, non giudichiamo. La libertà di scoprire appartiene a chi viaggia, non a chi scrive.",
+      fonte: ""
+    },
+
+    apertura: [
+      "Ci sono itinerari che hanno un senso di marcia, e questo è uno di quelli. Conviene percorrerlo da ovest verso est: cominciare in alto, sull'altopiano ibleo, dove la pietra è chiara e le città stanno appese ai bordi delle gole, e scendere piano verso il mare, fino a Siracusa, dove l'acqua entra dentro la città e non se ne va più.",
+      "La ragione non è soltanto panoramica. Andando in questa direzione anche la tavola racconta una storia con un principio e una fine. Si comincia con la cucina di terra degli Iblei, quella della ricotta appena fatta, del sugo di maiale, del caciocavallo e del cioccolato lavorato a freddo. Si finisce con i ricci di mare e il gambero rosso, con il pesce che a Ortigia si compra al mercato e si mangia a mezzogiorno. Nel mezzo, il tonno di Marzamemi fa da cerniera fra le due cose — e un pasticcere di fama internazionale, a Noto, dà a tutto il percorso un centro gravitazionale che nessuna guida avrebbe previsto qualche decennio fa.",
+      "Sette giorni sono la misura giusta per non correre. Due notti a Ragusa Ibla e tre a Siracusa evitano di fare e disfare le valigie ogni sera, e lasciano spazio a una giornata intera a Catania, che è un'altra Sicilia ancora: nera di pietra lavica, rumorosa, con l'Etna in fondo a ogni strada.",
+      "Quello che segue non è una classifica e non vuole esserlo. È un percorso possibile, con dentro gli indirizzi di chi lavora bene e da tempo: trattorie di famiglia, gastronomie che friggono al momento, ristoranti stellati che restano fedeli al proprio territorio, case dove si viene accolti da qualcuno che vi abita. Il resto — cosa vedere per primo, dove fermarsi più a lungo, cosa saltare — appartiene a chi viaggia."
+    ],
+
+    percorso: {
+      intro: "Ragusa Ibla per due notti, Modica per una, Noto per una, Siracusa per le ultime tre. Circa trecento chilometri in tutto, mai più di un'ora fra una tappa e l'altra, e una sola giornata davvero lunga: quella di Catania.",
+      giorni: [
+        { giorno: "Giorno primo", titolo: "Ragusa Ibla", km: "", testo: "Arrivo, il Duomo di San Giorgio, il Giardino Ibleo, la prima cena a Ibla." },
+        { giorno: "Giorno secondo", titolo: "verso la costa", km: "100 km", testo: "Il Castello di Donnafugata, Punta Secca, Marina di Ragusa, ritorno passando per Scicli." },
+        { giorno: "Giorno terzo", titolo: "Modica", km: "35 km", testo: "Modica alta e Modica bassa, il cioccolato, la Cava d'Ispica nel pomeriggio." },
+        { giorno: "Giorno quarto", titolo: "verso Noto", km: "115 km", testo: "La riserva di Vendicari al mattino, Marzamemi a pranzo, Portopalo e l'Isola delle Correnti, Noto alla sera." },
+        { giorno: "Giorno quinto", titolo: "Noto e Siracusa", km: "60 km", testo: "Il barocco di Noto, Corrado Assenza, il Fiume Ciane, il trasferimento a Ortigia." },
+        { giorno: "Giorno sesto", titolo: "Catania", km: "130 km", testo: "Una giornata intera in città, o mezza giornata sull'Etna." },
+        { giorno: "Giorno settimo", titolo: "Siracusa", km: "10 km", testo: "La Neapolis, il Museo Paolo Orsi, l'ultimo pomeriggio nell'isola." }
+      ]
+    },
+
+    giorni: [
+      {
+        label: "Giorno primo",
+        titolo: "Ragusa, due città sovrapposte",
+        paragrafi: [
+          "Dopo il terremoto del 1693 i ragusani si divisero. Una parte volle ricominciare da capo su un pianoro vicino, in una città ordinata e disegnata a griglia: è Ragusa Superiore. L'altra parte si ostinò a ricostruire dov'era sempre stata, sopra le rovine dell'abitato medievale, e ne conservò l'andamento a gomitolo, i vicoli che si avvitano e i cortili che si aprono all'improvviso. È Ragusa Ibla, ed è lì che vale la pena dormire.",
+          "Il Duomo di San Giorgio sta in cima a una scalinata, con la facciata convessa a torre disegnata da Rosario Gagliardi: la si vede da lontano e sembra avanzare verso chi sale. All'estremità opposta del quartiere il Giardino Ibleo raccoglie palme, tre chiese e un belvedere sulla valle dell'Irminio. Nei suggestivi bassi accanto alla Chiesa dei Miracoli, un altro monumento UNESCO, si trova Locanda Don Serafino: una Stella Michelin, lo chef Vincenzo Candiano, una cantina di oltre duemila etichette visibile attraverso botole di vetro — la famiglia La Rosa la porta avanti dal 1953, quando i genitori Serafino ed Elia aprirono a Marina di Ragusa il primo ristorante di famiglia.",
+          "La sera, quando i pullman se ne vanno, Ibla si svuota e resta uno dei posti più silenziosi dell'isola: è il momento migliore per la prima cena."
+        ],
+        note: [
+          "Si dorme a Ragusa Ibla.",
+          "Cena — Locanda Don Serafino, Via Avv. G. Ottaviano 13, o le trattorie di famiglia del centro.",
+          "La colazione, il mattino dopo — Dolci d'Autore, via Monti Iblei 19, tel. 0932 641552, in città alta; chiuso il lunedì. Per i cannoli, Pasticceria Iudice, via Giardino 23, tel. 0932 1882071."
+        ],
+        ristoranti: ["Locanda Don Serafino"],
+        produttori: []
+      },
+      {
+        label: "Giorno secondo",
+        titolo: "Il castello, il faro, la strada barocca",
+        paragrafi: [
+          "Venti chilometri a ovest, in mezzo alla campagna, il Castello di Donnafugata non è un castello ma la villa ottocentesca di una famiglia che voleva sembrare più antica di quanto fosse. Ha centoventidue stanze, un labirinto di pietra nel parco e un museo del costume che merita il tempo che chiede. È chiuso il lunedì: se il secondo giorno cade di lunedì, basta scambiarlo con il terzo.",
+          "Da lì si scende al mare. A Punta Secca la casa che tutti riconoscono si affaccia direttamente sulla spiaggia, accanto al faro. A Marina di Ragusa, sul lungomare Andrea Doria, Votavota guarda il Mediterraneo da larghe vetrate: una Stella Michelin, lo chef Giuseppe Causarano e il pastry chef Antonio Colombo, un orto proprio — \"Gli Orti del Votavota\" — da cui arrivano molte delle verdure in carta.",
+          "Il ritorno passa da Scicli. Via Francesco Mormina Penna è una strada breve e senza sbavature, con i palazzi e le chiese allineati come in un disegno; la Chiesa di San Bartolomeo ha un interno che non ci si aspetta dalla facciata, e Palazzo Beneventano espone sulle mensole una processione di mascheroni. Il municipio, per chi ha guardato la serie, è il commissariato."
+        ],
+        note: [
+          "Si dorme di nuovo a Ragusa Ibla.",
+          "Pranzo o cena — Votavota, Lungomare Andrea Doria 48, Marina di Ragusa, tel. 334 1426962; oppure Don Peppinu o Coffee delle Rose, più informali, sullo stesso lungomare.",
+          "Da verificare prima di partire — Castello di Donnafugata, tel. 0932 676500, chiuso il lunedì."
+        ],
+        ristoranti: ["Votavota"],
+        produttori: []
+      },
+      {
+        label: "Giorno terzo",
+        titolo: "Modica, in verticale",
+        paragrafi: [
+          "Modica sta dentro una gola e si legge su due piani. In basso il Corso Umberto I, che era un torrente e oggi è una strada; in alto la città vecchia, aggrappata al fianco della roccia. Fra le due il Duomo di San Giorgio, in cima a una scalinata di circa duecentocinquanta gradini che si salgono lentamente, con qualche sosta dichiarata come pausa panoramica.",
+          "Il cioccolato di Modica si lavora a freddo: lo zucchero non si scioglie e resta in cristalli, così il morso è granuloso e la pasta di cacao conserva il suo sapore intero. All'Antica Dolceria Bonajuto, in fondo al corso, si può assistere alla lavorazione e assaggiare anche le 'mpanatigghi, dolcetti ripieni di cioccolato e carne di manzo che arrivano dritti dalla dominazione spagnola.",
+          "La cena si fa da Radici – L'Osteria di Accursio, accanto al Duomo di San Pietro: lo chef Accursio Craparo, siciliano di Sciacca tornato a mettere radici qui nel 2019, si è formato anche nelle cucine di Corrado Assenza — lo stesso maestro che si incontrerà fra due giorni a Noto. Nel pomeriggio, la Cava d'Ispica: un canyon lungo tredici chilometri scavato da grotte preistoriche, necropoli, catacombe e chiese rupestri. Si entra dal Parco Archeologico sul lato Modica o dal Parco della Forza sul lato Ispica."
+        ],
+        note: [
+          "Si dorme a Modica.",
+          "Cena — Radici – L'Osteria di Accursio, Via Grimaldi 55, tel. 331 2369404.",
+          "La colazione — Caffè dell'Arte, via Sacro Cuore 64a, tel. 0932 943257, apre alle sei e mezza. In città alta, Gran Bar, corso Sicilia 20, per la granita di gelsi.",
+          "Numeri utili — Antica Dolceria Bonajuto, tel. 0932 941225 (degustazioni su prenotazione); Parco archeologico della Cava d'Ispica, tel. 0932 771667."
+        ],
+        ristoranti: ["Radici – L'Osteria di Accursio"],
+        produttori: []
+      },
+      {
+        label: "Giorno quarto",
+        titolo: "La riserva, il borgo, la punta dell'isola",
+        paragrafi: [
+          "La Riserva di Vendicari si visita al mattino, prima che il sole diventi ingombrante. È una striscia di pantani salmastri dove sostano i fenicotteri, con una tonnara dismessa e una torre sveva in riva al mare e due spiagge che si raggiungono soltanto a piedi, Calamosche ed Eloro. L'ombra è pochissima: acqua e scarpe comode non sono un consiglio, sono una condizione.",
+          "A mezzogiorno si pranza a Marzamemi, che era un villaggio di tonnaroti e ha conservato le case basse attorno a Piazza Regina Margherita e alla tonnara. Nel pomeriggio si scende ancora, fino a Portopalo e all'Isola delle Correnti, il punto più a sud della Sicilia continentale: quando il mare è calmo ci si arriva a piedi, con l'acqua alle ginocchia, e da lì Ionio e Mediterraneo sono la stessa cosa.",
+          "In serata si risale verso Noto, trentacinque chilometri. Conviene arrivarci quando è già buio: il corso illuminato, con la pietra che vira al miele, giustifica da solo il cambio di base."
+        ],
+        note: [
+          "Si dorme a Noto.",
+          "La colazione prima di partire — Caffè dell'Arte a Modica, apre alle sei e mezza. A Vendicari non c'è nulla: conviene arrivare con acqua e qualcosa da mangiare.",
+          "Numeri utili — Riserva di Vendicari, tel. 0931 468879."
+        ],
+        ristoranti: [],
+        produttori: []
+      },
+      {
+        label: "Giorno quinto",
+        titolo: "Noto al mattino, il Ciane e Ortigia alla sera",
+        paragrafi: [
+          "Noto fu ricostruita da zero, altrove rispetto alla città distrutta, e questo si vede: è l'unica delle città del Val di Noto pensata tutta insieme, come un progetto. La Cattedrale di San Nicolò chiude la scenografia in cima alla sua scalinata; la cupola crollò nel 1996 ed è stata ricostruita, e oggi si sale. In via Nicolaci, Palazzo Villadorata regge i balconi con mensole scolpite a cavalli, sirene e figure grottesche: è il punto in cui il barocco netino smette di essere composto e si diverte.",
+          "Ma la vera ragione per fermarsi a lungo a Noto ha il nome di un uomo solo: Corrado Assenza. Nato qui nel 1960, cresciuto nel laboratorio di famiglia — il Caffè Sicilia, aperto nel 1892 — si laureò in Agraria a Bologna specializzandosi in apicoltura prima di tornare nel 1985 a guidare l'attività. La sua filosofia, quella di un pasticcere che ragiona da agronomo, gli è valsa le Tre Torte del Gambero Rosso per anni consecutivi, il Premio Veronelli, e nel 2018 un intero episodio di Chef's Table: Pastry su Netflix, che ha reso Noto una meta di culto per i viaggiatori gourmet di tutto il mondo. La sua influenza attraversa anche altri due indirizzi di questo itinerario — Accursio Craparo a Modica e Marco Baglieri qui a Noto, entrambi suoi allievi.",
+          "Prima di lasciare la zona, un'ultima uscita: la Riserva Naturale Orientata del Fiume Ciane, l'unico luogo in Europa dove il papiro cresce spontaneo lungo un corso d'acqua dolce, si visita in barca a remi risalendo la corrente fra le canne. Antonio Vella, di una famiglia di barcaioli locali, accompagna l'escursione, che tocca anche le Saline di Siracusa. Nel pomeriggio, quaranta minuti di strada, e Ortigia: aperitivo sul lungomare, il tramonto dalla Fonte Aretusa — una sorgente d'acqua dolce a due passi dal mare, con i papiri — e la prima cena nell'isola."
+        ],
+        note: [
+          "Si dorme a Siracusa, in Ortigia (prima delle tre notti).",
+          "Colazione — Caffè Sicilia, Corso Vittorio Emanuele 125, tel. 0931 835013, Corrado Assenza; oppure Caffè Costanzo, via Silvio Spaventa 7/9, con meno coda.",
+          "Cena — Ristorante Crocifisso, Via Principe Umberto 48, tel. 0931 968608, chef Marco Baglieri.",
+          "Da prenotare — escursione al Fiume Ciane e alle Saline con Antonio Vella, tel. 346 1599635."
+        ],
+        ristoranti: ["Caffè Sicilia", "Ristorante Crocifisso"],
+        produttori: [
+          { nome: "Escursioni Antonio Vella (Fiume Ciane)", url: "tel:+393461599635" }
+        ]
+      },
+      {
+        label: "Giorno sesto",
+        titolo: "Catania, o l'Etna",
+        paragrafi: [
+          "Da Siracusa a Catania è poco più di un'ora, in auto o in treno; il treno risolve il problema del traffico e dei parcheggi, che in città è reale. Conviene partire presto, perché la Pescheria chiude a metà mattina: è un mercato urlato che va in scena dal lunedì al sabato dalle sette alle quattordici, dietro Piazza del Duomo, e attorno al pesce si dispongono banchi di frutta, spezie e formaggi.",
+          "In Piazza del Duomo stanno la fontana con l'elefantino di pietra lavica — 'u Liotru, simbolo della città — e la Cattedrale di Sant'Agata, che poggia su terme romane e custodisce la tomba di Bellini. Poche centinaia di metri più su, via Crociferi allinea quattro chiese barocche una dopo l'altra ed è la strada più bella della città.",
+          "Chi preferisce la montagna al centro storico può dedicare mezza giornata all'Etna: dal Rifugio Sapienza, un'ora da Catania a milleottocento metri, si raggiungono a piedi i crateri Silvestri, e funivia e fuoristrada salgono più in alto."
+        ],
+        note: [
+          "Si torna a dormire a Siracusa.",
+          "La colazione a Catania — Comis Ice Cafè, piazza Bellini 8, davanti al Teatro Massimo; oppure Savia, via Etnea 300, dal 1897.",
+          "Da prenotare — Monastero dei Benedettini, tel. 334 9242464, si visita solo con guida."
+        ],
+        ristoranti: [],
+        produttori: []
+      },
+      {
+        label: "Giorno settimo",
+        titolo: "La città greca, e il congedo",
+        paragrafi: [
+          "L'ultimo giorno appartiene a Siracusa. Al Parco della Neapolis si arriva presto, appena aperto: il Teatro Greco è scavato nella roccia viva, l'Anfiteatro romano poco più in là, e nelle latomie si apre l'Orecchio di Dionisio, una grotta artificiale con un'acustica che ha prodotto più leggende che spiegazioni. Il Museo Paolo Orsi, poco distante, è uno dei più ricchi del Mediterraneo.",
+          "Il pomeriggio si passa in Ortigia. In Piazza Duomo la cattedrale è costruita dentro il tempio dorico di Atena del quinto secolo avanti Cristo: le colonne greche sono ancora lì, inglobate nelle pareti della navata, e si toccano. Al mercato di via Trento si comprano le ultime cose da portare a casa. La cena di congedo si fa da Area M, sulla Riva Nazario Sauro, cucina di mare con vista; o da Don Camillo, dal 1985 nelle rovine di un edificio crollato nel terremoto del 1693 — due modi diversi di chiudere lo stesso viaggio."
+        ],
+        note: [
+          "Si dorme a Siracusa, oppure si va verso l'aeroporto: un'ora scarsa.",
+          "Cena — Area M, Riva Nazario Sauro 6, tel. 0931 21367; oppure Don Camillo, Via delle Maestranze 96, tel. 0931 67133.",
+          "La colazione — CCA' e DDA', via Dione 24, tel. 328 9655162: per molti la granita migliore dell'isola."
+        ],
+        ristoranti: ["Area M", "Don Camillo"],
+        produttori: []
+      }
+    ],
+
+    taccuino: {
+      dormire: [
+        {
+          zona: "Ragusa Ibla", notti: "due notti",
+          strutture: [
+            { nome: "Locanda Don Serafino", contatto: "Via XI Febbraio 15, tel. 0932 220065", testo: "Palazzo dell'Ottocento nel cuore di Ibla, gestito dalla famiglia La Rosa dal 1953: poche camere raffinate, il ristorante stellato a pochi passi." },
+            { nome: "Terra del Sole Ibla", contatto: "Corso Mazzini 165, tel. 391 4080930", testo: "Camere ampie e balconi affacciati sui tetti di Ibla. Nanni, che la gestisce, dà indicazioni sui posti dove mangiare che di solito si rivelano giuste." },
+            { nome: "Belvedere all'Idria", contatto: "Corso Mazzini 159/B, tel. 338 2035377", testo: "A metà strada fra Ragusa alta e Ibla, con la colazione servita in camera e la stessa vista sulla vallata." },
+            { nome: "Terrazza dei Sogni", contatto: "Vico Domenico Morelli 8, tel. 333 4939521", testo: "Nella parte bassa di Ibla, dunque con poche scale da fare. Terrazza panoramica e dolci fatti in casa la mattina." }
+          ]
+        },
+        {
+          zona: "Modica", notti: "una notte",
+          strutture: [
+            { nome: "Casa Catalè", contatto: "Vico Giusto 18, tel. 340 3772407", testo: "Un palazzo storico arredato con libri, quadri e mobili di provenienze diverse. Alessandro e Caterina accolgono gli ospiti di persona." },
+            { nome: "Stanze Barocche", contatto: "Via Santa 12, tel. 334 2879360", testo: "Interni in stile, posizione centrale, prezzi contenuti." },
+            { nome: "Modica Old Town Rooms", contatto: "Via Santa 15, tel. 0932 1855115", testo: "Ingresso con codice e cucina in comune, nel cuore della città vecchia." }
+          ]
+        },
+        {
+          zona: "Noto", notti: "una notte",
+          strutture: [
+            { nome: "Dea's Rooms", contatto: "Vico Giunchiglia 1, tel. 339 5211825", testo: "Poche camere e una terrazza dove si fa colazione con marmellate, olive e pane fatti in casa." },
+            { nome: "Filinona", contatto: "Via Venti Settembre 30, tel. 392 3661692", testo: "La casa d'infanzia di chi la gestisce, ristrutturata da poco. Silenziosa, a due passi dal corso." },
+            { nome: "Embrace Sicily", contatto: "Via Giovanni Nicotera 46, tel. 0931 891104", testo: "Due fratelli, Paolo e Carlo, e una casa disegnata con attenzione. Si parcheggia liberamente in strada." },
+            { nome: "Marla's Boutique Rooms", contatto: "Piazza Simon Bolivar 18, tel. 329 4215448", testo: "Fuori dal centro di pochi minuti a piedi, con posto auto davanti alla porta." }
+          ]
+        },
+        {
+          zona: "Siracusa, Ortigia", notti: "tre notti",
+          strutture: [
+            { nome: "Dimore delle Zagare", contatto: "Via Tommaso Gargallo 52, tel. 338 5392475", testo: "Via tranquilla ma dentro l'isola, camere spaziose, gestione attenta senza essere invadente." },
+            { nome: "Aretusa Vacanze", contatto: "Vicolo Zuccalà 1, tel. 0931 483484", testo: "Tre generazioni della stessa famiglia, una terrazza sullo Ionio per l'aperitivo e la marmellata di gelsi a colazione." },
+            { nome: "Casa by Duomo", contatto: "Ronco I Bottai 16, tel. 351 3321698", testo: "Pochissime stanze a due passi da Piazza Duomo, con i proprietari che vivono lì accanto." },
+            { nome: "Ortigia Bed and Breakfast", contatto: "Via Dione 8, tel. 345 0465006", testo: "Semplice e ben tenuto, con il caffè disponibile a qualunque ora del giorno e della notte." }
+          ]
+        }
+      ],
+
+      tavola: {
+        intro: "Gli indirizzi principali sono già segnati giorno per giorno; li ripetiamo qui in ordine di percorso, con qualche opzione in più.",
+        voci: [
+          { nome: "Locanda Don Serafino" },
+          { nome: "Votavota" },
+          { nome: "Radici – L'Osteria di Accursio" },
+          { nome: "Caffè Sicilia" },
+          { nome: "Ristorante Crocifisso" },
+          { nome: "Area M" },
+          { nome: "Don Camillo" }
+        ]
+      },
+
+      approfondimenti: [
+        {
+          titolo: "Gli arancini",
+          testo: "Una questione di lessico, prima di ordinare. Nella Sicilia orientale è arancino, al maschile, e a Catania ha spesso la punta, di forma conica. A Palermo è invece l'arancina, tonda e femminile, e la discussione fra le due sponde dell'isola non si è mai chiusa. Le farciture di partenza sono due, al ragù e al burro; tutte le altre — pistacchio, spinaci e ricotta, nero di seppia, alla Norma — sono arrivate dopo. Lungo questo itinerario, buoni indirizzi si trovano a Ragusa (Aranci, the King of Rice, via Archimede 375), a Noto (Ziu Currao, via G. Salvemini 36; Bread and Panelle Andrea, via Matteo Raeli 7), a Siracusa dentro Ortigia (Antica Giudecca, via della Giudecca 26, forno di famiglia con la fila fuori quasi garantita; U Siciliano, poco distante) e a Catania (Munnu Arancinu, via Lavandaie 36; Serafino, via Musumeci 90; Savia, via Etnea 300, dal 1897)."
+        },
+        {
+          titolo: "La colazione: granita e brioche",
+          testo: "Nella Sicilia orientale la granita non è un gelato e non è un dopocena: è la colazione. Si ordina con la brioche col tuppo — il nome viene dal nodo di capelli che le donne portavano sulla nuca — e la si mangia inzuppando, o alternando cucchiaio e morso, secondo scuole che nessuno ha mai conciliato. I gusti d'origine sono mandorla, limone, gelsi e caffè; il pistacchio è arrivato molto dopo, e la cioccolata è una specialità catanese. Il nome più importante di questa tradizione, lungo tutto il percorso, resta però uno solo: Corrado Assenza e il suo Caffè Sicilia a Noto, dove la granita si accompagna a un intero mondo di pasticceria che ha conquistato critici internazionali e una puntata di Netflix. Altri indirizzi affidabili: a Ragusa Ibla, Dolci d'Autore e Pasticceria Iudice; a Modica, Caffè dell'Arte e Gran Bar; a Marina di Ragusa, Coffee delle Rose sul lungomare; a Siracusa, CCA' e DDA' in via Dione, spesso citata come la granita migliore dell'isola; a Catania, Comis Ice Cafè davanti al Teatro Massimo Bellini."
+        },
+        {
+          titolo: "Il cioccolato, e quello che si porta a casa",
+          testo: "L'Antica Dolceria Bonajuto di Modica, corso Umberto I 159, è la più antica fabbrica di cioccolato dell'isola: le barre si assaggiano prima di comprarle — cannella, peperoncino, sale — e su prenotazione si segue la lavorazione a freddo, dalla fava alla tavoletta. A Marzamemi, la famiglia Campisi lavora il tonno dal 1854: bottarga, ventresca, mosciame, sotto vetro e sotto sale. A Siracusa, il mercato di via Trento — pomodori secchi, capperi, origano, mandorle — resta il posto giusto per gli ultimi acquisti, il mattino della partenza."
+        }
+      ],
+
+      aTavola: {
+        titolo: "Che cosa cambia, chilometro dopo chilometro",
+        testo: "Sull'altopiano si mangia di terra. I ravioli di ricotta al sugo di maiale sono il piatto d'identità degli Iblei; accanto ci sono i cavati tirati con il pollice, la scaccia ragusana, il caciocavallo ragusano, il coniglio alla stimpirata, e il cioccolato di Modica con le sue 'mpanatigghi. Scendendo verso Noto e la punta dell'isola comincia il passaggio: il tonno di Marzamemi in tutte le sue conserve, la mandorla di Avola, il Nero d'Avola e il Moscato di Noto. E a Noto, più di ogni altro luogo di questo itinerario, la pasticceria di Corrado Assenza dimostra come un ingrediente povero — la mandorla, il gelso, il pistacchio — possa diventare materia di ricerca internazionale senza perdere un grammo della propria origine contadina. A Siracusa il mare prende il sopravvento: spaghetti ai ricci quando è stagione, pasta alla siracusana, gambero rosso e tonno crudi. A Catania si cambia ancora: la pasta alla Norma, le cipolline e le cartocciate di rosticceria, la granita con la brioche che è colazione e non merenda."
+      }
+    },
+
+    primaDiChiudere: [
+      { titolo: "GLI AEROPORTI", sotto: "Comiso e Catania", testo: "Comiso è a quindici chilometri da Ragusa e sarebbe l'inizio ideale, ma ha pochi voli. Catania Fontanarossa ne ha molti di più e dista due ore dal punto di partenza: chiudendo a Siracusa resta comunque a un'ora dall'ultima notte." },
+      { titolo: "L'AUTO", sotto: "indispensabile, sempre", testo: "Donnafugata, Punta Secca, Vendicari e Marzamemi non hanno alternative. Le strade dell'altopiano sono strette e curve: i tempi reali sono sempre un po' più lunghi di quelli calcolati dal navigatore." },
+      { titolo: "LE ZONE A TRAFFICO LIMITATO", sotto: "Ibla, Modica alta, Noto, Ortigia", testo: "Tutte e quattro. Conviene lasciare l'auto nei parcheggi esterni e muoversi a piedi; a Ortigia il più comodo è il Talete, all'ingresso dell'isola." },
+      { titolo: "LE CHIUSURE", sotto: "da segnare sul calendario", testo: "Donnafugata è chiuso il lunedì e la Pescheria di Catania la domenica. Quasi ogni trattoria ha poi un giorno di riposo infrasettimanale, e le gastronomie chiudono nel primo pomeriggio per riaprire verso le diciassette." },
+      { titolo: "LA STAGIONE", sotto: "aprile-giugno, settembre-ottobre", testo: "Clima praticabile, mare ancora godibile, città meno affollate. A luglio e agosto il caldo sull'altopiano e dentro le città è un fattore da mettere in conto nella costruzione delle giornate." },
+      { titolo: "SE I GIORNI DIVENTANO CINQUE", sotto: "cosa si toglie", testo: "La giornata di Catania e una notte a Ragusa. Restano Ibla, Modica, Noto e Ortigia, che è già un viaggio intero." }
+    ],
+
+    numeriUtili: [
+      "Da prenotare — Monastero dei Benedettini, Catania, tel. 334 9242464 (solo visite guidate); Antica Dolceria Bonajuto, Modica, tel. 0932 941225 (degustazioni); escursione al Fiume Ciane e alle Saline con Antonio Vella, tel. 346 1599635.",
+      "Ristoranti dell'itinerario — vedi il taccuino \"Dove sedersi a tavola\".",
+      "Da verificare prima di partire — Castello di Donnafugata, tel. 0932 676500 (chiuso il lunedì); Riserva di Vendicari, tel. 0931 468879; Cava d'Ispica, tel. 0932 771667.",
+      "Numeri di emergenza — 112 per qualunque emergenza; 1530 per il soccorso in mare."
+    ]
   }
 
 });
