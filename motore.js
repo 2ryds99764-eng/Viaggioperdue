@@ -540,6 +540,9 @@ function costruisciStoria() {
     if (s.itinerarioCollegato && T42.itinerari && T42.itinerari[s.itinerarioCollegato]) {
       html += '<p class="itin-rimando"><a href="itinerario.html?i=' + encodeURIComponent(s.itinerarioCollegato) + '">Leggi l\'itinerario completo, giorno per giorno →</a></p>';
     }
+    if (s.itinerariIndice) {
+      html += '<p class="itin-rimando"><a href="itinerari.html">Scopri i quattro itinerari →</a></p>';
+    }
     corpo.innerHTML = html;
   }
 

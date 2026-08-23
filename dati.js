@@ -511,6 +511,22 @@ const T42 = {
         "Di quella storia, a Ottati, resta il paesaggio — gli stessi Alburni, la stessa valle fertile descritta da Lucido di Stefano quattrocento anni fa — e restano, ancora oggi, diverse piante di fico bianco nei terreni intorno al paese. Che il nome derivi dal greco antico o dal paese stesso, il fico ottato racconta comunque la stessa cosa: un piccolo angolo di Cilento che per secoli ha saputo farsi notare, un fico alla volta, fino alle tavole di Vienna.",
         "Un ringraziamento particolare a Giuseppe Bamonte, che con la sua ricerca bibliografica ha reso possibile ritrovare e raccontare questa storia."
       ]
+    },
+    siciliaintro: {
+      occhiello: "Racconti di viaggio · Sicilia",
+      titolo: "Tre Valli per un'Isola Sola",
+      sottotitolo: "Sicilia, un'introduzione",
+      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_2389_xdtsqw",
+      itinerariIndice: true,
+      paragrafi: [
+        "Prima che esistessero le regioni, prima ancora che esistesse l'Italia, la Sicilia era già divisa in tre. Gli arabi, che la governarono per due secoli a partire dal IX, la suddivisero in valli — non valli nel senso geografico, ma amministrativo: la Val di Mazara a ovest, la Val di Noto a sud-est, e la misteriosa Val Dèmona a nord-est, che prende il nome da un insediamento fortificato di cui oggi restano solo tracce. La divisione sopravvisse ai Normanni, agli Svevi, agli Aragonesi — un'isola che per governarsi ha sempre avuto bisogno di riconoscersi in tre pezzi, mai in uno solo.",
+        "Forse è per questo che la Sicilia resiste a ogni tentativo di raccontarla come un luogo unico. Non lo è mai stata. È un'isola dove i Greci hanno costruito templi più imponenti di quelli della madrepatria, dove gli Arabi hanno insegnato ai Normanni a mescolare mosaici bizantini e soffitti islamici nella stessa cappella, dove gli Spagnoli hanno lasciato un barocco tanto esagerato da sembrare quasi una risposta al terremoto che l'aveva reso necessario. Ogni dominazione ha lasciato un segno che le altre non hanno cancellato, solo affiancato.",
+        "§Quello che resta",
+        "Lo stesso principio si ritrova in ogni angolo dell'isola. A Castelvetrano, non lontano da Selinunte, Filippo Drago ha recuperato grani antichi come la Tumminia e il Perciasacchi, sfidando un'industria che per decenni ha sacrificato la biodiversità al rendimento — macinati ancora a pietra naturale, con le stesse macine di famiglia. Nell'entroterra di Caltanissetta, ventitré produttori tengono in vita la lenticchia di Villalba, quasi scomparsa negli anni Sessanta quando il mercato premiava solo legumi più piccoli e veloci da cuocere, salvata negli anni Novanta grazie a una ricerca del CNR che ne scoprì l'eccezionale ricchezza di ferro. A Leonforte, nell'ennese, un'intera comunità insacchetta a mano, una per una, le pesche ancora verdi di giugno — un lavoro lentissimo che le protegge fino alla maturazione tardiva, a settembre inoltrato, quando ogni altra pesca è già sparita dal mercato. E nella Conca d'Oro alle porte di Palermo, sessantacinque piccoli agrumicoltori difendono il mandarino di Ciaculli, nato per mutazione spontanea negli anni Quaranta, che matura — controcorrente rispetto a ogni altro agrume — soltanto a febbraio e marzo, quando la primavera è già nell'aria.",
+        "§Un'isola, quattro strade",
+        "Non esiste un solo modo di attraversare la Sicilia, ed è per questo che qui ne proponiamo quattro — non come tappe di un unico grande giro, ma come quattro porte diverse sulla stessa isola: la costa della Val di Noto vista dal mare, l'Etna e Taormina della Val Dèmona, e i due volti della Val di Mazara, quello urbano di Palermo e quello rurale fra saline e templi greci.",
+        "Nessuno dei quattro percorsi pretende di essere completo. La Sicilia, dopotutto, non lo è mai stata nemmeno per chi ci è nato — è un'isola che si continua a scoprire, valle dopo valle, un ingrediente alla volta."
+      ]
     }
   },
 
@@ -809,6 +825,13 @@ const T42 = {
         mappa: "Via 24 Maggio 53, Ottati, SA",
         lat: 40.4628389, lng: 15.3151306,
         storia: "ficobianco"
+      },
+      {
+        titolo: "Sicilia",
+        luogo: "Sicilia",
+        sommario: "Tre antiche valli arabe, un'isola sola: un'introduzione a quattro itinerari diversi, dalle saline alla Valle dei Templi, da Palermo all'Etna.",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_2389_xdtsqw",
+        storia: "siciliaintro"
       }
     ],
 
