@@ -1501,7 +1501,9 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
         voci: [
           { nome: "Le Lumie" },
           { nome: "La Foresteria" },
-          { nome: "Capitolo Primo" }
+          { nome: "Capitolo Primo" },
+          { nome: "Mamma Caura" },
+          { nome: "La Madia" }
         ]
       },
 
