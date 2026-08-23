@@ -2207,6 +2207,22 @@ var HOTEL=[
     "web": "https://www.relaisbriuccia.com",
     "note": "Palazzo nobiliare ottocentesco tinteggiato di rosso pompeiano ♥️",
     "mappa": "Via Trieste 1, Montallegro, AG"
+  },
+  {
+    "nome": "Locanda Don Serafino",
+    "indirizzo": "Via XI Febbraio 15",
+    "citta": "Ragusa Ibla",
+    "provincia": "RG",
+    "prov": "RG",
+    "regione": "Sicilia",
+    "luogo": "Ragusa Ibla (RG)",
+    "tel": "+39 0932 220065",
+    "telefono": "+39 0932 220065",
+    "cellulare": "",
+    "email": "",
+    "web": "https://www.locandadonserafino.it",
+    "note": "Palazzo dell'Ottocento nel cuore di Ibla, gestione famiglia La Rosa dal 1953 ♥️ 👑",
+    "mappa": "Via XI Febbraio 15, Ragusa Ibla, RG"
   }
 ];
 var HOTEL_PROVCITTA={
