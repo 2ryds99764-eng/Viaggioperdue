@@ -530,6 +530,21 @@ const T42 = {
         "Non esiste un solo modo di attraversare la Sicilia, ed è per questo che qui ne proponiamo quattro — non come tappe di un unico grande giro, ma come quattro porte diverse sulla stessa isola: la costa della Val di Noto vista dal mare, l'Etna e Taormina della Val Dèmona, e i due volti della Val di Mazara, quello urbano di Palermo e quello rurale fra saline e templi greci.",
         "Nessuno dei quattro percorsi pretende di essere completo. La Sicilia, dopotutto, non lo è mai stata nemmeno per chi ci è nato — è un'isola che si continua a scoprire, valle dopo valle, un ingrediente alla volta."
       ]
+    },
+    molinidelponte: {
+      occhiello: "Artigiani · Sicilia",
+      titolo: "Il Mugnaio dei Grani Dimenticati",
+      sottotitolo: "Molini del Ponte — Castelvetrano, dal 1967",
+      copertina: "",
+      paragrafi: [
+        "Per trent'anni, in Sicilia, nessuno ha più parlato della Tumminia. Era un grano marginale, fuori mercato, coltivato solo perché serviva al pane nero di Castelvetrano — e anche quello, in pochi ormai lo facevano. Filippo Drago, terza generazione di una famiglia che aveva iniziato come cocchieri prima di diventare mugnai, ricorda bene cosa succedeva quando, da ragazzo, provava a proporla: lo mandavano via a male parole.",
+        "Il mulino di famiglia esisteva dal 1967, ma fu Filippo, negli anni Novanta, ad abbandonare l'università per rilanciarlo puntando su una strada che allora sembrava una follia: tornare indietro invece che andare avanti. La svolta arrivò nel 2002, a un incontro Slow Food a Caltanissetta, dove conobbe Giulia Gallo, allora direttrice della Stazione Sperimentale di Granicoltura di Caltagirone — un archivio vivente di oltre cinquanta varietà di grani siciliani autoctoni, molti dimenticati da decenni.",
+        "§Un figlio per ogni grano",
+        "Da quell'incontro, Filippo cominciò a convincere agricoltori e proprietari terrieri a riconvertire le coltivazioni. Recuperò la Tumminia, che la sua famiglia aveva sempre coltivato per il pane nero; il Perciasacchi, di cui suo nonno gli parlava da bambino — chiamato così per la forma allungata dei chicchi, capace di bucare le sacche di iuta durante il trasporto; e poi Russello, Biancolilla, Bidì, Maiorca. Ogni varietà, dice lui stesso, è diventata un figlio da accudire: la Tumminia rustica come un guerriero indomito, il Russello elegante come un banchetto antico, la Biancolilla fragile e bisognosa di cure.",
+        "§Dentro Selinunte",
+        "Oggi Molini del Ponte macina ancora a pietra naturale, cento giri al minuto, senza privare il chicco del proprio germe — il contrario esatto dei molini industriali che viaggiano a mille chili l'ora. L'azienda non possiede terreni propri, ma collabora a un campo sperimentale di dieci ettari nel cuore del Parco Archeologico di Selinunte: i grani antichi di Sicilia crescono oggi fianco a fianco con le colonne dei templi greci, la stessa terra che li vide nascere duemilacinquecento anni fa.",
+        "Trentamila quintali di farina l'anno, la metà da varietà antiche: numeri che nel 1991, quando Filippo cominciò, nessuno avrebbe creduto possibili. \"Non voglio primati\", dice lui, \"ma mi dica chi, in quell'anno, in Italia lavorava la Tumminia. I soli precursori sono stati i miei nonni.\""
+      ]
     }
   },
 
@@ -871,6 +886,17 @@ const T42 = {
         web: "http://www.viadamez.ch",
         mappa: "Strada S. Giovanni 4, Poschiavo, Svizzera",
         lat: 46.3225, lng: 10.0694
+      },
+      {
+        titolo: "Molini del Ponte",
+        luogo: "Via Parini 29 · Castelvetrano (TP)",
+        sommario: "Il mugnaio che ha riportato in vita i grani dimenticati di Sicilia, macinandoli a pietra come si faceva un secolo fa.",
+        immagine: "",
+        storia: "molinidelponte",
+        telefono: "+390924904162",
+        web: "https://www.molinidelponte.it",
+        mappa: "Via Parini 29, Castelvetrano, Trapani",
+        lat: 37.6167, lng: 12.8333
       }
     ],
 
