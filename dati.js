@@ -545,6 +545,21 @@ const T42 = {
         "Oggi Molini del Ponte macina ancora a pietra naturale, cento giri al minuto, senza privare il chicco del proprio germe — il contrario esatto dei molini industriali che viaggiano a mille chili l'ora. L'azienda non possiede terreni propri, ma collabora a un campo sperimentale di dieci ettari nel cuore del Parco Archeologico di Selinunte: i grani antichi di Sicilia crescono oggi fianco a fianco con le colonne dei templi greci, la stessa terra che li vide nascere duemilacinquecento anni fa.",
         "Trentamila quintali di farina l'anno, la metà da varietà antiche: numeri che nel 1991, quando Filippo cominciò, nessuno avrebbe creduto possibili. \"Non voglio primati\", dice lui, \"ma mi dica chi, in quell'anno, in Italia lavorava la Tumminia. I soli precursori sono stati i miei nonni.\""
       ]
+    },
+    fedegraziani: {
+      occhiello: "Vignaioli · Sicilia",
+      titolo: "Ghiaccio e Fuoco",
+      sottotitolo: "Federico Graziani — Passopisciaro, dal 2008",
+      copertina: "",
+      paragrafi: [
+        "A ventitré anni, nel 1998, Federico Graziani fu eletto Miglior Sommelier d'Italia. Da quel bancone conobbe il vino dall'altra parte del mestiere, lavorando al fianco di Gualtiero Marchesi, Carlo Cracco, Aimo e Nadia Moroni — prima di scoprire, quasi per caso, che voleva farlo lui stesso, il vino, non solo raccontarlo.",
+        "L'occasione arrivò nel 2008, durante il suo secondo viaggio in Sicilia, seduto a mangiare una granita con Salvo Foti — il riferimento assoluto della viticoltura etnea — a Passopisciaro. Uno dei macellai del paese si avvicinò per chiedere consiglio a Salvo su quando fosse il momento migliore per espiantare una vecchia vigna di sua proprietà, piante centenarie che non rendevano più abbastanza. Per un sommelier, sentire parlare di espianto di un tesoro simile è quasi impossibile da ignorare: Federico comprò lui stesso quel mezzo ettaro, salvandolo, e senza saperlo cominciò a fare il vignaiolo.",
+        "§Contro la purezza",
+        "\"Non ha senso parlare di nerello mascalese in purezza\", dice oggi Federico, \"una parola che mi crea l'orticaria perché non appartiene alla natura.\" Nella sua Contrada Feudo di Mezzo, a seicento metri sul versante nord del vulcano, le vecchie vigne — alcune sopravvissute alla fillossera perché il parassita non attecchisce nei suoli sabbiosi di origine lavica — mescolano da sole Nerello Mascalese e Cappuccio, Alicante e Francisi, insieme a una quarantina di piante a bacca bianca. Più si sale di quota, più cresce la presenza di Alicante, il vitigno che garantiva la maturazione anche nelle annate più difficili: un equilibrio che la natura ha trovato da sé, molto prima che qualcuno lo mettesse in bottiglia.",
+        "§Il nome che racconta tutto",
+        "Da quel mezzo ettaro iniziale, Federico coltiva oggi sette ettari, tutti ad alberello, per circa ventimila bottiglie l'anno divise fra quattro etichette. Il Profumo di Vulcano nasce dallo stesso vigneto di fine Ottocento che salvò nel 2008. Il Mareneve porta nel nome il proprio manifesto: un ossimoro fra il fuoco del vulcano e la neve che lo ricopre d'inverno — la stessa dualità, mare e montagna, che rende l'Etna un luogo capace di raccontare due paesaggi opposti nello stesso sorso.",
+        "L'ultima invenzione porta la stessa curiosità di sempre: un Etna Chinato creato con un'amica farmacista di Bronte e l'aiuto del cognato distillatore, partendo da un vino rosso alle erbe del vigneto e aggiungendo capperi di Pantelleria e zafferano — appena duemila bottiglie, per chi sa ancora cercare le cose fatte in pochi esemplari."
+      ]
     }
   },
 
@@ -1036,6 +1051,19 @@ const T42 = {
         lat: 40.3760, lng: 15.2480,   /* Ottati (SA) — approssimativa, da affinare */
         storia: "pietrelevate",
         galleria: ["https://res.cloudinary.com/dspgc41gt/image/upload/PietreLevate_pietre_f0tqoq","https://res.cloudinary.com/dspgc41gt/image/upload/PietreLevate_campagna_jxlbch","https://res.cloudinary.com/dspgc41gt/image/upload/PietreLevate_vigna_ihmul7"]
+      },
+      {
+        titolo: "Federico Graziani",
+        luogo: "Contrada Feudo di Mezzo, Passopisciaro · Castiglione di Sicilia (CT)",
+        sommario: "Da miglior sommelier d'Italia a vignaiolo per caso: un vigneto centenario salvato da un espianto, davanti a una granita.",
+        testo: "Miglior Sommelier d'Italia nel 1998, a soli ventitré anni, Federico Graziani ha lavorato al fianco di alcuni dei più grandi chef italiani prima di innamorarsi, quasi per caso, dell'Etna. Nel 2008, in Contrada Feudo di Mezzo, salvò da un espianto imminente mezzo ettaro di viti centenarie — oggi ne coltiva sette, tutte ad alberello, per quattro etichette che portano nomi come Profumo di Vulcano e Mareneve, un ossimoro fra il fuoco del vulcano e la neve che lo ricopre d'inverno.",
+        immagine: "",
+        telefono: "",
+        email: "",
+        web: "https://fedegraziani.it",
+        mappa: "Contrada Feudo di Mezzo, Passopisciaro, Castiglione di Sicilia, CT",
+        lat: 37.8670, lng: 15.0330,
+        storia: "fedegraziani"
       }
     ]
 
