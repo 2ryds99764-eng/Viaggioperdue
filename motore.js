@@ -654,6 +654,19 @@ function costruisciItinerario() {
       '<h1 class="anima d2">' + esc(it.titolo) + '</h1>' +
       (it.sottotitolo ? '<p class="storia-sub anima d3">' + escV(it.sottotitolo) + '</p>' : '') +
       (it.tappe && it.tappe.length ? '<p class="itin-tappe anima d3">' + it.tappe.map(esc).join(' <span class="pie-sep">·</span> ') + '</p>' : '');
+
+    const navVoci = [];
+    if (it.percorso) navVoci.push({ href: "#itinerario-percorso", testo: "Il percorso" });
+    if (it.giorni && it.giorni.length) navVoci.push({ href: "#itinerario-giorni", testo: "I giorni" });
+    if (it.taccuino && it.taccuino.dormire && it.taccuino.dormire.length) navVoci.push({ href: "#itinerario-dormire", testo: "Dove dormire" });
+    if (it.taccuino && it.taccuino.tavola) navVoci.push({ href: "#itinerario-tavola", testo: "Dove sedersi a tavola" });
+    if (it.taccuino && it.taccuino.approfondimenti && it.taccuino.approfondimenti.length) navVoci.push({ href: "#itinerario-approfondimenti", testo: "Approfondimenti" });
+    if (it.primaDiChiudere && it.primaDiChiudere.length) navVoci.push({ href: "#itinerario-prima-di-chiudere", testo: "Prima di chiudere" });
+    if (navVoci.length) {
+      intest.innerHTML += '<nav class="itin-jump anima d4">' + navVoci.map(function (v) {
+        return '<a href="' + v.href + '">' + esc(v.testo) + '</a>';
+      }).join('') + '</nav>';
+    }
   }
 
   /* ---- copertina e video (stesso schema di storia) ---- */
