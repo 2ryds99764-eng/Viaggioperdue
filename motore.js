@@ -136,6 +136,17 @@ function costruisciHome() {
       '</div>';
   }
 
+  /* invito principale: il Concierge in evidenza */
+  const invC = document.getElementById("invito-concierge-principale");
+  if (invC) {
+    invC.innerHTML =
+      '<div class="concierge-invito-principale anima d2">' +
+        '<p class="cip-occhiello">Non sai da dove iniziare?</p>' +
+        '<h2 class="cip-titolo">Il Concierge ti aiuta a scegliere in trenta secondi</h2>' +
+        '<button class="cip-bottone" id="cip-apri" type="button">Iniziamo →</button>' +
+      '</div>';
+  }
+
   /* invito a leggere il racconto */
   const inv = document.getElementById("invito-racconto");
   if (inv && T42.racconto) {
@@ -1402,6 +1413,8 @@ function costruisciConcierge() {
   }
 
   bottone.addEventListener("click", apri);
+  const bottoneHome = document.getElementById("cip-apri");
+  if (bottoneHome) bottoneHome.addEventListener("click", apri);
   chiudiBtn.addEventListener("click", chiudi);
   overlay.addEventListener("click", function (e) { if (e.target === overlay) chiudi(); });
   document.addEventListener("keydown", function (e) { if (e.key === "Escape" && !overlay.hidden) chiudi(); });

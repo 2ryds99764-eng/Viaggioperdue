@@ -977,3 +977,21 @@ body::before {
   color: #51607a; text-decoration: none;
 }
 .itin-jump a:hover { text-decoration: underline; }
+
+/* invito principale al Concierge, in evidenza sopra gli altri inviti */
+.concierge-invito-principale {
+  text-align: center; padding: 2em 1.5em; margin: 0 0 1.5em;
+  background: var(--carta); border: 1px solid var(--filo);
+}
+.cip-occhiello {
+  font-family: var(--sans); font-size: 0.8rem; letter-spacing: 0.05em;
+  text-transform: uppercase; color: #888; margin: 0 0 0.3em;
+}
+.cip-titolo {
+  font-family: var(--serif); font-size: 1.4rem; margin: 0 0 1em; color: var(--blu);
+}
+.cip-bottone {
+  font-family: var(--sans); font-size: 0.95rem; padding: 0.7em 1.6em;
+  background: var(--blu); color: #fff; border: none; cursor: pointer;
+}
+.cip-bottone:hover { opacity: 0.9; }
