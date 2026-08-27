@@ -392,7 +392,7 @@ const T42 = {
       occhiello: "Marco De Bartoli · Sicilia",
       titolo: "Il vino come verità",
       sottotitolo: "Contrada Samperi, Marsala — e l’isola di Pantelleria",
-      copertina: "assets/debartoli-copertina.jpg",
+      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_2942_hjprfj",
       paragrafi: [
         "I vignaioli sono una pausa dal mondo. Una terra calcarea battuta dal sole, un vitigno che qualcuno ha scelto di non tradire, il giusto silenzio per ritrovarsi.",
         "C’è un nome, in Sicilia, che si pronuncia con rispetto quando si parla di vino: Marco De Bartoli. Perché a lui si deve qualcosa che somiglia a un atto di giustizia — aver riportato il Marsala alle sue radici, restituendogli dignità in un’epoca in cui quel nome glorioso era ormai svalutato.",
@@ -998,14 +998,13 @@ const T42 = {
         luogo: "Contrada Samperi · Marsala (TP), Sicilia",
         sommario: "Il custode del Marsala vero e del passito di Pantelleria: due isole, il Grillo e lo Zibibbo, una sola idea di vino come verità del territorio.",
         testo: "Nel baglio di famiglia in contrada Samperi, a Marsala, Marco De Bartoli ha ridato dignità a un vino che il mercato aveva svilito, riportandolo alle sue radici: il Vecchio Samperi, non fortificato, affinato col metodo perpetuo dal Grillo di Sicilia. Di là dal mare, a Pantelleria, la seconda anima — il Bukkuram, passito di Zibibbo del cru pantesco. Oggi la sua opera continua con i figli Renato, Sebastiano e Giuseppina, fedeli alla stessa intransigenza.",
-        immagine: "assets/debartoli-copertina.jpg",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_2942_hjprfj",
         telefono: "+39 0923 962093",
         email: "info@marcodebartoli.com",
         web: "https://www.marcodebartoli.com",
         mappa: "Marco De Bartoli, Contrada Samperi, Marsala TP",
         lat: 37.7670, lng: 12.4690,   /* Marsala (TP) — approssimativa, da affinare */
         storia: "debartoli",
-      prestoOnline: true,
         galleria: []
       },
       {
