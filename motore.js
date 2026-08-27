@@ -872,7 +872,10 @@ function costruisciGuida() {
       '<div class="cerca-campo">' +
         '<select id="cerca-simbolo-g">' +
           '<option value="">Tutti i simboli</option>' +
-          '<option value="🌅">🌅 Pied dans l\'eau</option>' +
+          elencoSimboliRistorante()
+            .filter(function (s) { return s.v !== ""; })
+            .map(function (s) { return '<option value="' + esc(s.v) + '">' + esc(s.v) + ' ' + esc(s.t) + '</option>'; })
+            .join("") +
         '</select>' +
       '</div>';
   }
