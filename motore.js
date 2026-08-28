@@ -1228,6 +1228,38 @@ function costruisciConcierge() {
     '</div>';
   document.body.appendChild(host);
 
+  /* overlay di benvenuto, solo al primissimo accesso */
+  if (!localStorage.getItem("vpd-benvenuto-visto")) {
+    const benvenuto = document.createElement("div");
+    benvenuto.innerHTML =
+      '<div id="benvenuto-overlay" class="conc-overlay">' +
+        '<div class="conc-modale" role="dialog" aria-modal="true" aria-label="Benvenuto">' +
+          '<button id="benvenuto-chiudi" class="conc-chiudi" type="button" aria-label="Chiudi">×</button>' +
+          '<div class="conc-corpo">' +
+            '<p class="conc-titolo">Benvenuto su Viaggioperdue</p>' +
+            '<p>Puoi sfogliare liberamente, oppure lasciarti guidare dal Concierge — bastano trenta secondi.</p>' +
+            '<div class="conc-azioni-step">' +
+              '<button class="conc-rifai" id="benvenuto-esplora" type="button">Esplora da solo</button>' +
+              '<button class="conc-avanti" id="benvenuto-apri" type="button">Apri il Concierge →</button>' +
+            '</div>' +
+          '</div>' +
+        '</div>' +
+      '</div>';
+    document.body.appendChild(benvenuto);
+
+    const bOverlay = document.getElementById("benvenuto-overlay");
+    function chiudiBenvenuto() {
+      bOverlay.remove();
+      localStorage.setItem("vpd-benvenuto-visto", "1");
+    }
+    document.getElementById("benvenuto-chiudi").addEventListener("click", chiudiBenvenuto);
+    document.getElementById("benvenuto-esplora").addEventListener("click", chiudiBenvenuto);
+    document.getElementById("benvenuto-apri").addEventListener("click", function () {
+      chiudiBenvenuto();
+      apri();
+    });
+  }
+
   const bottone = document.getElementById("conc-bottone");
   const overlay = document.getElementById("conc-overlay");
   const chiudiBtn = document.getElementById("conc-chiudi");
