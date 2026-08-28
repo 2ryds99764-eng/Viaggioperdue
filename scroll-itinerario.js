@@ -63,6 +63,20 @@
         }
       });
     });
+
+    let refreshTimer = null;
+    function refreshConDebounce() {
+      clearTimeout(refreshTimer);
+      refreshTimer = setTimeout(function () {
+        ScrollTrigger.refresh();
+      }, 150);
+    }
+    document.querySelectorAll("#itinerario-copertina img").forEach(function (img) {
+      if (!img.complete) {
+        img.addEventListener("load", refreshConDebounce);
+        img.addEventListener("error", refreshConDebounce);
+      }
+    });
   }
 
   if (tuttiPopolati()) {
