@@ -987,7 +987,8 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
         {
           zona: "Plemmirio, Siracusa", notti: "due notti",
           strutture: [
-            { nome: "Dimora Caiammari", contatto: "Via Daniele Impellizzeri 6, tel. 0931 721217", testo: "Villa nobiliare del Seicento in un giardino botanico storico, diciassette camere, vicino all'Area Marina Protetta." }
+            { nome: "Dimora Caiammari", contatto: "Via Daniele Impellizzeri 6, tel. 0931 721217", testo: "Villa nobiliare del Seicento in un giardino botanico storico, diciassette camere, vicino all'Area Marina Protetta." },
+            { nome: "Braccialieri", contatto: "Contrada Seggio, tel. 376 2414542", testo: "Antico baglio ottocentesco tra ulivi secolari, tre suite e sei eco-ville nella campagna di Avola, a due passi da Noto." }
           ]
         },
         {
@@ -1711,7 +1712,8 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
             { nome: "Dea's Rooms", contatto: "Vico Giunchiglia 1, tel. 339 5211825", testo: "Poche camere e una terrazza dove si fa colazione con marmellate, olive e pane fatti in casa." },
             { nome: "Filinona", contatto: "Via Venti Settembre 30, tel. 392 3661692", testo: "La casa d'infanzia di chi la gestisce, ristrutturata da poco. Silenziosa, a due passi dal corso." },
             { nome: "Embrace Sicily", contatto: "Via Giovanni Nicotera 46, tel. 0931 891104", testo: "Due fratelli, Paolo e Carlo, e una casa disegnata con attenzione. Si parcheggia liberamente in strada." },
-            { nome: "Marla's Boutique Rooms", contatto: "Piazza Simon Bolivar 18, tel. 329 4215448", testo: "Fuori dal centro di pochi minuti a piedi, con posto auto davanti alla porta." }
+            { nome: "Marla's Boutique Rooms", contatto: "Piazza Simon Bolivar 18, tel. 329 4215448", testo: "Fuori dal centro di pochi minuti a piedi, con posto auto davanti alla porta." },
+            { nome: "Braccialieri", contatto: "Contrada Seggio, tel. 376 2414542", testo: "Antico baglio ottocentesco tra ulivi secolari, tre suite e sei eco-ville nella campagna di Avola, a due passi da Noto." }
           ]
         },
         {
