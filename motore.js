@@ -190,6 +190,17 @@ function costruisciHome() {
       '</a>';
   }
 
+  /* invito agli escape */
+  const invE = document.getElementById("invito-escape");
+  if (invE) {
+    invE.innerHTML =
+      '<a class="racconto-invito anima d3" href="escape-strongoli.html">' +
+        '<span class="ri-occhiello">Escape</span>' +
+        '<span class="ri-titolo">Weekend fuori rotta, due o tre giorni alla volta</span>' +
+        '<span class="ri-azione">Parti →</span>' +
+      '</a>';
+  }
+
   /* invito alla mappa */
   const invM = document.getElementById("invito-mappa");
   if (invM) {
