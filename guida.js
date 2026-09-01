@@ -5696,6 +5696,20 @@ var GUIDA=[
     "web": "https://caffesicilia.it",
     "note": "Corrado Assenza, dal 1892, Netflix Chef's Table, Premio Veronelli",
     "mappa": "Corso Vittorio Emanuele 125, Noto, SR"
+  },
+  {
+    "nome": "L'Abete Bianco",
+    "indirizzo": "Via Turistica 99",
+    "citta": "Pescopennataro",
+    "provincia": "IS",
+    "prov": "IS",
+    "regione": "Molise",
+    "luogo": "Pescopennataro (IS)",
+    "tel": "+39 340 3657885",
+    "telefono": "+39 340 3657885",
+    "web": "",
+    "note": "Ristorante-parco tra abeti secolari, cucina molisana tradizionale a km0 ⛰️ 🌳",
+    "mappa": "Via Turistica 99, Pescopennataro, IS"
   }
 ];
 var GUIDA_REGPROV={
