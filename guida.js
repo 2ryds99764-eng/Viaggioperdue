@@ -5710,6 +5710,76 @@ var GUIDA=[
     "web": "",
     "note": "Ristorante-parco tra abeti secolari, cucina molisana tradizionale a km0 ⛰️ 🌳",
     "mappa": "Via Turistica 99, Pescopennataro, IS"
+  },
+  {
+    "nome": "Boccondivino",
+    "indirizzo": "Via Giuseppe Garibaldi 9",
+    "citta": "Labro",
+    "provincia": "RI",
+    "prov": "RI",
+    "regione": "Lazio",
+    "luogo": "Labro (RI)",
+    "tel": "+39 0746 636086",
+    "telefono": "+39 0746 636086",
+    "web": "https://www.boccondivino.biz",
+    "note": "Enoteca-osteria intima nel borgo di pietra, meno di venti coperti, cantina di circa 500 etichette ♥️ 🌳",
+    "mappa": "Via Giuseppe Garibaldi 9, Labro, RI"
+  },
+  {
+    "nome": "Onkel Taa",
+    "indirizzo": "Via Stazione 17",
+    "citta": "Tel/Parcines",
+    "provincia": "BZ",
+    "prov": "BZ",
+    "regione": "Trentino-Alto Adige",
+    "luogo": "Tel/Parcines (BZ)",
+    "tel": "+39 0473 967342",
+    "telefono": "+39 0473 967342",
+    "web": "https://www.onkeltaa.com/it",
+    "note": "Dentro il museo delle terme imperiali di Bad Egart, cucina K.u.K. con erbe selvatiche, storico dal 1430 ♥️ ⛰️",
+    "mappa": "Via Stazione 17, Tel/Parcines, BZ"
+  },
+  {
+    "nome": "Al Tuguri",
+    "indirizzo": "Via Majorca 113",
+    "citta": "Alghero",
+    "provincia": "SS",
+    "prov": "SS",
+    "regione": "Sardegna",
+    "luogo": "Alghero (SS)",
+    "tel": "+39 375 873 2810",
+    "telefono": "+39 375 873 2810",
+    "web": "https://altuguri.com",
+    "note": "Cucina catalano-mediterranea nel centro storico, orto biodinamico proprio ♥️",
+    "mappa": "Via Majorca 113, Alghero, SS"
+  },
+  {
+    "nome": "Rafel",
+    "indirizzo": "Via Lido 20",
+    "citta": "Alghero",
+    "provincia": "SS",
+    "prov": "SS",
+    "regione": "Sardegna",
+    "luogo": "Alghero (SS)",
+    "tel": "+39 338 1359465",
+    "telefono": "+39 338 1359465",
+    "web": "https://www.rafelalghero.it",
+    "note": "Ristorante e beach club sul Lido di Alghero, cucina di mare contemporanea 🌅 🌄",
+    "mappa": "Via Lido 20, Alghero, SS"
+  },
+  {
+    "nome": "Chameleon Clubbing",
+    "indirizzo": "Località Capo Falcone, s.n.c.",
+    "citta": "Stintino",
+    "provincia": "SS",
+    "prov": "SS",
+    "regione": "Sardegna",
+    "luogo": "Stintino (SS)",
+    "tel": "+39 348 073 4245",
+    "telefono": "+39 348 073 4245",
+    "web": "https://chameleon-clubbing-srl-lounge-bar.eatbu.com/?lang=it",
+    "note": "Terrazza vista Spiaggia della Pelosa e isola dell'Asinara, ristorante di giorno e lounge bar la sera ⛱️ 🌄",
+    "mappa": "Località Capo Falcone, Stintino, SS"
   }
 ];
 var GUIDA_REGPROV={
@@ -5755,6 +5825,7 @@ var GUIDA_REGPROV={
     "TE"
   ],
   "Trentino-Alto Adige": [
+    "BZ",
     "TN"
   ],
   "Spagna": [
@@ -5824,6 +5895,7 @@ var GUIDA_REGPROV={
     "SV"
   ],
   "Lazio": [
+    "RI",
     "RM",
     "VT"
   ],
