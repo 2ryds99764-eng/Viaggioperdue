@@ -912,6 +912,26 @@ const T42 = {
         web: "https://www.molinidelponte.it",
         mappa: "Via Parini 29, Castelvetrano, Trapani",
         lat: 37.6167, lng: 12.8333
+      },
+      {
+        titolo: "Rocco Petrunti",
+        luogo: "Via Giovanni Antonio Colozza 13 · Frosolone (IS)",
+        sommario: "L'ultima bottega di coltellinai nel paese che ha inventato la lama, tramandata da una famiglia dal 1800.",
+        immagine: "",
+        telefono: "+390874890660",
+        web: "https://www.roccopetrunti.it",
+        mappa: "Via Giovanni Antonio Colozza 13, Frosolone, Isernia",
+        lat: 41.600, lng: 14.450
+      },
+      {
+        titolo: "Caseificio Fonte Luna",
+        luogo: "Località Sterparo · Vastogirardi (IS)",
+        sommario: "Caciocavalli e manteche lavorati a mano a 1200 metri di quota, con il latte delle vacche al pascolo dell'Alto Molise.",
+        immagine: "",
+        telefono: "+390865836136",
+        web: "https://www.caseificiofonteluna.it",
+        mappa: "Località Sterparo, Vastogirardi, Isernia",
+        lat: 41.7736, lng: 14.2594
       }
     ],
 

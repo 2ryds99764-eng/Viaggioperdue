@@ -2351,6 +2351,22 @@ var HOTEL=[
     "web": "https://braccialieri.com",
     "note": "Antico baglio ottocentesco tra gli ulivi, a due passi da Noto ♥️ 🌳",
     "mappa": "Contrada Seggio, Avola, SR"
+  },
+  {
+    "nome": "Borgo Tufi",
+    "indirizzo": "Via Borgo Tufi 80",
+    "citta": "Castel del Giudice",
+    "provincia": "IS",
+    "prov": "IS",
+    "regione": "Molise",
+    "luogo": "Castel del Giudice (IS)",
+    "tel": "+39 0865 946820",
+    "telefono": "+39 0865 946820",
+    "cellulare": "",
+    "email": "info@borgotufi.it",
+    "web": "https://www.borgotufi.it",
+    "note": "Albergo diffuso in un borgo rurale restaurato, spa e piscina panoramica sull'Appennino 🌳 🌄",
+    "mappa": "Via Borgo Tufi 80, Castel del Giudice, IS"
   }
 ];
 var HOTEL_PROVCITTA={
@@ -2410,6 +2426,9 @@ var HOTEL_PROVCITTA={
   "Marche": [
     "AN",
     "AP"
+  ],
+  "Molise": [
+    "IS"
   ],
   "Perù": [
     "PE"
