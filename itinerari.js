@@ -1776,6 +1776,118 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
       "Da verificare prima di partire — Castello di Donnafugata, tel. 0932 676500 (chiuso il lunedì); Riserva di Vendicari, tel. 0931 468879; Cava d'Ispica, tel. 0932 771667.",
       "Numeri di emergenza — 112 per qualunque emergenza; 1530 per il soccorso in mare."
     ]
+  },
+
+  "alto-molise": {
+    occhiello: "Un itinerario per due",
+    titolo: "Da Castel del Giudice a Vastogirardi",
+    sottotitolo: "l'Alto Molise, tra un borgo rinato, la pietra di Pescopennataro, l'acciaio di Frosolone e il latte di montagna di Vastogirardi",
+    regione: "Molise",
+    copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_2272_jitpne",
+    tappe: ["Castel del Giudice", "Pescopennataro", "Frosolone", "Vastogirardi"],
+
+    epigrafe: {
+      testo: "Raccontiamo, non giudichiamo. La libertà di scoprire appartiene a chi viaggia, non a chi scrive.",
+      fonte: ""
+    },
+
+    apertura: [
+      "L'Alto Molise non ha bisogno di spiegazioni sul perché resti fuori dalle rotte più battute: è una manciata di borghi a mille metri di quota, incastonati tra faggete e valli strette, dove il turismo di massa non è mai arrivato per la semplice ragione che non c'era una strada comoda per farlo arrivare. Chi ci va, ci va apposta.",
+      "Castel del Giudice ne è il punto di partenza naturale. Trecento abitanti, un tempo sull'orlo dello spopolamento, oggi un caso studiato altrove: quaranta ettari di meleto biologico dove c'erano solo terreni incolti, un birrificio agricolo che usa l'orzo coltivato a pochi passi, un apiario di comunità gestito da trenta apicoltori. Il simbolo di questa rinascita è Borgo Tufi, l'albergo diffuso nato dal recupero di case e stalle abbandonate — la base per tutti e quattro i giorni che seguono.",
+      "Quattro giorni, tre notti, sempre nello stesso letto: da qui si parte ogni mattina verso un paese diverso e si torna a dormire nello stesso borgo. Pescopennataro per la pietra, Frosolone per l'acciaio, Vastogirardi per il latte di montagna e per un tempio che ha duemila anni."
+    ],
+
+    percorso: {
+      intro: "Borgo Tufi come base fissa per tre notti, con Pescopennataro, Frosolone e Vastogirardi come gite in giornata.",
+      giorni: [
+        { giorno: "Giorno primo", titolo: "Arrivo, Castel del Giudice", km: "", testo: "Check-in a Borgo Tufi, primo giro del borgo rinato." },
+        { giorno: "Giorno secondo", titolo: "Pescopennataro, il paese della pietra", km: "7 km", testo: "Il Museo della Pietra, il Parco di Pinocchio." },
+        { giorno: "Giorno terzo", titolo: "Frosolone e Vastogirardi", km: "~35 km + ~24 km", testo: "I coltelli, poi il tempio sannitico e il caseificio." },
+        { giorno: "Giorno quarto", titolo: "Congedo", km: "", testo: "Nessuna tappa fissa." }
+      ]
+    },
+
+    giorni: [
+      {
+        label: "Giorno primo",
+        titolo: "Arrivo, Castel del Giudice",
+        paragrafi: [
+          "Si arriva nel pomeriggio, dopo strade che si stringono man mano che si sale — l'ultimo tratto verso Castel del Giudice non lascia dubbi sul fatto che questo è un paese di montagna, ottocento metri sul livello del mare, a un passo dal confine con l'Abruzzo. Il check-in a Borgo Tufi è anche una prima visita: le camere sono ricavate nelle vecchie stalle e case coloniche del borgo, restaurate senza tradire la pietra a vista.",
+          "Il resto del pomeriggio si passa a piedi, tra il meleto biologico della cooperativa Melise (quaranta ettari, dove vent'anni fa c'erano solo campi abbandonati) e il birrificio agricolo Malto Lento, che usa l'orzo coltivato proprio qui. Le trecento arnie dell'apiario di comunità completano il quadro di un paese che ha scelto di ripartire dalla terra invece di aspettare che si svuotasse."
+        ],
+        note: ["Si dorme a Borgo Tufi (prima delle tre notti)."],
+        ristoranti: [],
+        produttori: []
+      },
+      {
+        label: "Giorno secondo",
+        titolo: "Pescopennataro, il paese della pietra",
+        paragrafi: [
+          "Pescopennataro è a poco più di sei chilometri, ma il paesaggio cambia in fretta: milleduecento metri di quota, boschi di abeti bianchi ormai rari sull'intero Appennino, e un nome — 'il paese della pietra e degli abeti' — che dice già tutto. Il paese sorge su uno sperone roccioso da cui si intravede, nelle giornate limpide, il mare Adriatico.",
+          "Al Museo Civico della Pietra 'Chiara Marinelli' si ripercorre una tradizione di scalpellini che risale al Medioevo — una scuola per la lavorazione della pietra fu aperta qui già nel Settecento. L'ultimo maestro scalpellino del paese è scomparso di recente: resta il museo, e resta il Parco di Pinocchio, un sentiero nel bosco punteggiato di sculture nate da due simposi internazionali."
+        ],
+        note: ["Il Museo della Pietra richiede prenotazione.", "Si dorme di nuovo a Borgo Tufi.", "Pranzo o cena — L'Abete Bianco, ristorante-parco tra gli abeti, Via Turistica 99."],
+        ristoranti: ["L'Abete Bianco"],
+        produttori: []
+      },
+      {
+        label: "Giorno terzo",
+        titolo: "Frosolone e Vastogirardi",
+        paragrafi: [
+          "Frosolone è un'altra Italia rispetto a Pescopennataro: qui la pietra lascia il posto all'acciaio. La tradizione della forgiatura arriva nel Quattrocento con artigiani veneziani, e nell'Ottocento i coltelli e i rasoi di Frosolone competevano — la citazione è di Benedetto Croce — con quelli di Toledo e Sheffield. Al Museo dei Ferri Taglienti si può ancora guardare un fabbro al lavoro sull'incudine, la stessa tecnica di sempre. Poco distante, la bottega di Rocco Petrunti tiene viva la tradizione di famiglia dal 1800.",
+          "Una storia laterale vale la deviazione: due famiglie di emigranti frosolonesi, i Miranda e i Paolantonio, fondarono a Providence, negli Stati Uniti, quelle che diventarono l'Imperial Knife e la Colonial Knife Company — tra le più grandi coltellerie del mondo del Novecento, nate dal sapere portato via da questo paese di montagna.",
+          "Il pomeriggio porta a Vastogirardi, altro paese di pastori e casari — è qui, al Caseificio Fonte Luna, che si lavora ancora a mano il caciocavallo di montagna, a milleduecento metri di quota. Poco fuori dal centro, in un prato circondato da faggi, restano i resti di un tempio sannitico del secondo secolo avanti Cristo: un podio in pietra su cui, secoli dopo, fu costruita una chiesa medievale dedicata a Sant'Angelo. Nessuna recinzione, nessun biglietto — solo il rumore del Trigno che nasce lì vicino."
+        ],
+        note: ["Si dorme un'ultima volta a Borgo Tufi.", "Cena — Il Vecchio Granaio, Vastogirardi."],
+        ristoranti: ["Il Vecchio Granaio"],
+        produttori: [
+          { nome: "Rocco Petrunti", url: "https://www.roccopetrunti.it" },
+          { nome: "Caseificio Fonte Luna", url: "https://www.caseificiofonteluna.it" }
+        ]
+      },
+      {
+        label: "Giorno quarto",
+        titolo: "Congedo",
+        paragrafi: [
+          "Il congedo è breve: nessuna tappa fissa, solo la strada del ritorno — verso l'aeroporto di Pescara, il più vicino ai borghi dell'Alto Molise, o verso la propria auto."
+        ],
+        note: [],
+        ristoranti: [],
+        produttori: []
+      }
+    ],
+
+    taccuino: {
+      dormire: [
+        { zona: "Castel del Giudice", notti: "tre notti",
+          strutture: [{ nome: "Borgo Tufi", contatto: "Via Borgo Tufi 80, tel. 0865 946820", testo: "Albergo diffuso nato dal recupero di case e stalle abbandonate, simbolo della rinascita del borgo, con ristorante interno e spa." }] }
+      ],
+      tavola: {
+        intro: "Due soli indirizzi, uno per gita: bastano per quattro giorni in un territorio così piccolo.",
+        voci: [
+          { nome: "L'Abete Bianco" },
+          { nome: "Il Vecchio Granaio" }
+        ]
+      },
+      approfondimenti: [
+        { titolo: "Il paese della pietra", testo: "Dal Medioevo al Settecento, quando fu aperta una vera scuola di scalpellini, Pescopennataro ha esportato maestranze in tutto l'Alto Molise. Oggi quella tradizione vive solo nel Museo della Pietra 'Chiara Marinelli', dopo la scomparsa dell'ultimo artigiano attivo in paese." },
+        { titolo: "Dai coltelli di Frosolone a Providence", testo: "L'arte della forgiatura arrivò a Frosolone nel Quattrocento con artigiani veneziani. Ottocento anni dopo, l'emigrazione portò due famiglie del paese a fondare negli Stati Uniti l'Imperial Knife e la Colonial Knife Company — nomi che pochi collegano ancora a questo borgo di montagna." },
+        { titolo: "Un tempio di duemila anni, senza biglietto", testo: "Il santuario sannitico di Vastogirardi risale al II secolo a.C. Nel Medioevo, sui suoi resti fu costruita una chiesa dedicata a Sant'Angelo — la stessa sovrapposizione di culti (Ercole, poi il santo cristiano) che si ritrova in molti siti dell'Appennino." }
+      ]
+    },
+
+    primaDiChiudere: [
+      { titolo: "GLI AEROPORTI", sotto: "Pescara, il più vicino", testo: "L'aeroporto di Pescara-Abruzzo è il collegamento più comodo; Roma Fiumicino e Ciampino restano un'alternativa più distante." },
+      { titolo: "L'AUTO", sotto: "indispensabile", testo: "Nessuno dei quattro borghi è raggiungibile comodamente senza auto propria; le strade sono di montagna, strette e panoramiche." },
+      { titolo: "LA STAGIONE", sotto: "da aprile a ottobre", testo: "L'inverno porta neve e temperature rigide sopra i mille metri; la stagione turistica si concentra tra primavera e autunno." },
+      { titolo: "I MUSEI", sotto: "spesso su prenotazione", testo: "Il Museo della Pietra di Pescopennataro e i musei civici di Frosolone richiedono la prenotazione: da verificare orari e disponibilità prima di partire." }
+    ],
+
+    numeriUtili: [
+      "Da prenotare — Museo della Pietra (Pescopennataro), Museo dei Ferri Taglienti (Frosolone), entrambi su prenotazione.",
+      "Ristoranti dell'itinerario — vedi il taccuino \"Dove sedersi a tavola\".",
+      "Numeri di emergenza — 112 per qualunque emergenza."
+    ]
   }
 
 });
