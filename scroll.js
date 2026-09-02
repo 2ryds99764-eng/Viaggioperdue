@@ -54,16 +54,16 @@
     });
   }
 
-  if (corpo.children.length > 0) {
+  if (corpo.querySelector(".rp")) {
     init();
     return;
   }
 
   const observer = new MutationObserver(function () {
-    if (corpo.children.length > 0) {
+    if (corpo.querySelector(".rp")) {
       observer.disconnect();
       init();
     }
   });
-  observer.observe(corpo, { childList: true });
+  observer.observe(corpo, { childList: true, subtree: true });
 })();

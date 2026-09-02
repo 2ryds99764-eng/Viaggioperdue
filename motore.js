@@ -194,7 +194,7 @@ function costruisciHome() {
   const invE = document.getElementById("invito-escape");
   if (invE) {
     invE.innerHTML =
-      '<a class="racconto-invito anima d3" href="escape-strongoli.html">' +
+      '<a class="racconto-invito anima d3" href="escape-elenco.html">' +
         '<span class="ri-occhiello">Escape</span>' +
         '<span class="ri-titolo">Weekend fuori rotta, due o tre giorni alla volta</span>' +
         '<span class="ri-azione">Parti →</span>' +
@@ -650,6 +650,205 @@ function schedaItinerario(it, chiave, i) {
   return '<article class="scheda anima ' + ritardo + '">' + foto + testo + '</article>';
 }
 
+/* ----------- COSTRUZIONE DELL'ELENCO ESCAPE ----------- */
+function schedaEscape(es, chiave, i) {
+  const foto = (es.copertina && es.copertina.trim() !== "")
+    ? '<div class="scheda-foto"><img src="' + esc(es.copertina) + '" alt="' + esc(es.titolo) + '" loading="lazy"></div>'
+    : '<div class="scheda-foto vuota"></div>';
+
+  const ritardo = "d" + Math.min(i + 1, 6);
+
+  const testo =
+    '<div class="scheda-testo">' +
+      (es.occhiello ? '<div class="luogo">' + esc(es.occhiello) + '</div>' : '') +
+      '<h2>' + esc(es.titolo) + '</h2>' +
+      (es.sottotitolo ? '<p class="sommario">' + esc(es.sottotitolo) + '</p>' : '') +
+      '<div class="azioni"><a class="btn btn--pieno" href="escape.html?e=' + encodeURIComponent(chiave) + '">Parti →</a></div>' +
+    '</div>';
+
+  return '<article class="scheda anima ' + ritardo + '">' + foto + testo + '</article>';
+}
+
+function costruisciEscapeElenco() {
+  document.title = "Escape · " + T42.sito.nome;
+
+  const intest = document.getElementById("cat-intestazione");
+  if (intest) {
+    intest.innerHTML =
+      '<a class="ritorno" href="index.html">Riprendi il viaggio</a>' +
+      '<div class="occhiello anima d1">' + esc(T42.sito.sigla) + ' · Viaggioperdue</div>' +
+      '<h1 class="anima d2">Escape</h1>' +
+      '<p class="anima d3">Weekend fuori rotta, due o tre giorni alla volta.</p>';
+  }
+
+  const elenco = document.getElementById("elenco");
+  if (elenco) {
+    const chiavi = Object.keys(T42.escape || {});
+    if (!chiavi.length) {
+      elenco.classList.remove("elenco");
+      elenco.innerHTML = '<div class="vuoto">Presto nuovi Escape.</div>';
+    } else {
+      elenco.innerHTML = chiavi.map(function (k, i) {
+        return schedaEscape(T42.escape[k], k, i);
+      }).join("");
+    }
+  }
+
+  costruisciPie(T42.sito);
+}
+
+/* ----------- COSTRUZIONE DELLA PAGINA ESCAPE (dettaglio) ----------- */
+const ESCAPE_MESI_ABBR = ["GEN","FEB","MAR","APR","MAG","GIU","LUG","AGO","SET","OTT","NOV","DIC"];
+const ESCAPE_ETICHETTA_STATO = { aperto: "APERTA OGGI", chiuso: "CHIUSA OGGI", gozzo: "GOZZO IN MARE OGGI" };
+const ESCAPE_NUMERI_IT = ["zero","uno","due","tre","quattro","cinque","sei","sette","otto","nove","dieci"];
+
+function costruisciEscape() {
+  const params = new URLSearchParams(window.location.search);
+  const chiave = params.get("e") || "";
+  const es = (T42.escape && T42.escape[chiave]) ? T42.escape[chiave] : null;
+
+  if (!es) {
+    const corpo = document.getElementById("storia-corpo");
+    if (corpo) corpo.innerHTML = '<div class="vuoto">Escape non trovato.</div>';
+    costruisciPie(T42.sito);
+    return;
+  }
+
+  document.title = es.titolo + " · " + T42.sito.nome;
+
+  /* ---- intestazione ---- */
+  const intest = document.getElementById("escape-intestazione");
+  if (intest) {
+    intest.innerHTML =
+      '<a class="ritorno" href="index.html">Riprendi il viaggio</a>' +
+      '<div class="occhiello anima d1">' + esc(es.occhiello || "") + '</div>' +
+      '<h1 class="anima d2">' + esc(es.titolo) + '</h1>' +
+      (es.sottotitolo ? '<p class="storia-sub anima d3">' + escV(es.sottotitolo) + '</p>' : '');
+  }
+
+  /* ---- copertina ---- */
+  const cop = document.getElementById("escape-copertina");
+  if (cop) {
+    if (es.copertina) { cop.innerHTML = '<img src="' + esc(es.copertina) + '" loading="lazy" alt="' + esc(es.titolo) + '">'; }
+    else cop.style.display = "none";
+  }
+
+  /* ---- intro ---- */
+  const intro = document.getElementById("escape-intro");
+  if (intro) intro.innerHTML = es.intro ? '<p class="rp">' + escV(es.intro) + '</p>' : '';
+
+  /* ---- la finestra: calendario stagionale + badge del giorno ---- */
+  const fin = document.getElementById("escape-finestra");
+  if (fin && es.finestra && es.finestra.mesi && es.finestra.mesi.length === 12) {
+    const oggi = new Date();
+    const meseIdx = oggi.getMonth();
+    const statoOggi = es.finestra.mesi[meseIdx];
+    const etichettaOggi = ESCAPE_ETICHETTA_STATO[statoOggi] || (statoOggi.toUpperCase() + " OGGI");
+    fin.innerHTML =
+      '<div class="escape-finestra-intestazione">' +
+        '<div class="escape-label">LA FINESTRA</div>' +
+        '<div class="escape-oggi" id="escape-oggi">' + esc(etichettaOggi + " · " + oggi.getDate() + " " + ESCAPE_MESI_ABBR[meseIdx]) + '</div>' +
+      '</div>' +
+      '<div class="escape-mesi">' +
+        es.finestra.mesi.map(function (stato, i) {
+          return '<div class="escape-mese stato-' + esc(stato) + (i === meseIdx ? ' oggi' : '') + '" data-mese="' + i + '">' + ESCAPE_MESI_ABBR[i] + '</div>';
+        }).join("") +
+      '</div>' +
+      '<div class="escape-legenda">' +
+        (es.finestra.legenda || []).map(function (l) {
+          return '<span class="escape-legenda-voce"><span class="escape-pallino stato-' + esc(l.stato) + '"></span>' + esc(l.label) + '</span>';
+        }).join("") +
+      '</div>';
+  }
+
+  /* ---- perché ci si va ---- */
+  const perche = document.getElementById("escape-perche");
+  if (perche && es.percheCiSiVa) {
+    perche.innerHTML = '<h2 class="storia-h2">Perché ci si va</h2>' +
+      es.percheCiSiVa.map(function (p) { return '<p class="rp">' + escV(p) + '</p>'; }).join("");
+  }
+
+  /* ---- la base: uno o più contatti/alloggi di riferimento ---- */
+  const base = document.getElementById("escape-base");
+  if (base && es.base && es.base.length) {
+    base.innerHTML = '<h2 class="storia-h2">La base</h2>' +
+      es.base.map(function (b) {
+        let azioni = '<a class="btn btn--pieno" href="tel:' + esc(b.tel) + '">Chiama</a>';
+        if (b.mappaIndirizzo) {
+          const hrefMappa = (typeof urlMappa === "function") ? urlMappa(b.mappaIndirizzo) : "#";
+          azioni += '<a class="btn" href="' + hrefMappa + '" target="_blank" rel="noopener">Apri la mappa</a>';
+        }
+        if (b.sitoWeb) azioni += '<a class="btn" href="' + esc(b.sitoWeb) + '" target="_blank" rel="noopener">Sito web</a>';
+        if (b.prenotaWhatsapp) azioni += '<a class="btn" href="https://wa.me/' + esc(b.prenotaWhatsapp) + '" target="_blank" rel="noopener">Prenota il tavolo</a>';
+        return '<div class="storia-contatti-box">' +
+          '<div class="scc-nome">' + esc(b.nome) + '</div>' +
+          '<div class="scc-luogo">' + esc(b.luogo) + '</div>' +
+          (b.dettaglio ? '<div class="scc-dettaglio">' + esc(b.dettaglio) + '</div>' : '') +
+          (b.testo ? '<p class="scc-testo">' + escV(b.testo) + '</p>' : '') +
+          '<div class="azioni" style="justify-content:center;">' + azioni + '</div>' +
+          (b.nota ? '<p class="scc-nota">' + escV(b.nota) + '</p>' : '') +
+          (b.testoExtra ? '<p class="scc-testo">' + escV(b.testoExtra) + '</p>' : '') +
+        '</div>';
+      }).join("");
+  }
+
+  /* ---- le giornate ---- */
+  const giornateEl = document.getElementById("escape-giornate");
+  if (giornateEl && es.giornate && es.giornate.length) {
+    const notti = Math.max(es.giornate.length - 1, 1);
+    const titoloSezione = "Le " + (ESCAPE_NUMERI_IT[notti] || notti) + " giornate";
+    giornateEl.innerHTML = '<h2 class="storia-h2">' + esc(titoloSezione) + '</h2>' +
+      es.giornate.map(function (g) {
+        let html = '<h3 class="escape-sottotitolo">' + esc(g.titolo) + '<span class="escape-giorno">' + esc(g.giorno) + '</span></h3>';
+        html += (g.paragrafi || []).map(function (p) { return '<p class="rp">' + escV(p) + '</p>'; }).join("");
+        if (g.note && g.note.length) {
+          html += g.note.map(function (n) { return '<p class="rp"><em>' + escV(n) + '</em></p>'; }).join("");
+        }
+        if (g.bivio && g.bivio.length) {
+          html += '<div class="escape-bivio-gruppo">' + g.bivio.map(function (bv) {
+            return '<div class="escape-bivio">' +
+              '<div class="escape-bivio-titolo">' + esc(bv.titolo) + '</div>' +
+              '<span class="escape-bivio-periodo">' + esc(bv.periodo) + '</span>' +
+              '<p class="escape-bivio-testo">' + escV(bv.testo) + '</p>' +
+              '<div class="escape-bivio-prezzo">' + esc(bv.prezzo) + '</div>' +
+            '</div>';
+          }).join("") + '</div>';
+          if (g.notaFinale) html += '<p class="escape-nota-piccola">' + escV(g.notaFinale) + '</p>';
+        }
+        return html;
+      }).join("");
+  }
+
+  /* ---- esperienze prenotabili ---- */
+  const esperienzeEl = document.getElementById("escape-esperienze");
+  if (esperienzeEl && es.esperienze && es.esperienze.length) {
+    esperienzeEl.innerHTML = '<div class="escape-label" style="margin-top:40px;">ESPERIENZE PRENOTABILI</div>' +
+      es.esperienze.map(function (e) {
+        const daConfermare = e.prezzo === "da confermare";
+        return '<div class="escape-esperienza">' +
+          '<div class="escape-esp-titolo">' + esc(e.titolo) + '</div>' +
+          '<div class="escape-esp-dettaglio">' + esc(e.dettaglio) + '</div>' +
+          '<div class="escape-esp-prezzo' + (daConfermare ? ' da-confermare' : '') + '">' + esc(e.prezzo) + '</div>' +
+        '</div>';
+      }).join("");
+  }
+
+  /* ---- prima di partire ---- */
+  const primaEl = document.getElementById("escape-prima-di-partire");
+  if (primaEl && es.primaDiPartire && es.primaDiPartire.length) {
+    primaEl.innerHTML = '<h2 class="storia-h2">Prima di partire</h2>' +
+      es.primaDiPartire.map(function (r) {
+        return '<div class="escape-info-riga">' +
+          '<div class="escape-info-etichetta">' + esc(r.etichetta) + '</div>' +
+          '<div class="escape-info-testo">' + escV(r.testo) + '</div>' +
+        '</div>';
+      }).join("") +
+      (es.notaVerifica ? '<p class="escape-nota-piccola">' + escV(es.notaVerifica) + '</p>' : '');
+  }
+
+  costruisciPie(T42.sito);
+}
+
 /* ----------- COSTRUZIONE DELLA PAGINA ITINERARIO ----------- */
 function costruisciItinerario() {
   const params = new URLSearchParams(window.location.search);
@@ -1049,6 +1248,8 @@ document.addEventListener("DOMContentLoaded", function () {
   if (document.body.dataset.pagina === "storia") costruisciStoria();
   if (document.body.dataset.pagina === "itinerario") costruisciItinerario();
   if (document.body.dataset.pagina === "itinerari") costruisciItinerari();
+  if (document.body.dataset.pagina === "escape") costruisciEscape();
+  if (document.body.dataset.pagina === "escape-elenco") costruisciEscapeElenco();
   if (document.body.dataset.pagina === "guida") costruisciGuida();
    if (document.body.dataset.pagina === "hotel") costruisciHotel();
   costruisciConcierge();
