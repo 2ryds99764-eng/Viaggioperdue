@@ -2367,6 +2367,38 @@ var HOTEL=[
     "web": "https://www.borgotufi.it",
     "note": "Albergo diffuso in un borgo rurale restaurato, spa e piscina panoramica sull'Appennino 🌳 🌄",
     "mappa": "Via Borgo Tufi 80, Castel del Giudice, IS"
+  },
+  {
+    "nome": "Hotel Niedermair",
+    "indirizzo": "Vertigen 8",
+    "citta": "Parcines",
+    "provincia": "BZ",
+    "prov": "BZ",
+    "regione": "Trentino-Alto Adige",
+    "luogo": "Parcines (BZ)",
+    "tel": "+39 0473 967171",
+    "telefono": "+39 0473 967171",
+    "cellulare": "",
+    "email": "info@hotel-niedermair.com",
+    "web": "https://www.hotel-niedermair.com/it",
+    "note": "Immerso nei frutteti, vista panoramica su Merano e il Gruppo di Tessa, gestione Famiglia Kuen ⛰️ 🌄",
+    "mappa": "Vertigen 8, Parcines, BZ"
+  },
+  {
+    "nome": "Hotel das Stachelburg",
+    "indirizzo": "Via Cascata 7",
+    "citta": "Parcines",
+    "provincia": "BZ",
+    "prov": "BZ",
+    "regione": "Trentino-Alto Adige",
+    "luogo": "Parcines (BZ)",
+    "tel": "+39 0473 967310",
+    "telefono": "+39 0473 967310",
+    "cellulare": "",
+    "email": "info@hotel-stachelburg.com",
+    "web": "https://www.hotel-stachelburg.com/it/",
+    "note": "Stile alpino tra vigneti e frutteti, nome legato al vicino castello Stachelburg del XIII secolo ⛰️ 🌳",
+    "mappa": "Via Cascata 7, Parcines, BZ"
   }
 ];
 var HOTEL_PROVCITTA={
