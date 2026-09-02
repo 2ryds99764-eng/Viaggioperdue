@@ -759,6 +759,8 @@ function costruisciEscape() {
           return '<span class="escape-legenda-voce"><span class="escape-pallino stato-' + esc(l.stato) + '"></span>' + esc(l.label) + '</span>';
         }).join("") +
       '</div>';
+  } else if (fin) {
+    fin.style.display = "none";
   }
 
   /* ---- perché ci si va ---- */

@@ -138,6 +138,75 @@ T42.escape = Object.assign({}, T42.escape, {
       { etichetta: "ARRIVARE", testo: "Aeroporto di Bolzano a circa 40 minuti; stazione di Merano collegata da bus locale a Parcines." }
     ],
     notaVerifica: "Verificato il 2 settembre 2026. Stagione, giorni di apertura e prezzi vanno riconfermati prima di ogni pubblicazione."
+  },
+
+  "alghero": {
+    occhiello: "Escape N.3 · Sardegna",
+    titolo: "Alghero",
+    regione: "Sardegna",
+    sottotitolo: "due notti tra corallo e bastioni catalani",
+    intro: "Una città che parla ancora catalano dopo sette secoli, un museo dedicato al Piccolo Principe dentro una torre del Cinquecento, e uno dei sistemi di grotte marine più spettacolari del Mediterraneo. Tre motivi diversi per la stessa destinazione.",
+    copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/C79CFCC5-A13D-4DA4-92B8-A660F90F0EB7_dcuv2q",
+
+    percheCiSiVa: [
+      "Alghero è la Barceloneta di Sardegna: conquistata dalla Corona d'Aragona nel Trecento, ha conservato fino a oggi il dialetto catalano, l'architettura gotico-catalana e un centro storico chiuso da mura e bastioni che guardano il mare. Le vie del centro portano ancora i nomi in doppia lingua, e la sera i bastioni diventano la passeggiata di tutta la città.",
+      "Ma Alghero non è solo storia: è anche la Riviera del Corallo, novanta chilometri di costa che hanno reso questa città un centro internazionale della lavorazione dell'oro rosso, e la porta d'accesso a uno dei promontori più spettacolari del Mediterraneo, Capo Caccia."
+    ],
+
+    base: [
+      {
+        nome: "Villa Las Tronas Hotel & Spa",
+        luogo: "Lungomare Valencia 1, Alghero (SS)",
+        testo: "Ex residenza estiva della Famiglia Reale d'Italia, su un promontorio privato con moli propri per la balneazione e una piscina di acqua di mare.",
+        tel: "079981818",
+        mappaIndirizzo: "Lungomare Valencia 1, Alghero, SS",
+        sitoWeb: "https://www.hotelvillalastronas.it/it/"
+      }
+    ],
+
+    giornate: [
+      {
+        titolo: "Arrivo e bastioni catalani", giorno: "VEN",
+        paragrafi: [
+          "Si arriva nel pomeriggio, con il tempo per un primo giro tra le vie del centro storico — via Carlo Alberto, via Roma, la Cattedrale gotico-catalana in Piazza Duomo. Verso sera, i Bastioni diventano il posto giusto per un aperitivo con vista sul golfo, mentre il sole tramonta dietro Capo Caccia.",
+          "Alghero si lascia riconoscere nei dettagli: i cartelli delle strade in doppia lingua, il catalano ancora parlato nelle botteghe, la paella fatta con la fregola sarda al posto del riso."
+        ],
+        note: ["Cena — Al Refettorio, nel centro storico."],
+        ristoranti: ["Al Refettorio"]
+      },
+      {
+        titolo: "Capo Caccia, le Grotte e il Piccolo Principe", giorno: "SAB",
+        paragrafi: [
+          "L'Escala del Cabirol — 654 gradini scavati nella parete del promontorio, disegnata dall'architetto e poeta sardo Antoni Simon Mossa — scende fino alle Grotte di Nettuno: quattro chilometri di sale carsiche, un lago sotterraneo, una spiaggia di sabbia bianchissima sotto il livello del mare. Chi preferisce risparmiare fiato può arrivarci anche via barca, dal porto di Alghero.",
+          "Poco distante, nella Baia di Porto Conte, la Torre Nuova del Cinquecento ospita il MASE: qui visse per due mesi, nella primavera-estate del 1944, Antoine de Saint-Exupéry — pilota di ricognizione per le forze alleate, e autore de Il Piccolo Principe. Scrisse in quella baia gran parte de La Cittadella e il suo ultimo testo, prima di trasferirsi in Corsica e scomparire nel suo ultimo volo, il 31 luglio dello stesso anno."
+        ],
+        note: ["Pranzo o cena — Rafel, sul Lido di Alghero."],
+        ristoranti: ["Rafel"]
+      },
+      {
+        titolo: "Il corallo e il congedo", giorno: "DOM",
+        paragrafi: [
+          "L'ultima mattina è per il Museo del Corallo, dentro Villa Costantino — una villa liberty del 1927 sul lungomare. Il corallium rubrum, pescato lungo la Riviera del Corallo, ha reso Alghero un centro internazionale di lavorazione: la Scuola del Corallo, fondata negli anni Cinquanta, è oggi una delle sole due in Italia, insieme a Torre del Greco.",
+          "Prima di ripartire, un'ultima passeggiata tra le botteghe di corallo del centro storico — poi la strada verso l'aeroporto, lo stesso scalo di Fertilia dove atterrò Saint-Exupéry nel maggio del 1944."
+        ],
+        note: ["Pranzo — Al Tuguri, prima di ripartire."],
+        ristoranti: ["Al Tuguri"]
+      }
+    ],
+
+    esperienze: [
+      { titolo: "Ingresso Grotte di Nettuno (via terra o mare)", dettaglio: "ESCALA DEL CABIROL O BARCA DA ALGHERO", prezzo: "da confermare" },
+      { titolo: "Ingresso MASE — Museo Saint-Exupéry", dettaglio: "TORRE NUOVA, PORTO CONTE", prezzo: "da confermare" },
+      { titolo: "Ingresso Museo del Corallo", dettaglio: "VILLA COSTANTINO", prezzo: "7 € intero / 5 € ridotto" }
+    ],
+
+    primaDiPartire: [
+      { etichetta: "STAGIONE", testo: "Le Grotte di Nettuno sono accessibili solo con condizioni meteo-marine favorevoli. Il MASE ha orari variabili mese per mese: verificare prima di partire." },
+      { etichetta: "APERTURA", testo: "Museo del Corallo aperto tutti i giorni, 10:30-13:00 e 17:30-20:00." },
+      { etichetta: "PRENOTARE", testo: "MASE e Grotte di Nettuno: verificare tramite Alghero Experience. Museo del Corallo: tel. 079 4134690 o info@fondazionealghero.it." },
+      { etichetta: "ARRIVARE", testo: "Aeroporto di Alghero-Fertilia, il più vicino — lo stesso scalo militare dove atterrò Saint-Exupéry nel 1944." }
+    ],
+    notaVerifica: "Verificato il 2 settembre 2026. Orari, condizioni di accesso alle grotte e prezzi vanno riconfermati prima di ogni pubblicazione."
   }
 
 });
