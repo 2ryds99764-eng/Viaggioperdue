@@ -2399,6 +2399,22 @@ var HOTEL=[
     "web": "https://www.hotel-stachelburg.com/it/",
     "note": "Stile alpino tra vigneti e frutteti, nome legato al vicino castello Stachelburg del XIII secolo ⛰️ 🌳",
     "mappa": "Via Cascata 7, Parcines, BZ"
+  },
+  {
+    "nome": "Villa Las Tronas Hotel & Spa",
+    "indirizzo": "Lungomare Valencia 1",
+    "citta": "Alghero",
+    "provincia": "SS",
+    "prov": "SS",
+    "regione": "Sardegna",
+    "luogo": "Alghero (SS)",
+    "tel": "+39 079 981818",
+    "telefono": "+39 079 981818",
+    "cellulare": "",
+    "email": "info@hotelvillalastronas.it",
+    "web": "https://www.hotelvillalastronas.it/it/",
+    "note": "Ex residenza estiva della Famiglia Reale, su un promontorio privato con moli propri e piscina di acqua di mare 🌅 🌄",
+    "mappa": "Lungomare Valencia 1, Alghero, SS"
   }
 ];
 var HOTEL_PROVCITTA={
