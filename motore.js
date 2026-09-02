@@ -804,6 +804,16 @@ function costruisciEscape() {
         if (g.note && g.note.length) {
           html += g.note.map(function (n) { return '<p class="rp"><em>' + escV(n) + '</em></p>'; }).join("");
         }
+        if (g.ristoranti && g.ristoranti.length && window.GUIDA) {
+          const trovati = g.ristoranti.map(function (nomeCerca) {
+            return window.GUIDA.find(function (r) { return r.nome === nomeCerca; });
+          }).filter(Boolean);
+          if (trovati.length) {
+            html += '<div class="itin-chip-riga">' + trovati.map(function (r) {
+              return '<a class="chip-ristorante" href="' + urlMappa(r.mappa, r.lat, r.lng) + '" target="_blank" rel="noopener">📍 ' + esc(r.nome) + ' · ' + esc(r.luogo) + '</a>';
+            }).join("") + '</div>';
+          }
+        }
         if (g.bivio && g.bivio.length) {
           html += '<div class="escape-bivio-gruppo">' + g.bivio.map(function (bv) {
             return '<div class="escape-bivio">' +

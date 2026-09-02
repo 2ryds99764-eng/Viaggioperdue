@@ -116,7 +116,8 @@ T42.escape = Object.assign({}, T42.escape, {
       {
         titolo: "Il sentiero della roggia e gli affreschi di Naturno", giorno: "SAB",
         paragrafi: ["Il Waalweg si segue per un paio d'ore, tra meleti e boschi di betulle, fino alla cascata di Parcines: novantasette metri d'acqua di ghiacciaio, tra le più imponenti delle Alpi. Nel pomeriggio, Naturno — dieci minuti d'auto — custodisce nella chiesa di San Procolo uno dei più antichi cicli di affreschi di tutta l'area di lingua tedesca, pittura carolingia dell'VIII-IX secolo, oggi affiancata da un piccolo museo sotterraneo."],
-        note: ["Cena — Onkel Taa, dentro il museo K.u.K. di Bad Egart, Via Stazione 17, Tel/Parcines. Prenotazione consigliata."]
+        note: ["Cena — Onkel Taa, dentro il museo K.u.K. di Bad Egart, Via Stazione 17, Tel/Parcines. Prenotazione consigliata."],
+        ristoranti: ["Onkel Taa"]
       },
       {
         titolo: "Congedo", giorno: "DOM",
