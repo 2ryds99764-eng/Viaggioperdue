@@ -8,6 +8,7 @@ T42.escape = Object.assign({}, T42.escape, {
   "strongoli": {
     occhiello: "Escape N.1 · Calabria Ionica",
     titolo: "Strongoli",
+    regione: "Calabria",
     sottotitolo: "due notti in vigna",
     intro: "Una tenuta del Seicento tra vigne e agrumeti, una stella Michelin in casa, il mare a due chilometri. E nessuna copertura telefonica.",
     copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/1C8FD1D2-A27A-4A3E-9BD8-C16779BCD439_umbbim",
@@ -75,6 +76,7 @@ T42.escape = Object.assign({}, T42.escape, {
   "parcines": {
     occhiello: "Escape N.2 · Alto Adige",
     titolo: "Parcines",
+    regione: "Trentino-Alto Adige",
     sottotitolo: "due notti tra rogge e frutteti",
     intro: "Un paese di frutteti alle porte di Merano, attraversato da rogge che portano ancora oggi l'acqua ai meli. Due alberghi di charme, uno stesso cognome nobiliare che lega un sentiero del Quattrocento a una delle due case, e un ristorante che è anche un museo di storia asburgica.",
     copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/ACE672FF-9A6B-4B59-BC67-C5935A36D9D9_qjbheb",

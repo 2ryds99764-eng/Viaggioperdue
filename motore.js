@@ -1497,6 +1497,7 @@ function costruisciConcierge() {
   let promessaGuida = null;
   let promessaHotel = null;
   let promessaItinerari = null;
+  let promessaEscape = null;
 
   function caricaScript(src) {
     return new Promise(function (resolve, reject) {
@@ -1523,6 +1524,11 @@ function costruisciConcierge() {
       if (!promessaItinerari) promessaItinerari = caricaScript("itinerari.js");
       return promessaItinerari;
     }
+    if (tipo === "escape") {
+      if (T42.escape) return Promise.resolve();
+      if (!promessaEscape) promessaEscape = caricaScript("escape.js");
+      return promessaEscape;
+    }
     if (window.HOTEL_PROVCITTA) return Promise.resolve();
     if (!promessaHotel) promessaHotel = caricaScript("hotel.js");
     return promessaHotel;
@@ -1544,14 +1550,16 @@ function costruisciConcierge() {
         '<button class="conc-opzione" type="button" data-tipo="ristorante">🍽️<span>Ristorante</span></button>' +
         '<button class="conc-opzione" type="button" data-tipo="albergo">🛏️<span>Albergo</span></button>' +
         '<button class="conc-opzione" type="button" data-tipo="itinerario">🗺️<span>Itinerario</span></button>' +
+        '<button class="conc-opzione" type="button" data-tipo="escape">🧳<span>Escape</span></button>' +
       '</div>';
   }
 
   function renderStep2() {
     let regioni;
-    if (stato.tipo === "itinerario") {
+    if (stato.tipo === "itinerario" || stato.tipo === "escape") {
       const insieme = new Set();
-      Object.values(T42.itinerari || {}).forEach(function (it) { if (it.regione) insieme.add(it.regione); });
+      const fonte = stato.tipo === "itinerario" ? T42.itinerari : T42.escape;
+      Object.values(fonte || {}).forEach(function (it) { if (it.regione) insieme.add(it.regione); });
       regioni = Array.from(insieme).sort(function (a, b) { return a.localeCompare(b, "it"); });
     } else {
       const regprov = stato.tipo === "ristorante" ? (window.GUIDA_REGPROV || {}) : (window.HOTEL_PROVCITTA || {});
@@ -1585,9 +1593,10 @@ function costruisciConcierge() {
 
   function suggerimenti() {
     let match;
-    if (stato.tipo === "itinerario") {
-      const tutti = Object.keys(T42.itinerari || {}).map(function (chiave) {
-        return Object.assign({ chiave: chiave }, T42.itinerari[chiave]);
+    if (stato.tipo === "itinerario" || stato.tipo === "escape") {
+      const fonte = stato.tipo === "itinerario" ? T42.itinerari : T42.escape;
+      const tutti = Object.keys(fonte || {}).map(function (chiave) {
+        return Object.assign({ chiave: chiave }, fonte[chiave]);
       });
       match = tutti.filter(function (it) { return it.regione === stato.regione; });
     } else {
@@ -1605,18 +1614,26 @@ function costruisciConcierge() {
       const j = Math.floor(Math.random() * (i + 1));
       const tmp = mischiati[i]; mischiati[i] = mischiati[j]; mischiati[j] = tmp;
     }
-    if (stato.tipo === "itinerario" || stato.simbolo === "") return mischiati;
+    if (stato.tipo === "itinerario" || stato.tipo === "escape" || stato.simbolo === "") return mischiati;
     const quanti = Math.min(mischiati.length, 1 + Math.floor(Math.random() * 3));
     return mischiati.slice(0, quanti);
   }
 
   function renderRisultati() {
     const items = suggerimenti();
-    const etichettaTipo = stato.tipo === "ristorante" ? "ristorante" : (stato.tipo === "albergo" ? "albergo" : "itinerario");
+    const etichettaTipo = stato.tipo === "ristorante" ? "ristorante" : (stato.tipo === "albergo" ? "albergo" : (stato.tipo === "escape" ? "Escape" : "itinerario"));
     let html = '<div class="conc-titolo">I miei suggerimenti</div>';
     if (!items.length) {
       html += '<div class="conc-vuoto">Nessun ' + etichettaTipo +
         ' con questo profilo in ' + esc(stato.regione) + '. Prova un\'altra combinazione.</div>';
+    } else if (stato.tipo === "escape") {
+      html += '<div class="conc-risultati">' + items.map(function (es) {
+        return '<article class="conc-card">' +
+          '<div class="conc-card-nome">' + esc(es.titolo) + '</div>' +
+          (es.sottotitolo ? '<div class="conc-card-citta">' + esc(es.sottotitolo) + '</div>' : '') +
+          '<div class="azioni rist-azioni"><a class="btn btn--pieno" href="escape.html?e=' + encodeURIComponent(es.chiave) + '">Parti →</a></div>' +
+        '</article>';
+      }).join("") + '</div>';
     } else if (stato.tipo === "itinerario") {
       html += '<div class="conc-risultati">' + items.map(function (it) {
         return '<article class="conc-card">' +
@@ -1705,7 +1722,7 @@ function costruisciConcierge() {
       const selRegione = document.getElementById("conc-regione");
       if (selRegione) stato.regione = selRegione.value;
       console.log("[Concierge] Avanti step 2 → stato.regione =", JSON.stringify(stato.regione));
-      if (stato.regione) vaiA(stato.tipo === "itinerario" ? 4 : 3);
+      if (stato.regione) vaiA((stato.tipo === "itinerario" || stato.tipo === "escape") ? 4 : 3);
       return;
     }
     if (e.target.closest(".conc-rifai")) {
