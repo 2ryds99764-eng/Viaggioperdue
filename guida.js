@@ -935,7 +935,7 @@ var GUIDA=[
     "tel": "+39 333 1056719",
     "telefono": "+39 333 1056719",
     "web": "http://www.ristorantesaturnino.it",
-    "note": "",
+    "note": "Aperto nel 1946 da un americano innamorato dell'isola, dal 1997 gestito da Ciro Mattera, cucina di pesce sul porto di Forio ♥️",
     "mappa": "Via Marina, Forio, NA"
   },
   {
@@ -4876,15 +4876,15 @@ var GUIDA=[
     "nome": "Umberto a Mare",
     "indirizzo": "Via Soccorso 8",
     "citta": "Forio d’Ischia",
-    "provincia": "",
-    "prov": "",
+    "provincia": "NA",
+    "prov": "NA",
     "regione": "Campania",
     "luogo": "Forio d’Ischia",
     "tel": "+39081997171",
     "telefono": "+39081997171",
-    "web": "",
-    "note": "",
-    "mappa": "Via Soccorso 8, Forio d’Ischia"
+    "web": "https://www.umbertoamare.it/",
+    "note": "Stella Michelin dal novembre 2025, terrazza a picco sul mare famosa per il raggio verde al tramonto ♥️ 🌄",
+    "mappa": "Via Soccorso 8, Forio d’Ischia, NA"
   },
   {
     "nome": "Unico",
@@ -5780,6 +5780,48 @@ var GUIDA=[
     "web": "https://chameleon-clubbing-srl-lounge-bar.eatbu.com/?lang=it",
     "note": "Terrazza vista Spiaggia della Pelosa e isola dell'Asinara, ristorante di giorno e lounge bar la sera ⛱️ 🌄",
     "mappa": "Località Capo Falcone, Stintino, SS"
+  },
+  {
+    "nome": "Origini — Da Peppina di Renato",
+    "indirizzo": "Via Montecorvo 114",
+    "citta": "Forio",
+    "provincia": "NA",
+    "prov": "NA",
+    "regione": "Campania",
+    "luogo": "Forio (NA)",
+    "tel": "+39 340 843 7958",
+    "telefono": "+39 340 843 7958",
+    "web": "",
+    "note": "Trattoria storica in un casolare di tufo, cucina contadina ischitana e coniglio all'ischitana, chef Marco Misceo dal 2023 ♥️ 👑",
+    "mappa": "Via Montecorvo 114, Forio, NA"
+  },
+  {
+    "nome": "L'Isola",
+    "indirizzo": "Via Giovanni Mazzella 116",
+    "citta": "Forio",
+    "provincia": "NA",
+    "prov": "NA",
+    "regione": "Campania",
+    "luogo": "Forio (NA)",
+    "tel": "+39 081 18182524",
+    "telefono": "+39 081 18182524",
+    "web": "https://lisola.restaurant/it",
+    "note": "Ristorante, pizzeria e braceria fondati da Nino Di Costanzo, Ivano Veccia e Federico de Majo, terrazza sul tramonto 🌄",
+    "mappa": "Via Giovanni Mazzella 116, Forio, NA"
+  },
+  {
+    "nome": "Danì Maison",
+    "indirizzo": "Via Montetignuso 4",
+    "citta": "Ischia",
+    "provincia": "NA",
+    "prov": "NA",
+    "regione": "Campania",
+    "luogo": "Ischia (NA)",
+    "tel": "+39 081 993190",
+    "telefono": "+39 081 993190",
+    "web": "https://danimaison.it/it/",
+    "note": "Due Stelle Michelin, chef Nino Di Costanzo nella sua casa di famiglia, solo 16 coperti ⭐ ♥️",
+    "mappa": "Via Montetignuso 4, Ischia, NA"
   }
 ];
 var GUIDA_REGPROV={

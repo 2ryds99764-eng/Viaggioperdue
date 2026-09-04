@@ -2415,6 +2415,22 @@ var HOTEL=[
     "web": "https://www.hotelvillalastronas.it/it/",
     "note": "Ex residenza estiva della Famiglia Reale, su un promontorio privato con moli propri e piscina di acqua di mare 🌅 🌄",
     "mappa": "Lungomare Valencia 1, Alghero, SS"
+  },
+  {
+    "nome": "Umberto a Mare",
+    "indirizzo": "Via Soccorso 8",
+    "citta": "Forio d’Ischia",
+    "provincia": "NA",
+    "prov": "NA",
+    "regione": "Campania",
+    "luogo": "Forio d’Ischia (NA)",
+    "tel": "+39081997171",
+    "telefono": "+39081997171",
+    "cellulare": "",
+    "email": "info@umbertoamare.it",
+    "web": "https://www.umbertoamare.it/risvegliarsi-da-umberto-a-mare/",
+    "note": "11 camere incastonate nel promontorio del Soccorso, ristorante interno con Stella Michelin, il mare come unico arredo 🌅 🌄",
+    "mappa": "Via Soccorso 8, Forio d’Ischia, NA"
   }
 ];
 var HOTEL_PROVCITTA={
