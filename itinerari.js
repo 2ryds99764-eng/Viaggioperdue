@@ -2020,7 +2020,16 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
     },
 
     primaDiChiudere: [
-      { titolo: "GLI ARRIVI", sotto: "Caremar o Alilauro da Napoli", testo: "Caremar (traghetto, porta anche le auto) impiega circa un'ora e quaranta da Calata Porta di Massa; Alilauro (aliscafo, solo passeggeri) circa un'ora da Molo Beverello." },
+      {
+        titolo: "GLI ARRIVI",
+        sotto: "Caremar o Alilauro/Snav da Napoli",
+        testo: "Caremar (traghetto, porta anche le auto) impiega circa un'ora e quaranta da Calata Porta di Massa. Alilauro e Snav (aliscafi, solo passeggeri) collegano invece Molo Beverello in circa un'ora.",
+        links: [
+          { label: "Caremar", url: "https://shop.caremar.it/it/" },
+          { label: "Alilauro", url: "https://www.alilauro.it/it/" },
+          { label: "Snav", url: "https://www.snav.it" }
+        ]
+      },
       { titolo: "L'AUTO", sotto: "consigliata, non indispensabile", testo: "L'isola si gira anche in autobus locale o con un autista privato, ma un'auto a noleggio dà più libertà per le gite quotidiane." },
       { titolo: "LA STAGIONE", sotto: "aprile-ottobre per le terme all'aperto", testo: "Negombo e La Mortella sono aperti solo da aprile a ottobre; il Castello Aragonese e i ristoranti restano aperti tutto l'anno, salvo chiusure stagionali da verificare." },
       { titolo: "L'AUTISTA", sotto: "Stani Senese", testo: "Per trasferimenti privati sull'isola: +39 333 6671111 o +39 347 5791074." }

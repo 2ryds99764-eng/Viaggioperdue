@@ -1070,6 +1070,9 @@ function costruisciItinerario() {
             '<span class="itin-percorso-titolo">' + esc(r.sotto) + '</span>' +
           '</div>' +
           '<div class="itin-percorso-testo">' + esc(r.testo) + '</div>' +
+          (r.links && r.links.length ? '<div class="itin-tac-link">' + r.links.map(function (l) {
+            return '<a class="itin-link-storia" href="' + esc(l.url) + '" target="_blank" rel="noopener">' + esc(l.label) + '</a>';
+          }).join(' ') + '</div>' : '') +
         '</div>';
       }).join("") +
       '</div>' +
