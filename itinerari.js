@@ -1888,6 +1888,149 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
       "Ristoranti dell'itinerario — vedi il taccuino \"Dove sedersi a tavola\".",
       "Numeri di emergenza — 112 per qualunque emergenza."
     ]
+  },
+
+  "ischia": {
+    occhiello: "Un itinerario per due",
+    titolo: "Dalla Baia di San Montano al Castello Aragonese",
+    sottotitolo: "sei giorni tra terme, stelle Michelin e il giardino di Susana Walton",
+    regione: "Campania",
+    copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_2343_ciaqg8",
+    tappe: ["Forio", "Giardini La Mortella", "Ischia Ponte", "Castello Aragonese", "Sant'Angelo", "Baia di Sorgeto", "Nitrodi", "Baia di San Montano", "Negombo"],
+
+    epigrafe: {
+      testo: "Raccontiamo, non giudichiamo. La libertà di scoprire appartiene a chi viaggia, non a chi scrive.",
+      fonte: ""
+    },
+
+    apertura: [
+      "Ischia non è un'isola sola: è almeno tre isole nella stessa isola. C'è l'isola termale, quella che i greci conoscevano già come luogo di cura, con sorgenti sacre e parchi che sono più giardino che stabilimento. C'è l'isola gastronomica, che in pochi chilometri quadrati conta più stelle Michelin che intere regioni. E c'è l'isola storica, dominata da una rocca che guarda il golfo di Napoli da venticinque secoli.",
+      "La base è Forio, sul versante ovest: Umberto a Mare, undici camere incastonate nella roccia sotto la chiesa del Soccorso, stella Michelin nel ristorante di sotto. Chi cerca qualcosa di più esclusivo può scegliere il Mezzatorre, sull'altro capo dell'isola: due alberghi diversissimi per stile e prezzo, accomunati dalla stessa cosa — una vista sul mare con il tramonto davanti agli occhi.",
+      "Sei giorni, cinque notti, un'auto a noleggio o un autista di fiducia: il tempo di girare l'isola intera senza avere fretta."
+    ],
+
+    percorso: {
+      intro: "Umberto a Mare come base fissa a Forio, con gite quotidiane verso i quattro angoli dell'isola.",
+      giorni: [
+        { giorno: "Giorno primo", titolo: "Arrivo, Forio", km: "", testo: "Traghetto da Napoli, check-in, i bastioni al tramonto." },
+        { giorno: "Giorno secondo", titolo: "I Giardini La Mortella", km: "5 km", testo: "Il giardino di Susana Walton e Russell Page." },
+        { giorno: "Giorno terzo", titolo: "Ischia Ponte e il Castello Aragonese", km: "12 km", testo: "Venticinque secoli di storia, il pane di Boccia." },
+        { giorno: "Giorno quarto", titolo: "Sant'Angelo e le terme naturali", km: "15 km", testo: "Il borgo pedonale, la Baia di Sorgeto." },
+        { giorno: "Giorno quinto", titolo: "Nitrodi, Negombo e la Baia di San Montano", km: "20 km", testo: "Due terme, il miele di Franco Conte, cena da Danì Maison." },
+        { giorno: "Giorno sesto", titolo: "Congedo", km: "", testo: "Nessuna tappa fissa." }
+      ]
+    },
+
+    giorni: [
+      {
+        label: "Giorno primo",
+        titolo: "Arrivo, Forio",
+        paragrafi: [
+          "Il traghetto Caremar o l'aliscafo Alilauro da Napoli impiegano tra un'ora e un'ora e quaranta, a seconda della scelta. Ischia si presenta da lontano con il profilo del Monte Epomeo, poi via via i colori dei paesi che si affacciano sul mare. Il check-in a Umberto a Mare è già un primo assaggio: undici camere incastonate nel promontorio del Soccorso, a venti metri dalla chiesa omonima, con il mare come unico vero arredo.",
+          "Il resto del pomeriggio si passa a piedi per il centro storico di Forio, fino ai bastioni: è qui, al tramonto, che si vede — nelle giornate più limpide — il leggendario raggio verde, l'ultimo lampo di luce quando il sole tocca l'orizzonte."
+        ],
+        note: ["Si dorme a Umberto a Mare (prima delle cinque notti).", "Cena — Umberto a Mare, il ristorante dell'albergo stesso."],
+        ristoranti: ["Umberto a Mare"],
+        produttori: []
+      },
+      {
+        label: "Giorno secondo",
+        titolo: "I Giardini La Mortella",
+        paragrafi: [
+          "Nel 1956 Susana Walton, moglie argentina del compositore inglese William Walton, chiamò il paesaggista Russell Page — grande ammiratore della sua musica — per disegnare un giardino tra le rocce vulcaniche del promontorio di Zaro. Page tracciò la Valle, il giardino più basso, subtropicale e umido; la Collina, terrazzata a muri a secco, restò invece opera di Lady Walton stessa, che vi lavorò per oltre cinquant'anni seguendo solo la propria ispirazione. Aperto al pubblico dal 1991, il giardino prende il nome dai cespugli di mirto — 'mortella', in dialetto — che crescevano tra le rocce prima che diventassero altro.",
+          "Non è un caso che la sera si torni a cena da Danì Maison, qualche giorno dopo: anche lì, dietro la casa di famiglia di Nino Di Costanzo, un giardino curato con la stessa pazienza ossessiva accompagna l'ingresso al ristorante. Nessun legame storico tra i due — solo la stessa cura, applicata a distanza di decenni e di scopi diversi."
+        ],
+        note: ["Si dorme di nuovo a Umberto a Mare.", "Il giardino richiede la prenotazione online, verificare i giorni di apertura (mar/gio/sab/dom)."],
+        ristoranti: [],
+        produttori: []
+      },
+      {
+        label: "Giorno terzo",
+        titolo: "Ischia Ponte e il Castello Aragonese",
+        paragrafi: [
+          "Il Castello Aragonese è un'isola nell'isola: uno scoglio di tufo alto oltre cento metri, collegato a Ischia Ponte da un ponte di pietra voluto da Alfonso d'Aragona nel 1441. Venticinque secoli di storia si accumulano tra le sue mura — fortezza, residenza reale, convento di clausura, carcere borbonico — fino a diventare, oggi, il monumento più visitato dell'isola: cattedrale, giardini pensili, il Museo delle Torture, una terrazza panoramica sull'intero golfo di Napoli.",
+          "Prima di risalire in auto, una tappa al Panificio Boccia, a cinquanta metri dal castello: attivo dal 1938, quattro generazioni della stessa famiglia, è qui che nasce il pane usato per la zingara ischitana, il crostone di prosciutto crudo e fior di latte diventato un classico dell'isola."
+        ],
+        note: ["Si dorme un'altra volta a Umberto a Mare.", "Il Castello chiude per manutenzione da inizio gennaio a inizio marzo: verificare prima di partire.", "Cena — Il Saturnino, sul porto di Forio."],
+        ristoranti: ["Saturnino"],
+        produttori: []
+      },
+      {
+        label: "Giorno quarto",
+        titolo: "Sant'Angelo e le terme naturali",
+        paragrafi: [
+          "Sant'Angelo è un borgo di pescatori collegato a un isolotto da un sottile istmo di sabbia, nel comune di Serrara Fontana. Niente auto: si arriva a piedi, tra case color pastello raccolte intorno a una piazzetta che guarda il mare. Da qui, un taxi boat porta in pochi minuti alla Baia di Sorgeto, dove l'acqua termale sgorga direttamente dalla roccia e si mescola gratuitamente con quella del mare, in piscine naturali scavate nella pietra.",
+          "Lungo il litorale verso i Maronti si incontrano le Fumarole di Cava Petrelle: la sabbia, qui, è calda al punto da scottare i piedi nudi — un avvertimento più che un consiglio."
+        ],
+        note: ["Si dorme ancora a Umberto a Mare.", "Cena — L'Isola, per il tramonto sulla terrazza."],
+        ristoranti: ["L'Isola"],
+        produttori: []
+      },
+      {
+        label: "Giorno quinto",
+        titolo: "Nitrodi, Negombo e la Baia di San Montano",
+        paragrafi: [
+          "La mattina si apre a Barano, alla Fonte delle Ninfe Nitrodi: una sorgente che i coloni greci dedicarono ad Apollo e alle ninfe, con proprietà curative riconosciute ufficialmente dal Ministero della Salute nel 2003. Niente piscine, solo fontane e docce dove l'acqua esce pura dalla roccia a ventotto gradi. A pochi minuti, nella stessa Barano, l'Apicoltura 'E Maist di Franco Conte lavora il miele seguendo le fioriture del suolo vulcanico dell'isola — il suo millefiori ha vinto il primo posto nazionale alle Tre Gocce d'Oro 2024.",
+          "Il pomeriggio è per Negombo, nella Baia di San Montano: fondato nel 1946 dal duca Luigi Silvestro Camerini, che diede al parco il nome di una baia di Ceylon che aveva amato durante un esilio politico. Piscine termali, un giardino con piante da ogni continente, opere di Arnaldo Pomodoro e Lucio Del Pezzo tra la vegetazione.",
+          "La sera, la cena più importante del viaggio: da Danì Maison, la casa di famiglia dello chef Nino Di Costanzo trasformata in un ristorante da due stelle Michelin, appena sedici coperti. Va prenotato con largo anticipo."
+        ],
+        note: ["Ultima notte a Umberto a Mare.", "Negombo è aperto solo da aprile a ottobre."],
+        ristoranti: ["Danì Maison"],
+        produttori: [
+          { nome: "Apicoltura 'E Maist — Franco Conte", url: "https://www.ischiamielemaist.it" }
+        ]
+      },
+      {
+        label: "Giorno sesto",
+        titolo: "Congedo",
+        paragrafi: [
+          "Il congedo è breve: nessuna tappa fissa, solo la strada del ritorno verso il porto o l'imbarco per l'aliscafo. Chi vuole allungare il soggiorno con un finale più esclusivo può spostarsi per un'ultima notte al Mezzatorre, sull'altro capo dell'isola — stesso tramonto sul mare, in una torre aragonese del Cinquecento."
+        ],
+        note: [],
+        ristoranti: [],
+        produttori: []
+      }
+    ],
+
+    taccuino: {
+      dormire: [
+        {
+          zona: "Forio", notti: "cinque notti",
+          strutture: [
+            { nome: "Umberto a Mare", contatto: "Via Soccorso 8, tel. 081 997171", testo: "Undici camere incastonate nel promontorio del Soccorso, ristorante interno con Stella Michelin dal novembre 2025." },
+            { nome: "Mezzatorre", contatto: "Via Mezzatorre 23, tel. 081 986111", testo: "Cinque stelle in una torre di avvistamento aragonese del Cinquecento, baia privata, per chi cerca un finale più esclusivo (alternativa, non incluso nelle cinque notti base)." }
+          ]
+        }
+      ],
+      tavola: {
+        intro: "Cinque indirizzi diversi in cinque sere, dal più semplice al più celebrato.",
+        voci: [
+          { nome: "Umberto a Mare" },
+          { nome: "Origini — Da Peppina di Renato" },
+          { nome: "Saturnino" },
+          { nome: "L'Isola" },
+          { nome: "Danì Maison" }
+        ]
+      },
+      approfondimenti: [
+        { titolo: "Il giardino di Susana Walton", testo: "Cinquant'anni di lavoro personale, dopo l'impianto iniziale di Russell Page, hanno trasformato La Mortella in uno dei giardini privati più celebrati d'Italia. William Walton è sepolto lì, in una roccia del giardino, con un'iscrizione che ricorda il lavoro comune con la moglie." },
+        { titolo: "Duemilacinquecento anni in una rocca", testo: "Dal 474 a.C. a oggi, il Castello Aragonese ha attraversato praticamente ogni dominazione del Mediterraneo occidentale — greci, romani, angioini, aragonesi — fino a diventare, nel Settecento, un piccolo borgo autosufficiente di quasi duemila abitanti dentro le sue mura." },
+        { titolo: "Un'isola di sorgenti", testo: "Ischia conta più parchi termali di qualunque altra isola italiana: da Nitrodi, sacra già ai greci, ai grandi giardini-stabilimento come Negombo, la cura dell'acqua calda è una costante della sua storia quanto la vite o la pesca." }
+      ]
+    },
+
+    primaDiChiudere: [
+      { titolo: "GLI ARRIVI", sotto: "Caremar o Alilauro da Napoli", testo: "Caremar (traghetto, porta anche le auto) impiega circa un'ora e quaranta da Calata Porta di Massa; Alilauro (aliscafo, solo passeggeri) circa un'ora da Molo Beverello." },
+      { titolo: "L'AUTO", sotto: "consigliata, non indispensabile", testo: "L'isola si gira anche in autobus locale o con un autista privato, ma un'auto a noleggio dà più libertà per le gite quotidiane." },
+      { titolo: "LA STAGIONE", sotto: "aprile-ottobre per le terme all'aperto", testo: "Negombo e La Mortella sono aperti solo da aprile a ottobre; il Castello Aragonese e i ristoranti restano aperti tutto l'anno, salvo chiusure stagionali da verificare." },
+      { titolo: "L'AUTISTA", sotto: "Stani Senese", testo: "Per trasferimenti privati sull'isola: +39 333 6671111 o +39 347 5791074." }
+    ],
+
+    numeriUtili: [
+      "Da prenotare con largo anticipo — Danì Maison (due stelle Michelin, sedici coperti).",
+      "Ristoranti dell'itinerario — vedi il taccuino \"Dove sedersi a tavola\".",
+      "Numeri di emergenza — 112 per qualunque emergenza."
+    ]
   }
 
 });
