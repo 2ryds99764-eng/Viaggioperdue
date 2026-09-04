@@ -668,9 +668,9 @@ var GUIDA=[
     "luogo": "Colle di Val d'Elsa (SI)",
     "tel": "+39 338 7706128",
     "telefono": "+39 338 7706128",
-    "web": "",
-    "note": "",
-    "mappa": "Via XX Settembre 50, Colle di Val d'Elsa, Colle di Val d'Elsa, SI"
+    "web": "https://www.osteriabis.it/",
+    "note": "Nella sede storica di Arnolfo, cucina italiana regionale con radici toscane e siciliane ♥️",
+    "mappa": "Via XX Settembre 50, Colle di Val d'Elsa, SI"
   },
   {
     "nome": "Boivin",
@@ -1663,7 +1663,7 @@ var GUIDA=[
     "tel": "+39 0577 920549",
     "telefono": "+39 0577 920549",
     "web": "https://www.arnolfo.com",
-    "note": "🌄 ♥️",
+    "note": "Due Stelle Michelin dal 1997, chef Gaetano Trovato (Mentor Chef Award 2024), edificio di vetro e marmo su una collina davanti al borgo medievale 🌄 ♥️",
     "mappa": "Viale della Rimembranza 24, Colle di Val d'Elsa, SI"
   },
   {

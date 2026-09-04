@@ -207,6 +207,79 @@ T42.escape = Object.assign({}, T42.escape, {
       { etichetta: "ARRIVARE", testo: "Aeroporto di Alghero-Fertilia, il più vicino — lo stesso scalo militare dove atterrò Saint-Exupéry nel 1944." }
     ],
     notaVerifica: "Verificato il 2 settembre 2026. Orari, condizioni di accesso alle grotte e prezzi vanno riconfermati prima di ogni pubblicazione."
+  },
+
+  "colle-di-val-delsa": {
+    occhiello: "Escape N.4 · Toscana",
+    titolo: "Colle di Val d'Elsa",
+    regione: "Toscana",
+    sottotitolo: "due notti tra cristallo e due stelle Michelin",
+    intro: "Una sede storica diventata osteria informale, un ristorante due stelle trasferito su una collina di vetro, e un paese che per un secolo ha prodotto il quindici per cento del cristallo del mondo. Un solo cognome — Trovato — lega le prime due cose; un mestiere tramandato per generazioni lega la terza.",
+    copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_1673_tifp4z",
+
+    percheCiSiVa: [
+      "Nel 1982 i fratelli Gaetano e Giovanni Trovato aprirono Arnolfo nel centro storico di Colle di Val d'Elsa. Quarant'anni dopo, nel 2022, il ristorante — nel frattempo salito a due stelle Michelin — si è trasferito su una collina di fronte al paese, in un edificio di vetro e marmo disegnato dall'architetto Andrea Milani. La vecchia sede, quella dove tutto è cominciato, non è stata abbandonata: ospita oggi Bis, un'osteria più informale con quattro camere per chi vuole dormire nello stesso luogo dove è nata la leggenda.",
+      "Colle di Val d'Elsa è anche, da un secolo, la 'Boemia d'Italia': fino al 2008 concentrava il quindici per cento della produzione mondiale di cristallo e il novantacinque per cento di quella italiana. Un mestiere che si racconta al Museo del Cristallo e si tocca con mano allo spaccio della RCR, l'azienda che ha reso il nome del paese noto in tutto il mondo."
+    ],
+
+    base: [
+      {
+        nome: "Bis Osteria Contemporanea",
+        luogo: "Via XX Settembre 50, Colle di Val d'Elsa (SI)",
+        dettaglio: "4 CAMERE",
+        testo: "Le camere storiche di Arnolfo, nell'edificio dove il ristorante è nato nel 1982. Camera matrimoniale con benvenuto della cucina, minibar e colazione inclusi.",
+        tel: "3387706128",
+        mappaIndirizzo: "Via XX Settembre 50, Colle di Val d'Elsa, SI",
+        sitoWeb: "https://www.osteriabis.it/camere"
+      }
+    ],
+
+    giornate: [
+      {
+        titolo: "Arrivo", giorno: "VEN",
+        paragrafi: [
+          "Si arriva nel pomeriggio, con il tempo per un primo giro nel centro storico medievale di Colle — le mura, il Duomo, le case-torri che si affacciano su Via del Castello. Il check-in a Bis Osteria è già parte del racconto: le stesse quattro camere che ospitavano gli avventori di Arnolfo prima del 2022, oggi riadattate con lo stesso spirito conviviale del ristorante di sotto.",
+          "La sera si cena lì, senza muoversi: la cucina di Bis viaggia tra le regioni italiane, con Toscana e Sicilia — le due radici della famiglia Trovato — sempre presenti in carta."
+        ],
+        note: ["Si dorme a Bis Osteria (prima delle due notti)."],
+        ristoranti: ["Bis Osteria Contemporanea"],
+        produttori: []
+      },
+      {
+        titolo: "Il cristallo e la cena stellata", giorno: "SAB",
+        paragrafi: [
+          "La mattina è per il Museo del Cristallo, allestito nello spazio sotterraneo dell'ex vetreria Boschi dell'Ottocento: un percorso su due livelli racconta come Colle sia diventata, nel Novecento, la 'Città del Cristallo' — fino al 2008, il quindici per cento della produzione mondiale usciva da qui. Poco fuori paese, lo spaccio della RCR Cristalleria Italiana permette di vedere da vicino i calici e i bicchieri che portano il nome di Colle in tutto il mondo, con visite guidate su prenotazione per i gruppi.",
+          "La sera è per Arnolfo: due stelle Michelin (la prima nel 1986, la seconda nel 1997), la cucina di Gaetano Trovato — Mentor Chef Award 2024 — dietro una parete di marmo giallo di Siena, con vista sul borgo medievale attraverso vetrate a tutta altezza. Non è un caso isolato: tra gli allievi passati dalla cucina di Trovato c'è anche Nino Di Costanzo, oggi chef due stelle di Danì Maison a Ischia."
+        ],
+        note: ["Ultima notte a Bis Osteria.", "Cena da Arnolfo: prenotare con largo anticipo."],
+        ristoranti: ["Arnolfo"],
+        produttori: []
+      },
+      {
+        titolo: "Congedo", giorno: "DOM",
+        paragrafi: [
+          "Prima di ripartire, un'ultima passeggiata tra le vie del centro storico, magari fermandosi in una delle botteghe di cristallo che ancora incidono a mano i pezzi, secondo una tecnica tramandata da generazioni di famiglie colligiane."
+        ],
+        note: [],
+        ristoranti: [],
+        produttori: []
+      }
+    ],
+
+    esperienze: [
+      { titolo: "Ingresso Museo del Cristallo", dettaglio: "EX VETRERIA BOSCHI", prezzo: "da confermare" },
+      { titolo: "Visita guidata RCR Crystal Outlet", dettaglio: "SU PRENOTAZIONE PER GRUPPI", prezzo: "da confermare" },
+      { titolo: "Cena da Arnolfo", dettaglio: "DUE STELLE MICHELIN, MENU DEGUSTAZIONE", prezzo: "da confermare" }
+    ],
+
+    primaDiPartire: [
+      { etichetta: "APERTURA", testo: "Bis Osteria chiude il lunedì; aperta a cena da martedì a venerdì, pranzo e cena il sabato, solo pranzo la domenica." },
+      { etichetta: "PRENOTARE", testo: "Arnolfo: tel. 0577 920549 o booking@arnolfo.com, con largo anticipo. Bis Osteria: tel. 338 770 6128." },
+      { etichetta: "IL MUSEO", testo: "Chiuso il lunedì e il mercoledì: verificare gli orari aggiornati prima di partire." },
+      { etichetta: "ARRIVARE", testo: "Aeroporto di Firenze-Peretola circa 50 minuti; aeroporto di Pisa circa un'ora." }
+    ],
+
+    notaVerifica: "Verificato il 4 settembre 2026. Orari, giorni di chiusura e prezzi vanno riconfermati prima di ogni pubblicazione."
   }
 
 });
