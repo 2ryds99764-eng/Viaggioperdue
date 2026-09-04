@@ -73,13 +73,15 @@ function costruisciHome() {
   /* ---- HERO a tutto schermo ---- */
   const hero = document.getElementById("hero");
   if (hero) {
-    const sfondo = (s.hero && s.hero.trim() !== "")
-      ? ' style="background-image:url(\'' + esc(s.hero) + '\')"' : '';
+    const galleria = (s.heroGalleria && s.heroGalleria.length) ? s.heroGalleria : (s.hero ? [s.hero] : []);
+    const immaginiHero = galleria.map(function (url, i) {
+      return '<div class="hero-img' + (i === 0 ? ' attiva' : '') + '" style="background-image:url(\'' + esc(url) + '\')"></div>';
+    }).join('');
     const marchio = (s.logoBianco && s.logoBianco.trim() !== "")
       ? '<img class="hero-logo" src="' + esc(s.logoBianco) + '" alt="' + esc(s.nome) + '">'
       : '<div class="hero-nome">' + esc(s.heroTitolo || s.nome) + '</div>';
     hero.innerHTML =
-      '<div class="hero-img"' + sfondo + '></div>' +
+      immaginiHero +
       '<div class="hero-velo"></div>' +
       '<div class="hero-dentro">' +
         '<div class="hero-sigla anima d1">Viaggio<em>per</em>due</div>' +
@@ -87,6 +89,16 @@ function costruisciHome() {
         (s.heroSotto ? '<p class="hero-sotto anima d3">' + esc(s.heroSotto) + '</p>' : '') +
       '</div>' +
       '<a class="hero-scroll" href="#sezioni" aria-label="Scorri"><span>scorri</span><span class="hero-freccia">↓</span></a>';
+
+    if (galleria.length > 1 && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      const immagini = hero.querySelectorAll(".hero-img");
+      let indice = 0;
+      setInterval(function () {
+        immagini[indice].classList.remove("attiva");
+        indice = (indice + 1) % immagini.length;
+        immagini[indice].classList.add("attiva");
+      }, 5000);
+    }
   }
 
   /* ---- breve manifesto sotto l'hero ---- */

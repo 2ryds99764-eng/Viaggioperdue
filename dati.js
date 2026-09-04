@@ -53,6 +53,14 @@ const T42 = {
 
     /* ---- Stile immersivo della home (ispirato a Domitur) ---- */
     hero: "https://res.cloudinary.com/dspgc41gt/image/upload/f_jpg/Hero.jpg_ffkmdy",                   /* grande foto a tutto schermo */
+    heroGalleria: [
+      "https://res.cloudinary.com/dspgc41gt/image/upload/f_jpg/Hero.jpg_ffkmdy",
+      "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_0912_upztqn",
+      "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_2149_t5w2pl",
+      "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_0284_xez9zz",
+      "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_2216_l8mzo0",
+      "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_8639_qxpwco"
+    ],
     heroTitolo: "Viaggioperdue",
     heroSotto: "Destinazioni oltre i luoghi comuni.",
 

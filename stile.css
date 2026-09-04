@@ -369,8 +369,9 @@ body::before {
 }
 .hero-img {
   position: absolute; inset: 0; background-size: cover; background-position: center;
-  transform: scale(1.04);
+  transform: scale(1.04); opacity: 0; transition: opacity 1.2s ease;
 }
+.hero-img.attiva { opacity: 1; }
 .hero-velo {
   position: absolute; inset: 0;
   background: linear-gradient(180deg, rgba(20,35,63,0.45) 0%, rgba(20,35,63,0.30) 40%, rgba(20,35,63,0.55) 100%);
