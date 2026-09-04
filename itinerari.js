@@ -1962,8 +1962,8 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
           "Sant'Angelo è un borgo di pescatori collegato a un isolotto da un sottile istmo di sabbia, nel comune di Serrara Fontana. Niente auto: si arriva a piedi, tra case color pastello raccolte intorno a una piazzetta che guarda il mare. Da qui, un taxi boat porta in pochi minuti alla Baia di Sorgeto, dove l'acqua termale sgorga direttamente dalla roccia e si mescola gratuitamente con quella del mare, in piscine naturali scavate nella pietra.",
           "Lungo il litorale verso i Maronti si incontrano le Fumarole di Cava Petrelle: la sabbia, qui, è calda al punto da scottare i piedi nudi — un avvertimento più che un consiglio."
         ],
-        note: ["Si dorme ancora a Umberto a Mare.", "Cena — L'Isola, per il tramonto sulla terrazza."],
-        ristoranti: ["L'Isola"],
+        note: ["Si dorme ancora a Umberto a Mare.", "Cena — Lisola, per il tramonto sulla terrazza."],
+        ristoranti: ["Lisola"],
         produttori: []
       },
       {
@@ -2008,7 +2008,7 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
           { nome: "Umberto a Mare" },
           { nome: "Origini — Da Peppina di Renato" },
           { nome: "Saturnino" },
-          { nome: "L'Isola" },
+          { nome: "Lisola" },
           { nome: "Danì Maison" }
         ]
       },
@@ -2032,7 +2032,15 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
       },
       { titolo: "L'AUTO", sotto: "consigliata, non indispensabile", testo: "L'isola si gira anche in autobus locale o con un autista privato, ma un'auto a noleggio dà più libertà per le gite quotidiane." },
       { titolo: "LA STAGIONE", sotto: "aprile-ottobre per le terme all'aperto", testo: "Negombo e La Mortella sono aperti solo da aprile a ottobre; il Castello Aragonese e i ristoranti restano aperti tutto l'anno, salvo chiusure stagionali da verificare." },
-      { titolo: "L'AUTISTA", sotto: "Stani Senese", testo: "Per trasferimenti privati sull'isola: +39 333 6671111 o +39 347 5791074." }
+      {
+        titolo: "L'AUTISTA",
+        sotto: "Stani Senese",
+        testo: "Per trasferimenti privati sull'isola.",
+        links: [
+          { label: "Chiama (ufficio)", url: "tel:+393336671111" },
+          { label: "Chiama (cellulare)", url: "tel:+393475791074" }
+        ]
+      }
     ],
 
     numeriUtili: [

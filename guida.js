@@ -5796,7 +5796,7 @@ var GUIDA=[
     "mappa": "Via Montecorvo 114, Forio, NA"
   },
   {
-    "nome": "L'Isola",
+    "nome": "Lisola",
     "indirizzo": "Via Giovanni Mazzella 116",
     "citta": "Forio",
     "provincia": "NA",
