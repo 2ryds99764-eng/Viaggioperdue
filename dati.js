@@ -953,7 +953,7 @@ const T42 = {
         titolo: "Molini del Ponte",
         luogo: "Via Parini 29 · Castelvetrano (TP)",
         sommario: "Il mugnaio che ha riportato in vita i grani dimenticati di Sicilia, macinandoli a pietra come si faceva un secolo fa.",
-        immagine: "",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/EA050B3B-E0DA-4344-8AB8-7467780EDAE6_v7on1u",
         storia: "molinidelponte",
         telefono: "+390924904162",
         web: "https://www.molinidelponte.it",
