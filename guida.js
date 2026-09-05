@@ -5821,7 +5821,8 @@ var GUIDA=[
     "telefono": "+39 081 993190",
     "web": "https://danimaison.it/it/",
     "note": "Due Stelle Michelin, chef Nino Di Costanzo nella sua casa di famiglia, solo 16 coperti ⭐ ♥️",
-    "mappa": "1ª traversa Montetignuso 4/A, Ischia, NA"
+    "mappa": "1ª traversa Montetignuso 4/A, Ischia, NA",
+    "storia": "dani-maison"
   }
 ];
 var GUIDA_REGPROV={

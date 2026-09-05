@@ -1942,7 +1942,9 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
         ],
         note: ["Si dorme di nuovo a Umberto a Mare.", "Il giardino richiede la prenotazione online, verificare i giorni di apertura (mar/gio/sab/dom)."],
         ristoranti: [],
-        produttori: []
+        produttori: [
+          { nome: "Giardini La Mortella", url: "https://www.lamortella.org" }
+        ]
       },
       {
         label: "Giorno terzo",

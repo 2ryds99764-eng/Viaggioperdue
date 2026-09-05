@@ -837,7 +837,8 @@ function costruisciEscape() {
           if (trovati.length) {
             html += '<div class="itin-chip-riga">' + trovati.map(function (r) {
               return '<a class="chip-ristorante" href="' + urlMappa(r.mappa, r.lat, r.lng) + '" target="_blank" rel="noopener">📍 ' + esc(r.nome) + ' · ' + esc(r.luogo) + '</a>' +
-                (r.web ? ' <a class="itin-link-storia" href="' + esc(r.web) + '" target="_blank" rel="noopener">Sito web →</a>' : '');
+                (r.web ? ' <a class="itin-link-storia" href="' + esc(r.web) + '" target="_blank" rel="noopener">Sito web →</a>' : '') +
+                (r.storia ? ' <a class="itin-link-storia" href="storia.html?s=' + encodeURIComponent(r.storia) + '">Leggi la scheda →</a>' : '');
             }).join("") + '</div>';
           }
         }
@@ -998,7 +999,8 @@ function costruisciItinerario() {
         if (trovati.length) {
           html += '<div class="itin-chip-riga">' + trovati.map(function (r) {
             return '<a class="chip-ristorante" href="' + urlMappa(r.mappa, r.lat, r.lng) + '" target="_blank" rel="noopener">📍 ' + esc(r.nome) + ' · ' + esc(r.luogo) + '</a>' +
-              (r.web ? ' <a class="itin-link-storia" href="' + esc(r.web) + '" target="_blank" rel="noopener">Sito web →</a>' : '');
+              (r.web ? ' <a class="itin-link-storia" href="' + esc(r.web) + '" target="_blank" rel="noopener">Sito web →</a>' : '') +
+              (r.storia ? ' <a class="itin-link-storia" href="storia.html?s=' + encodeURIComponent(r.storia) + '">Leggi la scheda →</a>' : '');
           }).join("") + '</div>';
         }
       }
