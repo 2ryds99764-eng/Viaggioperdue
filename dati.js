@@ -849,14 +849,14 @@ const T42 = {
       },
       {
         titolo: "Danì Maison",
-        luogo: "1ª traversa Montetignuso 4/A · Ischia (NA)",
+        luogo: "Via Montetignuso 4 · Ischia (NA)",
         sommario: "La casa di famiglia di Nino Di Costanzo, due stelle Michelin tra le colline di Ischia, sedici coperti e una cucina che lascia parlare la materia prima.",
         testo: "La casa ha duecento anni, volte basse, appena centocinquanta metri quadrati. Era del nonno di Nino; ci è nato suo padre Sabato. Nino Di Costanzo l'ha trasformata senza tradirla: sei tavoli, sedici coperti, e la cucina a vista per chi ha voglia di guardare da vicino cosa succede ai fornelli.",
         immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/dgt01619_oni8ep",
         telefono: "+39 081 993190",
         email: "",
         web: "https://danimaison.it/it/",
-        mappa: "1ª traversa Montetignuso 4/A, Ischia, NA",
+        mappa: "Via Montetignuso 4, Ischia, NA",
         lat: 40.7484, lng: 13.9411,   /* coordinate approssimative — correggi con precisione */
         storia: "dani-maison",
         galleria: [
