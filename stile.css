@@ -527,8 +527,12 @@ body::before {
 /* ---------------- PAGINA STORIA (luogo) ---------------- */
 .storia-intestazione { text-align: center; padding: 50px 0 6px; }
 .storia-sub { font-style: italic; color: #51607a; font-size: 1.05rem; margin-top: 6px; }
-.storia-copertina { margin: 26px 0 8px; }
-.storia-copertina img { width: 100%; height: 46vh; min-height: 280px; object-fit: cover; display: block; }
+.storia-copertina { margin: 26px 0 8px; position: relative; height: 46vh; min-height: 280px; }
+.storia-copertina img {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  object-fit: cover; display: block; opacity: 0; transition: opacity 1.2s ease;
+}
+.storia-copertina img.attiva { opacity: 1; }
 .storia-h2 {
   font-family: var(--serif); font-weight: 500; font-size: 1.5rem;
   margin: 34px 0 6px; color: var(--blu-notte);

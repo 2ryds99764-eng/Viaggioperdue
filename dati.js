@@ -568,6 +568,26 @@ const T42 = {
         "Da quel mezzo ettaro iniziale, Federico coltiva oggi sette ettari, tutti ad alberello, per circa ventimila bottiglie l'anno divise fra quattro etichette. Il Profumo di Vulcano nasce dallo stesso vigneto di fine Ottocento che salvò nel 2008. Il Mareneve porta nel nome il proprio manifesto: un ossimoro fra il fuoco del vulcano e la neve che lo ricopre d'inverno — la stessa dualità, mare e montagna, che rende l'Etna un luogo capace di raccontare due paesaggi opposti nello stesso sorso.",
         "L'ultima invenzione porta la stessa curiosità di sempre: un Etna Chinato creato con un'amica farmacista di Bronte e l'aiuto del cognato distillatore, partendo da un vino rosso alle erbe del vigneto e aggiungendo capperi di Pantelleria e zafferano — appena duemila bottiglie, per chi sa ancora cercare le cose fatte in pochi esemplari."
       ]
+    },
+    "dani-maison": {
+      occhiello: "Danì Maison · Ischia",
+      titolo: "Danì Maison",
+      sottotitolo: "La casa di famiglia di Nino Di Costanzo",
+      copertinaGalleria: [
+        "https://res.cloudinary.com/dspgc41gt/image/upload/dgt01619_oni8ep",
+        "https://res.cloudinary.com/dspgc41gt/image/upload/dgt01731_yk07pb",
+        "https://res.cloudinary.com/dspgc41gt/image/upload/gran-crudo_ucp7gq",
+        "https://res.cloudinary.com/dspgc41gt/image/upload/paste-patate_jbi7a0",
+        "https://res.cloudinary.com/dspgc41gt/image/upload/dani-maison-cantina1_o47ggf",
+        "https://res.cloudinary.com/dspgc41gt/image/upload/chef-nino-di-costanzo-12_h70j7e"
+      ],
+      paragrafi: [
+        "La casa ha duecento anni, volte basse, appena centocinquanta metri quadrati. Era del nonno di Nino; ci è nato suo padre Sabato. Nino Di Costanzo l'ha trasformata senza tradirla: sei tavoli, sedici coperti, e la cucina a vista per chi ha voglia di guardare da vicino cosa succede ai fornelli.",
+        "Si entra passando per il giardino: macchia mediterranea, fiori, qualche oggetto d'arte piazzato qua e là senza darsi troppe arie. Viene naturale il confronto con La Mortella, il giardino di Susana Walton a Forio: due isole diverse della stessa cura, applicata da mani diverse a scopi diversi. Qui si beve l'aperitivo la sera, e anche dopo cena, con il profumo della macchia che si mescola a quello del mare.",
+        "Più di recente è arrivata la Salumeria: un angolo intimo, quasi rustico, dove tengono prosciutti iberici e dell'Aspromonte, conserve, prodotti del Sud. Il pavimento è di vetro e guarda dritto sulla cantina sotto: una collezione fortemente orientata ai vini più nobili d'Italia e di Francia, in mostra come un tesoro che non si nasconde a nessuno.",
+        "Ma è la cucina il vero centro di gravità. Nino, da giovane, è passato per le cucine di Gualtiero Marchesi, dell'Arnolfo di Gaetano Trovato, di Juan Mari Arzak a San Sebastián, di Don Alfonso: una scuola tra le più dure d'Europa. Eppure quello che arriva in tavola non porta il peso di tutto quel percorso, porta la semplicità con cui la materia prima viene lasciata parlare da sola. Il pesce, le verdure dell'orto, l'agnello scelto di persona: tutto arriva nel piatto senza alcuna ridondanza, con una precisione che si vede nel risultato, mai nello sforzo per arrivarci. Il servizio segue la stessa misura: presente, attento, mai addosso.",
+        "Prima di aprire questo posto, nel 2015, Nino aveva già due stelle Michelin al Mosaico di Casamicciola. Le ha lasciate per tornare a casa — quella vera, di famiglia — e costruirsi qualcosa di più libero. La maison napoletana Kiton lo aveva scelto ancora prima, per firmare cene esclusive nelle capitali del mondo: un riconoscimento arrivato prima ancora del ristorante che oggi porta il suo nome nel linguaggio dell'isola: \"Danì\", da Nino."
+      ]
     }
   },
 
@@ -826,6 +846,25 @@ const T42 = {
           "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_1951_sp7xim"
         ],
         storia: "grotticelle"
+      },
+      {
+        titolo: "Danì Maison",
+        luogo: "1ª traversa Montetignuso 4/A · Ischia (NA)",
+        sommario: "La casa di famiglia di Nino Di Costanzo, due stelle Michelin tra le colline di Ischia, sedici coperti e una cucina che lascia parlare la materia prima.",
+        testo: "La casa ha duecento anni, volte basse, appena centocinquanta metri quadrati. Era del nonno di Nino; ci è nato suo padre Sabato. Nino Di Costanzo l'ha trasformata senza tradirla: sei tavoli, sedici coperti, e la cucina a vista per chi ha voglia di guardare da vicino cosa succede ai fornelli.",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/dgt01619_oni8ep",
+        telefono: "+39 081 993190",
+        email: "",
+        web: "https://danimaison.it/it/",
+        mappa: "1ª traversa Montetignuso 4/A, Ischia, NA",
+        lat: 40.7484, lng: 13.9411,   /* coordinate approssimative — correggi con precisione */
+        storia: "dani-maison",
+        galleria: [
+          "https://res.cloudinary.com/dspgc41gt/image/upload/dgt01608_qd4usf",
+          "https://res.cloudinary.com/dspgc41gt/image/upload/dgt01629_kfpzml",
+          "https://res.cloudinary.com/dspgc41gt/image/upload/dani-maison-salumeria-interni3_thnvkg",
+          "https://res.cloudinary.com/dspgc41gt/image/upload/chef-nino-di-costanzo-5_yzik0j"
+        ]
       }
     ],
 

@@ -535,8 +535,20 @@ function costruisciStoria() {
   /* foto di copertina */
   const cop = document.getElementById("storia-copertina");
   if (cop) {
-    if (s.copertina) {
-      cop.innerHTML = '<img src="' + esc(s.copertina) + '" alt="' + esc(s.titolo) + '">';
+    const galleriaCop = (s.copertinaGalleria && s.copertinaGalleria.length) ? s.copertinaGalleria : (s.copertina ? [s.copertina] : []);
+    if (galleriaCop.length) {
+      cop.innerHTML = galleriaCop.map(function (url, i) {
+        return '<img' + (i === 0 ? ' class="attiva"' : '') + ' src="' + esc(url) + '" alt="' + esc(s.titolo) + '">';
+      }).join('');
+      if (galleriaCop.length > 1 && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+        const immaginiCop = cop.querySelectorAll("img");
+        let indiceCop = 0;
+        setInterval(function () {
+          immaginiCop[indiceCop].classList.remove("attiva");
+          indiceCop = (indiceCop + 1) % immaginiCop.length;
+          immaginiCop[indiceCop].classList.add("attiva");
+        }, 5000);
+      }
     } else { cop.style.display = "none"; }
   }
 
@@ -918,7 +930,7 @@ function costruisciItinerario() {
   /* ---- copertina e video (stesso schema di storia) ---- */
   const cop = document.getElementById("itinerario-copertina");
   if (cop) {
-    if (it.copertina) { cop.className = "storia-copertina"; cop.innerHTML = '<img src="' + esc(it.copertina) + '" alt="' + esc(it.titolo) + '">'; }
+    if (it.copertina) { cop.className = "storia-copertina"; cop.innerHTML = '<img class="attiva" src="' + esc(it.copertina) + '" alt="' + esc(it.titolo) + '">'; }
     else cop.style.display = "none";
   }
   const vid = document.getElementById("itinerario-video");

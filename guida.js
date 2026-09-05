@@ -5811,7 +5811,7 @@ var GUIDA=[
   },
   {
     "nome": "Danì Maison",
-    "indirizzo": "Via Montetignuso 4",
+    "indirizzo": "1ª traversa Montetignuso 4/A",
     "citta": "Ischia",
     "provincia": "NA",
     "prov": "NA",
@@ -5821,7 +5821,7 @@ var GUIDA=[
     "telefono": "+39 081 993190",
     "web": "https://danimaison.it/it/",
     "note": "Due Stelle Michelin, chef Nino Di Costanzo nella sua casa di famiglia, solo 16 coperti ⭐ ♥️",
-    "mappa": "Via Montetignuso 4, Ischia, NA"
+    "mappa": "1ª traversa Montetignuso 4/A, Ischia, NA"
   }
 ];
 var GUIDA_REGPROV={
