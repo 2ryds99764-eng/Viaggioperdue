@@ -984,7 +984,7 @@ const T42 = {
         titolo: "Panificio Boccia",
         luogo: "Via Giovanni da Procida 45 · Ischia Ponte (NA)",
         sommario: "Il forno che sforna il pane dell'isola dal 1938, a cinquanta metri dal Castello Aragonese, tramandato per quattro generazioni.",
-        immagine: "",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/46B083EC-5A10-4186-A143-4AB7494B482D_ie5bbe",
         telefono: "+390819823887",
         mappa: "Via Giovanni da Procida 45, Ischia Ponte, Napoli",
         lat: 40.7333, lng: 13.9564
@@ -993,7 +993,7 @@ const T42 = {
         titolo: "Apicoltura 'E Maist — Franco Conte",
         luogo: "Via Cirillo 22 · Barano d'Ischia (NA)",
         sommario: "Miele di macchia mediterranea raccolto seguendo le fioriture del suolo vulcanico, primo posto nazionale alle Tre Gocce d'Oro 2024.",
-        immagine: "",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5139_f1b9og",
         telefono: "+393391443682",
         web: "https://www.ischiamielemaist.it",
         mappa: "Via Cirillo 22, Barano d'Ischia, Napoli",
