@@ -1142,7 +1142,7 @@ const T42 = {
         luogo: "Contrada Feudo di Mezzo, Passopisciaro · Castiglione di Sicilia (CT)",
         sommario: "Da miglior sommelier d'Italia a vignaiolo per caso: un vigneto centenario salvato da un espianto, davanti a una granita.",
         testo: "Miglior Sommelier d'Italia nel 1998, a soli ventitré anni, Federico Graziani ha lavorato al fianco di alcuni dei più grandi chef italiani prima di innamorarsi, quasi per caso, dell'Etna. Nel 2008, in Contrada Feudo di Mezzo, salvò da un espianto imminente mezzo ettaro di viti centenarie — oggi ne coltiva sette, tutte ad alberello, per quattro etichette che portano nomi come Profumo di Vulcano e Mareneve, un ossimoro fra il fuoco del vulcano e la neve che lo ricopre d'inverno.",
-        immagine: "",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_2579_sxm20j",
         telefono: "",
         email: "",
         web: "https://fedegraziani.it",
