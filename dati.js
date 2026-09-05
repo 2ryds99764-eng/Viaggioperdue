@@ -588,6 +588,24 @@ const T42 = {
         "Ma è la cucina il vero centro di gravità. Nino, da giovane, è passato per le cucine di Gualtiero Marchesi, dell'Arnolfo di Gaetano Trovato, di Juan Mari Arzak a San Sebastián, di Don Alfonso: una scuola tra le più dure d'Europa. Eppure quello che arriva in tavola non porta il peso di tutto quel percorso, porta la semplicità con cui la materia prima viene lasciata parlare da sola. Il pesce, le verdure dell'orto, l'agnello scelto di persona: tutto arriva nel piatto senza alcuna ridondanza, con una precisione che si vede nel risultato, mai nello sforzo per arrivarci. Il servizio segue la stessa misura: presente, attento, mai addosso.",
         "Prima di aprire questo posto, nel 2015, Nino aveva già due stelle Michelin al Mosaico di Casamicciola. Le ha lasciate per tornare a casa — quella vera, di famiglia — e costruirsi qualcosa di più libero. La maison napoletana Kiton lo aveva scelto ancora prima, per firmare cene esclusive nelle capitali del mondo: un riconoscimento arrivato prima ancora del ristorante che oggi porta il suo nome nel linguaggio dell'isola: \"Danì\", da Nino."
       ]
+    },
+    "umberto-a-mare": {
+      occhiello: "Umberto a Mare · Ischia",
+      titolo: "Umberto a Mare",
+      sottotitolo: "Una storia di famiglia, un secolo sul mare di Forio",
+      copertinaGalleria: [
+        "https://res.cloudinary.com/dspgc41gt/image/upload/umberto-rotazione-1_kebvl0",
+        "https://res.cloudinary.com/dspgc41gt/image/upload/umberto-rotazione-2_eiir9g",
+        "https://res.cloudinary.com/dspgc41gt/image/upload/umberto-rotazione-3_gimtgo"
+      ],
+      paragrafi: [
+        "Ci sono luoghi che nascono due volte: la prima nello sguardo di chi riesce a immaginarli, la seconda nella fatica di chi trova il coraggio di costruirli.",
+        "Agli inizi del Novecento, prima della guerra che avrebbe sconvolto il mondo, prima che Angelo Rizzoli portasse Ischia sulla mappa del turismo internazionale, i nonni della famiglia Regine comprarono questo lembo di terra per cinquecento lire. Era un'Ischia diversa, che viveva di pesca e di vino: tre tonnare sull'isola, a Sant'Angelo, Punta Imperatore e Lacco Ameno, e il vino che partiva a bordo di navi a vela, risaliva il Tirreno e arrivava fino in Francia. L'acqua corrente sarebbe arrivata solo negli anni Sessanta, grazie all'EVI e a una condotta sottomarina: prima di allora, ai turisti che affittavano una casa si garantiva per contratto una damigiana d'acqua al giorno.",
+        "Il paese finiva all'altezza del Municipio. Oltre c'era solo un campo incolto dove i ragazzi giocavano a pallone, e poi la Chiesa della Madonna del Soccorso, piena di ex voto lasciati da pescatori e naviganti. Nella cappella di sinistra si trova ancora oggi il Crocifisso più antico dell'isola: la leggenda vuole che fu ritrovato sugli scogli dopo una mareggiata, e che quando si provò a spostarlo nella chiesa madre, al centro del paese, non passò più dalla porta. Come se avesse deciso, da solo, di restare lì, davanti al mare.",
+        "Costruire così vicino all'acqua non sembrava una buona idea a nessuno. I primi anni si passarono a difendere il terreno dall'avanzare del mare, prima ancora di poter cominciare a costruire qualcosa sopra. La gente del paese non capiva, e lo diceva chiaro: \"Umberto è uscito pazzo.\" Vivere ogni giorno con il rischio che una mareggiata potesse riprendersi tutto non sembrava un progetto, sembrava una scommessa persa in partenza.",
+        "Da quella follia è nato invece tutto il resto: undici camere incastonate nel promontorio del Soccorso, una stella Michelin nel ristorante di sotto, una terrazza che guarda il tramonto e il suo raggio verde. Ogni muro racconta la stessa storia — quella di una famiglia che ha scelto di restare, generazione dopo generazione, in un posto che agli altri sembrava impossibile da abitare.",
+        "Per Marco Regine, che lo guida oggi, Umberto a Mare non è stato semplicemente ereditato: è stato affidato. Ed è casa, prima ancora che lavoro."
+      ]
     }
   },
 
@@ -864,6 +882,25 @@ const T42 = {
           "https://res.cloudinary.com/dspgc41gt/image/upload/dgt01629_kfpzml",
           "https://res.cloudinary.com/dspgc41gt/image/upload/dani-maison-salumeria-interni3_thnvkg",
           "https://res.cloudinary.com/dspgc41gt/image/upload/chef-nino-di-costanzo-5_yzik0j"
+        ]
+      },
+      {
+        titolo: "Umberto a Mare",
+        luogo: "Via Soccorso 8 · Forio d'Ischia (NA)",
+        sommario: "Undici camere incastonate nel promontorio del Soccorso, stella Michelin dal novembre 2025, terrazza famosa per il raggio verde al tramonto.",
+        testo: "Ci sono luoghi che nascono due volte: la prima nello sguardo di chi riesce a immaginarli, la seconda nella fatica di chi trova il coraggio di costruirli. Agli inizi del Novecento i nonni della famiglia Regine comprarono questo lembo di terra per cinquecento lire, quando costruire così vicino all'acqua sembrava, a tutti gli altri, una follia.",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/umberto-rotazione-1_kebvl0",
+        telefono: "+39081997171",
+        email: "",
+        web: "https://www.umbertoamare.it/",
+        mappa: "Via Soccorso 8, Forio d'Ischia, NA",
+        lat: 40.7333, lng: 13.8564,   /* coordinate approssimative — correggi con precisione */
+        storia: "umberto-a-mare",
+        galleria: [
+          "https://res.cloudinary.com/dspgc41gt/image/upload/umberto-galleria-1_hhfdmh",
+          "https://res.cloudinary.com/dspgc41gt/image/upload/umberto-galleria-2_imxocx",
+          "https://res.cloudinary.com/dspgc41gt/image/upload/umberto-galleria-3_rgy2pq",
+          "https://res.cloudinary.com/dspgc41gt/image/upload/umberto-galleria-4_hww8h8"
         ]
       }
     ],
