@@ -606,6 +606,21 @@ const T42 = {
         "Da quella follia è nato invece tutto il resto: undici camere incastonate nel promontorio del Soccorso, una stella Michelin nel ristorante di sotto, una terrazza che guarda il tramonto e il suo raggio verde. Aprì nel 1936, e nel 2026 ha compiuto novant'anni. Ogni muro racconta la stessa storia: quella di una famiglia che ha scelto di restare, generazione dopo generazione, in un posto che agli altri sembrava impossibile da abitare.",
         "Per Marco Regine, che lo guida oggi, Umberto a Mare non è stato semplicemente ereditato: è stato affidato. Ed è casa, prima ancora che lavoro."
       ]
+    },
+    "origini-da-peppina": {
+      occhiello: "Origini · Forio d'Ischia",
+      titolo: "Origini – Da Peppina di Renato",
+      sottotitolo: "La casa di tufo dove la memoria cammina",
+      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_6259_kdkblq",
+      paragrafi: [
+        "Il tufo mantiene il fresco come una spugna vecchia di secoli. Si entra, e l'aria sa subito di terra, di legna, di orto: un profumo che non si acquista, né si imita, ci vogliono generazioni per farlo diventare così. Il casolare non si limita ad accoglierti: ti riconosce.",
+        "Una signora anziana incede lentamente, come chi conosce ogni pietra del cortile a memoria. Si siede al tavolo vicino alla finestra e chiede del coniglio, \"quello di Peppina\". Lo dice come se Peppina fosse ancora lì, a controllare il soffritto, non come un ricordo, ma come un'abitudine.",
+        "Peppina Morgera era la nonna di Renato D'Ambra, e cucinava come si viveva: quello che dava l'orto, quello che permetteva la stagione. Renato ne ha fatto una trattoria che è diventata un punto fermo di Forio. Poi sono arrivati anni un po' complicati, come capita a tutte le storie che durano abbastanza da avere degli inciampi. Ed è lì, proprio in quel momento sospeso, che è arrivato Marco Misceo.",
+        "Marco proviene da cucine differenti, distanti, esigenti: la Puglia nelle mani, un passaggio nel gruppo di Niko Romito al Bulgari a insegnargli la precisione. Ma quando parla di Origini la voce gli si abbassa un po', rallenta, come se il casolare gli imponesse un minimo di rispetto. Con lui c'è Annachiara Barile, isolana vera, che i ritmi dell'isola li conosce come si conosce una persona cara: senza doverci pensare. E Vittorio Marna, arrivato dal Seasons, uno che impara guardando più che chiedendo. Tra i soci del ristorante c'è anche Carmine Guido — il fondatore di Bariskia, la società di catering più importante dell'isola — fratello di Giacomo, tra i migliori cinquanta pizzaioli d'Europa.",
+        "Il coniglio cuoce piano, con i ritmi di sempre. Le erbe arrivano dall'orto, come sempre. Solo che ora c'è una mano più precisa dietro: una tecnica che non toglie niente alla tradizione, la mette soltanto più a fuoco. Misceo non vuole cambiare questa storia, desidera soltanto che prosegua a camminare senza inciampare più di tanto.",
+        "Lo stesso spirito lo hanno portato al Relais Borgo Corbaro, la struttura che gestiscono a due passi da qui: la medesima cura, applicata a un posto diverso, stessa attenzione a non stravolgere quello che già funzionava bene così.",
+        "La signora alla finestra finisce il piatto, si alza, saluta piano ed esce. Il casolare rimane lì, immobile, come un guardiano gentile che non ha fretta. Origini non è un ritorno al passato: è un passo avanti fatto da chi, prima di muoversi, si volta un attimo a vedere da dove proviene."
+      ]
     }
   },
 
@@ -902,6 +917,20 @@ const T42 = {
           "https://res.cloudinary.com/dspgc41gt/image/upload/umberto-galleria-3_rgy2pq",
           "https://res.cloudinary.com/dspgc41gt/image/upload/umberto-galleria-4_hww8h8"
         ]
+      },
+      {
+        titolo: "Origini – Da Peppina di Renato",
+        luogo: "Via Montecorvo 114 · Forio (NA)",
+        sommario: "Una trattoria in un casolare di tufo, cucina contadina ischitana e coniglio all'ischitana, oggi guidata da Marco Misceo.",
+        testo: "Il tufo mantiene il fresco come una spugna vecchia di secoli. Il casolare non si limita ad accoglierti: ti riconosce. Peppina Morgera, nonna di Renato D'Ambra, cucinava come si viveva; oggi Marco Misceo, arrivato dal gruppo di Niko Romito al Bulgari, ne continua la strada con una mano più precisa.",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_6259_kdkblq",
+        telefono: "+39 340 843 7958",
+        email: "",
+        web: "",
+        mappa: "Via Montecorvo 114, Forio, NA",
+        lat: 40.7378, lng: 13.8511,   /* coordinate approssimative — correggi con precisione */
+        storia: "origini-da-peppina",
+        galleria: []
       }
     ],
 
