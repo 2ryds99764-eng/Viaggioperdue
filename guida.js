@@ -1453,7 +1453,7 @@ var GUIDA=[
     "tel": "+39 0535 97105",
     "telefono": "+39 0535 97105",
     "web": "https://trattoriaentra.it",
-    "note": "",
+    "note": "Trattoria dal 1919, gestita dalla famiglia Previdi dal 1969, nel casolare che fu il piccolo centro del paese ♥️",
     "mappa": "Via Salde Entrà 60, Località Entrà Finale Emilia, MO"
   },
   {

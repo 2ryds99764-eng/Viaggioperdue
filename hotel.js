@@ -2431,6 +2431,22 @@ var HOTEL=[
     "web": "https://www.umbertoamare.it/risvegliarsi-da-umberto-a-mare/",
     "note": "11 camere incastonate nel promontorio del Soccorso, ristorante interno con Stella Michelin, il mare come unico arredo 🌅 🌄",
     "mappa": "Via Soccorso 8, Forio d’Ischia, NA"
+  },
+  {
+    "nome": "Monteborre",
+    "indirizzo": "Via Monteborre 8",
+    "citta": "Cento",
+    "provincia": "FE",
+    "prov": "FE",
+    "regione": "Emilia-Romagna",
+    "luogo": "Cento (FE)",
+    "tel": "+39 340 1401001",
+    "telefono": "+39 340 1401001",
+    "cellulare": "",
+    "email": "",
+    "web": "https://www.monteborre.it/",
+    "note": "Sette camere con i nomi delle città vicine — Ferrara, Modena, Bologna, Firenze, Venezia — camino del 1800, sauna e piscina 🌳",
+    "mappa": "Via Monteborre 8, Cento, FE"
   }
 ];
 var HOTEL_PROVCITTA={
@@ -2452,6 +2468,7 @@ var HOTEL_PROVCITTA={
     "CN"
   ],
   "Emilia-Romagna": [
+    "FE",
     "PR",
     "RN"
   ],
