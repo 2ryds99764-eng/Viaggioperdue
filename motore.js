@@ -753,7 +753,7 @@ function costruisciEscape() {
   /* ---- copertina ---- */
   const cop = document.getElementById("escape-copertina");
   if (cop) {
-    if (es.copertina) { cop.innerHTML = '<img src="' + esc(es.copertina) + '" loading="lazy" alt="' + esc(es.titolo) + '">'; }
+    if (es.copertina) { cop.innerHTML = '<img class="attiva" src="' + esc(es.copertina) + '" loading="lazy" alt="' + esc(es.titolo) + '">'; }
     else cop.style.display = "none";
   }
 
