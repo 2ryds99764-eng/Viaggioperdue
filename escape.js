@@ -322,7 +322,7 @@ T42.escape = Object.assign({}, T42.escape, {
         titolo: "Modena o Ferrara", giorno: "SAB",
         paragrafi: [
           "Una giornata intera per una delle due città, a scelta. Modena significa il Duomo patrimonio UNESCO, la Ghirlandina, le case di Pavarotti e delle grandi case motoristiche della Motor Valley. Ferrara significa il Castello Estense con il suo fossato pieno d'acqua, le mura rinascimentali che si possono percorrere in bicicletta, il centro storico anch'esso patrimonio UNESCO.",
-          "Chi preferisce restare nella Bassa può invece dedicare la giornata a Finale Emilia, a pochi minuti da Entrà: per secoli chiamata 'Finale Fedelissimo', fu tappa obbligata delle comunicazioni fluviali tra Modena, Ferrara e Venezia — una vera città d'acqua, con mulini, un porto e un arsenale proprio. Il terremoto del 2012 ebbe qui il suo epicentro: crollarono la Torre dei Modenesi e parte della Rocca Estense, ancora oggi chiusa per restauri. La ricostruzione, lenta, procede."
+          "Chi preferisce restare nella Bassa può invece dedicare la giornata a Finale Emilia, a pochi minuti da Entrà: per secoli chiamata 'Finale Fedelissimo', fu tappa obbligata delle comunicazioni fluviali tra Modena, Ferrara e Venezia: una vera città d'acqua, con mulini, un porto e un arsenale proprio. Il terremoto del 2012 ebbe qui il suo epicentro: crollarono la Torre dei Modenesi e parte della Rocca Estense, ancora oggi chiusa per restauri. La ricostruzione, lenta, procede."
         ],
         note: ["Ultima notte a Monteborre.", "Cena libera, o di nuovo a Entrà."],
         ristoranti: [],
