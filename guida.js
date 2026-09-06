@@ -4883,7 +4883,7 @@ var GUIDA=[
     "tel": "+39081997171",
     "telefono": "+39081997171",
     "web": "https://www.umbertoamare.it/",
-    "note": "Stella Michelin dal novembre 2025, terrazza a picco sul mare famosa per il raggio verde al tramonto ♥️ 🌄",
+    "note": "Stella Michelin dal novembre 2025, terrazza a picco sul mare famosa per il raggio verde al tramonto, discesa privata a Lo Spiaggino ♥️ 🌄 🌅",
     "mappa": "Via Soccorso 8, Forio d’Ischia, NA",
     "storia": "umberto-a-mare"
   },
