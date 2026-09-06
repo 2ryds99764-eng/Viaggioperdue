@@ -1660,17 +1660,23 @@ function costruisciConcierge() {
     } else if (stato.tipo === "escape") {
       html += '<div class="conc-risultati">' + items.map(function (es) {
         return '<article class="conc-card">' +
-          '<div class="conc-card-nome">' + esc(es.titolo) + '</div>' +
-          (es.sottotitolo ? '<div class="conc-card-citta">' + esc(es.sottotitolo) + '</div>' : '') +
-          '<div class="azioni rist-azioni"><a class="btn btn--pieno" href="escape.html?e=' + encodeURIComponent(es.chiave) + '">Parti →</a></div>' +
+          (es.copertina ? '<img class="conc-card-foto" src="' + esc(es.copertina) + '" alt="' + esc(es.titolo) + '" loading="lazy">' : '') +
+          '<div class="conc-card-testo">' +
+            '<div class="conc-card-nome">' + esc(es.titolo) + '</div>' +
+            (es.sottotitolo ? '<div class="conc-card-citta">' + esc(es.sottotitolo) + '</div>' : '') +
+            '<div class="azioni rist-azioni"><a class="btn btn--pieno" href="escape.html?e=' + encodeURIComponent(es.chiave) + '">Parti →</a></div>' +
+          '</div>' +
         '</article>';
       }).join("") + '</div>';
     } else if (stato.tipo === "itinerario") {
       html += '<div class="conc-risultati">' + items.map(function (it) {
         return '<article class="conc-card">' +
-          '<div class="conc-card-nome">' + esc(it.titolo) + '</div>' +
-          (it.sottotitolo ? '<div class="conc-card-citta">' + esc(it.sottotitolo) + '</div>' : '') +
-          '<div class="azioni rist-azioni"><a class="btn btn--pieno" href="itinerario.html?i=' + encodeURIComponent(it.chiave) + '">Vedi l\'itinerario →</a></div>' +
+          (it.copertina ? '<img class="conc-card-foto" src="' + esc(it.copertina) + '" alt="' + esc(it.titolo) + '" loading="lazy">' : '') +
+          '<div class="conc-card-testo">' +
+            '<div class="conc-card-nome">' + esc(it.titolo) + '</div>' +
+            (it.sottotitolo ? '<div class="conc-card-citta">' + esc(it.sottotitolo) + '</div>' : '') +
+            '<div class="azioni rist-azioni"><a class="btn btn--pieno" href="itinerario.html?i=' + encodeURIComponent(it.chiave) + '">Vedi l\'itinerario →</a></div>' +
+          '</div>' +
         '</article>';
       }).join("") + '</div>';
     } else {
@@ -1681,9 +1687,12 @@ function costruisciConcierge() {
         if (r.mappa) btn += '<a class="btn" href="' + urlMappa(r.mappa) + '" target="_blank" rel="noopener">Mappa</a>';
         if (r.web) btn += '<a class="btn" href="' + esc(r.web) + '" target="_blank" rel="noopener">Sito</a>';
         return '<article class="conc-card">' +
-          '<div class="conc-card-nome">' + esc(r.nome) + '</div>' +
-          (r.citta ? '<div class="conc-card-citta">' + esc(r.citta) + '</div>' : '') +
-          (btn ? '<div class="azioni rist-azioni">' + btn + '</div>' : '') +
+          (r.immagine ? '<img class="conc-card-foto" src="' + esc(r.immagine) + '" alt="' + esc(r.nome) + '" loading="lazy">' : '') +
+          '<div class="conc-card-testo">' +
+            '<div class="conc-card-nome">' + esc(r.nome) + '</div>' +
+            (r.citta ? '<div class="conc-card-citta">' + esc(r.citta) + '</div>' : '') +
+            (btn ? '<div class="azioni rist-azioni">' + btn + '</div>' : '') +
+          '</div>' +
         '</article>';
       }).join("") + '</div>';
     }

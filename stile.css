@@ -940,7 +940,12 @@ body::before {
 .conc-rifai { width: 100%; text-align: center; }
 
 .conc-risultati { display: flex; flex-direction: column; gap: 14px; }
-.conc-card { border: 1px solid var(--filo); background: #fff; padding: 16px 18px; display: flex; flex-direction: column; gap: 8px; }
+.conc-card { border: 1px solid var(--filo); background: #fff; padding: 16px 18px; display: flex; flex-direction: row; align-items: flex-start; gap: 12px; }
+.conc-card-foto {
+  width: 64px; height: 64px; flex-shrink: 0; border-radius: 6px;
+  object-fit: cover; background: var(--crema, #f0ede6);
+}
+.conc-card-testo { display: flex; flex-direction: column; gap: 8px; flex: 1; min-width: 0; }
 .conc-card-nome { font-family: var(--serif); font-size: 1.1rem; font-weight: 500; }
 .conc-card-citta { font-family: var(--sans); font-size: 0.78rem; color: #6a788f; }
 .conc-vuoto { text-align: center; color: #6a788f; font-style: italic; padding: 20px 0 6px; }
