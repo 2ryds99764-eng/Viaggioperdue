@@ -611,7 +611,7 @@ const T42 = {
       occhiello: "Origini · Forio d'Ischia",
       titolo: "Origini – Da Peppina di Renato",
       sottotitolo: "La casa di tufo dove la memoria cammina",
-      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_6259_kdkblq",
+      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/954f55aa-45fa-4398-9abe-0f429ce66afe_kj69w4",
       paragrafi: [
         "Il tufo mantiene il fresco come una spugna vecchia di secoli. Si entra, e l'aria sa subito di terra, di legna, di orto: un profumo che non si acquista, né si imita, ci vogliono generazioni per farlo diventare così. Il casolare non si limita ad accoglierti: ti riconosce.",
         "Una signora anziana incede lentamente, come chi conosce ogni pietra del cortile a memoria. Si siede al tavolo vicino alla finestra e chiede del coniglio, \"quello di Peppina\". Lo dice come se Peppina fosse ancora lì, a controllare il soffritto, non come un ricordo, ma come un'abitudine.",
@@ -923,7 +923,7 @@ const T42 = {
         luogo: "Via Montecorvo 114 · Forio (NA)",
         sommario: "Una trattoria in un casolare di tufo, cucina contadina ischitana e coniglio all'ischitana, oggi guidata da Marco Misceo.",
         testo: "Il tufo mantiene il fresco come una spugna vecchia di secoli. Il casolare non si limita ad accoglierti: ti riconosce. Peppina Morgera, nonna di Renato D'Ambra, cucinava come si viveva; oggi Marco Misceo, arrivato dal gruppo di Niko Romito al Bulgari, ne continua la strada con una mano più precisa.",
-        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_6259_kdkblq",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/954f55aa-45fa-4398-9abe-0f429ce66afe_kj69w4",
         telefono: "+39 340 843 7958",
         email: "",
         web: "",
