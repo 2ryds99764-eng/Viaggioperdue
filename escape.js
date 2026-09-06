@@ -280,6 +280,78 @@ T42.escape = Object.assign({}, T42.escape, {
     ],
 
     notaVerifica: "Verificato il 4 settembre 2026. Orari, giorni di chiusura e prezzi vanno riconfermati prima di ogni pubblicazione."
+  },
+
+  "entra": {
+    occhiello: "Escape N.5 · Emilia-Romagna",
+    titolo: "Entrà",
+    regione: "Emilia-Romagna",
+    sottotitolo: "due notti nella Bassa, tra Modena e Ferrara",
+    intro: "Una trattoria che un tempo era un intero paese in miniatura — drogheria, osteria, balera, bocce, barbiere — oggi ridotta alla sua parte più buona: la tavola. E un palazzo di campagna con le camere che portano i nomi delle città vicine, come a ricordare che da qui si può andare ovunque.",
+    copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_1520_tbokug",
+
+    percheCiSiVa: [
+      "Entrà, o meglio Intrà nel dialetto locale, prende il nome dalla terra 'interrata' per bonificare queste zone acquitrinose. Nel 1956, nello stesso casolare che oggi ospita la trattoria, convivevano una drogheria, un'osteria, una balera, il gioco delle bocce e un barbiere — un piccolo centro commerciale ante litteram. Di quegli anni del miracolo economico sono rimasti solo ricordi e qualche oggetto appeso alle pareti: la trattoria, unica sopravvissuta, ha riferimenti catastali che risalgono al 1919, ed è gestita dalla famiglia Previdi dal 1969.",
+      "La base è Cento, in provincia di Ferrara ma a metà strada esatta anche da Bologna — tanto che i suoi portici e il centro storico le sono valsi il soprannome di 'piccola Bologna'. Da qui, Modena e Ferrara sono entrambe raggiungibili in circa mezz'ora, per una gita di un giorno da scegliere secondo l'umore."
+    ],
+
+    base: [
+      {
+        nome: "Monteborre",
+        luogo: "Via Monteborre 8, Cento (FE)",
+        dettaglio: "7 CAMERE",
+        testo: "Camere con i nomi delle città vicine — Ferrara, Modena, Bologna, Firenze, Venezia — in un palazzo con camino del 1800, sauna e piscina.",
+        tel: "3401401001",
+        mappaIndirizzo: "Via Monteborre 8, Cento, FE",
+        sitoWeb: "https://www.monteborre.it/"
+      }
+    ],
+
+    giornate: [
+      {
+        titolo: "Arrivo, Cento", giorno: "VEN",
+        paragrafi: [
+          "Si arriva nel pomeriggio, con il tempo per una passeggiata nel centro storico di Cento — i portici in stile bolognese, la casa natale di Guercino, il pittore che qui nacque nel 1591 e che oggi è celebrato ogni anno con un carnevale gemellato con quello di Rio de Janeiro.",
+          "La sera si raggiunge Entrà, a una ventina di minuti d'auto: la trattoria che dal 1919 non ha mai chiuso i battenti, oggi guidata dalla famiglia Previdi."
+        ],
+        note: ["Si dorme a Monteborre (prima delle due notti).", "Cena — Trattoria Entrà."],
+        ristoranti: ["Trattoria Entrà"],
+        produttori: []
+      },
+      {
+        titolo: "Modena o Ferrara", giorno: "SAB",
+        paragrafi: [
+          "Una giornata intera per una delle due città, a scelta. Modena significa il Duomo patrimonio UNESCO, la Ghirlandina, le case di Pavarotti e delle grandi case motoristiche della Motor Valley. Ferrara significa il Castello Estense con il suo fossato pieno d'acqua, le mura rinascimentali che si possono percorrere in bicicletta, il centro storico anch'esso patrimonio UNESCO.",
+          "Chi preferisce restare nella Bassa può invece dedicare la giornata a Finale Emilia, a pochi minuti da Entrà: per secoli chiamata 'Finale Fedelissimo', fu tappa obbligata delle comunicazioni fluviali tra Modena, Ferrara e Venezia — una vera città d'acqua, con mulini, un porto e un arsenale proprio. Il terremoto del 2012 ebbe qui il suo epicentro: crollarono la Torre dei Modenesi e parte della Rocca Estense, ancora oggi chiusa per restauri. La ricostruzione, lenta, procede."
+        ],
+        note: ["Ultima notte a Monteborre.", "Cena libera, o di nuovo a Entrà."],
+        ristoranti: [],
+        produttori: []
+      },
+      {
+        titolo: "Congedo", giorno: "DOM",
+        paragrafi: [
+          "Prima di ripartire, un'ultima passeggiata tra i portici di Cento, magari fermandosi per un dolce tipico della zona prima della strada di casa."
+        ],
+        note: [],
+        ristoranti: [],
+        produttori: []
+      }
+    ],
+
+    esperienze: [
+      { titolo: "Ingresso Duomo di Modena", dettaglio: "PATRIMONIO UNESCO", prezzo: "gratuito" },
+      { titolo: "Ingresso Castello Estense di Ferrara", dettaglio: "TORRI E FOSSATO", prezzo: "da confermare" }
+    ],
+
+    primaDiPartire: [
+      { etichetta: "L'AUTO", testo: "Consigliata: Modena e Ferrara sono raggiungibili in circa mezz'ora, ma i collegamenti pubblici nella Bassa sono limitati." },
+      { etichetta: "PRENOTARE", testo: "Trattoria Entrà: tel. 0535 97105. Monteborre: tel. 340 1401001." },
+      { etichetta: "LA STAGIONE", testo: "Meglio primavera e autunno, per il clima mite della Bassa modenese e ferrarese." },
+      { etichetta: "ARRIVARE", testo: "Aeroporto di Bologna a circa 40 minuti; stazione di Bologna Centrale ben collegata con Modena e Ferrara." }
+    ],
+
+    notaVerifica: "Verificato il 6 settembre 2026. Orari e prezzi vanno riconfermati prima di ogni pubblicazione."
   }
 
 });
