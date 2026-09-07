@@ -611,7 +611,13 @@ const T42 = {
       occhiello: "Origini · Forio d'Ischia",
       titolo: "Origini – Da Peppina di Renato",
       sottotitolo: "La casa di tufo dove la memoria cammina",
-      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/954f55aa-45fa-4398-9abe-0f429ce66afe_kj69w4",
+      copertinaGalleria: [
+        "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_2603_mzs6qb",
+        "https://res.cloudinary.com/dspgc41gt/image/upload/954f55aa-45fa-4398-9abe-0f429ce66afe_kj69w4",
+        "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_3909_i9lgbn",
+        "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_2821_klbjtr",
+        "https://res.cloudinary.com/dspgc41gt/image/upload/_ADR4314_xgsvwh"
+      ],
       paragrafi: [
         "Il tufo mantiene il fresco come una spugna vecchia di secoli. Si entra, e l'aria sa subito di terra, di legna, di orto: un profumo che non si acquista, né si imita, ci vogliono generazioni per farlo diventare così. Il casolare non si limita ad accoglierti: ti riconosce.",
         "Una signora anziana incede lentamente, come chi conosce ogni pietra del cortile a memoria. Si siede al tavolo vicino alla finestra e chiede del coniglio, \"quello di Peppina\". Lo dice come se Peppina fosse ancora lì, a controllare il soffritto, non come un ricordo, ma come un'abitudine.",
@@ -930,7 +936,10 @@ const T42 = {
         mappa: "Via Montecorvo 114, Forio, NA",
         lat: 40.7378, lng: 13.8511,   /* coordinate approssimative — correggi con precisione */
         storia: "origini-da-peppina",
-        galleria: []
+        galleria: [
+          "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_3778_lvpvrt",
+          "https://res.cloudinary.com/dspgc41gt/image/upload/origini_peppinadirenato_30marzo2026-0059_csd1kb"
+        ]
       }
     ],
 
