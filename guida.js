@@ -5267,7 +5267,7 @@ var GUIDA=[
   },
   {
     "nome": "Acqualavica",
-    "indirizzo": "Via Cardinale Dusmet 37",
+    "indirizzo": "Via Cardinale Dusmet 35",
     "citta": "Catania",
     "provincia": "CT",
     "prov": "CT",
@@ -5277,7 +5277,7 @@ var GUIDA=[
     "telefono": "+39 095 751 5017",
     "web": "https://www.bastiosuites.it",
     "note": "Osteria negli ambienti voltati delle mura cinquecentesche, dentro Bastiò Suites",
-    "mappa": "Via Cardinale Dusmet 37, Catania, CT"
+    "mappa": "Via Cardinale Dusmet 35, Catania, CT"
   },
   {
     "nome": "Zash",
