@@ -1712,7 +1712,27 @@ function costruisciConcierge() {
     render();
   }
 
+  function suonaCampanella() {
+    try {
+      const ctx = new (window.AudioContext || window.webkitAudioContext)();
+      const ora = ctx.currentTime;
+      // Due armoniche ravvicinate per un timbro cristallino, con decadimento rapido
+      [1800, 2700].forEach(function (freq, i) {
+        const osc = ctx.createOscillator();
+        const gain = ctx.createGain();
+        osc.type = "sine";
+        osc.frequency.value = freq;
+        gain.gain.setValueAtTime(0.15 / (i + 1), ora);
+        gain.gain.exponentialRampToValueAtTime(0.001, ora + 0.35);
+        osc.connect(gain).connect(ctx.destination);
+        osc.start(ora);
+        osc.stop(ora + 0.4);
+      });
+    } catch (e) { /* silenzioso se Web Audio non disponibile */ }
+  }
+
   function apri() {
+    suonaCampanella();
     stato = { tipo: null, regione: null, simbolo: null, step: 1 };
     overlay.hidden = false;
     document.body.style.overflow = "hidden";
