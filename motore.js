@@ -1194,14 +1194,14 @@ function costruisciGuida() {
     }).join("");
   }
 
-  function disegnaAlberghiZona(prov) {
+  function disegnaAlberghiZona(prov, regione) {
     const box = document.getElementById("guida-alberghi-zona");
     if (!box) return;
     if (!prov) {
       box.innerHTML = "";
       return;
     }
-    const hotel = (window.HOTEL || []).filter(function (h) { return h.prov === prov; }).slice(0, 3);
+    const hotel = (window.HOTEL || []).filter(function (h) { return h.prov === prov && h.regione === regione; }).slice(0, 3);
     if (!hotel.length) {
       box.innerHTML = "";
       return;
@@ -1256,7 +1256,7 @@ function costruisciGuida() {
       return normalizza(r.nome).indexOf(q) !== -1 || normalizza(r.luogo).indexOf(q) !== -1;
     });
     disegna(items);
-    disegnaAlberghiZona(prov);
+    disegnaAlberghiZona(items[0] ? items[0].prov : prov, items[0] ? items[0].regione : reg);
   }
 
   const inputNome = document.getElementById("cerca-nome");
@@ -1351,7 +1351,7 @@ function costruisciHotel() {
       '</article>';
     }).join("");
   }
-  function disegnaRistorantiZona(prov, citta, simbolo) {
+  function disegnaRistorantiZona(prov, citta, simbolo, regione) {
     const box = document.getElementById("guida-ristoranti-zona");
     if (!box) return;
     if (!prov && !citta) {
@@ -1360,7 +1360,7 @@ function costruisciHotel() {
     }
     let ristoranti = citta ? (window.GUIDA || []).filter(function (r) { return r.citta === citta; }) : [];
     if (!ristoranti.length) {
-      ristoranti = (window.GUIDA || []).filter(function (r) { return r.prov === prov; });
+      ristoranti = (window.GUIDA || []).filter(function (r) { return r.prov === prov && r.regione === regione; });
     }
     if (simbolo === "🌅") {
       ristoranti = ristoranti.filter(function (r) { return (r.note || "").indexOf("🌅") !== -1; });
@@ -1422,7 +1422,7 @@ function costruisciHotel() {
       return nome.indexOf(q) !== -1 || luogo.indexOf(q) !== -1;
     });
     disegna(items);
-    disegnaRistorantiZona(items[0] ? items[0].prov : prov, items[0] ? items[0].citta : "", simbolo);
+    disegnaRistorantiZona(items[0] ? items[0].prov : prov, items[0] ? items[0].citta : "", simbolo, items[0] ? items[0].regione : reg);
   }
   const inputNome = document.getElementById("cerca-nome-h");
   const selReg = document.getElementById("cerca-regione-h");
