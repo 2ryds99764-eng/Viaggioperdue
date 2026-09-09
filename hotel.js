@@ -3599,6 +3599,54 @@ var HOTEL=[
     "web": "https://parislegrand.intercontinental.com/",
     "note": "Inaugurato nel 1862 sotto il regno di Napoleone III, di fronte all'Opéra Garnier, il suo Café de la Paix è monumento storico dal 1862, frequentato da Maria Callas e Nureyev ⭐",
     "mappa": "2 Rue Scribe, Paris, F"
+  },
+  {
+    "nome": "Brenners Park-Hotel & Spa",
+    "indirizzo": "Schillerstraße 4/6",
+    "citta": "Baden-Baden",
+    "provincia": "BAD",
+    "prov": "BAD",
+    "regione": "Germania",
+    "luogo": "Baden-Baden (BAD)",
+    "tel": "+49 7221 9000",
+    "telefono": "+49 7221 9000",
+    "cellulare": "",
+    "email": "",
+    "web": "https://www.brenners.com/",
+    "note": "Fiore all'occhiello di Baden-Baden dal 1872, primo hotel in Europa con una propria Spa negli anni '70, di proprietà della famiglia Oetker dal 1940 ⭐",
+    "mappa": "Schillerstraße 4/6, Baden-Baden, BAD"
+  },
+  {
+    "nome": "Steigenberger Grandhotel Belvédère",
+    "indirizzo": "Promenade 89",
+    "citta": "Davos Platz",
+    "provincia": "GR",
+    "prov": "GR",
+    "regione": "Svizzera",
+    "luogo": "Davos Platz (GR)",
+    "tel": "+41 81 415 60 00",
+    "telefono": "+41 81 415 60 00",
+    "cellulare": "",
+    "email": "davos@steigenberger.ch",
+    "web": "https://www.steigenberger.com/en/hotels/all-hotels/switzerland/davos/steigenberger-grandhotel-belvedere",
+    "note": "Aperto nel 1875, qui soggiornarono Robert Louis Stevenson e per due stagioni Arthur Conan Doyle, sede degli incontri del World Economic Forum ⛰️",
+    "mappa": "Promenade 89, Davos Platz, GR"
+  },
+  {
+    "nome": "Steigenberger Grandhotel & Spa",
+    "indirizzo": "Liehrstraße 11",
+    "citta": "Heringsdorf",
+    "provincia": "VG",
+    "prov": "VG",
+    "regione": "Germania",
+    "luogo": "Heringsdorf (VG)",
+    "tel": "+49 38378 49 50",
+    "telefono": "+49 38378 49 50",
+    "cellulare": "",
+    "email": "heringsdorf@steigenberger.de",
+    "web": "https://hrewards.com/it/steigenberger-grandhotel-spa-heringsdorf",
+    "note": "Nel cuore di uno dei tre 'Kaiserbäder' di Usedom, l'isola più soleggiata di Germania, famosa per l'architettura termale ottocentesca 🏖️",
+    "mappa": "Liehrstraße 11, Heringsdorf, VG"
   }
 ];
 var HOTEL_PROVCITTA={
@@ -3635,8 +3683,10 @@ var HOTEL_PROVCITTA={
     "UD"
   ],
   "Germania": [
+    "BAD",
     "GL",
     "ROS",
+    "VG",
     "VR"
   ],
   "Grecia": [
