@@ -1324,7 +1324,7 @@ function costruisciHotel() {
       '<option value="🌳">🌳 Isolato</option>' +
       '<option value="♥️">♥️ Charme</option>' +
       '<option value="🏖️">🏖️ Spiaggia</option>' +
-      '<option value="👑">👑 Tradizione</option>' +
+      '<option value="👑">👑 Grande tradizione</option>' +
       '<option value="⛰️">⛰️ Montagna</option>' +
       '</select></div>';
   }
@@ -1462,7 +1462,7 @@ function costruisciConcierge() {
     { v: "♥️", t: "Charme" },
     { v: "🏖️", t: "Spiaggia" },
     { v: "⛰️", t: "Montagna" },
-    { v: "👑", t: "Tradizione" },
+    { v: "👑", t: "Grande tradizione" },
     { v: "🌄", t: "Splendida vista" }
   ];
 
