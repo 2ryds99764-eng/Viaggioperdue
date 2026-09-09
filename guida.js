@@ -5824,6 +5824,20 @@ var GUIDA=[
     "note": "Due Stelle Michelin, chef Nino Di Costanzo nella sua casa di famiglia, solo 16 coperti ⭐ ♥️",
     "mappa": "Via Montetignuso 4, Ischia, NA",
     "storia": "dani-maison"
+  },
+  {
+    "nome": "Mosimann's",
+    "indirizzo": "11B West Halkin Street",
+    "citta": "London",
+    "provincia": "GB",
+    "prov": "GB",
+    "regione": "Inghilterra",
+    "luogo": "London (GB)",
+    "tel": "+44 20 7235 9625",
+    "telefono": "+44 20 7235 9625",
+    "web": "https://www.mosimann.com/",
+    "note": "Ex chiesa presbiteriana scozzese del 1830, dal 1988 club gastronomico dello chef svizzero Anton Mosimann, catering per la famiglia reale britannica",
+    "mappa": "11B West Halkin Street, London, GB"
   }
 ];
 var GUIDA_REGPROV={
