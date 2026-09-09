@@ -1965,7 +1965,7 @@ var HOTEL=[
     "cellulare": "",
     "email": "",
     "web": "https://www.dominique-colonna.com/",
-    "note": "Terrazza sul fiume Tavignano, vicino all'università ⛰️",
+    "note": "Terrazza sul fiume Restonica, vicino all'università ⛰️",
     "mappa": "Vallée de la Restonica, 20250 Corte, F"
   },
   {
