@@ -1324,9 +1324,8 @@ function costruisciHotel() {
       '<option value="🌳">🌳 Isolato</option>' +
       '<option value="♥️">♥️ Charme</option>' +
       '<option value="🏖️">🏖️ Spiaggia</option>' +
-      '<option value="🏞️">🏞️ Montagna</option>' +
       '<option value="👑">👑 Tradizione</option>' +
-      '<option value="⛰️">⛰️ Montagna/Alta quota</option>' +
+      '<option value="⛰️">⛰️ Montagna</option>' +
       '</select></div>';
   }
   const conteggio = document.getElementById("guida-conteggio");
