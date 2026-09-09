@@ -3455,6 +3455,86 @@ var HOTEL=[
     "web": "https://www.grandhotel-heiligendamm.de/",
     "note": "Fondato nel 1793, primo stabilimento balneare marittimo di Germania, la 'Città Bianca sul Mare', sede del vertice G8 nel 2007 ⭐",
     "mappa": "Prof.-Dr.-Vogel-Straße 6, Bad Doberan-Heiligendamm, ROS"
+  },
+  {
+    "nome": "Grand Hotel Hof Ragaz",
+    "indirizzo": "Bernhard Simon Strasse 1",
+    "citta": "Bad Ragaz",
+    "provincia": "SG",
+    "prov": "SG",
+    "regione": "Svizzera",
+    "luogo": "Bad Ragaz (SG)",
+    "tel": "+41 81 303 30 30",
+    "telefono": "+41 81 303 30 30",
+    "cellulare": "",
+    "email": "",
+    "web": "https://www.resortragaz.ch/",
+    "note": "Il più antico edificio del Grand Resort Bad Ragaz, costruito nel 1839-40 sul terreno dell'ex governatorato dell'Abbazia di Pfäfers, ancor prima del Quellenhof ⭐",
+    "mappa": "Bernhard Simon Strasse 1, Bad Ragaz, SG"
+  },
+  {
+    "nome": "Grand Hotel Huis ter Duin",
+    "indirizzo": "Koningin Astrid Boulevard 5",
+    "citta": "Noordwijk aan Zee",
+    "provincia": "NL",
+    "prov": "NL",
+    "regione": "Paesi Bassi",
+    "luogo": "Noordwijk aan Zee (NL)",
+    "tel": "+31 71 361 92 20",
+    "telefono": "+31 71 361 92 20",
+    "cellulare": "",
+    "email": "",
+    "web": "https://huisterduin.com/",
+    "note": "Aperto nel 1885, usato dalle SS durante la guerra, distrutto da un incendio nel 1990 e ricostruito, ospiti le famiglie reali olandese e belga, Thomas Mann e Obama ⭐",
+    "mappa": "Koningin Astrid Boulevard 5, Noordwijk aan Zee, NL"
+  },
+  {
+    "nome": "Grand Hotel London",
+    "indirizzo": "Musala 3",
+    "citta": "Varna",
+    "provincia": "BG",
+    "prov": "BG",
+    "regione": "Bulgaria",
+    "luogo": "Varna (BG)",
+    "tel": "+359 52 664 100",
+    "telefono": "+359 52 664 100",
+    "cellulare": "",
+    "email": "",
+    "web": "https://londonhotel.bg/",
+    "note": "Aperto nel 1912, primo edificio di Varna con ascensore, in stile Liberty, nazionalizzato dopo l'occupazione sovietica del 1944 ⭐",
+    "mappa": "Musala 3, Varna, BG"
+  },
+  {
+    "nome": "Grand Hotel Palace – Espace Henri Chenot",
+    "indirizzo": "Via Cavour 2",
+    "citta": "Merano",
+    "provincia": "BZ",
+    "prov": "BZ",
+    "regione": "Trentino-Alto Adige",
+    "luogo": "Merano (BZ)",
+    "tel": "+39 0473 271 000",
+    "telefono": "+39 0473 271 000",
+    "cellulare": "",
+    "email": "",
+    "web": "https://www.palace.it/",
+    "note": "Aperto nel 1906 in stile Liberty, trasformato in guarnigione tedesca nella guerra e salvato da otto imprenditori locali, prima Medical Spa d'Italia grazie a Henri Chenot ⭐",
+    "mappa": "Via Cavour 2, Merano, BZ"
+  },
+  {
+    "nome": "Grandhotel Schloss Bensberg",
+    "indirizzo": "Kadettenstraße",
+    "citta": "Bergisch Gladbach",
+    "provincia": "GL",
+    "prov": "GL",
+    "regione": "Germania",
+    "luogo": "Bergisch Gladbach (GL)",
+    "tel": "+49 2204 42 0",
+    "telefono": "+49 2204 42 0",
+    "cellulare": "",
+    "email": "info@schlossbensberg.com",
+    "web": "https://www.schlossbensberg.com/",
+    "note": "Castello barocco del Seicento ispirato a Versailles, mai completato, poi ospedale/scuola/rifugio, hotel di lusso dal 2000 dopo 75 milioni di investimento, ospiti Rihanna e McCartney ⭐",
+    "mappa": "Kadettenstraße, Bergisch Gladbach, GL"
   }
 ];
 var HOTEL_PROVCITTA={
@@ -3464,6 +3544,9 @@ var HOTEL_PROVCITTA={
   ],
   "Austria": [
     "W"
+  ],
+  "Bulgaria": [
+    "BG"
   ],
   "Calabria": [
     "CS"
@@ -3488,6 +3571,7 @@ var HOTEL_PROVCITTA={
     "UD"
   ],
   "Germania": [
+    "GL",
     "ROS",
     "VR"
   ],
@@ -3522,6 +3606,9 @@ var HOTEL_PROVCITTA={
   ],
   "Molise": [
     "IS"
+  ],
+  "Paesi Bassi": [
+    "NL"
   ],
   "Perù": [
     "PE"
