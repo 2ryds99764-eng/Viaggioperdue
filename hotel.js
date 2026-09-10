@@ -2781,7 +2781,7 @@ var HOTEL=[
     "cellulare": "",
     "email": "",
     "web": "https://www.bon-rivage.ch",
-    "note": "Hotel del 1864 sul Lago Lemano tra Vevey e Montreux, tra i suoi ospiti anche Richard Wagner 🌊",
+    "note": "Hotel del 1864 sul Lago Lemano tra Vevey e Montreux, tra i suoi ospiti anche Richard Wagner 🌅",
     "mappa": "Route de Saint-Maurice 18, La Tour-de-Peilz, VD"
   },
   {
@@ -2797,7 +2797,7 @@ var HOTEL=[
     "cellulare": "",
     "email": "welcome@splendide.ch",
     "web": "https://www.splendide.ch/",
-    "note": "Ex Villa Merlina del 1870, hotel dal 1887, ospitò Richard Strauss, D'Annunzio e Agnelli, ristorante I Due Sud una Stella Michelin ⭐",
+    "note": "Ex Villa Merlina del 1870, hotel dal 1887, ospitò Richard Strauss, D'Annunzio e Agnelli, ristorante I Due Sud una Stella Michelin 👑",
     "mappa": "Riva Antonio Caccia 7, Lugano, TI"
   },
   {
@@ -2829,7 +2829,7 @@ var HOTEL=[
     "cellulare": "",
     "email": "",
     "web": "https://www.brp.ch/",
-    "note": "Palazzo Belle Époque del 1861 sul Lago di Ginevra, qui fu firmato il Trattato di Losanna nel 1923, ristorante Pic con due Stelle Michelin ⭐",
+    "note": "Palazzo Belle Époque del 1861 sul Lago di Ginevra, qui fu firmato il Trattato di Losanna nel 1923, ristorante Pic con due Stelle Michelin 👑",
     "mappa": "Chemin de Beau-Rivage 21, Lausanne, VD"
   },
   {
@@ -2877,7 +2877,7 @@ var HOTEL=[
     "cellulare": "",
     "email": "",
     "web": "https://www.carlton-stmoritz.ch/",
-    "note": "Palazzo del 1913, secondo la leggenda progettato come residenza per lo zar Nicola II, ristorante Da Vittorio con due Stelle Michelin ⭐",
+    "note": "Palazzo del 1913, secondo la leggenda progettato come residenza per lo zar Nicola II, ristorante Da Vittorio con due Stelle Michelin 👑",
     "mappa": "Via J. Badrutt 11, St. Moritz, GR"
   },
   {
@@ -2909,7 +2909,7 @@ var HOTEL=[
     "cellulare": "",
     "email": "montreux@fairmont.com",
     "web": "https://www.fairmont.com/montreux/",
-    "note": "Palazzo Belle Époque del 1906, qui fu firmata la Convenzione di Montreux nel 1936, sede storica del Montreux Jazz Festival dal 1966 ⭐",
+    "note": "Palazzo Belle Époque del 1906, qui fu firmata la Convenzione di Montreux nel 1936, sede storica del Montreux Jazz Festival dal 1966 👑",
     "mappa": "Avenue Claude Nobs 2, Montreux, VD"
   },
   {
@@ -2941,7 +2941,7 @@ var HOTEL=[
     "cellulare": "",
     "email": "info@hoteltroiscouronnes.ch",
     "web": "https://www.hoteltroiscouronnes.ch/",
-    "note": "Palace dal 1842, qui Henry James ambientò 'Daisy Miller', Charles Gounod compose il Faust, ospite abituale Charlie Chaplin ⭐",
+    "note": "Palace dal 1842, qui Henry James ambientò 'Daisy Miller', Charles Gounod compose il Faust, ospite abituale Charlie Chaplin 👑",
     "mappa": "Rue d'Italie 49, Vevey, VD"
   },
   {
@@ -2973,7 +2973,7 @@ var HOTEL=[
     "cellulare": "",
     "email": "",
     "web": "https://www.resortragaz.ch/",
-    "note": "Aperto nel 1869 dall'architetto Bernhard Simon, qui nel 1871 fu costruita la prima piscina termale coperta d'Europa ⭐",
+    "note": "Aperto nel 1869 dall'architetto Bernhard Simon, qui nel 1871 fu costruita la prima piscina termale coperta d'Europa 👑",
     "mappa": "Bernhard Simon Strasse 1, Bad Ragaz, SG"
   },
   {
@@ -3069,7 +3069,7 @@ var HOTEL=[
     "cellulare": "",
     "email": "",
     "web": "https://www.kempinski.com/en/grand-hotel-des-bains/",
-    "note": "Costruito nel 1864 attorno alla sorgente minerale Mauritius, scoperta 3000 anni fa e lodata da Paracelso ⭐",
+    "note": "Costruito nel 1864 attorno alla sorgente minerale Mauritius, scoperta 3000 anni fa e lodata da Paracelso 👑",
     "mappa": "Via Mezdi 27, St. Moritz, GR"
   },
   {
@@ -3101,7 +3101,7 @@ var HOTEL=[
     "cellulare": "",
     "email": "reservation@lausanne-palace.ch",
     "web": "https://www.lausanne-palace.com/",
-    "note": "Inaugurato nel 1915 come rivale del Beau-Rivage Palace, qui de Coubertin firmò l'insediamento del CIO a Losanna, residenza ufficiale dei suoi presidenti dal 1980 ⭐",
+    "note": "Inaugurato nel 1915 come rivale del Beau-Rivage Palace, qui de Coubertin firmò l'insediamento del CIO a Losanna, residenza ufficiale dei suoi presidenti dal 1980 👑",
     "mappa": "Rue du Grand-Chêne 7-9, Lausanne, VD"
   },
   {
@@ -3165,7 +3165,7 @@ var HOTEL=[
     "cellulare": "",
     "email": "molzn-reservations@mohg.com",
     "web": "https://www.mandarinoriental.com/en/luzern/palace",
-    "note": "Costruito nel 1906 come rifugio mediterraneo dell'imprenditore Franz Josef Bucher (lo stesso del Bürgenstock), riaperto nel 2022 come Mandarin Oriental ⭐",
+    "note": "Costruito nel 1906 come rifugio mediterraneo dell'imprenditore Franz Josef Bucher (lo stesso del Bürgenstock), riaperto nel 2022 come Mandarin Oriental 👑",
     "mappa": "Haldenstrasse 10, Luzern, LU"
   },
   {
@@ -3261,7 +3261,7 @@ var HOTEL=[
     "cellulare": "",
     "email": "",
     "web": "https://www.ritzcarlton.com/en/hotels/gvarz-the-ritz-carlton-hotel-de-la-paix-geneva/",
-    "note": "Costruito nel 1865, ospitò il Congresso Internazionale della Pace da cui prende il nome, ospiti tra cui la famiglia reale di Monaco e Orson Welles ⭐",
+    "note": "Costruito nel 1865, ospitò il Congresso Internazionale della Pace da cui prende il nome, ospiti tra cui la famiglia reale di Monaco e Orson Welles 👑",
     "mappa": "11, Quai du Mont-Blanc, Geneva, GE"
   },
   {
@@ -3357,7 +3357,7 @@ var HOTEL=[
     "cellulare": "",
     "email": "",
     "web": "https://www.grandhotelbeaurivage.ch/",
-    "note": "Costruito nel 1874 dall'architetto Édouard Davinet, ricostruito dopo un incendio nel 1895, servì come quartier generale dell'esercito svizzero durante la guerra 🌊",
+    "note": "Costruito nel 1874 dall'architetto Édouard Davinet, ricostruito dopo un incendio nel 1895, servì come quartier generale dell'esercito svizzero durante la guerra 👑",
     "mappa": "Höheweg 211, Interlaken, BE"
   },
   {
@@ -3389,7 +3389,7 @@ var HOTEL=[
     "cellulare": "",
     "email": "",
     "web": "https://www.grandhotelrimini.com/",
-    "note": "Inaugurato nel 1908, monumento nazionale dal 1994, la 'seconda casa' di Federico Fellini che lo rese immortale in Amarcord (Oscar 1974) ⭐",
+    "note": "Inaugurato nel 1908, monumento nazionale dal 1994, la 'seconda casa' di Federico Fellini che lo rese immortale in Amarcord (Oscar 1974) 👑",
     "mappa": "Parco Federico Fellini 1, Rimini, RN"
   },
   {
@@ -3437,7 +3437,7 @@ var HOTEL=[
     "cellulare": "",
     "email": "info@ghdl.ch",
     "web": "https://www.grandhoteldulac.ch/",
-    "note": "Costruito nel 1868 dall'architetto Ernest Burnat, sulla stessa via del Grand Hôtel des Trois Couronnes, vicino al Manoir de Ban dove visse Charlie Chaplin ⭐",
+    "note": "Costruito nel 1868 dall'architetto Ernest Burnat, sulla stessa via del Grand Hôtel des Trois Couronnes, vicino al Manoir de Ban dove visse Charlie Chaplin 👑",
     "mappa": "Rue d'Italie 1, Vevey, VD"
   },
   {
@@ -3453,7 +3453,7 @@ var HOTEL=[
     "cellulare": "",
     "email": "",
     "web": "https://www.grandhotel-heiligendamm.de/",
-    "note": "Fondato nel 1793, primo stabilimento balneare marittimo di Germania, la 'Città Bianca sul Mare', sede del vertice G8 nel 2007 ⭐",
+    "note": "Fondato nel 1793, primo stabilimento balneare marittimo di Germania, la 'Città Bianca sul Mare', sede del vertice G8 nel 2007 🏖️",
     "mappa": "Prof.-Dr.-Vogel-Straße 6, Bad Doberan-Heiligendamm, ROS"
   },
   {
@@ -3469,7 +3469,7 @@ var HOTEL=[
     "cellulare": "",
     "email": "",
     "web": "https://www.resortragaz.ch/",
-    "note": "Il più antico edificio del Grand Resort Bad Ragaz, costruito nel 1839-40 sul terreno dell'ex governatorato dell'Abbazia di Pfäfers, ancor prima del Quellenhof ⭐",
+    "note": "Il più antico edificio del Grand Resort Bad Ragaz, costruito nel 1839-40 sul terreno dell'ex governatorato dell'Abbazia di Pfäfers, ancor prima del Quellenhof 👑",
     "mappa": "Bernhard Simon Strasse 1, Bad Ragaz, SG"
   },
   {
@@ -3485,7 +3485,7 @@ var HOTEL=[
     "cellulare": "",
     "email": "",
     "web": "https://huisterduin.com/",
-    "note": "Aperto nel 1885, usato dalle SS durante la guerra, distrutto da un incendio nel 1990 e ricostruito, ospiti le famiglie reali olandese e belga, Thomas Mann e Obama ⭐",
+    "note": "Aperto nel 1885, usato dalle SS durante la guerra, distrutto da un incendio nel 1990 e ricostruito, ospiti le famiglie reali olandese e belga, Thomas Mann e Obama 👑",
     "mappa": "Koningin Astrid Boulevard 5, Noordwijk aan Zee, NL"
   },
   {
@@ -3501,7 +3501,7 @@ var HOTEL=[
     "cellulare": "",
     "email": "",
     "web": "https://londonhotel.bg/",
-    "note": "Aperto nel 1912, primo edificio di Varna con ascensore, in stile Liberty, nazionalizzato dopo l'occupazione sovietica del 1944 ⭐",
+    "note": "Aperto nel 1912, primo edificio di Varna con ascensore, in stile Liberty, nazionalizzato dopo l'occupazione sovietica del 1944 👑",
     "mappa": "Musala 3, Varna, BG"
   },
   {
@@ -3517,7 +3517,7 @@ var HOTEL=[
     "cellulare": "",
     "email": "",
     "web": "https://www.palace.it/",
-    "note": "Aperto nel 1906 in stile Liberty, trasformato in guarnigione tedesca nella guerra e salvato da otto imprenditori locali, prima Medical Spa d'Italia grazie a Henri Chenot ⭐",
+    "note": "Aperto nel 1906 in stile Liberty, trasformato in guarnigione tedesca nella guerra e salvato da otto imprenditori locali, prima Medical Spa d'Italia grazie a Henri Chenot 👑",
     "mappa": "Via Cavour 2, Merano, BZ"
   },
   {
@@ -3533,7 +3533,7 @@ var HOTEL=[
     "cellulare": "",
     "email": "info@schlossbensberg.com",
     "web": "https://www.schlossbensberg.com/",
-    "note": "Castello barocco del Seicento ispirato a Versailles, mai completato, poi ospedale/scuola/rifugio, hotel di lusso dal 2000 dopo 75 milioni di investimento, ospiti Rihanna e McCartney ⭐",
+    "note": "Castello barocco del Seicento ispirato a Versailles, mai completato, poi ospedale/scuola/rifugio, hotel di lusso dal 2000 dopo 75 milioni di investimento, ospiti Rihanna e McCartney 👑",
     "mappa": "Kadettenstraße, Bergisch Gladbach, GL"
   },
   {
@@ -3597,7 +3597,7 @@ var HOTEL=[
     "cellulare": "",
     "email": "",
     "web": "https://parislegrand.intercontinental.com/",
-    "note": "Inaugurato nel 1862 sotto il regno di Napoleone III, di fronte all'Opéra Garnier, il suo Café de la Paix è monumento storico dal 1862, frequentato da Maria Callas e Nureyev ⭐",
+    "note": "Inaugurato nel 1862 sotto il regno di Napoleone III, di fronte all'Opéra Garnier, il suo Café de la Paix è monumento storico dal 1862, frequentato da Maria Callas e Nureyev 👑",
     "mappa": "2 Rue Scribe, Paris, F"
   },
   {
@@ -3613,7 +3613,7 @@ var HOTEL=[
     "cellulare": "",
     "email": "",
     "web": "https://www.brenners.com/",
-    "note": "Fiore all'occhiello di Baden-Baden dal 1872, primo hotel in Europa con una propria Spa negli anni '70, di proprietà della famiglia Oetker dal 1940 ⭐",
+    "note": "Fiore all'occhiello di Baden-Baden dal 1872, primo hotel in Europa con una propria Spa negli anni '70, di proprietà della famiglia Oetker dal 1940 👑",
     "mappa": "Schillerstraße 4/6, Baden-Baden, BAD"
   },
   {
