@@ -5978,6 +5978,104 @@ var GUIDA=[
     "web": "https://www.oeschberghof.com/",
     "note": "Nell'Öschberghof, due Stelle Michelin ottenute dallo chef Manuel Ulrich in soli due anni con prodotti d'eccellenza ⭐",
     "mappa": "Golfplatz 1, Donaueschingen, VS"
+  },
+  {
+    "nome": "Schanz.restaurant.",
+    "indirizzo": "Bahnhofstrasse 8A",
+    "citta": "Piesport",
+    "provincia": "WIL",
+    "prov": "WIL",
+    "regione": "Germania",
+    "luogo": "Piesport (WIL)",
+    "tel": "+49 6507 9 25 20",
+    "telefono": "+49 6507 9 25 20",
+    "web": "https://www.schanz-restaurant.de/",
+    "note": "In una decina d'anni asceso al vertice della cucina tedesca, tra i vigneti della Mosella, cucina francese leggera in ambiente familiare ⭐",
+    "mappa": "Bahnhofstrasse 8A, Piesport, WIL"
+  },
+  {
+    "nome": "Schwarzwaldstube",
+    "indirizzo": "Tonbachstrasse 237",
+    "citta": "Baiersbronn",
+    "provincia": "FDS",
+    "prov": "FDS",
+    "regione": "Germania",
+    "luogo": "Baiersbronn (FDS)",
+    "tel": "+49 7442 49 26 65",
+    "telefono": "+49 7442 49 26 65",
+    "web": "https://www.traube-tonbach.de/",
+    "note": "Nell'Hotel Traube Tonbach a cinque stelle, cucina di leggerezza infinita dello chef Torsten Michel nel cuore della Foresta Nera ⭐",
+    "mappa": "Tonbachstrasse 237, Baiersbronn, FDS"
+  },
+  {
+    "nome": "Söl'ring Hof",
+    "indirizzo": "Am Sandwall 1",
+    "citta": "Rantum/Sylt",
+    "provincia": "NF",
+    "prov": "NF",
+    "regione": "Germania",
+    "luogo": "Rantum/Sylt (NF)",
+    "tel": "+49 4651 836200",
+    "telefono": "+49 4651 836200",
+    "web": "https://www.soelring-hof.de/",
+    "note": "Gioiello tra le dune di Rantum sull'isola di Sylt, cucina nordica firmata dallo chef Jan-Philipp Berner ⭐",
+    "mappa": "Am Sandwall 1, Rantum/Sylt, NF"
+  },
+  {
+    "nome": "Tantris Maison Culinaire",
+    "indirizzo": "Johann-Fichte-Str. 7",
+    "citta": "München",
+    "provincia": "M",
+    "prov": "M",
+    "regione": "Germania",
+    "luogo": "München (M)",
+    "tel": "+49 89 3619590",
+    "telefono": "+49 89 3619590",
+    "web": "https://www.tantris.de/",
+    "note": "Istituzione leggendaria della gastronomia tedesca, riaperta nel 2021 dopo un restauro completo per il cinquantesimo anniversario ⭐",
+    "mappa": "Johann-Fichte-Str. 7, München, M"
+  },
+  {
+    "nome": "Tim Raue",
+    "indirizzo": "Rudi-Dutschke-Strasse 26",
+    "citta": "Berlin",
+    "provincia": "B",
+    "prov": "B",
+    "regione": "Germania",
+    "luogo": "Berlin (B)",
+    "tel": "+49 30 259 379 30",
+    "telefono": "+49 30 259 379 30",
+    "web": "https://www.tim-raue.com/",
+    "note": "Due Stelle Michelin e 40° posto nella classifica 50 Best, identità culinaria che unisce dolce, piccante e acido ⭐",
+    "mappa": "Rudi-Dutschke-Strasse 26, Berlin, B"
+  },
+  {
+    "nome": "Vendôme",
+    "indirizzo": "Kadettenstraße",
+    "citta": "Bergisch Gladbach",
+    "provincia": "GL",
+    "prov": "GL",
+    "regione": "Germania",
+    "luogo": "Bergisch Gladbach (GL)",
+    "tel": "+49 2204 420",
+    "telefono": "+49 2204 420",
+    "web": "https://www.schlossbensberg.com/",
+    "note": "Nel castello dello Schloss Bensberg, lo chef Joachim Wissler spazia dai classici del territorio a ricette dal tocco personale ⭐",
+    "mappa": "Kadettenstraße, Bergisch Gladbach, GL"
+  },
+  {
+    "nome": "Victor's fine dining by Christian Bau",
+    "indirizzo": "Schlossstrasse 27-29",
+    "citta": "Perl-Nennig",
+    "provincia": "MZG",
+    "prov": "MZG",
+    "regione": "Germania",
+    "luogo": "Perl-Nennig (MZG)",
+    "tel": "+49 6866 79 11 8",
+    "telefono": "+49 6866 79 11 8",
+    "web": "https://www.victors-fine-dining.de/",
+    "note": "Castello sulla Mosella tra i vigneti, cucina franco-giapponese leggera e moderna dello chef Christian Bau ⭐",
+    "mappa": "Schlossstrasse 27-29, Perl-Nennig, MZG"
   }
 ];
 var GUIDA_REGPROV={
@@ -6121,13 +6219,18 @@ var GUIDA_REGPROV={
     "GB"
   ],
   "Germania": [
+    "B",
     "F",
     "FDS",
     "FR",
+    "GL",
     "HH",
     "M",
+    "MZG",
+    "NF",
     "SB",
     "VS",
+    "WIL",
     "WOB"
   ]
 };
