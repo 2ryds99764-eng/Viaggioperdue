@@ -5838,6 +5838,146 @@ var GUIDA=[
     "web": "https://www.mosimann.com/",
     "note": "Ex chiesa presbiteriana scozzese del 1830, dal 1988 club gastronomico dello chef svizzero Anton Mosimann, catering per la famiglia reale britannica",
     "mappa": "11B West Halkin Street, London, GB"
+  },
+  {
+    "nome": "Atelier",
+    "indirizzo": "Promenadeplatz 2-6",
+    "citta": "München",
+    "provincia": "M",
+    "prov": "M",
+    "regione": "Germania",
+    "luogo": "München (M)",
+    "tel": "+49 89 21 20 00",
+    "telefono": "+49 89 21 20 00",
+    "web": "https://www.bayerischerhof.de/",
+    "note": "Nel Hotel Bayerischer Hof, atelier d'artista firmato dal designer Axel Vervoordt, cucina francese purista dello chef Anton Gschwendtner ⭐",
+    "mappa": "Promenadeplatz 2-6, München, M"
+  },
+  {
+    "nome": "Aqua",
+    "indirizzo": "Parkstrasse 1",
+    "citta": "Wolfsburg",
+    "provincia": "WOB",
+    "prov": "WOB",
+    "regione": "Germania",
+    "luogo": "Wolfsburg (WOB)",
+    "tel": "+49 5361 60 60 56",
+    "telefono": "+49 5361 60 60 56",
+    "web": "https://www.restaurant-aqua.com/",
+    "note": "Nel Ritz-Carlton Wolfsburg, composizioni fresche ed essenziali dello chef Sven Elverfeld, cucina tedesco-europea reinventata ⭐",
+    "mappa": "Parkstrasse 1, Wolfsburg, WOB"
+  },
+  {
+    "nome": "Bareiss",
+    "indirizzo": "Hermine-Bareiss-Weg",
+    "citta": "Baiersbronn-Mitteltal",
+    "provincia": "FDS",
+    "prov": "FDS",
+    "regione": "Germania",
+    "luogo": "Baiersbronn-Mitteltal (FDS)",
+    "tel": "+49 7442 470",
+    "telefono": "+49 7442 470",
+    "web": "https://www.bareiss.com/",
+    "note": "Resort di lusso nel cuore della Foresta Nera da tre generazioni, cucina fresca e raffinata dello chef Claus-Peter Lumpp ⭐",
+    "mappa": "Hermine-Bareiss-Weg, Baiersbronn-Mitteltal, FDS"
+  },
+  {
+    "nome": "Esszimmer by Käfer",
+    "indirizzo": "Am Olympiapark 1",
+    "citta": "München",
+    "provincia": "M",
+    "prov": "M",
+    "regione": "Germania",
+    "luogo": "München (M)",
+    "tel": "+49 89 358 991 814",
+    "telefono": "+49 89 358 991 814",
+    "web": "https://www.esszimmer-muenchen.de/",
+    "note": "In cima al BMW Welt, una delle architetture più moderne al mondo, due Stelle Michelin dello chef Bobby Bräuer ⭐",
+    "mappa": "Am Olympiapark 1, München, M"
+  },
+  {
+    "nome": "Gästehaus Klaus Erfort",
+    "indirizzo": "Mainzer Strasse 95",
+    "citta": "Saarbrücken",
+    "provincia": "SB",
+    "prov": "SB",
+    "regione": "Germania",
+    "luogo": "Saarbrücken (SB)",
+    "tel": "+49 681 95 82 68 2",
+    "telefono": "+49 681 95 82 68 2",
+    "web": "https://www.gaestehaus-erfort.de/",
+    "note": "Sinfonie di sapori francesi dello chef Klaus Erfort, con un parco secolare e una Teehaus da visitare ⭐",
+    "mappa": "Mainzer Strasse 95, Saarbrücken, SB"
+  },
+  {
+    "nome": "Haerlin",
+    "indirizzo": "Neuer Jungfernstieg 9-14",
+    "citta": "Hamburg",
+    "provincia": "HH",
+    "prov": "HH",
+    "regione": "Germania",
+    "luogo": "Hamburg (HH)",
+    "tel": "+49 40 34 94 33 02",
+    "telefono": "+49 40 34 94 33 02",
+    "web": "https://www.restaurant-haerlin.de/",
+    "note": "Nel Fairmont Hotel Vier Jahreszeiten, due Stelle Michelin dello chef Christoph Rüffer, piatti stagionali dai sapori sorprendenti ⭐",
+    "mappa": "Neuer Jungfernstieg 9-14, Hamburg, HH"
+  },
+  {
+    "nome": "Hirschen",
+    "indirizzo": "Hauptstrasse 69",
+    "citta": "Sulzburg",
+    "provincia": "FR",
+    "prov": "FR",
+    "regione": "Germania",
+    "luogo": "Sulzburg (FR)",
+    "tel": "+49 7634 8208",
+    "telefono": "+49 7634 8208",
+    "web": "https://www.douce-steiner.de/",
+    "note": "Gestito dalla famiglia Steiner da quarant'anni, ai bordi della Foresta Nera, cantina con circa 500 etichette ⭐",
+    "mappa": "Hauptstrasse 69, Sulzburg, FR"
+  },
+  {
+    "nome": "Jan",
+    "indirizzo": "Luisenstrasse 27",
+    "citta": "München",
+    "provincia": "M",
+    "prov": "M",
+    "regione": "Germania",
+    "luogo": "München (M)",
+    "tel": "+49 89 23 70 86 58",
+    "telefono": "+49 89 23 70 86 58",
+    "web": "https://www.jan-hartwig.com/",
+    "note": "Sogno di una vita per lo chef Jan Hartwig, tre Stelle Michelin ottenute appena cinque mesi dopo l'apertura ⭐",
+    "mappa": "Luisenstrasse 27, München, M"
+  },
+  {
+    "nome": "Lafleur",
+    "indirizzo": "Palmengartenstrasse 11",
+    "citta": "Frankfurt am Main",
+    "provincia": "F",
+    "prov": "F",
+    "regione": "Germania",
+    "luogo": "Frankfurt am Main (F)",
+    "tel": "+49 69 900 29 10",
+    "telefono": "+49 69 900 29 10",
+    "web": "https://www.restaurant-lafleur.de/",
+    "note": "Cucina d'artigianato moderno dello chef Andreas Krolik, primo chef stellato d'Europa a creare un menu vegano da sei portate nel 2014 ⭐",
+    "mappa": "Palmengartenstrasse 11, Frankfurt am Main, F"
+  },
+  {
+    "nome": "Ösch Noir",
+    "indirizzo": "Golfplatz 1",
+    "citta": "Donaueschingen",
+    "provincia": "VS",
+    "prov": "VS",
+    "regione": "Germania",
+    "luogo": "Donaueschingen (VS)",
+    "tel": "+49 771 84 610",
+    "telefono": "+49 771 84 610",
+    "web": "https://www.oeschberghof.com/",
+    "note": "Nell'Öschberghof, due Stelle Michelin ottenute dallo chef Manuel Ulrich in soli due anni con prodotti d'eccellenza ⭐",
+    "mappa": "Golfplatz 1, Donaueschingen, VS"
   }
 ];
 var GUIDA_REGPROV={
@@ -5979,5 +6119,15 @@ var GUIDA_REGPROV={
   ],
   "Inghilterra": [
     "GB"
+  ],
+  "Germania": [
+    "F",
+    "FDS",
+    "FR",
+    "HH",
+    "M",
+    "SB",
+    "VS",
+    "WOB"
   ]
 };
