@@ -3711,6 +3711,38 @@ var HOTEL=[
     "web": "https://www.walliserhof-saasfee.ch/",
     "note": "Oltre 130 anni di storia nel villaggio senza auto di Saas-Fee, qui fu girato il video di 'Last Christmas' dei Wham! nei primi anni '80 ⛰️",
     "mappa": "Dorfweg 1, Saas-Fee, VS"
+  },
+  {
+    "nome": "Hotel Belvédère",
+    "indirizzo": "Stradun 330",
+    "citta": "Scuol",
+    "provincia": "GR",
+    "prov": "GR",
+    "regione": "Svizzera",
+    "luogo": "Scuol (GR)",
+    "tel": "+41 81 861 06 06",
+    "telefono": "+41 81 861 06 06",
+    "cellulare": "",
+    "email": "info@belvedere-scuol.ch",
+    "web": "https://www.belvedere-scuol.ch/",
+    "note": "Fondato nel 1876 nella Bassa Engadina, collegato tramite passerella al centro termale Bogn Engiadina ⛰️",
+    "mappa": "Stradun 330, Scuol, GR"
+  },
+  {
+    "nome": "Hotel Schweizerhof",
+    "indirizzo": "Voa Principala 39",
+    "citta": "Lenzerheide/Lai",
+    "provincia": "GR",
+    "prov": "GR",
+    "regione": "Svizzera",
+    "luogo": "Lenzerheide/Lai (GR)",
+    "tel": "+41 81 385 25 25",
+    "telefono": "+41 81 385 25 25",
+    "cellulare": "",
+    "email": "info@schweizerhof-lenzerheide.ch",
+    "web": "https://www.schweizerhof-lenzerheide.ch/",
+    "note": "Operativo dal 1904, tra i primi hotel di Lenzerheide, ospita il più grande hammam dell'intero arco alpino ⛰️",
+    "mappa": "Voa Principala 39, Lenzerheide/Lai, GR"
   }
 ];
 var HOTEL_PROVCITTA={
