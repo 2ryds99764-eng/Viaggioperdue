@@ -6132,6 +6132,62 @@ var GUIDA=[
     "web": "https://www.mayers-restaurant.at/",
     "note": "Nel castello di Zell am See di proprietà del costruttore automobilistico Wolfgang Porsche, lo chef Andreas Mayer ama la cucina vegetariana ⭐",
     "mappa": "Hofmannsthalstrasse 10, Zell am See, ZE"
+  },
+  {
+    "nome": "Obauer",
+    "indirizzo": "Markt 46",
+    "citta": "Werfen",
+    "provincia": "JO",
+    "prov": "JO",
+    "regione": "Austria",
+    "luogo": "Werfen (JO)",
+    "tel": "+43 6468 5212",
+    "telefono": "+43 6468 5212",
+    "web": "https://www.obauer.com/",
+    "note": "Gestito dalla famiglia Obauer, ai piedi del castello medievale di Hohenwerfen e della grotta di ghiaccio più grande al mondo ⭐",
+    "mappa": "Markt 46, Werfen, JO"
+  },
+  {
+    "nome": "Silvio Nickol Gourmet Restaurant",
+    "indirizzo": "Coburgbastei 4",
+    "citta": "Vienna",
+    "provincia": "W",
+    "prov": "W",
+    "regione": "Austria",
+    "luogo": "Vienna (W)",
+    "tel": "+43 1 51818 130",
+    "telefono": "+43 1 51818 130",
+    "web": "https://www.palais-coburg.com/",
+    "note": "Nel Palais Coburg, dimora principesca che domina il centro di Vienna, lo chef Silvio Nickol reinterpreta la tradizione austriaca ⭐",
+    "mappa": "Coburgbastei 4, Vienna, W"
+  },
+  {
+    "nome": "Steirereck im Stadtpark",
+    "indirizzo": "Am Heumarkt 2A",
+    "citta": "Vienna",
+    "provincia": "W",
+    "prov": "W",
+    "regione": "Austria",
+    "luogo": "Vienna (W)",
+    "tel": "+43 1 713 31 68",
+    "telefono": "+43 1 713 31 68",
+    "web": "https://www.steirereck.at/",
+    "note": "Nel cuore dello Stadtpark viennese, la famiglia Reitbauer celebra da generazioni i migliori prodotti d'Austria ⭐",
+    "mappa": "Am Heumarkt 2A, Vienna, W"
+  },
+  {
+    "nome": "Stüva",
+    "indirizzo": "Dorfstrasse 73",
+    "citta": "Ischgl",
+    "provincia": "LA",
+    "prov": "LA",
+    "regione": "Austria",
+    "luogo": "Ischgl (LA)",
+    "tel": "+43 5444 5275",
+    "telefono": "+43 5444 5275",
+    "web": "https://www.yscla.at/",
+    "note": "Nella stazione sciistica di Ischgl, lo chef Benjamin Parth firma una cucina alpina di alta precisione tecnica ⭐",
+    "mappa": "Dorfstrasse 73, Ischgl, LA"
   }
 ];
 var GUIDA_REGPROV={
@@ -6270,7 +6326,9 @@ var GUIDA_REGPROV={
   ],
   "Austria": [
     "HA",
+    "JO",
     "KR",
+    "LA",
     "S",
     "W",
     "ZE"
