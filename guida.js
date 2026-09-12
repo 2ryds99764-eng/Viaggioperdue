@@ -6189,6 +6189,76 @@ var GUIDA=[
     "web": "https://www.yscla.at/",
     "note": "Nella stazione sciistica di Ischgl, lo chef Benjamin Parth firma una cucina alpina di alta precisione tecnica ⭐ 👑",
     "mappa": "Dorfstrasse 73, Ischgl, LA"
+  },
+  {
+    "nome": "Boury",
+    "indirizzo": "Rumbeeksesteenweg 300",
+    "citta": "Roeselare",
+    "provincia": "BEL",
+    "prov": "BEL",
+    "regione": "Belgio",
+    "luogo": "Roeselare (BEL)",
+    "tel": "+32 51 62 64 62",
+    "telefono": "+32 51 62 64 62",
+    "web": "https://www.restaurantboury.be/",
+    "note": "Tre Stelle Michelin (2010, 2017, 2022), lo chef Tim Boury ha fondato con il fratello Ben la 'Boury Academy' per giovani talenti ⭐ 👑",
+    "mappa": "Rumbeeksesteenweg 300, Roeselare, BEL"
+  },
+  {
+    "nome": "Bozar Restaurant",
+    "indirizzo": "Rue Baron Hortastraat 3",
+    "citta": "Bruxelles",
+    "provincia": "BEL",
+    "prov": "BEL",
+    "regione": "Belgio",
+    "luogo": "Bruxelles (BEL)",
+    "tel": "+32 2 503 00 00",
+    "telefono": "+32 2 503 00 00",
+    "web": "https://www.bozarrestaurant.be/",
+    "note": "Nel Palazzo delle Belle Arti di Bruxelles, cucina classica e moderna dello chef Karen Torosyan, reinterpretazione contemporanea della tradizione francese ⭐ 👑",
+    "mappa": "Rue Baron Hortastraat 3, Bruxelles, BEL"
+  },
+  {
+    "nome": "Comme chez soi",
+    "indirizzo": "Place Rouppe 23",
+    "citta": "Bruxelles",
+    "provincia": "BEL",
+    "prov": "BEL",
+    "regione": "Belgio",
+    "luogo": "Bruxelles (BEL)",
+    "tel": "+32 2 512 29 21",
+    "telefono": "+32 2 512 29 21",
+    "web": "https://www.commechezsoi.be/",
+    "note": "Decor ispirato al maestro dell'Art Nouveau Victor Horta, saga familiare da oltre 95 anni, oggi alla quinta generazione con Loïc Rigolet ⭐ 👑",
+    "mappa": "Place Rouppe 23, Bruxelles, BEL"
+  },
+  {
+    "nome": "D'Eugénie à Émilie",
+    "indirizzo": "Place de la Résistance 1",
+    "citta": "Baudour",
+    "provincia": "BEL",
+    "prov": "BEL",
+    "regione": "Belgio",
+    "luogo": "Baudour (BEL)",
+    "tel": "+32 65 61 31 70",
+    "telefono": "+32 65 61 31 70",
+    "web": "https://www.eugenie-emilie.be/",
+    "note": "A due passi dal confine francese dal 2008, lo chef Éric Fernez difende una cucina di tradizione ispirata alla semplicità della cucina della nonna ⭐ 👑",
+    "mappa": "Place de la Résistance 1, Baudour, BEL"
+  },
+  {
+    "nome": "Hof Van Cleve",
+    "indirizzo": "Riemegemstraat 1",
+    "citta": "Kruisem",
+    "provincia": "BEL",
+    "prov": "BEL",
+    "regione": "Belgio",
+    "luogo": "Kruisem (BEL)",
+    "tel": "+32 9 383 58 48",
+    "telefono": "+32 9 383 58 48",
+    "web": "https://www.hofvancleve.com/",
+    "note": "Dopo anni come braccio destro di Peter Goossens, lo chef Floris Van Der Veken ha rilevato nel 2024 questo luogo carico di storia gastronomica ⭐ 👑",
+    "mappa": "Riemegemstraat 1, Kruisem, BEL"
   }
 ];
 var GUIDA_REGPROV={
@@ -6351,5 +6421,8 @@ var GUIDA_REGPROV={
     "VS",
     "WIL",
     "WOB"
+  ],
+  "Belgio": [
+    "BEL"
   ]
 };
