@@ -6329,6 +6329,76 @@ var GUIDA=[
     "web": "https://www.menssa.be/",
     "note": "Lo chef Christophe Hardiquest ha ricostruito un nuovo universo culinario, privilegiando un approccio interattivo con un imponente bancone-cucina ⭐ 👑",
     "mappa": "Avenue de Tervueren 453, Bruxelles, BEL"
+  },
+  {
+    "nome": "Nuance",
+    "indirizzo": "Kiliaanstraat 6-8",
+    "citta": "Duffel",
+    "provincia": "BEL",
+    "prov": "BEL",
+    "regione": "Belgio",
+    "luogo": "Duffel (BEL)",
+    "tel": "+32 15 63 42 65",
+    "telefono": "+32 15 63 42 65",
+    "web": "https://www.resto-nuance.be/",
+    "note": "Un tocco di Parigi in Belgio, gli chef Sofie e Thierry Theys lavorano ogni giorno insieme, in cucina e in sala, per offrire il meglio ⭐ 👑",
+    "mappa": "Kiliaanstraat 6-8, Duffel, BEL"
+  },
+  {
+    "nome": "Ralf Berendsen",
+    "indirizzo": "Paalsteenlaan 90",
+    "citta": "Lanaken",
+    "provincia": "BEL",
+    "prov": "BEL",
+    "regione": "Belgio",
+    "luogo": "Lanaken (BEL)",
+    "tel": "+32 89 73 97 70",
+    "telefono": "+32 89 73 97 70",
+    "web": "https://www.ralfberendsen.be/",
+    "note": "Nella Butte aux Bois, lo chef Ralf Berendsen è celebre per il suo senso unico dei tempi di cottura perfetti, in una ricerca senza fine della perfezione ⭐ 👑",
+    "mappa": "Paalsteenlaan 90, Lanaken, BEL"
+  },
+  {
+    "nome": "Slagmolen",
+    "indirizzo": "Molenweg 177",
+    "citta": "Opglabbeek",
+    "provincia": "BEL",
+    "prov": "BEL",
+    "regione": "Belgio",
+    "luogo": "Opglabbeek (BEL)",
+    "tel": "+32 89 85 48 88",
+    "telefono": "+32 89 85 48 88",
+    "web": "https://www.slagmolen.be/",
+    "note": "Un piccolo paradiso verde nel Limburgo, dove Bert e Giel Meewis coniugano basi classiche e tecniche d'avanguardia per piatti essenziali ⭐ 👑",
+    "mappa": "Molenweg 177, Opglabbeek, BEL"
+  },
+  {
+    "nome": "The Jane",
+    "indirizzo": "Paradeplein 1",
+    "citta": "Anversa",
+    "provincia": "BEL",
+    "prov": "BEL",
+    "regione": "Belgio",
+    "luogo": "Anversa (BEL)",
+    "tel": "+32 3 808 44 65",
+    "telefono": "+32 3 808 44 65",
+    "web": "https://www.thejaneantwerp.com/",
+    "note": "Nell'ex cappella dell'ospedale militare, dal 2014 lo chef Nick Bril rende l'alta gastronomia accessibile a un pubblico ampio ⭐ 👑",
+    "mappa": "Paradeplein 1, Anversa, BEL"
+  },
+  {
+    "nome": "Zilte",
+    "indirizzo": "Hanzestedenplaats 5",
+    "citta": "Anversa",
+    "provincia": "BEL",
+    "prov": "BEL",
+    "regione": "Belgio",
+    "luogo": "Anversa (BEL)",
+    "tel": "+32 3 283 40 40",
+    "telefono": "+32 3 283 40 40",
+    "web": "https://www.zilte.be/",
+    "note": "Da ingegnere a chef, Viki Geunes ha raggiunto le tre Stelle Michelin nel 2021, oggi affiancato dalla figlia Gitte ⭐ 👑",
+    "mappa": "Hanzestedenplaats 5, Anversa, BEL"
   }
 ];
 var GUIDA_REGPROV={
