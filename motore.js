@@ -49,7 +49,7 @@ const ETICHETTE_SIMBOLO_RISTORANTE = {
   "⭐": "Stella Michelin",
   "⛰️": "Montagna",
   "📜": "Tradizione familiare",
-  "🐓": "Grandi Tavole del Mondo"
+  "👑": "Grande tradizione"
 };
 /* scopre nelle note di window.GUIDA quali simboli sono davvero in uso,
    così eventuali nuovi simboli aggiunti ai dati compaiono da soli qui */
