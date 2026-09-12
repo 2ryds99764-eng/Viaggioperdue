@@ -661,6 +661,7 @@ const T42 = {
           "C’è un locale che merita un viaggio. Non perché sia famoso, non perché stia su una guida, ma perché racconta qualcosa che non avresti trovato altrove: un territorio, una stagione, le mani di chi ha deciso di fare le cose a modo suo.",
           "I locali che scegliamo non si misurano in coperti. Si misurano in quello che arriva nel piatto: un ingrediente che viene da vicino, una ricetta che qualcuno ha custodito per generazioni, un sapore che rimane dopo che il pranzo è finito. Si misurano nell’attenzione che il cuoco ripone in ogni gesto, non per impressionare, ma per restituire qualcosa di autentico.",
           "Abbiamo scelto trattorie dove la cucina è ancora un atto di amore. Ristoranti dove lo chef conosce il nome di chi alleva, di chi coltiva, di chi pesca. Osterie dove sedersi a tavola significa conoscere un luogo, non solo consumare un pasto.",
+          "E poi ci sono le grandi tavole, che almeno una volta nella vita andrebbero provate, perché sono la memoria di chi ha scritto la storia della grande cucina. Tra queste, anche Danì Maison, che pur avendo lo spirito di un Tavolo per Due, dal 2018 fa parte di Les Grandes Tables du Monde, l'associazione nata a Parigi nel 1954 tra le cui fila c'era già negli anni '50 il Grand Véfour di Raymond Oliver, amico di Jean Cocteau, che ne illustrava i menu.",
           "Sono tavoli che si raggiungono con intenzione, spesso fuori dai luoghi comuni. E dai quali, di solito, si riparte con qualcosa in più."
         ]
       },
