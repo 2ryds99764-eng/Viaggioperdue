@@ -1647,8 +1647,15 @@ function costruisciConcierge() {
       const tmp = mischiati[i]; mischiati[i] = mischiati[j]; mischiati[j] = tmp;
     }
     if (stato.tipo === "itinerario" || stato.tipo === "escape" || stato.simbolo === "") return mischiati;
-    const quanti = Math.min(mischiati.length, 1 + Math.floor(Math.random() * 3));
-    return mischiati.slice(0, quanti);
+    const LIMITE = 20;
+    let risultato;
+    if (match.length <= LIMITE) {
+      risultato = match.slice(); // ordine naturale, non mescolato, se rientra nel limite
+    } else {
+      risultato = mischiati.slice(0, LIMITE); // altrimenti mescolato, tetto a 20
+    }
+    risultato.totaleReale = match.length;
+    return risultato;
   }
 
   function renderRisultati() {
@@ -1695,7 +1702,11 @@ function costruisciConcierge() {
             (btn ? '<div class="azioni rist-azioni">' + btn + '</div>' : '') +
           '</div>' +
         '</article>';
-      }).join("") + '</div>';
+      }).join("");
+      if (items.totaleReale && items.totaleReale > items.length) {
+        html += '<div class="conc-altri">...e altri ' + (items.totaleReale - items.length) + ' risultati</div>';
+      }
+      html += '</div>';
     }
     html += '<div class="conc-azioni-step"><button class="conc-rifai" type="button">↺ Nuova ricerca</button></div>';
     corpo.innerHTML = html;
