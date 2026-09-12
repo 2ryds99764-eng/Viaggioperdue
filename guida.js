@@ -6259,6 +6259,76 @@ var GUIDA=[
     "web": "https://www.hofvancleve.com/",
     "note": "Dopo anni come braccio destro di Peter Goossens, lo chef Floris Van Der Veken ha rilevato nel 2024 questo luogo carico di storia gastronomica ⭐ 👑",
     "mappa": "Riemegemstraat 1, Kruisem, BEL"
+  },
+  {
+    "nome": "L'air du temps",
+    "indirizzo": "2 Rue de la Croix Monet",
+    "citta": "Liernu",
+    "provincia": "BEL",
+    "prov": "BEL",
+    "regione": "Belgio",
+    "luogo": "Liernu (BEL)",
+    "tel": "+32 81 81 30 48",
+    "telefono": "+32 81 81 30 48",
+    "web": "https://www.airdutemps.be/",
+    "note": "Cucina d'ispirazione vegetale nata da un giardino e da una rete di produttori appassionati, esperienza unica e autentica dello chef Sang Hoon Degeimbre ⭐ 👑",
+    "mappa": "2 Rue de la Croix Monet, Liernu, BEL"
+  },
+  {
+    "nome": "L'eau Vive",
+    "indirizzo": "37 Route de Floreffe",
+    "citta": "Arbre",
+    "provincia": "BEL",
+    "prov": "BEL",
+    "regione": "Belgio",
+    "luogo": "Arbre (BEL)",
+    "tel": "+32 81 41 11 51",
+    "telefono": "+32 81 41 11 51",
+    "web": "https://www.eau-vive.be/",
+    "note": "In un mulino del XVII secolo tra un giardino e un fiume, lo chef Pierre Résimont fu il più giovane chef belga stellato della storia ⭐ 👑",
+    "mappa": "37 Route de Floreffe, Arbre, BEL"
+  },
+  {
+    "nome": "La Villa Lorraine",
+    "indirizzo": "Avenue du Vivier d'Oie 75",
+    "citta": "Bruxelles",
+    "provincia": "BEL",
+    "prov": "BEL",
+    "regione": "Belgio",
+    "luogo": "Bruxelles (BEL)",
+    "tel": "+32 2 374 31 63",
+    "telefono": "+32 2 374 31 63",
+    "web": "https://www.lavillalorraine.be/",
+    "note": "Sui bordi del Bois de la Cambre, lo chef Yves Mattagne propone due concept: un lounge bar ispirato ai suoi viaggi e il ristorante gastronomico ⭐ 👑",
+    "mappa": "Avenue du Vivier d'Oie 75, Bruxelles, BEL"
+  },
+  {
+    "nome": "Le Chalet de la Forêt",
+    "indirizzo": "Drève de Lorraine 43",
+    "citta": "Bruxelles",
+    "provincia": "BEL",
+    "prov": "BEL",
+    "regione": "Belgio",
+    "luogo": "Bruxelles (BEL)",
+    "tel": "+32 2 374 54 16",
+    "telefono": "+32 2 374 54 16",
+    "web": "https://www.lechaletdelaforet.be/",
+    "note": "Ai margini della foresta, lo chef Pascal Devalkeneer coltiva il proprio orto per una cucina di verità dai sapori sorprendentemente ricercati ⭐ 👑",
+    "mappa": "Drève de Lorraine 43, Bruxelles, BEL"
+  },
+  {
+    "nome": "Menssa",
+    "indirizzo": "Avenue de Tervueren 453",
+    "citta": "Bruxelles",
+    "provincia": "BEL",
+    "prov": "BEL",
+    "regione": "Belgio",
+    "luogo": "Bruxelles (BEL)",
+    "tel": "+32 2 346 66 15",
+    "telefono": "+32 2 346 66 15",
+    "web": "https://www.menssa.be/",
+    "note": "Lo chef Christophe Hardiquest ha ricostruito un nuovo universo culinario, privilegiando un approccio interattivo con un imponente bancone-cucina ⭐ 👑",
+    "mappa": "Avenue de Tervueren 453, Bruxelles, BEL"
   }
 ];
 var GUIDA_REGPROV={
