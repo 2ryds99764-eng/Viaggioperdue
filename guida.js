@@ -3820,7 +3820,7 @@ var GUIDA=[
     "tel": "+43 662 2197 0",
     "telefono": "+43 662 2197 0",
     "web": "https://www.hangar-7.com/",
-    "note": "Ogni mese un grande chef diverso ai fornelli, nell'Hangar-7 dall'architettura di vetro, tra gli aerei storici della collezione The Flying Bulls ⭐",
+    "note": "Ogni mese un grande chef diverso ai fornelli, nell'Hangar-7 dall'architettura di vetro, tra gli aerei storici della collezione The Flying Bulls ⭐ 👑",
     "mappa": "Wilhelm-Spazier-Strasse 7A, Salisburgo, S"
   },
   {
@@ -5851,7 +5851,7 @@ var GUIDA=[
     "tel": "+49 89 21 20 00",
     "telefono": "+49 89 21 20 00",
     "web": "https://www.bayerischerhof.de/",
-    "note": "Nel Hotel Bayerischer Hof, atelier d'artista firmato dal designer Axel Vervoordt, cucina francese purista dello chef Anton Gschwendtner ⭐",
+    "note": "Nel Hotel Bayerischer Hof, atelier d'artista firmato dal designer Axel Vervoordt, cucina francese purista dello chef Anton Gschwendtner ⭐ 👑",
     "mappa": "Promenadeplatz 2-6, München, M"
   },
   {
@@ -5865,7 +5865,7 @@ var GUIDA=[
     "tel": "+49 5361 60 60 56",
     "telefono": "+49 5361 60 60 56",
     "web": "https://www.restaurant-aqua.com/",
-    "note": "Nel Ritz-Carlton Wolfsburg, composizioni fresche ed essenziali dello chef Sven Elverfeld, cucina tedesco-europea reinventata ⭐",
+    "note": "Nel Ritz-Carlton Wolfsburg, composizioni fresche ed essenziali dello chef Sven Elverfeld, cucina tedesco-europea reinventata ⭐ 👑",
     "mappa": "Parkstrasse 1, Wolfsburg, WOB"
   },
   {
@@ -5879,7 +5879,7 @@ var GUIDA=[
     "tel": "+49 7442 470",
     "telefono": "+49 7442 470",
     "web": "https://www.bareiss.com/",
-    "note": "Resort di lusso nel cuore della Foresta Nera da tre generazioni, cucina fresca e raffinata dello chef Claus-Peter Lumpp ⭐",
+    "note": "Resort di lusso nel cuore della Foresta Nera da tre generazioni, cucina fresca e raffinata dello chef Claus-Peter Lumpp ⭐ 👑",
     "mappa": "Hermine-Bareiss-Weg, Baiersbronn-Mitteltal, FDS"
   },
   {
@@ -5893,7 +5893,7 @@ var GUIDA=[
     "tel": "+49 89 358 991 814",
     "telefono": "+49 89 358 991 814",
     "web": "https://www.esszimmer-muenchen.de/",
-    "note": "In cima al BMW Welt, una delle architetture più moderne al mondo, due Stelle Michelin dello chef Bobby Bräuer ⭐",
+    "note": "In cima al BMW Welt, una delle architetture più moderne al mondo, due Stelle Michelin dello chef Bobby Bräuer ⭐ 👑",
     "mappa": "Am Olympiapark 1, München, M"
   },
   {
@@ -5907,7 +5907,7 @@ var GUIDA=[
     "tel": "+49 681 95 82 68 2",
     "telefono": "+49 681 95 82 68 2",
     "web": "https://www.gaestehaus-erfort.de/",
-    "note": "Sinfonie di sapori francesi dello chef Klaus Erfort, con un parco secolare e una Teehaus da visitare ⭐",
+    "note": "Sinfonie di sapori francesi dello chef Klaus Erfort, con un parco secolare e una Teehaus da visitare ⭐ 👑",
     "mappa": "Mainzer Strasse 95, Saarbrücken, SB"
   },
   {
@@ -5921,7 +5921,7 @@ var GUIDA=[
     "tel": "+49 40 34 94 33 02",
     "telefono": "+49 40 34 94 33 02",
     "web": "https://www.restaurant-haerlin.de/",
-    "note": "Nel Fairmont Hotel Vier Jahreszeiten, due Stelle Michelin dello chef Christoph Rüffer, piatti stagionali dai sapori sorprendenti ⭐",
+    "note": "Nel Fairmont Hotel Vier Jahreszeiten, due Stelle Michelin dello chef Christoph Rüffer, piatti stagionali dai sapori sorprendenti ⭐ 👑",
     "mappa": "Neuer Jungfernstieg 9-14, Hamburg, HH"
   },
   {
@@ -5935,7 +5935,7 @@ var GUIDA=[
     "tel": "+49 7634 8208",
     "telefono": "+49 7634 8208",
     "web": "https://www.douce-steiner.de/",
-    "note": "Gestito dalla famiglia Steiner da quarant'anni, ai bordi della Foresta Nera, cantina con circa 500 etichette ⭐",
+    "note": "Gestito dalla famiglia Steiner da quarant'anni, ai bordi della Foresta Nera, cantina con circa 500 etichette ⭐ 👑",
     "mappa": "Hauptstrasse 69, Sulzburg, FR"
   },
   {
@@ -5949,7 +5949,7 @@ var GUIDA=[
     "tel": "+49 89 23 70 86 58",
     "telefono": "+49 89 23 70 86 58",
     "web": "https://www.jan-hartwig.com/",
-    "note": "Sogno di una vita per lo chef Jan Hartwig, tre Stelle Michelin ottenute appena cinque mesi dopo l'apertura ⭐",
+    "note": "Sogno di una vita per lo chef Jan Hartwig, tre Stelle Michelin ottenute appena cinque mesi dopo l'apertura ⭐ 👑",
     "mappa": "Luisenstrasse 27, München, M"
   },
   {
@@ -5963,7 +5963,7 @@ var GUIDA=[
     "tel": "+49 69 900 29 10",
     "telefono": "+49 69 900 29 10",
     "web": "https://www.restaurant-lafleur.de/",
-    "note": "Cucina d'artigianato moderno dello chef Andreas Krolik, primo chef stellato d'Europa a creare un menu vegano da sei portate nel 2014 ⭐",
+    "note": "Cucina d'artigianato moderno dello chef Andreas Krolik, primo chef stellato d'Europa a creare un menu vegano da sei portate nel 2014 ⭐ 👑",
     "mappa": "Palmengartenstrasse 11, Frankfurt am Main, F"
   },
   {
@@ -5977,7 +5977,7 @@ var GUIDA=[
     "tel": "+49 771 84 610",
     "telefono": "+49 771 84 610",
     "web": "https://www.oeschberghof.com/",
-    "note": "Nell'Öschberghof, due Stelle Michelin ottenute dallo chef Manuel Ulrich in soli due anni con prodotti d'eccellenza ⭐",
+    "note": "Nell'Öschberghof, due Stelle Michelin ottenute dallo chef Manuel Ulrich in soli due anni con prodotti d'eccellenza ⭐ 👑",
     "mappa": "Golfplatz 1, Donaueschingen, VS"
   },
   {
@@ -5991,7 +5991,7 @@ var GUIDA=[
     "tel": "+49 6507 9 25 20",
     "telefono": "+49 6507 9 25 20",
     "web": "https://www.schanz-restaurant.de/",
-    "note": "In una decina d'anni asceso al vertice della cucina tedesca, tra i vigneti della Mosella, cucina francese leggera in ambiente familiare ⭐",
+    "note": "In una decina d'anni asceso al vertice della cucina tedesca, tra i vigneti della Mosella, cucina francese leggera in ambiente familiare ⭐ 👑",
     "mappa": "Bahnhofstrasse 8A, Piesport, WIL"
   },
   {
@@ -6005,7 +6005,7 @@ var GUIDA=[
     "tel": "+49 7442 49 26 65",
     "telefono": "+49 7442 49 26 65",
     "web": "https://www.traube-tonbach.de/",
-    "note": "Nell'Hotel Traube Tonbach a cinque stelle, cucina di leggerezza infinita dello chef Torsten Michel nel cuore della Foresta Nera ⭐",
+    "note": "Nell'Hotel Traube Tonbach a cinque stelle, cucina di leggerezza infinita dello chef Torsten Michel nel cuore della Foresta Nera ⭐ 👑",
     "mappa": "Tonbachstrasse 237, Baiersbronn, FDS"
   },
   {
@@ -6019,7 +6019,7 @@ var GUIDA=[
     "tel": "+49 4651 836200",
     "telefono": "+49 4651 836200",
     "web": "https://www.soelring-hof.de/",
-    "note": "Gioiello tra le dune di Rantum sull'isola di Sylt, cucina nordica firmata dallo chef Jan-Philipp Berner ⭐",
+    "note": "Gioiello tra le dune di Rantum sull'isola di Sylt, cucina nordica firmata dallo chef Jan-Philipp Berner ⭐ 👑",
     "mappa": "Am Sandwall 1, Rantum/Sylt, NF"
   },
   {
@@ -6033,7 +6033,7 @@ var GUIDA=[
     "tel": "+49 89 3619590",
     "telefono": "+49 89 3619590",
     "web": "https://www.tantris.de/",
-    "note": "Istituzione leggendaria della gastronomia tedesca, riaperta nel 2021 dopo un restauro completo per il cinquantesimo anniversario ⭐",
+    "note": "Istituzione leggendaria della gastronomia tedesca, riaperta nel 2021 dopo un restauro completo per il cinquantesimo anniversario ⭐ 👑",
     "mappa": "Johann-Fichte-Str. 7, München, M"
   },
   {
@@ -6047,7 +6047,7 @@ var GUIDA=[
     "tel": "+49 30 259 379 30",
     "telefono": "+49 30 259 379 30",
     "web": "https://www.tim-raue.com/",
-    "note": "Due Stelle Michelin e 40° posto nella classifica 50 Best, identità culinaria che unisce dolce, piccante e acido ⭐",
+    "note": "Due Stelle Michelin e 40° posto nella classifica 50 Best, identità culinaria che unisce dolce, piccante e acido ⭐ 👑",
     "mappa": "Rudi-Dutschke-Strasse 26, Berlin, B"
   },
   {
@@ -6061,7 +6061,7 @@ var GUIDA=[
     "tel": "+49 2204 420",
     "telefono": "+49 2204 420",
     "web": "https://www.schlossbensberg.com/",
-    "note": "Nel castello dello Schloss Bensberg, lo chef Joachim Wissler spazia dai classici del territorio a ricette dal tocco personale ⭐",
+    "note": "Nel castello dello Schloss Bensberg, lo chef Joachim Wissler spazia dai classici del territorio a ricette dal tocco personale ⭐ 👑",
     "mappa": "Kadettenstraße, Bergisch Gladbach, GL"
   },
   {
@@ -6075,7 +6075,7 @@ var GUIDA=[
     "tel": "+49 6866 79 11 8",
     "telefono": "+49 6866 79 11 8",
     "web": "https://www.victors-fine-dining.de/",
-    "note": "Castello sulla Mosella tra i vigneti, cucina franco-giapponese leggera e moderna dello chef Christian Bau ⭐",
+    "note": "Castello sulla Mosella tra i vigneti, cucina franco-giapponese leggera e moderna dello chef Christian Bau ⭐ 👑",
     "mappa": "Schlossstrasse 27-29, Perl-Nennig, MZG"
   },
   {
@@ -6089,7 +6089,7 @@ var GUIDA=[
     "tel": "+43 660 773 49 72",
     "telefono": "+43 660 773 49 72",
     "web": "https://www.restaurant-amador.com/",
-    "note": "Costruito nell'impressionante cantina del vignaiolo viennese Hajszan Neumann, tre Stelle Michelin ottenute dallo chef Juan Amador in soli tre anni ⭐",
+    "note": "Costruito nell'impressionante cantina del vignaiolo viennese Hajszan Neumann, tre Stelle Michelin ottenute dallo chef Juan Amador in soli tre anni ⭐ 👑",
     "mappa": "Grinzingerstrasse 86, Vienna, W"
   },
   {
@@ -6103,7 +6103,7 @@ var GUIDA=[
     "tel": "+43 6244 4220",
     "telefono": "+43 6244 4220",
     "web": "https://www.doellerer.at/",
-    "note": "Alle porte di Salisburgo, la 'Alpine Cuisine' di Andreas Döllerer nasce da ingredienti di montagne, valli e pascoli circostanti ⭐",
+    "note": "Alle porte di Salisburgo, la 'Alpine Cuisine' di Andreas Döllerer nasce da ingredienti di montagne, valli e pascoli circostanti ⭐ 👑",
     "mappa": "Markt 56, Golling, HA"
   },
   {
@@ -6117,7 +6117,7 @@ var GUIDA=[
     "tel": "+43 2732 82937",
     "telefono": "+43 2732 82937",
     "web": "https://www.landhaus-bacher.at/",
-    "note": "Nella regione della Wachau, patrimonio UNESCO dal 2000, Lisl Wagner-Bacher e il genero Thomas Dorfer uniscono i loro talenti ⭐",
+    "note": "Nella regione della Wachau, patrimonio UNESCO dal 2000, Lisl Wagner-Bacher e il genero Thomas Dorfer uniscono i loro talenti ⭐ 👑",
     "mappa": "Südtirolerplatz 2, Mautern, KR"
   },
   {
@@ -6131,7 +6131,7 @@ var GUIDA=[
     "tel": "+43 6452 729 110",
     "telefono": "+43 6452 729 110",
     "web": "https://www.mayers-restaurant.at/",
-    "note": "Nel castello di Zell am See di proprietà del costruttore automobilistico Wolfgang Porsche, lo chef Andreas Mayer ama la cucina vegetariana ⭐",
+    "note": "Nel castello di Zell am See di proprietà del costruttore automobilistico Wolfgang Porsche, lo chef Andreas Mayer ama la cucina vegetariana ⭐ 👑",
     "mappa": "Hofmannsthalstrasse 10, Zell am See, ZE"
   },
   {
@@ -6145,7 +6145,7 @@ var GUIDA=[
     "tel": "+43 6468 5212",
     "telefono": "+43 6468 5212",
     "web": "https://www.obauer.com/",
-    "note": "Gestito dalla famiglia Obauer, ai piedi del castello medievale di Hohenwerfen e della grotta di ghiaccio più grande al mondo ⭐",
+    "note": "Gestito dalla famiglia Obauer, ai piedi del castello medievale di Hohenwerfen e della grotta di ghiaccio più grande al mondo ⭐ 👑",
     "mappa": "Markt 46, Werfen, JO"
   },
   {
@@ -6159,7 +6159,7 @@ var GUIDA=[
     "tel": "+43 1 51818 130",
     "telefono": "+43 1 51818 130",
     "web": "https://www.palais-coburg.com/",
-    "note": "Nel Palais Coburg, dimora principesca che domina il centro di Vienna, lo chef Silvio Nickol reinterpreta la tradizione austriaca ⭐",
+    "note": "Nel Palais Coburg, dimora principesca che domina il centro di Vienna, lo chef Silvio Nickol reinterpreta la tradizione austriaca ⭐ 👑",
     "mappa": "Coburgbastei 4, Vienna, W"
   },
   {
@@ -6173,7 +6173,7 @@ var GUIDA=[
     "tel": "+43 1 713 31 68",
     "telefono": "+43 1 713 31 68",
     "web": "https://www.steirereck.at/",
-    "note": "Nel cuore dello Stadtpark viennese, la famiglia Reitbauer celebra da generazioni i migliori prodotti d'Austria ⭐",
+    "note": "Nel cuore dello Stadtpark viennese, la famiglia Reitbauer celebra da generazioni i migliori prodotti d'Austria ⭐ 👑",
     "mappa": "Am Heumarkt 2A, Vienna, W"
   },
   {
@@ -6187,7 +6187,7 @@ var GUIDA=[
     "tel": "+43 5444 5275",
     "telefono": "+43 5444 5275",
     "web": "https://www.yscla.at/",
-    "note": "Nella stazione sciistica di Ischgl, lo chef Benjamin Parth firma una cucina alpina di alta precisione tecnica ⭐",
+    "note": "Nella stazione sciistica di Ischgl, lo chef Benjamin Parth firma una cucina alpina di alta precisione tecnica ⭐ 👑",
     "mappa": "Dorfstrasse 73, Ischgl, LA"
   }
 ];
