@@ -47,7 +47,9 @@ const ETICHETTE_SIMBOLO_RISTORANTE = {
   "🥪": "Sandwich gourmet",
   "⛱️": "Spiaggia",
   "⭐": "Stella Michelin",
-  "⛰️": "Montagna"
+  "⛰️": "Montagna",
+  "📜": "Tradizione familiare",
+  "🐓": "Grandi Tavole del Mondo"
 };
 /* scopre nelle note di window.GUIDA quali simboli sono davvero in uso,
    così eventuali nuovi simboli aggiunti ai dati compaiono da soli qui */
