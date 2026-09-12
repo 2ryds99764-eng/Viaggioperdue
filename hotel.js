@@ -3876,17 +3876,17 @@ var HOTEL=[
     "nome": "Grand Hotel Zell am See",
     "indirizzo": "Esplanade 4-6",
     "citta": "Zell am See",
-    "provincia": "S",
-    "prov": "S",
+    "provincia": "ZE",
+    "prov": "ZE",
     "regione": "Austria",
-    "luogo": "Zell am See (S)",
+    "luogo": "Zell am See (ZE)",
     "tel": "+43 6542 788 0",
     "telefono": "+43 6542 788 0",
     "cellulare": "",
     "email": "",
     "web": "https://www.grandhotel-zellamsee.at/",
     "note": "Costruito tra il 1894 e il 1896 da Carl e Therese Böhm, occupato dalle forze americane per dieci anni dopo la guerra, fontana di Hundertwasser nel giardino 👑",
-    "mappa": "Esplanade 4-6, Zell am See, S"
+    "mappa": "Esplanade 4-6, Zell am See, ZE"
   },
   {
     "nome": "Hotel St. Gotthard",
@@ -4068,17 +4068,17 @@ var HOTEL=[
     "nome": "Das Alpenhaus Gasteinertal",
     "indirizzo": "Kurgartenstraße 26",
     "citta": "Bad Hofgastein",
-    "provincia": "S",
-    "prov": "S",
+    "provincia": "JO",
+    "prov": "JO",
     "regione": "Austria",
-    "luogo": "Bad Hofgastein (S)",
+    "luogo": "Bad Hofgastein (JO)",
     "tel": "+43 6432 6356",
     "telefono": "+43 6432 6356",
     "cellulare": "",
     "email": "willkommen@alpenhaus-gastein.at",
     "web": "https://www.alpenhaus-gastein.at/",
     "note": "Nel Gasteinertal, 'la valle della salute' per le sue sorgenti termali radioattive naturali e il tunnel di cura al radon ⛰️",
-    "mappa": "Kurgartenstraße 26, Bad Hofgastein, S"
+    "mappa": "Kurgartenstraße 26, Bad Hofgastein, JO"
   },
   {
     "nome": "Grand Hôtel des Bains",
@@ -4519,9 +4519,10 @@ var HOTEL_PROVCITTA={
     "CH"
   ],
   "Austria": [
+    "JO",
     "NK",
-    "S",
-    "W"
+    "W",
+    "ZE"
   ],
   "Belgio": [
     "BEL"
