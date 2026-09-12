@@ -3809,18 +3809,18 @@ var GUIDA=[
     "mappa": "Via de Castilla 28, Milano, MI"
   },
   {
-    "nome": "Red Bull Hangar 7",
-    "indirizzo": "Wilhelm Spazier Straße 7A",
-    "citta": "Salzburg",
-    "provincia": "A",
-    "prov": "A",
+    "nome": "Ikarus",
+    "indirizzo": "Wilhelm-Spazier-Strasse 7A",
+    "citta": "Salisburgo",
+    "provincia": "S",
+    "prov": "S",
     "regione": "Austria",
-    "luogo": "Salzburg (A)",
-    "tel": "+43 662 2197",
-    "telefono": "+43 662 2197",
-    "web": "https://www.hangar-7.com/en/",
-    "note": "GmbH ·  · Tel.: +43 (0)662 2197 · E-mail: willkommen@hangar-7.com",
-    "mappa": "Wilhelm Spazier Straße 7A, Salzburg, A"
+    "luogo": "Salisburgo (S)",
+    "tel": "+43 662 2197 0",
+    "telefono": "+43 662 2197 0",
+    "web": "https://www.hangar-7.com/",
+    "note": "Ogni mese un grande chef diverso ai fornelli, nell'Hangar-7 dall'architettura di vetro, tra gli aerei storici della collezione The Flying Bulls ⭐",
+    "mappa": "Wilhelm-Spazier-Strasse 7A, Salisburgo, S"
   },
   {
     "nome": "Relais Castello di Morcote",
@@ -6076,6 +6076,62 @@ var GUIDA=[
     "web": "https://www.victors-fine-dining.de/",
     "note": "Castello sulla Mosella tra i vigneti, cucina franco-giapponese leggera e moderna dello chef Christian Bau ⭐",
     "mappa": "Schlossstrasse 27-29, Perl-Nennig, MZG"
+  },
+  {
+    "nome": "Amador",
+    "indirizzo": "Grinzingerstrasse 86",
+    "citta": "Vienna",
+    "provincia": "W",
+    "prov": "W",
+    "regione": "Austria",
+    "luogo": "Vienna (W)",
+    "tel": "+43 660 773 49 72",
+    "telefono": "+43 660 773 49 72",
+    "web": "https://www.restaurant-amador.com/",
+    "note": "Costruito nell'impressionante cantina del vignaiolo viennese Hajszan Neumann, tre Stelle Michelin ottenute dallo chef Juan Amador in soli tre anni ⭐",
+    "mappa": "Grinzingerstrasse 86, Vienna, W"
+  },
+  {
+    "nome": "Döllerer",
+    "indirizzo": "Markt 56",
+    "citta": "Golling",
+    "provincia": "HA",
+    "prov": "HA",
+    "regione": "Austria",
+    "luogo": "Golling (HA)",
+    "tel": "+43 6244 4220",
+    "telefono": "+43 6244 4220",
+    "web": "https://www.doellerer.at/",
+    "note": "Alle porte di Salisburgo, la 'Alpine Cuisine' di Andreas Döllerer nasce da ingredienti di montagne, valli e pascoli circostanti ⭐",
+    "mappa": "Markt 56, Golling, HA"
+  },
+  {
+    "nome": "Landhaus Bacher",
+    "indirizzo": "Südtirolerplatz 2",
+    "citta": "Mautern",
+    "provincia": "KR",
+    "prov": "KR",
+    "regione": "Austria",
+    "luogo": "Mautern (KR)",
+    "tel": "+43 2732 82937",
+    "telefono": "+43 2732 82937",
+    "web": "https://www.landhaus-bacher.at/",
+    "note": "Nella regione della Wachau, patrimonio UNESCO dal 2000, Lisl Wagner-Bacher e il genero Thomas Dorfer uniscono i loro talenti ⭐",
+    "mappa": "Südtirolerplatz 2, Mautern, KR"
+  },
+  {
+    "nome": "Mayer's Restaurant",
+    "indirizzo": "Hofmannsthalstrasse 10",
+    "citta": "Zell am See",
+    "provincia": "ZE",
+    "prov": "ZE",
+    "regione": "Austria",
+    "luogo": "Zell am See (ZE)",
+    "tel": "+43 6452 729 110",
+    "telefono": "+43 6452 729 110",
+    "web": "https://www.mayers-restaurant.at/",
+    "note": "Nel castello di Zell am See di proprietà del costruttore automobilistico Wolfgang Porsche, lo chef Andreas Mayer ama la cucina vegetariana ⭐",
+    "mappa": "Hofmannsthalstrasse 10, Zell am See, ZE"
   }
 ];
 var GUIDA_REGPROV={
@@ -6213,7 +6269,11 @@ var GUIDA_REGPROV={
     "P"
   ],
   "Austria": [
-    "A"
+    "HA",
+    "KR",
+    "S",
+    "W",
+    "ZE"
   ],
   "Inghilterra": [
     "GB"
