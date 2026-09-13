@@ -1664,7 +1664,7 @@ var GUIDA=[
     "tel": "+39 0577 920549",
     "telefono": "+39 0577 920549",
     "web": "https://www.arnolfo.com",
-    "note": "Due Stelle Michelin dal 1997, chef Gaetano Trovato (Mentor Chef Award 2024), edificio di vetro e marmo su una collina davanti al borgo medievale 🌄 ♥️",
+    "note": "Due Stelle Michelin dal 1997, chef Gaetano Trovato (Mentor Chef Award 2024): nel 2022, dopo quarant'anni nel centro storico, si è trasferito in un edificio di vetro e marmo firmato da Andrea Milani su una collina davanti al borgo medievale, lasciando la vecchia sede a Bis 🌄 ♥️ ⭐ 👑",
     "mappa": "Viale della Rimembranza 24, Colle di Val d'Elsa, SI"
   },
   {
@@ -6399,6 +6399,76 @@ var GUIDA=[
     "web": "https://www.zilte.be/",
     "note": "Da ingegnere a chef, Viki Geunes ha raggiunto le tre Stelle Michelin nel 2021, oggi affiancato dalla figlia Gitte ⭐ 👑",
     "mappa": "Hanzestedenplaats 5, Anversa, BEL"
+  },
+  {
+    "nome": "Antica Corona Reale",
+    "indirizzo": "Via Fossano 13",
+    "citta": "Cervere",
+    "provincia": "CN",
+    "prov": "CN",
+    "regione": "Piemonte",
+    "luogo": "Cervere (CN)",
+    "tel": "+39 0172 474132",
+    "telefono": "+39 0172 474132",
+    "web": "https://www.anticacoronareale.it/",
+    "note": "Nato nel 1815 come stazione di posta, gestito dalla famiglia Vivalda dal 1855, oggi alla quinta generazione con lo chef Gian Piero Vivalda ⭐ 👑",
+    "mappa": "Via Fossano 13, Cervere, CN"
+  },
+  {
+    "nome": "Atelier Moessmer Norbert Niederkofler",
+    "indirizzo": "Via Walther von der Vogelweide 17",
+    "citta": "Brunico",
+    "provincia": "BZ",
+    "prov": "BZ",
+    "regione": "Trentino-Alto Adige",
+    "luogo": "Brunico (BZ)",
+    "tel": "+39 0474 646629",
+    "telefono": "+39 0474 646629",
+    "web": "https://ateliernorbertniederkofler.com/",
+    "note": "Nella storica Villa Moessmer, ex lanificio ottocentesco della Val Pusteria, la filosofia 'Cook the Mountain' di Norbert Niederkofler, tre Stelle e Stella Verde Michelin ⭐ 👑",
+    "mappa": "Via Walther von der Vogelweide 17, Brunico, BZ"
+  },
+  {
+    "nome": "Casa Perbellini 12 Apostoli",
+    "indirizzo": "Vicolo Corticella San Marco 3",
+    "citta": "Verona",
+    "provincia": "VR",
+    "prov": "VR",
+    "regione": "Veneto",
+    "luogo": "Verona (VR)",
+    "tel": "+39 045 878 0860",
+    "telefono": "+39 045 878 0860",
+    "web": "https://www.casaperbellini.com/",
+    "note": "Dal 1750, quando dodici mercanti si riunivano qui per concludere affari, frequentato negli anni '30 da D'Annunzio, Hemingway ed Ezra Pound, oggi chef Giancarlo Perbellini ⭐ 👑",
+    "mappa": "Vicolo Corticella San Marco 3, Verona, VR"
+  },
+  {
+    "nome": "D'O",
+    "indirizzo": "Piazza della Chiesa 14",
+    "citta": "San Pietro all'Olmo",
+    "provincia": "MI",
+    "prov": "MI",
+    "regione": "Lombardia",
+    "luogo": "San Pietro all'Olmo (MI)",
+    "tel": "+39 02 936 2209",
+    "telefono": "+39 02 936 2209",
+    "web": "https://www.cucinapop.do/",
+    "note": "Lo chef Davide Oldani, dopo la gavetta con Ducasse e Marchesi, ha creato la sua cucina 'Pop' in un piccolo borgo alle porte di Milano, nella sede firmata dall'architetto Piero Lissoni ⭐ 👑",
+    "mappa": "Piazza della Chiesa 14, San Pietro all'Olmo, MI"
+  },
+  {
+    "nome": "Da Vittorio",
+    "indirizzo": "Via Cantalupa 17",
+    "citta": "Brusaporto",
+    "provincia": "BG",
+    "prov": "BG",
+    "regione": "Lombardia",
+    "luogo": "Brusaporto (BG)",
+    "tel": "+39 035 681024",
+    "telefono": "+39 035 681024",
+    "web": "https://www.davittorio.com/",
+    "note": "Fondato nel 1966 da Vittorio Cerea, oggi gestito dai suoi figli su una tenuta di dieci ettari con laghetti ed elisuperficie propria ⭐ 👑",
+    "mappa": "Via Cantalupa 17, Brusaporto, BG"
   }
 ];
 var GUIDA_REGPROV={
