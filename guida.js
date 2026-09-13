@@ -6693,6 +6693,48 @@ var GUIDA=[
     "web": "https://www.ristorantevillafeltrinelli.com/",
     "note": "Nel parco di 80.000 mq sul Lago di Garda, chef Stefano Baiocco formatosi tra Ducasse, gli Adrià a El Bulli e il Giappone, entrato in Les Grandes Tables du Monde nel 2017 ⭐ 👑",
     "mappa": "Via Rimembranza 38/40, Gargnano, BS"
+  },
+  {
+    "nome": "Jérôme Ferrer-Europea",
+    "indirizzo": "1065 rue de la Montagne",
+    "citta": "Montréal",
+    "provincia": "QC",
+    "prov": "QC",
+    "regione": "Canada",
+    "luogo": "Montréal (QC)",
+    "tel": "+1 514 398 9229",
+    "telefono": "+1 514 398 9229",
+    "web": "https://jeromeferrer.ca/",
+    "note": "Aperto nel 2002, prima Stella Michelin nel 2025, chef Jérôme Ferrer 'Maître Cuisinier de France', pastry chef Roland Del Monte 'Meilleur Ouvrier de France' ⭐ 👑",
+    "mappa": "1065 rue de la Montagne, Montréal, QC"
+  },
+  {
+    "nome": "Toqué!",
+    "indirizzo": "900 place Jean-Paul-Riopelle",
+    "citta": "Montréal",
+    "provincia": "QC",
+    "prov": "QC",
+    "regione": "Canada",
+    "luogo": "Montréal (QC)",
+    "tel": "+1 514 499 2084",
+    "telefono": "+1 514 499 2084",
+    "web": "https://www.restaurant-toque.com/",
+    "note": "Fondato nel 1993 da Normand Laprise e Christine Lamarche, entrato in Les Grandes Tables du Monde nel 2014, cantina con oltre 700 vini ⭐ 👑",
+    "mappa": "900 place Jean-Paul-Riopelle, Montréal, QC"
+  },
+  {
+    "nome": "Taian Table",
+    "indirizzo": "Bldg 1, Lane 161, 465 Zhenning Road",
+    "citta": "Shanghai",
+    "provincia": "SH",
+    "prov": "SH",
+    "regione": "Cina",
+    "luogo": "Shanghai (SH)",
+    "tel": "+86 173 0160 5350",
+    "telefono": "+86 173 0160 5350",
+    "web": "https://sh.taian-table.cn/",
+    "note": "Fondato nel 2016 dallo chef tedesco Stefan Stiller, tre Stelle Michelin dal 2021, membro di Les Grandes Tables du Monde dal 2021 ⭐ 👑",
+    "mappa": "Bldg 1, Lane 161, 465 Zhenning Road, Shanghai, SH"
   }
 ];
 var GUIDA_REGPROV={
@@ -6860,5 +6902,11 @@ var GUIDA_REGPROV={
   ],
   "Belgio": [
     "BEL"
+  ],
+  "Canada": [
+    "QC"
+  ],
+  "Cina": [
+    "SH"
   ]
 };
