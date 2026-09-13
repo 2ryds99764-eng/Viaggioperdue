@@ -1202,7 +1202,7 @@ var GUIDA=[
     "tel": "+39 0376 723001",
     "telefono": "+39 0376 723001",
     "web": "https://www.dalpescatore.com/it",
-    "note": "Chiuso lunedì e martedì, mercoledì e giovedì aperto solo la sera, sempre aperto negli altri giorni ",
+    "note": "Fondato nel 1925 come osteria 'Vino e Pesce' vicino a un laghetto, tre Stelle Michelin dal 1996, Nadia Santini prima donna italiana a raggiungerle, oggi alla quarta generazione ⭐ 👑 ♥️",
     "mappa": "Località Runate 15 · Riserva del Parco Oglio, Runate, MN"
   },
   {
