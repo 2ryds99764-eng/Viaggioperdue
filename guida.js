@@ -6749,6 +6749,48 @@ var GUIDA=[
     "web": "https://www.scola1926.it/",
     "note": "Nato come osteria nel 1926 da Angiolina e Manuelin Scola, cent'anni festeggiati nel 2026, quarta generazione, celebre per i plin ai tre arrosti al confine tra Liguria e Piemonte ♥️",
     "mappa": "Via Pennavaire 166, Castelbianco, SV"
+  },
+  {
+    "nome": "Arzak",
+    "indirizzo": "Avenida Alcalde José Elósegui 273",
+    "citta": "San Sebastián",
+    "provincia": "ES",
+    "prov": "ES",
+    "regione": "Spagna",
+    "luogo": "San Sebastián (ES)",
+    "tel": "+34 943 278 465",
+    "telefono": "+34 943 278 465",
+    "web": "https://www.arzak.es/",
+    "note": "Ristorante di famiglia guidato da Juan Mari Arzak e la figlia Elena, quarta generazione, tre Stelle Michelin dal 1989, laboratorio con oltre 1000 ingredienti ⭐ 👑",
+    "mappa": "Avenida Alcalde José Elósegui 273, San Sebastián, ES"
+  },
+  {
+    "nome": "Akelarre",
+    "indirizzo": "Aita Orkolaga Pasealekua 56",
+    "citta": "San Sebastián",
+    "provincia": "ES",
+    "prov": "ES",
+    "regione": "Spagna",
+    "luogo": "San Sebastián (ES)",
+    "tel": "+34 943 311 209",
+    "telefono": "+34 943 311 209",
+    "web": "https://akelarre.net/",
+    "note": "Aperto nel 1970 sul Monte Igueldo, chef Pedro Subijana dal 1975, terza Stella Michelin dal 2007, vista sul Mar Cantabrico ⭐ 👑",
+    "mappa": "Aita Orkolaga Pasealekua 56, San Sebastián, ES"
+  },
+  {
+    "nome": "Amelia by Paulo Airaudo",
+    "indirizzo": "Paseo República Argentina 4",
+    "citta": "San Sebastián",
+    "provincia": "ES",
+    "prov": "ES",
+    "regione": "Spagna",
+    "luogo": "San Sebastián (ES)",
+    "tel": "+34 943 84 56 47",
+    "telefono": "+34 943 84 56 47",
+    "web": "https://www.ameliarestaurant.com/",
+    "note": "Nell'Hotel Maria Cristina, inaugurato nel 1912 in onore della regina Maria Cristina d'Asburgo-Lorena, chef argentino Paulo Airaudo, omakase italiano ⭐ 👑",
+    "mappa": "Paseo República Argentina 4, San Sebastián, ES"
   }
 ];
 var GUIDA_REGPROV={
