@@ -6469,6 +6469,62 @@ var GUIDA=[
     "web": "https://www.davittorio.com/",
     "note": "Fondato nel 1966 da Vittorio Cerea, oggi gestito dai suoi figli su una tenuta di dieci ettari con laghetti ed elisuperficie propria ⭐ 👑",
     "mappa": "Via Cantalupa 17, Brusaporto, BG"
+  },
+  {
+    "nome": "Don Alfonso 1890",
+    "indirizzo": "Corso Sant'Agata 11/13",
+    "citta": "Sant'Agata sui Due Golfi",
+    "provincia": "NA",
+    "prov": "NA",
+    "regione": "Campania",
+    "luogo": "Sant'Agata sui Due Golfi (NA)",
+    "tel": "+39 081 878 0026",
+    "telefono": "+39 081 878 0026",
+    "web": "https://www.donalfonso.com/",
+    "note": "Fondato nel 1890 dal nonno di Alfonso Iaccarino, cantina pre-romana scavata nel tufo fino a 30 metri di profondità, azienda agricola biologica verso Punta Campanella ⭐ 👑",
+    "mappa": "Corso Sant'Agata 11/13, Sant'Agata sui Due Golfi, NA"
+  },
+  {
+    "nome": "Duomo",
+    "indirizzo": "Via Capitano Bocchieri 31",
+    "citta": "Ragusa Ibla",
+    "provincia": "RG",
+    "prov": "RG",
+    "regione": "Sicilia",
+    "luogo": "Ragusa Ibla (RG)",
+    "tel": "+39 0932 651265",
+    "telefono": "+39 0932 651265",
+    "web": "https://www.cicciosultano.it/",
+    "note": "Aperto nel 2000 dentro Palazzo La Rocca, set del film Divorzio all'italiana, chef autodidatta Ciccio Sultano, cantina con oltre 20.000 bottiglie ⭐ 👑",
+    "mappa": "Via Capitano Bocchieri 31, Ragusa Ibla, RG"
+  },
+  {
+    "nome": "Enoteca Pinchiorri",
+    "indirizzo": "Via Ghibellina 87",
+    "citta": "Firenze",
+    "provincia": "FI",
+    "prov": "FI",
+    "regione": "Toscana",
+    "luogo": "Firenze (FI)",
+    "tel": "+39 055 242777",
+    "telefono": "+39 055 242777",
+    "web": "https://www.enotecapinchiorri.it/",
+    "note": "Aperto nel 1972 da Annie Féolde e Giorgio Pinchiorri, unico ristorante italiano ad aver perso e riconquistato una Stella Michelin, cantina con oltre 100.000 bottiglie ⭐ 👑",
+    "mappa": "Via Ghibellina 87, Firenze, FI"
+  },
+  {
+    "nome": "Il Luogo Aimo e Nadia",
+    "indirizzo": "Via Privata Raimondo Montecuccoli 6",
+    "citta": "Milano",
+    "provincia": "MI",
+    "prov": "MI",
+    "regione": "Lombardia",
+    "luogo": "Milano (MI)",
+    "tel": "+39 02 416886",
+    "telefono": "+39 02 416886",
+    "web": "https://www.aimoenadia.com/",
+    "note": "Aperto nel 1962 da Aimo e Nadia Moroni come trattoria, oggi guidato dagli chef Alessandro Negrini e Fabio Pisani, con i Piatti del Cuore del fondatore ancora in carta ⭐ 👑",
+    "mappa": "Via Privata Raimondo Montecuccoli 6, Milano, MI"
   }
 ];
 var GUIDA_REGPROV={
