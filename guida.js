@@ -6525,6 +6525,76 @@ var GUIDA=[
     "web": "https://www.aimoenadia.com/",
     "note": "Aperto nel 1962 da Aimo e Nadia Moroni come trattoria, oggi guidato dagli chef Alessandro Negrini e Fabio Pisani, con i Piatti del Cuore del fondatore ancora in carta ⭐ 👑",
     "mappa": "Via Privata Raimondo Montecuccoli 6, Milano, MI"
+  },
+  {
+    "nome": "Il Pagliaccio",
+    "indirizzo": "Via dei Banchi Vecchi 129/A",
+    "citta": "Roma",
+    "provincia": "RM",
+    "prov": "RM",
+    "regione": "Lazio",
+    "luogo": "Roma (RM)",
+    "tel": "+39 06 68809595",
+    "telefono": "+39 06 68809595",
+    "web": "https://ristoranteilpagliaccio.com/",
+    "note": "Aperto nel 2003 dallo chef italo-francese Anthony Genovese e Marion Lichtle, tornato nel 2019 al concept originale del circo di sapori, due Stelle Michelin ⭐ 👑",
+    "mappa": "Via dei Banchi Vecchi 129/A, Roma, RM"
+  },
+  {
+    "nome": "L'Olivo",
+    "indirizzo": "Via Capodimonte 14",
+    "citta": "Anacapri",
+    "provincia": "NA",
+    "prov": "NA",
+    "regione": "Campania",
+    "luogo": "Anacapri (NA)",
+    "tel": "+39 081 978 0560",
+    "telefono": "+39 081 978 0560",
+    "web": "https://www.jumeirah.com/it/stay/italy/jumeirah-capri-palace/dining/l-olivo-restaurant",
+    "note": "Nel Capri Palace, chef Andrea Migliaccio, due Stelle Michelin dal 2011, ad Anacapri dove Jackie Kennedy Onassis fu fotografata sulla seggiovia del Monte Solaro ⭐ 👑",
+    "mappa": "Via Capodimonte 14, Anacapri, NA"
+  },
+  {
+    "nome": "La Pergola",
+    "indirizzo": "Via Alberto Cadlolo 101",
+    "citta": "Roma",
+    "provincia": "RM",
+    "prov": "RM",
+    "regione": "Lazio",
+    "luogo": "Roma (RM)",
+    "tel": "+39 06 3509 2152",
+    "telefono": "+39 06 3509 2152",
+    "web": "https://romecavalieri.com/it/la-pergola-it/",
+    "note": "Al nono piano del Rome Cavalieri Waldorf Astoria, chef Heinz Beck, primo e storicamente unico tre Stelle Michelin della capitale, vista sulla cupola di San Pietro ⭐ 👑",
+    "mappa": "Via Alberto Cadlolo 101, Roma, RM"
+  },
+  {
+    "nome": "La Torre del Saracino",
+    "indirizzo": "Piazza della Vittoria 5",
+    "citta": "Sorrento",
+    "provincia": "NA",
+    "prov": "NA",
+    "regione": "Campania",
+    "luogo": "Sorrento (NA)",
+    "tel": "+39 081 878 1024",
+    "telefono": "+39 081 878 1024",
+    "web": "https://torredelsaracino.it/",
+    "note": "Dal 17 settembre 2026 nel Bellevue Syrene, hotel aperto nel 1820 su una domus romana di Augusto, dopo 35 anni nella storica sede di Vico Equense, chef Gennaro Esposito, due Stelle Michelin ⭐ 👑",
+    "mappa": "Piazza della Vittoria 5, Sorrento, NA"
+  },
+  {
+    "nome": "Le Calandre",
+    "indirizzo": "Via Liguria 1",
+    "citta": "Rubano",
+    "provincia": "PD",
+    "prov": "PD",
+    "regione": "Veneto",
+    "luogo": "Rubano (PD)",
+    "tel": "+39 049 630303",
+    "telefono": "+39 049 630303",
+    "web": "https://alajmo.it/pages/homepage-le-calandre",
+    "note": "Fondato nel 1981 da Erminio Alajmo e Rita Chimetto, oggi guidato dai figli Massimiliano e Raffaele, tre Stelle Michelin, madre di un intero impero gastronomico Alajmo ⭐ 👑",
+    "mappa": "Via Liguria 1, Rubano, PD"
   }
 ];
 var GUIDA_REGPROV={
@@ -6610,6 +6680,7 @@ var GUIDA_REGPROV={
     "TA"
   ],
   "Veneto": [
+    "PD",
     "RO",
     "TV",
     "VE",
