@@ -6735,6 +6735,20 @@ var GUIDA=[
     "web": "https://sh.taian-table.cn/",
     "note": "Fondato nel 2016 dallo chef tedesco Stefan Stiller, tre Stelle Michelin dal 2021, membro di Les Grandes Tables du Monde dal 2021 ⭐ 👑",
     "mappa": "Bldg 1, Lane 161, 465 Zhenning Road, Shanghai, SH"
+  },
+  {
+    "nome": "Scola",
+    "indirizzo": "Via Pennavaire 166",
+    "citta": "Castelbianco",
+    "provincia": "SV",
+    "prov": "SV",
+    "regione": "Liguria",
+    "luogo": "Castelbianco (SV)",
+    "tel": "+39 0182 77015",
+    "telefono": "+39 0182 77015",
+    "web": "https://www.scola1926.it/",
+    "note": "Nato come osteria nel 1926 da Angiolina e Manuelin Scola, cent'anni festeggiati nel 2026, quarta generazione, celebre per i plin ai tre arrosti al confine tra Liguria e Piemonte ♥️",
+    "mappa": "Via Pennavaire 166, Castelbianco, SV"
   }
 ];
 var GUIDA_REGPROV={

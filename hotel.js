@@ -4511,6 +4511,22 @@ var HOTEL=[
     "web": "https://www.thermaepalace.be/",
     "note": "Aperto nel 1933 come resort termale per l'alta società, direttamente sulla spiaggia del Mare del Nord 🏖️",
     "mappa": "Koningin Astridlaan 7, Oostende, BEL"
+  },
+  {
+    "nome": "Locanda Scola",
+    "indirizzo": "Via Pennavaire 166",
+    "citta": "Castelbianco",
+    "provincia": "SV",
+    "prov": "SV",
+    "regione": "Liguria",
+    "luogo": "Castelbianco (SV)",
+    "tel": "+39 0182 77015",
+    "telefono": "+39 0182 77015",
+    "cellulare": "+39 335 5919085",
+    "email": "",
+    "web": "https://www.scola1926.it/la-locanda/",
+    "note": "Sette camere in un Albergo Diffuso nella Val Pennavaire, base ideale per free-climbing e trekking, a 16 km dalle spiagge di Albenga e Alassio ♥️ 🌳",
+    "mappa": "Via Pennavaire 166, Castelbianco, SV"
   }
 ];
 var HOTEL_PROVCITTA={
