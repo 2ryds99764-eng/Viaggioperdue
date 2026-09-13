@@ -6595,6 +6595,104 @@ var GUIDA=[
     "web": "https://alajmo.it/pages/homepage-le-calandre",
     "note": "Fondato nel 1981 da Erminio Alajmo e Rita Chimetto, oggi guidato dai figli Massimiliano e Raffaele, tre Stelle Michelin, madre di un intero impero gastronomico Alajmo ⭐ 👑",
     "mappa": "Via Liguria 1, Rubano, PD"
+  },
+  {
+    "nome": "Madonnina del Pescatore",
+    "indirizzo": "Via Lungomare Italia 11",
+    "citta": "Senigallia",
+    "provincia": "AN",
+    "prov": "AN",
+    "regione": "Marche",
+    "luogo": "Senigallia (AN)",
+    "tel": "+39 071 698267",
+    "telefono": "+39 071 698267",
+    "web": "https://www.morenocedroni.it/",
+    "note": "Aperto il 24 aprile 1984 dallo chef Moreno Cedroni, prende il nome da una stele votiva del 1938 sulla spiaggia dove sorge, due Stelle Michelin ⭐ 👑",
+    "mappa": "Via Lungomare Italia 11, Senigallia, AN"
+  },
+  {
+    "nome": "Piazza Duomo",
+    "indirizzo": "Piazza Risorgimento 4",
+    "citta": "Alba",
+    "provincia": "CN",
+    "prov": "CN",
+    "regione": "Piemonte",
+    "luogo": "Alba (CN)",
+    "tel": "+39 0173 366167",
+    "telefono": "+39 0173 366167",
+    "web": "https://www.piazzaduomoalba.it/",
+    "note": "Chef Enrico Crippa, formatosi con Gualtiero Marchesi e in Giappone, cucina incentrata sul mondo vegetale con verdure raccolte quotidianamente, tre Stelle Michelin ⭐ 👑",
+    "mappa": "Piazza Risorgimento 4, Alba, CN"
+  },
+  {
+    "nome": "Quadri",
+    "indirizzo": "Piazza San Marco 121",
+    "citta": "Venezia",
+    "provincia": "VE",
+    "prov": "VE",
+    "regione": "Veneto",
+    "luogo": "Venezia (VE)",
+    "tel": "+39 041 522 2105",
+    "telefono": "+39 041 522 2105",
+    "web": "https://alajmo.it/pages/homepage-ristorante-quadri",
+    "note": "Lo storico Gran Caffè apre nel 1638, il ristorante rilevato dai fratelli Alajmo nel 2010 e restaurato con Philippe Starck, decori surrealisti con un leone alato in peluche ⭐ 👑",
+    "mappa": "Piazza San Marco 121, Venezia, VE"
+  },
+  {
+    "nome": "Reale",
+    "indirizzo": "Piana Santa Liberata",
+    "citta": "Castel di Sangro",
+    "provincia": "AQ",
+    "prov": "AQ",
+    "regione": "Abruzzo",
+    "luogo": "Castel di Sangro (AQ)",
+    "tel": "+39 0864 69382",
+    "telefono": "+39 0864 69382",
+    "web": "https://www.nikoromito.com/",
+    "note": "Ospitato in Casadonna, un antico convento cinquecentesco, chef autodidatta Niko Romito che rilevò la pasticceria di famiglia dopo la morte del padre, tre Stelle Michelin ⭐ 👑",
+    "mappa": "Piana Santa Liberata, Castel di Sangro, AQ"
+  },
+  {
+    "nome": "Seta by Antonio Guida",
+    "indirizzo": "Via Andegari 9",
+    "citta": "Milano",
+    "provincia": "MI",
+    "prov": "MI",
+    "regione": "Lombardia",
+    "luogo": "Milano (MI)",
+    "tel": "+39 02 8731 8897",
+    "telefono": "+39 02 8731 8897",
+    "web": "https://www.mandarinoriental.com/it/milan/la-scala/dine/seta",
+    "note": "Nel Mandarin Oriental dal 2015, chef Antonio Guida formatosi da Pierre Gagnaire, Enoteca Pinchiorri, Don Alfonso 1890 e Il Pellicano, due Stelle Michelin ⭐ 👑",
+    "mappa": "Via Andegari 9, Milano, MI"
+  },
+  {
+    "nome": "Uliassi",
+    "indirizzo": "Via Banchina di Levante 6",
+    "citta": "Senigallia",
+    "provincia": "AN",
+    "prov": "AN",
+    "regione": "Marche",
+    "luogo": "Senigallia (AN)",
+    "tel": "+39 071 65463",
+    "telefono": "+39 071 65463",
+    "web": "https://uliassi.com/",
+    "note": "Aperto il 27 maggio 1990 dai fratelli Mauro e Katia Uliassi, nati e cresciuti a Senigallia, da una baracca sul mare a tre Stelle Michelin ⭐ 👑",
+    "mappa": "Via Banchina di Levante 6, Senigallia, AN"
+  },
+  {
+    "nome": "Villa Feltrinelli",
+    "indirizzo": "Via Rimembranza 38/40",
+    "citta": "Gargnano",
+    "provincia": "BS",
+    "prov": "BS",
+    "regione": "Lombardia",
+    "luogo": "Gargnano (BS)",
+    "tel": "+39 0365 798000",
+    "telefono": "+39 0365 798000",
+    "web": "https://www.ristorantevillafeltrinelli.com/",
+    "note": "Nel parco di 80.000 mq sul Lago di Garda, chef Stefano Baiocco formatosi tra Ducasse, gli Adrià a El Bulli e il Giappone, entrato in Les Grandes Tables du Monde nel 2017 ⭐ 👑",
+    "mappa": "Via Rimembranza 38/40, Gargnano, BS"
   }
 ];
 var GUIDA_REGPROV={
@@ -6636,6 +6734,7 @@ var GUIDA_REGPROV={
     "VA"
   ],
   "Abruzzo": [
+    "AQ",
     "CH",
     "TE"
   ],
