@@ -2055,7 +2055,7 @@ var GUIDA=[
     "luogo": "Chiusi Città (SI)",
     "tel": "+39 0578 20112",
     "telefono": "+39 0578 20112",
-    "web": "https://ilgrilloebuoncantore.wixsite.com/ristorante",
+    "web": "https://ilgrilloebuoncantore.info/",
     "note": "",
     "mappa": "Piazza XX Settembre 10, Chiusi Città, SI"
   },
@@ -2167,7 +2167,7 @@ var GUIDA=[
     "luogo": "Massa (MS)",
     "tel": "+39 0585 46755",
     "telefono": "+39 0585 46755",
-    "web": "http://www.iltrillo.net/ristorante-2/",
+    "web": "https://www.iltrillo.net/en/",
     "note": "",
     "mappa": "Via Bergiola Vecchia 30, Massa, MS"
   },
@@ -2265,7 +2265,7 @@ var GUIDA=[
     "luogo": "Porto Viro (RO)",
     "tel": "+39 0426 85194",
     "telefono": "+39 0426 85194",
-    "web": "https://oasi-val-pisani.business.site",
+    "web": "http://oasivalpisani.it/",
     "note": "",
     "mappa": "Località Ca’ Pisani, Porto Viro, RO"
   },
@@ -2895,7 +2895,7 @@ var GUIDA=[
     "luogo": "Soragna (PR)",
     "tel": "+390524597122",
     "telefono": "+390524597122",
-    "web": "http://www.ristorantestelladoro.it/stella-d'oro-ristora",
+    "web": "https://www.ristorantestelladoro.it/",
     "note": "",
     "mappa": "Via Mazzini 8, Soragna, PR"
   },
@@ -2937,7 +2937,7 @@ var GUIDA=[
     "luogo": "Kardamili (GR)",
     "tel": "+30 2721 073541",
     "telefono": "+30 2721 073541",
-    "web": "http://www.lelastaverna.com/index.php?lang=EN",
+    "web": "https://www.lelastaverna.com/",
     "note": "Mani",
     "mappa": "Sul lungomare, vicino alla ex fabbrica di olio e sapone, Kardamili, GR"
   },

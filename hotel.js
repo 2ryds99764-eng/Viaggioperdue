@@ -1340,7 +1340,7 @@ var HOTEL=[
     "telefono": "+30 27330 51042",
     "cellulare": "+30 697 3757499",
     "email": "info@pirgosmavromichali.gr",
-    "web": "https://www.pirgosmavromichali.gr/en",
+    "web": "https://pirgosmavromichali.gr/",
     "note": "🌅",
     "mappa": "Limeni Laconia, GR"
   },
