@@ -2377,7 +2377,7 @@ var GUIDA=[
     "luogo": "Pozzuoli",
     "tel": "+39 081 5263733",
     "telefono": "+39 081 5263733",
-    "web": "https://www.lafattoriadelcampiglione.it",
+    "web": "",
     "note": "Selezione carni pregiate",
     "mappa": "Via Vicinale Campana 2, Pozzuoli"
   },
@@ -2419,7 +2419,7 @@ var GUIDA=[
     "luogo": "Fabbrica Curone (AL)",
     "tel": "+39 0131 780135",
     "telefono": "+39 0131 780135",
-    "web": "https://www.albergoristorantelagenzianellaselvapiana.it",
+    "web": "",
     "note": "Chiuso lunedì e martedì",
     "mappa": "Regione Selvapiana 7, Fabbrica Curone, AL"
   },
@@ -3472,20 +3472,6 @@ var GUIDA=[
     "web": "https://www.osteriamadonnetta.it",
     "note": "",
     "mappa": "Via Vajenti 21, Marostica, VI"
-  },
-  {
-    "nome": "Osteria Plip",
-    "indirizzo": "Via San Donà 195/c",
-    "citta": "Venezia Mestre",
-    "provincia": "VE",
-    "prov": "VE",
-    "regione": "Veneto",
-    "luogo": "Venezia Mestre (VE)",
-    "tel": "+39 347 9944257",
-    "telefono": "+39 347 9944257",
-    "web": "https://www.osteriaplip.com",
-    "note": "",
-    "mappa": "Via San Donà 195/c, Venezia Mestre, VE"
   },
   {
     "nome": "Osteria Reale",
@@ -4869,7 +4855,7 @@ var GUIDA=[
     "luogo": "Sagno Canton Ticino (CH)",
     "tel": "+41 91 682 01 75",
     "telefono": "+41 91 682 01 75",
-    "web": "http://ul-furmighin.ch/web/",
+    "web": "https://www.ul-furmighin.ch",
     "note": "Ticino · Svizzera · 🌳",
     "mappa": "Via Treval 26, Sagno Canton Ticino, CH"
   },

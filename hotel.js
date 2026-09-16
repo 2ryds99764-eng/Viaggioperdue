@@ -1308,7 +1308,7 @@ var HOTEL=[
     "telefono": "+39 0924 541099",
     "cellulare": "",
     "email": "pensione.tranchina@gmail.com",
-    "web": "https://www.pensionetranchina.com",
+    "web": "",
     "note": "",
     "mappa": "Via Armando Diaz 7, Scopello, TP"
   },
