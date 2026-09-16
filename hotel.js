@@ -3340,7 +3340,7 @@ var HOTEL=[
     "telefono": "+41 33 856 67 00",
     "cellulare": "",
     "email": "",
-    "web": "https://www.beaumier.com/en/hotel/grand-hotel-belvedere/",
+    "web": "https://www.beaumier.com/en/properties/grand-hotel-belvedere/",
     "note": "Due edifici storici del 1898 e 1912 in stile Heimatstil e Art Nouveau, riaperto dal gruppo Beaumier, con nuova spa brutalista, di fronte alla Jungfrau ⛰️",
     "mappa": "Galliweidli 1440E, Wengen, BE"
   },

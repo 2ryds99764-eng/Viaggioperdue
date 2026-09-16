@@ -212,7 +212,7 @@ var GUIDA=[
   },
   {
     "nome": "Alkimia",
-    "indirizzo": "Carrer de la indústria 70",
+    "indirizzo": "Ronda de Sant Antoni 41",
     "citta": "Barcellona",
     "provincia": "ES",
     "prov": "ES",
@@ -220,9 +220,9 @@ var GUIDA=[
     "luogo": "Barcellona (ES)",
     "tel": "+34 932 076 115",
     "telefono": "+34 932 076 115",
-    "web": "https://www.alkimia.com",
+    "web": "https://alkimia.cat/",
     "note": "Chiuso sabato a mezzogiorno e domenica",
-    "mappa": "Carrer de la indústria 70, Barcellona, ES"
+    "mappa": "Ronda de Sant Antoni 41, Barcellona, ES"
   },
   {
     "nome": "Alla Lanterna",
@@ -1971,7 +1971,7 @@ var GUIDA=[
     "luogo": "New York (NY)",
     "tel": "+12127535566",
     "telefono": "+12127535566",
-    "web": "http://cipriani.com/restaurant/?loc=ny-harry",
+    "web": "https://www.cipriani.com/harry-cipriani",
     "note": "Manager: Sergio Vacca · Jordy",
     "mappa": "781 Fifth Avenue, New York, NY"
   },
@@ -3259,7 +3259,7 @@ var GUIDA=[
     "luogo": "Casale Monferrato (AL)",
     "tel": "+39 0142 781281",
     "telefono": "+39 0142 781281",
-    "web": "https://www.osteriaamarottocasale.it/tradizioni",
+    "web": "https://www.osteriaamarottocasale.it/",
     "note": "Chiuso lunedì e martedì · Piemonte",
     "mappa": "Via Camillo Benso Cavour 53, Casale Monferrato, AL"
   },
@@ -4463,7 +4463,7 @@ var GUIDA=[
     "luogo": "Rignano sull’Arno (FI)",
     "tel": "+39 055 699000",
     "telefono": "+39 055 699000",
-    "web": "https://www.torreacona.com/ristorante",
+    "web": "https://www.torreacona.com/",
     "note": "",
     "mappa": "Via Torre a Cona 49, Rignano sull’Arno, FI"
   },
