@@ -3100,7 +3100,7 @@ var HOTEL=[
     "telefono": "+41 21 331 31 31",
     "cellulare": "",
     "email": "reservation@lausanne-palace.ch",
-    "web": "https://www.lausanne-palace.com/",
+    "web": "https://www.lausanne-palace.ch/en/welcome-page/",
     "note": "Inaugurato nel 1915 come rivale del Beau-Rivage Palace, qui de Coubertin firmò l'insediamento del CIO a Losanna, residenza ufficiale dei suoi presidenti dal 1980 👑",
     "mappa": "Rue du Grand-Chêne 7-9, Lausanne, VD"
   },
@@ -3756,7 +3756,7 @@ var HOTEL=[
     "telefono": "+41 61 270 70 70",
     "cellulare": "",
     "email": "",
-    "web": "https://www.hotel-victoria-basel.ch/",
+    "web": "https://www.hotel-victoria-basel.ch/en.html",
     "note": "Edificio vittoriano del 1898, nato dalla fusione di due hotel storici, di fronte alla stazione centrale 👑",
     "mappa": "Centralbahnplatz 3-4, Basel, BS"
   },
