@@ -3308,7 +3308,7 @@ var HOTEL=[
     "telefono": "+41 44 525 50 00",
     "cellulare": "",
     "email": "",
-    "web": "https://www.kamehagrandzuerich.com/",
+    "web": "https://www.marriott.com/en-us/hotels/zrhak-kameha-grand-zurich-autograph-collection/overview/",
     "note": "Aperto nel 2015, interior design eccentrico di Marcel Wanders, 11 suite a tema, il nome viene dal leggendario re Kamehameha delle Hawaii 👑",
     "mappa": "Dufaux-Strasse 1, Glattbrugg, ZH"
   },
@@ -4188,7 +4188,7 @@ var HOTEL=[
     "telefono": "+41 81 928 18 00",
     "cellulare": "",
     "email": "",
-    "web": "https://www.grandhotelsurselva.ch/",
+    "web": "https://hotelsurselva.ch/",
     "note": "Nei pressi del Lago Cauma, hotel club moderno 🌳",
     "mappa": "Rudi Dado 8, Flims, GR"
   },
