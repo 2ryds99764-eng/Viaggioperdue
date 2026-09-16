@@ -1372,7 +1372,7 @@ var HOTEL=[
     "telefono": "+39 02 62301",
     "cellulare": "",
     "email": "club10.HPS@dorchestercollection.com",
-    "web": "https://www.hotelprincipedisavoia.com/contattaci-hotel-p",
+    "web": "http://www.hotelprincipedisavoia.com/",
     "note": "👑",
     "mappa": "Piazza della Repubblica 17, Milano, MI"
   },
@@ -4156,7 +4156,7 @@ var HOTEL=[
     "telefono": "+43 2664 8181",
     "cellulare": "",
     "email": "hotel@panhans.at",
-    "web": "https://www.panhans.at/",
+    "web": "http://www.panhans.at/",
     "note": "Fondato nel 1888, a un'ora da Vienna, nella regione della Semmeringbahn, prima ferrovia di montagna al mondo, patrimonio UNESCO 👑",
     "mappa": "Hochstrasse 32B, Semmering, NK"
   },

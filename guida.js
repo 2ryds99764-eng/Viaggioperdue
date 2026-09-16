@@ -1341,7 +1341,7 @@ var GUIDA=[
     "luogo": "Barate di Gaggiano (MI)",
     "tel": "+39 02 9085125",
     "telefono": "+39 02 9085125",
-    "web": "https://www.osteriamagenes.it",
+    "web": "https://osteriamagenes.com/",
     "note": "",
     "mappa": "Via Cavour 7, Barate di Gaggiano, Barate di Gaggiano, MI"
   },
@@ -4757,7 +4757,7 @@ var GUIDA=[
     "luogo": "Firenze (FI)",
     "tel": "+39 055 218550",
     "telefono": "+39 055 218550",
-    "web": "https://www.trattoriamario.com",
+    "web": "http://www.trattoriamario.com/",
     "note": "Domenica e festivi chiusi.",
     "mappa": "Via Rosina 2/R · Angolo Piazza Mercato centr, Firenze, FI"
   },
@@ -4926,7 +4926,7 @@ var GUIDA=[
     "luogo": "Colli al Volturno (IS)",
     "tel": "+390865955215",
     "telefono": "+390865955215",
-    "web": "https://www.albergovolturno.com",
+    "web": "http://www.albergovolturno.com/",
     "note": "Isernia · Molise",
     "mappa": "Via Fonticelle 16, Colli al Volturno, IS"
   },
