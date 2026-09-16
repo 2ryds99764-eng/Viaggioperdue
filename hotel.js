@@ -236,7 +236,7 @@ var HOTEL=[
     "telefono": "+39 089 858801",
     "cellulare": "",
     "email": "",
-    "web": "https://www.belmond.com/it/hotels/europe/italy/amalfi-c",
+    "web": "https://www.belmond.com/en/hotels/europe/italy/caruso-amalfi-coast",
     "note": "Splendida vista sulla Costiera Amalfitana 👑 🌳 🌅 🏖️ ♥️",
     "mappa": "Piazza San Giovanni Del Toro 2, Ravello, SA"
   },
@@ -604,7 +604,7 @@ var HOTEL=[
     "telefono": "+3905526651",
     "cellulare": "",
     "email": "",
-    "web": "https://collezione.starhotels.com/it/i-nostri-hotel/hel",
+    "web": "https://collezione.starhotels.com/it/i-nostri-hotel/helvetia-e-bristol-firenze/",
     "note": "♥️",
     "mappa": "Via dei Pescioni 2, Firenze, FI"
   },
@@ -1116,7 +1116,7 @@ var HOTEL=[
     "telefono": "+39 031 32511",
     "cellulare": "",
     "email": "",
-    "web": "https://www.mandarinoriental.com/lake-como/blevio/luxur",
+    "web": "https://www.mandarinoriental.com/en/lake-como/blevio",
     "note": "🌳 🌅 🏖️",
     "mappa": "Via Enrico Caronti 69, Blevio, CO"
   },

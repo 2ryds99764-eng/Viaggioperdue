@@ -2405,7 +2405,7 @@ var GUIDA=[
     "luogo": "Gavi Piemonte (AL)",
     "tel": "+39 0143 685132",
     "telefono": "+39 0143 685132",
-    "web": "https://www.villasparinaresort.it/it/ristorante-la-gall",
+    "web": "https://www.villasparinaresort.it/it/ristorante-la-gallina-gavi/18-0.html",
     "note": "🌳 🌄 ♥️",
     "mappa": "Frazione Monterotondo 56, Gavi Piemonte, AL"
   },
