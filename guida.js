@@ -4968,7 +4968,7 @@ var GUIDA=[
     "luogo": "Sant’Arcangelo di Romagna (RN)",
     "tel": "+39 0541 626136",
     "telefono": "+39 0541 626136",
-    "web": "https://www.ristorantezaghini.it/dove-siamo",
+    "web": "https://www.ristorantezaghini.com",
     "note": "",
     "mappa": "Piazza Antonio Gramsci 14, Sant’Arcangelo di Romagna, RN"
   },
