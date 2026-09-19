@@ -1626,20 +1626,6 @@ var GUIDA=[
     "mappa": "Viale Guglielmo Marconi 22, San Vincenzo, San Vincenzo, LI"
   },
   {
-    "nome": "Funky Gourmet",
-    "indirizzo": "13 Paramithias street and Salaminos",
-    "citta": "Atene",
-    "provincia": "GR",
-    "prov": "GR",
-    "regione": "Grecia",
-    "luogo": "Atene (GR)",
-    "tel": "+30 21 0524 2727",
-    "telefono": "+30 21 0524 2727",
-    "web": "https://www.funkygourmet.gr",
-    "note": "",
-    "mappa": "13 Paramithias street and Salaminos, Atene, GR"
-  },
-  {
     "nome": "Crotto Belvedere",
     "indirizzo": "Via alla Chiesa 6",
     "citta": "Piuro",

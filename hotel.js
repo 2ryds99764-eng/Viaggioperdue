@@ -1563,8 +1563,8 @@ var HOTEL=[
     "tel": "+39 081 0175001",
     "telefono": "+39 081 0175001",
     "cellulare": "",
-    "email": "welcome.na@thrromeocollection.com",
-    "web": "https://www.romeohotel.com/it/romeo-napoli/",
+    "email": "welcome.na@theromeocollection.com",
+    "web": "https://theromeocollection.com/en/romeo-napoli/",
     "note": "Albergo con un design contemporaneo 🌅♥️",
     "mappa": "Via Cristoforo Colombo 45, Napoli, NA"
   },
@@ -1931,8 +1931,8 @@ var HOTEL=[
     "tel": "+39 089 8122401",
     "telefono": "+39 089 8122401",
     "cellulare": "+39 320 7197850",
-    "email": "direttore@villatreville.it",
-    "web": "https://www.villatreville.it",
+    "email": "contact@villatreville.com",
+    "web": "https://villatreville.com/",
     "note": "🌳 🌅 🏖️",
     "mappa": "Via Arienzo 30, Positano, SA"
   },
@@ -3681,22 +3681,6 @@ var HOTEL=[
     "mappa": "King Edwards Parade, Eastbourne, GB"
   },
   {
-    "nome": "Usedom Palace Hotel",
-    "indirizzo": "Dünenstraße 8",
-    "citta": "Zinnowitz",
-    "provincia": "VG",
-    "prov": "VG",
-    "regione": "Germania",
-    "luogo": "Zinnowitz (VG)",
-    "tel": "+49 38377 3960",
-    "telefono": "+49 38377 3960",
-    "cellulare": "",
-    "email": "",
-    "web": "https://www.usedompalace.de/",
-    "note": "Direttamente sulla spiaggia di sabbia di Zinnowitz, sull'isola di Usedom, tra il Parco Naturale e le isole del Mar Baltico 🏖️",
-    "mappa": "Dünenstraße 8, Zinnowitz, VG"
-  },
-  {
     "nome": "Walliserhof Grand-Hotel & Spa",
     "indirizzo": "Dorfweg 1",
     "citta": "Saas-Fee",
@@ -4252,7 +4236,7 @@ var HOTEL=[
     "telefono": "+41 24 454 19 61",
     "cellulare": "",
     "email": "",
-    "web": "https://www.grand-hotel-des-rasses.ch/",
+    "web": "https://www.grandhotelrasses.ch/",
     "note": "Costruito nel 1898, 'Hotel Storico dell'anno 2019', a 1200 metri nel Giura vodese, vista dal Monte Bianco alla Jungfrau ⛰️",
     "mappa": "Route des Alpes 25, Les Rasses, VD"
   },
@@ -4268,7 +4252,7 @@ var HOTEL=[
     "telefono": "+41 41 825 66 66",
     "cellulare": "",
     "email": "",
-    "web": "https://www.hotel-bellevue.ch/",
+    "web": "https://bellevue-seelisberg.ch/",
     "note": "A 800 metri sopra il Lago dei Quattro Cantoni, vicino al Prato del Rütli, luogo storico della fondazione della Confederazione Svizzera 🌄",
     "mappa": "Dorfstrasse 70, Seelisberg, UR"
   },
@@ -4300,7 +4284,7 @@ var HOTEL=[
     "telefono": "+41 27 283 70 00",
     "cellulare": "",
     "email": "",
-    "web": "https://www.hoteldarolla.ch/",
+    "web": "https://www.grandhotelkurhaus.com/",
     "note": "Costruito nel 1896 in una foresta di larici a 2100 metri, senza auto, qui si esibì Joséphine Baker la notte di Natale del 1968 🌳",
     "mappa": "Route de la Forêt 6, Arolla, VS"
   },
