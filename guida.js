@@ -585,7 +585,7 @@ var GUIDA=[
     "luogo": "Rosolini (SR)",
     "tel": "+39 0931 453625",
     "telefono": "+39 0931 453625",
-    "web": "https://acavaristorante.it",
+    "web": "https://www.facebook.com/A.CAVA.FRATELLI.MASSA/",
     "note": "Chiuso il lunedì",
     "mappa": "Corso Savoia, Rosolini, SR"
   },
@@ -3936,18 +3936,18 @@ var GUIDA=[
     "mappa": "Via Lomellina 12, Milano, MI"
   },
   {
-    "nome": "Santa Croce",
-    "indirizzo": "Via Alberto Pasini 20",
+    "nome": "Trattoria Ronzoni",
+    "indirizzo": "Borgo Bruno Longhi 3",
     "citta": "Parma",
     "provincia": "PR",
     "prov": "PR",
     "regione": "Emilia-Romagna",
     "luogo": "Parma (PR)",
-    "tel": "+39 0521 293529",
-    "telefono": "+39 0521 293529",
-    "web": "https://www.ristoranteportasantacroce.it",
+    "tel": "+39 0521 230146",
+    "telefono": "+39 0521 230146",
+    "web": "http://www.ristorazioneronzoni.it/",
     "note": "",
-    "mappa": "Via Alberto Pasini 20, Parma, PR"
+    "mappa": "Borgo Bruno Longhi 3, Parma, PR"
   },
   {
     "nome": "Charmant",

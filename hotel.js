@@ -4332,7 +4332,7 @@ var HOTEL=[
     "telefono": "+41 41 639 66 00",
     "cellulare": "",
     "email": "",
-    "web": "https://www.hotel-terrace.ch/",
+    "web": "https://www.titlis.ch/de/unterkuenfte/hotel-terrace",
     "note": "Costruito nel 1905 in stile Liberty, sul pendio meridionale con vista sul Titlis, sala Belle Époque ⛰️",
     "mappa": "Terracestrasse 33, Engelberg, OW"
   },
