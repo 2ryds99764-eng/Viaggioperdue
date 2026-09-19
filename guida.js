@@ -3320,20 +3320,6 @@ var GUIDA=[
     "mappa": "Via della Palla 4, Folzano, BS"
   },
   {
-    "nome": "Osteria del Crotto",
-    "indirizzo": "Via Pedemontana 23",
-    "citta": "Morbegno",
-    "provincia": "SO",
-    "prov": "SO",
-    "regione": "Lombardia",
-    "luogo": "Morbegno (SO)",
-    "tel": "+39 0342614800",
-    "telefono": "+39 0342614800",
-    "web": "https://www.osteriadelcrotto.it",
-    "note": "",
-    "mappa": "Via Pedemontana 23, Morbegno, SO"
-  },
-  {
     "nome": "Osteria del Mirasole",
     "indirizzo": "Via Giacomo Matteotti 17",
     "citta": "San Giovanni in Persiceto",
