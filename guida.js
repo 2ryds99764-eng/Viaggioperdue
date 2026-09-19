@@ -5753,7 +5753,8 @@ var GUIDA=[
     "telefono": "+39 340 843 7958",
     "web": "",
     "note": "Trattoria storica in un casolare di tufo, cucina contadina ischitana e coniglio all'ischitana, chef Marco Misceo dal 2023 ♥️ 📜",
-    "mappa": "Via Montecorvo 114, Forio, NA"
+    "mappa": "Via Montecorvo 114, Forio, NA",
+    "storia": "origini-da-peppina"
   },
   {
     "nome": "Lisola",
