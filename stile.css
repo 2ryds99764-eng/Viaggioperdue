@@ -478,10 +478,10 @@ body::before {
   text-align: center; font-family: var(--sans); font-size: 0.72rem; letter-spacing: 0.34em;
   text-transform: uppercase; color: var(--blu); margin-bottom: 30px;
 }
-.tessere { display: grid; grid-template-columns: repeat(6, 1fr); gap: 14px; }
-/* prime due tessere larghe (3+3), le altre tre (2+2+2) */
-.tessera:nth-child(1), .tessera:nth-child(2) { grid-column: span 3; }
-.tessera:nth-child(3), .tessera:nth-child(4), .tessera:nth-child(5) { grid-column: span 2; }
+.tessere { display: grid; grid-template-columns: repeat(12, 1fr); gap: 14px; }
+/* prime due tessere larghe (6+6), le altre quattro (3+3+3+3) */
+.tessera:nth-child(1), .tessera:nth-child(2) { grid-column: span 6; }
+.tessera:nth-child(3), .tessera:nth-child(4), .tessera:nth-child(5), .tessera:nth-child(6) { grid-column: span 3; }
 .tessera {
   position: relative; overflow: hidden; text-decoration: none;
   min-height: 300px; display: block;
