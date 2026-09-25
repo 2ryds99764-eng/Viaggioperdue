@@ -607,6 +607,51 @@ const T42 = {
         "Per Marco Regine, che lo guida oggi, Umberto a Mare non è stato semplicemente ereditato: è stato affidato. Ed è casa, prima ancora che lavoro."
       ]
     },
+    schatzalp: {
+      occhiello: "Hotel Letterari · Svizzera",
+      titolo: "La Montagna Incantata",
+      sottotitolo: "Berghotel Schatzalp — Davos, dal 1900",
+      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/Schatzalp_Davos_ujqewx",
+      paragrafi: [
+        "C'è un albergo, sopra Davos, che i suoi ospiti chiamano ancora oggi con il nome di un romanzo. Nato nel 1900 come sanatorio di lusso per malati di tubercolosi, in stile Art Nouveau, lo Schatzalp accolse per decenni chi poteva permettersi di curarsi — e di vivere — a duemila metri d'altitudine.",
+        "Thomas Mann vi salì spesso, mentre la moglie Katia era paziente in un sanatorio poco più in basso. Da quelle giornate tra terrazze per l'elioterapia, pasti interminabili e conversazioni tra malati nacque 'La Montagna Incantata' — ed è proprio lo Schatzalp il luogo che Mann sceglie di citare per nome nel romanzo.",
+        "Nelle sue pagine, il giovane Hans Castorp arriva per una breve visita al cugino malato e finisce per restare sette anni, sedotto da un mondo sospeso fuori dal tempo. Il libro, pubblicato nel 1924, valse a Mann parte della fama che lo avrebbe portato al Premio Nobel.",
+        "Oggi l'architettura originale è intatta, un sentiero dedicato collega l'albergo al vecchio sanatorio dove soggiornò Katia Mann, e nel 2024 Davos ha celebrato il centenario del romanzo. Anche il Kaiser Guglielmo II vi affittò tre stanze per dieci anni — segno che la montagna, incantata o no, ha sempre saputo farsi scegliere."
+      ]
+    },
+    "trois-couronnes": {
+      occhiello: "Hotel Letterari · Svizzera",
+      titolo: "Un'Americana a Vevey",
+      sottotitolo: "Grand Hôtel des Trois Couronnes — Vevey, dal 1842",
+      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/Vevey_-_Hôtel_des_Trois_Couronnes_vu_du_Léman_-_2022-09-12_-_02_az80p7",
+      paragrafi: [
+        "Costruito nel 1842 sulle rovine di un castello del Trecento, il Trois Couronnes affaccia sul lago di Ginevra da quasi due secoli. Prende il nome da una locanda che il suo fondatore, Gabriel Monnet, possedeva già in città, in Rue du Simplon. Nel 1878 Henry James vi trascorse un soggiorno che lo ispirò al punto da ambientarvi la sua novella più celebre, 'Daisy Miller', nominando l'hotel per nome fin dalle prime righe.",
+        "Quasi un secolo dopo, nel 1974, il regista Peter Bogdanovich vi girò l'adattamento cinematografico, con Cybill Shepherd — già sua musa e compagna da 'L'ultimo spettacolo' — nel ruolo di Daisy.",
+        "Nello stesso indirizzo, il compositore Charles Gounod scrisse gran parte del suo 'Faust'. Nel 1859 la zarina vedova Alexandra Feodorovna, moglie di Nicola I, prenotò tutte e sessanta le camere dell'albergo per svernare lontano da San Pietroburgo — nella stessa Vevey che, un secolo più tardi, sarebbe diventata la casa di Charlie Chaplin."
+      ]
+    },
+    "grand-hotel-torquay": {
+      occhiello: "Hotel Letterari · Inghilterra",
+      titolo: "La Notte di Nozze della Regina del Giallo",
+      sottotitolo: "The Grand Hotel — Torquay, dal 1881",
+      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/Grand_Hotel_Torquay__2763503286_qdc866",
+      paragrafi: [
+        "Aperto nel 1881 sul lungomare di Torquay, in risposta all'arrivo della ferrovia che portò i primi turisti vittoriani sulla costa dell'English Riviera, il Grand Hotel è ancora oggi un punto fermo dello skyline della città.",
+        "Agatha Christie, nata a Torquay nel 1890, scelse proprio questo albergo per la sua notte di nozze con Archie Christie, la vigilia di Natale del 1914 — due anni prima di iniziare a scrivere, durante la Grande Guerra, il suo primo romanzo giallo.",
+        "Oggi una suite porta il suo nome, arredata in stile anni Trenta con una macchina da scrivere d'epoca sotto il suo ritratto. L'hotel segna l'inizio dell'Agatha Christie Mile, il percorso che segue le tracce della scrittrice lungo il lungomare che la vide nascere e, per una notte, sposa."
+      ]
+    },
+    burgenstock: {
+      occhiello: "Hotel Letterari · Svizzera",
+      titolo: "Il Covo di Goldfinger",
+      sottotitolo: "Bürgenstock Resort — Lago di Lucerna, dal 1873",
+      copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/Buergenstock-Hotel_Palace-01ASD_pcd0oi",
+      paragrafi: [
+        "Aperto nel 1873 come Hotel Kurhaus, il Bürgenstock è uno dei resort più antichi al mondo, sospeso a seicento metri sopra il lago di Lucerna. Da qui, il salto verso il grande schermo è stato breve.",
+        "Nel 1964 Sean Connery e l'intera troupe di 'Goldfinger' — tratto dal romanzo di Ian Fleming del 1959 — vissero al Bürgenstock per un mese durante le riprese: la piscina anni Cinquanta e il bar dell'albergo divennero le scene d'apertura del film. Negli anni sarebbero seguiti altri quattro film di James Bond, girati parzialmente tra queste montagne.",
+        "Il resort ha ospitato anche il matrimonio di Audrey Hepburn con Mel Ferrer, nella piccola cappella del resort, e per sette anni fu la casa svizzera di Sophia Loren e Carlo Ponti — un covo di spia immaginaria diventato, nella realtà, rifugio di stelle vere."
+      ]
+    },
     "origini-da-peppina": {
       occhiello: "Origini · Forio d'Ischia",
       titolo: "Origini – Da Peppina di Renato",
@@ -631,7 +676,7 @@ const T42 = {
   },
 
   /* ===============================================================
-     LE CINQUE CATEGORIE
+     LE SEI CATEGORIE
      L'ordine in cui le scrivi qui è l'ordine in cui appaiono.
      =============================================================== */
   categorie: [
@@ -709,6 +754,21 @@ const T42 = {
           "I vignaioli che scegliamo non si misurano in bottiglie prodotte. Si misurano in quello che restituiscono: un vitigno antico che qualcuno ha scelto di salvare dall’estinzione, un suolo che nessun altro ha, un’annata che porta dentro di sé tutto quello che quell’anno ha dato e tolto. Si misurano nell’ostinazione di chi lavora i filari a mano, perché sa che certi gesti non si possono delegare.",
           "Abbiamo scelto chi fa vino con determinazione, controcorrente, spesso in solitudine, quasi sempre lontano dai riflettori. Persone convinte che certe radici, letterali e culturali, meritino di sopravvivere. Che ogni bottiglia sia la memoria di un luogo e di chi lo abita.",
           "Sono vignaioli che si scoprono con intenzione, e che ricordano, ogni volta, che dietro ogni vino fatto bene c’è sempre una persona."
+        ]
+      }
+    },
+    {
+      id: "hotel-letterari", titolo: "Hotel Letterari", sottotitolo: "Dove le storie hanno avuto origine",
+      tessera: "https://res.cloudinary.com/dspgc41gt/image/upload/Palace_Hotel_do_Bussaco_tbyuim",
+      intro: "Ci sono alberghi che non si limitano a ospitare chi scrive o chi gira un film, diventano parte della storia stessa. Un romanzo ambientato in un hotel è un film che non è ancora stato girato. Abbiamo scelto i luoghi dove la finzione e la realtà condividono lo stesso indirizzo.",
+      manifesto: {
+        titolo: "Quali sono gli alberghi che scegliamo",
+        sottotitolo: "Dove le storie hanno avuto origine",
+        paragrafi: [
+          "C'è un hotel che ha scritto la storia prima ancora che qualcuno la raccontasse. Non per fama, non per il numero di stelle, ma perché qualcosa di vero è successo tra quelle pareti: una pagina scritta, una scena girata, un personaggio nato guardando fuori da quella stessa finestra.",
+          "Gli alberghi che scegliamo non si misurano in servizi. Si misurano nel margine sottile tra ciò che è stato inventato e ciò che è realmente accaduto lì dentro: uno scrittore che ha trovato il tono giusto solo in quella stanza, un regista che non ha dovuto costruire nulla perché il luogo era già perfetto così com'era.",
+          "Abbiamo scelto un sanatorio diventato montagna incantata, un hotel dove un romanzo e un'opera lirica sono nati nello stesso indirizzo, una suite che porta ancora il nome di chi vi trascorse la luna di miele, un resort che è diventato il covo di una spia immaginaria.",
+          "Sono luoghi che si visitano con un libro in tasca, o un film già visto. E dai quali, di solito, si torna avendo capito qualcosa in più su come nascono le storie."
         ]
       }
     }
@@ -1225,6 +1285,74 @@ const T42 = {
         mappa: "Contrada Feudo di Mezzo, Passopisciaro, Castiglione di Sicilia, CT",
         lat: 37.8670, lng: 15.0330,
         storia: "fedegraziani"
+      }
+    ],
+
+    /* ---------------- HOTEL LETTERARI ---------------- */
+    "hotel-letterari": [
+      {
+        titolo: "Berghotel Schatzalp",
+        luogo: "Promenade 63 · Davos Platz (GR)",
+        sommario: "L'ex sanatorio di lusso che ispirò 'La Montagna Incantata' di Thomas Mann, che lo cita per nome nel suo romanzo del 1924.",
+        testo: "Aperto nel 1900 in stile Art Nouveau, lo Schatzalp curava chi poteva permettersi di ammalarsi con eleganza. Thomas Mann vi salì spesso mentre la moglie era paziente in un sanatorio vicino, e da quei soggiorni nacque il romanzo che gli valse parte della fama del Nobel.",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/Schatzalp_Davos_ujqewx",
+        telefono: "+41 81 415 51 51",
+        email: "",
+        web: "https://www.schatzalp.ch",
+        mappa: "Promenade 63, Davos Platz, GR",
+        lat: 46.80111, lng: 9.81389,
+        storia: "schatzalp",
+        galleria: [
+          "https://res.cloudinary.com/dspgc41gt/image/upload/Schatzalp_Davos_ujqewx"
+        ]
+      },
+      {
+        titolo: "Grand Hôtel des Trois Couronnes",
+        luogo: "Rue d'Italie 49 · Vevey (VD)",
+        sommario: "Nel 1878 Henry James vi ambientò 'Daisy Miller', nominandolo per nome nella novella; quasi un secolo dopo, il film omonimo fu girato nello stesso hotel.",
+        testo: "Costruito nel 1842 sulle rovine di un castello trecentesco, il Trois Couronnes ha ospitato zar e compositori. Charles Gounod vi compose parte del suo Faust, nella Vevey che sarebbe poi diventata la casa di Chaplin — ma è a Henry James che l'hotel deve la sua pagina più celebre.",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/Vevey_-_Hôtel_des_Trois_Couronnes_vu_du_Léman_-_2022-09-12_-_02_az80p7",
+        telefono: "+41 21 923 32 00",
+        email: "info@hoteltroiscouronnes.ch",
+        web: "https://www.hoteltroiscouronnes.ch/",
+        mappa: "Rue d'Italie 49, Vevey, VD",
+        lat: 46.4583, lng: 6.8480,
+        storia: "trois-couronnes",
+        galleria: [
+          "https://res.cloudinary.com/dspgc41gt/image/upload/Vevey_-_Hôtel_des_Trois_Couronnes_vu_du_Léman_-_2022-09-12_-_02_az80p7"
+        ]
+      },
+      {
+        titolo: "The Grand Hotel",
+        luogo: "Seafront · Torquay (GB)",
+        sommario: "Agatha Christie trascorse qui la sua notte di nozze nel 1914, due anni prima di iniziare a scrivere, durante la Grande Guerra, il suo primo romanzo giallo.",
+        testo: "Aperto nel 1881 sul lungomare di Torquay, città natale di Agatha Christie, il Grand Hotel fu la scelta della scrittrice per la sua luna di miele nel 1914. Oggi una suite porta il suo nome, e l'hotel segna l'inizio dell'Agatha Christie Mile lungo la costa che la vide nascere.",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/Grand_Hotel_Torquay__2763503286_qdc866",
+        telefono: "+44 1803 296677",
+        email: "",
+        web: "https://www.grandtorquay.co.uk/",
+        mappa: "Seafront, Torquay, GB",
+        lat: 50.46000, lng: -3.54167,
+        storia: "grand-hotel-torquay",
+        galleria: [
+          "https://res.cloudinary.com/dspgc41gt/image/upload/Grand_Hotel_Torquay__2763503286_qdc866"
+        ]
+      },
+      {
+        titolo: "Bürgenstock Resort Lake Lucerne",
+        luogo: "Bürgenstock Resort · Obbürgen (NW)",
+        sommario: "Nel 1964 Sean Connery e la troupe di 'Goldfinger' vissero qui per un mese: la piscina del resort divenne la scena d'apertura del film tratto dal romanzo di Ian Fleming.",
+        testo: "Aperto nel 1873 come Hotel Kurhaus, il Bürgenstock è tra i resort più antichi al mondo. Cinque film di James Bond vi furono girati nel corso dei decenni, e nella sua piccola cappella si sposò Audrey Hepburn — un covo di spia immaginaria diventato rifugio di stelle vere.",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/Buergenstock-Hotel_Palace-01ASD_pcd0oi",
+        telefono: "+41 41 612 60 00",
+        email: "information@burgenstockresort.com",
+        web: "https://www.burgenstockresort.com/",
+        mappa: "Bürgenstock Resort Lake Lucerne, Obbürgen, NW",
+        lat: 46.996601, lng: 8.3793878,
+        storia: "burgenstock",
+        galleria: [
+          "https://res.cloudinary.com/dspgc41gt/image/upload/Buergenstock-Hotel_Palace-01ASD_pcd0oi"
+        ]
       }
     ]
 
