@@ -6848,6 +6848,20 @@ var GUIDA=[
     "web": "https://mozaic-bali.com/",
     "note": "Aperto nel 2001 da Chris Salans in un ex luogo di meditazione, unico membro indonesiano dell'associazione, cucina che fonde tecniche francesi e spezie balinesi ⭐ 👑",
     "mappa": "Jalan Raya Sanggingan, Ubud, ID"
+  },
+  {
+    "nome": "Ocean",
+    "indirizzo": "Rua Anneliese Pohl, Vila Vita Parc",
+    "citta": "Porches",
+    "provincia": "P",
+    "prov": "P",
+    "regione": "Portogallo",
+    "luogo": "Porches (P)",
+    "tel": "+351 282 310 200",
+    "telefono": "+351 282 310 200",
+    "web": "https://vilavitaparc.com/en/restaurantsandbars/ocean-restaurant",
+    "note": "Aperto nel 2007 nel resort Vila Vita Parc, chef austriaco Hans Neuner, due Stelle Michelin dal 2011, menu che cambia tema ogni anno seguendo le rotte delle scoperte marittime portoghesi ⭐ 👑",
+    "mappa": "Rua Anneliese Pohl, Vila Vita Parc, Porches, P"
   }
 ];
 var GUIDA_REGPROV={
