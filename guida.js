@@ -6834,6 +6834,20 @@ var GUIDA=[
     "web": "https://www.ottoemezzobombana.com/",
     "note": "Aperto nel 2010 da Umberto Bombana, primo e unico ristorante italiano fuori dall'Italia con tre Stelle Michelin, nome ispirato al film '8½' di Fellini ⭐ 👑",
     "mappa": "18 Chater Road, Hong Kong, HK"
+  },
+  {
+    "nome": "Mozaic",
+    "indirizzo": "Jalan Raya Sanggingan",
+    "citta": "Ubud",
+    "provincia": "ID",
+    "prov": "ID",
+    "regione": "Indonesia",
+    "luogo": "Ubud (ID)",
+    "tel": "+62 361 975768",
+    "telefono": "+62 361 975768",
+    "web": "https://mozaic-bali.com/",
+    "note": "Aperto nel 2001 da Chris Salans in un ex luogo di meditazione, unico membro indonesiano dell'associazione, cucina che fonde tecniche francesi e spezie balinesi ⭐ 👑",
+    "mappa": "Jalan Raya Sanggingan, Ubud, ID"
   }
 ];
 var GUIDA_REGPROV={
@@ -7013,5 +7027,8 @@ var GUIDA_REGPROV={
   ],
   "Hong Kong": [
     "HK"
+  ],
+  "Indonesia": [
+    "ID"
   ]
 };
