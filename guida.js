@@ -4189,17 +4189,17 @@ var GUIDA=[
   },
   {
     "nome": "Spondi",
-    "indirizzo": "Pyrronos 5",
+    "indirizzo": "5 Pyrronos Street",
     "citta": "Atene",
     "provincia": "GR",
     "prov": "GR",
     "regione": "Grecia",
     "luogo": "Atene (GR)",
-    "tel": "+39 2107564021",
-    "telefono": "+39 2107564021",
-    "web": "https://www.spondi.gr",
-    "note": "Executive Chef: Aggelos Lantos",
-    "mappa": "Pyrronos 5, Atene, GR"
+    "tel": "+30 210 75 64 021",
+    "telefono": "+30 210 75 64 021",
+    "web": "https://www.spondi.gr/",
+    "note": "Aperto nel 1996 da Apostolos Trastelis, primo ristorante ateniese a ricevere due Stelle Michelin, vicino allo Stadio Panatenaico e all'Acropoli, oggi chef Arnaud Bignon ⭐ 👑",
+    "mappa": "5 Pyrronos Street, Atene, GR"
   },
   {
     "nome": "Locanda Mammì",
