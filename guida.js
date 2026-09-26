@@ -7044,6 +7044,34 @@ var GUIDA=[
     "web": "https://www.labecasse.co.jp/",
     "note": "Chef Yoshinori Shibuya, formatosi con il maestro francese Alain Chapel, cucina franco-giapponese, piatto iconico l'insalata di aragosta al coriandolo ⭐ 👑",
     "mappa": "3-3-9 Hiranomachi, Chuo Ward, Osaka, JP"
+  },
+  {
+    "nome": "Le Louis XV - Alain Ducasse",
+    "indirizzo": "Hôtel de Paris, Place du Casino",
+    "citta": "Monte Carlo",
+    "provincia": "MC",
+    "prov": "MC",
+    "regione": "Monaco",
+    "luogo": "Monte Carlo (MC)",
+    "tel": "+377 98 06 88 64",
+    "telefono": "+377 98 06 88 64",
+    "web": "https://www.montecarlosbm.com/it/ristorante-monaco/le-louis-xv-alain-ducasse-hotel-de-paris",
+    "note": "Aperto nel 1987, il Principe Ranieri III sfidò Alain Ducasse (allora 33enne) a ottenere tre Stelle Michelin in 4 anni: ci riuscì in 33 mesi, primo ristorante d'albergo al mondo a raggiungerle ⭐ 👑",
+    "mappa": "Place du Casino, Monte Carlo, MC"
+  },
+  {
+    "nome": "Blue Bay Marcel Ravin",
+    "indirizzo": "Monte-Carlo Bay Hotel & Resort, 40 Avenue Princesse Grace",
+    "citta": "Monte Carlo",
+    "provincia": "MC",
+    "prov": "MC",
+    "regione": "Monaco",
+    "luogo": "Monte Carlo (MC)",
+    "tel": "+377 98 06 00 35",
+    "telefono": "+377 98 06 00 35",
+    "web": "https://www.montecarlosbm.com/en/restaurant-monaco/blue-bay-marcel-ravin",
+    "note": "Chef Marcel Ravin, nato in Martinica, chef esecutivo dal 2005, cucina che fonde influenze creole e mediterranee, riaperto nel 2024 con il Principe Alberto II al taglio del nastro ⭐ 👑",
+    "mappa": "40 Avenue Princesse Grace, Monte Carlo, MC"
   }
 ];
 var GUIDA_REGPROV={
@@ -7237,5 +7265,8 @@ var GUIDA_REGPROV={
   ],
   "Giappone": [
     "JP"
+  ],
+  "Monaco": [
+    "MC"
   ]
 };
