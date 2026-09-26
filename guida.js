@@ -6792,6 +6792,48 @@ var GUIDA=[
     "web": "https://www.andrewfairlie.co.uk/",
     "note": "Aperto nel 2001 dallo chef Andrew Fairlie, scomparso nel 2019, oggi guidato da Stephen McLaughlin che cucinò al suo fianco per 26 anni, primo due Stelle Michelin di Scozia ⭐ 👑",
     "mappa": "The Gleneagles Hotel, Auchterarder, GB"
+  },
+  {
+    "nome": "Caprice",
+    "indirizzo": "6/F, Four Seasons Hotel Hong Kong, 8 Finance Street",
+    "citta": "Hong Kong",
+    "provincia": "HK",
+    "prov": "HK",
+    "regione": "Hong Kong",
+    "luogo": "Hong Kong (HK)",
+    "tel": "+852 3196 8882",
+    "telefono": "+852 3196 8882",
+    "web": "https://www.fourseasons.com/hongkong/dining/restaurants/caprice/",
+    "note": "Ristorante francese tre Stelle Michelin del Four Seasons, chef Guillaume Galliot, cucina a vista, vista panoramica su Victoria Harbour ⭐ 👑",
+    "mappa": "8 Finance Street, Hong Kong, HK"
+  },
+  {
+    "nome": "Amber",
+    "indirizzo": "7/F, The Landmark Mandarin Oriental, 15 Queen's Road Central",
+    "citta": "Hong Kong",
+    "provincia": "HK",
+    "prov": "HK",
+    "regione": "Hong Kong",
+    "luogo": "Hong Kong (HK)",
+    "tel": "+852 2132 0066",
+    "telefono": "+852 2132 0066",
+    "web": "https://www.mandarinoriental.com/en/hong-kong/landmark/dine/amber",
+    "note": "Tre Stelle Michelin e Stella Verde, chef Richard Ekkebus, cucina dairy-free con sourcing giapponese e programma di sostenibilità, cantina di 11.000 bottiglie ⭐ 👑",
+    "mappa": "15 Queen's Road Central, Hong Kong, HK"
+  },
+  {
+    "nome": "8½ Otto e Mezzo Bombana",
+    "indirizzo": "Shop 202, Landmark Alexandra, 18 Chater Road",
+    "citta": "Hong Kong",
+    "provincia": "HK",
+    "prov": "HK",
+    "regione": "Hong Kong",
+    "luogo": "Hong Kong (HK)",
+    "tel": "+852 2537 8859",
+    "telefono": "+852 2537 8859",
+    "web": "https://www.ottoemezzobombana.com/",
+    "note": "Aperto nel 2010 da Umberto Bombana, primo e unico ristorante italiano fuori dall'Italia con tre Stelle Michelin, nome ispirato al film '8½' di Fellini ⭐ 👑",
+    "mappa": "18 Chater Road, Hong Kong, HK"
   }
 ];
 var GUIDA_REGPROV={
@@ -6968,5 +7010,8 @@ var GUIDA_REGPROV={
   ],
   "Scozia": [
     "GB"
+  ],
+  "Hong Kong": [
+    "HK"
   ]
 };
