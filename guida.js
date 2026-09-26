@@ -6862,6 +6862,34 @@ var GUIDA=[
     "web": "https://vilavitaparc.com/en/restaurantsandbars/ocean-restaurant",
     "note": "Aperto nel 2007 nel resort Vila Vita Parc, chef austriaco Hans Neuner, due Stelle Michelin dal 2011, menu che cambia tema ogni anno seguendo le rotte delle scoperte marittime portoghesi ⭐ 👑",
     "mappa": "Rua Anneliese Pohl, Vila Vita Parc, Porches, P"
+  },
+  {
+    "nome": "Ma Langue Sourit",
+    "indirizzo": "1 Rue de Remich, Moulin Oetrange",
+    "citta": "Contern",
+    "provincia": "L",
+    "prov": "L",
+    "regione": "Lussemburgo",
+    "luogo": "Contern (L)",
+    "tel": "+352 26 35 20 31",
+    "telefono": "+352 26 35 20 31",
+    "web": "https://mls.lu/",
+    "note": "Aperto nel 2008 da Cyril Molard, il nome nasce da una bambina di 4 anni che dopo un gelato al cioccolato disse 'la mia lingua sorride', due Stelle Michelin dal 2018 ⭐ 👑",
+    "mappa": "1 Rue de Remich, Moulin Oetrange, Contern, L"
+  },
+  {
+    "nome": "Mosconi",
+    "indirizzo": "13 Rue Münster",
+    "citta": "Lussemburgo",
+    "provincia": "L",
+    "prov": "L",
+    "regione": "Lussemburgo",
+    "luogo": "Lussemburgo (L)",
+    "tel": "+352 54 69 94",
+    "telefono": "+352 54 69 94",
+    "web": "https://www.mosconi.lu/",
+    "note": "Fu il primo ristorante italiano a ottenere due Stelle Michelin fuori dall'Italia (2005-2014), oggi una Stella, menu degustazione di otto piatti di pasta diversi ⭐ 👑",
+    "mappa": "13 Rue Münster, Lussemburgo, L"
   }
 ];
 var GUIDA_REGPROV={
@@ -7044,5 +7072,8 @@ var GUIDA_REGPROV={
   ],
   "Indonesia": [
     "ID"
+  ],
+  "Lussemburgo": [
+    "L"
   ]
 };
