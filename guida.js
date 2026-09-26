@@ -3784,16 +3784,16 @@ var GUIDA=[
   {
     "nome": "Relais Castello di Morcote",
     "indirizzo": "Portich de Sura",
-    "citta": "Vico Morcote Canton Ticino",
-    "provincia": "CH",
-    "prov": "CH",
+    "citta": "Vico Morcote",
+    "provincia": "TI",
+    "prov": "TI",
     "regione": "Svizzera",
-    "luogo": "Vico Morcote Canton Ticino (CH)",
+    "luogo": "Vico Morcote (TI)",
     "tel": "+41 91 980 22 52",
     "telefono": "+41 91 980 22 52",
     "web": "https://www.relaiscastellodimorcote.ch",
     "note": "Ticino · ♥️🌳",
-    "mappa": "Portich de Sura, Vico Morcote Canton Ticino, CH"
+    "mappa": "Portich de Sura, Vico Morcote, TI"
   },
   {
     "nome": "Vairo del Volturno",
@@ -4820,16 +4820,16 @@ var GUIDA=[
   {
     "nome": "Ul Furmighin",
     "indirizzo": "Via Treval 26",
-    "citta": "Sagno Canton Ticino",
-    "provincia": "CH",
-    "prov": "CH",
+    "citta": "Sagno",
+    "provincia": "TI",
+    "prov": "TI",
     "regione": "Svizzera",
-    "luogo": "Sagno Canton Ticino (CH)",
+    "luogo": "Sagno (TI)",
     "tel": "+41 91 682 01 75",
     "telefono": "+41 91 682 01 75",
     "web": "https://www.ul-furmighin.ch",
     "note": "Ticino · Svizzera · 🌳",
-    "mappa": "Via Treval 26, Sagno Canton Ticino, CH"
+    "mappa": "Via Treval 26, Sagno, TI"
   },
   {
     "nome": "Umberto a Mare",
