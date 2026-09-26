@@ -6750,6 +6750,48 @@ var GUIDA=[
     "web": "https://www.ameliarestaurant.com/",
     "note": "Nell'Hotel Maria Cristina, inaugurato nel 1912 in onore della regina Maria Cristina d'Asburgo-Lorena, chef argentino Paulo Airaudo, omakase italiano ⭐ 👑",
     "mappa": "Paseo República Argentina 4, San Sebastián, ES"
+  },
+  {
+    "nome": "The Fat Duck",
+    "indirizzo": "High Street",
+    "citta": "Bray",
+    "provincia": "GB",
+    "prov": "GB",
+    "regione": "Inghilterra",
+    "luogo": "Bray (GB)",
+    "tel": "+44 1628 580333",
+    "telefono": "+44 1628 580333",
+    "web": "https://www.thefatduck.co.uk/",
+    "note": "Aperto nel 1995 da Heston Blumenthal in un edificio del XVI secolo, tre Stelle Michelin, votato miglior ristorante al mondo nel 2005, menu 'The Journey' ispirato ad Alice nel Paese delle Meraviglie ⭐ 👑",
+    "mappa": "High Street, Bray, GB"
+  },
+  {
+    "nome": "Alain Ducasse at The Dorchester",
+    "indirizzo": "53 Park Lane",
+    "citta": "Londra",
+    "provincia": "GB",
+    "prov": "GB",
+    "regione": "Inghilterra",
+    "luogo": "Londra (GB)",
+    "tel": "+44 20 7629 8866",
+    "telefono": "+44 20 7629 8866",
+    "web": "https://www.alainducasse-dorchester.com/",
+    "note": "Aperto nel 2007 nel leggendario hotel Dorchester, tre Stelle Michelin dal 2010, design di Patrick Jouin con verdure in ceramica come centrotavola, celebre il babà 'come a Monte Carlo' ⭐ 👑",
+    "mappa": "53 Park Lane, Londra, GB"
+  },
+  {
+    "nome": "Restaurant Andrew Fairlie",
+    "indirizzo": "The Gleneagles Hotel",
+    "citta": "Auchterarder",
+    "provincia": "GB",
+    "prov": "GB",
+    "regione": "Scozia",
+    "luogo": "Auchterarder (GB)",
+    "tel": "+44 1764 694267",
+    "telefono": "+44 1764 694267",
+    "web": "https://www.andrewfairlie.co.uk/",
+    "note": "Aperto nel 2001 dallo chef Andrew Fairlie, scomparso nel 2019, oggi guidato da Stephen McLaughlin che cucinò al suo fianco per 26 anni, primo due Stelle Michelin di Scozia ⭐ 👑",
+    "mappa": "The Gleneagles Hotel, Auchterarder, GB"
   }
 ];
 var GUIDA_REGPROV={
@@ -6923,5 +6965,8 @@ var GUIDA_REGPROV={
   ],
   "Cina": [
     "SH"
+  ],
+  "Scozia": [
+    "GB"
   ]
 };
