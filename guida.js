@@ -6946,6 +6946,48 @@ var GUIDA=[
     "web": "https://www.widderhotel.com/en/eat-drink/widder-restaurant/",
     "note": "Occupa due dei nove edifici storici del Widder Hotel, uno con soffitto medievale conservato, chef Stefan Heilemann dal 2020, due Stelle Michelin ⭐ 👑",
     "mappa": "Rennweg 7, Zurigo, ZH"
+  },
+  {
+    "nome": "Focus Atelier",
+    "indirizzo": "Seestrasse 18, Park Hotel Vitznau",
+    "citta": "Vitznau",
+    "provincia": "LU",
+    "prov": "LU",
+    "regione": "Svizzera",
+    "luogo": "Vitznau (LU)",
+    "tel": "+41 41 399 60 60",
+    "telefono": "+41 41 399 60 60",
+    "web": "https://www.parkhotel-vitznau.ch/en/wine-dine/restaurant-focus-atelier",
+    "note": "Chef Patrick Mahler dal 2017, cucina franco-classica con influenze giapponesi e scandinave, in un cubo di vetro affacciato sul Lago di Lucerna, cantina con oltre 35.000 bottiglie ⭐ 👑",
+    "mappa": "Seestrasse 18, Vitznau, LU"
+  },
+  {
+    "nome": "Stucki",
+    "indirizzo": "Bruderholzallee 42",
+    "citta": "Basilea",
+    "provincia": "BS",
+    "prov": "BS",
+    "regione": "Svizzera",
+    "luogo": "Basilea (BS)",
+    "tel": "+41 61 361 82 22",
+    "telefono": "+41 61 361 82 22",
+    "web": "https://stuckibasel.ch/",
+    "note": "Chef Tanja Grandits, alla guida dello Stucki dal 2008 dopo la morte del leggendario predecessore Hans Stucki, cucina costruita attorno a un colore dominante per ogni piatto ⭐ 👑",
+    "mappa": "Bruderholzallee 42, Basilea, BS"
+  },
+  {
+    "nome": "Schloss Schauenstein",
+    "indirizzo": "Schlossgass 77",
+    "citta": "Fürstenau",
+    "provincia": "GR",
+    "prov": "GR",
+    "regione": "Svizzera",
+    "luogo": "Fürstenau (GR)",
+    "tel": "+41 81 632 10 80",
+    "telefono": "+41 81 632 10 80",
+    "web": "https://www.schauenstein.ch/",
+    "note": "Castello del 1667 nella minuscola Fürstenau, chef Andreas Caminada, proprietario dal 2003, tre Stelle Michelin dal 2010, orto proprio e hotel di sole 12 camere ⭐ 👑",
+    "mappa": "Schlossgass 77, Fürstenau, GR"
   }
 ];
 var GUIDA_REGPROV={
@@ -6966,6 +7008,8 @@ var GUIDA_REGPROV={
     "BS",
     "CH",
     "GE",
+    "GR",
+    "LU",
     "TI",
     "VD",
     "ZH"
