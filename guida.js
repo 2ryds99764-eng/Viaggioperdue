@@ -6890,6 +6890,62 @@ var GUIDA=[
     "web": "https://www.mosconi.lu/",
     "note": "Fu il primo ristorante italiano a ottenere due Stelle Michelin fuori dall'Italia (2005-2014), oggi una Stella, menu degustazione di otto piatti di pasta diversi ⭐ 👑",
     "mappa": "13 Rue Münster, Lussemburgo, L"
+  },
+  {
+    "nome": "Cheval Blanc by Peter Knogl",
+    "indirizzo": "Blumenrain 8, Grand Hotel Les Trois Rois",
+    "citta": "Basilea",
+    "provincia": "BS",
+    "prov": "BS",
+    "regione": "Svizzera",
+    "luogo": "Basilea (BS)",
+    "tel": "+41 61 260 50 07",
+    "telefono": "+41 61 260 50 07",
+    "web": "https://www.chevalblancbasel.com/",
+    "note": "Dentro il Grand Hotel Les Trois Rois, menzionato dal 1681, ospiti storici Voltaire, Napoleone, Picasso, Thomas Mann, chef Peter Knogl 'il re delle salse', tre Stelle Michelin ⭐ 👑",
+    "mappa": "Blumenrain 8, Basilea, BS"
+  },
+  {
+    "nome": "Restaurant de l'Hôtel de Ville",
+    "indirizzo": "Rue d'Yverdon 1",
+    "citta": "Crissier",
+    "provincia": "VD",
+    "prov": "VD",
+    "regione": "Svizzera",
+    "luogo": "Crissier (VD)",
+    "tel": "+41 21 634 05 05",
+    "telefono": "+41 21 634 05 05",
+    "web": "https://www.restaurantcrissier.com/",
+    "note": "Fondato nel 1955, quattro chef consecutivi con tre Stelle Michelin — Frédy Girardet, Philippe Rochat, Benoît Violier, oggi Franck Giovannini — un museo interno ne ripercorre la storia ⭐ 👑",
+    "mappa": "Rue d'Yverdon 1, Crissier, VD"
+  },
+  {
+    "nome": "Domaine de Châteauvieux",
+    "indirizzo": "Chemin de Châteauvieux 16",
+    "citta": "Satigny",
+    "provincia": "GE",
+    "prov": "GE",
+    "regione": "Svizzera",
+    "luogo": "Satigny (GE)",
+    "tel": "+41 22 753 15 11",
+    "telefono": "+41 22 753 15 11",
+    "web": "https://chateauvieux.ch/",
+    "note": "Antica fattoria vinicola del XVI secolo, nel maggior comune vinicolo svizzero, chef-proprietario Philippe Chevrier dal 1986, oggi anche piccolo hotel di 12 camere ⭐ 👑",
+    "mappa": "Chemin de Châteauvieux 16, Satigny, GE"
+  },
+  {
+    "nome": "Widder Restaurant",
+    "indirizzo": "Rennweg 7",
+    "citta": "Zurigo",
+    "provincia": "ZH",
+    "prov": "ZH",
+    "regione": "Svizzera",
+    "luogo": "Zurigo (ZH)",
+    "tel": "+41 44 224 25 26",
+    "telefono": "+41 44 224 25 26",
+    "web": "https://www.widderhotel.com/en/eat-drink/widder-restaurant/",
+    "note": "Occupa due dei nove edifici storici del Widder Hotel, uno con soffitto medievale conservato, chef Stefan Heilemann dal 2020, due Stelle Michelin ⭐ 👑",
+    "mappa": "Rennweg 7, Zurigo, ZH"
   }
 ];
 var GUIDA_REGPROV={
@@ -6907,8 +6963,11 @@ var GUIDA_REGPROV={
     "SA"
   ],
   "Svizzera": [
+    "BS",
     "CH",
+    "GE",
     "TI",
+    "VD",
     "ZH"
   ],
   "Friuli-Venezia Giulia": [
