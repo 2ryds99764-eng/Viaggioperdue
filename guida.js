@@ -6988,6 +6988,62 @@ var GUIDA=[
     "web": "https://www.schauenstein.ch/",
     "note": "Castello del 1667 nella minuscola Fürstenau, chef Andreas Caminada, proprietario dal 2003, tre Stelle Michelin dal 2010, orto proprio e hotel di sole 12 camere ⭐ 👑",
     "mappa": "Schlossgass 77, Fürstenau, GR"
+  },
+  {
+    "nome": "Sézanne",
+    "indirizzo": "Four Seasons Hotel Tokyo, 1-11-1 Marunouchi, Chiyoda-ku",
+    "citta": "Tokyo",
+    "provincia": "JP",
+    "prov": "JP",
+    "regione": "Giappone",
+    "luogo": "Tokyo (JP)",
+    "tel": "+81 3 5222 5810",
+    "telefono": "+81 3 5222 5810",
+    "web": "https://www.sezanne.jp/",
+    "note": "Chef Daniel Calvert, cucina francese classica moderna nel Four Seasons, cucina a vista disegnata da André Fu, ingredienti selezionati da tutto il Giappone ⭐ 👑",
+    "mappa": "1-11-1 Marunouchi, Chiyoda-ku, Tokyo, JP"
+  },
+  {
+    "nome": "Château Restaurant",
+    "indirizzo": "Yebisu Garden Place, 1-13-1 Mita, Meguro-ku",
+    "citta": "Tokyo",
+    "provincia": "JP",
+    "prov": "JP",
+    "regione": "Giappone",
+    "luogo": "Tokyo (JP)",
+    "tel": "+81 3 5424 1347",
+    "telefono": "+81 3 5424 1347",
+    "web": "https://www.robuchon.jp/",
+    "note": "Castello ricostruito pietra su pietra in omaggio al Moulinsart di Tintin, aperto nel 1994 come Taillevent Robuchon, rinominato Château Restaurant nel 2004, tre Stelle Michelin ininterrotte dalla prima Guida Michelin di Tokyo nel 2008, oggi chef Kenichiro Sekiya ⭐ 👑",
+    "mappa": "1-13-1 Mita, Meguro-ku, Tokyo, JP"
+  },
+  {
+    "nome": "La Tour d'Argent Tokyo",
+    "indirizzo": "Hotel New Otani, 4-1 Kioi-cho, Chiyoda-ku",
+    "citta": "Tokyo",
+    "provincia": "JP",
+    "prov": "JP",
+    "regione": "Giappone",
+    "luogo": "Tokyo (JP)",
+    "tel": "+81 3 3239 3111",
+    "telefono": "+81 3 3239 3111",
+    "web": "https://tourdargent.jp/",
+    "note": "Aperto nel 1984, unica filiale al mondo della storica Tour d'Argent di Parigi (dal 1582), nata dal ritorno del Principe Hirohito 50 anni dopo la sua prima cena lì nel 1921 ⭐ 👑",
+    "mappa": "4-1 Kioi-cho, Chiyoda-ku, Tokyo, JP"
+  },
+  {
+    "nome": "La Bécasse",
+    "indirizzo": "3-3-9 Hiranomachi, Chuo Ward",
+    "citta": "Osaka",
+    "provincia": "JP",
+    "prov": "JP",
+    "regione": "Giappone",
+    "luogo": "Osaka (JP)",
+    "tel": "+81 6 4707 0070",
+    "telefono": "+81 6 4707 0070",
+    "web": "https://www.labecasse.co.jp/",
+    "note": "Chef Yoshinori Shibuya, formatosi con il maestro francese Alain Chapel, cucina franco-giapponese, piatto iconico l'insalata di aragosta al coriandolo ⭐ 👑",
+    "mappa": "3-3-9 Hiranomachi, Chuo Ward, Osaka, JP"
   }
 ];
 var GUIDA_REGPROV={
@@ -7178,5 +7234,8 @@ var GUIDA_REGPROV={
   ],
   "Lussemburgo": [
     "L"
+  ],
+  "Giappone": [
+    "JP"
   ]
 };
