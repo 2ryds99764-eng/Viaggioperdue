@@ -7072,6 +7072,20 @@ var GUIDA=[
     "web": "https://www.montecarlosbm.com/en/restaurant-monaco/blue-bay-marcel-ravin",
     "note": "Chef Marcel Ravin, nato in Martinica, chef esecutivo dal 2005, cucina che fonde influenze creole e mediterranee, riaperto nel 2024 con il Principe Alberto II al taglio del nastro ⭐ 👑",
     "mappa": "40 Avenue Princesse Grace, Monte Carlo, MC"
+  },
+  {
+    "nome": "Locanda Margon",
+    "indirizzo": "Via Margone 15",
+    "citta": "Ravina",
+    "provincia": "TN",
+    "prov": "TN",
+    "regione": "Trentino-Alto Adige",
+    "luogo": "Ravina (TN)",
+    "tel": "+39 0461 349401",
+    "telefono": "+39 0461 349401",
+    "web": "https://locandamargon.it",
+    "note": "Il ristorante di Casa Ferrari dal 2008, accanto alla cinquecentesca Villa Margon dove dormì l'Imperatore Carlo V, chef Edoardo Fumagalli, terrazza tra i vigneti con vista su Trento, una Stella Michelin ⭐ 🌄",
+    "mappa": "Via Margone 15, Ravina, TN"
   }
 ];
 var GUIDA_REGPROV={
