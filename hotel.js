@@ -299,7 +299,7 @@ var HOTEL=[
     "tel": "+39 0465 441033",
     "telefono": "+39 0465 441033",
     "cellulare": "+39 348 4481148",
-    "email": "direzione@hotelchaletdelsogno.com",
+    "email": "info@hotelchaletdelsogno.com",
     "web": "https://www.hotelchaletdelsognocampiglio.com",
     "note": "⛰️ 🌳♥️",
     "mappa": "Via Spinale 37b, Madonna di Campiglio, TN"

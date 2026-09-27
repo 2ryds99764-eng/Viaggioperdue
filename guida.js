@@ -176,8 +176,8 @@ var GUIDA=[
     "prov": "TN",
     "regione": "Trentino-Alto Adige",
     "luogo": "Madonna di Campiglio (TN)",
-    "tel": "+39 349 5140485",
-    "telefono": "+39 349 5140485",
+    "tel": "+39 0465 441033",
+    "telefono": "+39 0465 441033",
     "web": "https://www.ristoranteduepini.com",
     "note": "Presso Hotel Chalet del Sogno",
     "mappa": "Via Spinale 37b, Madonna di Campiglio, TN"
