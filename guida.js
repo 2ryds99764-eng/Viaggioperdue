@@ -7086,6 +7086,34 @@ var GUIDA=[
     "web": "https://locandamargon.it",
     "note": "Il ristorante di Casa Ferrari dal 2008, accanto alla cinquecentesca Villa Margon dove dormì l'Imperatore Carlo V, chef Edoardo Fumagalli, terrazza tra i vigneti con vista su Trento, una Stella Michelin ⭐ 🌄",
     "mappa": "Via Margone 15, Ravina, TN"
+  },
+  {
+    "nome": "La Grande Table Marocaine",
+    "indirizzo": "Royal Mansour, Rue Abou Abbas El Sebti",
+    "citta": "Marrakech",
+    "provincia": "MA",
+    "prov": "MA",
+    "regione": "Marocco",
+    "luogo": "Marrakech (MA)",
+    "tel": "+212 529 808282",
+    "telefono": "+212 529 808282",
+    "web": "https://www.royalmansour.com/en/marrakech/dining/la-grande-table-marocaine/",
+    "note": "Unico ristorante del suo genere in Africa ammesso all'associazione, dal 2024 chef Hélène Darroze con Karim Ben Baba, il pasto inizia prima del menu con datteri e tè cerimoniale ⭐ 👑",
+    "mappa": "Rue Abou Abbas El Sebti, Marrakech, MA"
+  },
+  {
+    "nome": "Sesamo",
+    "indirizzo": "Royal Mansour, Rue Abou Abbas El Sebti",
+    "citta": "Marrakech",
+    "provincia": "MA",
+    "prov": "MA",
+    "regione": "Marocco",
+    "luogo": "Marrakech (MA)",
+    "tel": "+212 529 808282",
+    "telefono": "+212 529 808282",
+    "web": "https://www.royalmansour.com/en/marrakech/dining/sesamo/",
+    "note": "Aperto nel 2019 dai fratelli Massimiliano e Raffaele Alajmo, chef Riccardo Barni, cucina veneta in terra marocchina, il nome richiama anche 'AMO' loro ristorante a Venezia ⭐ 👑",
+    "mappa": "Rue Abou Abbas El Sebti, Marrakech, MA"
   }
 ];
 var GUIDA_REGPROV={
@@ -7282,5 +7310,8 @@ var GUIDA_REGPROV={
   ],
   "Monaco": [
     "MC"
+  ],
+  "Marocco": [
+    "MA"
   ]
 };
