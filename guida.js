@@ -7226,6 +7226,62 @@ var GUIDA=[
     "web": "https://www.interscaldes.nl/",
     "note": "Oggi guidato da Jeroen Achtien (formatosi con Jonnie Boer, prima Stella Michelin ottenuta in Svizzera al ristorante Sens di Vitznau), due Stelle Michelin ottenute in un colpo solo dopo la ristrutturazione del 2024 ⭐ 👑",
     "mappa": "Zandweg 2, Kruiningen, NL"
+  },
+  {
+    "nome": "Odette",
+    "indirizzo": "1 St Andrew's Road, National Gallery Singapore",
+    "citta": "Singapore",
+    "provincia": "SG",
+    "prov": "SG",
+    "regione": "Singapore",
+    "luogo": "Singapore (SG)",
+    "tel": "+65 6385 0498",
+    "telefono": "+65 6385 0498",
+    "web": "https://odetterestaurant.com/",
+    "note": "Aperto nel 2015 da Julien Royer, il nome è un omaggio alla nonna che gli insegnò a cucinare, tre Stelle Michelin, ospitato nell'ala della Corte Suprema del National Gallery ⭐ 👑",
+    "mappa": "1 St Andrew's Road, Singapore, SG"
+  },
+  {
+    "nome": "JAAN by Kirk Westaway",
+    "indirizzo": "Level 70, Swissôtel The Stamford, 2 Stamford Road",
+    "citta": "Singapore",
+    "provincia": "SG",
+    "prov": "SG",
+    "regione": "Singapore",
+    "luogo": "Singapore (SG)",
+    "tel": "+65 9199 9008",
+    "telefono": "+65 9199 9008",
+    "web": "https://www.jaan.sg/",
+    "note": "Il nome deriva dal sanscrito per 'ciotola', un tempo guidato da Julien Royer (oggi a Odette), dal 2015 chef Kirk Westaway con la sua 'Reinventing British', due Stelle Michelin dal 2021 ⭐ 👑",
+    "mappa": "2 Stamford Road, Singapore, SG"
+  },
+  {
+    "nome": "Les Amis",
+    "indirizzo": "1 Scotts Road, Shaw Centre",
+    "citta": "Singapore",
+    "provincia": "SG",
+    "prov": "SG",
+    "regione": "Singapore",
+    "luogo": "Singapore (SG)",
+    "tel": "+65 6733 2225",
+    "telefono": "+65 6733 2225",
+    "web": "https://www.lesamis.com.sg/",
+    "note": "Aperto nel 1994, primo fine dining indipendente di Singapore, dal 2013 chef Sébastien Lepinoy dopo 17 anni con Joël Robuchon, tre Stelle Michelin ⭐ 👑",
+    "mappa": "1 Scotts Road, Singapore, SG"
+  },
+  {
+    "nome": "Saint Pierre",
+    "indirizzo": "1 Fullerton Road, One Fullerton",
+    "citta": "Singapore",
+    "provincia": "SG",
+    "prov": "SG",
+    "regione": "Singapore",
+    "luogo": "Singapore (SG)",
+    "tel": "+65 6438 0887",
+    "telefono": "+65 6438 0887",
+    "web": "https://www.saintpierre.com.sg/",
+    "note": "Aperto nel 2000 dallo chef belga Emmanuel Stroobant con la moglie Edina Hong, vista panoramica sul Marina Bay, due Stelle Michelin, unico membro di Singapore di Relais & Châteaux ⭐ 👑",
+    "mappa": "1 Fullerton Road, Singapore, SG"
   }
 ];
 var GUIDA_REGPROV={
@@ -7428,5 +7484,8 @@ var GUIDA_REGPROV={
   ],
   "Paesi Bassi": [
     "NL"
+  ],
+  "Singapore": [
+    "SG"
   ]
 };
