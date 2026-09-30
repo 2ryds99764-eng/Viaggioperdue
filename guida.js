@@ -7114,6 +7114,48 @@ var GUIDA=[
     "web": "https://www.royalmansour.com/en/marrakech/dining/sesamo/",
     "note": "Aperto nel 2019 dai fratelli Massimiliano e Raffaele Alajmo, chef Riccardo Barni, cucina veneta in terra marocchina, il nome richiama anche 'AMO' loro ristorante a Venezia ⭐ 👑",
     "mappa": "Rue Abou Abbas El Sebti, Marrakech, MA"
+  },
+  {
+    "nome": "Le Manoir aux Quat'Saisons",
+    "indirizzo": "Church Road",
+    "citta": "Great Milton",
+    "provincia": "GB",
+    "prov": "GB",
+    "regione": "Inghilterra",
+    "luogo": "Great Milton (GB)",
+    "tel": "+44 1844 278881",
+    "telefono": "+44 1844 278881",
+    "web": "https://www.belmond.com/hotels/europe/uk/oxfordshire/belmond-le-manoir-aux-quat-saisons/",
+    "note": "Aperto nel 1984 da Raymond Blanc in un maniero del Quattrocento, due Stelle Michelin. Attualmente chiuso per ristrutturazione, riapertura prevista nel 2027 con il nuovo direttore culinario Arnaud Donckele ⭐ 👑",
+    "mappa": "Church Road, Great Milton, GB"
+  },
+  {
+    "nome": "Restaurant Sat Bains",
+    "indirizzo": "Lenton Lane",
+    "citta": "Nottingham",
+    "provincia": "GB",
+    "prov": "GB",
+    "regione": "Inghilterra",
+    "luogo": "Nottingham (GB)",
+    "tel": "+44 115 986 6566",
+    "telefono": "+44 115 986 6566",
+    "web": "https://www.restaurantsatbains.com/",
+    "note": "Chef Sat Bains dal 1999, con la moglie Amanda, sotto un cavalcavia alla periferia di Nottingham, solo 28 coperti e 7 camere, due Stelle Michelin e Stella Verde ⭐ 👑",
+    "mappa": "Lenton Lane, Nottingham, GB"
+  },
+  {
+    "nome": "The Waterside Inn",
+    "indirizzo": "Ferry Road",
+    "citta": "Bray",
+    "provincia": "GB",
+    "prov": "GB",
+    "regione": "Inghilterra",
+    "luogo": "Bray (GB)",
+    "tel": "+44 1628 620691",
+    "telefono": "+44 1628 620691",
+    "web": "https://www.waterside-inn.co.uk/",
+    "note": "Aperto nel 1972 da Albert e Michel Roux, nel 2010 primo ristorante fuori dalla Francia a mantenere tre Stelle Michelin per 25 anni, oggi chef patron Alain Roux ⭐ 👑",
+    "mappa": "Ferry Road, Bray, GB"
   }
 ];
 var GUIDA_REGPROV={
