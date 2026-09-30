@@ -7184,6 +7184,48 @@ var GUIDA=[
     "web": "https://www.namoristobottega.it",
     "note": "Chef Tiziana Favi e Hassan Ismael Gaafar, Bib Gourmand Michelin per il quinto anno consecutivo, forte attenzione alla biodiversità, aderente a Slow Food ♥️",
     "mappa": "Via Giovan Battista Marzi 1, Tarquinia, VT"
+  },
+  {
+    "nome": "De Librije",
+    "indirizzo": "Spinhuisplein 1",
+    "citta": "Zwolle",
+    "provincia": "NL",
+    "prov": "NL",
+    "regione": "Paesi Bassi",
+    "luogo": "Zwolle (NL)",
+    "tel": "+31 38 421 2083",
+    "telefono": "+31 38 421 2083",
+    "web": "https://www.librije.com/",
+    "note": "In un ex carcere femminile, sala nel cortile dell'ora d'aria, fondato da Jonnie e Thérèse Boer, tre Stelle dal 2004, oggi guidato da Thérèse dopo la morte di Jonnie nel 2025 ⭐ 👑",
+    "mappa": "Spinhuisplein 1, Zwolle, NL"
+  },
+  {
+    "nome": "De Groene Lantaarn",
+    "indirizzo": "Gemeenteweg 364",
+    "citta": "Staphorst",
+    "provincia": "NL",
+    "prov": "NL",
+    "regione": "Paesi Bassi",
+    "luogo": "Staphorst (NL)",
+    "tel": "+31 522 463 116",
+    "telefono": "+31 522 463 116",
+    "web": "https://degroenelantaarn.com/",
+    "note": "Chef Jarno Eggen con la moglie Cindy Borger, in sala, due Stelle Michelin, durante la pandemia mantennero tutto lo staff con corsi di formazione settimanali ⭐ 👑",
+    "mappa": "Gemeenteweg 364, Staphorst, NL"
+  },
+  {
+    "nome": "Inter Scaldes",
+    "indirizzo": "Zandweg 2",
+    "citta": "Kruiningen",
+    "provincia": "NL",
+    "prov": "NL",
+    "regione": "Paesi Bassi",
+    "luogo": "Kruiningen (NL)",
+    "tel": "+31 113 381 753",
+    "telefono": "+31 113 381 753",
+    "web": "https://www.interscaldes.nl/",
+    "note": "Oggi guidato da Jeroen Achtien (formatosi con Jonnie Boer, prima Stella Michelin ottenuta in Svizzera al ristorante Sens di Vitznau), due Stelle Michelin ottenute in un colpo solo dopo la ristrutturazione del 2024 ⭐ 👑",
+    "mappa": "Zandweg 2, Kruiningen, NL"
   }
 ];
 var GUIDA_REGPROV={
@@ -7383,5 +7425,8 @@ var GUIDA_REGPROV={
   ],
   "Marocco": [
     "MA"
+  ],
+  "Paesi Bassi": [
+    "NL"
   ]
 };
