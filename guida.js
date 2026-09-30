@@ -7156,6 +7156,34 @@ var GUIDA=[
     "web": "https://www.waterside-inn.co.uk/",
     "note": "Aperto nel 1972 da Albert e Michel Roux, nel 2010 primo ristorante fuori dalla Francia a mantenere tre Stelle Michelin per 25 anni, oggi chef patron Alain Roux ⭐ 👑",
     "mappa": "Ferry Road, Bray, GB"
+  },
+  {
+    "nome": "Costa",
+    "indirizzo": "Piazza Andrea Costa 44",
+    "citta": "Cinisello Balsamo",
+    "provincia": "MI",
+    "prov": "MI",
+    "regione": "Lombardia",
+    "luogo": "Cinisello Balsamo (MI)",
+    "tel": "+39 02 6175315",
+    "telefono": "+39 02 6175315",
+    "web": "https://www.ristorantecosta.it",
+    "note": "Nato come pizzeria, oggi gestito da Loredana e dal fratello Claudio con specialità di tradizione pugliese (orecchiette secondo la ricetta segreta della signora Caterina) e piatti di mare ♥️",
+    "mappa": "Piazza Andrea Costa 44, Cinisello Balsamo, MI"
+  },
+  {
+    "nome": "Namo Ristobottega",
+    "indirizzo": "Via Giovan Battista Marzi 1",
+    "citta": "Tarquinia",
+    "provincia": "VT",
+    "prov": "VT",
+    "regione": "Lazio",
+    "luogo": "Tarquinia (VT)",
+    "tel": "+39 0766 731637",
+    "telefono": "+39 0766 731637",
+    "web": "https://www.namoristobottega.it",
+    "note": "Chef Tiziana Favi e Hassan Ismael Gaafar, Bib Gourmand Michelin per il quinto anno consecutivo, forte attenzione alla biodiversità, aderente a Slow Food ♥️",
+    "mappa": "Via Giovan Battista Marzi 1, Tarquinia, VT"
   }
 ];
 var GUIDA_REGPROV={
