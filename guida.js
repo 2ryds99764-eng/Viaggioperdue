@@ -7282,6 +7282,20 @@ var GUIDA=[
     "web": "https://www.saintpierre.com.sg/",
     "note": "Aperto nel 2000 dallo chef belga Emmanuel Stroobant con la moglie Edina Hong, vista panoramica sul Marina Bay, due Stelle Michelin, unico membro di Singapore di Relais & Châteaux ⭐ 👑",
     "mappa": "1 Fullerton Road, Singapore, SG"
+  },
+  {
+    "nome": "Operakällaren",
+    "indirizzo": "Operahuset, Karl XII's Torg",
+    "citta": "Stoccolma",
+    "provincia": "SE",
+    "prov": "SE",
+    "regione": "Svezia",
+    "luogo": "Stoccolma (SE)",
+    "tel": "+46 8 676 58 01",
+    "telefono": "+46 8 676 58 01",
+    "web": "https://operakallaren.se/",
+    "note": "Aperto nel 1787 dentro l'Opera Reale, il ristorante nazionale svedese, cantina 'Nobiskällaren' con circa 2500 etichette, istituzione internazionale sotto Tore Wretman dal 1955 ⭐ 👑",
+    "mappa": "Karl XII's Torg, Stoccolma, SE"
   }
 ];
 var GUIDA_REGPROV={
@@ -7487,5 +7501,8 @@ var GUIDA_REGPROV={
   ],
   "Singapore": [
     "SG"
+  ],
+  "Svezia": [
+    "SE"
   ]
 };
