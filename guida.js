@@ -7296,6 +7296,62 @@ var GUIDA=[
     "web": "https://operakallaren.se/",
     "note": "Aperto nel 1787 dentro l'Opera Reale, il ristorante nazionale svedese, cantina 'Nobiskällaren' con circa 2500 etichette, istituzione internazionale sotto Tore Wretman dal 1955 ⭐ 👑",
     "mappa": "Karl XII's Torg, Stoccolma, SE"
+  },
+  {
+    "nome": "Sühring",
+    "indirizzo": "10 Soi Yen Akat 3, Chong Nonsi, Yan Nawa",
+    "citta": "Bangkok",
+    "provincia": "TH",
+    "prov": "TH",
+    "regione": "Thailandia",
+    "luogo": "Bangkok (TH)",
+    "tel": "+66 2 107 2777",
+    "telefono": "+66 2 107 2777",
+    "web": "https://restaurantsuhring.com/",
+    "note": "Dei gemelli berlinesi Thomas e Mathias Sühring, aperto nel 2016 in una villa degli anni '70 ristrutturata da loro, cucina tedesca moderna dalle ricette della nonna, tre Stelle Michelin dal 2026 ⭐ 👑",
+    "mappa": "10 Soi Yen Akat 3, Bangkok, TH"
+  },
+  {
+    "nome": "Baan Tepa",
+    "indirizzo": "561 Ramkhamhaeng Road, Hua Mak, Bang Kapi",
+    "citta": "Bangkok",
+    "provincia": "TH",
+    "prov": "TH",
+    "regione": "Thailandia",
+    "luogo": "Bangkok (TH)",
+    "tel": "+66 98 696 9074",
+    "telefono": "+66 98 696 9074",
+    "web": "https://baantepabkk.com/",
+    "note": "Aperto nel 2020 dalla chef Tam Debhakam nella casa costruita dalla nonna, prima donna thailandese a guidare un due Stelle Michelin, Stella Verde, ingredienti thailandesi poco noti dal suo giardino ⭐ 👑",
+    "mappa": "561 Ramkhamhaeng Road, Bangkok, TH"
+  },
+  {
+    "nome": "Chef's Table by lebua",
+    "indirizzo": "61° piano, State Tower, 1055 Silom Road",
+    "citta": "Bangkok",
+    "provincia": "TH",
+    "prov": "TH",
+    "regione": "Thailandia",
+    "luogo": "Bangkok (TH)",
+    "tel": "+66 2 624 9555",
+    "telefono": "+66 2 624 9555",
+    "web": "https://lebua.com/restaurants/chefs-table/",
+    "note": "Aperto nel 2019 con ogni tavolo affacciato sulla cucina a vista, chef Vincent Thierry (già Caprice a Hong Kong), due Stelle Michelin e il Michelin Service Award ⭐ 👑",
+    "mappa": "1055 Silom Road, Bangkok, TH"
+  },
+  {
+    "nome": "Anne-Sophie Pic at Le Normandie",
+    "indirizzo": "Mandarin Oriental, 48 Oriental Avenue",
+    "citta": "Bangkok",
+    "provincia": "TH",
+    "prov": "TH",
+    "regione": "Thailandia",
+    "luogo": "Bangkok (TH)",
+    "tel": "+66 2 659 9000",
+    "telefono": "+66 2 659 9000",
+    "web": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/dine/anne-sophie-pic-at-le-normandie",
+    "note": "Aperto nel 1958 in cima alla Tower Wing del Mandarin Oriental, dal 2025 con il nome di Anne-Sophie Pic, vista sul Chao Phraya, due Stelle Michelin nella Guida 2026, lo chef giapponese Tamaki Kobayashi in cucina ⭐ 👑",
+    "mappa": "48 Oriental Avenue, Bangkok, TH"
   }
 ];
 var GUIDA_REGPROV={
@@ -7504,5 +7560,8 @@ var GUIDA_REGPROV={
   ],
   "Svezia": [
     "SE"
+  ],
+  "Thailandia": [
+    "TH"
   ]
 };
