@@ -68,16 +68,16 @@ body::before {
 .escape-mese {
   flex: 1 1 60px; text-align: center; padding: 8px 4px;
   font-family: var(--sans); font-size: 0.66rem; letter-spacing: 0.08em;
-  text-transform: uppercase; color: #6a788f;
+  text-transform: uppercase; color: #5d6b82;
   border: 1px solid var(--filo); background: var(--carta);
 }
-.escape-mese.stato-chiuso, .escape-pallino.stato-chiuso { background: #ece8dd; color: #8b95a1; }
+.escape-mese.stato-chiuso, .escape-pallino.stato-chiuso { background: #ece8dd; color: #56647c; }
 .escape-mese.stato-gozzo, .escape-pallino.stato-gozzo { background: var(--azzurro-tenue); color: var(--blu-notte); }
 .escape-mese.stato-aperto, .escape-pallino.stato-aperto { background: var(--blu); color: var(--bianco); }
 .escape-mese.oggi { outline: 2px solid var(--blu-notte); outline-offset: -2px; font-weight: 700; }
 .escape-legenda {
   display: flex; gap: 18px; flex-wrap: wrap;
-  font-family: var(--sans); font-size: 0.72rem; color: #6a788f;
+  font-family: var(--sans); font-size: 0.72rem; color: #5d6b82;
 }
 .escape-legenda-voce { display: inline-flex; align-items: center; gap: 6px; }
 .escape-pallino { display: inline-block; width: 9px; height: 9px; border-radius: 50%; }
@@ -102,7 +102,7 @@ body::before {
 }
 .escape-bivio-testo { font-family: var(--serif); font-size: 0.98rem; line-height: 1.65; color: #38465e; margin-bottom: 14px; }
 .escape-bivio-prezzo { font-family: var(--sans); font-size: 0.8rem; font-weight: 600; color: var(--blu-notte); }
-.escape-nota-piccola { font-family: var(--sans); font-size: 0.76rem; font-style: italic; color: #8b95a1; margin: 10px 0 30px; }
+.escape-nota-piccola { font-family: var(--sans); font-size: 0.76rem; font-style: italic; color: #5d6b82; margin: 10px 0 30px; }
 
 .escape-esperienza {
   display: grid; grid-template-columns: 2fr 1fr auto; gap: 16px; align-items: center;
@@ -111,10 +111,10 @@ body::before {
 .escape-esp-titolo { font-family: var(--serif); font-size: 1.05rem; color: var(--blu-notte); }
 .escape-esp-dettaglio {
   font-family: var(--sans); font-size: 0.68rem; letter-spacing: 0.06em;
-  text-transform: uppercase; color: #6a788f;
+  text-transform: uppercase; color: #5d6b82;
 }
 .escape-esp-prezzo { font-family: var(--sans); font-size: 0.85rem; font-weight: 600; color: var(--blu-notte); text-align: right; }
-.escape-esp-prezzo.da-confermare { font-style: italic; font-weight: 400; color: #8b95a1; }
+.escape-esp-prezzo.da-confermare { font-style: italic; font-weight: 400; color: #5d6b82; }
 
 .escape-info-riga { display: grid; grid-template-columns: 160px 1fr; gap: 20px; padding: 14px 0; border-bottom: 1px solid var(--filo); }
 .escape-info-etichetta { font-family: var(--sans); font-size: 0.66rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--blu); }
@@ -128,7 +128,7 @@ body::before {
   font-family: var(--serif); font-size: 0.98rem; line-height: 1.6; color: #38465e;
   max-width: 520px; margin: 0 auto 4px; text-align: left;
 }
-.scc-nota { font-family: var(--sans); font-size: 0.74rem; font-style: italic; color: #8b95a1; margin-top: 14px; }
+.scc-nota { font-family: var(--sans); font-size: 0.74rem; font-style: italic; color: #5d6b82; margin-top: 14px; }
 
 @media (max-width: 720px) {
   .escape-bivio-gruppo { grid-template-columns: 1fr; }
@@ -262,7 +262,7 @@ body::before {
 }
 .epigrafe-fonte {
   font-family: var(--sans); font-size: 0.72rem; letter-spacing: 0.12em;
-  text-transform: uppercase; color: var(--azzurro); margin: 0.8em 0 0 0;
+  text-transform: uppercase; color: var(--blu); margin: 0.8em 0 0 0;
 }
 /* video YouTube */
 .storia-video { margin: 0 0 2.4em 0; }
@@ -338,11 +338,11 @@ body::before {
   font-family: var(--sans); font-size: 0.8rem; letter-spacing: 0.03em; color: #5d6b82;
   margin: 5px 0 16px;
 }
-.rist-luogo--vuoto { font-style: italic; color: #aab2bf; }
+.rist-luogo--vuoto { font-style: italic; color: #5d6b82; }
 .rist-azioni { margin-top: auto; gap: 8px; flex-wrap: wrap; }
 .rist-azioni .btn { font-size: 0.62rem; padding: 8px 12px; }
 .guida-vuoto {
-  grid-column: 1 / -1; text-align: center; font-style: italic; color: #8b95a1; padding: 50px 0;
+  grid-column: 1 / -1; text-align: center; font-style: italic; color: #5d6b82; padding: 50px 0;
 }
 
 .guida-alberghi-titolo {
@@ -592,7 +592,7 @@ body::before {
 .leaflet-popup-content { margin: 16px 18px; font-family: var(--serif); }
 .pop-oc { font-family: var(--sans); font-size: 0.62rem; letter-spacing: 0.22em; text-transform: uppercase; color: var(--blu); }
 .pop-tit { font-size: 1.15rem; font-weight: 500; margin: 4px 0 2px; line-height: 1.15; }
-.pop-luogo { font-family: var(--sans); font-size: 0.72rem; color: #6a788f; margin-bottom: 10px; }
+.pop-luogo { font-family: var(--sans); font-size: 0.72rem; color: #5d6b82; margin-bottom: 10px; }
 .pop-btn {
   display: inline-block; font-family: var(--sans); font-size: 0.66rem; letter-spacing: 0.14em;
   text-transform: uppercase; text-decoration: none;
@@ -690,7 +690,7 @@ body::before {
   font-family: var(--sans);
   font-size: 0.8rem;
   letter-spacing: 0.04em;
-  color: #6a788f;
+  color: #5d6b82;
   transition: color .4s;
 }
 .cat-freccia {
@@ -803,7 +803,7 @@ body::before {
 .btn--pieno:hover { background: var(--blu-notte); border-color: var(--blu-notte); }
 
 .vuoto {
-  text-align: center; padding: 80px 20px; color: #6a788f; font-style: italic;
+  text-align: center; padding: 80px 20px; color: #5d6b82; font-style: italic;
 }
 
 /* ---------------- PIÈ DI PAGINA ---------------- */
@@ -947,8 +947,8 @@ body::before {
 }
 .conc-card-testo { display: flex; flex-direction: column; gap: 8px; flex: 1; min-width: 0; }
 .conc-card-nome { font-family: var(--serif); font-size: 1.1rem; font-weight: 500; }
-.conc-card-citta { font-family: var(--sans); font-size: 0.78rem; color: #6a788f; }
-.conc-vuoto { text-align: center; color: #6a788f; font-style: italic; padding: 20px 0 6px; }
+.conc-card-citta { font-family: var(--sans); font-size: 0.78rem; color: #5d6b82; }
+.conc-vuoto { text-align: center; color: #5d6b82; font-style: italic; padding: 20px 0 6px; }
 
 @media (max-width: 480px) {
   .conc-bottone { right: 16px; bottom: 16px; width: 52px; height: 52px; font-size: 1.4rem; }
@@ -976,7 +976,7 @@ body::before {
 
 .itin-tappe {
   font-family: var(--sans); font-size: 0.8rem; letter-spacing: 0.03em;
-  color: #6a788f; margin-top: 14px; line-height: 1.9;
+  color: #5d6b82; margin-top: 14px; line-height: 1.9;
 }
 
 .itin-rimando { margin: -0.6em 0 2.4em; }
@@ -1008,7 +1008,7 @@ body::before {
 .itin-giorno { margin-bottom: 2.2em; }
 .itin-giorno-label {
   font-family: var(--sans); font-size: 0.68rem; letter-spacing: 0.24em;
-  text-transform: uppercase; color: var(--azzurro);
+  text-transform: uppercase; color: var(--blu);
   margin: 2.4em 0 0.3em; padding-top: 1.6em; border-top: 1px solid var(--filo);
 }
 .itin-giorno:first-of-type .itin-giorno-label { border-top: none; padding-top: 0; margin-top: 0.6em; }
@@ -1039,7 +1039,7 @@ body::before {
 .itin-tac-voce { padding: 18px 0; border-bottom: 1px solid var(--filo); }
 .itin-tac-nome { font-family: var(--serif); font-weight: 500; font-size: 1.12rem; color: var(--blu-notte); }
 .itin-tac-contatto {
-  font-family: var(--sans); font-size: 0.76rem; color: #6a788f;
+  font-family: var(--sans); font-size: 0.76rem; color: #5d6b82;
   margin: 3px 0 8px; letter-spacing: 0.02em;
 }
 .itin-tac-testo { font-family: var(--serif); font-size: 1rem; line-height: 1.62; color: #38465e; }
