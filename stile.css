@@ -287,7 +287,7 @@ body::before {
 }
 .rp-firma {
   font-family: var(--sans); font-size: 0.74rem; letter-spacing: 0.18em;
-  text-transform: uppercase; color: var(--azzurro);
+  text-transform: uppercase; color: var(--blu);
   text-align: center; margin-top: 40px;
 }
 
@@ -314,7 +314,7 @@ body::before {
 #cerca-provincia:disabled { color: #aab2bf; cursor: not-allowed; background-color: #f4f2ec; }
 .guida-conteggio {
   text-align: center; font-family: var(--sans); font-size: 0.75rem; letter-spacing: 0.14em;
-  text-transform: uppercase; color: #8b95a1; margin-bottom: 22px;
+  text-transform: uppercase; color: #5d6b82; margin-bottom: 22px;
 }
 .cerca-campo--largo { flex: 2 1 320px; }
 .guida-legenda {
@@ -335,7 +335,7 @@ body::before {
 }
 .rist-nome { font-family: var(--serif); font-size: 1.25rem; font-weight: 500; line-height: 1.15; }
 .rist-luogo {
-  font-family: var(--sans); font-size: 0.8rem; letter-spacing: 0.03em; color: #6a788f;
+  font-family: var(--sans); font-size: 0.8rem; letter-spacing: 0.03em; color: #5d6b82;
   margin: 5px 0 16px;
 }
 .rist-luogo--vuoto { font-style: italic; color: #aab2bf; }
@@ -552,7 +552,7 @@ body::before {
 }
 .scc-nome { font-family: var(--serif); font-size: 1.5rem; font-weight: 500; }
 .scc-luogo { font-family: var(--sans); font-size: 0.78rem; letter-spacing: 0.04em;
-  color: #6a788f; margin: 6px 0 16px; }
+  color: #5d6b82; margin: 6px 0 16px; }
 
 .btn--storia { border-color: var(--blu); color: var(--blu); }
 .btn--storia:hover { background: var(--blu); color: var(--bianco); }
@@ -832,7 +832,7 @@ body::before {
 .presto-online-pagina { text-align: center; padding: 80px 24px; }
 .presto-online-nome { font-family: var(--serif); font-size: 1.6rem; font-weight: 500; color: var(--blu-notte); margin-bottom: 16px; }
 .presto-online-msg { font-family: var(--serif); font-style: italic; font-size: 1.1rem; color: var(--azzurro-tenue); }
-.pie-link a { color: var(--blu) !important; opacity: 0.6; }
+.pie-link a { color: var(--blu) !important; opacity: 0.8; }
 .pie-link a:hover { opacity: 1; }
 .pie-legal a { color: var(--blu) !important; opacity: 0.5; }
 .pie-sep { color: var(--blu); opacity: 0.3; }
