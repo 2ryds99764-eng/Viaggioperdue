@@ -7408,6 +7408,20 @@ var GUIDA=[
     "web": "https://www.ilfuorn.ch",
     "note": "Dentro il Parco Nazionale Svizzero, dai tavoli si possono osservare gli animali selvatici, cucina engadinese con influssi di Valtellina e Alto Adige, pizzoccheri e ravioli di selvaggina fatti in casa, chiuso in inverno 🌳 ⛰️",
     "mappa": "Il Fuorn, Zernez, GR"
+  },
+  {
+    "nome": "Plénitude",
+    "indirizzo": "Cheval Blanc Paris, 8 Quai du Louvre",
+    "citta": "Paris",
+    "provincia": "F",
+    "prov": "F",
+    "regione": "Francia",
+    "luogo": "Paris (F)",
+    "tel": "+33 1 79 35 50 11",
+    "telefono": "+33 1 79 35 50 11",
+    "web": "https://www.chevalblanc.com/en/maison/paris/restaurants-and-bars/plenitude/",
+    "note": "Al primo piano del Cheval Blanc Paris, chef Arnaud Donckele compone le salse come un profumiere, tre Stelle Michelin nel primo anno di apertura, un record per la guida ⭐",
+    "mappa": "8 Quai du Louvre, Paris, F"
   }
 ];
 var GUIDA_REGPROV={
