@@ -7352,6 +7352,62 @@ var GUIDA=[
     "web": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/dine/anne-sophie-pic-at-le-normandie",
     "note": "Aperto nel 1958 in cima alla Tower Wing del Mandarin Oriental, dal 2025 con il nome di Anne-Sophie Pic, vista sul Chao Phraya, due Stelle Michelin nella Guida 2026, lo chef giapponese Tamaki Kobayashi in cucina ⭐ 👑",
     "mappa": "48 Oriental Avenue, Bangkok, TH"
+  },
+  {
+    "nome": "Balin",
+    "indirizzo": "Viale Rimembranza 33",
+    "citta": "Sestri Levante",
+    "provincia": "GE",
+    "prov": "GE",
+    "regione": "Liguria",
+    "luogo": "Sestri Levante (GE)",
+    "tel": "+39 349 947 2695",
+    "telefono": "+39 349 947 2695",
+    "web": "https://balin.superbexperience.com",
+    "note": "Sul lungomare, sala minuscola con veranda, progetto dal 2022 della chef Sara Capellini e del sommelier Federico Casaretto, cucina ligure con tocchi asiatici, segnalato dalla Guida Michelin ♥️",
+    "mappa": "Viale Rimembranza 33, Sestri Levante, GE"
+  },
+  {
+    "nome": "Le Comptoir du Relais Saint Germain",
+    "indirizzo": "9 carrefour de l'Odéon",
+    "citta": "Paris",
+    "provincia": "F",
+    "prov": "F",
+    "regione": "Francia",
+    "luogo": "Paris (F)",
+    "tel": "+33 1 44 27 07 97",
+    "telefono": "+33 1 44 27 07 97",
+    "web": "https://www.hotel-paris-relais-saint-germain.com/restaurant-le-comptoir",
+    "note": "Aperto nel 2005 da Yves Camdeborde, considerato il padre della bistronomie, nell'albergo Relais Saint-Germain, sala Art déco, dal 2022 allo chef Bruno Doucet ♥️",
+    "mappa": "9 carrefour de l'Odéon, Paris, F"
+  },
+  {
+    "nome": "Laite",
+    "indirizzo": "Borgata Hoffe 10",
+    "citta": "Sappada",
+    "provincia": "UD",
+    "prov": "UD",
+    "regione": "Friuli-Venezia Giulia",
+    "luogo": "Sappada (UD)",
+    "tel": "+39 0435 469070",
+    "telefono": "+39 0435 469070",
+    "web": "https://www.ristorantelaite.com",
+    "note": "In due antiche stube di legno, chef Fabrizia Meroi con il marito Roberto Brovedani e la figlia Elena in sala, una Stella Michelin, il nome in sappadino significa «un prato al sole» ⭐ ⛰️",
+    "mappa": "Borgata Hoffe 10, Sappada, UD"
+  },
+  {
+    "nome": "Il Fuorn",
+    "indirizzo": "Il Fuorn",
+    "citta": "Zernez",
+    "provincia": "GR",
+    "prov": "GR",
+    "regione": "Svizzera",
+    "luogo": "Zernez (GR)",
+    "tel": "+41 81 856 12 26",
+    "telefono": "+41 81 856 12 26",
+    "web": "https://www.ilfuorn.ch",
+    "note": "Dentro il Parco Nazionale Svizzero, dai tavoli si possono osservare gli animali selvatici, cucina engadinese con influssi di Valtellina e Alto Adige, pizzoccheri e ravioli di selvaggina fatti in casa, chiuso in inverno 🌳 ⛰️",
+    "mappa": "Il Fuorn, Zernez, GR"
   }
 ];
 var GUIDA_REGPROV={

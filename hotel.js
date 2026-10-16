@@ -4511,6 +4511,38 @@ var HOTEL=[
     "web": "https://www.scola1926.it/la-locanda/",
     "note": "Sette camere in un Albergo Diffuso nella Val Pennavaire, base ideale per free-climbing e trekking, a 16 km dalle spiagge di Albenga e Alassio ♥️ 🌳",
     "mappa": "Via Pennavaire 166, Castelbianco, SV"
+  },
+  {
+    "nome": "Hotel Parc Naziunal Il Fuorn",
+    "indirizzo": "Il Fuorn",
+    "citta": "Zernez",
+    "provincia": "GR",
+    "prov": "GR",
+    "regione": "Svizzera",
+    "luogo": "Zernez (GR)",
+    "tel": "+41 81 856 12 26",
+    "telefono": "+41 81 856 12 26",
+    "cellulare": "",
+    "email": "info@ilfuorn.ch",
+    "web": "https://www.ilfuorn.ch",
+    "note": "Nel cuore del Parco Nazionale Svizzero, 37 camere semplici lungo la strada dell'Ofenpass, chiuso in inverno 🌳 ⛰️",
+    "mappa": "Il Fuorn, Zernez, GR"
+  },
+  {
+    "nome": "Cheval Blanc Paris",
+    "indirizzo": "8 Quai du Louvre",
+    "citta": "Paris",
+    "provincia": "F",
+    "prov": "F",
+    "regione": "Francia",
+    "luogo": "Paris (F)",
+    "tel": "+33 1 40 28 00 00",
+    "telefono": "+33 1 40 28 00 00",
+    "cellulare": "",
+    "email": "info.paris@chevalblanc.com",
+    "web": "https://www.chevalblanc.com/en/maison/paris/",
+    "note": "Aperto nel 2021 nell'ex Samaritaine, affacciato sulla Senna, 72 camere e suite con interni di Peter Marino, Plénitude di Arnaud Donckele con tre Stelle Michelin, Palace dal 2026",
+    "mappa": "8 Quai du Louvre, Paris, F"
   }
 ];
 var HOTEL_PROVCITTA={
