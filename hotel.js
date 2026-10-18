@@ -4543,6 +4543,86 @@ var HOTEL=[
     "web": "https://www.chevalblanc.com/en/maison/paris/",
     "note": "Aperto nel 2021 nell'ex Samaritaine, affacciato sulla Senna, 72 camere e suite con interni di Peter Marino, Plénitude di Arnaud Donckele con tre Stelle Michelin, Palace dal 2026",
     "mappa": "8 Quai du Louvre, Paris, F"
+  },
+  {
+    "nome": "Le Coccole",
+    "indirizzo": "Borgata Lerpa 88",
+    "citta": "Sappada",
+    "provincia": "UD",
+    "prov": "UD",
+    "regione": "Friuli-Venezia Giulia",
+    "luogo": "Sappada (UD)",
+    "tel": "+39 0435 469926",
+    "telefono": "+39 0435 469926",
+    "cellulare": "",
+    "email": "info@bblecoccole.it",
+    "web": "https://bblecoccole.it",
+    "note": "B&B con sette camere profumate di abete e una spa riservata a una sola camera per volta, due ore e mezza in esclusiva ⛰️ ♥️",
+    "mappa": "Borgata Lerpa 88, Sappada, UD"
+  },
+  {
+    "nome": "Schlossar Haus",
+    "indirizzo": "Borgata Fontana 17",
+    "citta": "Sappada",
+    "provincia": "UD",
+    "prov": "UD",
+    "regione": "Friuli-Venezia Giulia",
+    "luogo": "Sappada (UD)",
+    "tel": "+39 351 960 2296",
+    "telefono": "+39 351 960 2296",
+    "cellulare": "",
+    "email": "info@schlossarhaus.com",
+    "web": "https://www.schlossarhaus.com",
+    "note": "B&B nella Sappada Vecchia della famiglia Piller Hoffer, vicino al centro, alla seggiovia Pian dei Nidi e all'anello di fondo ⛰️",
+    "mappa": "Borgata Fontana 17, Sappada, UD"
+  },
+  {
+    "nome": "1448 Antica Dimora Al Merlo Bianco",
+    "indirizzo": "Stretta Stellini 7",
+    "citta": "Cividale del Friuli",
+    "provincia": "UD",
+    "prov": "UD",
+    "regione": "Friuli-Venezia Giulia",
+    "luogo": "Cividale del Friuli (UD)",
+    "tel": "+39 0432 159 0456",
+    "telefono": "+39 0432 159 0456",
+    "cellulare": "+39 392 0296575",
+    "email": "reservation@almerlobianco.it",
+    "web": "https://almerlobianco.it",
+    "note": "Sei suite d'epoca in un'antica dimora che porta nel nome l'anno 1448, vicino al Ponte del Diavolo con scorci sul capoluogo longobardo, accanto l'osteria Al Merlo Bianco ♥️",
+    "mappa": "Stretta Stellini 7, Cividale del Friuli, UD"
+  },
+  {
+    "nome": "Il Roncal Wine & Resort",
+    "indirizzo": "Via Fornalis 148",
+    "citta": "Cividale del Friuli",
+    "provincia": "UD",
+    "prov": "UD",
+    "regione": "Friuli-Venezia Giulia",
+    "luogo": "Cividale del Friuli (UD)",
+    "tel": "+39 0432 730138",
+    "telefono": "+39 0432 730138",
+    "cellulare": "",
+    "email": "info@ilroncal.it",
+    "web": "https://www.ilroncal.it",
+    "note": "Tenuta di venti ettari sul Colle Montebello, fondata nel 1986 da Roberto Moreale e guidata dal 2006 dalla moglie Martina, dieci camere con i nomi dei vitigni friulani tra le vigne 🌳 ♥️",
+    "mappa": "Via Fornalis 148, Cividale del Friuli, UD"
+  },
+  {
+    "nome": "La Subida",
+    "indirizzo": "Via Subida 52",
+    "citta": "Cormons",
+    "provincia": "GO",
+    "prov": "GO",
+    "regione": "Friuli-Venezia Giulia",
+    "luogo": "Cormons (GO)",
+    "tel": "+39 0481 60531",
+    "telefono": "+39 0481 60531",
+    "cellulare": "",
+    "email": "info@lasubida.it",
+    "web": "https://www.lasubida.it",
+    "note": "Il borgo di case nel bosco della famiglia Sirk, Case della Nonna, Country e del Bosco, acetaia di Ribolla gialla e maneggio, con il ristorante stellato Al Cacciatore 🌳 ♥️",
+    "mappa": "Via Subida 52, Cormons, GO"
   }
 ];
 var HOTEL_PROVCITTA={
@@ -4584,6 +4664,7 @@ var HOTEL_PROVCITTA={
     "F"
   ],
   "Friuli-Venezia Giulia": [
+    "GO",
     "TS",
     "UD"
   ],

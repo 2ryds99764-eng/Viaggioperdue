@@ -7422,6 +7422,34 @@ var GUIDA=[
     "web": "https://www.chevalblanc.com/en/maison/paris/restaurants-and-bars/plenitude/",
     "note": "Al primo piano del Cheval Blanc Paris, chef Arnaud Donckele compone le salse come un profumiere, tre Stelle Michelin nel primo anno di apertura, un record per la guida ⭐",
     "mappa": "8 Quai du Louvre, Paris, F"
+  },
+  {
+    "nome": "Trattoria al Cacciatore — La Subida",
+    "indirizzo": "Via Subida 52",
+    "citta": "Cormons",
+    "provincia": "GO",
+    "prov": "GO",
+    "regione": "Friuli-Venezia Giulia",
+    "luogo": "Cormons (GO)",
+    "tel": "+39 0481 60531",
+    "telefono": "+39 0481 60531",
+    "web": "https://www.lasubida.it/a-tavola/ristorante-trattoria-al-cacciatore/",
+    "note": "Il cuore gastronomico del borgo di La Subida, creato da Loredana e Josko Sirk e oggi con i figli Tanja e Mitja, chef Alessandro Gavagna, selvaggina ed erbe spontanee, una Stella Michelin ⭐ 🌳",
+    "mappa": "Via Subida 52, Cormons, GO"
+  },
+  {
+    "nome": "Osteria La Preda — La Subida",
+    "indirizzo": "Via Subida 52",
+    "citta": "Cormons",
+    "provincia": "GO",
+    "prov": "GO",
+    "regione": "Friuli-Venezia Giulia",
+    "luogo": "Cormons (GO)",
+    "tel": "+39 0481 61689",
+    "telefono": "+39 0481 61689",
+    "web": "https://www.lasubida.it/a-tavola/osteria-de-la-subida/",
+    "note": "L'osteria della famiglia Sirk nel borgo di La Subida, cucina friulana e d'oltreconfine, pasta fresca di stagione e dispensa dei produttori del Collio ♥️",
+    "mappa": "Via Subida 52, Cormons, GO"
   }
 ];
 var GUIDA_REGPROV={
