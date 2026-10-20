@@ -4623,6 +4623,70 @@ var HOTEL=[
     "web": "https://www.lasubida.it",
     "note": "Il borgo di case nel bosco della famiglia Sirk, Case della Nonna, Country e del Bosco, acetaia di Ribolla gialla e maneggio, con il ristorante stellato Al Cacciatore 🌳 ♥️",
     "mappa": "Via Subida 52, Cormons, GO"
+  },
+  {
+    "nome": "Ardbeg House",
+    "indirizzo": "18 Charlotte Street",
+    "citta": "Port Ellen",
+    "provincia": "GB",
+    "prov": "GB",
+    "regione": "Scozia",
+    "luogo": "Port Ellen (GB)",
+    "tel": "+44 1496 730059",
+    "telefono": "+44 1496 730059",
+    "cellulare": "",
+    "email": "house@ardbeg.com",
+    "web": "https://www.ardbeghouse.com",
+    "note": "Aperto l'8 settembre 2025 nell'ex Islay Hotel, dodici camere a tema che raccontano la distilleria e le leggende dell'isola, con l'Islay Bar ♥️",
+    "mappa": "18 Charlotte Street, Port Ellen, GB"
+  },
+  {
+    "nome": "The Machrie",
+    "indirizzo": "Port Ellen",
+    "citta": "Port Ellen",
+    "provincia": "GB",
+    "prov": "GB",
+    "regione": "Scozia",
+    "luogo": "Port Ellen (GB)",
+    "tel": "+44 1496 302310",
+    "telefono": "+44 1496 302310",
+    "cellulare": "",
+    "email": "machrie-life@another.place",
+    "web": "https://another.place/the-machrie",
+    "note": "Tra le dune sull'Atlantico, 43 camere e lodge accanto al percorso da golf del 1891 di Willie Campbell, rifatto nel 2018 🌄 ♥️",
+    "mappa": "The Machrie, Port Ellen, GB"
+  },
+  {
+    "nome": "Port Charlotte Hotel",
+    "indirizzo": "Main Street",
+    "citta": "Port Charlotte",
+    "provincia": "GB",
+    "prov": "GB",
+    "regione": "Scozia",
+    "luogo": "Port Charlotte (GB)",
+    "tel": "+44 1496 850360",
+    "telefono": "+44 1496 850360",
+    "cellulare": "",
+    "email": "info@portcharlottehotel.co.uk",
+    "web": "https://www.portcharlottehotel.co.uk/",
+    "note": "Albergo vittoriano restaurato sulla riva del Loch Indaal, dieci camere, il giardino dà direttamente sulla spiaggia, musica dal vivo e centinaia di whisky 🌅 ♥️",
+    "mappa": "Main Street, Port Charlotte, GB"
+  },
+  {
+    "nome": "Jura Hotel",
+    "indirizzo": "Craighouse",
+    "citta": "Craighouse",
+    "provincia": "GB",
+    "prov": "GB",
+    "regione": "Scozia",
+    "luogo": "Craighouse (GB)",
+    "tel": "+44 1496 820243",
+    "telefono": "+44 1496 820243",
+    "cellulare": "",
+    "email": "hello@jurahotel.co.uk",
+    "web": "https://www.jurahotel.co.uk",
+    "note": "L'unico albergo dell'isola di Jura, a gestione familiare, diciassette camere a pochi metri dalla distilleria, con l'unico pub dell'isola 🌳 ♥️",
+    "mappa": "Craighouse, Isle of Jura, GB"
   }
 ];
 var HOTEL_PROVCITTA={
@@ -4729,6 +4793,9 @@ var HOTEL_PROVCITTA={
   ],
   "Sardegna": [
     "SS"
+  ],
+  "Scozia": [
+    "GB"
   ],
   "Sicilia": [
     "AG",

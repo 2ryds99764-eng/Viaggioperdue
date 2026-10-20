@@ -7450,6 +7450,34 @@ var GUIDA=[
     "web": "https://www.lasubida.it/a-tavola/osteria-de-la-subida/",
     "note": "L'osteria della famiglia Sirk nel borgo di La Subida, cucina friulana e d'oltreconfine, pasta fresca di stagione e dispensa dei produttori del Collio ♥️",
     "mappa": "Via Subida 52, Cormons, GO"
+  },
+  {
+    "nome": "Lochindaal Seafood Kitchen",
+    "indirizzo": "Main Street",
+    "citta": "Port Charlotte",
+    "provincia": "GB",
+    "prov": "GB",
+    "regione": "Scozia",
+    "luogo": "Port Charlotte (GB)",
+    "tel": "+44 1496 850202",
+    "telefono": "+44 1496 850202",
+    "web": "https://www.lochindaalhotel.co.uk/lochindaal-seafood-kitchen.html",
+    "note": "Sulla riva del loch con vista sul faro, gestito da una famiglia di Port Charlotte con una lunga storia nella pesca, piatti di mare dalla pesca locale, il vassoio completo si prenota con 24 ore di anticipo 🌅",
+    "mappa": "Main Street, Port Charlotte, GB"
+  },
+  {
+    "nome": "Peatzeria",
+    "indirizzo": "22 Shore Street",
+    "citta": "Bowmore",
+    "provincia": "GB",
+    "prov": "GB",
+    "regione": "Scozia",
+    "luogo": "Bowmore (GB)",
+    "tel": "+44 1496 305171",
+    "telefono": "+44 1496 305171",
+    "web": "https://peatzeria.com",
+    "note": "Pizzeria di famiglia aperta nell'aprile 2017 nell'ex chiesa episcopale della Shore Street, con vista sul Loch Indaal, pizze con aragosta, capesante e haggis 🌅",
+    "mappa": "22 Shore Street, Bowmore, GB"
   }
 ];
 var GUIDA_REGPROV={
