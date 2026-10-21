@@ -1220,20 +1220,6 @@ var GUIDA=[
     "mappa": "Via dell’Orizzonte 2, Gabicce Monte, PU"
   },
   {
-    "nome": "Dalla Gioconda",
-    "indirizzo": "Via dell’Orizzonte 2",
-    "citta": "Gabicce Monte",
-    "provincia": "PU",
-    "prov": "PU",
-    "regione": "Marche",
-    "luogo": "Gabicce Monte (PU)",
-    "tel": "+39 0541 962295",
-    "telefono": "+39 0541 962295",
-    "web": "https://www.dallagioconda.it",
-    "note": "",
-    "mappa": "Via dell’Orizzonte 2, Gabicce Monte, PU"
-  },
-  {
     "nome": "Daniel",
     "indirizzo": "Via San Marco, angolo Castelfidardo 7",
     "citta": "Milano",
@@ -3120,7 +3106,7 @@ var GUIDA=[
     "tel": "+39 0921 671228",
     "telefono": "+39 0921 671228",
     "web": "https://www.hostarianangalarruni.it",
-    "note": "Premiate trattorie italiane",
+    "note": "Premiate trattorie italiane, cucina di funghi e Madonie, oltre 600 etichette in cantina",
     "mappa": "Via delle Confraternite 7, Castelbuono, PA"
   },
   {
@@ -5391,20 +5377,6 @@ var GUIDA=[
     "web": "https://www.pasticceriacappello.it",
     "note": "Da 50 anni, patria della torta Setteveli",
     "mappa": "Via Colonna Rotta 68, Palermo, PA"
-  },
-  {
-    "nome": "Nangalarruni",
-    "indirizzo": "Cortile Ventimiglia 5",
-    "citta": "Castelbuono",
-    "provincia": "PA",
-    "prov": "PA",
-    "regione": "Sicilia",
-    "luogo": "Castelbuono (PA)",
-    "tel": "+39 0921 671228",
-    "telefono": "+39 0921 671228",
-    "web": "https://www.hostarianangalarruni.it",
-    "note": "Cucina di funghi e Madonie, oltre 600 etichette in cantina",
-    "mappa": "Cortile Ventimiglia 5, Castelbuono, PA"
   },
   {
     "nome": "Cortile Pepe",
