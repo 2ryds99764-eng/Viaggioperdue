@@ -1098,3 +1098,6 @@ body::before {
   background: var(--blu); color: #fff; border: none; cursor: pointer;
 }
 .cip-bottone:hover { opacity: 0.9; }
+
+/* Contrasto dell'attribuzione di Leaflet (componente di terzi) */
+.leaflet-container .leaflet-control-attribution a { color: var(--blu); }
