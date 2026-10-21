@@ -2050,6 +2050,155 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
       "Ristoranti dell'itinerario — vedi il taccuino \"Dove sedersi a tavola\".",
       "Numeri di emergenza — 112 per qualunque emergenza."
     ]
+  },
+
+  "islay-jura": {
+    occhiello: "Un itinerario per due",
+    titolo: "Whisky e scrittori",
+    sottotitolo: "Islay e Jura, sei giorni nelle Ebridi Interne",
+    regione: "Scozia",
+    copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/C18FDDA1-2DAD-4010-98F9-C3410AEE75FC_eomjkz",
+    tappe: ["Port Ellen","Bowmore","Port Charlotte","Kilchoman","Port Askaig","Craighouse","Ardlussa"],
+
+    epigrafe: {
+      testo: "Raccontiamo, non giudichiamo. La libertà di scoprire appartiene a chi viaggia, non a chi scrive.",
+      fonte: ""
+    },
+
+    apertura: [
+      "Islay e Jura sono separate da un braccio di mare che il traghetto attraversa in cinque minuti. Da una parte la «regina delle Ebridi», l'isola del torbato, dove si visitano dieci distillerie; dall'altra una sola strada, poco più di duecento abitanti e la casa isolata in cui George Orwell scrisse 1984. Sei giorni bastano per attraversarle entrambe, a patto di non avere fretta.",
+      "Si arriva in traghetto da Kennacraig e si comincia da Islay: due giorni a sud, dove tre distillerie si raggiungono a piedi da Port Ellen; uno al centro, fra Bowmore e il Loch Indaal; uno al nord, prima del traghetto per Jura. Poi si sale lungo la strada unica fino dove finisce, e si cammina.",
+      "Quello che segue non è un elenco di etichette da spuntare. È un percorso possibile, con dentro gli indirizzi di chi lavora bene: un albergo nato in un vecchio hotel di paese, la cucina di mare di una famiglia sulla riva del loch, l'unico albergo di un'isola. Il resto, la luce, le maree, il vento, appartiene a chi viaggia."
+    ],
+
+    percorso: {
+      intro: "Port Ellen per due notti, Port Charlotte per una, Craighouse per due. Cinque notti in tutto, tre alberghi, e un traghetto di cinque minuti nel mezzo.",
+      giorni: [
+        { giorno: "Giorno primo", titolo: "Port Ellen", km: "", testo: "L'arrivo a Port Askaig, la discesa a Port Ellen e il sentiero fino a Laphroaig." },
+        { giorno: "Giorno secondo", titolo: "La costa sud", km: "", testo: "Lagavulin e Ardbeg lungo la riva, Port Ellen su appuntamento." },
+        { giorno: "Giorno terzo", titolo: "Bowmore e il Loch Indaal", km: "", testo: "Bowmore, Bruichladdich, Kilchoman; notte a Port Charlotte." },
+        { giorno: "Giorno quarto", titolo: "Il nord e il Sound", km: "", testo: "Caol Ila, Ardnahoe, Bunnahabhain; il traghetto da Port Askaig." },
+        { giorno: "Giorno quinto", titolo: "La strada di Orwell", km: "", testo: "La strada lunga fino a Ardlussa, a piedi o in barca verso Barnhill e il Corryvreckan." },
+        { giorno: "Giorno sesto", titolo: "Craighouse", km: "", testo: "La distilleria, la baia e la partenza nel primo pomeriggio." }
+      ]
+    },
+
+    giorni: [
+      {
+        label: "Giorno primo",
+        titolo: "Port Askaig e Port Ellen",
+        paragrafi: [
+          "Il traghetto da Kennacraig impiega poco meno di due ore e approda a Port Askaig, sul Sound of Islay. Dal giugno 2026 fino al 2029 è l'unico scalo dell'isola, perché Port Ellen è chiuso per lavori. Si scende verso sud per circa venti miglia, fino a Port Ellen, un villaggio sulla Kilnaughton Bay dove comincia il Three Distilleries Pathway: un sentiero asfaltato, separato dalla strada, che segue la costa fino ad Ardbeg per circa tre miglia. Il primo miglio porta a Laphroaig, fondata nel 1815 dai fratelli Donald e Alexander Johnston, con il pavimento di maltazione ancora in funzione e la torba tagliata a mano. I muri sono bianchi e le rifiniture nere, come in quasi tutte le distillerie dell'isola; si dice che l'abitudine risalga ai tempi in cui le botti partivano via mare."
+        ],
+        note: ["Si dorme a Port Ellen, all'Ardbeg House, aperto nel settembre 2025 nell'ex Islay Hotel, oppure al Machrie, tra le dune.", "Le visite a Laphroaig vanno prenotate."],
+        ristoranti: []
+      },
+      {
+        label: "Giorno secondo",
+        titolo: "La costa sud",
+        paragrafi: [
+          "Il secondo giorno si fa a piedi, lungo la stessa riva. Lagavulin, a metà del sentiero, è del 1816, l'anno in cui la legge cominciò ad aprire la strada alla produzione in regola dopo decenni di distillazione clandestina. Più avanti c'è Ardbeg, del 1815, con la fama di essere la più fumosa e meno accomodante delle tre, e un caffè per fermarsi alla fine del sentiero. Da lì un autobus riporta a Port Ellen, dove la distilleria rinata nel 2024, dopo quarantun anni di silenzio, si visita solo su appuntamento."
+        ],
+        note: ["Si dorme ancora a Port Ellen.", "Lagavulin: le visite si prenotano, negozio e bar no. La distilleria di Port Ellen si visita solo su appuntamento."],
+        ristoranti: []
+      },
+      {
+        label: "Giorno terzo",
+        titolo: "Bowmore e il Loch Indaal",
+        paragrafi: [
+          "Si va verso il centro dell'isola, fino a Bowmore, la capitale, dove la distilleria è del 1779, la più antica con licenza di Islay, sulla riva del Loch Indaal. La visita al No. 1 Vaults porta in un magazzino di pietra sotto il livello del mare, dove con l'alta marea l'acqua sale oltre il pavimento dall'altra parte del muro. Sull'altra sponda del loch c'è Bruichladdich, del 1881, rimasta chiusa dal 1994 e riaperta nel 2001, con tre whisky sotto lo stesso tetto: il non torbato, il Port Charlotte e l'Octomore, il più torbato del mondo. A ovest, verso Machir Bay, Kilchoman, del 2005, la prima distilleria nuova dell'isola da oltre un secolo e l'unica a produrre tutto da una sola fattoria. La sera ha il Loch Indaal davanti, e a Port Charlotte un giardino che arriva alla spiaggia."
+        ],
+        note: ["Si dorme a Port Charlotte, al Port Charlotte Hotel, albergo vittoriano sulla riva.", "Pranzo a Bowmore alla Peatzeria, nell'ex chiesa episcopale di Shore Street; cena alla Lochindaal Seafood Kitchen, dove il vassoio completo va prenotato con 24 ore di anticipo."],
+        ristoranti: ["Peatzeria", "Lochindaal Seafood Kitchen"]
+      },
+      {
+        label: "Giorno quarto",
+        titolo: "Il nord e il Sound",
+        paragrafi: [
+          "Da Port Ellen si risale verso nord, fino al Sound of Islay, con le montagne di Jura che si fanno sempre più vicine. Caol Ila, del 1846, è la più grande distilleria dell'isola, e dalla sala degli alambicchi si vedono le Paps of Jura. Più avanti c'è Ardnahoe, aperta nel 2019, con un caffè affacciato sul Sound, e in fondo alla strada, isolata sul capo nord-orientale, Bunnahabhain, il cui nome significa «foce del fiume». Poi si torna a Port Askaig e si prende il traghetto per Jura: cinque minuti, mezzo miglio di mare, si paga a bordo e non si prenota. A Feolin la strada sale verso Craighouse."
+        ],
+        note: ["Si dorme a Craighouse, al Jura Hotel, l'unico albergo dell'isola.", "Ardnahoe è aperta da martedì a sabato; Caol Ila si visita su prenotazione. Non arrivare all'ultimo al traghetto di Feolin: può partire 5-10 minuti in anticipo."],
+        ristoranti: []
+      },
+      {
+        label: "Giorno quinto",
+        titolo: "La strada di Orwell",
+        paragrafi: [
+          "La strada di Jura è una sola, e la mattina la si percorre verso nord fino a oltre Ardlussa, dove un cancello ferma le auto. Da qui si cammina: circa quattro miglia fino a Barnhill, la fattoria isolata in cui George Orwell, arrivato sull'isola nel 1946, scrisse 1984. Oggi è una casa in affitto e non si visita: si guarda dal sentiero, senza avvicinarsi. Il cammino prosegue fino al Corryvreckan, il gorgo in cui, nell'agosto del 1947, Orwell rischiò di annegare con il figlio di tre anni. Il percorso, andata e ritorno, è di circa ventuno chilometri, sei o sette ore; in alternativa un giro in barca di qualche ora, con partenze scelte secondo le maree, porta lungo la stessa costa."
+        ],
+        note: ["Si dorme ancora a Craighouse.", "Barnhill è privata: si guarda dal sentiero. Il tratto finale è molto fangoso, e il gorgo si vede bene solo con le maree giuste: chi non cammina prenota la barca (Jura Boat Tours)."],
+        ristoranti: []
+      },
+      {
+        label: "Giorno sesto",
+        titolo: "Craighouse",
+        paragrafi: [
+          "L'ultimo giorno è di Craighouse, l'unico villaggio dell'isola, sulla costa orientale, all'estremità sud della Small Isles Bay. La distilleria sta all'unico incrocio del paese: fondata nel 1810 dal laird Archibald Campbell, chiusa nei primi anni del Novecento e rifatta nel 1963 da due proprietari dell'isola per ridare lavoro a un'isola che si spopolava. Nel paese c'è anche l'unica distilleria di rum di Jura, la Deer Island. Si riparte nel primo pomeriggio, con la strada fino a Feolin, il traghetto per Port Askaig e la nave per Kennacraig."
+        ],
+        note: ["Le visite alla distilleria vanno prenotate; gli orari variano da fonte a fonte.", "L'ultima nave da Port Askaig parte nel tardo pomeriggio: non lasciare Craighouse più tardi di metà pomeriggio."],
+        ristoranti: []
+      }
+    ],
+
+    taccuino: {
+      dormire: [
+        {
+          zona: "Port Ellen", notti: "due notti",
+          strutture: [
+            { nome: "Ardbeg House", contatto: "18 Charlotte Street, tel. +44 1496 730059", testo: "Aperto nel settembre 2025 nell'ex Islay Hotel: dodici camere a tema che raccontano la distilleria e le leggende dell'isola, con l'Islay Bar." },
+            { nome: "The Machrie", contatto: "Port Ellen, tel. +44 1496 302310", testo: "Tra le dune sull'Atlantico, 43 camere e lodge accanto al percorso da golf del 1891 di Willie Campbell, rifatto nel 2018." }
+          ]
+        },
+        {
+          zona: "Port Charlotte", notti: "una notte",
+          strutture: [
+            { nome: "Port Charlotte Hotel", contatto: "Main Street, tel. +44 1496 850360", testo: "Albergo vittoriano restaurato sulla riva del Loch Indaal, dieci camere, con il giardino che arriva alla spiaggia; musica dal vivo e centinaia di whisky." }
+          ]
+        },
+        {
+          zona: "Craighouse", notti: "due notti",
+          strutture: [
+            { nome: "Jura Hotel", contatto: "Craighouse, tel. +44 1496 820243", testo: "L'unico albergo dell'isola, a gestione familiare, diciassette camere a pochi metri dalla distilleria, con l'unico pub." }
+          ]
+        }
+      ],
+
+      tavola: {
+        intro: "Gli indirizzi principali sono già segnati giorno per giorno; li ripetiamo qui in ordine di percorso.",
+        voci: [
+          { nome: "Peatzeria" },
+          { nome: "Lochindaal Seafood Kitchen" }
+        ]
+      },
+
+      approfondimenti: [
+        {
+          titolo: "Torbato e non torbato",
+          testo: "A Islay il malto si asciuga sul fuoco di torba, e il fumo passa nel whisky. Le tre distillerie del sud, Laphroaig, Lagavulin e Ardbeg, sono fra le più torbate, con Ardbeg che ha fama di essere la più fumosa. Caol Ila, sul Sound, è torbata ma più delicata, mentre Bunnahabhain, a nord, è nota per essere in genere non torbata. Bruichladdich fa tutti e tre gli stili sotto lo stesso tetto: il non torbato, il Port Charlotte e l'Octomore, il più torbato del mondo. Jura, di là dal Sound, ha uno stile più leggero e meno assertivo di quello di Islay."
+        }
+      ],
+
+      aTavola: {
+        titolo: "Che cosa si mangia a Islay",
+        testo: "A Islay la tavola guarda il mare: pesce e crostacei dalla pesca locale alla Lochindaal Seafood Kitchen, e a Bowmore pizze con aragosta, capesante e haggis. Ad Ardnahoe c'è anche un caffè affacciato sul Sound."
+      }
+    },
+
+    primaDiChiudere: [
+      { titolo: "COME SI ARRIVA", sotto: "Kennacraig, poi Port Askaig", testo: "Da Glasgow a Kennacraig sono circa due ore e mezza di strada, poi la nave CalMac impiega meno di due ore fino a Port Askaig. Dal 2 giugno 2026 fino al 2029 Port Ellen è chiuso e tutte le corse vanno a Port Askaig. Si prenota online, anche a piedi." },
+      { titolo: "LE NAVI", sotto: "inverno 2026/27", testo: "Da Port Askaig la prima partenza è alle 7:00 e l'ultima tra le 17:25 e le 18:05, secondo il giorno. Check-in 30 minuti prima per le auto, 10 a piedi. L'orario estivo 2027 non è ancora pubblicato." },
+      { titolo: "IL TRAGHETTO PER JURA", sotto: "cinque minuti, senza prenotare", testo: "Si paga a bordo. Le corse regolari arrivano fino a circa le 18:30; una corsa tarda alle 21:30 va prenotata entro mezzogiorno del giorno prima. Può partire 5-10 minuti in anticipo." },
+      { titolo: "L'AUTO", sotto: "necessaria", testo: "Le strade di Islay e di Jura sono a corsia unica. A Jura l'auto arriva fino al cancello oltre Ardlussa." },
+      { titolo: "LE VISITE", sotto: "si prenotano", testo: "Laphroaig, Lagavulin, Caol Ila e la distilleria di Jura vanno prenotate; Port Ellen solo su appuntamento; Ardnahoe da martedì a sabato. Gli orari cambiano con la stagione." },
+      { titolo: "SE SI VUOLE RESTARE UN GIORNO IN PIÙ", sotto: "sei notti", testo: "Si dorme a Port Askaig, al Port Askaig Hotel, a pochi passi dal molo, e si prende la nave delle 7:00." },
+      { titolo: "FÈIS ÌLE", sotto: "fine maggio", testo: "Per il festival del malto CalMac cambia l'orario e aggiunge corse. Chi viaggia in quei giorni prenota con largo anticipo." }
+    ],
+
+    numeriUtili: [
+      "Ristoranti dell'itinerario — vedi il taccuino \"Dove sedersi a tavola\".",
+      "Emergenze — 999 o 112; per il soccorso in mare si chiama il 999 e si chiede la Guardia costiera.",
+      "Stato delle corse — pagina service status di CalMac e app; traghetto di Jura: juraferry.argyll-bute.gov.uk."
+    ]
   }
 
 });
