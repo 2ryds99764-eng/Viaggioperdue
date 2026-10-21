@@ -828,10 +828,10 @@ body::before {
 .ig-link:hover { opacity: 1; }
 .ig-link svg { display: inline-block; vertical-align: middle; color: var(--blu); }
 /* presto online */
-.presto-online { font-family: var(--serif); font-style: italic; font-size: 0.9rem; color: var(--azzurro-tenue); }
+.presto-online { font-family: var(--serif); font-style: italic; font-size: 0.9rem; color: #5d6b82; }
 .presto-online-pagina { text-align: center; padding: 80px 24px; }
 .presto-online-nome { font-family: var(--serif); font-size: 1.6rem; font-weight: 500; color: var(--blu-notte); margin-bottom: 16px; }
-.presto-online-msg { font-family: var(--serif); font-style: italic; font-size: 1.1rem; color: var(--azzurro-tenue); }
+.presto-online-msg { font-family: var(--serif); font-style: italic; font-size: 1.1rem; color: #5d6b82; }
 .pie-link a { color: var(--blu) !important; opacity: 0.8; }
 .pie-link a:hover { opacity: 1; }
 .pie-legal a { color: var(--blu) !important; opacity: 0.5; }
