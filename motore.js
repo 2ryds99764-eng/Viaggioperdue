@@ -1471,7 +1471,7 @@ function costruisciConcierge() {
   const host = document.createElement("div");
   host.innerHTML =
     '<button id="conc-bottone" class="conc-bottone" type="button" aria-haspopup="dialog" aria-label="Apri l\'assistente di viaggio">🛎️</button>' +
-    '<div id="conc-overlay" class="conc-overlay" hidden>' +
+    '<div id="conc-overlay" class="conc-overlay" data-lenis-prevent hidden>' +
       '<div class="conc-modale" role="dialog" aria-modal="true" aria-label="Assistente di viaggio">' +
         '<button id="conc-chiudi" class="conc-chiudi" type="button" aria-label="Chiudi">×</button>' +
         '<div id="conc-passi" class="conc-passi">' +
@@ -1488,7 +1488,7 @@ function costruisciConcierge() {
   if (!localStorage.getItem("vpd-benvenuto-visto")) {
     const benvenuto = document.createElement("div");
     benvenuto.innerHTML =
-      '<div id="benvenuto-overlay" class="conc-overlay">' +
+      '<div id="benvenuto-overlay" class="conc-overlay" data-lenis-prevent>' +
         '<div class="conc-modale" role="dialog" aria-modal="true" aria-label="Benvenuto">' +
           '<button id="benvenuto-chiudi" class="conc-chiudi" type="button" aria-label="Chiudi">×</button>' +
           '<div class="conc-corpo">' +
