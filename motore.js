@@ -46,7 +46,7 @@ const ETICHETTE_SIMBOLO_RISTORANTE = {
   "🌄": "Splendida vista",
   "🥪": "Sandwich gourmet",
   "⛱️": "Spiaggia",
-  "⭐": "Stella Michelin",
+  "💎": "Grande tavola",
   "⛰️": "Montagna",
   "📜": "Tradizione familiare",
   "👑": "Grande tradizione"

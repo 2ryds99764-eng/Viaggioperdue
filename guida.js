@@ -473,7 +473,7 @@ var GUIDA=[
     "tel": "+39 089 871029",
     "telefono": "+39 089 871029",
     "web": "http://www.ristorantelacaravella.it",
-    "note": "Dal 1959 tra ceramiche antiche e posate di Giò Ponti, gli 'Ndunderi premiati dal 'Sole' di Veronelli, il soufflé nato per errore che incantò Quasimodo ⭐ 👑",
+    "note": "Dal 1959 tra ceramiche antiche e posate di Giò Ponti, gli 'Ndunderi premiati dal 'Sole' di Veronelli, il soufflé nato per errore che incantò Quasimodo 💎 👑",
     "mappa": "Via Matteo Camera 12, Amalfi, SA",
     "storia": "caravella"
   },
@@ -1202,7 +1202,7 @@ var GUIDA=[
     "tel": "+39 0376 723001",
     "telefono": "+39 0376 723001",
     "web": "https://www.dalpescatore.com/it",
-    "note": "Fondato nel 1925 come osteria 'Vino e Pesce' vicino a un laghetto, tre Stelle Michelin dal 1996, Nadia Santini prima donna italiana a raggiungerle, oggi alla quarta generazione ⭐ 👑 ♥️",
+    "note": "Fondato nel 1925 come osteria 'Vino e Pesce' vicino a un laghetto, tre Stelle Michelin dal 1996, Nadia Santini prima donna italiana a raggiungerle, oggi alla quarta generazione 💎 👑 ♥️",
     "mappa": "Località Runate 15 · Riserva del Parco Oglio, Runate, MN"
   },
   {
@@ -1636,7 +1636,7 @@ var GUIDA=[
     "tel": "+39 0577 920549",
     "telefono": "+39 0577 920549",
     "web": "https://www.arnolfo.com",
-    "note": "Due Stelle Michelin dal 1997, chef Gaetano Trovato (Mentor Chef Award 2024): nel 2022, dopo quarant'anni nel centro storico, si è trasferito in un edificio di vetro e marmo firmato da Andrea Milani su una collina davanti al borgo medievale, lasciando la vecchia sede a Bis 🌄 ♥️ ⭐ 👑",
+    "note": "Due Stelle Michelin dal 1997, chef Gaetano Trovato (Mentor Chef Award 2024): nel 2022, dopo quarant'anni nel centro storico, si è trasferito in un edificio di vetro e marmo firmato da Andrea Milani su una collina davanti al borgo medievale, lasciando la vecchia sede a Bis 🌄 ♥️ 💎 👑",
     "mappa": "Viale della Rimembranza 24, Colle di Val d'Elsa, SI"
   },
   {
@@ -3764,7 +3764,7 @@ var GUIDA=[
     "tel": "+43 662 2197 0",
     "telefono": "+43 662 2197 0",
     "web": "https://www.hangar-7.com/",
-    "note": "Ogni mese un grande chef diverso ai fornelli, nell'Hangar-7 dall'architettura di vetro, tra gli aerei storici della collezione The Flying Bulls ⭐ 👑",
+    "note": "Ogni mese un grande chef diverso ai fornelli, nell'Hangar-7 dall'architettura di vetro, tra gli aerei storici della collezione The Flying Bulls 💎 👑",
     "mappa": "Wilhelm-Spazier-Strasse 7A, Salisburgo, S"
   },
   {
@@ -4184,7 +4184,7 @@ var GUIDA=[
     "tel": "+30 210 75 64 021",
     "telefono": "+30 210 75 64 021",
     "web": "https://www.spondi.gr/",
-    "note": "Aperto nel 1996 da Apostolos Trastelis, primo ristorante ateniese a ricevere due Stelle Michelin, vicino allo Stadio Panatenaico e all'Acropoli, oggi chef Arnaud Bignon ⭐ 👑",
+    "note": "Aperto nel 1996 da Apostolos Trastelis, primo ristorante ateniese a ricevere due Stelle Michelin, vicino allo Stadio Panatenaico e all'Acropoli, oggi chef Arnaud Bignon 💎 👑",
     "mappa": "5 Pyrronos Street, Atene, GR"
   },
   {
@@ -5207,7 +5207,7 @@ var GUIDA=[
     "tel": "+39 0931 1815404",
     "telefono": "+39 0931 1815404",
     "web": "https://www.cortilespiritosanto.com",
-    "note": "1 Stella Michelin, chef Giuseppe Torrisi, dentro Palazzo Salomone ⭐",
+    "note": "1 Stella Michelin, chef Giuseppe Torrisi, dentro Palazzo Salomone 💎",
     "mappa": "Via Salomone 21, Siracusa, SR"
   },
   {
@@ -5753,7 +5753,7 @@ var GUIDA=[
     "tel": "+39 081 993190",
     "telefono": "+39 081 993190",
     "web": "https://danimaison.it/it/",
-    "note": "Due Stelle Michelin, chef Nino Di Costanzo nella sua casa di famiglia, solo 16 coperti ⭐ ♥️",
+    "note": "Due Stelle Michelin, chef Nino Di Costanzo nella sua casa di famiglia, solo 16 coperti 💎 ♥️",
     "mappa": "Via Montetignuso 4, Ischia, NA",
     "storia": "dani-maison"
   },
@@ -5782,7 +5782,7 @@ var GUIDA=[
     "tel": "+49 89 21 20 00",
     "telefono": "+49 89 21 20 00",
     "web": "https://www.bayerischerhof.de/",
-    "note": "Nel Hotel Bayerischer Hof, atelier d'artista firmato dal designer Axel Vervoordt, cucina francese purista dello chef Anton Gschwendtner ⭐ 👑",
+    "note": "Nel Hotel Bayerischer Hof, atelier d'artista firmato dal designer Axel Vervoordt, cucina francese purista dello chef Anton Gschwendtner 💎 👑",
     "mappa": "Promenadeplatz 2-6, München, M"
   },
   {
@@ -5796,7 +5796,7 @@ var GUIDA=[
     "tel": "+49 5361 60 60 56",
     "telefono": "+49 5361 60 60 56",
     "web": "https://www.restaurant-aqua.com/",
-    "note": "Nel Ritz-Carlton Wolfsburg, composizioni fresche ed essenziali dello chef Sven Elverfeld, cucina tedesco-europea reinventata ⭐ 👑",
+    "note": "Nel Ritz-Carlton Wolfsburg, composizioni fresche ed essenziali dello chef Sven Elverfeld, cucina tedesco-europea reinventata 💎 👑",
     "mappa": "Parkstrasse 1, Wolfsburg, WOB"
   },
   {
@@ -5810,7 +5810,7 @@ var GUIDA=[
     "tel": "+49 7442 470",
     "telefono": "+49 7442 470",
     "web": "https://www.bareiss.com/",
-    "note": "Resort di lusso nel cuore della Foresta Nera da tre generazioni, cucina fresca e raffinata dello chef Claus-Peter Lumpp ⭐ 👑",
+    "note": "Resort di lusso nel cuore della Foresta Nera da tre generazioni, cucina fresca e raffinata dello chef Claus-Peter Lumpp 💎 👑",
     "mappa": "Hermine-Bareiss-Weg, Baiersbronn-Mitteltal, FDS"
   },
   {
@@ -5824,7 +5824,7 @@ var GUIDA=[
     "tel": "+49 89 358 991 814",
     "telefono": "+49 89 358 991 814",
     "web": "https://www.esszimmer-muenchen.de/",
-    "note": "In cima al BMW Welt, una delle architetture più moderne al mondo, due Stelle Michelin dello chef Bobby Bräuer ⭐ 👑",
+    "note": "In cima al BMW Welt, una delle architetture più moderne al mondo, due Stelle Michelin dello chef Bobby Bräuer 💎 👑",
     "mappa": "Am Olympiapark 1, München, M"
   },
   {
@@ -5838,7 +5838,7 @@ var GUIDA=[
     "tel": "+49 681 95 82 68 2",
     "telefono": "+49 681 95 82 68 2",
     "web": "https://www.gaestehaus-erfort.de/",
-    "note": "Sinfonie di sapori francesi dello chef Klaus Erfort, con un parco secolare e una Teehaus da visitare ⭐ 👑",
+    "note": "Sinfonie di sapori francesi dello chef Klaus Erfort, con un parco secolare e una Teehaus da visitare 💎 👑",
     "mappa": "Mainzer Strasse 95, Saarbrücken, SB"
   },
   {
@@ -5852,7 +5852,7 @@ var GUIDA=[
     "tel": "+49 40 34 94 33 02",
     "telefono": "+49 40 34 94 33 02",
     "web": "https://www.restaurant-haerlin.de/",
-    "note": "Nel Fairmont Hotel Vier Jahreszeiten, due Stelle Michelin dello chef Christoph Rüffer, piatti stagionali dai sapori sorprendenti ⭐ 👑",
+    "note": "Nel Fairmont Hotel Vier Jahreszeiten, due Stelle Michelin dello chef Christoph Rüffer, piatti stagionali dai sapori sorprendenti 💎 👑",
     "mappa": "Neuer Jungfernstieg 9-14, Hamburg, HH"
   },
   {
@@ -5866,7 +5866,7 @@ var GUIDA=[
     "tel": "+49 7634 8208",
     "telefono": "+49 7634 8208",
     "web": "https://www.douce-steiner.de/",
-    "note": "Gestito dalla famiglia Steiner da quarant'anni, ai bordi della Foresta Nera, cantina con circa 500 etichette ⭐ 👑",
+    "note": "Gestito dalla famiglia Steiner da quarant'anni, ai bordi della Foresta Nera, cantina con circa 500 etichette 💎 👑",
     "mappa": "Hauptstrasse 69, Sulzburg, FR"
   },
   {
@@ -5880,7 +5880,7 @@ var GUIDA=[
     "tel": "+49 89 23 70 86 58",
     "telefono": "+49 89 23 70 86 58",
     "web": "https://www.jan-hartwig.com/",
-    "note": "Sogno di una vita per lo chef Jan Hartwig, tre Stelle Michelin ottenute appena cinque mesi dopo l'apertura ⭐ 👑",
+    "note": "Sogno di una vita per lo chef Jan Hartwig, tre Stelle Michelin ottenute appena cinque mesi dopo l'apertura 💎 👑",
     "mappa": "Luisenstrasse 27, München, M"
   },
   {
@@ -5894,7 +5894,7 @@ var GUIDA=[
     "tel": "+49 69 900 29 10",
     "telefono": "+49 69 900 29 10",
     "web": "https://www.restaurant-lafleur.de/",
-    "note": "Cucina d'artigianato moderno dello chef Andreas Krolik, primo chef stellato d'Europa a creare un menu vegano da sei portate nel 2014 ⭐ 👑",
+    "note": "Cucina d'artigianato moderno dello chef Andreas Krolik, primo chef stellato d'Europa a creare un menu vegano da sei portate nel 2014 💎 👑",
     "mappa": "Palmengartenstrasse 11, Frankfurt am Main, F"
   },
   {
@@ -5908,7 +5908,7 @@ var GUIDA=[
     "tel": "+49 771 84 610",
     "telefono": "+49 771 84 610",
     "web": "https://www.oeschberghof.com/",
-    "note": "Nell'Öschberghof, due Stelle Michelin ottenute dallo chef Manuel Ulrich in soli due anni con prodotti d'eccellenza ⭐ 👑",
+    "note": "Nell'Öschberghof, due Stelle Michelin ottenute dallo chef Manuel Ulrich in soli due anni con prodotti d'eccellenza 💎 👑",
     "mappa": "Golfplatz 1, Donaueschingen, VS"
   },
   {
@@ -5922,7 +5922,7 @@ var GUIDA=[
     "tel": "+49 6507 9 25 20",
     "telefono": "+49 6507 9 25 20",
     "web": "https://www.schanz-restaurant.de/",
-    "note": "In una decina d'anni asceso al vertice della cucina tedesca, tra i vigneti della Mosella, cucina francese leggera in ambiente familiare ⭐ 👑",
+    "note": "In una decina d'anni asceso al vertice della cucina tedesca, tra i vigneti della Mosella, cucina francese leggera in ambiente familiare 💎 👑",
     "mappa": "Bahnhofstrasse 8A, Piesport, WIL"
   },
   {
@@ -5936,7 +5936,7 @@ var GUIDA=[
     "tel": "+49 7442 49 26 65",
     "telefono": "+49 7442 49 26 65",
     "web": "https://www.traube-tonbach.de/",
-    "note": "Nell'Hotel Traube Tonbach a cinque stelle, cucina di leggerezza infinita dello chef Torsten Michel nel cuore della Foresta Nera ⭐ 👑",
+    "note": "Nell'Hotel Traube Tonbach a cinque stelle, cucina di leggerezza infinita dello chef Torsten Michel nel cuore della Foresta Nera 💎 👑",
     "mappa": "Tonbachstrasse 237, Baiersbronn, FDS"
   },
   {
@@ -5950,7 +5950,7 @@ var GUIDA=[
     "tel": "+49 4651 836200",
     "telefono": "+49 4651 836200",
     "web": "https://www.soelring-hof.de/",
-    "note": "Gioiello tra le dune di Rantum sull'isola di Sylt, cucina nordica firmata dallo chef Jan-Philipp Berner ⭐ 👑",
+    "note": "Gioiello tra le dune di Rantum sull'isola di Sylt, cucina nordica firmata dallo chef Jan-Philipp Berner 💎 👑",
     "mappa": "Am Sandwall 1, Rantum/Sylt, NF"
   },
   {
@@ -5964,7 +5964,7 @@ var GUIDA=[
     "tel": "+49 89 3619590",
     "telefono": "+49 89 3619590",
     "web": "https://www.tantris.de/",
-    "note": "Istituzione leggendaria della gastronomia tedesca, riaperta nel 2021 dopo un restauro completo per il cinquantesimo anniversario ⭐ 👑",
+    "note": "Istituzione leggendaria della gastronomia tedesca, riaperta nel 2021 dopo un restauro completo per il cinquantesimo anniversario 💎 👑",
     "mappa": "Johann-Fichte-Str. 7, München, M"
   },
   {
@@ -5978,7 +5978,7 @@ var GUIDA=[
     "tel": "+49 30 259 379 30",
     "telefono": "+49 30 259 379 30",
     "web": "https://www.tim-raue.com/",
-    "note": "Due Stelle Michelin e 40° posto nella classifica 50 Best, identità culinaria che unisce dolce, piccante e acido ⭐ 👑",
+    "note": "Due Stelle Michelin e 40° posto nella classifica 50 Best, identità culinaria che unisce dolce, piccante e acido 💎 👑",
     "mappa": "Rudi-Dutschke-Strasse 26, Berlin, B"
   },
   {
@@ -5992,7 +5992,7 @@ var GUIDA=[
     "tel": "+49 2204 420",
     "telefono": "+49 2204 420",
     "web": "https://www.schlossbensberg.com/",
-    "note": "Nel castello dello Schloss Bensberg, lo chef Joachim Wissler spazia dai classici del territorio a ricette dal tocco personale ⭐ 👑",
+    "note": "Nel castello dello Schloss Bensberg, lo chef Joachim Wissler spazia dai classici del territorio a ricette dal tocco personale 💎 👑",
     "mappa": "Kadettenstraße, Bergisch Gladbach, GL"
   },
   {
@@ -6006,7 +6006,7 @@ var GUIDA=[
     "tel": "+49 6866 79 11 8",
     "telefono": "+49 6866 79 11 8",
     "web": "https://www.victors-fine-dining.de/",
-    "note": "Castello sulla Mosella tra i vigneti, cucina franco-giapponese leggera e moderna dello chef Christian Bau ⭐ 👑",
+    "note": "Castello sulla Mosella tra i vigneti, cucina franco-giapponese leggera e moderna dello chef Christian Bau 💎 👑",
     "mappa": "Schlossstrasse 27-29, Perl-Nennig, MZG"
   },
   {
@@ -6020,7 +6020,7 @@ var GUIDA=[
     "tel": "+43 660 773 49 72",
     "telefono": "+43 660 773 49 72",
     "web": "https://www.restaurant-amador.com/",
-    "note": "Costruito nell'impressionante cantina del vignaiolo viennese Hajszan Neumann, tre Stelle Michelin ottenute dallo chef Juan Amador in soli tre anni ⭐ 👑",
+    "note": "Costruito nell'impressionante cantina del vignaiolo viennese Hajszan Neumann, tre Stelle Michelin ottenute dallo chef Juan Amador in soli tre anni 💎 👑",
     "mappa": "Grinzingerstrasse 86, Vienna, W"
   },
   {
@@ -6034,7 +6034,7 @@ var GUIDA=[
     "tel": "+43 6244 4220",
     "telefono": "+43 6244 4220",
     "web": "https://www.doellerer.at/",
-    "note": "Alle porte di Salisburgo, la 'Alpine Cuisine' di Andreas Döllerer nasce da ingredienti di montagne, valli e pascoli circostanti ⭐ 👑",
+    "note": "Alle porte di Salisburgo, la 'Alpine Cuisine' di Andreas Döllerer nasce da ingredienti di montagne, valli e pascoli circostanti 💎 👑",
     "mappa": "Markt 56, Golling, HA"
   },
   {
@@ -6048,7 +6048,7 @@ var GUIDA=[
     "tel": "+43 2732 82937",
     "telefono": "+43 2732 82937",
     "web": "https://www.landhaus-bacher.at/",
-    "note": "Nella regione della Wachau, patrimonio UNESCO dal 2000, Lisl Wagner-Bacher e il genero Thomas Dorfer uniscono i loro talenti ⭐ 👑",
+    "note": "Nella regione della Wachau, patrimonio UNESCO dal 2000, Lisl Wagner-Bacher e il genero Thomas Dorfer uniscono i loro talenti 💎 👑",
     "mappa": "Südtirolerplatz 2, Mautern, KR"
   },
   {
@@ -6062,7 +6062,7 @@ var GUIDA=[
     "tel": "+43 6452 729 110",
     "telefono": "+43 6452 729 110",
     "web": "https://www.mayers-restaurant.at/",
-    "note": "Nel castello di Zell am See di proprietà del costruttore automobilistico Wolfgang Porsche, lo chef Andreas Mayer ama la cucina vegetariana ⭐ 👑",
+    "note": "Nel castello di Zell am See di proprietà del costruttore automobilistico Wolfgang Porsche, lo chef Andreas Mayer ama la cucina vegetariana 💎 👑",
     "mappa": "Hofmannsthalstrasse 10, Zell am See, ZE"
   },
   {
@@ -6076,7 +6076,7 @@ var GUIDA=[
     "tel": "+43 6468 5212",
     "telefono": "+43 6468 5212",
     "web": "https://www.obauer.com/",
-    "note": "Gestito dalla famiglia Obauer, ai piedi del castello medievale di Hohenwerfen e della grotta di ghiaccio più grande al mondo ⭐ 👑",
+    "note": "Gestito dalla famiglia Obauer, ai piedi del castello medievale di Hohenwerfen e della grotta di ghiaccio più grande al mondo 💎 👑",
     "mappa": "Markt 46, Werfen, JO"
   },
   {
@@ -6090,7 +6090,7 @@ var GUIDA=[
     "tel": "+43 1 51818 130",
     "telefono": "+43 1 51818 130",
     "web": "https://www.palais-coburg.com/",
-    "note": "Nel Palais Coburg, dimora principesca che domina il centro di Vienna, lo chef Silvio Nickol reinterpreta la tradizione austriaca ⭐ 👑",
+    "note": "Nel Palais Coburg, dimora principesca che domina il centro di Vienna, lo chef Silvio Nickol reinterpreta la tradizione austriaca 💎 👑",
     "mappa": "Coburgbastei 4, Vienna, W"
   },
   {
@@ -6104,7 +6104,7 @@ var GUIDA=[
     "tel": "+43 1 713 31 68",
     "telefono": "+43 1 713 31 68",
     "web": "https://www.steirereck.at/",
-    "note": "Nel cuore dello Stadtpark viennese, la famiglia Reitbauer celebra da generazioni i migliori prodotti d'Austria ⭐ 👑",
+    "note": "Nel cuore dello Stadtpark viennese, la famiglia Reitbauer celebra da generazioni i migliori prodotti d'Austria 💎 👑",
     "mappa": "Am Heumarkt 2A, Vienna, W"
   },
   {
@@ -6118,7 +6118,7 @@ var GUIDA=[
     "tel": "+43 5444 5275",
     "telefono": "+43 5444 5275",
     "web": "https://www.yscla.at/",
-    "note": "Nella stazione sciistica di Ischgl, lo chef Benjamin Parth firma una cucina alpina di alta precisione tecnica ⭐ 👑",
+    "note": "Nella stazione sciistica di Ischgl, lo chef Benjamin Parth firma una cucina alpina di alta precisione tecnica 💎 👑",
     "mappa": "Dorfstrasse 73, Ischgl, LA"
   },
   {
@@ -6132,7 +6132,7 @@ var GUIDA=[
     "tel": "+32 51 62 64 62",
     "telefono": "+32 51 62 64 62",
     "web": "https://www.restaurantboury.be/",
-    "note": "Tre Stelle Michelin (2010, 2017, 2022), lo chef Tim Boury ha fondato con il fratello Ben la 'Boury Academy' per giovani talenti ⭐ 👑",
+    "note": "Tre Stelle Michelin (2010, 2017, 2022), lo chef Tim Boury ha fondato con il fratello Ben la 'Boury Academy' per giovani talenti 💎 👑",
     "mappa": "Rumbeeksesteenweg 300, Roeselare, BEL"
   },
   {
@@ -6146,7 +6146,7 @@ var GUIDA=[
     "tel": "+32 2 503 00 00",
     "telefono": "+32 2 503 00 00",
     "web": "https://www.bozarrestaurant.be/",
-    "note": "Nel Palazzo delle Belle Arti di Bruxelles, cucina classica e moderna dello chef Karen Torosyan, reinterpretazione contemporanea della tradizione francese ⭐ 👑",
+    "note": "Nel Palazzo delle Belle Arti di Bruxelles, cucina classica e moderna dello chef Karen Torosyan, reinterpretazione contemporanea della tradizione francese 💎 👑",
     "mappa": "Rue Baron Hortastraat 3, Bruxelles, BEL"
   },
   {
@@ -6160,7 +6160,7 @@ var GUIDA=[
     "tel": "+32 2 512 29 21",
     "telefono": "+32 2 512 29 21",
     "web": "https://www.commechezsoi.be/",
-    "note": "Decor ispirato al maestro dell'Art Nouveau Victor Horta, saga familiare da oltre 95 anni, oggi alla quinta generazione con Loïc Rigolet ⭐ 👑",
+    "note": "Decor ispirato al maestro dell'Art Nouveau Victor Horta, saga familiare da oltre 95 anni, oggi alla quinta generazione con Loïc Rigolet 💎 👑",
     "mappa": "Place Rouppe 23, Bruxelles, BEL"
   },
   {
@@ -6174,7 +6174,7 @@ var GUIDA=[
     "tel": "+32 65 61 31 70",
     "telefono": "+32 65 61 31 70",
     "web": "https://www.eugenie-emilie.be/",
-    "note": "A due passi dal confine francese dal 2008, lo chef Éric Fernez difende una cucina di tradizione ispirata alla semplicità della cucina della nonna ⭐ 👑",
+    "note": "A due passi dal confine francese dal 2008, lo chef Éric Fernez difende una cucina di tradizione ispirata alla semplicità della cucina della nonna 💎 👑",
     "mappa": "Place de la Résistance 1, Baudour, BEL"
   },
   {
@@ -6188,7 +6188,7 @@ var GUIDA=[
     "tel": "+32 9 383 58 48",
     "telefono": "+32 9 383 58 48",
     "web": "https://www.hofvancleve.com/",
-    "note": "Dopo anni come braccio destro di Peter Goossens, lo chef Floris Van Der Veken ha rilevato nel 2024 questo luogo carico di storia gastronomica ⭐ 👑",
+    "note": "Dopo anni come braccio destro di Peter Goossens, lo chef Floris Van Der Veken ha rilevato nel 2024 questo luogo carico di storia gastronomica 💎 👑",
     "mappa": "Riemegemstraat 1, Kruisem, BEL"
   },
   {
@@ -6202,7 +6202,7 @@ var GUIDA=[
     "tel": "+32 81 81 30 48",
     "telefono": "+32 81 81 30 48",
     "web": "https://www.airdutemps.be/",
-    "note": "Cucina d'ispirazione vegetale nata da un giardino e da una rete di produttori appassionati, esperienza unica e autentica dello chef Sang Hoon Degeimbre ⭐ 👑",
+    "note": "Cucina d'ispirazione vegetale nata da un giardino e da una rete di produttori appassionati, esperienza unica e autentica dello chef Sang Hoon Degeimbre 💎 👑",
     "mappa": "2 Rue de la Croix Monet, Liernu, BEL"
   },
   {
@@ -6216,7 +6216,7 @@ var GUIDA=[
     "tel": "+32 81 41 11 51",
     "telefono": "+32 81 41 11 51",
     "web": "https://www.eau-vive.be/",
-    "note": "In un mulino del XVII secolo tra un giardino e un fiume, lo chef Pierre Résimont fu il più giovane chef belga stellato della storia ⭐ 👑",
+    "note": "In un mulino del XVII secolo tra un giardino e un fiume, lo chef Pierre Résimont fu il più giovane chef belga stellato della storia 💎 👑",
     "mappa": "37 Route de Floreffe, Arbre, BEL"
   },
   {
@@ -6230,7 +6230,7 @@ var GUIDA=[
     "tel": "+32 2 374 31 63",
     "telefono": "+32 2 374 31 63",
     "web": "https://www.lavillalorraine.be/",
-    "note": "Sui bordi del Bois de la Cambre, lo chef Yves Mattagne propone due concept: un lounge bar ispirato ai suoi viaggi e il ristorante gastronomico ⭐ 👑",
+    "note": "Sui bordi del Bois de la Cambre, lo chef Yves Mattagne propone due concept: un lounge bar ispirato ai suoi viaggi e il ristorante gastronomico 💎 👑",
     "mappa": "Avenue du Vivier d'Oie 75, Bruxelles, BEL"
   },
   {
@@ -6244,7 +6244,7 @@ var GUIDA=[
     "tel": "+32 2 374 54 16",
     "telefono": "+32 2 374 54 16",
     "web": "https://www.lechaletdelaforet.be/",
-    "note": "Ai margini della foresta, lo chef Pascal Devalkeneer coltiva il proprio orto per una cucina di verità dai sapori sorprendentemente ricercati ⭐ 👑",
+    "note": "Ai margini della foresta, lo chef Pascal Devalkeneer coltiva il proprio orto per una cucina di verità dai sapori sorprendentemente ricercati 💎 👑",
     "mappa": "Drève de Lorraine 43, Bruxelles, BEL"
   },
   {
@@ -6258,7 +6258,7 @@ var GUIDA=[
     "tel": "+32 2 346 66 15",
     "telefono": "+32 2 346 66 15",
     "web": "https://www.menssa.be/",
-    "note": "Lo chef Christophe Hardiquest ha ricostruito un nuovo universo culinario, privilegiando un approccio interattivo con un imponente bancone-cucina ⭐ 👑",
+    "note": "Lo chef Christophe Hardiquest ha ricostruito un nuovo universo culinario, privilegiando un approccio interattivo con un imponente bancone-cucina 💎 👑",
     "mappa": "Avenue de Tervueren 453, Bruxelles, BEL"
   },
   {
@@ -6272,7 +6272,7 @@ var GUIDA=[
     "tel": "+32 15 63 42 65",
     "telefono": "+32 15 63 42 65",
     "web": "https://www.resto-nuance.be/",
-    "note": "Un tocco di Parigi in Belgio, gli chef Sofie e Thierry Theys lavorano ogni giorno insieme, in cucina e in sala, per offrire il meglio ⭐ 👑",
+    "note": "Un tocco di Parigi in Belgio, gli chef Sofie e Thierry Theys lavorano ogni giorno insieme, in cucina e in sala, per offrire il meglio 💎 👑",
     "mappa": "Kiliaanstraat 6-8, Duffel, BEL"
   },
   {
@@ -6286,7 +6286,7 @@ var GUIDA=[
     "tel": "+32 89 73 97 70",
     "telefono": "+32 89 73 97 70",
     "web": "https://www.ralfberendsen.be/",
-    "note": "Nella Butte aux Bois, lo chef Ralf Berendsen è celebre per il suo senso unico dei tempi di cottura perfetti, in una ricerca senza fine della perfezione ⭐ 👑",
+    "note": "Nella Butte aux Bois, lo chef Ralf Berendsen è celebre per il suo senso unico dei tempi di cottura perfetti, in una ricerca senza fine della perfezione 💎 👑",
     "mappa": "Paalsteenlaan 90, Lanaken, BEL"
   },
   {
@@ -6300,7 +6300,7 @@ var GUIDA=[
     "tel": "+32 89 85 48 88",
     "telefono": "+32 89 85 48 88",
     "web": "https://www.slagmolen.be/",
-    "note": "Un piccolo paradiso verde nel Limburgo, dove Bert e Giel Meewis coniugano basi classiche e tecniche d'avanguardia per piatti essenziali ⭐ 👑",
+    "note": "Un piccolo paradiso verde nel Limburgo, dove Bert e Giel Meewis coniugano basi classiche e tecniche d'avanguardia per piatti essenziali 💎 👑",
     "mappa": "Molenweg 177, Opglabbeek, BEL"
   },
   {
@@ -6314,7 +6314,7 @@ var GUIDA=[
     "tel": "+32 3 808 44 65",
     "telefono": "+32 3 808 44 65",
     "web": "https://www.thejaneantwerp.com/",
-    "note": "Nell'ex cappella dell'ospedale militare, dal 2014 lo chef Nick Bril rende l'alta gastronomia accessibile a un pubblico ampio ⭐ 👑",
+    "note": "Nell'ex cappella dell'ospedale militare, dal 2014 lo chef Nick Bril rende l'alta gastronomia accessibile a un pubblico ampio 💎 👑",
     "mappa": "Paradeplein 1, Anversa, BEL"
   },
   {
@@ -6328,7 +6328,7 @@ var GUIDA=[
     "tel": "+32 3 283 40 40",
     "telefono": "+32 3 283 40 40",
     "web": "https://www.zilte.be/",
-    "note": "Da ingegnere a chef, Viki Geunes ha raggiunto le tre Stelle Michelin nel 2021, oggi affiancato dalla figlia Gitte ⭐ 👑",
+    "note": "Da ingegnere a chef, Viki Geunes ha raggiunto le tre Stelle Michelin nel 2021, oggi affiancato dalla figlia Gitte 💎 👑",
     "mappa": "Hanzestedenplaats 5, Anversa, BEL"
   },
   {
@@ -6342,7 +6342,7 @@ var GUIDA=[
     "tel": "+39 0172 474132",
     "telefono": "+39 0172 474132",
     "web": "https://www.anticacoronareale.it/",
-    "note": "Nato nel 1815 come stazione di posta, gestito dalla famiglia Vivalda dal 1855, oggi alla quinta generazione con lo chef Gian Piero Vivalda ⭐ 👑",
+    "note": "Nato nel 1815 come stazione di posta, gestito dalla famiglia Vivalda dal 1855, oggi alla quinta generazione con lo chef Gian Piero Vivalda 💎 👑",
     "mappa": "Via Fossano 13, Cervere, CN"
   },
   {
@@ -6356,7 +6356,7 @@ var GUIDA=[
     "tel": "+39 0474 646629",
     "telefono": "+39 0474 646629",
     "web": "https://ateliernorbertniederkofler.com/",
-    "note": "Nella storica Villa Moessmer, ex lanificio ottocentesco della Val Pusteria, la filosofia 'Cook the Mountain' di Norbert Niederkofler, tre Stelle e Stella Verde Michelin ⭐ 👑",
+    "note": "Nella storica Villa Moessmer, ex lanificio ottocentesco della Val Pusteria, la filosofia 'Cook the Mountain' di Norbert Niederkofler, tre Stelle e Stella Verde Michelin 💎 👑",
     "mappa": "Via Walther von der Vogelweide 17, Brunico, BZ"
   },
   {
@@ -6370,7 +6370,7 @@ var GUIDA=[
     "tel": "+39 045 878 0860",
     "telefono": "+39 045 878 0860",
     "web": "https://www.casaperbellini.com/",
-    "note": "Dal 1750, quando dodici mercanti si riunivano qui per concludere affari, frequentato negli anni '30 da D'Annunzio, Hemingway ed Ezra Pound, oggi chef Giancarlo Perbellini ⭐ 👑",
+    "note": "Dal 1750, quando dodici mercanti si riunivano qui per concludere affari, frequentato negli anni '30 da D'Annunzio, Hemingway ed Ezra Pound, oggi chef Giancarlo Perbellini 💎 👑",
     "mappa": "Vicolo Corticella San Marco 3, Verona, VR"
   },
   {
@@ -6384,7 +6384,7 @@ var GUIDA=[
     "tel": "+39 02 936 2209",
     "telefono": "+39 02 936 2209",
     "web": "https://www.cucinapop.do/",
-    "note": "Lo chef Davide Oldani, dopo la gavetta con Ducasse e Marchesi, ha creato la sua cucina 'Pop' in un piccolo borgo alle porte di Milano, nella sede firmata dall'architetto Piero Lissoni ⭐ 👑",
+    "note": "Lo chef Davide Oldani, dopo la gavetta con Ducasse e Marchesi, ha creato la sua cucina 'Pop' in un piccolo borgo alle porte di Milano, nella sede firmata dall'architetto Piero Lissoni 💎 👑",
     "mappa": "Piazza della Chiesa 14, San Pietro all'Olmo, MI"
   },
   {
@@ -6398,7 +6398,7 @@ var GUIDA=[
     "tel": "+39 035 681024",
     "telefono": "+39 035 681024",
     "web": "https://www.davittorio.com/",
-    "note": "Fondato nel 1966 da Vittorio Cerea, oggi gestito dai suoi figli su una tenuta di dieci ettari con laghetti ed elisuperficie propria ⭐ 👑",
+    "note": "Fondato nel 1966 da Vittorio Cerea, oggi gestito dai suoi figli su una tenuta di dieci ettari con laghetti ed elisuperficie propria 💎 👑",
     "mappa": "Via Cantalupa 17, Brusaporto, BG"
   },
   {
@@ -6412,7 +6412,7 @@ var GUIDA=[
     "tel": "+39 081 878 0026",
     "telefono": "+39 081 878 0026",
     "web": "https://www.donalfonso.com/",
-    "note": "Fondato nel 1890 dal nonno di Alfonso Iaccarino, cantina pre-romana scavata nel tufo fino a 30 metri di profondità, azienda agricola biologica verso Punta Campanella ⭐ 👑",
+    "note": "Fondato nel 1890 dal nonno di Alfonso Iaccarino, cantina pre-romana scavata nel tufo fino a 30 metri di profondità, azienda agricola biologica verso Punta Campanella 💎 👑",
     "mappa": "Corso Sant'Agata 11/13, Sant'Agata sui Due Golfi, NA"
   },
   {
@@ -6426,7 +6426,7 @@ var GUIDA=[
     "tel": "+39 0932 651265",
     "telefono": "+39 0932 651265",
     "web": "https://www.cicciosultano.it/",
-    "note": "Aperto nel 2000 dentro Palazzo La Rocca, set del film Divorzio all'italiana, chef autodidatta Ciccio Sultano, cantina con oltre 20.000 bottiglie ⭐ 👑",
+    "note": "Aperto nel 2000 dentro Palazzo La Rocca, set del film Divorzio all'italiana, chef autodidatta Ciccio Sultano, cantina con oltre 20.000 bottiglie 💎 👑",
     "mappa": "Via Capitano Bocchieri 31, Ragusa Ibla, RG"
   },
   {
@@ -6440,7 +6440,7 @@ var GUIDA=[
     "tel": "+39 055 242777",
     "telefono": "+39 055 242777",
     "web": "https://www.enotecapinchiorri.it/",
-    "note": "Aperto nel 1972 da Annie Féolde e Giorgio Pinchiorri, unico ristorante italiano ad aver perso e riconquistato una Stella Michelin, cantina con oltre 100.000 bottiglie ⭐ 👑",
+    "note": "Aperto nel 1972 da Annie Féolde e Giorgio Pinchiorri, unico ristorante italiano ad aver perso e riconquistato una Stella Michelin, cantina con oltre 100.000 bottiglie 💎 👑",
     "mappa": "Via Ghibellina 87, Firenze, FI"
   },
   {
@@ -6454,7 +6454,7 @@ var GUIDA=[
     "tel": "+39 02 416886",
     "telefono": "+39 02 416886",
     "web": "https://www.aimoenadia.com/",
-    "note": "Aperto nel 1962 da Aimo e Nadia Moroni come trattoria, oggi guidato dagli chef Alessandro Negrini e Fabio Pisani, con i Piatti del Cuore del fondatore ancora in carta ⭐ 👑",
+    "note": "Aperto nel 1962 da Aimo e Nadia Moroni come trattoria, oggi guidato dagli chef Alessandro Negrini e Fabio Pisani, con i Piatti del Cuore del fondatore ancora in carta 💎 👑",
     "mappa": "Via Privata Raimondo Montecuccoli 6, Milano, MI"
   },
   {
@@ -6468,7 +6468,7 @@ var GUIDA=[
     "tel": "+39 06 68809595",
     "telefono": "+39 06 68809595",
     "web": "https://ristoranteilpagliaccio.com/",
-    "note": "Aperto nel 2003 dallo chef italo-francese Anthony Genovese e Marion Lichtle, tornato nel 2019 al concept originale del circo di sapori, due Stelle Michelin ⭐ 👑",
+    "note": "Aperto nel 2003 dallo chef italo-francese Anthony Genovese e Marion Lichtle, tornato nel 2019 al concept originale del circo di sapori, due Stelle Michelin 💎 👑",
     "mappa": "Via dei Banchi Vecchi 129/A, Roma, RM"
   },
   {
@@ -6482,7 +6482,7 @@ var GUIDA=[
     "tel": "+39 081 978 0560",
     "telefono": "+39 081 978 0560",
     "web": "https://www.jumeirah.com/it/stay/italy/jumeirah-capri-palace/dining/l-olivo-restaurant",
-    "note": "Nel Capri Palace, chef Andrea Migliaccio, due Stelle Michelin dal 2011, ad Anacapri dove Jackie Kennedy Onassis fu fotografata sulla seggiovia del Monte Solaro ⭐ 👑",
+    "note": "Nel Capri Palace, chef Andrea Migliaccio, due Stelle Michelin dal 2011, ad Anacapri dove Jackie Kennedy Onassis fu fotografata sulla seggiovia del Monte Solaro 💎 👑",
     "mappa": "Via Capodimonte 14, Anacapri, NA"
   },
   {
@@ -6496,7 +6496,7 @@ var GUIDA=[
     "tel": "+39 06 3509 2152",
     "telefono": "+39 06 3509 2152",
     "web": "https://romecavalieri.com/it/la-pergola-it/",
-    "note": "Al nono piano del Rome Cavalieri Waldorf Astoria, chef Heinz Beck, primo e storicamente unico tre Stelle Michelin della capitale, vista sulla cupola di San Pietro ⭐ 👑",
+    "note": "Al nono piano del Rome Cavalieri Waldorf Astoria, chef Heinz Beck, primo e storicamente unico tre Stelle Michelin della capitale, vista sulla cupola di San Pietro 💎 👑",
     "mappa": "Via Alberto Cadlolo 101, Roma, RM"
   },
   {
@@ -6510,7 +6510,7 @@ var GUIDA=[
     "tel": "+39 081 878 1024",
     "telefono": "+39 081 878 1024",
     "web": "https://torredelsaracino.it/",
-    "note": "Dal 17 settembre 2026 nel Bellevue Syrene, hotel aperto nel 1820 su una domus romana di Augusto, dopo 35 anni nella storica sede di Vico Equense, chef Gennaro Esposito, due Stelle Michelin ⭐ 👑",
+    "note": "Dal 17 settembre 2026 nel Bellevue Syrene, hotel aperto nel 1820 su una domus romana di Augusto, dopo 35 anni nella storica sede di Vico Equense, chef Gennaro Esposito, due Stelle Michelin 💎 👑",
     "mappa": "Piazza della Vittoria 5, Sorrento, NA"
   },
   {
@@ -6524,7 +6524,7 @@ var GUIDA=[
     "tel": "+39 049 630303",
     "telefono": "+39 049 630303",
     "web": "https://alajmo.it/pages/homepage-le-calandre",
-    "note": "Fondato nel 1981 da Erminio Alajmo e Rita Chimetto, oggi guidato dai figli Massimiliano e Raffaele, tre Stelle Michelin, madre di un intero impero gastronomico Alajmo ⭐ 👑",
+    "note": "Fondato nel 1981 da Erminio Alajmo e Rita Chimetto, oggi guidato dai figli Massimiliano e Raffaele, tre Stelle Michelin, madre di un intero impero gastronomico Alajmo 💎 👑",
     "mappa": "Via Liguria 1, Rubano, PD"
   },
   {
@@ -6538,7 +6538,7 @@ var GUIDA=[
     "tel": "+39 071 698267",
     "telefono": "+39 071 698267",
     "web": "https://www.morenocedroni.it/",
-    "note": "Aperto il 24 aprile 1984 dallo chef Moreno Cedroni, prende il nome da una stele votiva del 1938 sulla spiaggia dove sorge, due Stelle Michelin ⭐ 👑",
+    "note": "Aperto il 24 aprile 1984 dallo chef Moreno Cedroni, prende il nome da una stele votiva del 1938 sulla spiaggia dove sorge, due Stelle Michelin 💎 👑",
     "mappa": "Via Lungomare Italia 11, Senigallia, AN"
   },
   {
@@ -6552,7 +6552,7 @@ var GUIDA=[
     "tel": "+39 0173 366167",
     "telefono": "+39 0173 366167",
     "web": "https://www.piazzaduomoalba.it/",
-    "note": "Chef Enrico Crippa, formatosi con Gualtiero Marchesi e in Giappone, cucina incentrata sul mondo vegetale con verdure raccolte quotidianamente, tre Stelle Michelin ⭐ 👑",
+    "note": "Chef Enrico Crippa, formatosi con Gualtiero Marchesi e in Giappone, cucina incentrata sul mondo vegetale con verdure raccolte quotidianamente, tre Stelle Michelin 💎 👑",
     "mappa": "Piazza Risorgimento 4, Alba, CN"
   },
   {
@@ -6566,7 +6566,7 @@ var GUIDA=[
     "tel": "+39 041 522 2105",
     "telefono": "+39 041 522 2105",
     "web": "https://alajmo.it/pages/homepage-ristorante-quadri",
-    "note": "Lo storico Gran Caffè apre nel 1638, il ristorante rilevato dai fratelli Alajmo nel 2010 e restaurato con Philippe Starck, decori surrealisti con un leone alato in peluche ⭐ 👑",
+    "note": "Lo storico Gran Caffè apre nel 1638, il ristorante rilevato dai fratelli Alajmo nel 2010 e restaurato con Philippe Starck, decori surrealisti con un leone alato in peluche 💎 👑",
     "mappa": "Piazza San Marco 121, Venezia, VE"
   },
   {
@@ -6580,7 +6580,7 @@ var GUIDA=[
     "tel": "+39 0864 69382",
     "telefono": "+39 0864 69382",
     "web": "https://www.nikoromito.com/",
-    "note": "Ospitato in Casadonna, un antico convento cinquecentesco, chef autodidatta Niko Romito che rilevò la pasticceria di famiglia dopo la morte del padre, tre Stelle Michelin ⭐ 👑",
+    "note": "Ospitato in Casadonna, un antico convento cinquecentesco, chef autodidatta Niko Romito che rilevò la pasticceria di famiglia dopo la morte del padre, tre Stelle Michelin 💎 👑",
     "mappa": "Piana Santa Liberata, Castel di Sangro, AQ"
   },
   {
@@ -6594,7 +6594,7 @@ var GUIDA=[
     "tel": "+39 02 8731 8897",
     "telefono": "+39 02 8731 8897",
     "web": "https://www.mandarinoriental.com/it/milan/la-scala/dine/seta",
-    "note": "Nel Mandarin Oriental dal 2015, chef Antonio Guida formatosi da Pierre Gagnaire, Enoteca Pinchiorri, Don Alfonso 1890 e Il Pellicano, due Stelle Michelin ⭐ 👑",
+    "note": "Nel Mandarin Oriental dal 2015, chef Antonio Guida formatosi da Pierre Gagnaire, Enoteca Pinchiorri, Don Alfonso 1890 e Il Pellicano, due Stelle Michelin 💎 👑",
     "mappa": "Via Andegari 9, Milano, MI"
   },
   {
@@ -6608,7 +6608,7 @@ var GUIDA=[
     "tel": "+39 071 65463",
     "telefono": "+39 071 65463",
     "web": "https://uliassi.com/",
-    "note": "Aperto il 27 maggio 1990 dai fratelli Mauro e Katia Uliassi, nati e cresciuti a Senigallia, da una baracca sul mare a tre Stelle Michelin ⭐ 👑",
+    "note": "Aperto il 27 maggio 1990 dai fratelli Mauro e Katia Uliassi, nati e cresciuti a Senigallia, da una baracca sul mare a tre Stelle Michelin 💎 👑",
     "mappa": "Via Banchina di Levante 6, Senigallia, AN"
   },
   {
@@ -6622,7 +6622,7 @@ var GUIDA=[
     "tel": "+39 0365 798000",
     "telefono": "+39 0365 798000",
     "web": "https://www.ristorantevillafeltrinelli.com/",
-    "note": "Nel parco di 80.000 mq sul Lago di Garda, chef Stefano Baiocco formatosi tra Ducasse, gli Adrià a El Bulli e il Giappone, entrato in Les Grandes Tables du Monde nel 2017 ⭐ 👑",
+    "note": "Nel parco di 80.000 mq sul Lago di Garda, chef Stefano Baiocco formatosi tra Ducasse, gli Adrià a El Bulli e il Giappone, entrato in Les Grandes Tables du Monde nel 2017 💎 👑",
     "mappa": "Via Rimembranza 38/40, Gargnano, BS"
   },
   {
@@ -6636,7 +6636,7 @@ var GUIDA=[
     "tel": "+1 514 398 9229",
     "telefono": "+1 514 398 9229",
     "web": "https://jeromeferrer.ca/",
-    "note": "Aperto nel 2002, prima Stella Michelin nel 2025, chef Jérôme Ferrer 'Maître Cuisinier de France', pastry chef Roland Del Monte 'Meilleur Ouvrier de France' ⭐ 👑",
+    "note": "Aperto nel 2002, prima Stella Michelin nel 2025, chef Jérôme Ferrer 'Maître Cuisinier de France', pastry chef Roland Del Monte 'Meilleur Ouvrier de France' 💎 👑",
     "mappa": "1065 rue de la Montagne, Montréal, QC"
   },
   {
@@ -6650,7 +6650,7 @@ var GUIDA=[
     "tel": "+1 514 499 2084",
     "telefono": "+1 514 499 2084",
     "web": "https://www.restaurant-toque.com/",
-    "note": "Fondato nel 1993 da Normand Laprise e Christine Lamarche, entrato in Les Grandes Tables du Monde nel 2014, cantina con oltre 700 vini ⭐ 👑",
+    "note": "Fondato nel 1993 da Normand Laprise e Christine Lamarche, entrato in Les Grandes Tables du Monde nel 2014, cantina con oltre 700 vini 💎 👑",
     "mappa": "900 place Jean-Paul-Riopelle, Montréal, QC"
   },
   {
@@ -6664,7 +6664,7 @@ var GUIDA=[
     "tel": "+86 173 0160 5350",
     "telefono": "+86 173 0160 5350",
     "web": "https://sh.taian-table.cn/",
-    "note": "Fondato nel 2016 dallo chef tedesco Stefan Stiller, tre Stelle Michelin dal 2021, membro di Les Grandes Tables du Monde dal 2021 ⭐ 👑",
+    "note": "Fondato nel 2016 dallo chef tedesco Stefan Stiller, tre Stelle Michelin dal 2021, membro di Les Grandes Tables du Monde dal 2021 💎 👑",
     "mappa": "Bldg 1, Lane 161, 465 Zhenning Road, Shanghai, SH"
   },
   {
@@ -6692,7 +6692,7 @@ var GUIDA=[
     "tel": "+34 943 278 465",
     "telefono": "+34 943 278 465",
     "web": "https://www.arzak.es/",
-    "note": "Ristorante di famiglia guidato da Juan Mari Arzak e la figlia Elena, quarta generazione, tre Stelle Michelin dal 1989, laboratorio con oltre 1000 ingredienti ⭐ 👑",
+    "note": "Ristorante di famiglia guidato da Juan Mari Arzak e la figlia Elena, quarta generazione, tre Stelle Michelin dal 1989, laboratorio con oltre 1000 ingredienti 💎 👑",
     "mappa": "Avenida Alcalde José Elósegui 273, San Sebastián, ES"
   },
   {
@@ -6706,7 +6706,7 @@ var GUIDA=[
     "tel": "+34 943 311 209",
     "telefono": "+34 943 311 209",
     "web": "https://akelarre.net/",
-    "note": "Aperto nel 1970 sul Monte Igueldo, chef Pedro Subijana dal 1975, terza Stella Michelin dal 2007, vista sul Mar Cantabrico ⭐ 👑",
+    "note": "Aperto nel 1970 sul Monte Igueldo, chef Pedro Subijana dal 1975, terza Stella Michelin dal 2007, vista sul Mar Cantabrico 💎 👑",
     "mappa": "Aita Orkolaga Pasealekua 56, San Sebastián, ES"
   },
   {
@@ -6720,7 +6720,7 @@ var GUIDA=[
     "tel": "+34 943 84 56 47",
     "telefono": "+34 943 84 56 47",
     "web": "https://www.ameliarestaurant.com/",
-    "note": "Nell'Hotel Maria Cristina, inaugurato nel 1912 in onore della regina Maria Cristina d'Asburgo-Lorena, chef argentino Paulo Airaudo, omakase italiano ⭐ 👑",
+    "note": "Nell'Hotel Maria Cristina, inaugurato nel 1912 in onore della regina Maria Cristina d'Asburgo-Lorena, chef argentino Paulo Airaudo, omakase italiano 💎 👑",
     "mappa": "Paseo República Argentina 4, San Sebastián, ES"
   },
   {
@@ -6734,7 +6734,7 @@ var GUIDA=[
     "tel": "+44 1628 580333",
     "telefono": "+44 1628 580333",
     "web": "https://www.thefatduck.co.uk/",
-    "note": "Aperto nel 1995 da Heston Blumenthal in un edificio del XVI secolo, tre Stelle Michelin, votato miglior ristorante al mondo nel 2005, menu 'The Journey' ispirato ad Alice nel Paese delle Meraviglie ⭐ 👑",
+    "note": "Aperto nel 1995 da Heston Blumenthal in un edificio del XVI secolo, tre Stelle Michelin, votato miglior ristorante al mondo nel 2005, menu 'The Journey' ispirato ad Alice nel Paese delle Meraviglie 💎 👑",
     "mappa": "High Street, Bray, GB"
   },
   {
@@ -6748,7 +6748,7 @@ var GUIDA=[
     "tel": "+44 20 7629 8866",
     "telefono": "+44 20 7629 8866",
     "web": "https://www.alainducasse-dorchester.com/",
-    "note": "Aperto nel 2007 nel leggendario hotel Dorchester, tre Stelle Michelin dal 2010, design di Patrick Jouin con verdure in ceramica come centrotavola, celebre il babà 'come a Monte Carlo' ⭐ 👑",
+    "note": "Aperto nel 2007 nel leggendario hotel Dorchester, tre Stelle Michelin dal 2010, design di Patrick Jouin con verdure in ceramica come centrotavola, celebre il babà 'come a Monte Carlo' 💎 👑",
     "mappa": "53 Park Lane, Londra, GB"
   },
   {
@@ -6762,7 +6762,7 @@ var GUIDA=[
     "tel": "+44 1764 694267",
     "telefono": "+44 1764 694267",
     "web": "https://www.andrewfairlie.co.uk/",
-    "note": "Aperto nel 2001 dallo chef Andrew Fairlie, scomparso nel 2019, oggi guidato da Stephen McLaughlin che cucinò al suo fianco per 26 anni, primo due Stelle Michelin di Scozia ⭐ 👑",
+    "note": "Aperto nel 2001 dallo chef Andrew Fairlie, scomparso nel 2019, oggi guidato da Stephen McLaughlin che cucinò al suo fianco per 26 anni, primo due Stelle Michelin di Scozia 💎 👑",
     "mappa": "The Gleneagles Hotel, Auchterarder, GB"
   },
   {
@@ -6776,7 +6776,7 @@ var GUIDA=[
     "tel": "+852 3196 8882",
     "telefono": "+852 3196 8882",
     "web": "https://www.fourseasons.com/hongkong/dining/restaurants/caprice/",
-    "note": "Ristorante francese tre Stelle Michelin del Four Seasons, chef Guillaume Galliot, cucina a vista, vista panoramica su Victoria Harbour ⭐ 👑",
+    "note": "Ristorante francese tre Stelle Michelin del Four Seasons, chef Guillaume Galliot, cucina a vista, vista panoramica su Victoria Harbour 💎 👑",
     "mappa": "8 Finance Street, Hong Kong, HK"
   },
   {
@@ -6790,7 +6790,7 @@ var GUIDA=[
     "tel": "+852 2132 0066",
     "telefono": "+852 2132 0066",
     "web": "https://www.mandarinoriental.com/en/hong-kong/landmark/dine/amber",
-    "note": "Tre Stelle Michelin e Stella Verde, chef Richard Ekkebus, cucina dairy-free con sourcing giapponese e programma di sostenibilità, cantina di 11.000 bottiglie ⭐ 👑",
+    "note": "Tre Stelle Michelin e Stella Verde, chef Richard Ekkebus, cucina dairy-free con sourcing giapponese e programma di sostenibilità, cantina di 11.000 bottiglie 💎 👑",
     "mappa": "15 Queen's Road Central, Hong Kong, HK"
   },
   {
@@ -6804,7 +6804,7 @@ var GUIDA=[
     "tel": "+852 2537 8859",
     "telefono": "+852 2537 8859",
     "web": "https://www.ottoemezzobombana.com/",
-    "note": "Aperto nel 2010 da Umberto Bombana, primo e unico ristorante italiano fuori dall'Italia con tre Stelle Michelin, nome ispirato al film '8½' di Fellini ⭐ 👑",
+    "note": "Aperto nel 2010 da Umberto Bombana, primo e unico ristorante italiano fuori dall'Italia con tre Stelle Michelin, nome ispirato al film '8½' di Fellini 💎 👑",
     "mappa": "18 Chater Road, Hong Kong, HK"
   },
   {
@@ -6818,7 +6818,7 @@ var GUIDA=[
     "tel": "+62 361 975768",
     "telefono": "+62 361 975768",
     "web": "https://mozaic-bali.com/",
-    "note": "Aperto nel 2001 da Chris Salans in un ex luogo di meditazione, unico membro indonesiano dell'associazione, cucina che fonde tecniche francesi e spezie balinesi ⭐ 👑",
+    "note": "Aperto nel 2001 da Chris Salans in un ex luogo di meditazione, unico membro indonesiano dell'associazione, cucina che fonde tecniche francesi e spezie balinesi 💎 👑",
     "mappa": "Jalan Raya Sanggingan, Ubud, ID"
   },
   {
@@ -6832,7 +6832,7 @@ var GUIDA=[
     "tel": "+351 282 310 200",
     "telefono": "+351 282 310 200",
     "web": "https://vilavitaparc.com/en/restaurantsandbars/ocean-restaurant",
-    "note": "Aperto nel 2007 nel resort Vila Vita Parc, chef austriaco Hans Neuner, due Stelle Michelin dal 2011, menu che cambia tema ogni anno seguendo le rotte delle scoperte marittime portoghesi ⭐ 👑",
+    "note": "Aperto nel 2007 nel resort Vila Vita Parc, chef austriaco Hans Neuner, due Stelle Michelin dal 2011, menu che cambia tema ogni anno seguendo le rotte delle scoperte marittime portoghesi 💎 👑",
     "mappa": "Rua Anneliese Pohl, Vila Vita Parc, Porches, P"
   },
   {
@@ -6846,7 +6846,7 @@ var GUIDA=[
     "tel": "+352 26 35 20 31",
     "telefono": "+352 26 35 20 31",
     "web": "https://mls.lu/",
-    "note": "Aperto nel 2008 da Cyril Molard, il nome nasce da una bambina di 4 anni che dopo un gelato al cioccolato disse 'la mia lingua sorride', due Stelle Michelin dal 2018 ⭐ 👑",
+    "note": "Aperto nel 2008 da Cyril Molard, il nome nasce da una bambina di 4 anni che dopo un gelato al cioccolato disse 'la mia lingua sorride', due Stelle Michelin dal 2018 💎 👑",
     "mappa": "1 Rue de Remich, Moulin Oetrange, Contern, L"
   },
   {
@@ -6860,7 +6860,7 @@ var GUIDA=[
     "tel": "+352 54 69 94",
     "telefono": "+352 54 69 94",
     "web": "https://www.mosconi.lu/",
-    "note": "Fu il primo ristorante italiano a ottenere due Stelle Michelin fuori dall'Italia (2005-2014), oggi una Stella, menu degustazione di otto piatti di pasta diversi ⭐ 👑",
+    "note": "Fu il primo ristorante italiano a ottenere due Stelle Michelin fuori dall'Italia (2005-2014), oggi una Stella, menu degustazione di otto piatti di pasta diversi 💎 👑",
     "mappa": "13 Rue Münster, Lussemburgo, L"
   },
   {
@@ -6874,7 +6874,7 @@ var GUIDA=[
     "tel": "+41 61 260 50 07",
     "telefono": "+41 61 260 50 07",
     "web": "https://www.chevalblancbasel.com/",
-    "note": "Dentro il Grand Hotel Les Trois Rois, menzionato dal 1681, ospiti storici Voltaire, Napoleone, Picasso, Thomas Mann, chef Peter Knogl 'il re delle salse', tre Stelle Michelin ⭐ 👑",
+    "note": "Dentro il Grand Hotel Les Trois Rois, menzionato dal 1681, ospiti storici Voltaire, Napoleone, Picasso, Thomas Mann, chef Peter Knogl 'il re delle salse', tre Stelle Michelin 💎 👑",
     "mappa": "Blumenrain 8, Basilea, BS"
   },
   {
@@ -6888,7 +6888,7 @@ var GUIDA=[
     "tel": "+41 21 634 05 05",
     "telefono": "+41 21 634 05 05",
     "web": "https://www.restaurantcrissier.com/",
-    "note": "Fondato nel 1955, quattro chef consecutivi con tre Stelle Michelin — Frédy Girardet, Philippe Rochat, Benoît Violier, oggi Franck Giovannini — un museo interno ne ripercorre la storia ⭐ 👑",
+    "note": "Fondato nel 1955, quattro chef consecutivi con tre Stelle Michelin — Frédy Girardet, Philippe Rochat, Benoît Violier, oggi Franck Giovannini — un museo interno ne ripercorre la storia 💎 👑",
     "mappa": "Rue d'Yverdon 1, Crissier, VD"
   },
   {
@@ -6902,7 +6902,7 @@ var GUIDA=[
     "tel": "+41 22 753 15 11",
     "telefono": "+41 22 753 15 11",
     "web": "https://chateauvieux.ch/",
-    "note": "Antica fattoria vinicola del XVI secolo, nel maggior comune vinicolo svizzero, chef-proprietario Philippe Chevrier dal 1986, oggi anche piccolo hotel di 12 camere ⭐ 👑",
+    "note": "Antica fattoria vinicola del XVI secolo, nel maggior comune vinicolo svizzero, chef-proprietario Philippe Chevrier dal 1986, oggi anche piccolo hotel di 12 camere 💎 👑",
     "mappa": "Chemin de Châteauvieux 16, Satigny, GE"
   },
   {
@@ -6916,7 +6916,7 @@ var GUIDA=[
     "tel": "+41 44 224 25 26",
     "telefono": "+41 44 224 25 26",
     "web": "https://www.widderhotel.com/en/eat-drink/widder-restaurant/",
-    "note": "Occupa due dei nove edifici storici del Widder Hotel, uno con soffitto medievale conservato, chef Stefan Heilemann dal 2020, due Stelle Michelin ⭐ 👑",
+    "note": "Occupa due dei nove edifici storici del Widder Hotel, uno con soffitto medievale conservato, chef Stefan Heilemann dal 2020, due Stelle Michelin 💎 👑",
     "mappa": "Rennweg 7, Zurigo, ZH"
   },
   {
@@ -6930,7 +6930,7 @@ var GUIDA=[
     "tel": "+41 41 399 60 60",
     "telefono": "+41 41 399 60 60",
     "web": "https://www.parkhotel-vitznau.ch/en/wine-dine/restaurant-focus-atelier",
-    "note": "Chef Patrick Mahler dal 2017, cucina franco-classica con influenze giapponesi e scandinave, in un cubo di vetro affacciato sul Lago di Lucerna, cantina con oltre 35.000 bottiglie ⭐ 👑",
+    "note": "Chef Patrick Mahler dal 2017, cucina franco-classica con influenze giapponesi e scandinave, in un cubo di vetro affacciato sul Lago di Lucerna, cantina con oltre 35.000 bottiglie 💎 👑",
     "mappa": "Seestrasse 18, Vitznau, LU"
   },
   {
@@ -6944,7 +6944,7 @@ var GUIDA=[
     "tel": "+41 61 361 82 22",
     "telefono": "+41 61 361 82 22",
     "web": "https://stuckibasel.ch/",
-    "note": "Chef Tanja Grandits, alla guida dello Stucki dal 2008 dopo la morte del leggendario predecessore Hans Stucki, cucina costruita attorno a un colore dominante per ogni piatto ⭐ 👑",
+    "note": "Chef Tanja Grandits, alla guida dello Stucki dal 2008 dopo la morte del leggendario predecessore Hans Stucki, cucina costruita attorno a un colore dominante per ogni piatto 💎 👑",
     "mappa": "Bruderholzallee 42, Basilea, BS"
   },
   {
@@ -6958,7 +6958,7 @@ var GUIDA=[
     "tel": "+41 81 632 10 80",
     "telefono": "+41 81 632 10 80",
     "web": "https://www.schauenstein.ch/",
-    "note": "Castello del 1667 nella minuscola Fürstenau, chef Andreas Caminada, proprietario dal 2003, tre Stelle Michelin dal 2010, orto proprio e hotel di sole 12 camere ⭐ 👑",
+    "note": "Castello del 1667 nella minuscola Fürstenau, chef Andreas Caminada, proprietario dal 2003, tre Stelle Michelin dal 2010, orto proprio e hotel di sole 12 camere 💎 👑",
     "mappa": "Schlossgass 77, Fürstenau, GR"
   },
   {
@@ -6972,7 +6972,7 @@ var GUIDA=[
     "tel": "+81 3 5222 5810",
     "telefono": "+81 3 5222 5810",
     "web": "https://www.sezanne.jp/",
-    "note": "Chef Daniel Calvert, cucina francese classica moderna nel Four Seasons, cucina a vista disegnata da André Fu, ingredienti selezionati da tutto il Giappone ⭐ 👑",
+    "note": "Chef Daniel Calvert, cucina francese classica moderna nel Four Seasons, cucina a vista disegnata da André Fu, ingredienti selezionati da tutto il Giappone 💎 👑",
     "mappa": "1-11-1 Marunouchi, Chiyoda-ku, Tokyo, JP"
   },
   {
@@ -6986,7 +6986,7 @@ var GUIDA=[
     "tel": "+81 3 5424 1347",
     "telefono": "+81 3 5424 1347",
     "web": "https://www.robuchon.jp/",
-    "note": "Castello ricostruito pietra su pietra in omaggio al Moulinsart di Tintin, aperto nel 1994 come Taillevent Robuchon, rinominato Château Restaurant nel 2004, tre Stelle Michelin ininterrotte dalla prima Guida Michelin di Tokyo nel 2008, oggi chef Kenichiro Sekiya ⭐ 👑",
+    "note": "Castello ricostruito pietra su pietra in omaggio al Moulinsart di Tintin, aperto nel 1994 come Taillevent Robuchon, rinominato Château Restaurant nel 2004, tre Stelle Michelin ininterrotte dalla prima Guida Michelin di Tokyo nel 2008, oggi chef Kenichiro Sekiya 💎 👑",
     "mappa": "1-13-1 Mita, Meguro-ku, Tokyo, JP"
   },
   {
@@ -7000,7 +7000,7 @@ var GUIDA=[
     "tel": "+81 3 3239 3111",
     "telefono": "+81 3 3239 3111",
     "web": "https://tourdargent.jp/",
-    "note": "Aperto nel 1984, unica filiale al mondo della storica Tour d'Argent di Parigi (dal 1582), nata dal ritorno del Principe Hirohito 50 anni dopo la sua prima cena lì nel 1921 ⭐ 👑",
+    "note": "Aperto nel 1984, unica filiale al mondo della storica Tour d'Argent di Parigi (dal 1582), nata dal ritorno del Principe Hirohito 50 anni dopo la sua prima cena lì nel 1921 💎 👑",
     "mappa": "4-1 Kioi-cho, Chiyoda-ku, Tokyo, JP"
   },
   {
@@ -7014,7 +7014,7 @@ var GUIDA=[
     "tel": "+81 6 4707 0070",
     "telefono": "+81 6 4707 0070",
     "web": "https://www.labecasse.co.jp/",
-    "note": "Chef Yoshinori Shibuya, formatosi con il maestro francese Alain Chapel, cucina franco-giapponese, piatto iconico l'insalata di aragosta al coriandolo ⭐ 👑",
+    "note": "Chef Yoshinori Shibuya, formatosi con il maestro francese Alain Chapel, cucina franco-giapponese, piatto iconico l'insalata di aragosta al coriandolo 💎 👑",
     "mappa": "3-3-9 Hiranomachi, Chuo Ward, Osaka, JP"
   },
   {
@@ -7028,7 +7028,7 @@ var GUIDA=[
     "tel": "+377 98 06 88 64",
     "telefono": "+377 98 06 88 64",
     "web": "https://www.montecarlosbm.com/it/ristorante-monaco/le-louis-xv-alain-ducasse-hotel-de-paris",
-    "note": "Aperto nel 1987, il Principe Ranieri III sfidò Alain Ducasse (allora 33enne) a ottenere tre Stelle Michelin in 4 anni: ci riuscì in 33 mesi, primo ristorante d'albergo al mondo a raggiungerle ⭐ 👑",
+    "note": "Aperto nel 1987, il Principe Ranieri III sfidò Alain Ducasse (allora 33enne) a ottenere tre Stelle Michelin in 4 anni: ci riuscì in 33 mesi, primo ristorante d'albergo al mondo a raggiungerle 💎 👑",
     "mappa": "Place du Casino, Monte Carlo, MC"
   },
   {
@@ -7042,7 +7042,7 @@ var GUIDA=[
     "tel": "+377 98 06 00 35",
     "telefono": "+377 98 06 00 35",
     "web": "https://www.montecarlosbm.com/en/restaurant-monaco/blue-bay-marcel-ravin",
-    "note": "Chef Marcel Ravin, nato in Martinica, chef esecutivo dal 2005, cucina che fonde influenze creole e mediterranee, riaperto nel 2024 con il Principe Alberto II al taglio del nastro ⭐ 👑",
+    "note": "Chef Marcel Ravin, nato in Martinica, chef esecutivo dal 2005, cucina che fonde influenze creole e mediterranee, riaperto nel 2024 con il Principe Alberto II al taglio del nastro 💎 👑",
     "mappa": "40 Avenue Princesse Grace, Monte Carlo, MC"
   },
   {
@@ -7056,7 +7056,7 @@ var GUIDA=[
     "tel": "+39 0461 349401",
     "telefono": "+39 0461 349401",
     "web": "https://locandamargon.it",
-    "note": "Il ristorante di Casa Ferrari dal 2008, accanto alla cinquecentesca Villa Margon dove dormì l'Imperatore Carlo V, chef Edoardo Fumagalli, terrazza tra i vigneti con vista su Trento, una Stella Michelin ⭐ 🌄",
+    "note": "Il ristorante di Casa Ferrari dal 2008, accanto alla cinquecentesca Villa Margon dove dormì l'Imperatore Carlo V, chef Edoardo Fumagalli, terrazza tra i vigneti con vista su Trento, una Stella Michelin 💎 🌄",
     "mappa": "Via Margone 15, Ravina, TN"
   },
   {
@@ -7070,7 +7070,7 @@ var GUIDA=[
     "tel": "+212 529 808282",
     "telefono": "+212 529 808282",
     "web": "https://www.royalmansour.com/en/marrakech/dining/la-grande-table-marocaine/",
-    "note": "Unico ristorante del suo genere in Africa ammesso all'associazione, dal 2024 chef Hélène Darroze con Karim Ben Baba, il pasto inizia prima del menu con datteri e tè cerimoniale ⭐ 👑",
+    "note": "Unico ristorante del suo genere in Africa ammesso all'associazione, dal 2024 chef Hélène Darroze con Karim Ben Baba, il pasto inizia prima del menu con datteri e tè cerimoniale 💎 👑",
     "mappa": "Rue Abou Abbas El Sebti, Marrakech, MA"
   },
   {
@@ -7084,7 +7084,7 @@ var GUIDA=[
     "tel": "+212 529 808282",
     "telefono": "+212 529 808282",
     "web": "https://www.royalmansour.com/en/marrakech/dining/sesamo/",
-    "note": "Aperto nel 2019 dai fratelli Massimiliano e Raffaele Alajmo, chef Riccardo Barni, cucina veneta in terra marocchina, il nome richiama anche 'AMO' loro ristorante a Venezia ⭐ 👑",
+    "note": "Aperto nel 2019 dai fratelli Massimiliano e Raffaele Alajmo, chef Riccardo Barni, cucina veneta in terra marocchina, il nome richiama anche 'AMO' loro ristorante a Venezia 💎 👑",
     "mappa": "Rue Abou Abbas El Sebti, Marrakech, MA"
   },
   {
@@ -7098,7 +7098,7 @@ var GUIDA=[
     "tel": "+44 1844 278881",
     "telefono": "+44 1844 278881",
     "web": "https://www.belmond.com/hotels/europe/uk/oxfordshire/belmond-le-manoir-aux-quat-saisons/",
-    "note": "Aperto nel 1984 da Raymond Blanc in un maniero del Quattrocento, due Stelle Michelin. Attualmente chiuso per ristrutturazione, riapertura prevista nel 2027 con il nuovo direttore culinario Arnaud Donckele ⭐ 👑",
+    "note": "Aperto nel 1984 da Raymond Blanc in un maniero del Quattrocento, due Stelle Michelin. Attualmente chiuso per ristrutturazione, riapertura prevista nel 2027 con il nuovo direttore culinario Arnaud Donckele 💎 👑",
     "mappa": "Church Road, Great Milton, GB"
   },
   {
@@ -7112,7 +7112,7 @@ var GUIDA=[
     "tel": "+44 115 986 6566",
     "telefono": "+44 115 986 6566",
     "web": "https://www.restaurantsatbains.com/",
-    "note": "Chef Sat Bains dal 1999, con la moglie Amanda, sotto un cavalcavia alla periferia di Nottingham, solo 28 coperti e 7 camere, due Stelle Michelin e Stella Verde ⭐ 👑",
+    "note": "Chef Sat Bains dal 1999, con la moglie Amanda, sotto un cavalcavia alla periferia di Nottingham, solo 28 coperti e 7 camere, due Stelle Michelin e Stella Verde 💎 👑",
     "mappa": "Lenton Lane, Nottingham, GB"
   },
   {
@@ -7126,7 +7126,7 @@ var GUIDA=[
     "tel": "+44 1628 620691",
     "telefono": "+44 1628 620691",
     "web": "https://www.waterside-inn.co.uk/",
-    "note": "Aperto nel 1972 da Albert e Michel Roux, nel 2010 primo ristorante fuori dalla Francia a mantenere tre Stelle Michelin per 25 anni, oggi chef patron Alain Roux ⭐ 👑",
+    "note": "Aperto nel 1972 da Albert e Michel Roux, nel 2010 primo ristorante fuori dalla Francia a mantenere tre Stelle Michelin per 25 anni, oggi chef patron Alain Roux 💎 👑",
     "mappa": "Ferry Road, Bray, GB"
   },
   {
@@ -7168,7 +7168,7 @@ var GUIDA=[
     "tel": "+31 38 421 2083",
     "telefono": "+31 38 421 2083",
     "web": "https://www.librije.com/",
-    "note": "In un ex carcere femminile, sala nel cortile dell'ora d'aria, fondato da Jonnie e Thérèse Boer, tre Stelle dal 2004, oggi guidato da Thérèse dopo la morte di Jonnie nel 2025 ⭐ 👑",
+    "note": "In un ex carcere femminile, sala nel cortile dell'ora d'aria, fondato da Jonnie e Thérèse Boer, tre Stelle dal 2004, oggi guidato da Thérèse dopo la morte di Jonnie nel 2025 💎 👑",
     "mappa": "Spinhuisplein 1, Zwolle, NL"
   },
   {
@@ -7182,7 +7182,7 @@ var GUIDA=[
     "tel": "+31 522 463 116",
     "telefono": "+31 522 463 116",
     "web": "https://degroenelantaarn.com/",
-    "note": "Chef Jarno Eggen con la moglie Cindy Borger, in sala, due Stelle Michelin, durante la pandemia mantennero tutto lo staff con corsi di formazione settimanali ⭐ 👑",
+    "note": "Chef Jarno Eggen con la moglie Cindy Borger, in sala, due Stelle Michelin, durante la pandemia mantennero tutto lo staff con corsi di formazione settimanali 💎 👑",
     "mappa": "Gemeenteweg 364, Staphorst, NL"
   },
   {
@@ -7196,7 +7196,7 @@ var GUIDA=[
     "tel": "+31 113 381 753",
     "telefono": "+31 113 381 753",
     "web": "https://www.interscaldes.nl/",
-    "note": "Oggi guidato da Jeroen Achtien (formatosi con Jonnie Boer, prima Stella Michelin ottenuta in Svizzera al ristorante Sens di Vitznau), due Stelle Michelin ottenute in un colpo solo dopo la ristrutturazione del 2024 ⭐ 👑",
+    "note": "Oggi guidato da Jeroen Achtien (formatosi con Jonnie Boer, prima Stella Michelin ottenuta in Svizzera al ristorante Sens di Vitznau), due Stelle Michelin ottenute in un colpo solo dopo la ristrutturazione del 2024 💎 👑",
     "mappa": "Zandweg 2, Kruiningen, NL"
   },
   {
@@ -7210,7 +7210,7 @@ var GUIDA=[
     "tel": "+65 6385 0498",
     "telefono": "+65 6385 0498",
     "web": "https://odetterestaurant.com/",
-    "note": "Aperto nel 2015 da Julien Royer, il nome è un omaggio alla nonna che gli insegnò a cucinare, tre Stelle Michelin, ospitato nell'ala della Corte Suprema del National Gallery ⭐ 👑",
+    "note": "Aperto nel 2015 da Julien Royer, il nome è un omaggio alla nonna che gli insegnò a cucinare, tre Stelle Michelin, ospitato nell'ala della Corte Suprema del National Gallery 💎 👑",
     "mappa": "1 St Andrew's Road, Singapore, SG"
   },
   {
@@ -7224,7 +7224,7 @@ var GUIDA=[
     "tel": "+65 9199 9008",
     "telefono": "+65 9199 9008",
     "web": "https://www.jaan.sg/",
-    "note": "Il nome deriva dal sanscrito per 'ciotola', un tempo guidato da Julien Royer (oggi a Odette), dal 2015 chef Kirk Westaway con la sua 'Reinventing British', due Stelle Michelin dal 2021 ⭐ 👑",
+    "note": "Il nome deriva dal sanscrito per 'ciotola', un tempo guidato da Julien Royer (oggi a Odette), dal 2015 chef Kirk Westaway con la sua 'Reinventing British', due Stelle Michelin dal 2021 💎 👑",
     "mappa": "2 Stamford Road, Singapore, SG"
   },
   {
@@ -7238,7 +7238,7 @@ var GUIDA=[
     "tel": "+65 6733 2225",
     "telefono": "+65 6733 2225",
     "web": "https://www.lesamis.com.sg/",
-    "note": "Aperto nel 1994, primo fine dining indipendente di Singapore, dal 2013 chef Sébastien Lepinoy dopo 17 anni con Joël Robuchon, tre Stelle Michelin ⭐ 👑",
+    "note": "Aperto nel 1994, primo fine dining indipendente di Singapore, dal 2013 chef Sébastien Lepinoy dopo 17 anni con Joël Robuchon, tre Stelle Michelin 💎 👑",
     "mappa": "1 Scotts Road, Singapore, SG"
   },
   {
@@ -7252,7 +7252,7 @@ var GUIDA=[
     "tel": "+65 6438 0887",
     "telefono": "+65 6438 0887",
     "web": "https://www.saintpierre.com.sg/",
-    "note": "Aperto nel 2000 dallo chef belga Emmanuel Stroobant con la moglie Edina Hong, vista panoramica sul Marina Bay, due Stelle Michelin, unico membro di Singapore di Relais & Châteaux ⭐ 👑",
+    "note": "Aperto nel 2000 dallo chef belga Emmanuel Stroobant con la moglie Edina Hong, vista panoramica sul Marina Bay, due Stelle Michelin, unico membro di Singapore di Relais & Châteaux 💎 👑",
     "mappa": "1 Fullerton Road, Singapore, SG"
   },
   {
@@ -7266,7 +7266,7 @@ var GUIDA=[
     "tel": "+46 8 676 58 01",
     "telefono": "+46 8 676 58 01",
     "web": "https://operakallaren.se/",
-    "note": "Aperto nel 1787 dentro l'Opera Reale, il ristorante nazionale svedese, cantina 'Nobiskällaren' con circa 2500 etichette, istituzione internazionale sotto Tore Wretman dal 1955 ⭐ 👑",
+    "note": "Aperto nel 1787 dentro l'Opera Reale, il ristorante nazionale svedese, cantina 'Nobiskällaren' con circa 2500 etichette, istituzione internazionale sotto Tore Wretman dal 1955 💎 👑",
     "mappa": "Karl XII's Torg, Stoccolma, SE"
   },
   {
@@ -7280,7 +7280,7 @@ var GUIDA=[
     "tel": "+66 2 107 2777",
     "telefono": "+66 2 107 2777",
     "web": "https://restaurantsuhring.com/",
-    "note": "Dei gemelli berlinesi Thomas e Mathias Sühring, aperto nel 2016 in una villa degli anni '70 ristrutturata da loro, cucina tedesca moderna dalle ricette della nonna, tre Stelle Michelin dal 2026 ⭐ 👑",
+    "note": "Dei gemelli berlinesi Thomas e Mathias Sühring, aperto nel 2016 in una villa degli anni '70 ristrutturata da loro, cucina tedesca moderna dalle ricette della nonna, tre Stelle Michelin dal 2026 💎 👑",
     "mappa": "10 Soi Yen Akat 3, Bangkok, TH"
   },
   {
@@ -7294,7 +7294,7 @@ var GUIDA=[
     "tel": "+66 98 696 9074",
     "telefono": "+66 98 696 9074",
     "web": "https://baantepabkk.com/",
-    "note": "Aperto nel 2020 dalla chef Tam Debhakam nella casa costruita dalla nonna, prima donna thailandese a guidare un due Stelle Michelin, Stella Verde, ingredienti thailandesi poco noti dal suo giardino ⭐ 👑",
+    "note": "Aperto nel 2020 dalla chef Tam Debhakam nella casa costruita dalla nonna, prima donna thailandese a guidare un due Stelle Michelin, Stella Verde, ingredienti thailandesi poco noti dal suo giardino 💎 👑",
     "mappa": "561 Ramkhamhaeng Road, Bangkok, TH"
   },
   {
@@ -7308,7 +7308,7 @@ var GUIDA=[
     "tel": "+66 2 624 9555",
     "telefono": "+66 2 624 9555",
     "web": "https://lebua.com/restaurants/chefs-table/",
-    "note": "Aperto nel 2019 con ogni tavolo affacciato sulla cucina a vista, chef Vincent Thierry (già Caprice a Hong Kong), due Stelle Michelin e il Michelin Service Award ⭐ 👑",
+    "note": "Aperto nel 2019 con ogni tavolo affacciato sulla cucina a vista, chef Vincent Thierry (già Caprice a Hong Kong), due Stelle Michelin e il Michelin Service Award 💎 👑",
     "mappa": "1055 Silom Road, Bangkok, TH"
   },
   {
@@ -7322,7 +7322,7 @@ var GUIDA=[
     "tel": "+66 2 659 9000",
     "telefono": "+66 2 659 9000",
     "web": "https://www.mandarinoriental.com/en/bangkok/chao-phraya-river/dine/anne-sophie-pic-at-le-normandie",
-    "note": "Aperto nel 1958 in cima alla Tower Wing del Mandarin Oriental, dal 2025 con il nome di Anne-Sophie Pic, vista sul Chao Phraya, due Stelle Michelin nella Guida 2026, lo chef giapponese Tamaki Kobayashi in cucina ⭐ 👑",
+    "note": "Aperto nel 1958 in cima alla Tower Wing del Mandarin Oriental, dal 2025 con il nome di Anne-Sophie Pic, vista sul Chao Phraya, due Stelle Michelin nella Guida 2026, lo chef giapponese Tamaki Kobayashi in cucina 💎 👑",
     "mappa": "48 Oriental Avenue, Bangkok, TH"
   },
   {
@@ -7364,7 +7364,7 @@ var GUIDA=[
     "tel": "+39 0435 469070",
     "telefono": "+39 0435 469070",
     "web": "https://www.ristorantelaite.com",
-    "note": "In due antiche stube di legno, chef Fabrizia Meroi con il marito Roberto Brovedani e la figlia Elena in sala, una Stella Michelin, il nome in sappadino significa «un prato al sole» ⭐ ⛰️",
+    "note": "In due antiche stube di legno, chef Fabrizia Meroi con il marito Roberto Brovedani e la figlia Elena in sala, una Stella Michelin, il nome in sappadino significa «un prato al sole» 💎 ⛰️",
     "mappa": "Borgata Hoffe 10, Sappada, UD"
   },
   {
@@ -7392,7 +7392,7 @@ var GUIDA=[
     "tel": "+33 1 79 35 50 11",
     "telefono": "+33 1 79 35 50 11",
     "web": "https://www.chevalblanc.com/en/maison/paris/restaurants-and-bars/plenitude/",
-    "note": "Al primo piano del Cheval Blanc Paris, chef Arnaud Donckele compone le salse come un profumiere, tre Stelle Michelin nel primo anno di apertura, un record per la guida ⭐",
+    "note": "Al primo piano del Cheval Blanc Paris, chef Arnaud Donckele compone le salse come un profumiere, tre Stelle Michelin nel primo anno di apertura, un record per la guida 💎",
     "mappa": "8 Quai du Louvre, Paris, F"
   },
   {
@@ -7406,7 +7406,7 @@ var GUIDA=[
     "tel": "+39 0481 60531",
     "telefono": "+39 0481 60531",
     "web": "https://www.lasubida.it/a-tavola/ristorante-trattoria-al-cacciatore/",
-    "note": "Il cuore gastronomico del borgo di La Subida, creato da Loredana e Josko Sirk e oggi con i figli Tanja e Mitja, chef Alessandro Gavagna, selvaggina ed erbe spontanee, una Stella Michelin ⭐ 🌳",
+    "note": "Il cuore gastronomico del borgo di La Subida, creato da Loredana e Josko Sirk e oggi con i figli Tanja e Mitja, chef Alessandro Gavagna, selvaggina ed erbe spontanee, una Stella Michelin 💎 🌳",
     "mappa": "Via Subida 52, Cormons, GO"
   },
   {
