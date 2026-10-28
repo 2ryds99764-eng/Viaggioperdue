@@ -1120,7 +1120,13 @@ function costruisciItinerario() {
       }).join("") +
       '</div>' +
       (it.numeriUtili && it.numeriUtili.length
-        ? '<div class="itin-zona-titolo">Numeri utili, in un colpo solo</div>' + it.numeriUtili.map(function (n) { return '<p class="rp">' + escV(n) + '</p>'; }).join("")
+        ? '<div class="itin-zona-titolo">Numeri utili, in un colpo solo</div>' + it.numeriUtili.map(function (n) {
+            if (typeof n === "string") return '<p class="rp">' + escV(n) + '</p>';
+            const link = (n.url && n.url.indexOf("https://") === 0)
+              ? ' <a class="itin-link-storia" href="' + esc(n.url) + '" target="_blank" rel="noopener">' + esc(n.etichetta || "Sito web") + ' →</a>'
+              : "";
+            return '<p class="rp">' + escV(n.testo) + link + '</p>';
+          }).join("")
         : "");
   }
 

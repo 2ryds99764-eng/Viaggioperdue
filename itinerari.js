@@ -2300,8 +2300,8 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
 
     numeriUtili: [
       "Emergenze: 112.",
-      "Battelli di Sfakion e Loutro: Anendyk Seaways, anendyk.gr (gli orari sono sul sito).",
-      "Noleggio auto: Rental Center Crete, tel. +30 2810 240120, info@rental-center-crete.com."
+      { testo: "Battelli di Sfakion e Loutro: Anendyk Seaways, gli orari sono sul sito.", url: "https://anendyk.gr", etichetta: "anendyk.gr" },
+      { testo: "Noleggio auto: Rental Center Crete, tel. +30 2810 240120, info@rental-center-crete.com.", url: "https://www.rental-center-crete.com", etichetta: "rental-center-crete.com" }
     ]
   }
 
