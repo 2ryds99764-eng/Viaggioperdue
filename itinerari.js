@@ -2058,6 +2058,8 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
     sottotitolo: "Islay e Jura, sei giorni nelle Ebridi Interne",
     regione: "Scozia",
     copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/C18FDDA1-2DAD-4010-98F9-C3410AEE75FC_eomjkz",
+    copertinaCredito: "Foto: B K su Unsplash",
+    copertinaCreditoUrl: "https://unsplash.com/@woolyart",
     tappe: ["Port Ellen","Bowmore","Port Charlotte","Kilchoman","Port Askaig","Craighouse","Ardlussa"],
 
     epigrafe: {

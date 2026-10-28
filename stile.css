@@ -533,6 +533,8 @@ body::before {
   object-fit: cover; display: block; opacity: 0; transition: opacity 1.2s ease;
 }
 .storia-copertina img.attiva { opacity: 1; }
+.itin-credito { margin: 6px 0 0; font-size: 0.78rem; text-align: right; color: #5d6b82; }
+.itin-credito a { color: #5d6b82; text-decoration: underline; }
 .storia-h2 {
   font-family: var(--serif); font-weight: 500; font-size: 1.5rem;
   margin: 34px 0 6px; color: var(--blu-notte);

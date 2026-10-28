@@ -933,7 +933,22 @@ function costruisciItinerario() {
   /* ---- copertina e video (stesso schema di storia) ---- */
   const cop = document.getElementById("itinerario-copertina");
   if (cop) {
-    if (it.copertina) { cop.className = "storia-copertina"; cop.innerHTML = '<img class="attiva" src="' + esc(it.copertina) + '" alt="' + esc(it.titolo) + '">'; }
+    const creditoVecchio = document.getElementById("itinerario-copertina-credito");
+    if (creditoVecchio) creditoVecchio.remove();
+    if (it.copertina) {
+      cop.className = "storia-copertina";
+      cop.innerHTML = '<img class="attiva" src="' + esc(it.copertina) + '" alt="' + esc(it.titolo) + '">';
+      if (it.copertinaCredito && it.copertinaCredito.trim() !== "") {
+        const testoCredito = (it.copertinaCreditoUrl && it.copertinaCreditoUrl.indexOf("https://") === 0)
+          ? '<a href="' + esc(it.copertinaCreditoUrl) + '" target="_blank" rel="noopener">' + esc(it.copertinaCredito) + '</a>'
+          : esc(it.copertinaCredito);
+        const credito = document.createElement("p");
+        credito.id = "itinerario-copertina-credito";
+        credito.className = "itin-credito";
+        credito.innerHTML = testoCredito;
+        cop.insertAdjacentElement("afterend", credito);
+      }
+    }
     else cop.style.display = "none";
   }
   const vid = document.getElementById("itinerario-video");
