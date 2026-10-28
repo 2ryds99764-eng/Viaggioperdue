@@ -2117,9 +2117,9 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
         label: "Giorno quarto",
         titolo: "Il nord e il Sound",
         paragrafi: [
-          "Da Port Ellen si risale verso nord, fino al Sound of Islay, con le montagne di Jura che si fanno sempre più vicine. Caol Ila, del 1846, è la più grande distilleria dell'isola, e dalla sala degli alambicchi si vedono le Paps of Jura. Più avanti c'è Ardnahoe, aperta nel 2019, con un caffè affacciato sul Sound, e in fondo alla strada, isolata sul capo nord-orientale, Bunnahabhain, il cui nome significa «foce del fiume». Poi si torna a Port Askaig e si prende il traghetto per Jura: cinque minuti, mezzo miglio di mare, si paga a bordo e non si prenota. A Feolin la strada sale verso Craighouse."
+          "Da Port Ellen si risale verso nord, fino al Sound of Islay, con le montagne di Jura che si fanno sempre più vicine. Caol Ila, del 1846, è la più grande distilleria dell'isola, e dalla sala degli alambicchi si vedono le Paps of Jura. Più avanti c'è Ardnahoe, aperta nel 2019, con un caffè affacciato sul Sound, e in fondo alla strada, isolata sul capo nord-orientale, Bunnahabhain, il cui nome significa «foce del fiume». Poi si torna a Port Askaig e si prende il traghetto per Jura: cinque minuti, mezzo miglio di mare, senza prenotazione. A Feolin la strada sale verso Craighouse."
         ],
-        note: ["Si dorme a Craighouse, al Jura Hotel, l'unico albergo dell'isola.", "Ardnahoe è aperta da martedì a sabato; Caol Ila si visita su prenotazione. Non arrivare all'ultimo al traghetto di Feolin: può partire 5-10 minuti in anticipo."],
+        note: ["Si dorme a Craighouse, al Jura Hotel, l'unico albergo dell'isola.", "Ardnahoe è aperta da martedì a sabato; Caol Ila si visita su prenotazione. Al traghetto di Feolin si arriva venti minuti prima della partenza."],
         ristoranti: []
       },
       {
@@ -2189,7 +2189,7 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
     primaDiChiudere: [
       { titolo: "COME SI ARRIVA", sotto: "Kennacraig, poi Port Askaig", testo: "Da Glasgow a Kennacraig sono circa due ore e mezza di strada, poi la nave CalMac impiega meno di due ore fino a Port Askaig. Dal 2 giugno 2026 fino al 2029 Port Ellen è chiuso e tutte le corse vanno a Port Askaig. Si prenota online, anche a piedi." },
       { titolo: "LE NAVI", sotto: "inverno 2026/27", testo: "Da Port Askaig la prima partenza è alle 7:00 e l'ultima tra le 17:25 e le 18:05, secondo il giorno. Check-in 30 minuti prima per le auto, 10 a piedi. L'orario estivo 2027 non è ancora pubblicato." },
-      { titolo: "IL TRAGHETTO PER JURA", sotto: "cinque minuti, senza prenotare", testo: "Si paga a bordo. Le corse regolari arrivano fino a circa le 18:30; una corsa tarda alle 21:30 va prenotata entro mezzogiorno del giorno prima. Può partire 5-10 minuti in anticipo." },
+      { titolo: "IL TRAGHETTO PER JURA", sotto: "cinque minuti, senza prenotare", testo: "Non si prenota: si arriva venti minuti prima della partenza, e i biglietti si comprano online sul sito del traghetto. Gli orari regolari e serali sono sul sito del Comune di Argyll & Bute e cambiano con la stagione." },
       { titolo: "L'AUTO", sotto: "necessaria", testo: "Le strade di Islay e di Jura sono a corsia unica. A Jura l'auto arriva fino al cancello oltre Ardlussa." },
       { titolo: "LE VISITE", sotto: "si prenotano", testo: "Laphroaig, Lagavulin, Caol Ila e la distilleria di Jura vanno prenotate; Port Ellen solo su appuntamento; Ardnahoe da martedì a sabato. Gli orari cambiano con la stagione." },
       { titolo: "SE SI VUOLE RESTARE UN GIORNO IN PIÙ", sotto: "sei notti", testo: "Si dorme a Port Askaig, al Port Askaig Hotel, a pochi passi dal molo, e si prende la nave delle 7:00." },
@@ -2199,7 +2199,8 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
     numeriUtili: [
       "Ristoranti dell'itinerario — vedi il taccuino \"Dove sedersi a tavola\".",
       "Emergenze — 999 o 112; per il soccorso in mare si chiama il 999 e si chiede la Guardia costiera.",
-      "Stato delle corse — pagina service status di CalMac e app; traghetto di Jura: juraferry.argyll-bute.gov.uk."
+      { testo: "Stato delle corse di Islay: dalla pagina «Service status» di CalMac si sceglie la rotta Kennacraig-Port Askaig (codice 09); c'è anche l'app.", url: "https://www.calmac.co.uk/en-gb/service-status/", etichetta: "calmac.co.uk" },
+      { testo: "Traghetto di Jura (Port Askaig-Feolin): orari, tariffe e biglietti sul sito del Comune di Argyll & Bute.", url: "https://juraferry.argyll-bute.gov.uk", etichetta: "juraferry.argyll-bute.gov.uk" }
     ]
   },
 
