@@ -2201,6 +2201,107 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
       "Emergenze — 999 o 112; per il soccorso in mare si chiama il 999 e si chiede la Guardia costiera.",
       "Stato delle corse — pagina service status di CalMac e app; traghetto di Jura: juraferry.argyll-bute.gov.uk."
     ]
+  },
+
+  "creta": {
+    occhiello: "Un itinerario per due",
+    titolo: "Da Chania a Heraklion",
+    sottotitolo: "Creta in dieci giorni, da ovest a est, con due notti nel villaggio senza strade",
+    regione: "Creta",
+    copertina: "https://res.cloudinary.com/dspgc41gt/image/upload/w_2400,q_auto,f_auto/v1793177590/dimitris-kiriakakis-p_DnAQNczqY-unsplash_wrth7e.jpg",
+    copertinaCredito: "Foto: Dimitris Kiriakakis su Unsplash",
+    copertinaCreditoUrl: "https://unsplash.com/@dimeloper",
+    tappe: ["Chania","Loutro","Kalamaki","Festòs","Cnosso","Elounda","Spinalonga","Heraklion"],
+
+    epigrafe: {
+      testo: "Raccontiamo, non giudichiamo. La libertà di scoprire appartiene a chi viaggia, non a chi scrive.",
+      fonte: ""
+    },
+
+    apertura: [
+      "Creta si attraversa da ovest a est: si atterra a Chania e si riparte da Heraklion, due aeroporti a circa centoquaranta chilometri l'uno dall'altro, con in mezzo una costa sud che in lunghi tratti non ha strade. Dieci giorni, quattro alberghi sul mare e un villaggio, Loutro, che si raggiunge solo in barca.",
+      "Il percorso è semplice: Chania, con la sua città veneziana; Loutro, due notti senza auto; Kalamaki, nella pianura della Messara, con Festòs nell'entroterra; Elounda, di fronte all'isola di Spinalonga. Quattro basi, tre trasferimenti, e un'auto a noleggio che si ritira a Chania e si riconsegna a Heraklion.",
+      "Non è una classifica di spiagge. È un percorso possibile, con dentro gli indirizzi di chi lavora bene: una dimora veneziana di sei generazioni, una guesthouse che si raggiunge solo via mare, sette case a dieci metri dalla riva, un albergo di fronte a un'isola fortezza. Il resto, il vento, il mare, il tempo che si decide di fermarsi, appartiene a chi viaggia."
+    ],
+
+    percorso: {
+      intro: "Chania per due notti, Loutro per due, Kalamaki per due, Elounda per tre. Nove notti in tutto, quattro alberghi, e un'auto che resta ferma due notti nel parcheggio di Chora Sfakion mentre si dorme a Loutro.",
+      giorni: [
+        { giorno: "Giorno primo", titolo: "Chania", km: "", testo: "Arrivo, ritiro dell'auto, il porto veneziano al tramonto." },
+        { giorno: "Giorno secondo", titolo: "Topanas e il porto", km: "", testo: "Faro, arsenali, Topanas e Splantzia." },
+        { giorno: "Giorno terzo", titolo: "Loutro", km: "", testo: "Da Chora Sfakion in battello al villaggio senza strade." },
+        { giorno: "Giorno quarto", titolo: "Glyka Nera e Marmara", km: "", testo: "Glyka Nera, Marmara e il forte veneziano." },
+        { giorno: "Giorno quinto", titolo: "Dalla costa alla Messara", km: "", testo: "Il battello del mattino e la strada verso la Messara." },
+        { giorno: "Giorno sesto", titolo: "Festòs e Matala", km: "", testo: "Festòs, Agia Triada, Gortyn e Matala." },
+        { giorno: "Giorno settimo", titolo: "Cnosso e il Golfo di Mirabello", km: "", testo: "Cnosso all'apertura e il Golfo di Mirabello." },
+        { giorno: "Giorno ottavo", titolo: "Spinalonga", km: "", testo: "Spinalonga, a cinque minuti di barca da Plaka." },
+        { giorno: "Giorno nono", titolo: "Il giorno vuoto", km: "", testo: "Un giorno senza programma, sul mare." },
+        { giorno: "Giorno decimo", titolo: "Heraklion", km: "", testo: "L'aeroporto, e il museo archeologico se il volo lo permette." }
+      ]
+    },
+
+    giorni: [
+      { label: "Giorno primo", titolo: "Chania",
+        paragrafi: ["L'aeroporto di Chania è a quattordici chilometri dalla città, circa venticinque minuti. Si ritira l'auto e si arriva al porto veneziano nel tardo pomeriggio, quando il faro in fondo al molo diventa il punto da raggiungere a piedi: è di origine veneziana, ricostruito dagli egiziani nell'Ottocento, e della costruzione veneziana resta solo la base. La passeggiata sul molo dura circa dieci minuti. Dalla punta si vedono gli arsenali, la cupola della moschea sul porto e i quartieri che salgono dietro."],
+        note: ["Si dorme a Casa Delfino, dimora veneziana nella città vecchia, nella stessa famiglia da sei generazioni.", "L'auto si ritira all'aeroporto di Chania e si riconsegna a Heraklion."], ristoranti: [] },
+      { label: "Giorno secondo", titolo: "Topanas e il porto",
+        paragrafi: ["Dal porto al quartiere di Splantzia bastano dodici minuti a piedi, e la città vecchia si gira così. A ovest, dietro la fortezza di Firkas, c'è Topanas, dove le case veneziane sono meglio conservate. A est Splantzia, più quieta, con la piazza all'ombra di un grande platano. Sul porto restano sette dei diciassette arsenali veneziani originali, e la moschea dei Giannizzeri del 1645, oggi sala per mostre. La fortezza di Firkas, del primo Seicento, ospita il Museo Marittimo di Creta."],
+        note: ["Si dorme ancora a Casa Delfino.", "La passeggiata fino al faro è gratuita."], ristoranti: [] },
+      { label: "Giorno terzo", titolo: "Loutro",
+        paragrafi: ["Da Chania si va a sud per settantadue chilometri, circa novanta minuti, fino a Chora Sfakion, dove la strada finisce. L'auto resta nel parcheggio vicino al porto: Loutro non ha mai avuto una strada, e si raggiunge con un battello da quindici-venti minuti, solo per passeggeri, oppure a piedi lungo il sentiero costiero, in un'ora e mezza o due. Il villaggio è fatto di poche case, piccoli alberghi e taverne intorno a una baia riparata, con l'acqua trasparente. I bagagli viaggiano con voi sul battello."],
+        note: ["Si dorme a Castella Loutro, guesthouse boutique al margine del villaggio, con vista sul Mare di Libia e sulle Montagne Bianche.", "L'ultimo battello da Sfakion parte nel tardo pomeriggio: non arrivare all'ultimo e controllare l'orario di giugno (operatore Anendyk)."], ristoranti: [] },
+      { label: "Giorno quarto", titolo: "Glyka Nera e Marmara",
+        paragrafi: ["Il giorno è del mare e dei sentieri. Tra Sfakion e Loutro c'è Glyka Nera, la «spiaggia dolce»: ciottoli e sorgenti d'acqua fredda che sgorgano tra i sassi, senza molo, perché dalla barca si scende direttamente in acqua. Marmara non ha strade: si arriva in taxi-boat da Loutro, cinque-quindici minuti, o a piedi, e lì finisce la gola di Aradena, che si scende in due ore e mezza o tre. Sopra il paese, sul sentiero verso Anopolis, c'è il forte veneziano, con la vista sulla baia e sul Mare di Libia."],
+        note: ["Si dorme ancora a Castella Loutro.", "I taxi-boat partono a richiesta. Servono scarpe da sentiero: i percorsi corrono sul bordo delle scogliere."], ristoranti: [] },
+      { label: "Giorno quinto", titolo: "Dalla costa alla Messara",
+        paragrafi: ["Si lascia Loutro con uno dei battelli del mattino, si riprende l'auto a Chora Sfakion e si va verso est. Per Kalamaki ci sono due strade: quella tortuosa e panoramica per Spili e Agia Galini, più breve, oppure la più lunga e veloce lungo la costa nord, via Rethymno e Heraklion. Il tempo va dalle due ore alle tre ore e mezza. Si arriva a Kalamaki, nella pianura della Messara, con il mare a dieci metri dalle case di Tarsia."],
+        note: ["Si dorme a Tarsia Homes & Suites, sette case a dieci metri dalla spiaggia di Kalamaki.", "Il primo battello da Loutro per Sfakion parte in genere intorno alle 9:30: controllare l'orario del giorno."], ristoranti: [] },
+      { label: "Giorno sesto", titolo: "Festòs e Matala",
+        paragrafi: ["Il giorno è della Messara. Festòs, il secondo palazzo minoico dell'isola dopo Cnosso, sorge su una collina bassa all'orlo ovest della pianura, ed è aperto dalle 8 alle 20 da aprile ad agosto: conviene andare presto. A tre chilometri c'è Agia Triada, la villa minoica da cui viene il sarcofago oggi al museo di Heraklion. A quindici chilometri verso est c'è Gortyn, la capitale romana dell'isola. E a undici da Festòs sta Matala, un tempo il porto del palazzo, con le grotte scavate nella roccia che negli anni Sessanta e Settanta diventarono rifugio di hippy."],
+        note: ["Si dorme ancora a Tarsia.", "L'ultimo ingresso a Festòs è venti minuti prima della chiusura. Gli orari di Agia Triada sono più brevi: da controllare."], ristoranti: [] },
+      { label: "Giorno settimo", titolo: "Cnosso e il Golfo di Mirabello",
+        paragrafi: ["Si parte presto per essere a Cnosso all'apertura, alle otto, prima che arrivino i gruppi. Il palazzo è a cinque chilometri da Heraklion ed è il più grande sito dell'età del Bronzo dell'isola: nelle ore centrali dell'estate è meglio evitarlo. Poi la strada nazionale verso est, circa un'ora e un quarto fino a Elounda, e il Golfo di Mirabello che si apre davanti, con Spinalonga all'ingresso."],
+        note: ["Si dorme a Phaea Blue, a Plaka, direttamente sulla spiaggia e di fronte a Spinalonga.", "Cnosso è aperto dalle 8 alle 20 da aprile a ottobre. In estate conviene prenotare il biglietto online: i prezzi variano tra le fonti, quindi vanno controllati."], ristoranti: [] },
+      { label: "Giorno ottavo", titolo: "Spinalonga",
+        paragrafi: ["Da Plaka l'isola è a cinque-dieci minuti di barca. Spinalonga è una fortezza veneziana del 1579 che custodiva l'ingresso del golfo, e fu la colonia di lebbrosi della Grecia dall'inizio del Novecento fino al 1957: restano le case di pietra, la chiesa, il cimitero. Le barche partono a orari fissi da Plaka, da Elounda e da Agios Nikolaos. La prima corsa del mattino, intorno alle 8:30-9:00, è la più tranquilla: tra le 10:30 e le 14:00, a luglio e agosto, l'isola è piena."],
+        note: ["Si dorme ancora a Phaea Blue.", "Il biglietto dell'isola si compra sul posto, separato da quello della barca. Le barche vanno da aprile a ottobre."], ristoranti: [] },
+      { label: "Giorno nono", titolo: "Il giorno vuoto",
+        paragrafi: ["L'ultimo giorno intero non ha un programma. L'albergo ha un caicco tradizionale per le crociere al tramonto, e il golfo si capisce meglio dall'acqua che dalla strada. Il mare è sotto le camere, e non c'è niente da raggiungere."],
+        note: ["Si dorme ancora a Phaea Blue.", "Le crociere al tramonto si chiedono all'albergo."], ristoranti: [] },
+      { label: "Giorno decimo", titolo: "Heraklion",
+        paragrafi: ["Da Elounda all'aeroporto di Heraklion sono circa sessantacinque chilometri, un'ora e un quarto. Se il volo è nel pomeriggio, c'è tempo per il Museo Archeologico, nel centro della città: conserva gli affreschi originali di Cnosso, il Disco di Festòs e il sarcofago di Agia Triada, cioè i reperti dei luoghi visti nei giorni scorsi. L'aeroporto è a circa cinque chilometri dal centro, e lì si riconsegna l'auto."],
+        note: ["Il museo ha orari e chiusure stagionali: da controllare prima.", "Si riconsegna l'auto in aeroporto."], ristoranti: [] }
+    ],
+
+    taccuino: {
+      dormire: [
+        { zona: "Chania", notti: "due notti", strutture: [
+          { nome: "Casa Delfino", contatto: "9 Theofanous Street, tel. +30 28210 87400", testo: "Dimora veneziana nella città vecchia, la cui storia comincia nel 1835 con Augustin Preve, armatore di Marsiglia: ventiquattro camere e suite, corte di ciottoli e terrazza sul porto." } ] },
+        { zona: "Loutro", notti: "due notti", strutture: [
+          { nome: "Castella Loutro", contatto: "Loutro, Sfakia, tel. +30 698 690 2632", testo: "Guesthouse boutique al margine del villaggio, con bistrot e architettura in pietra tradizionale." } ] },
+        { zona: "Kalamaki", notti: "due notti", strutture: [
+          { nome: "Tarsia Homes & Suites", contatto: "Kalamaki, tel. +30 697 198 4333", testo: "Sette case a dieci metri dalla spiaggia, nate dall'idea di un cottage tradizionale di fronte al mare." } ] },
+        { zona: "Elounda", notti: "tre notti", strutture: [
+          { nome: "Phaea Blue", contatto: "Plaka, Elounda, tel. +30 2841 065500", testo: "Direttamente sulla spiaggia, bungalow e suite con piscina privata, cucina dalla terra al piatto e crociere al tramonto su un caicco tradizionale." } ] }
+      ],
+
+      approfondimenti: [
+        { titolo: "Due palazzi minoici", testo: "Cnosso è il più grande sito dell'età del Bronzo di Creta e il centro cerimoniale della civiltà minoica. Festòs, il secondo palazzo dell'isola, sorge su una collina bassa sull'orlo ovest della Messara, con la pianura davanti. Gli oggetti più celebri di entrambi, gli affreschi originali di Cnosso, il Disco di Festòs e il sarcofago di Agia Triada, non sono sul posto ma al Museo Archeologico di Heraklion: per questo conviene chiudere il viaggio lì." }
+      ]
+    },
+
+    primaDiChiudere: [
+      { titolo: "COME SI ARRIVA", sotto: "Chania all'andata, Heraklion al ritorno", testo: "I due aeroporti distano circa 140 chilometri." },
+      { titolo: "L'AUTO", sotto: "necessaria", testo: "Ritiro all'aeroporto di Chania e riconsegna a Heraklion, con una compagnia locale che comprende tutte le coperture assicurative. L'auto resta ferma due notti nel parcheggio di Chora Sfakion." },
+      { titolo: "LOUTRO", sotto: "senza strade", testo: "Il battello da Chora Sfakion dura 15-20 minuti ed è solo per passeggeri. Gli orari di giugno vanno controllati sul sito dell'operatore, Anendyk." },
+      { titolo: "LA STAGIONE", sotto: "giugno", testo: "Prima dei mesi più caldi: a luglio e ad agosto la Messara arriva a 38-40 gradi a mezzogiorno, e siti come Festòs hanno poca ombra." },
+      { titolo: "SE I GIORNI DIVENTANO DODICI", sotto: "dove si aggiunge", testo: "Una notte in più a Loutro, per la gola di Aradena e i sentieri, e una a Chania." }
+    ],
+
+    numeriUtili: [
+      "Emergenze: 112.",
+      "Battelli di Sfakion e Loutro: Anendyk Seaways, gli orari sono sul loro sito."
+    ]
   }
 
 });
