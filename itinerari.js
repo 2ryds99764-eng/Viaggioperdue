@@ -2249,13 +2249,13 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
         note: ["Si dorme ancora a Casa Delfino.", "La passeggiata fino al faro è gratuita."], ristoranti: [] },
       { label: "Giorno terzo", titolo: "Loutro",
         paragrafi: ["Da Chania si va a sud per settantadue chilometri, circa novanta minuti, fino a Chora Sfakion, dove la strada finisce. L'auto resta nel parcheggio vicino al porto: Loutro non ha mai avuto una strada, e si raggiunge con un battello da quindici-venti minuti, solo per passeggeri, oppure a piedi lungo il sentiero costiero, in un'ora e mezza o due. Il villaggio è fatto di poche case, piccoli alberghi e taverne intorno a una baia riparata, con l'acqua trasparente. I bagagli viaggiano con voi sul battello."],
-        note: ["Si dorme a Castella Loutro, guesthouse boutique al margine del villaggio, con vista sul Mare di Libia e sulle Montagne Bianche.", "L'ultimo battello da Sfakion parte nel tardo pomeriggio: non arrivare all'ultimo e controllare l'orario di giugno (operatore Anendyk)."], ristoranti: [] },
+        note: ["Si dorme a Castella Loutro, guesthouse boutique al margine del villaggio, con vista sul Mare di Libia e sulle Montagne Bianche.", "I battelli da Sfakion a Loutro sono pochi al giorno e gli orari cambiano con la stagione e con il giorno: controllarli sul sito di Anendyk e arrivare a Sfakion con margine."], ristoranti: [] },
       { label: "Giorno quarto", titolo: "Glyka Nera e Marmara",
         paragrafi: ["Il giorno è del mare e dei sentieri. Tra Sfakion e Loutro c'è Glyka Nera, la «spiaggia dolce»: ciottoli e sorgenti d'acqua fredda che sgorgano tra i sassi, senza molo, perché dalla barca si scende direttamente in acqua. Marmara non ha strade: si arriva in taxi-boat da Loutro, cinque-quindici minuti, o a piedi, e lì finisce la gola di Aradena, che si scende in due ore e mezza o tre. Sopra il paese, sul sentiero verso Anopolis, c'è il forte veneziano, con la vista sulla baia e sul Mare di Libia."],
         note: ["Si dorme ancora a Castella Loutro.", "I taxi-boat partono a richiesta. Servono scarpe da sentiero: i percorsi corrono sul bordo delle scogliere."], ristoranti: [] },
       { label: "Giorno quinto", titolo: "Dalla costa alla Messara",
-        paragrafi: ["Si lascia Loutro con uno dei battelli del mattino, si riprende l'auto a Chora Sfakion e si va verso est. Per Kalamaki ci sono due strade: quella tortuosa e panoramica per Spili e Agia Galini, più breve, oppure la più lunga e veloce lungo la costa nord, via Rethymno e Heraklion. Il tempo va dalle due ore alle tre ore e mezza. Si arriva a Kalamaki, nella pianura della Messara, con il mare a dieci metri dalle case di Tarsia."],
-        note: ["Si dorme a Tarsia Homes & Suites, sette case a dieci metri dalla spiaggia di Kalamaki.", "Il primo battello da Loutro per Sfakion parte in genere intorno alle 9:30: controllare l'orario del giorno."], ristoranti: [] },
+        paragrafi: ["Si lascia Loutro con il primo battello utile per Sfakion, si riprende l'auto a Chora Sfakion e si va verso est. Per Kalamaki ci sono due strade: quella tortuosa e panoramica per Spili e Agia Galini, più breve, oppure la più lunga e veloce lungo la costa nord, via Rethymno e Heraklion. Il tempo va dalle due ore alle tre ore e mezza. Si arriva a Kalamaki, nella pianura della Messara, con il mare a dieci metri dalle case di Tarsia."],
+        note: ["Si dorme a Tarsia Homes & Suites, sette case a dieci metri dalla spiaggia di Kalamaki.", "L'orario del battello da Loutro per Sfakion dipende dal giorno: controllarlo sul sito di Anendyk prima di fissare la partenza per Kalamaki."], ristoranti: [] },
       { label: "Giorno sesto", titolo: "Festòs e Matala",
         paragrafi: ["Il giorno è della Messara. Festòs, il secondo palazzo minoico dell'isola dopo Cnosso, sorge su una collina bassa all'orlo ovest della pianura, ed è aperto dalle 8 alle 20 da aprile ad agosto: conviene andare presto. A tre chilometri c'è Agia Triada, la villa minoica da cui viene il sarcofago oggi al museo di Heraklion. A quindici chilometri verso est c'è Gortyn, la capitale romana dell'isola. E a undici da Festòs sta Matala, un tempo il porto del palazzo, con le grotte scavate nella roccia che negli anni Sessanta e Settanta diventarono rifugio di hippy."],
         note: ["Si dorme ancora a Tarsia.", "L'ultimo ingresso a Festòs è venti minuti prima della chiusura. Gli orari di Agia Triada sono più brevi: da controllare."], ristoranti: [] },
@@ -2292,15 +2292,16 @@ T42.itinerari = Object.assign({}, T42.itinerari, {
 
     primaDiChiudere: [
       { titolo: "COME SI ARRIVA", sotto: "Chania all'andata, Heraklion al ritorno", testo: "I due aeroporti distano circa 140 chilometri." },
-      { titolo: "L'AUTO", sotto: "necessaria", testo: "Ritiro all'aeroporto di Chania e riconsegna a Heraklion, con una compagnia locale che comprende tutte le coperture assicurative. L'auto resta ferma due notti nel parcheggio di Chora Sfakion." },
-      { titolo: "LOUTRO", sotto: "senza strade", testo: "Il battello da Chora Sfakion dura 15-20 minuti ed è solo per passeggeri. Gli orari di giugno vanno controllati sul sito dell'operatore, Anendyk." },
+      { titolo: "L'AUTO", sotto: "necessaria", testo: "Ritiro all'aeroporto di Chania e riconsegna a Heraklion con Rental Center Crete, compagnia locale con sedi in entrambi gli aeroporti e noleggio con ritiro e riconsegna in località diverse; la tariffa scelta comprende tutte le coperture assicurative. L'auto resta ferma due notti nel parcheggio di Chora Sfakion." },
+      { titolo: "LOUTRO", sotto: "senza strade", testo: "Il battello da Chora Sfakion dura 15-20 minuti ed è solo per passeggeri. Gli orari di giugno vanno controllati sul sito dell'operatore, Anendyk Seaways (anendyk.gr)." },
       { titolo: "LA STAGIONE", sotto: "giugno", testo: "Prima dei mesi più caldi: a luglio e ad agosto la Messara arriva a 38-40 gradi a mezzogiorno, e siti come Festòs hanno poca ombra." },
       { titolo: "SE I GIORNI DIVENTANO DODICI", sotto: "dove si aggiunge", testo: "Una notte in più a Loutro, per la gola di Aradena e i sentieri, e una a Chania." }
     ],
 
     numeriUtili: [
       "Emergenze: 112.",
-      "Battelli di Sfakion e Loutro: Anendyk Seaways, gli orari sono sul loro sito."
+      "Battelli di Sfakion e Loutro: Anendyk Seaways, anendyk.gr (gli orari sono sul sito).",
+      "Noleggio auto: Rental Center Crete, tel. +30 2810 240120, info@rental-center-crete.com."
     ]
   }
 
