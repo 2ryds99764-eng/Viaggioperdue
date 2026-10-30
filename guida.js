@@ -6959,7 +6959,7 @@ var GUIDA=[
     "telefono": "+41 81 632 10 80",
     "web": "https://www.schauenstein.ch/",
     "note": "Castello del 1667 nella minuscola Fürstenau, chef Andreas Caminada, proprietario dal 2003, tre Stelle Michelin dal 2010, orto proprio e hotel di sole 12 camere 💎 👑",
-    "mappa": "Schlossgass 77, Fürstenau, GR"
+    "mappa": "Schloss Schauenstein, Fürstenau, Svizzera"
   },
   {
     "nome": "Sézanne",
@@ -7379,7 +7379,7 @@ var GUIDA=[
     "telefono": "+41 81 856 12 26",
     "web": "https://www.ilfuorn.ch",
     "note": "Dentro il Parco Nazionale Svizzero, dai tavoli si possono osservare gli animali selvatici, cucina engadinese con influssi di Valtellina e Alto Adige, pizzoccheri e ravioli di selvaggina fatti in casa, chiuso in inverno 🌳 ⛰️",
-    "mappa": "Il Fuorn, Zernez, GR"
+    "mappa": "Il Fuorn, Zernez, Svizzera"
   },
   {
     "nome": "Plénitude",

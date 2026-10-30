@@ -78,7 +78,7 @@ var HOTEL=[
     "email": "willkommen@randolins.ch",
     "web": "https://www.randolins.ch/it/",
     "note": "⛰️ 🌳",
-    "mappa": "Via Curtins 2, Sankt Moritz, GR"
+    "mappa": "Via Curtins 2, Sankt Moritz, Svizzera"
   },
   {
     "nome": "Bianca Relais",
@@ -734,7 +734,7 @@ var HOTEL=[
     "email": "info@kronenhof.com",
     "web": "https://www.kronenhof.com",
     "note": "👑 ⛰️🌳♥️",
-    "mappa": "Via Maistra, Pontresina, GR"
+    "mappa": "Via Maistra, Pontresina, Svizzera"
   },
   {
     "nome": "Kuerbishof",
@@ -942,7 +942,7 @@ var HOTEL=[
     "email": "info@lasoglina.ch",
     "web": "https://www.lasoglina.ch",
     "note": "Vista sulla Val Bregaglia 🌳🌄 ♥️",
-    "mappa": "Via Carnella 6, Soglio, GR"
+    "mappa": "Via Carnella 6, Soglio, Svizzera"
   },
   {
     "nome": "La Sommità Relais",
@@ -1182,7 +1182,7 @@ var HOTEL=[
     "email": "info@albergomiralago.ch",
     "web": "https://www.albergomiralago.ch",
     "note": "🌳 🌅",
-    "mappa": "Miralago 10, Miralago, GR"
+    "mappa": "Miralago 10, Miralago, Svizzera"
   },
   {
     "nome": "Mont Cervin Palace",
@@ -2558,7 +2558,7 @@ var HOTEL=[
     "email": "",
     "web": "https://www.schatzalp.ch",
     "note": "Ex sanatorio Art Nouveau del 1900 che ispirò 'La Montagna Incantata' di Thomas Mann, raggiungibile solo in funicolare ⛰️",
-    "mappa": "Promenade 63, Davos Platz, GR"
+    "mappa": "Promenade 63, Davos Platz, Svizzera"
   },
   {
     "nome": "Palazzo Salis",
@@ -2574,7 +2574,7 @@ var HOTEL=[
     "email": "",
     "web": "https://www.palazzosalis.ch",
     "note": "Palazzo del 1630 nel borgo eletto 'più bello di Svizzera', albergo dal 1876, ospitò Segantini, Rilke e Giacometti ♥️",
-    "mappa": "Piazza 2, Soglio, GR"
+    "mappa": "Piazza 2, Soglio, Svizzera"
   },
   {
     "nome": "Parkhotel Brenscino",
@@ -2814,7 +2814,7 @@ var HOTEL=[
     "email": "reservations@badruttspalace.com",
     "web": "https://www.badruttspalace.com/",
     "note": "Palazzo di famiglia dal 1896, ancora dei Badrutt, ospitò Audrey Hepburn, Marlene Dietrich e Charlie Chaplin, accanto alla storica Chesa Veglia del Seicento 👑",
-    "mappa": "Via Serlas 27, St. Moritz, GR"
+    "mappa": "Via Serlas 27, St. Moritz, Svizzera"
   },
   {
     "nome": "Beau-Rivage Palace",
@@ -2878,7 +2878,7 @@ var HOTEL=[
     "email": "",
     "web": "https://www.carlton-stmoritz.ch/",
     "note": "Palazzo del 1913, secondo la leggenda progettato come residenza per lo zar Nicola II, ristorante Da Vittorio con due Stelle Michelin 👑",
-    "mappa": "Via J. Badrutt 11, St. Moritz, GR"
+    "mappa": "Via J. Badrutt 11, St. Moritz, Svizzera"
   },
   {
     "nome": "Fairmont Grand Hotel Geneva",
@@ -2990,7 +2990,7 @@ var HOTEL=[
     "email": "info@suvrettahouse.ch",
     "web": "https://www.suvrettahouse.ch/",
     "note": "Grand hotel del 1912, ancora della famiglia fondatrice Bon, qui Nijinsky diede la sua ultima esibizione pubblica nel 1919, unico ski-in ski-out di St. Moritz ⛰️",
-    "mappa": "Via Chasellas 1, St. Moritz, GR"
+    "mappa": "Via Chasellas 1, St. Moritz, Svizzera"
   },
   {
     "nome": "Grand Hotel Zermatterhof",
@@ -3054,7 +3054,7 @@ var HOTEL=[
     "email": "",
     "web": "https://www.kulm.com/",
     "note": "Fondato nel 1856 da Johannes Badrutt, la sua scommessa del 1864 diede origine al turismo invernale alpino, sede dello storico St. Moritz Tobogganing Club ⛰️",
-    "mappa": "Via Veglia 18, St. Moritz, GR"
+    "mappa": "Via Veglia 18, St. Moritz, Svizzera"
   },
   {
     "nome": "Kempinski Grand Hotel des Bains",
@@ -3070,7 +3070,7 @@ var HOTEL=[
     "email": "",
     "web": "https://www.kempinski.com/en/grand-hotel-des-bains/",
     "note": "Costruito nel 1864 attorno alla sorgente minerale Mauritius, scoperta 3000 anni fa e lodata da Paracelso 👑",
-    "mappa": "Via Mezdi 27, St. Moritz, GR"
+    "mappa": "Via Mezdi 27, St. Moritz, Svizzera"
   },
   {
     "nome": "Kempinski Palace Engelberg",
@@ -3278,7 +3278,7 @@ var HOTEL=[
     "email": "info@tschuggen.ch",
     "web": "https://www.tschuggen.ch/",
     "note": "Spa di 5000 mq firmata dall'architetto Mario Botta, ristorante La Brezza con due Stelle Michelin, golf più alto d'Europa a 2000m ⛰️",
-    "mappa": "Tschuggentorweg 1, Arosa, GR"
+    "mappa": "Tschuggentorweg 1, Arosa, Svizzera"
   },
   {
     "nome": "Waldhaus Flims Alpine Grand Hotel & Spa",
@@ -3294,7 +3294,7 @@ var HOTEL=[
     "email": "",
     "web": "https://www.waldhaus-flims.ch/",
     "note": "Costruito nel 1877, nel parco alberghiero più esteso della Svizzera, quattro edifici Belle Époque vicino alla Gola del Reno 🌳",
-    "mappa": "Via dil Parc 3, Flims Waldhaus, GR"
+    "mappa": "Via dil Parc 3, Flims Waldhaus, Svizzera"
   },
   {
     "nome": "Kameha Grand Zürich",
@@ -3550,7 +3550,7 @@ var HOTEL=[
     "email": "commercial@flueladavos.com",
     "web": "https://www.flueladavos.ch/",
     "note": "Costruito nel 1868 dalla famiglia Gredig, a Davos Dorf, la città più alta d'Europa, la sua Postbar accoglieva le carrozze dirette in Valtellina ⛰️",
-    "mappa": "Bahnhofstrasse 5, Davos Dorf, GR"
+    "mappa": "Bahnhofstrasse 5, Davos Dorf, Svizzera"
   },
   {
     "nome": "Hotel Vereina",
@@ -3566,7 +3566,7 @@ var HOTEL=[
     "email": "",
     "web": "https://vereinaklosters.ch/",
     "note": "Nato negli anni 1880 dalla fusione di due locande, primo hotel di Klosters ad aprire d'inverno (1904/05), di recente primo 5 stelle del paese ⛰️",
-    "mappa": "Landstrasse 179, Klosters, GR"
+    "mappa": "Landstrasse 179, Klosters, Svizzera"
   },
   {
     "nome": "THE GRAND Ahrenshoop",
@@ -3630,7 +3630,7 @@ var HOTEL=[
     "email": "davos@steigenberger.ch",
     "web": "https://www.steigenberger.com/en/hotels/all-hotels/switzerland/davos/steigenberger-grandhotel-belvedere",
     "note": "Aperto nel 1875, qui soggiornarono Robert Louis Stevenson e per due stagioni Arthur Conan Doyle, sede degli incontri del World Economic Forum ⛰️",
-    "mappa": "Promenade 89, Davos Platz, GR"
+    "mappa": "Promenade 89, Davos Platz, Svizzera"
   },
   {
     "nome": "Steigenberger Grandhotel & Spa",
@@ -3710,7 +3710,7 @@ var HOTEL=[
     "email": "info@belvedere-scuol.ch",
     "web": "https://www.belvedere-scuol.ch/",
     "note": "Fondato nel 1876 nella Bassa Engadina, collegato tramite passerella al centro termale Bogn Engiadina ⛰️",
-    "mappa": "Stradun 330, Scuol, GR"
+    "mappa": "Hotel Belvédère, Scuol, Svizzera"
   },
   {
     "nome": "Hotel Schweizerhof",
@@ -3726,7 +3726,7 @@ var HOTEL=[
     "email": "info@schweizerhof-lenzerheide.ch",
     "web": "https://www.schweizerhof-lenzerheide.ch/",
     "note": "Operativo dal 1904, tra i primi hotel di Lenzerheide, ospita il più grande hammam dell'intero arco alpino ⛰️",
-    "mappa": "Voa Principala 39, Lenzerheide/Lai, GR"
+    "mappa": "Voa Principala 39, Lenzerheide/Lai, Svizzera"
   },
   {
     "nome": "Hotel Victoria",
@@ -3790,7 +3790,7 @@ var HOTEL=[
     "email": "welcome@crestapalace.ch",
     "web": "https://www.crestapalace.ch/",
     "note": "Aperto nel 1906 in stile Liberty, ristrutturato nel 2022 reinterpretando l'Art Nouveau, a pochi minuti da St. Moritz ⛰️",
-    "mappa": "Via Maistra 75, Celerina/Schlarigna, GR"
+    "mappa": "Via Maistra 75, Celerina/Schlarigna, Svizzera"
   },
   {
     "nome": "Eden Palace au Lac",
@@ -3918,7 +3918,7 @@ var HOTEL=[
     "email": "",
     "web": "https://www.hotelwalther.ch/",
     "note": "Costruito nel 1904-07, qui Lenin lasciò un'iscrizione nel libro degli ospiti nel 1917, ambientazione di un romanzo di Stefan Zweig ⛰️",
-    "mappa": "Via Maistra 215, Pontresina, GR"
+    "mappa": "Via Maistra 215, Pontresina, Svizzera"
   },
   {
     "nome": "BEAUSiTE Zermatt",
@@ -4014,7 +4014,7 @@ var HOTEL=[
     "email": "info@hotel-le-prese.swiss",
     "web": "https://www.hotel-le-prese.swiss/",
     "note": "Sul Lago di Poschiavo, restaurato con cura conservando il fascino dei Grand Hotel storici, attraversato dalla panoramica Ferrovia del Bernina 🌅",
-    "mappa": "Via Principale 31, Le Prese, GR"
+    "mappa": "Via Principale 31, Le Prese, Svizzera"
   },
   {
     "nome": "The Dom Hotel",
@@ -4174,7 +4174,7 @@ var HOTEL=[
     "email": "",
     "web": "https://hotelsurselva.ch/",
     "note": "Nei pressi del Lago Cauma, hotel club moderno 🌳",
-    "mappa": "Rudi Dado 8, Flims, GR"
+    "mappa": "Rudi Dado 8, Flims, Svizzera"
   },
   {
     "nome": "Hotel Regina Titlis",
@@ -4270,7 +4270,7 @@ var HOTEL=[
     "email": "",
     "web": "https://www.kurhaus-lenzerheide.ch/",
     "note": "Costruito nel 1880, motto 'l'hotel senza stelle e senza wifi', interni Art Nouveau con pavimenti in legno scricchiolanti ♥️",
-    "mappa": "Voa Principala 40, Lenzerheide/Lai, GR"
+    "mappa": "Voa Principala 40, Lenzerheide/Lai, Svizzera"
   },
   {
     "nome": "Grand Hôtel & Kurhaus",
@@ -4382,7 +4382,7 @@ var HOTEL=[
     "email": "",
     "web": "https://www.malojapalace.com/",
     "note": "Aperto nel 1884 come Kursaal Maloja per il conte belga Camille de Renesse, pensato come punto d'incontro dell'alta aristocrazia europea 👑",
-    "mappa": "Strada principale, Maloja, GR"
+    "mappa": "Maloja Palace, Maloja, Svizzera"
   },
   {
     "nome": "Palace Hotel",
@@ -4526,7 +4526,7 @@ var HOTEL=[
     "email": "info@ilfuorn.ch",
     "web": "https://www.ilfuorn.ch",
     "note": "Nel cuore del Parco Nazionale Svizzero, 37 camere semplici lungo la strada dell'Ofenpass, chiuso in inverno 🌳 ⛰️",
-    "mappa": "Il Fuorn, Zernez, GR"
+    "mappa": "Il Fuorn, Zernez, Svizzera"
   },
   {
     "nome": "Cheval Blanc Paris",
