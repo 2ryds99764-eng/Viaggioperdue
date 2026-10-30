@@ -1694,7 +1694,7 @@ var HOTEL=[
     "email": "hide@tainaronblue.com",
     "web": "https://www.tainaronblue.com",
     "note": "Mani",
-    "mappa": "Mani, Peliponnese, Vathia, GR"
+    "mappa": "Tainaron Blue Retreat, Vathia, Grecia"
   },
   {
     "nome": "The Lowell",

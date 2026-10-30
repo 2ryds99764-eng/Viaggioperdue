@@ -2911,7 +2911,7 @@ var GUIDA=[
     "telefono": "+30 2721 073541",
     "web": "https://www.lelastaverna.com/",
     "note": "Mani",
-    "mappa": "Sul lungomare, vicino alla ex fabbrica di olio e sapone, Kardamili, GR"
+    "mappa": "Maria Malliri, Kardamili, Grecia"
   },
   {
     "nome": "Spore",
