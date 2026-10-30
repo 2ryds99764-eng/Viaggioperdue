@@ -1021,6 +1021,20 @@ function costruisciItinerario() {
           }).join("") + '</div>';
         }
       }
+      /* luoghi citati: gli alberghi si cercano per nome in HOTEL, gli altri luoghi portano con sé la query di mappa */
+      if (g.luoghi && g.luoghi.length) {
+        const chipLuoghi = g.luoghi.map(function (l) {
+          if (typeof l === "string") {
+            const h = (window.HOTEL || []).find(function (x) { return x.nome === l; });
+            return h ? '<a class="chip-ristorante" href="' + esc(urlMappa(h.mappa, h.lat, h.lng)) + '" target="_blank" rel="noopener">📍 ' + esc(h.nome) + ' · ' + esc(h.luogo) + '</a>' : "";
+          }
+          if (l && l.nome && l.mappa) {
+            return '<a class="chip-ristorante" href="' + esc(urlMappa(l.mappa)) + '" target="_blank" rel="noopener">📍 ' + esc(l.nome) + (l.luogo ? ' · ' + esc(l.luogo) : '') + '</a>';
+          }
+          return "";
+        }).filter(Boolean);
+        if (chipLuoghi.length) html += '<div class="itin-chip-riga">' + chipLuoghi.join("") + '</div>';
+      }
       if (g.produttori && g.produttori.length) {
         html += '<div class="itin-chip-riga">' + g.produttori.map(function (p) {
           return '<a class="chip-ristorante" href="' + esc(p.url) + '" target="_blank" rel="noopener">' + esc(p.nome) + '</a>';
