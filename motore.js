@@ -1029,7 +1029,7 @@ function costruisciItinerario() {
             return h ? '<a class="chip-ristorante" href="' + esc(urlMappa(h.mappa, h.lat, h.lng)) + '" target="_blank" rel="noopener">📍 ' + esc(h.nome) + ' · ' + esc(h.luogo) + '</a>' : "";
           }
           if (l && l.nome && l.mappa) {
-            return '<a class="chip-ristorante" href="' + esc(urlMappa(l.mappa)) + '" target="_blank" rel="noopener">📍 ' + esc(l.nome) + (l.luogo ? ' · ' + esc(l.luogo) : '') + '</a>';
+            return '<a class="chip-ristorante" href="' + esc(urlMappa((typeof l.lat === "number" && typeof l.lng === "number") ? l.nome : l.mappa, l.lat, l.lng)) + '" target="_blank" rel="noopener">📍 ' + esc(l.nome) + (l.luogo ? ' · ' + esc(l.luogo) : '') + '</a>';
           }
           return "";
         }).filter(Boolean);
@@ -1041,11 +1041,14 @@ function costruisciItinerario() {
         }).join("") + '</div>';
       }
       if (g.tragitti && g.tragitti.length) {
-        const qual = encodeURIComponent(", " + (it.areaGeografica || ""));
+        const isCoord = function (s) { return /^\s*-?\d+(\.\d+)?\s*,\s*-?\d+(\.\d+)?\s*$/.test(s); };
         html += '<div class="itin-tragitti">' + g.tragitti.map(function (t) {
-          const da = encodeURIComponent(t.da), a = encodeURIComponent(t.a);
-          const apple = "https://maps.apple.com/?saddr=" + da + qual + "&daddr=" + a + qual;
-          const google = "https://www.google.com/maps/dir/" + da + qual + "/" + a + qual;
+          const daVal = t.daMappa || t.da, aVal = t.aMappa || t.a;
+          const daQual = isCoord(daVal) ? "" : encodeURIComponent(", " + (it.areaGeografica || ""));
+          const aQual = isCoord(aVal) ? "" : encodeURIComponent(", " + (it.areaGeografica || ""));
+          const da = encodeURIComponent(daVal), a = encodeURIComponent(aVal);
+          const apple = "https://maps.apple.com/?saddr=" + da + daQual + "&daddr=" + a + aQual;
+          const google = "https://www.google.com/maps/dir/" + da + daQual + "/" + a + aQual;
           return '<div class="itin-tragitto">' +
             '<span class="itin-tragitto-tratta">' + esc(t.da) + ' → ' + esc(t.a) + '</span>' +
             '<a class="itin-link-storia" href="' + apple + '" target="_blank" rel="noopener">📍 Apple Maps</a> ' +

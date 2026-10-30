@@ -4702,7 +4702,9 @@ var HOTEL=[
     "email": "reservations@phaeablue.com",
     "web": "https://phaeablue.com",
     "note": "A Elounda, direttamente sulla spiaggia: bungalow e suite con piscina privata, cucina dalla terra al piatto e crociere al tramonto su un caicco tradizionale, membro di SLH 🌅 ♥️",
-    "mappa": "Plaka, Elounda, GR"
+    "mappa": "Phaea Blue, Plaka, Elounda, Crete, Greece",
+    "lat": 35.2925,
+    "lng": 25.7263
   },
   {
     "nome": "Casa Delfino",
@@ -4718,7 +4720,7 @@ var HOTEL=[
     "email": "info@casadelfino.com",
     "web": "https://www.casadelfino.com",
     "note": "Dimora veneziana nella città vecchia di Chania, nella stessa famiglia da sei generazioni (la storia comincia nel 1835 con Augustin Preve, armatore di Marsiglia), 24 camere e suite, corte di ciottoli e terrazza sul porto, aperto tutto l'anno ♥️",
-    "mappa": "9 Theofanous Street, Chania, GR"
+    "mappa": "Casa Delfino, Chania, Crete, Greece"
   },
   {
     "nome": "Tarsia Homes & Suites",
