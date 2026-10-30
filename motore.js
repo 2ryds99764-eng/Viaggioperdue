@@ -1223,7 +1223,7 @@ function costruisciGuida() {
     lista.innerHTML = items.map(function (r) {
       let btn = "";
       if (r.tel) btn += '<a class="btn btn--pieno" href="tel:' + esc(r.tel.replace(/\s/g, "")) + '">Chiama</a>';
-      if (r.mappa) btn += '<a class="btn" href="' + urlMappa(r.mappa) + '" target="_blank" rel="noopener">Apri la mappa</a>';
+      if (r.mappa) btn += '<a class="btn" href="' + urlMappa(r.mappa, r.lat, r.lng) + '" target="_blank" rel="noopener">Apri la mappa</a>';
       if (r.web) btn += '<a class="btn" href="' + esc(r.web) + '" target="_blank" rel="noopener">Sito</a>';
       const simboli = r.simboli ? '<span class="rist-simboli">' + r.simboli + '</span>' : "";
       return '<article class="rist">' +
@@ -1252,7 +1252,7 @@ function costruisciGuida() {
       hotel.map(function (h) {
         let btn = "";
         if (h.tel) btn += '<a class="btn btn--pieno" href="tel:' + esc(h.tel.replace(/\s/g, "")) + '">Chiama</a>';
-        if (h.mappa) btn += '<a class="btn" href="' + urlMappa(h.mappa) + '" target="_blank" rel="noopener">Mappa</a>';
+        if (h.mappa) btn += '<a class="btn" href="' + urlMappa(h.mappa, h.lat, h.lng) + '" target="_blank" rel="noopener">Mappa</a>';
         if (h.web) btn += '<a class="btn" href="' + esc(h.web) + '" target="_blank" rel="noopener">Sito</a>';
         return '<article class="rist">' +
           '<div class="rist-nome">' + esc(h.nome) + '</div>' +
@@ -1381,7 +1381,7 @@ function costruisciHotel() {
       let btn = "";
       if (r.tel) btn += '<a class="btn btn--pieno" href="tel:' + esc(r.tel.replace(/\s/g, "")) + '">Chiama</a>';
       else if (r.cellulare) btn += '<a class="btn btn--pieno" href="tel:' + esc(r.cellulare.replace(/\s/g, "")) + '">Chiama</a>';
-      if (r.mappa) btn += '<a class="btn" href="' + urlMappa(r.mappa) + '" target="_blank" rel="noopener">Mappa</a>';
+      if (r.mappa) btn += '<a class="btn" href="' + urlMappa(r.mappa, r.lat, r.lng) + '" target="_blank" rel="noopener">Mappa</a>';
       if (r.web) btn += '<a class="btn" href="' + esc(r.web) + '" target="_blank" rel="noopener">Sito</a>';
       return '<article class="rist">' +
         '<div class="rist-nome">' + esc(r.nome) + '</div>' +
@@ -1415,7 +1415,7 @@ function costruisciHotel() {
       ristoranti.map(function (r) {
         let btn = "";
         if (r.tel) btn += '<a class="btn btn--pieno" href="tel:' + esc(r.tel.replace(/\s/g, "")) + '">Chiama</a>';
-        if (r.mappa) btn += '<a class="btn" href="' + urlMappa(r.mappa) + '" target="_blank" rel="noopener">Mappa</a>';
+        if (r.mappa) btn += '<a class="btn" href="' + urlMappa(r.mappa, r.lat, r.lng) + '" target="_blank" rel="noopener">Mappa</a>';
         if (r.web) btn += '<a class="btn" href="' + esc(r.web) + '" target="_blank" rel="noopener">Sito</a>';
         return '<article class="rist">' +
           '<div class="rist-nome">' + esc(r.nome) + '</div>' +
@@ -1730,7 +1730,7 @@ function costruisciConcierge() {
         const tel = r.tel || r.telefono;
         let btn = "";
         if (tel) btn += '<a class="btn btn--pieno" href="tel:' + esc(tel.replace(/\s/g, "")) + '">Chiama</a>';
-        if (r.mappa) btn += '<a class="btn" href="' + urlMappa(r.mappa) + '" target="_blank" rel="noopener">Mappa</a>';
+        if (r.mappa) btn += '<a class="btn" href="' + urlMappa(r.mappa, r.lat, r.lng) + '" target="_blank" rel="noopener">Mappa</a>';
         if (r.web) btn += '<a class="btn" href="' + esc(r.web) + '" target="_blank" rel="noopener">Sito</a>';
         return '<article class="conc-card">' +
           (r.immagine ? '<img class="conc-card-foto" src="' + esc(r.immagine) + '" alt="' + esc(r.nome) + '" loading="lazy">' : '') +
