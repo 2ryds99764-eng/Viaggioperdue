@@ -541,7 +541,7 @@ var GUIDA=[
     "prov": "F",
     "regione": "Francia",
     "luogo": "Parigi (F)",
-    "tel": "+33 (0) 1 56 81 30 01",
+    "tel": "+33 1 56 81 30 01",
     "telefono": "+33 (0) 1 56 81 30 01",
     "web": "https://www.ateliermaitrealbert.com",
     "note": "",
@@ -4279,7 +4279,7 @@ var GUIDA=[
     "prov": "GB",
     "regione": "Inghilterra",
     "luogo": "London (GB)",
-    "tel": "+44 (0) 20 7629 3561",
+    "tel": "+44 20 7629 3561",
     "telefono": "+44 (0) 20 7629 3561",
     "web": "https://www.tamarindrestaurant.com",
     "note": "·",
@@ -5867,7 +5867,7 @@ var GUIDA=[
     "telefono": "+49 7634 8208",
     "web": "https://www.douce-steiner.de/",
     "note": "Gestito dalla famiglia Steiner da quarant'anni, ai bordi della Foresta Nera, cantina con circa 500 etichette 💎 👑",
-    "mappa": "Hauptstrasse 69, Sulzburg, FR"
+    "mappa": "Hauptstrasse 69, Sulzburg, Germania"
   },
   {
     "nome": "Jan",
@@ -6903,7 +6903,7 @@ var GUIDA=[
     "telefono": "+41 22 753 15 11",
     "web": "https://chateauvieux.ch/",
     "note": "Antica fattoria vinicola del XVI secolo, nel maggior comune vinicolo svizzero, chef-proprietario Philippe Chevrier dal 1986, oggi anche piccolo hotel di 12 camere 💎 👑",
-    "mappa": "Chemin de Châteauvieux 16, Satigny, GE"
+    "mappa": "Chemin de Châteauvieux 16, Satigny, Svizzera"
   },
   {
     "nome": "Widder Restaurant",
@@ -6931,7 +6931,7 @@ var GUIDA=[
     "telefono": "+41 41 399 60 60",
     "web": "https://www.parkhotel-vitznau.ch/en/wine-dine/restaurant-focus-atelier",
     "note": "Chef Patrick Mahler dal 2017, cucina franco-classica con influenze giapponesi e scandinave, in un cubo di vetro affacciato sul Lago di Lucerna, cantina con oltre 35.000 bottiglie 💎 👑",
-    "mappa": "Seestrasse 18, Vitznau, LU"
+    "mappa": "Seestrasse 18, Vitznau, Svizzera"
   },
   {
     "nome": "Stucki",
@@ -7029,7 +7029,7 @@ var GUIDA=[
     "telefono": "+377 98 06 88 64",
     "web": "https://www.montecarlosbm.com/it/ristorante-monaco/le-louis-xv-alain-ducasse-hotel-de-paris",
     "note": "Aperto nel 1987, il Principe Ranieri III sfidò Alain Ducasse (allora 33enne) a ottenere tre Stelle Michelin in 4 anni: ci riuscì in 33 mesi, primo ristorante d'albergo al mondo a raggiungerle 💎 👑",
-    "mappa": "Place du Casino, Monte Carlo, MC"
+    "mappa": "Place du Casino, Monte Carlo, Monaco"
   },
   {
     "nome": "Blue Bay Marcel Ravin",
@@ -7043,7 +7043,7 @@ var GUIDA=[
     "telefono": "+377 98 06 00 35",
     "web": "https://www.montecarlosbm.com/en/restaurant-monaco/blue-bay-marcel-ravin",
     "note": "Chef Marcel Ravin, nato in Martinica, chef esecutivo dal 2005, cucina che fonde influenze creole e mediterranee, riaperto nel 2024 con il Principe Alberto II al taglio del nastro 💎 👑",
-    "mappa": "40 Avenue Princesse Grace, Monte Carlo, MC"
+    "mappa": "40 Avenue Princesse Grace, Monte Carlo, Monaco"
   },
   {
     "nome": "Locanda Margon",

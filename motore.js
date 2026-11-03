@@ -298,10 +298,10 @@ function scheda(v, i, catId) {
     azioni = '<div class="azioni"><span class="presto-online">Presto online.</span></div>';
   } else {
     if (v.telefono && v.telefono.trim() !== "") {
-      azioni += '<a class="btn btn--pieno" href="tel:' + esc(v.telefono.replace(/\s/g, "")) + '">' + etichettaTelefono(catId) + '</a>';
+      azioni += '<a class="btn btn--pieno" href="tel:' + esc(v.telefono.replace(/[^\d+]/g, "")) + '">' + etichettaTelefono(catId) + '</a>';
     }
     if (v.cellulare && v.cellulare.trim() !== "") {
-      azioni += '<a class="btn" href="tel:' + esc(v.cellulare.replace(/\s/g, "")) + '">Cellulare</a>';
+      azioni += '<a class="btn" href="tel:' + esc(v.cellulare.replace(/[^\d+]/g, "")) + '">Cellulare</a>';
     }
     if (v.mappa && v.mappa.trim() !== "") {
       azioni += '<a class="btn" href="' + urlMappa(v.mappa, v.lat, v.lng) + '" target="_blank" rel="noopener">Apri la mappa</a>';
@@ -610,8 +610,8 @@ function costruisciStoria() {
     let righe = [];
     if (scheda.luogo) righe.push(esc(scheda.luogo));
     let btn = [];
-    if (scheda.telefono) btn.push('<a class="btn btn--pieno" href="tel:' + esc(scheda.telefono.replace(/\s/g,"")) + '">' + etichettaTelefono(catId) + '</a>');
-    if (scheda.cellulare) btn.push('<a class="btn" href="tel:' + esc(scheda.cellulare.replace(/\s/g,"")) + '">Cellulare</a>');
+    if (scheda.telefono) btn.push('<a class="btn btn--pieno" href="tel:' + esc(scheda.telefono.replace(/[^\d+]/g,"")) + '">' + etichettaTelefono(catId) + '</a>');
+    if (scheda.cellulare) btn.push('<a class="btn" href="tel:' + esc(scheda.cellulare.replace(/[^\d+]/g,"")) + '">Cellulare</a>');
     if (scheda.mappa) {
       btn.push('<a class="btn" href="' + urlMappa(scheda.mappa, scheda.lat, scheda.lng) + '" target="_blank" rel="noopener">Apri la mappa</a>');
     }
@@ -801,7 +801,7 @@ function costruisciEscape() {
   if (base && es.base && es.base.length) {
     base.innerHTML = '<h2 class="storia-h2">La base</h2>' +
       es.base.map(function (b) {
-        let azioni = '<a class="btn btn--pieno" href="tel:' + esc(b.tel) + '">Chiama</a>';
+        let azioni = '<a class="btn btn--pieno" href="tel:' + esc(b.tel.replace(/[^\d+]/g, "")) + '">Chiama</a>';
         if (b.mappaIndirizzo) {
           const hrefMappa = (typeof urlMappa === "function") ? urlMappa(b.mappaIndirizzo) : "#";
           azioni += '<a class="btn" href="' + hrefMappa + '" target="_blank" rel="noopener">Apri la mappa</a>';
@@ -1222,7 +1222,7 @@ function costruisciGuida() {
     }
     lista.innerHTML = items.map(function (r) {
       let btn = "";
-      if (r.tel) btn += '<a class="btn btn--pieno" href="tel:' + esc(r.tel.replace(/\s/g, "")) + '">Chiama</a>';
+      if (r.tel) btn += '<a class="btn btn--pieno" href="tel:' + esc(r.tel.replace(/[^\d+]/g, "")) + '">Chiama</a>';
       if (r.mappa) btn += '<a class="btn" href="' + urlMappa(r.mappa, r.lat, r.lng) + '" target="_blank" rel="noopener">Apri la mappa</a>';
       if (r.web) btn += '<a class="btn" href="' + esc(r.web) + '" target="_blank" rel="noopener">Sito</a>';
       const simboli = r.simboli ? '<span class="rist-simboli">' + r.simboli + '</span>' : "";
@@ -1251,7 +1251,7 @@ function costruisciGuida() {
       '<div class="guida-lista">' +
       hotel.map(function (h) {
         let btn = "";
-        if (h.tel) btn += '<a class="btn btn--pieno" href="tel:' + esc(h.tel.replace(/\s/g, "")) + '">Chiama</a>';
+        if (h.tel) btn += '<a class="btn btn--pieno" href="tel:' + esc(h.tel.replace(/[^\d+]/g, "")) + '">Chiama</a>';
         if (h.mappa) btn += '<a class="btn" href="' + urlMappa(h.mappa, h.lat, h.lng) + '" target="_blank" rel="noopener">Mappa</a>';
         if (h.web) btn += '<a class="btn" href="' + esc(h.web) + '" target="_blank" rel="noopener">Sito</a>';
         return '<article class="rist">' +
@@ -1379,8 +1379,8 @@ function costruisciHotel() {
     if (!lista) return;
     lista.innerHTML = items.map(function (r) {
       let btn = "";
-      if (r.tel) btn += '<a class="btn btn--pieno" href="tel:' + esc(r.tel.replace(/\s/g, "")) + '">Chiama</a>';
-      else if (r.cellulare) btn += '<a class="btn btn--pieno" href="tel:' + esc(r.cellulare.replace(/\s/g, "")) + '">Chiama</a>';
+      if (r.tel) btn += '<a class="btn btn--pieno" href="tel:' + esc(r.tel.replace(/[^\d+]/g, "")) + '">Chiama</a>';
+      else if (r.cellulare) btn += '<a class="btn btn--pieno" href="tel:' + esc(r.cellulare.replace(/[^\d+]/g, "")) + '">Chiama</a>';
       if (r.mappa) btn += '<a class="btn" href="' + urlMappa(r.mappa, r.lat, r.lng) + '" target="_blank" rel="noopener">Mappa</a>';
       if (r.web) btn += '<a class="btn" href="' + esc(r.web) + '" target="_blank" rel="noopener">Sito</a>';
       return '<article class="rist">' +
@@ -1414,7 +1414,7 @@ function costruisciHotel() {
       '<div class="guida-lista">' +
       ristoranti.map(function (r) {
         let btn = "";
-        if (r.tel) btn += '<a class="btn btn--pieno" href="tel:' + esc(r.tel.replace(/\s/g, "")) + '">Chiama</a>';
+        if (r.tel) btn += '<a class="btn btn--pieno" href="tel:' + esc(r.tel.replace(/[^\d+]/g, "")) + '">Chiama</a>';
         if (r.mappa) btn += '<a class="btn" href="' + urlMappa(r.mappa, r.lat, r.lng) + '" target="_blank" rel="noopener">Mappa</a>';
         if (r.web) btn += '<a class="btn" href="' + esc(r.web) + '" target="_blank" rel="noopener">Sito</a>';
         return '<article class="rist">' +
@@ -1729,7 +1729,7 @@ function costruisciConcierge() {
       html += '<div class="conc-risultati">' + items.map(function (r) {
         const tel = r.tel || r.telefono;
         let btn = "";
-        if (tel) btn += '<a class="btn btn--pieno" href="tel:' + esc(tel.replace(/\s/g, "")) + '">Chiama</a>';
+        if (tel) btn += '<a class="btn btn--pieno" href="tel:' + esc(tel.replace(/[^\d+]/g, "")) + '">Chiama</a>';
         if (r.mappa) btn += '<a class="btn" href="' + urlMappa(r.mappa, r.lat, r.lng) + '" target="_blank" rel="noopener">Mappa</a>';
         if (r.web) btn += '<a class="btn" href="' + esc(r.web) + '" target="_blank" rel="noopener">Sito</a>';
         return '<article class="conc-card">' +

@@ -24,7 +24,7 @@ var HOTEL=[
     "prov": "RU",
     "regione": "Russia",
     "luogo": "St. Petersburg (RU)",
-    "tel": "+7 (812) 494-57-92",
+    "tel": "+7 812 494 57 92",
     "telefono": "+7 (812) 494-57-92",
     "cellulare": "+7 (921) 951-53-18",
     "email": "",
@@ -72,7 +72,7 @@ var HOTEL=[
     "prov": "GR",
     "regione": "Svizzera",
     "luogo": "Sankt Moritz (GR)",
-    "tel": "+41 (0) 81 8308383",
+    "tel": "+41 81 8308383",
     "telefono": "+41 (0) 81 8308383",
     "cellulare": "",
     "email": "willkommen@randolins.ch",
@@ -392,7 +392,7 @@ var HOTEL=[
     "prov": "F",
     "regione": "Francia",
     "luogo": "Le Rouret (F)",
-    "tel": "+33 (0) 4 93 40 78 85",
+    "tel": "+33 4 93 40 78 85",
     "telefono": "+33 (0) 4 93 40 78 85",
     "cellulare": "",
     "email": "contact@hotel-du-clos.com",
@@ -472,7 +472,7 @@ var HOTEL=[
     "prov": "TH",
     "regione": "Tailandia",
     "luogo": "Bangkok (TH)",
-    "tel": "+66 (0) 2 032 0887",
+    "tel": "+66 2 032 0887",
     "telefono": "+66 (0) 2 032 0887",
     "cellulare": "",
     "email": "reservations.bangkok@fourseasons.com",
@@ -494,7 +494,7 @@ var HOTEL=[
     "email": "",
     "web": "https://www.fourseasons.com/geneva",
     "note": "🌅 ♥️",
-    "mappa": "33 Quai des Bergues, Geneva, GE"
+    "mappa": "33 Quai des Bergues, Geneva, Svizzera"
   },
   {
     "nome": "Four Seasons Milano",
@@ -728,7 +728,7 @@ var HOTEL=[
     "prov": "GR",
     "regione": "Svizzera",
     "luogo": "Pontresina (GR)",
-    "tel": "+41 (0) 81 830 32 23",
+    "tel": "+41 81 830 32 23",
     "telefono": "+41 (0) 81 830 32 23",
     "cellulare": "",
     "email": "info@kronenhof.com",
@@ -760,7 +760,7 @@ var HOTEL=[
     "prov": "GR",
     "regione": "Grecia",
     "luogo": "Gerolimenas (GR)",
-    "tel": "(+30) 27330 54288",
+    "tel": "+30 27330 54288",
     "telefono": "(+30) 27330 54288",
     "cellulare": "",
     "email": "info@kyrimai.gr",
@@ -894,7 +894,7 @@ var HOTEL=[
     "email": "b.hotel@quintamiraflores.com",
     "web": "https://www.quintamiraflores.com",
     "note": "",
-    "mappa": "844 Avenida 28 de julio, Miraflores, Lima, PE"
+    "mappa": "844 Avenida 28 de julio, Miraflores, Lima, Perù"
   },
   {
     "nome": "La Raia",
@@ -1003,7 +1003,7 @@ var HOTEL=[
     "tel": "+41 79 756 36 24",
     "telefono": "+41 79 756 36 24",
     "cellulare": "",
-    "email": "asseghid.dinberu spirithotels.com",
+    "email": "info@lestroisrois.com",
     "web": "https://www.lestroisrois.com",
     "note": "👑 ♥️",
     "mappa": "Blumenrain 8, Basel, BS"
@@ -1096,7 +1096,7 @@ var HOTEL=[
     "prov": "GB",
     "regione": "Inghilterra",
     "luogo": "London (GB)",
-    "tel": "+44 (0) 20 7235 2000",
+    "tel": "+44 20 7235 2000",
     "telefono": "+44 (0) 20 7235 2000",
     "cellulare": "",
     "email": "molon-reservations@mohg.com",
@@ -1144,7 +1144,7 @@ var HOTEL=[
     "prov": "SA",
     "regione": "Campania",
     "luogo": "Pisciotta (SA)",
-    "tel": "0974973792",
+    "tel": "+39 0974 973792",
     "telefono": "0974973792",
     "cellulare": "",
     "email": "",
@@ -1224,7 +1224,7 @@ var HOTEL=[
     "prov": "NA",
     "regione": "Campania",
     "luogo": "Sorrento (NA)",
-    "tel": "(+39) 081 8772862",
+    "tel": "+39 081 8772862",
     "telefono": "(+39) 081 8772862",
     "cellulare": "",
     "email": "info@palazzojannuzzi.com",
@@ -1704,7 +1704,7 @@ var HOTEL=[
     "prov": "NY",
     "regione": "Stati Uniti",
     "luogo": "New York (NY)",
-    "tel": "+1 (212) 605-6812",
+    "tel": "+1 212 605 6812",
     "telefono": "+1 (212) 605-6812",
     "cellulare": "",
     "email": "abuchanan@lowellhotel.com",
@@ -1720,7 +1720,7 @@ var HOTEL=[
     "prov": "NY",
     "regione": "Stati Uniti",
     "luogo": "New York (NY)",
-    "tel": "+1 (212) 355-2800",
+    "tel": "+1 212 355 2800",
     "telefono": "+1 (212) 355-2800",
     "cellulare": "",
     "email": "jacosta@sherrynetherland.com",
@@ -1880,7 +1880,7 @@ var HOTEL=[
     "prov": "F",
     "regione": "Francia",
     "luogo": "Aix en Provence (F)",
-    "tel": "+33 (0) 4 42 32 92 3",
+    "tel": "+33 4 42 23 29 23",
     "telefono": "+33 (0) 4 42 32 92 3",
     "cellulare": "",
     "email": "gallici@relaischateaux.fr",
@@ -2622,7 +2622,7 @@ var HOTEL=[
     "email": "welcome@floraalpina.ch",
     "web": "https://www.floraalpina.ch",
     "note": "Hotel del 1942 sul Lago dei Quattro Cantoni, parco disegnato da Gustav Ammann, palme e vigneti ai piedi del Rigi 🌳",
-    "mappa": "Schibernstrasse 2, Vitznau, LU"
+    "mappa": "Schibernstrasse 2, Vitznau, Svizzera"
   },
   {
     "nome": "Kräuterhotel Edelweiss",
@@ -2638,7 +2638,7 @@ var HOTEL=[
     "email": "willkommen@kraeuterhotel.ch",
     "web": "https://www.kraeuterhotel.ch",
     "note": "A 1550 metri sul monte Rigi, raggiungibile solo in trenino, giardini di erbe proprie e una Stella Michelin dal 2017 ⛰️",
-    "mappa": "Staffelhöheweg 61, Weggis, LU"
+    "mappa": "Staffelhöheweg 61, Weggis, Svizzera"
   },
   {
     "nome": "Hotel Lindenhof",
@@ -2766,7 +2766,7 @@ var HOTEL=[
     "email": "info@auberge4vents.ch",
     "web": "https://www.auberge4vents.ch",
     "note": "Maniero del Seicento, residenza della famiglia de Boccard poi del magnate Robert Burrus, otto camere a tema uniche, parco sul lago di Schiffenen 🌳",
-    "mappa": "Rte de Grandfey 124, Granges-Paccot, FR"
+    "mappa": "Rte de Grandfey 124, Granges-Paccot, Svizzera"
   },
   {
     "nome": "Hotel Bon Rivage",
@@ -2894,7 +2894,7 @@ var HOTEL=[
     "email": "",
     "web": "https://www.fairmont.com/geneva",
     "note": "Sulla riva del Lago di Ginevra, vista sul Jet d'Eau e le Alpi, sul sito di un ex Casinò poi teatro fino al 1970 🌅",
-    "mappa": "Quai du Mont-Blanc 19, Genève, GE"
+    "mappa": "Quai du Mont-Blanc 19, Genève, Svizzera"
   },
   {
     "nome": "Fairmont Le Montreux Palace",
@@ -2926,7 +2926,7 @@ var HOTEL=[
     "email": "",
     "web": "https://www.grandhotel-national.com/",
     "note": "Palazzo Impero del 1870, qui César Ritz e Auguste Escoffier gettarono le basi dell'hotellerie moderna, ospitò l'imperatrice Sissi 👑",
-    "mappa": "Haldenstrasse 4, Luzern, LU"
+    "mappa": "Haldenstrasse 4, Luzern, Svizzera"
   },
   {
     "nome": "Grand Hôtel des Trois Couronnes",
@@ -3166,7 +3166,7 @@ var HOTEL=[
     "email": "molzn-reservations@mohg.com",
     "web": "https://www.mandarinoriental.com/en/luzern/palace",
     "note": "Costruito nel 1906 come rifugio mediterraneo dell'imprenditore Franz Josef Bucher (lo stesso del Bürgenstock), riaperto nel 2022 come Mandarin Oriental 👑",
-    "mappa": "Haldenstrasse 10, Luzern, LU"
+    "mappa": "Haldenstrasse 10, Luzern, Svizzera"
   },
   {
     "nome": "Riffelalp Resort 2222m",
@@ -3262,7 +3262,7 @@ var HOTEL=[
     "email": "",
     "web": "https://www.ritzcarlton.com/en/hotels/gvarz-the-ritz-carlton-hotel-de-la-paix-geneva/",
     "note": "Costruito nel 1865, ospitò il Congresso Internazionale della Pace da cui prende il nome, ospiti tra cui la famiglia reale di Monaco e Orson Welles 👑",
-    "mappa": "11, Quai du Mont-Blanc, Geneva, GE"
+    "mappa": "11, Quai du Mont-Blanc, Geneva, Svizzera"
   },
   {
     "nome": "Tschuggen Grand Hotel",
@@ -3502,7 +3502,7 @@ var HOTEL=[
     "email": "",
     "web": "https://londonhotel.bg/",
     "note": "Aperto nel 1912, primo edificio di Varna con ascensore, in stile Liberty, nazionalizzato dopo l'occupazione sovietica del 1944 👑",
-    "mappa": "Musala 3, Varna, BG"
+    "mappa": "Musala 3, Varna, Bulgaria"
   },
   {
     "nome": "Grand Hotel Palace – Espace Henri Chenot",
@@ -3902,7 +3902,7 @@ var HOTEL=[
     "email": "info@vitznauerhof.ch",
     "web": "https://www.vitznauerhof.ch/",
     "note": "Aperto nel 1901 su un ex cantiere navale, dal 1911 gestito dalla famiglia Bon (la stessa del Suvretta House), ospiti Hermann Hesse e Richard Strauss 🌅",
-    "mappa": "Seestrasse 80, Vitznau, LU"
+    "mappa": "Seestrasse 80, Vitznau, Svizzera"
   },
   {
     "nome": "Hotel Walther",
