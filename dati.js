@@ -45,8 +45,8 @@ const T42 = {
   sito: {
     nome: "Viaggioperdue",
     sigla: "T42",
-    logo: T42_LOGHI.logo,          /* logo a colori, per fondo chiaro */
-    logoBianco: T42_LOGHI.logoBianco, /* logo bianco, per il piè di pagina scuro */
+    logo: "logo.svg",          /* logo a colori, usato nel piè di pagina */
+    logoBianco: "logo-bianco.svg", /* logo bianco, usato nell'intestazione della home */
     payoff: "",
     introduzione: "Esistono luoghi dove il tempo sembra essersi fermato.\nEsistono persone che sanno fermarsi in questi luoghi.",
     instagram: "https://www.instagram.com/viaggioperdue",   /* ← metti qui l'indirizzo del tuo profilo */

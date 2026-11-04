@@ -60,8 +60,6 @@ function normalizza(s) {
 
 const sandbox = {};
 sandbox.window = sandbox;
-// dati.js referenzia T42_LOGHI (da loghi.js, non richiesto da questo controllo): stub minimo.
-sandbox.T42_LOGHI = { logo: "", logoBianco: "" };
 const contesto = vm.createContext(sandbox);
 
 function eseguiFile(file, espressioneFinale) {

@@ -80,7 +80,7 @@ function costruisciHome() {
       return '<div class="hero-img' + (i === 0 ? ' attiva' : '') + '" style="background-image:url(\'' + esc(url) + '\')"></div>';
     }).join('');
     const marchio = (s.logoBianco && s.logoBianco.trim() !== "")
-      ? '<img class="hero-logo" src="' + esc(s.logoBianco) + '" alt="' + esc(s.nome) + '">'
+      ? '<img class="hero-logo" width="1010" height="550" src="' + esc(s.logoBianco) + '" alt="' + esc(s.nome) + '">'
       : '<div class="hero-nome">' + esc(s.heroTitolo || s.nome) + '</div>';
     hero.innerHTML =
       immaginiHero +
@@ -344,7 +344,7 @@ function costruisciPie(s) {
     ig = '<a href="' + esc(s.instagram) + '" target="_blank" rel="noopener" aria-label="Instagram" class="ig-link"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/></svg></a> · ';
   }
   const marchio = (s.logo && s.logo.trim() !== "")
-    ? '<img class="logo-pie" src="' + esc(s.logo) + '" alt="' + esc(s.nome) + '">'
+    ? '<img class="logo-pie" width="1010" height="550" src="' + esc(s.logo) + '" alt="' + esc(s.nome) + '">'
     : '<div class="marchio">' + esc(s.nome) + '</div>';
   pie.innerHTML =
     marchio +

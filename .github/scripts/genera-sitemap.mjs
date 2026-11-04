@@ -14,7 +14,6 @@ import vm from "node:vm";
 
 const sandbox = {};
 sandbox.window = sandbox;
-sandbox.T42_LOGHI = { logo: "", logoBianco: "" };
 const contesto = vm.createContext(sandbox);
 
 function eseguiFile(file, espressioneFinale) {
