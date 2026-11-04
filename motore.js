@@ -383,14 +383,18 @@ function scheda(v, i, catId) {
     const cat = T42.categorie.find(function(c) { return c.id === catId; });
     const fotoGenerica = "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_6641_u04w0c";
     if (fotoGenerica) {
-      foto = '<div class="scheda-foto"><img src="' + esc(fotoGenerica) +
-             '" alt="' + esc(v.titolo) + '" loading="lazy" style="filter:brightness(.7) saturate(.6)"></div>';
+      foto = '<div class="scheda-foto"><img src="' + esc(cld(fotoGenerica, 800)) +
+             '" srcset="' + esc(cldSrcset(fotoGenerica, [480, 800, 1200])) +
+             '" sizes="(max-width: 720px) 100vw, (max-width: 1080px) 50vw, 515px" decoding="async"' +
+             ' alt="' + esc(v.titolo) + '" loading="lazy" style="filter:brightness(.7) saturate(.6)"></div>';
     } else {
       foto = '<div class="scheda-foto vuota"></div>';
     }
   } else if (v.immagine && v.immagine.trim() !== "") {
-    foto = '<div class="scheda-foto"><img src="' + esc(v.immagine) +
-           '" alt="' + esc(v.titolo) + '" loading="lazy"></div>';
+    foto = '<div class="scheda-foto"><img src="' + esc(cld(v.immagine, 800)) +
+           '" srcset="' + esc(cldSrcset(v.immagine, [480, 800, 1200])) +
+           '" sizes="(max-width: 720px) 100vw, (max-width: 1080px) 50vw, 515px" decoding="async"' +
+           ' alt="' + esc(v.titolo) + '" loading="lazy"></div>';
   } else {
     foto = '<div class="scheda-foto vuota"></div>';
   }
@@ -643,7 +647,13 @@ function costruisciStoria() {
     const galleriaCop = (s.copertinaGalleria && s.copertinaGalleria.length) ? s.copertinaGalleria : (s.copertina ? [s.copertina] : []);
     if (galleriaCop.length) {
       cop.innerHTML = galleriaCop.map(function (url, i) {
-        return '<img' + (i === 0 ? ' class="attiva"' : '') + ' src="' + esc(url) + '" alt="' + esc(s.titolo) + '">';
+        const prioritaOCaricamento = i === 0 ? ' fetchpriority="high"' : ' loading="lazy"';
+        return '<img' + (i === 0 ? ' class="attiva"' : '') +
+          ' src="' + esc(cld(url, 800)) + '"' +
+          ' srcset="' + esc(cldSrcset(url, [480, 800, 1200, 1600])) + '"' +
+          ' sizes="(max-width: 760px) 100vw, 704px" decoding="async"' +
+          prioritaOCaricamento +
+          ' alt="' + esc(s.titolo) + '">';
       }).join('');
       if (galleriaCop.length > 1 && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
         const immaginiCop = cop.querySelectorAll("img");
@@ -703,7 +713,7 @@ function costruisciStoria() {
     gal.innerHTML =
       '<h2 class="storia-h2">Le immagini</h2><div class="storia-griglia">' +
       scheda.galleria.map(function (src) {
-        return '<figure><img src="' + esc(src) + '" loading="lazy"></figure>';
+        return '<figure><img src="' + esc(cld(src, 480)) + '" loading="lazy" decoding="async"></figure>';
       }).join("") + '</div>';
   }
 
@@ -760,7 +770,10 @@ function costruisciItinerari() {
 
 function schedaItinerario(it, chiave, i) {
   const foto = (it.copertina && it.copertina.trim() !== "")
-    ? '<div class="scheda-foto"><img src="' + esc(it.copertina) + '" alt="' + esc(it.titolo) + '" loading="lazy"></div>'
+    ? '<div class="scheda-foto"><img src="' + esc(cld(it.copertina, 800)) +
+        '" srcset="' + esc(cldSrcset(it.copertina, [480, 800, 1200])) +
+        '" sizes="(max-width: 720px) 100vw, (max-width: 1080px) 50vw, 515px" decoding="async"' +
+        ' alt="' + esc(it.titolo) + '" loading="lazy"></div>'
     : '<div class="scheda-foto vuota"></div>';
 
   const ritardo = "d" + Math.min(i + 1, 6);
@@ -782,7 +795,10 @@ function schedaItinerario(it, chiave, i) {
 /* ----------- COSTRUZIONE DELL'ELENCO ESCAPE ----------- */
 function schedaEscape(es, chiave, i) {
   const foto = (es.copertina && es.copertina.trim() !== "")
-    ? '<div class="scheda-foto"><img src="' + esc(es.copertina) + '" alt="' + esc(es.titolo) + '" loading="lazy"></div>'
+    ? '<div class="scheda-foto"><img src="' + esc(cld(es.copertina, 800)) +
+        '" srcset="' + esc(cldSrcset(es.copertina, [480, 800, 1200])) +
+        '" sizes="(max-width: 720px) 100vw, (max-width: 1080px) 50vw, 515px" decoding="async"' +
+        ' alt="' + esc(es.titolo) + '" loading="lazy"></div>'
     : '<div class="scheda-foto vuota"></div>';
 
   const ritardo = "d" + Math.min(i + 1, 6);
@@ -858,7 +874,13 @@ function costruisciEscape() {
   /* ---- copertina ---- */
   const cop = document.getElementById("escape-copertina");
   if (cop) {
-    if (es.copertina) { cop.innerHTML = '<img class="attiva" src="' + esc(es.copertina) + '" loading="lazy" alt="' + esc(es.titolo) + '">'; }
+    if (es.copertina) {
+      cop.innerHTML = '<img class="attiva"' +
+        ' src="' + esc(cld(es.copertina, 800)) + '"' +
+        ' srcset="' + esc(cldSrcset(es.copertina, [480, 800, 1200, 1600])) + '"' +
+        ' sizes="(max-width: 760px) 100vw, 704px" decoding="async"' +
+        ' fetchpriority="high" alt="' + esc(es.titolo) + '">';
+    }
     else cop.style.display = "none";
   }
 
@@ -1040,7 +1062,11 @@ function costruisciItinerario() {
     if (creditoVecchio) creditoVecchio.remove();
     if (it.copertina) {
       cop.className = "storia-copertina";
-      cop.innerHTML = '<img class="attiva" src="' + esc(it.copertina) + '" alt="' + esc(it.titolo) + '">';
+      cop.innerHTML = '<img class="attiva"' +
+        ' src="' + esc(cld(it.copertina, 800)) + '"' +
+        ' srcset="' + esc(cldSrcset(it.copertina, [480, 800, 1200, 1600])) + '"' +
+        ' sizes="(max-width: 760px) 100vw, 704px" decoding="async"' +
+        ' fetchpriority="high" alt="' + esc(it.titolo) + '">';
       if (it.copertinaCredito && it.copertinaCredito.trim() !== "") {
         const testoCredito = (it.copertinaCreditoUrl && it.copertinaCreditoUrl.indexOf("https://") === 0)
           ? '<a href="' + esc(it.copertinaCreditoUrl) + '" target="_blank" rel="noopener">' + esc(it.copertinaCredito) + '</a>'
@@ -1809,7 +1835,7 @@ function costruisciConcierge() {
     } else if (stato.tipo === "escape") {
       html += '<div class="conc-risultati">' + items.map(function (es) {
         return '<article class="conc-card">' +
-          (es.copertina ? '<img class="conc-card-foto" src="' + esc(es.copertina) + '" alt="' + esc(es.titolo) + '" loading="lazy">' : '') +
+          (es.copertina ? '<img class="conc-card-foto" src="' + esc(cld(es.copertina, 160)) + '" alt="' + esc(es.titolo) + '" loading="lazy" decoding="async">' : '') +
           '<div class="conc-card-testo">' +
             '<div class="conc-card-nome">' + esc(es.titolo) + '</div>' +
             (es.sottotitolo ? '<div class="conc-card-citta">' + esc(es.sottotitolo) + '</div>' : '') +
@@ -1820,7 +1846,7 @@ function costruisciConcierge() {
     } else if (stato.tipo === "itinerario") {
       html += '<div class="conc-risultati">' + items.map(function (it) {
         return '<article class="conc-card">' +
-          (it.copertina ? '<img class="conc-card-foto" src="' + esc(it.copertina) + '" alt="' + esc(it.titolo) + '" loading="lazy">' : '') +
+          (it.copertina ? '<img class="conc-card-foto" src="' + esc(cld(it.copertina, 160)) + '" alt="' + esc(it.titolo) + '" loading="lazy" decoding="async">' : '') +
           '<div class="conc-card-testo">' +
             '<div class="conc-card-nome">' + esc(it.titolo) + '</div>' +
             (it.sottotitolo ? '<div class="conc-card-citta">' + esc(it.sottotitolo) + '</div>' : '') +
@@ -1836,7 +1862,7 @@ function costruisciConcierge() {
         if (r.mappa) btn += '<a class="btn" href="' + urlMappa(r.mappa, r.lat, r.lng) + '" target="_blank" rel="noopener">Mappa</a>';
         if (r.web) btn += '<a class="btn" href="' + esc(r.web) + '" target="_blank" rel="noopener">Sito</a>';
         return '<article class="conc-card">' +
-          (r.immagine ? '<img class="conc-card-foto" src="' + esc(r.immagine) + '" alt="' + esc(r.nome) + '" loading="lazy">' : '') +
+          (r.immagine ? '<img class="conc-card-foto" src="' + esc(cld(r.immagine, 160)) + '" alt="' + esc(r.nome) + '" loading="lazy" decoding="async">' : '') +
           '<div class="conc-card-testo">' +
             '<div class="conc-card-nome">' + esc(r.nome) + '</div>' +
             (r.citta ? '<div class="conc-card-citta">' + esc(r.citta) + '</div>' : '') +
