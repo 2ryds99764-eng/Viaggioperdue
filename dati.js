@@ -785,7 +785,7 @@ const T42 = {
         titolo: "Hotel La Soglina",
         luogo: "Via Carnella 6 · Soglio · Grigioni",
         sommario: "Una terrazza sospesa sulla Val Bregaglia, dove il panorama è già parte del soggiorno.",
-        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5352_mxpvmk",
+        immagine: "https://res.cloudinary.com/dspgc41gt/image/upload/w_1600,q_auto,f_auto/v1793774140/IMG_2146_t85mhu.jpg",
         telefono: "+41818221608",
         email: "info@lasoglina.ch",
         web: "http://www.lasoglina.ch",
