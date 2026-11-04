@@ -4,6 +4,30 @@
    Non è necessario modificare questo file per aggiornare i contenuti.
 =================================================================== */
 
+/* CLD-INIZIO: aiuti per le immagini Cloudinary (q_auto, f_auto, larghezza adatta) */
+const CLD_LARGHEZZE = [480, 800, 1200, 1600, 2000, 2400];
+function cldLarghezza(cssPx, massimo) {
+  const dpr = Math.min(window.devicePixelRatio || 1, 2);
+  const serve = cssPx * dpr, tetto = massimo || 2400;
+  for (const w of CLD_LARGHEZZE) { if (w >= serve || w >= tetto) return Math.min(w, tetto); }
+  return Math.min(CLD_LARGHEZZE[CLD_LARGHEZZE.length - 1], tetto);
+}
+function cld(url, w) {
+  if (typeof url !== "string") return url;
+  const m = url.match(/^(https:\/\/res\.cloudinary\.com\/[^/]+\/image\/upload\/)(.+)$/);
+  if (!m) return url;
+  const segs = m[2].split("/"), trasf = [];
+  while (segs.length > 1 && /^[a-z]{1,3}_[^,/]+(,[a-z]{1,3}_[^,/]+)*$/.test(segs[0])) trasf.push(segs.shift());
+  const gia = trasf.join(",");
+  if (/(^|,)(w_|q_auto|f_auto)/.test(gia)) return url;
+  const vecchie = gia.split(",").filter(function (t) { return t && t !== "f_jpg"; }).join(",");
+  return m[1] + (vecchie ? vecchie + "/" : "") + "c_limit,w_" + w + ",q_auto,f_auto/" + segs.join("/");
+}
+function cldSrcset(url, larghezze) {
+  return larghezze.map(function (w) { return cld(url, w) + " " + w + "w"; }).join(", ");
+}
+/* CLD-FINE */
+
 /* piccola utilità: mette in sicurezza i testi */
 function esc(t) {
   return String(t == null ? "" : t)
@@ -68,6 +92,39 @@ function elencoSimboliRistorante() {
   );
 }
 
+/* osservatore condiviso per gli sfondi Cloudinary caricati pigramente (data-bg) */
+let osservatoreCldBg = null;
+function impostaSfondiPigri(elementi, larghezzaFallback) {
+  elementi.forEach(function (el) {
+    if (el.style.backgroundImage) return;
+    const url = el.getAttribute("data-bg");
+    if (url) el.setAttribute("data-bg", cld(url, larghezzaFallback));
+  });
+  if (typeof IntersectionObserver === "undefined") {
+    elementi.forEach(function (el) {
+      if (el.style.backgroundImage) return;
+      const url = el.getAttribute("data-bg");
+      if (url) el.style.backgroundImage = "url('" + url + "')";
+    });
+    return;
+  }
+  if (!osservatoreCldBg) {
+    osservatoreCldBg = new IntersectionObserver(function (voci) {
+      voci.forEach(function (voce) {
+        if (!voce.isIntersecting) return;
+        const el = voce.target;
+        osservatoreCldBg.unobserve(el);
+        if (el.style.backgroundImage) return;
+        const url = el.getAttribute("data-bg");
+        if (url) el.style.backgroundImage = "url('" + url + "')";
+      });
+    }, { rootMargin: "600px 0px" });
+  }
+  elementi.forEach(function (el) {
+    if (!el.style.backgroundImage) osservatoreCldBg.observe(el);
+  });
+}
+
 /* ----------- COSTRUZIONE DELLA HOME ----------- */
 function costruisciHome() {
   const s = T42.sito;
@@ -76,8 +133,13 @@ function costruisciHome() {
   const hero = document.getElementById("hero");
   if (hero) {
     const galleria = (s.heroGalleria && s.heroGalleria.length) ? s.heroGalleria : (s.hero ? [s.hero] : []);
+    const larghezzaHero = cldLarghezza(window.innerWidth, 2400);
     const immaginiHero = galleria.map(function (url, i) {
-      return '<div class="hero-img' + (i === 0 ? ' attiva' : '') + '" style="background-image:url(\'' + esc(url) + '\')"></div>';
+      const trasformato = cld(url, larghezzaHero);
+      if (i === 0) {
+        return '<div class="hero-img attiva" style="background-image:url(\'' + esc(trasformato) + '\')"></div>';
+      }
+      return '<div class="hero-img" data-bg="' + esc(trasformato) + '"></div>';
     }).join('');
     const marchio = (s.logoBianco && s.logoBianco.trim() !== "")
       ? '<img class="hero-logo" width="1010" height="550" src="' + esc(s.logoBianco) + '" alt="' + esc(s.nome) + '">'
@@ -95,10 +157,43 @@ function costruisciHome() {
     if (galleria.length > 1 && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
       const immagini = hero.querySelectorAll(".hero-img");
       let indice = 0;
+
+      function caricaImmagineHero(el, fine) {
+        if (!el) { fine(true); return; }
+        if (el.style.backgroundImage) { fine(); return; }
+        const url = el.getAttribute("data-bg");
+        if (!url) { fine(true); return; }
+        let risolto = false;
+        const img = new Image();
+        img.onload = function () {
+          if (risolto) return;
+          risolto = true;
+          el.style.backgroundImage = "url('" + url + "')";
+          fine();
+        };
+        img.onerror = function () {
+          if (risolto) return;
+          risolto = true;
+          fine(true);
+        };
+        img.src = url;
+        setTimeout(function () {
+          if (risolto) return;
+          risolto = true;
+          fine(true);
+        }, 4000);
+      }
+
       setInterval(function () {
-        immagini[indice].classList.remove("attiva");
-        indice = (indice + 1) % immagini.length;
-        immagini[indice].classList.add("attiva");
+        const successivo = (indice + 1) % immagini.length;
+        caricaImmagineHero(immagini[successivo], function (nonPronta) {
+          if (nonPronta) return;
+          immagini[indice].classList.remove("attiva");
+          indice = successivo;
+          immagini[indice].classList.add("attiva");
+          const dopo = (indice + 1) % immagini.length;
+          caricaImmagineHero(immagini[dopo], function () {});
+        });
       }, 5000);
     }
   }
@@ -115,9 +210,10 @@ function costruisciHome() {
   /* ---- sezioni a parola singola (Scopri · Vivi · Assapora) ---- */
   const sez = document.getElementById("sezioni");
   if (sez && Array.isArray(s.sezioni)) {
+    const larghezzaSezione = cldLarghezza(window.innerWidth, 1600);
     sez.innerHTML = s.sezioni.map(function (b, i) {
       const sfondo = (b.immagine && b.immagine.trim() !== "")
-        ? ' style="background-image:url(\'' + esc(b.immagine) + '\')"' : '';
+        ? ' data-bg="' + esc(cld(b.immagine, larghezzaSezione)) + '"' : '';
       return '<div class="sezione' + (i % 2 ? ' sezione--destra' : '') + '">' +
         '<div class="sezione-foto"' + sfondo + '></div>' +
         '<div class="sezione-testo">' +
@@ -131,12 +227,13 @@ function costruisciHome() {
   /* ---- categorie come grandi tessere fotografiche ---- */
   const grid = document.getElementById("categorie");
   if (grid) {
+    const larghezzaTessera = cldLarghezza(Math.min(window.innerWidth, 1100) / (window.innerWidth > 860 ? 2 : 1), 1600);
     grid.innerHTML =
       '<div class="cat-occhiello">Le cinque vie</div>' +
       '<div class="tessere">' +
       T42.categorie.map(function (c, i) {
         const sfondo = (c.tessera && c.tessera.trim() !== "")
-          ? ' style="background-image:url(\'' + esc(c.tessera) + '\')"' : '';
+          ? ' data-bg="' + esc(cld(c.tessera, larghezzaTessera)) + '"' : '';
         return '<a class="tessera" href="categoria.html?c=' + encodeURIComponent(c.id) + '">' +
           '<div class="tessera-foto"' + sfondo + '></div>' +
           '<div class="tessera-velo"></div>' +
@@ -149,6 +246,12 @@ function costruisciHome() {
       }).join("") +
       '</div>';
   }
+
+  /* sfondi Cloudinary caricati pigramente: sezioni e tessere appena costruite,
+     e qualunque altro [data-bg] già presente nella pagina (es. banner-estate-img);
+     esclude le immagini della galleria dell'intestazione, che hanno la loro
+     logica dedicata (caricamento e rotazione) più sopra */
+  impostaSfondiPigri(document.querySelectorAll("[data-bg]:not(.hero-img)"), cldLarghezza(window.innerWidth, 1600));
 
   /* invito principale: il Concierge in evidenza */
   const invC = document.getElementById("invito-concierge-principale");
