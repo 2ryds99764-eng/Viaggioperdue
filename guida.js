@@ -783,7 +783,7 @@ var GUIDA=[
     "telefono": "+39 349 8546265",
     "web": "https://www.chaletnicoletti.it",
     "note": "Strada Provinciale 371 · Cilento",
-    "mappa": "Località Vesalo, Laurino, SA"
+    "mappa": "Chalet Nicoletti, Laurino, Salerno, Italia"
   },
   {
     "nome": "Casa degli Spiriti",

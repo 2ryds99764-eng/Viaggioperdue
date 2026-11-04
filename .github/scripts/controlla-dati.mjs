@@ -22,6 +22,11 @@ const ECCEZIONI_VERIFICATE = {
   "Tarsia Homes & Suites": "verificato su Apple Mappe il 3 novembre 2026",
   "Castella Loutro": "verificato su Apple Mappe il 3 novembre 2026",
   "Spondi": "verificato su Apple Mappe il 3 novembre 2026",
+  "Borgo Santo Pietro": "verificato su Apple Mappe il 4 novembre 2026",
+  "Stella Maris": "verificato su Apple Mappe il 4 novembre 2026",
+  "Casa Colonica": "verificato su Apple Mappe il 4 novembre 2026",
+  "Oasi Val Pisani": "verificato su Apple Mappe il 4 novembre 2026",
+  "La Rosa Bianca": "verificato su Apple Mappe il 4 novembre 2026",
 };
 
 const ERRORI = [];
