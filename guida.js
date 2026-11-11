@@ -7145,7 +7145,7 @@ var GUIDA=[
   },
   {
     "nome": "Namo Ristobottega",
-    "indirizzo": "Via Giovan Battista Marzi 1",
+    "indirizzo": "Via Giovanni Battista Marzi 1",
     "citta": "Tarquinia",
     "provincia": "VT",
     "prov": "VT",
@@ -7154,8 +7154,8 @@ var GUIDA=[
     "tel": "+39 0766 731637",
     "telefono": "+39 0766 731637",
     "web": "https://www.namoristobottega.it",
-    "note": "Chef Tiziana Favi e Hassan Ismael Gaafar, Bib Gourmand Michelin per il quinto anno consecutivo, forte attenzione alla biodiversità, aderente a Slow Food ♥️",
-    "mappa": "Via Giovan Battista Marzi 1, Tarquinia, VT"
+    "note": "Cucina territoriale della Tuscia, in una ristobottega a Tarquinia: gli chef Tiziana Favi e Hassan Ismael Gaafar lavorano su presìdi Slow Food e prodotti di aziende agricole locali selezionate, con attenzione alla biodiversità e menu che seguono le stagioni. Bib Gourmand Michelin (guida 2026, quinto anno consecutivo). Chiuso il lunedì; gli orari cambiano tra inverno ed estate, meglio prenotare. ♥️",
+    "mappa": "Via Giovanni Battista Marzi 1, Tarquinia, VT"
   },
   {
     "nome": "De Librije",
