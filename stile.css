@@ -383,17 +383,17 @@ body::before {
   background: var(--carta); padding: 16px 0;
 }
 .cerca-campo { flex: 1 1 280px; max-width: 420px; margin: 0; }
-#cerca-nome, #cerca-regione, #cerca-provincia, #cerca-simbolo-g, #cerca-simbolo-h {
+#cerca-nome, #cerca-regione, #cerca-provincia, #cerca-simbolo-g, #cerca-simbolo-h, #cerca-nome-h, #cerca-regione-h, #cerca-provincia-h {
   width: 100%; font-family: var(--sans); font-size: 0.95rem; color: var(--blu-notte);
   padding: 13px 16px; border: 1px solid var(--filo); background: #fff;
   border-radius: 0; -webkit-appearance: none; appearance: none;
 }
-#cerca-nome:focus, #cerca-regione:focus, #cerca-provincia:focus, #cerca-simbolo-g:focus, #cerca-simbolo-h:focus { outline: none; border-color: var(--blu); }
-#cerca-regione, #cerca-provincia, #cerca-simbolo-g, #cerca-simbolo-h {
+#cerca-nome:focus, #cerca-regione:focus, #cerca-provincia:focus, #cerca-simbolo-g:focus, #cerca-simbolo-h:focus, #cerca-nome-h:focus, #cerca-regione-h:focus, #cerca-provincia-h:focus { outline: none; border-color: var(--blu); }
+#cerca-regione, #cerca-provincia, #cerca-simbolo-g, #cerca-simbolo-h, #cerca-regione-h, #cerca-provincia-h {
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'><path d='M1 1l5 5 5-5' fill='none' stroke='%231f4e8c' stroke-width='1.6'/></svg>");
   background-repeat: no-repeat; background-position: right 16px center; padding-right: 40px; cursor: pointer;
 }
-#cerca-provincia:disabled { color: #aab2bf; cursor: not-allowed; background-color: #f4f2ec; }
+#cerca-provincia:disabled, #cerca-provincia-h:disabled { color: #aab2bf; cursor: not-allowed; background-color: #f4f2ec; }
 .guida-conteggio {
   text-align: center; font-family: var(--sans); font-size: 0.75rem; letter-spacing: 0.14em;
   text-transform: uppercase; color: #5d6b82; margin-bottom: 22px;
