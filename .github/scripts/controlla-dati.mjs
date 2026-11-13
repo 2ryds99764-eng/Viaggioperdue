@@ -3,6 +3,7 @@
 
 import fs from "node:fs";
 import vm from "node:vm";
+import { costruisciBloccoHero, estraiBloccoAttuale } from "./genera-hero.mjs";
 
 // Schede già verificate a mano (su Apple Mappe) nonostante il controllo
 // automatico le segnali: non devono più produrre gli avvisi sulle mappe
@@ -494,6 +495,19 @@ function controllaFormaEmail(elenco, etichetta) {
 
 controllaFormaEmail(HOTEL, "HOTEL");
 controllaFormaEmail(GUIDA, "GUIDA");
+
+// ---------------------------------------------------------------------------
+// 11) Intestazione di index.html coerente con dati.js (ERRORE)
+// ---------------------------------------------------------------------------
+
+{
+  const bloccoAtteso = costruisciBloccoHero(T42.sito);
+  const contenutoIndex = fs.readFileSync("index.html", "utf8");
+  const bloccoAttuale = estraiBloccoAttuale(contenutoIndex);
+  if (bloccoAttuale !== bloccoAtteso) {
+    errore("home", "intestazione di index.html non coerente con dati.js: lancia node .github/scripts/genera-hero.mjs");
+  }
+}
 
 // ---------------------------------------------------------------------------
 // Riepilogo

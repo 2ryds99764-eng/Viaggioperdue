@@ -141,18 +141,25 @@ function costruisciHome() {
       }
       return '<div class="hero-img" data-bg="' + esc(trasformato) + '"></div>';
     }).join('');
-    const marchio = (s.logoBianco && s.logoBianco.trim() !== "")
-      ? '<img class="hero-logo" width="1010" height="550" src="' + esc(s.logoBianco) + '" alt="' + esc(s.nome) + '">'
-      : '<div class="hero-nome">' + esc(s.heroTitolo || s.nome) + '</div>';
-    hero.innerHTML =
-      immaginiHero +
-      '<div class="hero-velo"></div>' +
-      '<div class="hero-dentro">' +
-        '<div class="hero-sigla anima d1">Viaggio<em>per</em>due</div>' +
-        marchio +
-        (s.heroSotto ? '<p class="hero-sotto anima d3">' + esc(s.heroSotto) + '</p>' : '') +
-      '</div>' +
-      '<a class="hero-scroll" href="#sezioni" aria-label="Scorri"><span>scorri</span><span class="hero-freccia">↓</span></a>';
+    if (hero.querySelector(".hero-dentro")) {
+      /* intestazione già nell'HTML (generata da .github/scripts/genera-hero.mjs
+         da dati.js): aggiungiamo solo le immagini della galleria, senza
+         toccare il resto */
+      hero.insertAdjacentHTML("afterbegin", immaginiHero);
+    } else {
+      const marchio = (s.logoBianco && s.logoBianco.trim() !== "")
+        ? '<img class="hero-logo" width="1010" height="550" src="' + esc(s.logoBianco) + '" alt="' + esc(s.nome) + '">'
+        : '<div class="hero-nome">' + esc(s.heroTitolo || s.nome) + '</div>';
+      hero.innerHTML =
+        immaginiHero +
+        '<div class="hero-velo"></div>' +
+        '<div class="hero-dentro">' +
+          '<div class="hero-sigla anima d1">Viaggio<em>per</em>due</div>' +
+          marchio +
+          (s.heroSotto ? '<p class="hero-sotto anima d3">' + esc(s.heroSotto) + '</p>' : '') +
+        '</div>' +
+        '<a class="hero-scroll" href="#sezioni" aria-label="Scorri"><span>scorri</span><span class="hero-freccia">↓</span></a>';
+    }
 
     if (galleria.length > 1 && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
       const immagini = hero.querySelectorAll(".hero-img");
