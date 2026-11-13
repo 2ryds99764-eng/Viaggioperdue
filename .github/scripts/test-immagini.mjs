@@ -60,9 +60,45 @@ verifica(
 );
 
 verifica(
-  "d) w_1600,q_auto,f_auto/v1793774140/IMG_2146_t85mhu.jpg resta identico",
+  "d) La Soglina (w_1600,q_auto,f_auto) con w=1200 diventa c_limit,w_1200",
   cld(BASE + "w_1600,q_auto,f_auto/v1793774140/IMG_2146_t85mhu.jpg", 1200),
+  BASE + "c_limit,w_1200,q_auto,f_auto/v1793774140/IMG_2146_t85mhu.jpg"
+);
+
+verifica(
+  "d) La Soglina con w=1600 resta identica",
+  cld(BASE + "w_1600,q_auto,f_auto/v1793774140/IMG_2146_t85mhu.jpg", 1600),
   BASE + "w_1600,q_auto,f_auto/v1793774140/IMG_2146_t85mhu.jpg"
+);
+
+verifica(
+  "d) La Soglina con w=2400 resta identica",
+  cld(BASE + "w_1600,q_auto,f_auto/v1793774140/IMG_2146_t85mhu.jpg", 2400),
+  BASE + "w_1600,q_auto,f_auto/v1793774140/IMG_2146_t85mhu.jpg"
+);
+
+verifica(
+  "d) Creta (w_2400,q_auto,f_auto) con w=800 diventa c_limit,w_800",
+  cld(BASE + "w_2400,q_auto,f_auto/v1793177590/dimitris-kiriakakis-p_DnAQNczqY-unsplash_wrth7e.jpg", 800),
+  BASE + "c_limit,w_800,q_auto,f_auto/v1793177590/dimitris-kiriakakis-p_DnAQNczqY-unsplash_wrth7e.jpg"
+);
+
+verifica(
+  "d) Creta con w=2400 resta identica",
+  cld(BASE + "w_2400,q_auto,f_auto/v1793177590/dimitris-kiriakakis-p_DnAQNczqY-unsplash_wrth7e.jpg", 2400),
+  BASE + "w_2400,q_auto,f_auto/v1793177590/dimitris-kiriakakis-p_DnAQNczqY-unsplash_wrth7e.jpg"
+);
+
+verifica(
+  "d) cld(cld(Creta,800),800) uguale a cld(Creta,800)",
+  cld(cld(BASE + "w_2400,q_auto,f_auto/v1793177590/dimitris-kiriakakis-p_DnAQNczqY-unsplash_wrth7e.jpg", 800), 800),
+  cld(BASE + "w_2400,q_auto,f_auto/v1793177590/dimitris-kiriakakis-p_DnAQNczqY-unsplash_wrth7e.jpg", 800)
+);
+
+verifica(
+  "d) a_-90 insieme a w_/q_auto/f_auto non cambia",
+  cld(BASE + "a_-90,w_1600,q_auto,f_auto/v123/IMG_X", 1200),
+  BASE + "a_-90,w_1600,q_auto,f_auto/v123/IMG_X"
 );
 
 verifica(

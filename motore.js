@@ -19,6 +19,12 @@ function cld(url, w) {
   const segs = m[2].split("/"), trasf = [];
   while (segs.length > 1 && /^[a-z]{1,3}_[^,/]+(,[a-z]{1,3}_[^,/]+)*$/.test(segs[0])) trasf.push(segs.shift());
   const gia = trasf.join(",");
+  const soloLarghezza = gia.match(/^w_(\d+),q_auto,f_auto$/);
+  if (soloLarghezza) {
+    const n = Number(soloLarghezza[1]);
+    if (w < n) return m[1] + "c_limit,w_" + w + ",q_auto,f_auto/" + segs.join("/");
+    return url;
+  }
   if (/(^|,)(w_|q_auto|f_auto)/.test(gia)) return url;
   const vecchie = gia.split(",").filter(function (t) { return t && t !== "f_jpg"; }).join(",");
   return m[1] + (vecchie ? vecchie + "/" : "") + "c_limit,w_" + w + ",q_auto,f_auto/" + segs.join("/");
