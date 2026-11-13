@@ -1172,7 +1172,7 @@ body::before {
 }
 .cip-occhiello {
   font-family: var(--sans); font-size: 0.8rem; letter-spacing: 0.05em;
-  text-transform: uppercase; color: #888; margin: 0 0 0.3em;
+  text-transform: uppercase; color: #5d6b82; margin: 0 0 0.3em;
 }
 .cip-titolo {
   font-family: var(--serif); font-size: 1.4rem; margin: 0 0 1em; color: var(--blu);
