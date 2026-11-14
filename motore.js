@@ -1478,6 +1478,7 @@ document.addEventListener("DOMContentLoaded", function () {
   if (document.body.dataset.pagina === "guida") costruisciGuida();
    if (document.body.dataset.pagina === "hotel") costruisciHotel();
   costruisciConcierge();
+  document.body.classList.add("pronto");
 });
 function costruisciHotel() {
   document.title = "Guida agli alberghi · " + T42.sito.nome;

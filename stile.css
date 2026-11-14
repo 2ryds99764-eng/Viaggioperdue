@@ -221,6 +221,17 @@ body::before {
 
 .wrap { max-width: 1080px; margin: 0 auto; padding: 0 28px; position: relative; z-index: 1; }
 
+/* nelle pagine costruite da motore.js (non la home) <main> e il piè di pagina restano
+   invisibili finché motore.js non finisce di riempirli (evita lo spostamento del piè
+   di pagina, che altrimenti nasce subito dopo il body vuoto); la riserva a 3 secondi
+   li mostra comunque se lo script non dovesse partire */
+body:not([data-pagina="home"]):not(.pronto) main,
+body:not([data-pagina="home"]):not(.pronto) .pie {
+  visibility: hidden;
+  animation: vp-mostra 0s linear 3s forwards;
+}
+@keyframes vp-mostra { to { visibility: visible; } }
+
 /* ---------------- INTESTAZIONE ---------------- */
 .testata {
   border-bottom: 2px solid var(--blu-notte);
