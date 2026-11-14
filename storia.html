@@ -3,6 +3,89 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- COP-INIZIO (generato da .github/scripts/genera-copertine.mjs da dati.js, itinerari.js, escape.js e motore.js: non modificare a mano) -->
+  <script>
+  (function () {
+    "use strict";
+    const CLD_LARGHEZZE = [480, 800, 1200, 1600, 2000, 2400];
+    function cldLarghezza(cssPx, massimo) {
+      const dpr = Math.min(window.devicePixelRatio || 1, 2);
+      const serve = cssPx * dpr, tetto = massimo || 2400;
+      for (const w of CLD_LARGHEZZE) { if (w >= serve || w >= tetto) return Math.min(w, tetto); }
+      return Math.min(CLD_LARGHEZZE[CLD_LARGHEZZE.length - 1], tetto);
+    }
+    function cld(url, w) {
+      if (typeof url !== "string") return url;
+      const m = url.match(/^(https:\/\/res\.cloudinary\.com\/[^/]+\/image\/upload\/)(.+)$/);
+      if (!m) return url;
+      const segs = m[2].split("/"), trasf = [];
+      while (segs.length > 1 && /^[a-z]{1,3}_[^,/]+(,[a-z]{1,3}_[^,/]+)*$/.test(segs[0])) trasf.push(segs.shift());
+      const gia = trasf.join(",");
+      const soloLarghezza = gia.match(/^w_(\d+),q_auto,f_auto$/);
+      if (soloLarghezza) {
+        const n = Number(soloLarghezza[1]);
+        if (w < n) return m[1] + "c_limit,w_" + w + ",q_auto,f_auto/" + segs.join("/");
+        return url;
+      }
+      if (/(^|,)(w_|q_auto|f_auto)/.test(gia)) return url;
+      const vecchie = gia.split(",").filter(function (t) { return t && t !== "f_jpg"; }).join(",");
+      return m[1] + (vecchie ? vecchie + "/" : "") + "c_limit,w_" + w + ",q_auto,f_auto/" + segs.join("/");
+    }
+    function cldSrcset(url, larghezze) {
+      return larghezze.map(function (w) { return cld(url, w) + " " + w + "w"; }).join(", ");
+    }
+    var M = {
+      "bernina": "https://res.cloudinary.com/dspgc41gt/image/upload/Bernina_Express_xzhwsr",
+      "burgenstock": "https://res.cloudinary.com/dspgc41gt/image/upload/Buergenstock-Hotel_Palace-01ASD_pcd0oi",
+      "burlotto": "assets/burlotto-copertina.jpg",
+      "campanini": "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_4381_u74xvg",
+      "caravella": "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5261_cbhpsq",
+      "castelli": "assets/castelli-copertina.jpg",
+      "costiera": "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5236_h4rgus",
+      "dagustin": "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_0585_tvzgdm",
+      "damijan": "assets/damijan-copertina.jpg",
+      "dani-maison": "https://res.cloudinary.com/dspgc41gt/image/upload/dgt01619_oni8ep",
+      "debartoli": "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_2942_hjprfj",
+      "dettori": "assets/dettori-copertina.jpg",
+      "ficobianco": "https://res.cloudinary.com/dspgc41gt/image/upload/0658397e-e17b-4816-aa19-938d0984fde9_j9op5y",
+      "ghianda": "https://res.cloudinary.com/dspgc41gt/image/upload/a_-90,f_jpg/IMG_1788_mftxg6",
+      "grand-hotel-torquay": "https://res.cloudinary.com/dspgc41gt/image/upload/Grand_Hotel_Torquay__2763503286_qdc866",
+      "grotticelle": "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_0958_itjyzy",
+      "lapergola": "https://res.cloudinary.com/dspgc41gt/image/upload/Pesce_n9hpsc",
+      "minervetta": "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5680_aah5th",
+      "origini-da-peppina": "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_2603_mzs6qb",
+      "paponi": "https://res.cloudinary.com/dspgc41gt/image/upload/a_-90,f_jpg/IMG_5771_bsqkns",
+      "pietrelevate": "https://res.cloudinary.com/dspgc41gt/image/upload/PietreLevate_copertina_mubzk6",
+      "poliform": "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_1620_amjout",
+      "ragni": "assets/ragni-copertina.jpg",
+      "rosabianca": "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_1974_ccofwm",
+      "schatzalp": "https://res.cloudinary.com/dspgc41gt/image/upload/Schatzalp_Davos_ujqewx",
+      "siciliaintro": "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_2389_xdtsqw",
+      "soglio": "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_5354_aylm7n",
+      "tecce": "assets/tecce-copertina.jpg",
+      "trois-couronnes": "https://res.cloudinary.com/dspgc41gt/image/upload/Vevey_-_Hôtel_des_Trois_Couronnes_vu_du_Léman_-_2022-09-12_-_02_az80p7",
+      "umberto-a-mare": "https://res.cloudinary.com/dspgc41gt/image/upload/umberto-rotazione-1_kebvl0",
+      "viadamez": "https://res.cloudinary.com/dspgc41gt/image/upload/7_vwr7wc",
+      "vista": "https://res.cloudinary.com/dspgc41gt/image/upload/RIVA_Restaurant_Sett_24.jpg_ifpzgv",
+      "zidarich": "assets/zidarich-copertina.jpg"
+    };
+    try {
+      var chiave = new URLSearchParams(location.search).get("s");
+      var u = chiave ? M[chiave] : null;
+      if (u) {
+        var l = document.createElement("link");
+        l.rel = "preload";
+        l.as = "image";
+        l.href = cld(u, 800);
+        l.setAttribute("imagesrcset", cldSrcset(u, [480, 800, 1200, 1600]));
+        l.setAttribute("imagesizes", "(max-width: 760px) 100vw, 704px");
+        l.setAttribute("fetchpriority", "high");
+        document.head.appendChild(l);
+      }
+    } catch (e) {}
+  })();
+  </script>
+  <!-- COP-FINE -->
   <link rel="icon" href="/favicon.ico" sizes="32x32">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">

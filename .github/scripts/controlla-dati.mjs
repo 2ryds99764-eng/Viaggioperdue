@@ -4,6 +4,13 @@
 import fs from "node:fs";
 import vm from "node:vm";
 import { costruisciBloccoHero, estraiBloccoAttuale } from "./genera-hero.mjs";
+import {
+  PAGINE as PAGINE_COPERTINA,
+  estraiBloccoCld,
+  mappaCopertine,
+  costruisciBloccoCopertina,
+  estraiBlocco as estraiBloccoCopertina,
+} from "./genera-copertine.mjs";
 
 // Schede già verificate a mano (su Apple Mappe) nonostante il controllo
 // automatico le segnali: non devono più produrre gli avvisi sulle mappe
@@ -507,6 +514,106 @@ controllaFormaEmail(GUIDA, "GUIDA");
   if (bloccoAttuale !== bloccoAtteso) {
     errore("home", "intestazione di index.html non coerente con dati.js: lancia node .github/scripts/genera-hero.mjs");
   }
+}
+
+// ---------------------------------------------------------------------------
+// 12) Preload delle copertine (storia/itinerario/escape) coerente con i dati (ERRORE)
+// ---------------------------------------------------------------------------
+
+{
+  const bloccoCld = estraiBloccoCld();
+  const mappe = mappaCopertine(T42);
+
+  // (a) il blocco scritto in ciascuna pagina coincide con quello generato
+  Object.keys(PAGINE_COPERTINA).forEach(function (tipo) {
+    const { file, param } = PAGINE_COPERTINA[tipo];
+    const nomeFile = file.split("/").pop();
+    const bloccoAtteso = costruisciBloccoCopertina(mappe[tipo], param, bloccoCld);
+    const contenuto = fs.readFileSync(file, "utf8");
+    const bloccoAttuale = estraiBloccoCopertina(contenuto);
+    if (bloccoAttuale !== bloccoAtteso) {
+      errore("copertine", "copertine di " + nomeFile + " non coerenti: lancia node .github/scripts/genera-copertine.mjs");
+    }
+  });
+
+  // (b) guardia di coerenza con motore.js: le tre funzioni devono ancora usare
+  // le stesse larghezze e lo stesso "sizes" che genera-copertine.mjs riproduce
+  const motoreSrc = fs.readFileSync("motore.js", "utf8");
+  function corpoFunzione(nome) {
+    const inizio = motoreSrc.indexOf("function " + nome + "(");
+    if (inizio === -1) return null;
+    const prossima = motoreSrc.indexOf("\nfunction ", inizio + 1);
+    return motoreSrc.slice(inizio, prossima === -1 ? undefined : prossima);
+  }
+  const RE_CLDSRCSET = /cldSrcset\([^,]+,\s*\[480,\s*800,\s*1200,\s*1600\]\)/;
+  const RE_CLD800 = /cld\([^,]+,\s*800\)/;
+  const SIZES_ATTESO = 'sizes="(max-width: 760px) 100vw, 704px"';
+  ["costruisciStoria", "costruisciItinerario", "costruisciEscape"].forEach(function (nomeFn) {
+    const corpo = corpoFunzione(nomeFn);
+    if (corpo === null) {
+      errore("copertine", "motore.js: non trovo più la funzione " + nomeFn);
+      return;
+    }
+    const ok = RE_CLDSRCSET.test(corpo) && RE_CLD800.test(corpo) && corpo.includes(SIZES_ATTESO);
+    if (!ok) {
+      errore("copertine", "motore.js ha cambiato larghezze o sizes della copertina: aggiorna genera-copertine.mjs e il preload");
+    }
+  });
+
+  // (c) esecuzione della logica inline (per ogni chiave) in un vm con un finto
+  // location.search e un finto document, confrontata con cld()/cldSrcset()
+  // calcolati dal generatore sullo stesso indirizzo
+  const sandboxCld = {};
+  new vm.Script(bloccoCld, { filename: "blocco-cld" }).runInNewContext(sandboxCld);
+
+  function corpoScriptInline(blocco) {
+    const i = blocco.indexOf("<script>");
+    const f = blocco.indexOf("</script>");
+    return blocco.slice(i + "<script>".length, f);
+  }
+
+  Object.keys(PAGINE_COPERTINA).forEach(function (tipo) {
+    const { param } = PAGINE_COPERTINA[tipo];
+    const mappa = mappe[tipo];
+    const bloccoPagina = costruisciBloccoCopertina(mappa, param, bloccoCld);
+    const corpoInline = corpoScriptInline(bloccoPagina);
+
+    Object.keys(mappa).forEach(function (chiave) {
+      const u = mappa[chiave];
+      const attesoHref = sandboxCld.cld(u, 800);
+      const attesoSrcset = sandboxCld.cldSrcset(u, [480, 800, 1200, 1600]);
+
+      let link = null;
+      const sandboxPagina = {
+        URLSearchParams,
+        location: { search: "?" + param + "=" + encodeURIComponent(chiave) },
+        document: {
+          createElement: function () {
+            const el = { attributi: {} };
+            el.setAttribute = function (nome, valore) { el.attributi[nome] = valore; };
+            return el;
+          },
+          head: { appendChild: function (l) { link = l; } },
+        },
+      };
+      try {
+        new vm.Script(corpoInline, { filename: "inline-" + tipo + "-" + chiave }).runInNewContext(sandboxPagina);
+      } catch (e) {
+        errore("copertine", tipo + "/" + chiave + ": la logica inline lancia un'eccezione (" + e.message + ")");
+        return;
+      }
+      if (!link) {
+        errore("copertine", tipo + "/" + chiave + ": il preload non viene creato");
+        return;
+      }
+      if (link.href !== attesoHref) {
+        errore("copertine", tipo + "/" + chiave + ": href del preload (" + link.href + ") diverso da cld(u,800) (" + attesoHref + ")");
+      }
+      if (link.attributi.imagesrcset !== attesoSrcset) {
+        errore("copertine", tipo + "/" + chiave + ": imagesrcset del preload diverso da cldSrcset(u,[480,800,1200,1600])");
+      }
+    });
+  });
 }
 
 // ---------------------------------------------------------------------------

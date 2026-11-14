@@ -3,6 +3,61 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- COP-INIZIO (generato da .github/scripts/genera-copertine.mjs da dati.js, itinerari.js, escape.js e motore.js: non modificare a mano) -->
+  <script>
+  (function () {
+    "use strict";
+    const CLD_LARGHEZZE = [480, 800, 1200, 1600, 2000, 2400];
+    function cldLarghezza(cssPx, massimo) {
+      const dpr = Math.min(window.devicePixelRatio || 1, 2);
+      const serve = cssPx * dpr, tetto = massimo || 2400;
+      for (const w of CLD_LARGHEZZE) { if (w >= serve || w >= tetto) return Math.min(w, tetto); }
+      return Math.min(CLD_LARGHEZZE[CLD_LARGHEZZE.length - 1], tetto);
+    }
+    function cld(url, w) {
+      if (typeof url !== "string") return url;
+      const m = url.match(/^(https:\/\/res\.cloudinary\.com\/[^/]+\/image\/upload\/)(.+)$/);
+      if (!m) return url;
+      const segs = m[2].split("/"), trasf = [];
+      while (segs.length > 1 && /^[a-z]{1,3}_[^,/]+(,[a-z]{1,3}_[^,/]+)*$/.test(segs[0])) trasf.push(segs.shift());
+      const gia = trasf.join(",");
+      const soloLarghezza = gia.match(/^w_(\d+),q_auto,f_auto$/);
+      if (soloLarghezza) {
+        const n = Number(soloLarghezza[1]);
+        if (w < n) return m[1] + "c_limit,w_" + w + ",q_auto,f_auto/" + segs.join("/");
+        return url;
+      }
+      if (/(^|,)(w_|q_auto|f_auto)/.test(gia)) return url;
+      const vecchie = gia.split(",").filter(function (t) { return t && t !== "f_jpg"; }).join(",");
+      return m[1] + (vecchie ? vecchie + "/" : "") + "c_limit,w_" + w + ",q_auto,f_auto/" + segs.join("/");
+    }
+    function cldSrcset(url, larghezze) {
+      return larghezze.map(function (w) { return cld(url, w) + " " + w + "w"; }).join(", ");
+    }
+    var M = {
+      "alghero": "https://res.cloudinary.com/dspgc41gt/image/upload/C79CFCC5-A13D-4DA4-92B8-A660F90F0EB7_dcuv2q",
+      "colle-di-val-delsa": "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_1673_tifp4z",
+      "entra": "https://res.cloudinary.com/dspgc41gt/image/upload/IMG_1520_tbokug",
+      "parcines": "https://res.cloudinary.com/dspgc41gt/image/upload/ACE672FF-9A6B-4B59-BC67-C5935A36D9D9_qjbheb",
+      "strongoli": "https://res.cloudinary.com/dspgc41gt/image/upload/1C8FD1D2-A27A-4A3E-9BD8-C16779BCD439_umbbim"
+    };
+    try {
+      var chiave = new URLSearchParams(location.search).get("e");
+      var u = chiave ? M[chiave] : null;
+      if (u) {
+        var l = document.createElement("link");
+        l.rel = "preload";
+        l.as = "image";
+        l.href = cld(u, 800);
+        l.setAttribute("imagesrcset", cldSrcset(u, [480, 800, 1200, 1600]));
+        l.setAttribute("imagesizes", "(max-width: 760px) 100vw, 704px");
+        l.setAttribute("fetchpriority", "high");
+        document.head.appendChild(l);
+      }
+    } catch (e) {}
+  })();
+  </script>
+  <!-- COP-FINE -->
   <link rel="icon" href="/favicon.ico" sizes="32x32">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
