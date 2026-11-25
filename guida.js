@@ -2704,7 +2704,7 @@ var GUIDA=[
     "mappa": "Via Brežiči 22, Savogna d’Isonzo, GO"
   },
   {
-    "nome": "Luca",
+    "nome": "Osteria di Fornio",
     "indirizzo": "Via Fornio 78",
     "citta": "Fidenza",
     "provincia": "PR",
