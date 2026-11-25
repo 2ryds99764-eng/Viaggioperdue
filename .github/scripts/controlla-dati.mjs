@@ -617,6 +617,56 @@ controllaFormaEmail(GUIDA, "GUIDA");
 }
 
 // ---------------------------------------------------------------------------
+// 13) Alias delle localita di ricerca (guida.html/hotel.html) coerenti con i dati
+// ---------------------------------------------------------------------------
+
+{
+  const motoreSrc = fs.readFileSync("motore.js", "utf8");
+  const inizioRicerca = motoreSrc.indexOf("/* RICERCA-INIZIO");
+  const fineRicerca = motoreSrc.indexOf("/* RICERCA-FINE */");
+  if (inizioRicerca === -1 || fineRicerca === -1) {
+    errore("ricerca", "blocco RICERCA-INIZIO/RICERCA-FINE non trovato in motore.js");
+  } else {
+    const codiceRicerca = motoreSrc.slice(inizioRicerca, fineRicerca + "/* RICERCA-FINE */".length);
+    const fabbricaRicerca = new Function(codiceRicerca + "\nreturn { normalizza: normalizza, ALIAS_LOCALITA: ALIAS_LOCALITA };");
+    const { normalizza: normalizzaRicerca, ALIAS_LOCALITA } = fabbricaRicerca();
+
+    const tuttiIRecord = [...GUIDA, ...HOTEL];
+    const localitaTesto = tuttiIRecord.map(function (r) {
+      return normalizzaRicerca([r.citta, r.luogo, r.regione].filter(Boolean).join(" "));
+    });
+
+    // (a) ogni gruppo di alias deve avere almeno una forma presente nei dati, altrimenti è un alias vecchio
+    ALIAS_LOCALITA.forEach(function (gruppo) {
+      const presente = gruppo.some(function (forma) {
+        return localitaTesto.some(function (testo) { return testo.indexOf(forma) !== -1; });
+      });
+      if (!presente) {
+        errore(
+          "ricerca",
+          "alias [" + gruppo.join(", ") + "]: nessuna forma del gruppo compare in citta/luogo/regione di GUIDA o HOTEL (alias vecchio?)"
+        );
+      }
+    });
+
+    // (b) AVVISO (non errore) se due città distinte, normalizzate come in guida/hotel, risultano identiche:
+    // candidate per un nuovo gruppo di alias, o un errore di grafia nei dati
+    const perCittaNormalizzata = new Map();
+    tuttiIRecord.forEach(function (r) {
+      if (!r.citta) return;
+      const norm = normalizzaRicerca(r.citta);
+      if (!perCittaNormalizzata.has(norm)) perCittaNormalizzata.set(norm, new Set());
+      perCittaNormalizzata.get(norm).add(r.citta);
+    });
+    perCittaNormalizzata.forEach(function (forme) {
+      if (forme.size > 1) {
+        avviso("ricerca", "città con grafie diverse ma stessa normalizzazione: " + Array.from(forme).join(" / "));
+      }
+    });
+  }
+}
+
+// ---------------------------------------------------------------------------
 // Riepilogo
 // ---------------------------------------------------------------------------
 

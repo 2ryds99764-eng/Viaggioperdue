@@ -1294,6 +1294,69 @@ function costruisciItinerario() {
 
 function cap(s) { return s.charAt(0).toUpperCase() + s.slice(1); }
 
+/* RICERCA-INIZIO: normalizzazione, alias di localita e indice cercabile condivisi
+   da guida.html e hotel.html. Blocco qui (non in un file separato) perche e solo
+   logica di ricerca usata da due funzioni di questo stesso file, senza bisogno di
+   un nuovo <script src> nelle pagine.
+   Per aggiungere un gruppo di alias (stessa localita, grafie diverse): aggiungi un
+   array di forme gia normalizzate (minuscole, senza accenti/punteggiatura, come le
+   restituisce normalizza()) a ALIAS_LOCALITA. */
+function normalizza(s) {
+  return (s || "")
+    .toLowerCase()
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    .replace(/[-–—'’‘`´]/g, " ")
+    .replace(/[^a-z0-9 ]/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+const ALIAS_LOCALITA = [
+  ["zurigo", "zurich"],
+  ["basilea", "basel"],
+  ["vienna", "wien"],
+  ["parigi", "paris"],
+  ["londra", "london"],
+  ["geneva", "geneve", "ginevra"],
+  ["sankt moritz", "st moritz", "san moritz"],
+  ["canea", "chania"]
+];
+
+function aliasLocalita(localitaNormalizzata) {
+  let extra = "";
+  ALIAS_LOCALITA.forEach(function (gruppo) {
+    const trovato = gruppo.some(function (forma) { return localitaNormalizzata.indexOf(forma) !== -1; });
+    if (trovato) extra += " " + gruppo.join(" ");
+  });
+  return extra;
+}
+
+/* indice cercabile per record: nome + citta + luogo (senza la sigla tra parentesi,
+   es. "Lugano (TI)" -> "Lugano": altrimenti query di due lettere come "ti"/"gb"
+   troverebbero record solo per la sigla) + regione (mai indirizzo, sigle di
+   provincia o note) + alias di localita; costruito al primo accesso per record
+   (non al caricamento della pagina: costruisciGuida/costruisciHotel non lo toccano) */
+const _indiceCercabile = new WeakMap();
+function testoCercabile(r) {
+  let voci = _indiceCercabile.get(r);
+  if (voci) return voci;
+  const luogoSenzaSigla = (r.luogo || "").replace(/\s*\([^)]*\)\s*/g, " ");
+  const localita = normalizza([r.citta, luogoSenzaSigla].filter(Boolean).join(" "));
+  const base = normalizza([r.nome, r.citta, luogoSenzaSigla, r.regione].filter(Boolean).join(" "));
+  const spaziata = (base + aliasLocalita(localita)).replace(/\s+/g, " ").trim();
+  voci = { spaziata: spaziata, compatta: spaziata.replace(/ /g, "") };
+  _indiceCercabile.set(r, voci);
+  return voci;
+}
+function testoCombacia(r, q) {
+  if (!q) return true;
+  const voci = testoCercabile(r);
+  if (voci.spaziata.indexOf(q) !== -1) return true;
+  const compattaQ = q.replace(/ /g, "");
+  return compattaQ !== "" && voci.compatta.indexOf(compattaQ) !== -1;
+}
+/* RICERCA-FINE */
+
 /* ----------- COSTRUZIONE DELLA PAGINA GUIDA (archivio ricercabile) ----------- */
 function costruisciGuida() {
   document.title = "Guida ai ristoranti · " + T42.sito.nome;
@@ -1405,10 +1468,6 @@ function costruisciGuida() {
       '</div>';
   }
 
-  function normalizza(s) {
-    return (s || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-  }
-
   function aggiornaProvince() {
     const selReg = document.getElementById("cerca-regione");
     const selProv = document.getElementById("cerca-provincia");
@@ -1426,7 +1485,7 @@ function costruisciGuida() {
   }
 
   function filtra() {
-    const q = normalizza((document.getElementById("cerca-nome") || {}).value ? document.getElementById("cerca-nome").value.trim() : "");
+    const q = normalizza((document.getElementById("cerca-nome") || {}).value || "");
     const reg = (document.getElementById("cerca-regione") || {}).value || "";
     const prov = (document.getElementById("cerca-provincia") || {}).value || "";
     const simbolo = (document.getElementById("cerca-simbolo-g") || {}).value || "";
@@ -1434,9 +1493,7 @@ function costruisciGuida() {
     if (reg) items = items.filter(function (r) { return r.regione === reg; });
     if (prov) items = items.filter(function (r) { return r.prov === prov; });
     if (simbolo) items = items.filter(function (r) { return (r.note || "").indexOf(simbolo) !== -1; });
-    if (q) items = items.filter(function (r) {
-      return normalizza(r.nome).indexOf(q) !== -1 || normalizza(r.luogo).indexOf(q) !== -1;
-    });
+    if (q) items = items.filter(function (r) { return testoCombacia(r, q); });
     disegna(items);
     disegnaAlberghiZona(items[0] ? items[0].prov : prov, items[0] ? items[0].regione : reg);
   }
@@ -1446,7 +1503,6 @@ function costruisciGuida() {
   const selProv = document.getElementById("cerca-provincia");
   const selSimbolo = document.getElementById("cerca-simbolo-g");
   if (inputNome) inputNome.addEventListener("input", filtra);
-  if (inputNome) inputNome.addEventListener("keyup", filtra);
   if (selReg) { selReg.addEventListener("change", function () { aggiornaProvince(); filtra(); }); selReg.addEventListener("click", function () { aggiornaProvince(); filtra(); }); }
   if (selProv) selProv.addEventListener("change", filtra);
   if (selSimbolo) selSimbolo.addEventListener("change", filtra);
@@ -1520,6 +1576,10 @@ function costruisciHotel() {
         : (items.length + " alberghi trovati");
     }
     if (!lista) return;
+    if (!items.length) {
+      lista.innerHTML = '<div class="guida-vuoto">Nessun albergo corrisponde alla ricerca.</div>';
+      return;
+    }
     lista.innerHTML = items.map(function (r) {
       let btn = "";
       if (r.tel) btn += '<a class="btn btn--pieno" href="tel:' + esc(r.tel.replace(/[^\d+]/g, "")) + '">Chiama</a>';
@@ -1586,7 +1646,7 @@ function costruisciHotel() {
     filtra();
   }
   function filtra() {
-    const q = ((document.getElementById("cerca-nome-h") || {}).value || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    const q = normalizza((document.getElementById("cerca-nome-h") || {}).value || "");
     const reg = (document.getElementById("cerca-regione-h") || {}).value || "";
     const prov = (document.getElementById("cerca-provincia-h") || {}).value || "";
     const simbolo = (document.getElementById("cerca-simbolo-h") || {}).value || "";
@@ -1598,11 +1658,7 @@ function costruisciHotel() {
       if (simbolo === "⛰️") return note.indexOf("⛰️") !== -1 || note.indexOf("⛰") !== -1;
       return note.indexOf(simbolo) !== -1;
     });
-    if (q) items = items.filter(function (r) {
-      const nome = (r.nome || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-      const luogo = (r.luogo || "").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-      return nome.indexOf(q) !== -1 || luogo.indexOf(q) !== -1;
-    });
+    if (q) items = items.filter(function (r) { return testoCombacia(r, q); });
     disegna(items);
     disegnaRistorantiZona(items[0] ? items[0].prov : prov, items[0] ? items[0].citta : "", simbolo, items[0] ? items[0].regione : reg);
   }
@@ -1611,7 +1667,6 @@ function costruisciHotel() {
   const selProv = document.getElementById("cerca-provincia-h");
   const selSimbolo = document.getElementById("cerca-simbolo-h");
   if (inputNome) inputNome.addEventListener("input", filtra);
-  if (inputNome) inputNome.addEventListener("keyup", filtra);
   if (selReg) selReg.addEventListener("change", function () { aggiornaProvince(); filtra(); });
   if (selProv) selProv.addEventListener("change", filtra);
   if (selSimbolo) selSimbolo.addEventListener("change", filtra);
