@@ -20,8 +20,8 @@ if (inizio === -1 || fine === -1) {
 }
 const codiceRicerca = motoreSrc.slice(inizio, fine + "/* RICERCA-FINE */".length);
 
-const fabbrica = new Function(codiceRicerca + "\nreturn { normalizza, testoCombacia };");
-const { normalizza, testoCombacia } = fabbrica();
+const fabbrica = new Function(codiceRicerca + "\nreturn { normalizza, testoCombacia, ALIAS_LOCALITA, aliasLocalita };");
+const { normalizza, testoCombacia, ALIAS_LOCALITA, aliasLocalita } = fabbrica();
 
 function cerca(dati, queryGrezza) {
   const q = normalizza(queryGrezza);
@@ -167,6 +167,141 @@ QUERY_SIGLA.forEach(function (q) {
     );
   });
 });
+
+// alias aggiunti nella PARTE 3: per ciascuno, la forma ASSENTE dai dati deve
+// trovare un record la cui citta/luogo/regione contiene la forma PRESENTE
+// (prova che l'alias collega davvero le due grafie, non solo una coincidenza)
+const TUTTI = [...GUIDA, ...HOTEL];
+function luogoTestoCompleto(r) {
+  const luogoSenzaSigla = (r.luogo || "").replace(/\s*\([^)]*\)\s*/g, " ");
+  return normalizza([r.citta, luogoSenzaSigla, r.regione].filter(Boolean).join(" "));
+}
+function verificaAlias(descrizione, query, formaAttesa) {
+  const risultati = cerca(TUTTI, query);
+  const formaNorm = normalizza(formaAttesa);
+  const trovato = risultati.some(function (r) { return luogoTestoCompleto(r).indexOf(formaNorm) !== -1; });
+  if (trovato) { ok++; console.log("OK  " + descrizione); }
+  else { falliti++; console.log("FAIL " + descrizione); console.log("     query=" + JSON.stringify(query) + " | risultati=" + risultati.length); }
+}
+
+console.log("");
+console.log("Alias aggiunti (PARTE 3): la forma assente dai dati trova la forma presente");
+const ALIAS_DA_VERIFICARE = [
+  ["berlino", "berlin"], ["monaco di baviera", "munchen"], ["francoforte", "frankfurt"],
+  ["amburgo", "hamburg"], ["lisbona", "lisbon"], ["pechino", "beijing"], ["tokio", "tokyo"],
+  ["antwerpen", "anversa"], ["athens", "atene"], ["marrakesh", "marrakech"],
+  ["ostenda", "oostende"], ["san pietroburgo", "st petersburg"], ["luxembourg", "lussemburgo"],
+  ["salzburg", "salisburgo"], ["brussels", "bruxelles"], ["donostia", "san sebastian"],
+  ["sciangai", "shanghai"], ["lucerna", "luzern"], ["berna", "bern"], ["losanna", "lausanne"],
+  ["olanda", "paesi bassi"], ["germany", "germania"], ["japan", "giappone"], ["china", "cina"],
+  ["thailand", "tailandia"], ["greece", "grecia"], ["spain", "spagna"], ["france", "francia"],
+  ["america", "stati uniti"],
+];
+ALIAS_DA_VERIFICARE.forEach(function (coppia) {
+  verificaAlias("\"" + coppia[0] + "\" (alias) -> record con \"" + coppia[1] + "\"", coppia[0], coppia[1]);
+});
+
+// Tailandia/Thailandia/Thailand: le tre grafie devono trovare tutti i ristoranti
+// di Bangkok in GUIDA e tutti gli alberghi di Bangkok in HOTEL
+console.log("");
+console.log("Tailandia/Thailandia/Thailand su Bangkok (conteggi):");
+["tailandia", "thailandia", "thailand"].forEach(function (q) {
+  const rGuida = cerca(GUIDA, q).filter(function (r) { return r.citta === "Bangkok"; });
+  const rHotel = cerca(HOTEL, q).filter(function (r) { return r.citta === "Bangkok"; });
+  console.log("  \"" + q + "\": GUIDA Bangkok=" + rGuida.length + " | HOTEL Bangkok=" + rHotel.length);
+});
+const bangkokGuidaTotale = GUIDA.filter(function (r) { return r.citta === "Bangkok"; }).length;
+const bangkokHotelTotale = HOTEL.filter(function (r) { return r.citta === "Bangkok"; }).length;
+["tailandia", "thailandia", "thailand"].forEach(function (q) {
+  verificaVero(
+    "\"" + q + "\" trova TUTTI i " + bangkokGuidaTotale + " ristoranti di Bangkok in GUIDA",
+    cerca(GUIDA, q).filter(function (r) { return r.citta === "Bangkok"; }).length === bangkokGuidaTotale
+  );
+  verificaVero(
+    "\"" + q + "\" trova TUTTI i " + bangkokHotelTotale + " alberghi di Bangkok in HOTEL",
+    cerca(HOTEL, q).filter(function (r) { return r.citta === "Bangkok"; }).length === bangkokHotelTotale
+  );
+});
+
+// Regno Unito: due gruppi distinti che condividono "regno unito"/"gran bretagna",
+// senza propagazione tra Inghilterra e Scozia
+verificaAlias("\"regno unito\" -> trova anche record inglesi", "regno unito", "inghilterra");
+verificaAlias("\"regno unito\" -> trova anche record scozzesi", "regno unito", "scozia");
+verificaAlias("\"gran bretagna\" -> trova anche record inglesi", "gran bretagna", "inghilterra");
+verificaAlias("\"gran bretagna\" -> trova anche record scozzesi", "gran bretagna", "scozia");
+verificaVero(
+  "\"inghilterra\" NON trova record scozzesi (nessuna propagazione tra gruppi)",
+  !cerca(TUTTI, "inghilterra").some(function (r) { return r.regione === "Scozia"; })
+);
+verificaVero(
+  "\"scozia\" NON trova record inglesi (nessuna propagazione tra gruppi)",
+  !cerca(TUTTI, "scozia").some(function (r) { return r.regione === "Inghilterra"; })
+);
+
+// asserzione generale automatica, DI REGRESSIONE: per ogni record a cui la
+// aliasLocalita() REALE (quella di motore.js) applica un gruppo, verifica in
+// modo indipendente (parola-intera scritta qui, non copiata da motore.js) che
+// una forma di quel gruppo compaia davvero come parola intera in citta/luogo-
+// senza-parentesi/regione. Se aliasLocalita() tornasse a usare la sottostringa,
+// questo test lo scopre.
+function parolaInteraIndipendente(testoNormalizzato, forma) {
+  const paroleTesto = testoNormalizzato.split(" ");
+  const paroleForma = forma.split(" ");
+  for (let i = 0; i + paroleForma.length <= paroleTesto.length; i++) {
+    let uguale = true;
+    for (let j = 0; j < paroleForma.length; j++) {
+      if (paroleTesto[i + j] !== paroleForma[j]) { uguale = false; break; }
+    }
+    if (uguale) return true;
+  }
+  return false;
+}
+let falsiPositiviTotali = 0;
+TUTTI.forEach(function (r) {
+  const testo = luogoTestoCompleto(r);
+  const extra = aliasLocalita(testo); // la funzione REALE di motore.js
+  if (!extra) return;
+  ALIAS_LOCALITA.forEach(function (gruppo) {
+    const gruppoApplicato = extra.indexOf(gruppo.join(" ")) !== -1;
+    if (!gruppoApplicato) return;
+    const legittimo = gruppo.some(function (forma) { return parolaInteraIndipendente(testo, forma); });
+    if (!legittimo) {
+      falsiPositiviTotali++;
+      console.log("  FALSO POSITIVO [" + gruppo.join(",") + "]: " + r.nome + " [" + r.citta + "/" + r.regione + "]");
+    }
+  });
+});
+verificaVero(
+  "Zero falsi positivi su tutti i " + ALIAS_LOCALITA.length + " gruppi di alias (verifica indipendente a parola intera)",
+  falsiPositiviTotali === 0,
+  "falsi positivi totali: " + falsiPositiviTotali
+);
+
+// casi specifici segnalati
+verificaVero(
+  "\"china\" NON trova \"Ristopescheria da Mery\" (Cecina, non Cina)",
+  !cerca(GUIDA, "china").some(function (r) { return r.nome === "Ristopescheria da Mery"; })
+);
+verificaVero(
+  "\"france\" NON trova record con \"Franciacorta\" se la regione non e' Francia",
+  !cerca(TUTTI, "france").some(function (r) {
+    return (r.citta || "").toLowerCase().includes("franciacorta") && r.regione !== "Francia";
+  })
+);
+verificaVero(
+  "\"stati uniti\" NON trova record con \"Americano\" nel nome se non sono negli USA",
+  !cerca(TUTTI, "stati uniti").some(function (r) {
+    return (r.nome || "").toLowerCase().includes("americano") && r.regione !== "Stati Uniti";
+  })
+);
+verificaVero(
+  "\"berna\" NON trova \"Bernardi\"/\"Bernina\" per via dell'alias",
+  !cerca(TUTTI, "berna").some(function (r) { return /bernardi|bernina/i.test(r.nome || ""); })
+);
+verificaVero(
+  "\"zurigo\" NON trova un hotel con \"Zürich\" solo nel nome (es. a Basilea/Glattbrugg)",
+  !cerca(TUTTI, "zurigo").some(function (r) { return /zurich|zürich/i.test(r.nome || "") && r.citta !== "Zurigo" && r.citta !== "Zurich" && r.citta !== "Zürich"; })
+);
 
 console.log("");
 console.log("Conteggi di riferimento:");

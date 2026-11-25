@@ -628,8 +628,10 @@ controllaFormaEmail(GUIDA, "GUIDA");
     errore("ricerca", "blocco RICERCA-INIZIO/RICERCA-FINE non trovato in motore.js");
   } else {
     const codiceRicerca = motoreSrc.slice(inizioRicerca, fineRicerca + "/* RICERCA-FINE */".length);
-    const fabbricaRicerca = new Function(codiceRicerca + "\nreturn { normalizza: normalizza, ALIAS_LOCALITA: ALIAS_LOCALITA };");
-    const { normalizza: normalizzaRicerca, ALIAS_LOCALITA } = fabbricaRicerca();
+    const fabbricaRicerca = new Function(
+      codiceRicerca + "\nreturn { normalizza: normalizza, ALIAS_LOCALITA: ALIAS_LOCALITA, aliasLocalita: aliasLocalita };"
+    );
+    const { normalizza: normalizzaRicerca, ALIAS_LOCALITA, aliasLocalita } = fabbricaRicerca();
 
     const tuttiIRecord = [...GUIDA, ...HOTEL];
     const localitaTesto = tuttiIRecord.map(function (r) {
@@ -662,6 +664,40 @@ controllaFormaEmail(GUIDA, "GUIDA");
       if (forme.size > 1) {
         avviso("ricerca", "città con grafie diverse ma stessa normalizzazione: " + Array.from(forme).join(" / "));
       }
+    });
+
+    // (c) ERRORE: nessun gruppo di alias deve scattare per un record la cui
+    // citta/luogo-senza-parentesi/regione non contiene davvero una forma del
+    // gruppo come parola intera (verifica indipendente, non la stessa funzione
+    // di motore.js: scopre un ritorno accidentale al confronto per sottostringa)
+    function parolaInteraIndipendente(testoNormalizzato, forma) {
+      const paroleTesto = testoNormalizzato.split(" ");
+      const paroleForma = forma.split(" ");
+      for (let i = 0; i + paroleForma.length <= paroleTesto.length; i++) {
+        let uguale = true;
+        for (let j = 0; j < paroleForma.length; j++) {
+          if (paroleTesto[i + j] !== paroleForma[j]) { uguale = false; break; }
+        }
+        if (uguale) return true;
+      }
+      return false;
+    }
+    tuttiIRecord.forEach(function (r) {
+      const luogoSenzaSigla = (r.luogo || "").replace(/\s*\([^)]*\)\s*/g, " ");
+      const testo = normalizzaRicerca([r.citta, luogoSenzaSigla, r.regione].filter(Boolean).join(" "));
+      const extra = aliasLocalita(testo);
+      if (!extra) return;
+      ALIAS_LOCALITA.forEach(function (gruppo) {
+        if (extra.indexOf(gruppo.join(" ")) === -1) return;
+        const legittimo = gruppo.some(function (forma) { return parolaInteraIndipendente(testo, forma); });
+        if (!legittimo) {
+          errore(
+            "ricerca",
+            "alias [" + gruppo.join(", ") + "] applicato a \"" + r.nome + "\" (" + r.citta + "/" + r.regione +
+            ") senza che nessuna forma compaia come parola intera: falso positivo"
+          );
+        }
+      });
     });
   }
 }

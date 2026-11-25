@@ -1319,13 +1319,60 @@ const ALIAS_LOCALITA = [
   ["londra", "london"],
   ["geneva", "geneve", "ginevra"],
   ["sankt moritz", "st moritz", "san moritz"],
-  ["canea", "chania"]
+  ["canea", "chania"],
+  ["berlino", "berlin"],
+  ["monaco di baviera", "munchen", "munich"],
+  ["francoforte", "frankfurt"],
+  ["amburgo", "hamburg"],
+  ["lisbona", "lisbon", "lisboa"],
+  ["pechino", "beijing"],
+  ["tokio", "tokyo"],
+  ["anversa", "antwerpen", "antwerp"],
+  ["atene", "athens", "athina"],
+  ["marrakech", "marrakesh"],
+  ["ostenda", "oostende"],
+  ["san pietroburgo", "st petersburg", "saint petersburg"],
+  ["lussemburgo", "luxembourg"],
+  ["salisburgo", "salzburg"],
+  ["bruxelles", "brussels", "brussel"],
+  ["san sebastian", "donostia"],
+  ["sciangai", "shanghai"],
+  ["lucerna", "luzern"],
+  ["berna", "bern"],
+  ["losanna", "lausanne"],
+  ["olanda", "paesi bassi", "nederland", "netherlands"],
+  ["germania", "deutschland", "germany"],
+  ["giappone", "japan"],
+  ["cina", "china"],
+  ["tailandia", "thailand", "thailandia"],
+  ["grecia", "greece"],
+  ["spagna", "spain"],
+  ["francia", "france"],
+  ["stati uniti", "america"],
+  ["inghilterra", "regno unito", "gran bretagna"],
+  ["scozia", "regno unito", "gran bretagna"]
 ];
+
+/* vero solo se "forma" (una o piu' parole) compare in "testoNormalizzato" come
+   sequenza di parole INTERE (non come sottostringa: "cecina" non deve contare
+   per "cina", "franciacorta" non deve contare per "francia") */
+function contieneParolaIntera(testoNormalizzato, forma) {
+  const paroleTesto = testoNormalizzato.split(" ");
+  const paroleForma = forma.split(" ");
+  for (let i = 0; i + paroleForma.length <= paroleTesto.length; i++) {
+    let uguale = true;
+    for (let j = 0; j < paroleForma.length; j++) {
+      if (paroleTesto[i + j] !== paroleForma[j]) { uguale = false; break; }
+    }
+    if (uguale) return true;
+  }
+  return false;
+}
 
 function aliasLocalita(localitaNormalizzata) {
   let extra = "";
   ALIAS_LOCALITA.forEach(function (gruppo) {
-    const trovato = gruppo.some(function (forma) { return localitaNormalizzata.indexOf(forma) !== -1; });
+    const trovato = gruppo.some(function (forma) { return contieneParolaIntera(localitaNormalizzata, forma); });
     if (trovato) extra += " " + gruppo.join(" ");
   });
   return extra;
@@ -1341,7 +1388,9 @@ function testoCercabile(r) {
   let voci = _indiceCercabile.get(r);
   if (voci) return voci;
   const luogoSenzaSigla = (r.luogo || "").replace(/\s*\([^)]*\)\s*/g, " ");
-  const localita = normalizza([r.citta, luogoSenzaSigla].filter(Boolean).join(" "));
+  // anche regione innesca gli alias (serve per i gruppi-paese, es. "giappone"/"japan":
+  // il paese sta solo nel campo regione, mai in citta/luogo)
+  const localita = normalizza([r.citta, luogoSenzaSigla, r.regione].filter(Boolean).join(" "));
   const base = normalizza([r.nome, r.citta, luogoSenzaSigla, r.regione].filter(Boolean).join(" "));
   const spaziata = (base + aliasLocalita(localita)).replace(/\s+/g, " ").trim();
   voci = { spaziata: spaziata, compatta: spaziata.replace(/ /g, "") };
