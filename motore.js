@@ -1452,21 +1452,22 @@ function costruisciGuida() {
   if (barra) {
     barra.innerHTML =
       '<div class="cerca-campo cerca-campo--largo">' +
-        '<input type="search" id="cerca-nome" placeholder="Cerca un ristorante per nome…" autocomplete="off">' +
+        '<input type="search" id="cerca-nome" placeholder="Cerca un ristorante per nome…" autocomplete="off"' +
+        ' inputmode="search" autocapitalize="off" spellcheck="false" enterkeyhint="search">' +
       '</div>' +
       '<div class="cerca-campo">' +
-        '<select id="cerca-regione">' +
+        '<select id="cerca-regione" aria-label="Regione">' +
           '<option value="">Tutte le regioni</option>' +
           regioni.map(function (r) { return '<option value="' + esc(r) + '">' + esc(r) + '</option>'; }).join("") +
         '</select>' +
       '</div>' +
       '<div class="cerca-campo">' +
-        '<select id="cerca-provincia" disabled>' +
+        '<select id="cerca-provincia" disabled aria-label="Provincia">' +
           '<option value="">Tutte le province</option>' +
         '</select>' +
       '</div>' +
       '<div class="cerca-campo">' +
-        '<select id="cerca-simbolo-g">' +
+        '<select id="cerca-simbolo-g" aria-label="Simbolo">' +
           '<option value="">Tutti i simboli</option>' +
           elencoSimboliRistorante()
             .filter(function (s) { return s.v !== ""; })
@@ -1586,7 +1587,18 @@ function costruisciGuida() {
     };
   });
 
-  if (inputNome) inputNome.addEventListener("input", function () { filtra(); scriviUrlRitardato(); });
+  if (inputNome) {
+    inputNome.addEventListener("input", function () { filtra(); scriviUrlRitardato(); });
+    inputNome.addEventListener("keydown", function (e) {
+      if (e.key === "Enter") {
+        inputNome.blur();
+      } else if (e.key === "Escape" && inputNome.value) {
+        inputNome.value = "";
+        filtra();
+        scriviUrlRitardato();
+      }
+    });
+  }
   if (selReg) {
     selReg.addEventListener("change", function () { aggiornaProvince(); filtra(); scriviUrlRitardato(); });
     selReg.addEventListener("click", function () { aggiornaProvince(); filtra(); });
@@ -1622,6 +1634,14 @@ function costruisciGuida() {
   if (qUrl && inputNome) inputNome.value = qUrl;
 
   filtra();
+  /* aria-live aggiunto DOPO il primo disegno: chi usa uno screen reader non
+     sente annunciare il conteggio iniziale, solo i cambi successivi */
+  if (conteggio) {
+    setTimeout(function () {
+      conteggio.setAttribute("aria-live", "polite");
+      conteggio.setAttribute("aria-atomic", "true");
+    }, 0);
+  }
   costruisciPie(T42.sito);
 }
 
@@ -1658,12 +1678,13 @@ function costruisciHotel() {
   const barra = document.getElementById("guida-ricerca");
   if (barra) {
     barra.innerHTML =
-      '<div class="cerca-campo cerca-campo--largo"><input type="search" id="cerca-nome-h" placeholder="Cerca un albergo per nome…" autocomplete="off"></div>' +
-      '<div class="cerca-campo"><select id="cerca-regione-h"><option value="">Tutte le regioni</option>' +
+      '<div class="cerca-campo cerca-campo--largo"><input type="search" id="cerca-nome-h" placeholder="Cerca un albergo per nome…" autocomplete="off"' +
+      ' inputmode="search" autocapitalize="off" spellcheck="false" enterkeyhint="search"></div>' +
+      '<div class="cerca-campo"><select id="cerca-regione-h" aria-label="Regione"><option value="">Tutte le regioni</option>' +
       regioni.map(function (r) { return '<option value="' + esc(r) + '">' + esc(r) + '</option>'; }).join("") +
       '</select></div>' +
-      '<div class="cerca-campo"><select id="cerca-provincia-h" disabled><option value="">Tutte le province</option></select></div>' +
-      '<div class="cerca-campo"><select id="cerca-simbolo-h"><option value="">Tutti i simboli</option>' +
+      '<div class="cerca-campo"><select id="cerca-provincia-h" disabled aria-label="Provincia"><option value="">Tutte le province</option></select></div>' +
+      '<div class="cerca-campo"><select id="cerca-simbolo-h" aria-label="Simbolo"><option value="">Tutti i simboli</option>' +
       '<option value="🌅">🌅 Pied dans l\'eau</option>' +
       '<option value="🌄">🌄 Splendida vista</option>' +
       '<option value="🌳">🌳 Isolato</option>' +
@@ -1781,7 +1802,18 @@ function costruisciHotel() {
     };
   });
 
-  if (inputNome) inputNome.addEventListener("input", function () { filtra(); scriviUrlRitardato(); });
+  if (inputNome) {
+    inputNome.addEventListener("input", function () { filtra(); scriviUrlRitardato(); });
+    inputNome.addEventListener("keydown", function (e) {
+      if (e.key === "Enter") {
+        inputNome.blur();
+      } else if (e.key === "Escape" && inputNome.value) {
+        inputNome.value = "";
+        filtra();
+        scriviUrlRitardato();
+      }
+    });
+  }
   if (selReg) selReg.addEventListener("change", function () { aggiornaProvince(); filtra(); scriviUrlRitardato(); });
   if (selProv) selProv.addEventListener("change", function () { filtra(); scriviUrlRitardato(); });
   if (selSimbolo) selSimbolo.addEventListener("change", function () { filtra(); scriviUrlRitardato(); });
@@ -1812,6 +1844,14 @@ function costruisciHotel() {
   if (qUrl && inputNome) inputNome.value = qUrl;
 
   filtra();
+  /* aria-live aggiunto DOPO il primo disegno: chi usa uno screen reader non
+     sente annunciare il conteggio iniziale, solo i cambi successivi */
+  if (conteggio) {
+    setTimeout(function () {
+      conteggio.setAttribute("aria-live", "polite");
+      conteggio.setAttribute("aria-atomic", "true");
+    }, 0);
+  }
   costruisciPie(T42.sito);
 }
 
