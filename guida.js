@@ -3922,20 +3922,6 @@ var GUIDA=[
     "mappa": "Via Lomellina 12, Milano, MI"
   },
   {
-    "nome": "Trattoria Ronzoni",
-    "indirizzo": "Borgo Bruno Longhi 3",
-    "citta": "Parma",
-    "provincia": "PR",
-    "prov": "PR",
-    "regione": "Emilia-Romagna",
-    "luogo": "Parma (PR)",
-    "tel": "+39 0521 230146",
-    "telefono": "+39 0521 230146",
-    "web": "http://www.ristorazioneronzoni.it/",
-    "note": "",
-    "mappa": "Borgo Bruno Longhi 3, Parma, PR"
-  },
-  {
     "nome": "Charmant",
     "indirizzo": "Via Giuseppe Colombo 42",
     "citta": "Milano",
