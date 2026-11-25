@@ -1404,6 +1404,31 @@ function testoCombacia(r, q) {
   const compattaQ = q.replace(/ /g, "");
   return compattaQ !== "" && voci.compatta.indexOf(compattaQ) !== -1;
 }
+
+/* stato dei filtri nell'indirizzo (guida.html/hotel.html): scrive q/regione/
+   provincia/simbolo con history.replaceState (mai pushState, altrimenti il
+   tasto Indietro si riempie di voci), ritardato di ~300ms e dentro try/catch
+   (Safari iOS lancia SecurityError dopo troppe chiamate ravvicinate). I valori
+   vuoti non compaiono; se nessun filtro e' attivo l'indirizzo torna pulito,
+   senza "?"; l'eventuale #hash e' preservato. */
+function scriviIndirizzo(parametri) {
+  try {
+    const usp = new URLSearchParams();
+    Object.keys(parametri).forEach(function (k) {
+      if (parametri[k]) usp.set(k, parametri[k]);
+    });
+    const query = usp.toString();
+    const nuovo = window.location.pathname + (query ? "?" + query : "") + window.location.hash;
+    window.history.replaceState(null, "", nuovo);
+  } catch (e) {}
+}
+function creaScrittoreUrlRitardato(leggiParametri) {
+  let timerId = null;
+  return function () {
+    if (timerId) clearTimeout(timerId);
+    timerId = setTimeout(function () { scriviIndirizzo(leggiParametri()); }, 300);
+  };
+}
 /* RICERCA-FINE */
 
 /* ----------- COSTRUZIONE DELLA PAGINA GUIDA (archivio ricercabile) ----------- */
@@ -1467,7 +1492,7 @@ function costruisciGuida() {
     if (conteggio) {
       conteggio.textContent = items.length === dati.length
         ? (dati.length + " ristoranti")
-        : (items.length + (items.length === 1 ? " ristorante" : " ristoranti") + " trovati");
+        : (items.length + (items.length === 1 ? " ristorante trovato" : " ristoranti trovati"));
     }
     if (!lista) return;
     if (!items.length) {
@@ -1551,20 +1576,52 @@ function costruisciGuida() {
   const selReg = document.getElementById("cerca-regione");
   const selProv = document.getElementById("cerca-provincia");
   const selSimbolo = document.getElementById("cerca-simbolo-g");
-  if (inputNome) inputNome.addEventListener("input", filtra);
-  if (selReg) { selReg.addEventListener("change", function () { aggiornaProvince(); filtra(); }); selReg.addEventListener("click", function () { aggiornaProvince(); filtra(); }); }
-  if (selProv) selProv.addEventListener("change", filtra);
-  if (selSimbolo) selSimbolo.addEventListener("change", filtra);
 
-  /* regione preselezionata da URL, es. guida.html?regione=Liguria */
-  const regioneUrl = new URLSearchParams(window.location.search).get("regione");
-  if (regioneUrl && selReg && regioni.indexOf(regioneUrl) !== -1) {
-    selReg.value = regioneUrl;
-    aggiornaProvince();
-    filtra();
-  } else {
-    disegna(dati);
+  const scriviUrlRitardato = creaScrittoreUrlRitardato(function () {
+    return {
+      q: (inputNome || {}).value || "",
+      regione: (selReg || {}).value || "",
+      provincia: (selProv || {}).value || "",
+      simbolo: (selSimbolo || {}).value || "",
+    };
+  });
+
+  if (inputNome) inputNome.addEventListener("input", function () { filtra(); scriviUrlRitardato(); });
+  if (selReg) {
+    selReg.addEventListener("change", function () { aggiornaProvince(); filtra(); scriviUrlRitardato(); });
+    selReg.addEventListener("click", function () { aggiornaProvince(); filtra(); });
   }
+  if (selProv) selProv.addEventListener("change", function () { filtra(); scriviUrlRitardato(); });
+  if (selSimbolo) selSimbolo.addEventListener("change", function () { filtra(); scriviUrlRitardato(); });
+
+  /* stato iniziale dall'indirizzo: ?regione=&provincia=&simbolo=&q= (regione da
+     sola esisteva gia' prima, es. guida.html?regione=Liguria: continua a
+     funzionare). Ordine: regione, poi provincia (il menu dipende dalla regione),
+     poi simbolo, poi q, infine un solo filtra(). Valori sconosciuti ignorati in
+     silenzio. Nessun autofocus sul campo di ricerca. */
+  let parametriUrl;
+  try { parametriUrl = new URLSearchParams(window.location.search); } catch (e) { parametriUrl = new URLSearchParams(); }
+
+  const regioneUrl = parametriUrl.get("regione");
+  if (regioneUrl && selReg && regioni.indexOf(regioneUrl) !== -1) selReg.value = regioneUrl;
+  aggiornaProvince();
+
+  const provinciaUrl = parametriUrl.get("provincia");
+  if (provinciaUrl && selProv && !selProv.disabled) {
+    const provinceValide = Array.prototype.map.call(selProv.options, function (o) { return o.value; });
+    if (provinceValide.indexOf(provinciaUrl) !== -1) selProv.value = provinciaUrl;
+  }
+
+  const simboloUrl = parametriUrl.get("simbolo");
+  if (simboloUrl && selSimbolo) {
+    const simboliValidi = Array.prototype.map.call(selSimbolo.options, function (o) { return o.value; });
+    if (simboliValidi.indexOf(simboloUrl) !== -1) selSimbolo.value = simboloUrl;
+  }
+
+  const qUrl = parametriUrl.get("q");
+  if (qUrl && inputNome) inputNome.value = qUrl;
+
+  filtra();
   costruisciPie(T42.sito);
 }
 
@@ -1622,7 +1679,7 @@ function costruisciHotel() {
     if (conteggio) {
       conteggio.textContent = items.length === dati.length
         ? (dati.length + " alberghi")
-        : (items.length + " alberghi trovati");
+        : (items.length + (items.length === 1 ? " albergo trovato" : " alberghi trovati"));
     }
     if (!lista) return;
     if (!items.length) {
@@ -1692,7 +1749,6 @@ function costruisciHotel() {
       selProv.innerHTML = '<option value="">Tutte le province</option>';
       selProv.disabled = true;
     }
-    filtra();
   }
   function filtra() {
     const q = normalizza((document.getElementById("cerca-nome-h") || {}).value || "");
@@ -1715,13 +1771,47 @@ function costruisciHotel() {
   const selReg = document.getElementById("cerca-regione-h");
   const selProv = document.getElementById("cerca-provincia-h");
   const selSimbolo = document.getElementById("cerca-simbolo-h");
-  if (inputNome) inputNome.addEventListener("input", filtra);
-  if (selReg) selReg.addEventListener("change", function () { aggiornaProvince(); filtra(); });
-  if (selProv) selProv.addEventListener("change", filtra);
-  if (selSimbolo) selSimbolo.addEventListener("change", filtra);
+
+  const scriviUrlRitardato = creaScrittoreUrlRitardato(function () {
+    return {
+      q: (inputNome || {}).value || "",
+      regione: (selReg || {}).value || "",
+      provincia: (selProv || {}).value || "",
+      simbolo: (selSimbolo || {}).value || "",
+    };
+  });
+
+  if (inputNome) inputNome.addEventListener("input", function () { filtra(); scriviUrlRitardato(); });
+  if (selReg) selReg.addEventListener("change", function () { aggiornaProvince(); filtra(); scriviUrlRitardato(); });
+  if (selProv) selProv.addEventListener("change", function () { filtra(); scriviUrlRitardato(); });
+  if (selSimbolo) selSimbolo.addEventListener("change", function () { filtra(); scriviUrlRitardato(); });
   const legendaH = document.getElementById("guida-legenda");
   if (legendaH) { legendaH.innerHTML = "<span class=lg-voce>🌅 Pied dans l’eau</span>" + "<span class=lg-voce>🌄 Splendida vista</span>" + "<span class=lg-voce>🌳 Albergo isolato</span>" + "<span class=lg-voce>♥️ Albergo di charme</span>" + "<span class=lg-voce>🏖️ Spiaggia privata</span>" + "<span class=lg-voce>⛰️ Albergo di montagna</span>" + "<span class=lg-voce>👑 Grande tradizione</span>"; }
-  disegna(dati);
+
+  /* stato iniziale dall'indirizzo: stesso schema di guida.html, oggi assente qui */
+  let parametriUrl;
+  try { parametriUrl = new URLSearchParams(window.location.search); } catch (e) { parametriUrl = new URLSearchParams(); }
+
+  const regioneUrl = parametriUrl.get("regione");
+  if (regioneUrl && selReg && regioni.indexOf(regioneUrl) !== -1) selReg.value = regioneUrl;
+  aggiornaProvince();
+
+  const provinciaUrl = parametriUrl.get("provincia");
+  if (provinciaUrl && selProv && !selProv.disabled) {
+    const provinceValide = Array.prototype.map.call(selProv.options, function (o) { return o.value; });
+    if (provinceValide.indexOf(provinciaUrl) !== -1) selProv.value = provinciaUrl;
+  }
+
+  const simboloUrl = parametriUrl.get("simbolo");
+  if (simboloUrl && selSimbolo) {
+    const simboliValidi = Array.prototype.map.call(selSimbolo.options, function (o) { return o.value; });
+    if (simboliValidi.indexOf(simboloUrl) !== -1) selSimbolo.value = simboloUrl;
+  }
+
+  const qUrl = parametriUrl.get("q");
+  if (qUrl && inputNome) inputNome.value = qUrl;
+
+  filtra();
   costruisciPie(T42.sito);
 }
 
